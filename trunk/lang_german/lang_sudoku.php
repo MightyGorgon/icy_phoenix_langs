@@ -1,0 +1,75 @@
+<?php
+/**
+*
+* @package Icy Phoenix
+* @version $Id: lang_sudoku.php 24 2008-09-15 20:00:00Z TheSteffen $
+* @copyright (c) 2008 Icy Phoenix
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*
+*/
+
+/**
+*
+* @Extra credits for this file
+* Majorflam - (majorflam@majormod.com) - (http://majormod.com)
+* TheSteffen, KugeLSichA, Tom
+*
+*/
+
+$lang['Sudoku_Version'] = 'Sudoku Mod Version %s &copy Majorflam 2005 - Aktuellstes Game Pack installiert: Pack %s';
+$lang['suduko_blank_tile'] = 'Klicke, um eine Zahl einzugeben';
+$lang['suduko_user_tile'] = 'Klicke, um eine Zahl zu ändern';
+$lang['sudoku_no_tile'] = 'Kein Feld angegeben!';
+$lang['sudoku_input_num'] = 'Wähle die gewünschte Zahl, um sie in das gewählte Feld einzufügen.';
+$lang['sudoku_no_number'] = 'Du musst eine Zahl wählen, die in dieses Feld soll!';
+$lang['sudoku_instructions'] = 'In dieses Raster müssen die Zahlen von 1-9 so eingefügt werden, dass <ul><li>in jeder Zeile, <li>in jeder Reihe und <li>in jedem der neun Unterquadrate</ul> alle Zahlen von 1-9 genau einmal enthalten sind.<br /><br />Ein paar Startfelder sind bereits als kleine Hilfe vorgegeben und sind unterstrichen. Klicke einfach auf ein leeres Feld und wähle die entsprechende Zahl im Drop-Down-Menü unter dem Spielfeld. Wenn Du einen Fehler machst dann klicke einfach auf die Zahl und ändere diese.';
+$lang['sudoku_invalid_number'] = 'Du hast eine ungültige Zahl angegeben!';
+$lang['sudoku_howto'] = 'Spielanleitung';
+$lang['sudoku_stats'] = 'Statistiken';
+$lang['sudoku_statistics'] = 'Die Statistiken werden anhand Deines Abschneidens, aber auch dem Abschneiden der anderen beim diesem Spiel berechnet. Die jeweils 10 besten Spieler werden unten angezeigt. Jedes Mal, wenn Du eine Zahl einfügst, bekommst Du 10 Punkte. Aber Vorsicht! Jedes Mal, wenn Du eine Zahl änderst, verlierst Du 15 Punkte. Hast Du das Puzzel komplett ausgefüllt, wird überprüft ob alle Zahlen richtig sind. Für jede falsche Zahl bekommst Du 20 Punkte abgezogen, sind alle Zahlen richtig, wird ein neues Puzzle geladen. Wenn Du das gesamte Puzzle zurücksetzt, verlierst Du 200 Punkte und beginnst das Puzzle erneut.<br /><br />Du brauchst ein Puzzle nicht auf einmal zu lösen. Alle Einträge, die Du machst, werden gespeichert. So kannst Du weiterrätseln, wenn Du das nächste Mal vorbeikommst.<br /><br /><strong>Punkte...</strong> einfügen: <b>+10</b>&nbsp;&nbsp;&nbsp;ändern: <b>-15</b>&nbsp;&nbsp;&nbsp;löschen (E): <b>-25</b>&nbsp;&nbsp;&nbsp;kaufen: <b>-30</b>';
+$lang['sudoku_game_info'] = 'Puzzle-Pack:<b>%s</b> || Puzzlenummer:<b>%s</b> || Level:<b>%s</b>';
+$lang['sudoku_player_stats'] = 'Deine Statistiken';
+$lang['sudoku_leaderboard'] = 'Sudoku Top 10';
+$lang['sudoku_played'] = 'Gesamte gelöste Puzzle';
+$lang['sudoku_points'] = 'Gesamte erzielte Punkte';
+$lang['sudoku_these_points'] = 'Punkte - Aktuelles Spiel';
+$lang['sudoku_lead_played'] = 'Puzzle gelöst';
+$lang['sudoku_lead_points'] = 'Punkte';
+$lang['sudoku_level_easy'] = 'Einfach';
+$lang['sudoku_level_medium'] = 'Mittel';
+$lang['sudoku_level_hard'] = 'Schwer';
+$lang['sudoku_level_very_hard'] = 'Sehr schwer';
+$lang['sudoku_confirm_reset'] = 'Felder zurücksetzen';
+$lang['sudoku_confirm_reset_text'] = 'Bist Du sicher, dass Du die Felder zurücksetzen willst? Du wirst dann das Puzzle mit -200 Punkten beginnen.';
+$lang['sudoku_reset_cancelled'] = 'Feldzurücksetzung abgebrochen.';
+$lang['sudoku_lead_current_game'] = 'Spielt gerade';
+$lang['sudoku_current_game_text'] = 'Pack:<b>%s ~ </b>Puzzle <b>#%s</b>';
+$lang['sudoku_nomore_grids'] = 'Herzlichen Glückwunsch! Du hast alle verfügbaren Puzzle gelöst. Wende Dich an den Administrator, damit er neue Puzzle für Dich erstellt.';
+$lang['sudoku_load_new'] = 'Puzzle erfolgreich abgeschlossen! Ein neues Puzzle wird geladen...';
+$lang['sudoku_wrong_numbers'] = 'Du hast das Puzzle abgeschlossen, aber einige der Zahlen waren an den falschen Stellen. Die falschen Zahlen wurden entfernt und das Puzzle wird neu geladen. Für jede falsche Zahl werden Dir 20 Punkte abgezogen.<br /><br />Es waren %s Zahlen falsch eingetragen, also kostet Dich das %s insgesamt Punkte.<br />&nbsp;<br />Puzzle lädt...';
+$lang['sudoku_reset_confirmed'] = 'Dein Puzzle wird nun zurückgesetzt. Einen Moment bitte...';
+$lang['sudoku_no_change_starter'] = 'Du kannst eine vorgegebene Zahl nicht verändern!';
+$lang['sudoku_no_url_tricks'] = 'Keine URL-Tricks, bitte!.';
+$lang['sudoku_place'] = 'Einfügen!';
+$lang['sudoku_reset_grid'] = 'Puzzle zurücksetzen';
+$lang['sudoku_who_is_online'] = 'Wer spielt Sudoku';
+$lang['sudoku_total_online'] = 'In den letzten 24 Stunden haben insgesamt <b>%s</b> Benutzer Sudoku gespielt:';
+$lang['sudoku_logged_in_list'] = 'Benutzer, die gerade Sudoku spielen:';
+$lang['sudoku_online_explain'] = 'Diese Daten basieren auf den Benutzern, die in den letzten 5 Minuten Sudoku gespielt haben.';
+$lang['sudoku_game_stats'] = 'Insgesamt haben <b>%s</b> Benutzer dieser Community Sudoku gespielt. Du hast insgesamt <b>%s</b> Puzzle gelöst';
+$lang['sudoku_no_blank_starter'] = 'Eine Nummer, die es nicht gibt, kannst Du auch nicht löschen!';
+$lang['sudoku_view_all'] = 'Alle ansehen';
+$lang['sudoku_buy_number'] = 'Zahl kaufen';
+$lang['sudoku_confirm_buy_text'] = 'Du möchtest eine Nummer kaufen. Ein leeres Feld wird zufällig ausgewählt und die korrekte Zahl angezeigt. Diese Aktion wird dich 30 Punkte kosten. Willst Du wirklich eine Zahl kaufen?';
+$lang['sudoku_buy_cancelled'] = 'Du hast Dich entschlossen doch keine Zahl zu kaufen';
+$lang['sudoku_ran_error'] = 'Es ist ein Fehler aufgetreten beim Einfügen der Nummer. Versuche es bitte erneut.<br />Wenn das Problem weiterhin besteht, wende Dich bitte an den Administrator.';
+$lang['sudoku_ran_success'] = 'Die Zahl wurde zufällig gewählt und wird in das Feld eingetragen. Zur besseren &Uuml;bersicht ist es markiert.';
+$lang['sudoku_resynch_success'] = 'Synchronisation der Statistiken abgeschlossen. Weiterleitung...';
+$lang['sudoku_resynch'] = 'Resynchronisierung';
+// for ver 1.0.5
+$lang['sudoku_reset_game'] = 'Rücksetzen des Sudokus Mods';
+$lang['sudoku_reset_game_text'] = 'Bist Du sicher, dass Du den Sudoku Mod zurücksetzen willst? Dies wird alle Spielerdaten aus der Datenbank löschen und den Mod ganz von vorne beginnen lassen, als wenn es eine frische Installation wäre. Bitte beachte, dass die Gamepacks unberührt von dieser Rücksetzung bleiben, es besteht also keine Notwendigkeit diese erneut zu installieren. Dieses Vorgehen kann nicht rückgängig gemacht werden';
+$lang['sudoku_reset_game_cancelled'] = 'Zurücksetzung abgebrochen. Es wurden keine Veränderungen vorgenommen.';
+$lang['sudoku_rest_game_success'] = 'Der Sudoku Mod wurde nun zurückgesetzt.';
+
+?>
