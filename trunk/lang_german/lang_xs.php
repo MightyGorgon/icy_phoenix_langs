@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_xs.php 49 2008-09-15 20:00:00Z TheSteffen $
+* @version $Id: lang_xs.php 49 2008-09-15 20:01:00Z TheSteffen $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -578,7 +578,7 @@ $lang['xs_update_types'] = array(
 		0 => 'Unbekannt',
 		1 => 'Style',
 		2 => 'Mod',
-		3 => 'phpBB'
+		3 => 'phpBB',
 		4 => 'Icy Phoenix'
 		);
 $lang['xs_update_fileinfo'] = 'Weitere Info';
