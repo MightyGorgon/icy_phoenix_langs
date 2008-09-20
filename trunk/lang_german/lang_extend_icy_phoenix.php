@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_extend_icy_phoenix.php 49 2008-09-15 20:00:00Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -64,8 +64,8 @@ if ( $lang_extend_admin )
 	$lang['IP_switch_header_dropdown'] = 'Aktiviere Dropdown Menu im Header';
 	$lang['IP_switch_header_dropdown_explain'] = 'Dies aktiviert ein Dropdown Menu im Header für die Suche und für die Beiträge';
 
-	$lang['IP_show_alpha_bar'] = 'Show Alphabetical Sort Bar In View Forum';
-	$lang['IP_show_alpha_bar_explain'] = 'This option will show an alphabetical sort bar on top of viewforum page.';
+	$lang['IP_show_alpha_bar'] = 'Zeige alphabetische Sortierleiste in der Forum-Ansicht';
+	$lang['IP_show_alpha_bar_explain'] = 'Diese Option zeigt in der Forum-Ansicht (viewforum.php) eine Leiste, um die Themen alphabetisch sortieren lassen zu können.';
 
 	$lang['IP_show_rss_forum_icon'] = 'Forum Index Icons';
 	$lang['IP_show_rss_forum_icon_explain'] = 'Diese Option zeigt Icons rechts von jedem Forumtitel an (im Forum Index): RSS, New Topic...';
@@ -87,8 +87,8 @@ if ( $lang_extend_admin )
 
 	$lang['IP_cms_dock'] = 'Zeige Apple Style Dock in CMS';
 
-	$lang['IP_cms_style'] = 'CMS Modern Style';
-	$lang['IP_cms_style_explain'] = 'Modern Style for CMS consists in a modern layout with top transparent menu, while classic style has side menu';
+	$lang['IP_cms_style'] = 'CMS in einem moderneren Style anzeigen';
+	$lang['IP_cms_style_explain'] = 'Der Moderne Style für das CMS beinhaltet ein neues Layout und eine transparente Navigation die über der CMS Verwaltung angebracht ist, hingegen hat der klassische Style ein seitlich angebrachtes Menü.';
 
 	$lang['IP_mg_log_actions'] = 'Aktiviere TXT Actions Log';
 	$lang['IP_mg_log_actions_explain'] = 'Aktiviere diese Option und es wird jede Aktion, die die DB ändert, in einer Textdatei auf unter dem Benutzer gespeichert (Datei wird im LOGS Ordner gespeichert). Diese Datei ist nicht einfach zu lesen, aber es kann unter bestimmten Bedingungen nützlich sein. Aktiviere es nur, wenn du weißt was du machst (die Seite kann nach der Aktivierung langsamer sein).';
@@ -96,18 +96,18 @@ if ( $lang_extend_admin )
 	$lang['IP_admin_protect'] = 'Schütze Hauptadmin Account';
 	$lang['IP_admin_protect_explain'] = 'Bei Aktivierung dieser Option, wird mehr Sicherheit dem Haupt Admin Account hinzugefügt';
 
-	$lang['IP_split_ga_ann_sticky'] = 'Splite Thema nach Typ';
-	$lang['IP_split_ga_ann_sticky_explain'] = 'von hier kannst du eine Variante auswählen um Themen auf der viewforum Seite aufzuteilen';
+	$lang['IP_split_ga_ann_sticky'] = 'Spaltet Themen nach Typ auf';
+	$lang['IP_split_ga_ann_sticky_explain'] = 'Hier kannst du eine Variante auswählen um Themen in der Forum-Ansicht (viewforum.php) entsprechend aufzuteilen';
 	$lang['IP_split_topic_0'] = 'Alle Themen Typen zusammen (kein Split)';
 	$lang['IP_split_topic_1'] = 'Globale Ankündigungen, Ankündigungen und Wichtige Themen zusammen, Normale Themen werden abgetrennt';
 	$lang['IP_split_topic_2'] = 'Globale Ankündigungen werden abgetrennt, Ankündigungen und Wichtige Themen sind zusammen, Normale Themen abgetrennt';
 	$lang['IP_split_topic_3'] = 'Alle Themen Typen werden abgetrennt dargestellt';
 
-	$lang['IP_write_errors_log'] = 'Enable Errors Log';
-	$lang['IP_write_errors_log_explain'] = 'By enabling this option all errors will be logged into a daily TXT file.';
+	$lang['IP_write_errors_log'] = 'Aktivere Fehler Log';
+	$lang['IP_write_errors_log_explain'] = 'Bei Aktivierung dieser Option werden alle Fehler für jeden Tag einzeln in einem Textdokument gespeichert.';
 
-	$lang['IP_write_digests_log'] = 'Enable Digests Log';
-	$lang['IP_write_digests_log_explain'] = 'By enabling this option all digests sent will be logged into a daily TXT file.';
+	$lang['IP_write_digests_log'] = 'Aktiviere Digests Log';
+	$lang['IP_write_digests_log_explain'] = 'Bei Aktivierung dieser Option werden alle versandten Digests für jeden Tag einzeln in eiemn Textdokument gespeichert.';
 
 	$lang['IP_logs_path'] = 'Pfad für Logs (setze für diesen Ordner CHMOD 0777)';
 	$lang['IP_logs_path_explain'] = 'Gib hier den Pfad für die Fehler und andere Logs, relativ zum Forenpfad, ohne Slash am Ende ein. Zum Beispiel: <b>logs</b>.';
@@ -122,8 +122,8 @@ if ( $lang_extend_admin )
 	$lang['IP_site_history'] = 'Seiten Historie';
 	$lang['IP_site_history_explain'] = 'Bei Aktivierung dieser Option, wird die Seiten Historie aktiviert';
 
-	$lang['IP_global_disable_upi2db'] = 'Disable UPI2DB globally';
-	$lang['IP_global_disable_upi2db_explain'] = 'This option lets you disable UPI2DB globally thus saving extra memory.';
+	$lang['IP_global_disable_upi2db'] = 'Deaktiviere UPI2DB komplett';
+	$lang['IP_global_disable_upi2db_explain'] = 'Mit dieser Option kannst du UPI2DB vollständig abschalten, dadurch sparst du extra Speicherplatz.';
 
 	$lang['IP_enable_own_icons'] = 'Themen-Icon eigener Nachrichten';
 	$lang['IP_enable_own_icons_explain'] = 'Aktiviere diese Option und es wird ein anderes Icon für Themen, die eigene Nachrichten enthalten, angezeigt.';
@@ -137,11 +137,11 @@ if ( $lang_extend_admin )
 
 	$lang['IP_enable_new_messages_number'] = 'Zeige die Anzahl der neuen Nachrichten seid dem Letzten Besuch';
 
-	$lang['IP_disable_thanks_topics'] = 'Deaktiviere Bedanken Button in der View Topic';
+	$lang['IP_disable_thanks_topics'] = 'Deaktiviere Bedanken Button in der Themen-Ansicht (viewtopic.php)';
 
-	$lang['IP_show_thanks_profile'] = 'Show Thanks received when viewing profile';
+	$lang['IP_show_thanks_profile'] = 'Zeigt "Erhaltene Danksagungen" beim Anschauen eines Profils an';
 
-	$lang['IP_show_thanks_viewtopic'] = 'Show Thanks received when viewing topics';
+	$lang['IP_show_thanks_viewtopic'] = 'Zeigt "Erhaltene Danksagungen" beim Lesen von Themen an';
 
 	$lang['IP_disable_topic_view'] = '"Thema angesehen von" deaktivieren';
 	$lang['IP_disable_topic_view_explain'] = 'Diese Option deaktiviert "Thema angesehen von"-Funktion (dies reduziert SQL-Platz).';
@@ -155,7 +155,7 @@ if ( $lang_extend_admin )
 	$lang['IP_last_logins_n'] = 'Anzahl der aufzuzeichnenden Logins';
 
 	$lang['IP_index_top_posters'] = 'Top Posters :: Forum Index';
-	$lang['IP_index_top_posters_explain'] = 'Enable this option to show top posters on <b>Forum Index</b>.';
+	$lang['IP_index_top_posters_explain'] = 'Bei Aktivierung dieser Option werden alle Top Poster im <b>Forum Index</b> angezeigt.';
 
 	$lang['IP_index_last_msgs'] = 'Letzte Nachrichten :: Forum Index';
 	$lang['IP_index_last_msgs_explain'] = 'Bei Aktivierung dieser Option, werden die letzten Nachrichten im <b>Forum Index</b> angezeigt.';
@@ -191,7 +191,7 @@ if ( $lang_extend_admin )
 
 	// TAB - Posting
 	$lang['IP_posts_precompiled'] = 'Deaktiviere precompiled Beiträge';
-	$lang['IP_posts_precompiled_explain'] = 'Bei Aktivierung dieser Option, kompiliert die viewtopic den Beitrags Text, ohne den precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).';
+	$lang['IP_posts_precompiled_explain'] = 'Bei Aktivierung dieser Option, kompiliert die viewtopic.php den Beitrags Text, ohne den precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).';
 
 	$lang['IP_allow_drafts'] = 'Erlaube Entwürfe';
 	$lang['IP_allow_drafts_explain'] = 'Erlaubt den Benutzern ihre Beiträge als Entwürfe zu speichern';
@@ -205,8 +205,8 @@ if ( $lang_extend_admin )
 	$lang['IP_show_new_reply_posting'] = 'Vor neuen Antworten warnen';
 	$lang['IP_show_new_reply_posting_explain'] = 'Wenn du diese Option aktivierst, wird eine Warnung angezeigt, wenn beim Schreiben einer Antwort zwischenzeitlich ein neuer Eintrag gemacht wurde.';
 
-	$lang['IP_no_bump'] = 'Forbid bumping within 24 hours';
-	$lang['IP_no_bump_explain'] = 'Enabling this option last posters won\'t be able to post within 24 hours from their last post unless someone else has posted a reply';
+	$lang['IP_no_bump'] = 'Verbiete doppelte Beiträge innerhalb von 24 Stunden';
+	$lang['IP_no_bump_explain'] = 'Bei Aktivierung dieser Option, ist der letzte Poster in einem Thema nicht mehr in der Lage innerhalb von 24 Stunden eine Antwort auf seinen Beitrag zu verfassen. Es sei denn ein anderer Benutzer hat bereits auf seinen Beitrag geantwortet.';
 
 	$lang['IP_edit_notes'] = 'Aktiviere Bearbeitungs Anmerkungen';
 	$lang['IP_edit_notes_explain'] = 'Bei Aktivierung dieser Option, werden die Bearbeitungs Anmerkungen aktiviert';
@@ -219,8 +219,8 @@ if ( $lang_extend_admin )
 	$lang['IP_show_social_bookmarks'] = 'Öffentliche Lesezeichen';
 	$lang['IP_show_social_bookmarks_explain'] = 'Zeige Öffentliche Lesezeichen bei den Themen';
 
-	$lang['IP_link_this_topic'] = 'Link this topic';
-	$lang['IP_link_this_topic_explain'] = 'Show "Link this topic" box when viewing topics';
+	$lang['IP_link_this_topic'] = 'Verlinke dieses Thema';
+	$lang['IP_link_this_topic_explain'] = 'Zeigt die "Verlinke dieses Thema" Box beim Lesen eines Themas.';
 
 	$lang['IP_smilies_topic_title'] = 'Smilies für Themen Titel und Beschreibung';
 	$lang['IP_smilies_topic_title_explain'] = 'Bei Aktivierung dieser Option, werden Smilies für Themen Titel und Themen Beschreibung aktiviert';

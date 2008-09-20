@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_pafiledb.php 24 2008-09-15 20:00:00Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -148,9 +148,9 @@ $lang['Not_rated'] = 'Nicht bewertet';
 
 // Email
 $lang['Emailfile'] = 'Datei an einen Freund schicken';
-$lang['Emailinfo'] = 'Wenn du einen Freund auf diese Datei aufmerksam machen möchtest, kannst du das Formular ausfüllen und ihm eine Email mit Informationen über die Datei senden.<br />Mit * markierte Felder müssen ausgefüllt werden, wenn nicht anders angegeben.';
+$lang['Emailinfo'] = 'Wenn du einen Freund auf diese Datei aufmerksam machen möchtest, kannst du das Formular ausfüllen und ihm eine E-Mail mit Informationen über die Datei senden.<br />Mit * markierte Felder müssen ausgefüllt werden, wenn nicht anders angegeben.';
 $lang['Yname'] = 'Dein Name';
-$lang['Yemail'] = 'Deine Email Adresse';
+$lang['Yemail'] = 'Deine E-Mail Adresse';
 $lang['Fname'] = 'Name deines Freundes';
 $lang['Femail'] = 'E-Mail Adresse deines Freundes';
 $lang['Esub'] = 'E-Mail Betreff';

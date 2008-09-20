@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_xs_news.php 24 2008-09-15 20:00:00Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -58,7 +58,6 @@ $lang['n_edit_header'] = 'Bestehenden News Artikel bearbeiten';
 $lang['n_news_delete'] = 'News Artikel löschen';
 $lang['n_news_delete_explain'] = 'Nutze das untenstehende Forumlar, um einen Artikel zu löschen.';
 $lang['n_confirm_delete_news'] = 'Bist du sicher, dass du den Artikel löschen möchtest?';
-$lang['n_confirm_delete_news'] = 'Are you sure you wish to delete this news item?';
 
 //
 // General Settings used by Add/Edit Menu item

@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main.php 49 2008-09-15 20:00:00Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -573,7 +573,7 @@ $lang['Total_posts'] = 'Beiträge insgesamt';
 $lang['User_post_pct_stats'] = '%.2f%% aller Beiträge'; // 1.25% of total
 $lang['User_post_day_stats'] = '%.2f Beiträge pro Tag'; // 1.5 posts per day
 $lang['Search_user_posts'] = 'Alle Beiträge von %s anzeigen'; // Find all posts by username
-$lang['Search_user_topics_started'] = 'Find all topics started by %s'; // Find all topics started by username
+$lang['Search_user_topics_started'] = 'Finde alle Themen die von %s gestartet wurden'; // Find all topics started by username
 
 $lang['No_user_id_specified'] = 'Dieser Benutzer existiert nicht.';
 $lang['Wrong_Profile'] = 'Du kannst nur dein eigenes Profil bearbeiten.';
@@ -1621,11 +1621,11 @@ $lang['Database_statistic'] = 'Datenbank Statistiken';
 $lang['Version_info'] = 'Versionsinformation';
 $lang['Thereof_deactivated_users'] = 'Anzahl nicht aktivierter Benutzer';
 $lang['Thereof_Moderators'] = 'Anzahl Moderatoren';
-$lang['Thereof_Junior_Administrators'] = 'Number of Junior Administrators';
-$lang['Thereof_Administrators'] = 'Anzahl Administrators';
+$lang['Thereof_Junior_Administrators'] = 'Anzahl Junior Administratoren';
+$lang['Thereof_Administrators'] = 'Anzahl Administratoren';
 $lang['Deactivated_Users'] = 'Benutzer, die auf Aktivierung warten';
 $lang['Users_with_Mod_Privileges'] = 'Mitglieder mit Moderator-Rechten';
-$lang['Users_with_Junior_Admin_Privileges'] = 'Members with junior administrator privileges';
+$lang['Users_with_Junior_Admin_Privileges'] = 'Mitglieder mit Junior Administrator-Rechten';
 $lang['Users_with_Admin_Privileges'] = 'Mitglieder mit Administrator-Rechten';
 $lang['DB_size'] = 'Größe der Datenbank';
 $lang['Version_of_ip'] = '<a href="http://www.icyphoenix.com/">Icy Phoenix</a> Version';
@@ -2272,22 +2272,22 @@ $lang['Reserved_Author'] = '[ VERSTECKT ]';
 $lang['Reserved_Topic'] = '[ THEMA VERBEHALTEN ]';
 $lang['Reserved_Post'] = '[ BEITRAG VORBEHALTEN ]';
 
-$lang['THANKS_RECEIVED'] = 'Thanks received';
+$lang['THANKS_RECEIVED'] = 'Erhaltene Danksagungen';
 
-$lang['RECENT_USER_ACTIVITY'] = 'Recent user activity';
-$lang['USER_TOPICS_STARTED'] = 'Topics started';
-$lang['USER_POSTS'] = 'Posts written';
-$lang['USER_TOPICS_VIEWS'] = 'Topic viewed';
-$lang['RECENT_USER_STARTED_TITLE'] = 'started by %s';
-$lang['RECENT_USER_STARTED_NAV'] = 'Topics started by %s';
-$lang['RECENT_USER_POSTS_TITLE'] = 'which %s posted in';
-$lang['RECENT_USER_POSTS_NAV'] = 'Topics which %s posted in';
-$lang['RECENT_USER_VIEWS_TITLE'] = 'viewed by %s';
-$lang['RECENT_USER_VIEWS_NAV'] = 'Topics viewed by %s';
+$lang['RECENT_USER_ACTIVITY'] = 'Letzte Benutzer Aktion';
+$lang['USER_TOPICS_STARTED'] = 'Gestartete Themen';
+$lang['USER_POSTS'] = 'Geschriebene Beiträge';
+$lang['USER_TOPICS_VIEWS'] = 'Angesehene Themen';
+$lang['RECENT_USER_STARTED_TITLE'] = 'gestartet von %s';
+$lang['RECENT_USER_STARTED_NAV'] = 'Von %s gestartet Themen';
+$lang['RECENT_USER_POSTS_TITLE'] = 'indem %s einen Beitrag geschrieben hat';
+$lang['RECENT_USER_POSTS_NAV'] = 'Themen in denen %s einen Beitrag geschrieben hat';
+$lang['RECENT_USER_VIEWS_TITLE'] = 'angesehen von %s';
+$lang['RECENT_USER_VIEWS_NAV'] = 'Von %s angesehen Themen';
 
-$lang['WARN_NO_BUMP'] = 'You are the last poster in this topic: you cannot write new posts within 24 hours from your last post unless someone else answers in the meantime.';
+$lang['WARN_NO_BUMP'] = 'Du bist der letzte der in diesem Thema einen Beitrag geschrieben hat: Du kannst in den nächsten 24 Stunden keinen neuen Beitrag in diesem Thema schreiben es sei denn jemand anderes antwortet in der Zeit auf deinen Beitrag. Ändere statt dessen deinen alten Beitrag sinnvoll ab!';
 
-$lang['LINK_THIS_TOPIC'] = 'Link this topic';
+$lang['LINK_THIS_TOPIC'] = 'Verlinke dieses Thema';
 $lang['LINK_URL'] = 'URL';
 $lang['LINK_BBCODE'] = 'BBCode';
 $lang['LINK_HTML'] = 'HTML';
@@ -2296,11 +2296,11 @@ $lang['NEWS_POSTED'] = 'Browse news posted';
 $lang['TOPICS_POSTED'] = 'Search topics started';
 $lang['POSTS_POSTED'] = 'Search all user posts';
 
-$lang['ACCOUNT_DELETION_REQUEST'] = 'User %s requested to delete the account.';
+$lang['ACCOUNT_DELETION_REQUEST'] = 'Benutzer %s hat die Löschung seines Accounts beantragt.';
 
-$lang['SORT_TOPICS'] = 'Sort topics';
-$lang['SORT_TOPICS_NEWEST'] = 'Newest';
-$lang['SORT_TOPICS_OLDEST'] = 'Oldest';
+$lang['SORT_TOPICS'] = 'Sortiere Themen';
+$lang['SORT_TOPICS_NEWEST'] = 'Neusten';
+$lang['SORT_TOPICS_OLDEST'] = 'Ältesten';
 
 //$lang[''] = '';
 

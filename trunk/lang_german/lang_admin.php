@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 49 2008-09-15 20:00:00Z TheSteffen $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -729,7 +729,7 @@ $lang['Admin_Username'] = 'Administrator Benutzername';
 $lang['Admin_Password'] = 'Administrator Passwort';
 $lang['Admin_Password_confirm'] = 'Administrator Passwort [ Bestätigung ]';
 
-$lang['Inst_Step_2'] = 'Dein Admin Benutzername und Passwort wurde erstellt.<br />Um deine Installation abzuschließen musst du die <font color="#FF0000"> <b>install</b> Ordner und <b>contrib</b> Ordner löschen</font> (wenn du sie auf dem Server hast). Zum Schluß solltest du auf <b>Beende Installation</b> klicken und du wirst ins Admin Control Panel (ACP) weitergeleitet wo du alle Icy Phoenix Einstellungen managen kannst.<br />Bitte überprüfe die Allgemeinen Einstellungen und mache die benötigten Änderungen.<br /><br />Danke für deine Wahl von Icy Phoenix und bedenke immer deine Datenbank von Zeit zu Zeit zu sichern.<br /><br />';
+$lang['Inst_Step_2'] = 'Dein Admin Benutzername und Passwort wurde erstellt.<br />Um deine Installation abzuschließen musst du den <font color="#FF0000"> <b>install</b> Ordner löschen</font> (wenn du sie auf dem Server hast). Solltest du deine config.php beschreibbar gemacht haben (CHMOD 777), so mache dies bitte wieder rückgängig indem du den CHMOD 644 setzt. Zum Schluß solltest du auf <b>Beende Installation</b> klicken und du wirst ins Admin Control Panel (ACP) weitergeleitet wo du alle Icy Phoenix Einstellungen verwalten kannst.<br />Bitte überprüfe die Allgemeinen Einstellungen und mache die benötigten Änderungen.<br /><br />Danke für deine Wahl von Icy Phoenix und bedenke immer deine Datenbank von Zeit zu Zeit zu sichern.<br /><br />';
 
 $lang['Unwriteable_config'] = 'Momentan ist deine Konfigurationsdatei nicht beschreibbar. Du kannst dir eine Kopie der Datei runterladen, wenn du auf den entsprechenden Link unten klickst. Du solltest diese Datei ins selbe Verzeichnis wie Icy Phoenix hochladen. Wenn dies getan ist, solltest du dich mit deinem Administrator-Benutzernamen und Passwort, die du auf der letzten Seite angegeben hast, einloggen und den Administrationsbereich betreten, um die allgemeinen Einstellungen zu prüfen. Einen entsprechenden Link findest du am Ende jeder Seite deines Forums. Danke, dass du dich für Icy Phoenix entschieden hast.';
 $lang['Download_config'] = 'Konfigurationsdatei herunterladen';
@@ -1565,10 +1565,10 @@ $lang['Post_count'] = 'Anzahl der Mitteilungen';
 /* lang_postcount.php - END */
 
 /* lang_megamail.php - BEGIN */
-$lang['Megamail_Explain'] = 'Hier kannst du eine E-Mail an alle Benutzer oder an alle Benutzer einer Gruppe schicken. Diese geschieht normalerweise, indem eine E-Mail über die Forums-Email-Adresse gesendet wird, auf der alle Empfänger dieser E-Mail als Blind Carbon Copy (BCC - Blindkopie) eingetragen sind.<br />
-Dieses modifizierte Script sendet diese E-Mail in mehreren Batches. Dies sollte Timeouts und Serverlastprobleme umgehen. Der Status des Massen-Email-Sendens wird in der Datenbank gespeichert. Du kannst dieses Fenster schließen, um das Massen-Email-Senden zu pausieren (das aktuelle Batch wird noch abgearbeitet). Du kannst später dort weitermachen, wo du aufgehört hast.<br />
+$lang['Megamail_Explain'] = 'Hier kannst du eine E-Mail an alle Benutzer oder an alle Benutzer einer Gruppe schicken. Diese geschieht normalerweise, indem eine E-Mail über die Forum E-Mail-Adresse gesendet wird, auf der alle Empfänger dieser E-Mail als Blind Carbon Copy (BCC - Blindkopie) eingetragen sind.<br />
+Dieses modifizierte Script sendet diese E-Mail in mehreren Batches. Dies sollte Timeouts und Serverlastprobleme umgehen. Der Status des Massen E-Mail-Sendens wird in der Datenbank gespeichert. Du kannst dieses Fenster schließen, um das Massen E-Mail-Senden zu pausieren (das aktuelle Batch wird noch abgearbeitet). Du kannst später dort weitermachen, wo du aufgehört hast.<br />
 <b>Wenn HTML Emails aktiviert sind, solltest Du Emails unter Verwendung des HTML Codes schreiben, &lt;br /&gt; für ein Zeilenumbruch verwenden.</b>';
-$lang['megamail_header'] = 'Deine Email-Sessions';
+$lang['megamail_header'] = 'Deine E-Mail-Sessions';
 $lang['megamail_id'] = 'Mail-ID';
 $lang['megamail_batchstart'] = 'Bearbeitet';
 $lang['megamail_batchsize'] = 'Mails pro Batch';
@@ -1874,7 +1874,7 @@ $lang['linkspp'] = 'Max Links pro Seite';
 $lang['interval'] = 'Wie schnell werden die Banner angezeigt';
 $lang['display_logo'] = 'Wieviele Banner werden zugleich angezeigt';
 $lang['Link_display_links_logo'] = 'Zeige Banner der Links Seite';
-$lang['Link_email_notify'] = 'Sende eine EMail an alle Administratoren, wenn ein neuer Link hinzugefügt wurde';
+$lang['Link_email_notify'] = 'Sende eine E-Mail an alle Administratoren, wenn ein neuer Link hinzugefügt wurde';
 $lang['Link_pm_notify'] = 'Sende eine PM an alle Administratoren, wenn ein neuer Link hinzugefügt wurde';
 $lang['Link_config_updated'] = 'Links Konfiguration wurde erfolgreich bearbeitet';
 $lang['Click_return_link_config'] = 'Klicke %shier%s um zur Links Konfiguration zurückzukehren';
