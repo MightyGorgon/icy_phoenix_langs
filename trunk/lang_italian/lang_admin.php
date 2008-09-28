@@ -54,7 +54,7 @@ $lang['Welcome_phpBB'] = 'Benvenuto in Icy Phoenix';
 $lang['Admin_intro'] = 'Grazie per aver scelto Icy Phoenix come Forum. Questa schermata mostra alcune Statistiche del tuo Forum. Puoi tornare a questa pagina cliccando sul link  <u>Admin Index</u> nel pannello di sinistra. Per tornare all\'indice del tuo forum, clicca sul Link Forum nel pannello di sinistra. Gli altri collegamenti nella parte sinistra dello schermo ti permettono di controllare ogni aspetto del tuo Forum, in tutte le schermata avrai le informazioni su come usare al meglio le varie funzioni. Per maggiori info e supporto visita <a href="http://www.icyphoenix.com" target="_blank"><strong>icyphoenix.com</strong></a>.';
 $lang['Main_index'] = 'Forum';
 $lang['Site_Index'] = 'Home Page';
-$lang['Forum_stats'] = 'Statistiche Forum';
+$lang['Forum_stats'] = 'Statistiche Sito';
 $lang['Admin_Index'] = 'ACP';
 $lang['Preview_forum'] = 'Anteprima Forum';
 $lang['Portal'] = 'Home Page';
@@ -701,84 +701,6 @@ $lang['span_class3'] = 'Classe Span 3';
 $lang['img_poll_size'] = 'Dimensione Immagine Votazione [px]';
 $lang['img_pm_size'] = 'Dimensione Stato Messaggi Privati [px]';
 
-
-//
-// Install Process
-//
-$lang['Welcome_install'] = 'Installazione di Icy Phoenix';
-$lang['Initial_config'] = 'Configurazione';
-$lang['DB_config'] = 'Configurazione Database';
-$lang['Admin_config'] = 'Configurazione Amministrazione';
-$lang['continue_upgrade'] = 'Dopo aver scaricato il file di configurazione sul tuo computer puoi cliccare sul bottone \"Continua l\'Aggiornamento\" qui sotto per avanzare con il processo di aggiornamento. Caricare il file di configurazione aspetta la fine del processo di aggiornamento.';
-$lang['upgrade_submit'] = 'Continua Aggiornamento';
-
-$lang['Installer_Error'] = 'Si &egrave; verificato un errore durante l\'installazione';
-$lang['Previous_Install'] = 'E\' stata rilevata una precedente installazione';
-$lang['Install_db_error'] = 'Si &egrave; verificato un errore durante l\'aggiornamento del database';
-
-$lang['Re_install'] = 'La tua installazione precedente &egrave; ancora attiva. <br /><br />Se vuoi installare di nuovo Icy Phoenix clicca il bottone di conferma qui sotto. Sappi che questa operazione distrugger&agrave; tutti i dati esistenti, non verr&agrave; fatto alcun backup! Username e Password dell\'amministratore che hai usato per entrare nel forum verranno ricreate dopo la nuova installazione, nessun altra impostazione verr&agrave; mantenuta. <br /><br />Pensaci bene prima di CONFERMARE!';
-
-$lang['Inst_Step_0'] = 'Grazie per aver scelto Icy Phoenix. Questa procedura guidata ti aiuter&agrave; a completare l\'installazione.<br /><span class="text_red">Prima di procedere assicurati di aver caricato tutti i files necessari sul tuo server e di avere un database con tutti i dati d\'accesso.</span>';
-
-$lang['Inst_Step_1'] = 'Per completare correttamente l\'installazione devi riempire tutti i campi sottostanti.<br /><span class="text_red">Prima di procedere assicurati di avere tutti i dati di accesso per il database.</span>';
-
-$lang['CHMOD_Files'] = 'Permessi Files &amp; Cartelle';
-$lang['CHMOD_OK'] = 'Ok';
-$lang['CHMOD_Error'] = 'Errore';
-$lang['CHMOD_777'] = 'CHMOD 777';
-$lang['CHMOD_666'] = 'CHMOD 666';
-$lang['CHMOD_Files_Explain_Error'] = 'Si sono verificati degli errori durante la verifica dei permessi a files e cartelle. Prima di proseguire con l\'installazione assicurati che tutti i files del pacchetto siano stati caricati correttamente sul server ed abbiano i permessi corretti, altrimenti Icy Phoenix potrebbe non funzionare correttamente.';
-$lang['CHMOD_Files_Explain_Ok'] = 'Files e Cartelle sembrano avere i permessi impostati correttamente, puoi proseguire con l\'installazione.';
-$lang['CHMOD_File_Exists'] = 'Questo File/Cartella esiste ed i permessi sono stati impostati correttamente.';
-$lang['CHMOD_File_NotExists'] = 'Questo File/Cartella non esiste, per favore effettua l\'upload ed applica i permessi corretti.';
-$lang['CHMOD_File_Exists_Read_Only'] = 'Questo File/Cartella esiste ma i permessi non possono essere impostati automaticamente, per favore impostali manualmente e poi clicca su "Inizia Installazione Comunque".';
-$lang['CHMOD_File_UnknownError'] = 'Errore sconosciuto. Per favore verifica che questo File/Cartella esista sul server, abbia i permessi assegnati correttamente e poi clicca su "Inizia Installazione Comunque".';
-
-$lang['Start_Install'] = 'Inizia Installazione';
-$lang['Start_Install_Anyway'] = 'Inizia Installazione Comunque';
-$lang['Finish_Install'] = 'Termina Installazione';
-$lang['Continue_Install'] = 'Prosegui Installazione';
-
-$lang['Default_lang'] = 'Lingua predefinita';
-$lang['DB_Host'] = 'Database Server Hostname / DSN';
-$lang['DB_Name'] = 'Nome Database';
-$lang['DB_Username'] = 'Username Database';
-$lang['DB_Password'] = 'Password Database';
-$lang['Database'] = 'Il Tuo Database';
-$lang['Install_lang'] = 'Scegli una Lingua per l\'Installazione';
-$lang['dbms'] = 'Tipo di Database';
-$lang['Table_Prefix'] = 'Prefisso Tabelle Database';
-$lang['Admin_Username'] = 'Username Amministratore';
-$lang['Admin_Password'] = 'Password Amministratore';
-$lang['Admin_Password_confirm'] = 'Password Amministratore [ Conferma ]';
-
-$lang['Inst_Step_2'] = 'L\'account di Amministratore &egrave; stato creato.<br />Prima di poter procedere oltre &egrave; necessario <span class="text_red">eliminare la cartella <b>install</b> e la cartella <b>contrib</b> (se presente)</span> dallo spazio web.<br />Dopo aver effettuato queste modifiche, clicca sul pulsante <b>Termina Installazione</b> per essere reindirizzato sul sito. Una volta effettuato l\'accesso &egrave; consigliabile accedere Pannello Di Amministrazione (ACP) per poter configurare le impostazioni principali (lingua, stili, forum, download, album, permessi, ecc.). Le impostazioni riguardanti le pagine del sito, i blocchi, i menu personalizzati e l\'accesso alle varie pagine del sito debbono essere gestiti tramite la sezione CMS (Content Management System). Altre impostazioni sono contenute nei files <b>.htaccess</b> e <b>lang_main_settings.php</b> dove &egrave; possibile personalizzare ad esempio le parole chiave, il titolo del sito, le pagine di errore ed altre impostazioni.<br /><br />Grazie per aver scelto Icy Phoenix, e ricordati di effettuare periodicamente dei backup del tuo database.<br /><br />';
-
-$lang['Unwriteable_config'] = 'Il programma di installazione non riesce a scrivere il file config.php automaticamente. Puoi scaricare una copia del tuo file di configurazione cliccando sul bottone qui sotto. Devi caricare questo file nella stessa directory di Icy Phoenix. Successivamente potrai eliminare la cartella install e potrai effettuare l\'accesso con nome e password di amministrazione che hai fornito nel modulo precedente e andare nel pannello di controllo (un link apparir&agrave; in fondo ad ogni pagina dopo che sei entrato) per verificare le impostazioni generali di configurazione. Grazie per aver scelto Icy Phoenix.';
-$lang['Download_config'] = 'Scarica il file di Configurazione';
-
-$lang['ftp_choose'] = 'Scegli Metodo Scaricamento';
-$lang['ftp_option'] = '<br />Poich&egrave; le estensioni FTP non sono disponibili in questa versione di  PHP usa l\'opzione di caricare automaticamente via ftp il file di configurazione.';
-$lang['ftp_instructs'] = 'Hai scelto di caricare automaticamente via ftp il file sull\'account che contiene Icy Phoenix. Inserisci le informazioni per facilitare il processo. Il percorso FTP deve essere il percorso esatto dell\'installazione di Icy Phoenix come se stessi caricando via ftp con un normale programma client.';
-$lang['ftp_info'] = 'Inserisci le Tue Informazioni FTP';
-$lang['Attempt_ftp'] = 'Tentativo di caricare via FTP il file di configurazione';
-$lang['Send_file'] = 'Inviatemi il file e lo caricher&ograve; via FTP manualmente';
-$lang['ftp_path'] = 'Percorso FTP per Icy Phoenix';
-$lang['ftp_username'] = 'Il tuo Username FTP';
-$lang['ftp_password'] = 'La tua Password FTP';
-$lang['Transfer_config'] = 'Inizio Trasferimento';
-$lang['NoFTP_config'] = 'Il tentativo di trasferire il file via FTP &egrave; fallito. Scarica il file config e trasferiscilo sul server manualmente.';
-
-$lang['Install'] = 'Installa';
-$lang['Upgrade'] = 'Aggiorna';
-
-
-$lang['Install_Method'] = 'Scegli un metodo di installazione';
-
-$lang['Install_No_Ext'] = 'La configurazione php del tuo server non supporta il tipo di database che hai scelto';
-
-$lang['Install_No_PCRE'] = 'Icy Phoenix Richiede il Perl-Compatible Regular Expressions Module. La tua configurazione PHP non lo supporta!';
-
 //
 // Admin Userlist Start
 //
@@ -937,12 +859,8 @@ $lang['xs_news_dateformat'] = 'Formato Data';
 $lang['xs_news_dateformat_helper'] = 'Usa questo formato: %s';
 
 // Begin Thanks Mod
-$lang['use_thank'] = 'Permetti i Post di ringraziamento';
+$lang['use_thank'] = 'Abilita Ringraziamenti';
 // End Thanks Mod
-
-
-
-
 
 // Start add - Online/Offline/Hidden Mod
 $lang['Online_time'] = 'Durata stato Online';
@@ -1428,7 +1346,7 @@ $lang['available_values_explain'] = 'Inserisci ciascun valore sulla propria riga
 $lang['add_field_view_disclaimer'] = 'Tutte queste impostazioni verranno considerate come "NO" se gli utenti non sono abilitati alla visualizzazione di questo campo.';
 
 $lang['add_field_name'] = 'Nome Campo';
-$lang['add_field_name_explain'] = 'Inserisci il nome che vuoi associare a questo campo..';
+$lang['add_field_name_explain'] = 'Inserisci il nome che vuoi associare a questo campo';
 $lang['add_field_description'] = 'Descrizione Campo';
 $lang['add_field_description_explain'] = 'Inserisci una descrizione che vuoi associare a questo campo. La descrizione verr&agrave; visualizzata in piccolo sotto il nome del campo.';
 $lang['add_field_type'] = 'Tipo Campo';
@@ -2080,6 +1998,62 @@ $lang['Backup_Invalid'] = 'Il file selezionato potrebbe essere corrotto.';
 $lang['RESTORE_FAILURE'] = 'Il file di backup potrebbe essere corrotto.';
 /* lang_admin_db_backup.php - END */
 
+/* Logs - BEGIN */
+$lang['LOGS_TITLE'] = 'Logs';
+$lang['LOGS_EXPLAIN'] = 'Da qui puoi ottenere informazioni utili sull\'attivit&agrave; dello staff sul tuo sito';
+$lang['LOGS_TARGET'] = 'Target';
+$lang['LOGS_DENY'] = 'Non autorizzato!';
+$lang['LOGS_POST_EDIT'] = 'ha modificato un messaggio di';
+$lang['LOGS_POST_DELETE'] = 'ha eliminato un messaggio di';
+$lang['LOGS_GROUP_JOIN'] = 'ha richiesto di aderire al gruppo';
+$lang['LOGS_GROUP_EDIT'] = 'ha effettuato modifiche all\'utente %s del gruppo';
+$lang['LOGS_GROUP_ADD'] = 'ha aggiunto l\'utente %s al gruppo';
+$lang['LOGS_GROUP_TYPE'] = 'ha modificato lo stato del gruppo %s, ora &egrave; un gruppo %s';
+$lang['LOGS_GROUP_TYPE_0'] = 'aperto';
+$lang['LOGS_GROUP_TYPE_1'] = 'chiuso';
+$lang['LOGS_GROUP_TYPE_2'] = 'nascosto';
+$lang['LOGS_MESSAGE'] = 'messaggio all\'utente, codice <b>%s</b>';
+$lang['LOGS_MODCP_DELETE'] = 'ha eliminato dei messaggi di %s tramite il pannello di controllo moderatori';
+$lang['LOGS_MODCP_RECYCLE'] = 'ha cestinato dei messaggi di %s tramite il pannello di controllo moderatori';
+$lang['LOGS_MODCP_LOCK'] = 'ha bloccato dei messaggi di %s tramite il pannello di controllo moderatori';
+$lang['LOGS_MODCP_UNLOCK'] = 'ha sbloccato dei messaggi di %s tramite il pannello di controllo moderatori';
+$lang['LOGS_MODCP_MOVE'] = 'ha spostato dei messaggi di %s tramite il pannello di controllo moderatori';
+$lang['LOGS_MODCP_MERGE'] = 'ha unito dei messaggi di %s tramite il pannello di controllo moderatori';
+$lang['LOGS_MODCP_SPLIT'] = 'ha diviso dei messaggi di %s tramite il pannello di controllo moderatori';
+$lang['LOGS_TOPIC_BIN'] = 'ha cestinato un messaggio di';
+$lang['LOGS_TOPIC_ATTACK'] = 'c\'&egrave; stato un attacco esterno ad un messaggio di';
+$lang['LOGS_CARD_BAN'] = 'ha bannato';
+$lang['LOGS_CARD_WARN'] = 'ha ammonito';
+$lang['LOGS_CARD_UNBAN'] = 'ha riabilitato';
+$lang['LOGS_ADMIN_CAT_ADD'] = 'ha aggiunto una categoria nel forum';
+$lang['LOGS_ADMIN_DB_UTILITIES_BACKUP'] = 'ha effettuato un backup %s del DB';
+$lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_full'] = 'completo';
+$lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_structure'] = 'della struttura';
+$lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_data'] = 'dei dati';
+$lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_store_and_download'] = ', scaricandolo e salvandolo sul server';
+$lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_store'] = ', salvandolo sul server';
+$lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_download'] = ', scaricandolo';
+$lang['LOGS_ADMIN_DB_UTILITIES_RESTORE'] = 'ha effettuato un ripristino del DB da';
+$lang['LOGS_ADMIN_BOARD_CONFIG'] = 'ha effettuato delle modifiche alla configurazione';
+$lang['LOGS_ADMIN_BOARD_IP_CONFIG'] = 'ha effettuato delle modifiche alla configurazione di Icy Phoenix';
+$lang['LOGS_ADMIN_GROUP_NEW'] = 'ha creato il gruppo';
+$lang['LOGS_ADMIN_GROUP_DELETE'] = 'ha cancellato il gruppo';
+$lang['LOGS_ADMIN_GROUP_EDIT'] = 'ha modificato il gruppo';
+$lang['LOGS_ADMIN_USER_AUTH'] = 'ha modificato i permessi di';
+$lang['LOGS_ADMIN_GROUP_AUTH'] = 'ha modificato i permessi del gruppo';
+$lang['LOGS_ADMIN_USER_BAN'] = 'ha eseguito delle espulsioni da ACP';
+$lang['LOGS_ADMIN_USER_UNBAN'] = 'ha eseguito delle riabilitazioni da ACP';
+$lang['LOGS_ADMIN_USER_DELETE'] = 'ha eliminato l\'utente';
+$lang['LOGS_ADMIN_USER_EDIT'] = 'ha modificato il profilo dell\'utente';
+$lang['LOGS_CMS_LAYOUT_EDIT'] = 'ha modificato %sQUESTA%s pagina';
+$lang['LOGS_CMS_LAYOUT_DELETE'] = 'ha cancellato una pagina [ID = %s]';
+$lang['LOGS_CMS_BLOCK_EDIT'] = 'ha modificato un blocco [ID = %s] di %sQUESTA%s pagina';
+$lang['LOGS_CMS_BLOCK_EDIT_LS'] = 'ha modificato un blocco [ID = %s] di una pagina standard [%s]';
+$lang['LOGS_CMS_BLOCK_DELETE'] = 'ha cancellato un blocco [ID = %s] di %sQUESTA%s pagina';
+$lang['LOGS_CMS_BLOCK_DELETE_LS'] = 'ha cancellato un blocco [ID = %s] di una pagina standard [%s]';
+//$lang['LOGS_'] = '';
+/* Logs - END */
+
 /*
 $lang['MG_SW_'] = '';
 */
@@ -2091,10 +2065,12 @@ $lang['MG_SW_'] = '';
 // Numbers have to be changed in all /adm/*.php files too
 
 // Configuration
-$lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_board_extend.php, admin_board_headers_banners.php, admin_board_main.php, admin_board_permissions.php, admin_board_server.php, admin_board_posting.php, admin_board_queries.php, admin_captcha_config.php, admin_upi2db.php
+$lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_board_extend.php, admin_board_headers_banners.php, admin_board_main.php, admin_board_permissions.php, admin_board_server.php, admin_board_posting.php, admin_board_queries.php, admin_captcha_config.php, admin_lang_user_created.php, admin_upi2db.php
 $lang['100_Server_Configuration'] = 'Server';															// admin_board_server.php
 $lang['110_Various_Configuration'] = 'Sito';															// admin_board.php
 $lang['120_MG_Configuration'] = 'Icy Phoenix';														// admin_board.php
+$lang['125_Language'] = 'Variabili Lingua';																// admin_lang_user_created.php
+$lang['127_Clear_Cache'] = 'Svuotamento Cache';														// admin_board_clearcache.php
 $lang['130_UPI2DB_Mod'] = 'Messaggi Non Letti';														// admin_upi2db.php
 $lang['140_MG_Configuration_Headers_Banners'] = 'Headers &amp; Banners';	// admin_board_headers_banners.php
 $lang['145_Captcha_Config'] = 'Conferma Visuale';													// admin_captcha_config.php
@@ -2103,7 +2079,6 @@ $lang['160_Title_infos'] = 'Gestione Titoli Veloci';											// admin_quick_ti
 $lang['170_LIW'] = 'Larghezza Immagini';																	// admin_liw.php
 $lang['175_Yahoo_search'] = 'Yahoo Search';																// admin_yahoo_search.php
 $lang['180_MG_Configuration_Permissions'] = 'Permessi Visualizzazione';		// admin_board_permissions.php
-$lang['190_Clear_Cache'] = 'Svuotamento Cache';														// admin_board_clearcache.php
 $lang['200_Language'] = 'Gestione Lingue';																// admin_lang_extend.php
 $lang['210_MG_Quick_Settings'] = 'Impostazioni Veloci';										// admin_board_quick_settings.php
 
@@ -2135,16 +2110,17 @@ $lang['150_Topic_Shadow'] = 'Argomenti Ombra';							// admin_topic_shadow.php
 // eXtreme Styles
 $lang['1300_Extreme_Styles'] = 'Stile &amp; Templates';										// xs_include.php -> $module_name
 
-// DB Maintenance
-$lang['1400_DB_Maintenance'] = 'Manutenzione DB';						// admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php
-$lang['100_Backup_DB'] = 'Backup DB';												// admin_db_utilities.php, admin_db_backup
-$lang['110_Restore_DB'] = 'Ripristina DB';									// admin_db_utilities.php, admin_db_backup
-$lang['115_Restore_DB'] = 'Ripristina DB Da File';					// admin_db_utilities.php
-$lang['120_Optimize_DB'] = 'Ottimizzazione DB';							// admin_db_utilities.php
-$lang['130_DB_Maintenance'] = 'Manutenzione DB';						// admin_db_maintenance.php
-$lang['140_DB_Admin'] = 'IP MySQLAdmin';										// admin_bb_db.php
-$lang['150_db_update_generator'] = 'Generatore DB PHP';			// admin_db_generator.php
-$lang['160_msqd'] = 'MySQLDumper';													// admin_msqd.php
+// DB Maintenance & Security
+$lang['1400_DB_Maintenance'] = 'DB E Sicurezza';						// admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php, admin_logs.php
+$lang['100_Actions_LOG'] = 'Log Azioni';										// admin_logs.php
+$lang['110_DB_Admin'] = 'IP MySQLAdmin';										// admin_bb_db.php
+$lang['120_Backup_DB'] = 'Backup DB';												// admin_db_utilities.php, admin_db_backup
+$lang['130_Restore_DB'] = 'Ripristina DB';									// admin_db_utilities.php, admin_db_backup
+$lang['135_Restore_DB'] = 'Ripristina DB Da File';					// admin_db_utilities.php
+$lang['140_Optimize_DB'] = 'Ottimizzazione DB';							// admin_db_utilities.php
+$lang['150_DB_Maintenance'] = 'Manutenzione DB';						// admin_db_maintenance.php
+$lang['170_db_update_generator'] = 'Generatore DB PHP';			// admin_db_generator.php
+$lang['180_msqd'] = 'MySQLDumper';													// admin_msqd.php
 
 // IM Portal
 $lang['1500_IM_Portal'] = 'Home Page';														// admin_blocks.php, admin_blocks_pos.php, admin_blocks_var.php, admin_clear_cache.php, admin_layout.php, admin_portal.php
@@ -2166,6 +2142,7 @@ $lang['140_XS_News_Tickers'] = 'Ticker XS News';						// admin_xs_news_xml.php
 
 // Users
 $lang['1610_Users'] = 'Utenti';															// admin_account.php, admin_disallow.php, admin_email_list.php, admin_jr_admin.php, admin_postcount.php, admin_priv_msgs.php, admin_profile_fields.php, admin_ranks.php, admin_ug_auth.php, admin_user_ban.php, admin_user_bantron.php, admin_user_register.php, admin_user_search.php, admin_userlist.php, admin_users.php, admin_voting.php
+$lang['100_Jr_Admin'] = 'Junior Admin';											// admin_jr_admin.php
 $lang['110_Manage'] = 'Gestione';														// admin_users.php
 $lang['113_Permissions_Users'] = 'Permessi';								// admin_ug_auth.php
 $lang['116_CMS_Permissions_Users'] = 'Permessi CMS';				// admin_cms_auth.php
@@ -2180,7 +2157,6 @@ $lang['190_Prune_users'] = 'Eliminazione Utenti';						// admin_prune_users.php
 $lang['200_Disallow'] = 'Disabilita Nomi';									// admin_disallow.php
 $lang['210_Ban_Management'] = 'Espelli Utenti';							// admin_user_ban.php
 $lang['220_Bantron'] = 'Bantron';														// admin_user_bantron.php
-$lang['240_Jr_Admin'] = 'Junior Admin';											// admin_jr_admin.php
 $lang['250_Postcount_Config'] = 'Modifica Contatori';				// admin_postcount.php
 $lang['260_CPF_Add'] = 'Aggiungi Campi Profilo';						// admin_profile_fields.php
 $lang['270_CPF_Edit'] = 'Modifica Campi Profilo';						// admin_profile_fields.php
@@ -2246,6 +2222,20 @@ $lang['110_Album_Config'] = 'Configurazione';								// admin_album_config_exten
 $lang['120_Album_Categories'] = 'Gestione Categorie';				// admin_album_cat.php
 $lang['130_Album_Permissions'] = 'Permessi';								// admin_album_auth.php
 $lang['140_Personal_Galleries'] = 'Gallerie Personali';			// admin_album_personal.php
+
+// FAQ
+$lang['2300_FAQ'] = 'FAQ & Regolamento';										// admin_faq_editor.php
+$lang['110_FAQ_BBCode'] = 'FAQ BBCode';											// admin_faq_editor.php
+$lang['120_FAQ_Board'] = 'FAQ Sito';												// admin_faq_editor.php
+$lang['130_FAQ_Rules'] = 'Regolamento';											// admin_faq_editor.php
+
+// INFO
+$lang['2400_INFO'] = 'Info';																// admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referrers.php, admin_google_bot_detector.php
+$lang['110_Actions_LOG'] = 'Log Azioni';										// admin_logs.php
+$lang['120_PHP_INFO'] = 'PHP Info';													// admin_phpinfo.php
+$lang['130_GD_Info'] = 'GD Info';														// admin_gd_info.php
+$lang['140_HTTP_REF'] = 'HTTP Referrers';										// admin_referrers.php
+$lang['150_Google_BOT'] = 'Google Bot';											// admin_google_bot_detector.php
 
 //
 // ####################### [ ACP Navigation END ] #######################

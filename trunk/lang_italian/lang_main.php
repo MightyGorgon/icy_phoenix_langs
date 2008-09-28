@@ -16,6 +16,57 @@
 // varies ... give it your best guess!
 //
 
+$lang['BBC_IP_CREDITS_STATIC'] = '
+<a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
+<span style="color: #FF5500;"><b>Mighty Gorgon</b></span><br />
+<i>(Luca Libralato)</i><br />
+<b><i>Developer</i></b><br />
+Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
+Location: Homer\'s Head<br />
+<br />
+<br />
+<span style="color: #DD2222;"><b>hpl</b></span><br />
+<i>(Alessandro Drago)</i><br />
+<b><i>Developer</i></b><br />
+Interests: CMS, little animals<br />
+Location: Global Header<br />
+<br />
+<br />
+<span style="color: #DD2222;"><b>Bicet</b></span><br />
+<b><i>phpBB XS Developer</i></b><br />
+<br />
+<br />
+<b><i>Valued Contributors</i></b><br />
+<span style="color: #228844;"><b>Andrea75</b></span><br />
+<span style="color: #DD2222;"><b>Artie</b></span><br />
+<span style="color: #228844;"><b>buldo</b></span><br />
+<span style="color: #228844;"><b>casimedicos</b></span><br />
+<span style="color: #DD2222;"><b>CyberAlien</b></span><br />
+<span style="color: #800080;"><b>darkone</b></span><br />
+<span style="color: #228844;"><b>difus</b></span><br />
+<span style="color: #800080;"><b>fare85</b></span><br />
+<span style="color: #228844;"><b>fracs</b></span><br />
+<span style="color: #800080;"><b>ganesh</b></span><br />
+<span style="color: #228844;"><b>JANU1535</b></span><br />
+<span style="color: #800080;"><b>jz</b></span><br />
+<span style="color: #228844;"><b>KasLimon</b></span><br />
+<span style="color: #AAFF00;"><b>KugeLSichA</b></span><br />
+<span style="color: #228844;"><b>Lopalong</b></span><br />
+<span style="color: #228844;"><b>moreteavicar</b></span><br />
+<span style="color: #228844;"><b>Nikola</b></span><br />
+<span style="color: #228844;"><b>novice programmer</b></span><br />
+<span style="color: #228844;"><b>ThE KuKa</b></span><br />
+<span style="color: #FF7700;"><b>TheSteffen</b></span><br />
+<span style="color: #0000BB;"><b>Tom</b></span><br />
+<span style="color: #228844;"><b>z3d0</b></span><br />
+<span style="color: #228844;"><b>Zuker</b></span><br />
+<br />
+Interests: Icy Phoenix<br />
+Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
+';
+
+$lang['BBC_IP_CREDITS'] = '<div class="center-block"><marquee behavior="scroll" direction="up" scrolldelay="120">' . $lang['BBC_IP_CREDITS_STATIC'] . '</marquee></div>';
+
 //
 // Common, these terms are used
 // extensively on several pages
@@ -1615,7 +1666,7 @@ $lang['Shout_text'] = 'Testo';
 $lang['Viewing_Shoutbox']= 'Shoutbox';
 $lang['Censor'] ='Censura';
 
-$lang['Edit_post_time'] = 'Modifica Ora Messaggio';
+$lang['Edit_post_time'] = 'Modifica Orario Messaggio';
 $lang['Edit_post_time_xs'] = 'Modifica';
 $lang['Topic_time_xs'] = 'Ora Discussione';
 $lang['Post_time'] = 'Ora Messaggio';
@@ -2277,6 +2328,16 @@ $lang['ACCOUNT_DELETION_REQUEST'] = 'L\'utente %s ha richiesto la cancellazione 
 $lang['SORT_TOPICS'] = 'Ordina Argomenti';
 $lang['SORT_TOPICS_NEWEST'] = 'Pi&ugrave; Recenti';
 $lang['SORT_TOPICS_OLDEST'] = 'Pi&ugrave; Vecchi';
+
+$lang['EDIT_POST_DETAILS'] = 'Modifica Dettagli Messaggio';
+$lang['CURRENT_POSTER'] = 'Autore Corrente';
+$lang['NEW_POSTER'] = 'Nuovo Autore';
+$lang['DETAILS_CHANGED'] = '<b>Dettagli messaggio aggiornati correttamente.</b></span><br /><span class="postdetails">Questa finestra si chiuder&agrave; in 3 secondi.';
+
+$lang['Redirect'] = 'Reindirizzamento';
+$lang['Redirect_to'] = 'Se il vostro browser non supporta le il reindirizzamento via meta tags clicca %sQUI% per accedere al link';
+
+$lang['InProgress'] = 'In corso';
 
 //$lang[''] = '';
 

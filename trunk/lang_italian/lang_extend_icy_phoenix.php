@@ -20,9 +20,10 @@ $lang['40_IMG_Posting'] = 'Invio Immagini';
 $lang['50_Hierarchy_setting'] = 'Forum';
 $lang['60_Calendar_settings'] = 'Calendario';
 $lang['70_SEO'] = 'SEO';
+$lang['80_Security'] = 'Logs E Sicurezza';
 
 // admin part
-if ( $lang_extend_admin )
+if ($lang_extend_admin)
 {
 	$lang['Lang_extend_icy_phoenix'] = 'Icy Phoenix';
 
@@ -83,27 +84,12 @@ if ( $lang_extend_admin )
 	$lang['IP_cms_style'] = 'CMS Stile Moderno';
 	$lang['IP_cms_style_explain'] = 'Lo stile moderno del CMS prevede dei menu in trasparenza in alto, mentre quello classico dei menu laterali';
 
-	$lang['IP_mg_log_actions'] = 'Attiva Log su file di testo';
-	$lang['IP_mg_log_actions_explain'] = 'Questa funzionalit&agrave; consente di memorizzare in un file di testo tutte quelle azioni che in qualche modo interessano le tabelle fondamentali del DB (posts, forum, ecc.). Il file di testo viene momorizzato nella cartella LOGS, ma non &egrave; di lettura molto semplice, anche se potrebbe essere utile in alcune circostanze. Su siti molto grandi questa opzione potrebbe rallentare l\'esecuzione di alcune operazioni, per cui si consiglia di attivare questa opzione solo quando se ne ha realmente bisogno e si &egrave; in grado di consultare il file.';
-
-	$lang['IP_admin_protect'] = 'Proteggi Account Amministratore Principale';
-	$lang['IP_admin_protect_explain'] = 'Attivando questa opzione l\'account dell\'Amministratore Principale godr&agrave; di maggior sicurezza';
-
 	$lang['IP_split_ga_ann_sticky'] = 'Divisione Discussioni per Tipo';
 	$lang['IP_split_ga_ann_sticky_explain'] = 'Da qui puoi scegliere come Dividere le Discussioni per tipo nella pagina viewforum';
 	$lang['IP_split_topic_0'] = 'Tutti i Tipi di Discussioni insieme (nessuna Divisione)';
 	$lang['IP_split_topic_1'] = 'Annunci Globali, Annunci e Discussioni Importanti insieme, Discussioni Normali divise';
 	$lang['IP_split_topic_2'] = 'Annunci Globali divisi, Annunci e Discussioni Importanti insieme, Discussioni Normali divise';
 	$lang['IP_split_topic_3'] = 'Tutte le Discussioni divise per tipo';
-
-	$lang['IP_write_errors_log'] = 'Attiva Log Errori su file di testo giornaliero';
-	$lang['IP_write_errors_log_explain'] = 'Attivando questa opzione tutti gli errori rilevati verranno memorizzati in un file di log giornaliero.';
-
-	$lang['IP_write_digests_log'] = 'Attiva Log Digest su file di testo giornaliero';
-	$lang['IP_write_digests_log_explain'] = 'Attivando questa opzione tutti i Digest inviati verranno memorizzati in un file di log giornaliero.';
-
-	$lang['IP_logs_path'] = 'Percorso Logs (ricorda di attribuire i permessi CHMOD a 0777 a questa cartella)';
-	$lang['IP_logs_path_explain'] = 'Inserisci il percorso per la memorizzazione dei logs degli errori e di altri eventuali logs. Il percorso deve essere relativo al percorso dove &egrave; installato il sito e senza slash finale. Esempio: <b>logs</b>.';
 
 	// TAB - SQL Charge
 	$lang['IP_fast_n_furious'] = 'Fast And Furious';
@@ -203,6 +189,9 @@ if ( $lang_extend_admin )
 
 	$lang['IP_no_bump'] = 'Blocca "Bump" per 24 ore';
 	$lang['IP_no_bump_explain'] = 'Abilitando questa opzione gli utenti che hanno inviato l\'ultimo messaggio in un argomento non saranno in grado di inviare nuovi messaggi a meno che non siano passate 24 ore dal loro ultimo messaggio o finch&eacute; qualcun altro non risponda';
+
+	$lang['IP_show_topic_description'] = 'Mostra Descrizione Argomento';
+	$lang['IP_show_topic_description_explain'] = 'Attivando questa opzione sar&agrave; possibile inserire e visualizzare la descrizione degli argomenti';
 
 	$lang['IP_edit_notes'] = 'Abilita Note di Modifica';
 	$lang['IP_edit_notes_explain'] = 'Attivando questa opzione verranno abiltate le Note di Modifica';
@@ -372,6 +361,25 @@ if ( $lang_extend_admin )
 	$lang['IP_similar_ignore_forums_ids'] = 'Argomenti Simili :: Forums Ignorati';
 	$lang['IP_similar_ignore_forums_ids_explain'] = 'Inserisci l\'ID dei forum che vuoi vengano ignorati dalla ricerca (ad esempio forum di test o off topics). Inserire un ID per ciascuna riga.';
 
+	// TAB - Logging And Security
+	$lang['IP_admin_protect'] = 'Proteggi Account Amministratore Principale';
+	$lang['IP_admin_protect_explain'] = 'Attivando questa opzione l\'account dell\'Amministratore Principale godr&agrave; di maggior sicurezza: nessun utente potr&agrave; modificare i suoi permessi.';
+
+	$lang['IP_db_log_actions'] = 'Attiva Log su DB';
+	$lang['IP_db_log_actions_explain'] = 'Questa funzionalit&agrave; consente di memorizzare su DB tutte quelle azioni che in qualche modo interessano le tabelle fondamentali del DB (posts, forum, ecc.). Se questa opzione &egrave; stata impostata anche nel constants.php non pu&ograve; essere disattivata da ACP. Se si attivano anche i rapporti, tutti gli errori riscontrati verranno memorizzati in un file che si potr&agrave; controllare in seguito.';
+
+	$lang['IP_mg_log_actions'] = 'Attiva Log su file di testo';
+	$lang['IP_mg_log_actions_explain'] = 'Questa funzionalit&agrave; consente di memorizzare in un file di testo tutte quelle azioni che in qualche modo interessano le tabelle fondamentali del DB (posts, forum, ecc.). Il file di testo viene memorizzato nella cartella LOGS, ma non &egrave; di lettura molto semplice, anche se potrebbe essere utile in alcune circostanze. Su siti molto grandi questa opzione potrebbe rallentare l\'esecuzione di alcune operazioni, per cui si consiglia di attivare questa opzione solo quando se ne ha realmente bisogno e si &egrave; in grado di consultare il file.';
+
+	$lang['IP_write_errors_log'] = 'Attiva Log Errori su file di testo giornaliero';
+	$lang['IP_write_errors_log_explain'] = 'Attivando questa opzione tutti gli errori rilevati sul sito (es.: pagina inesistente, richiesta non corretta, ecc.) verranno memorizzati in un file di log giornaliero. Ricorda che per usare questa funzione &egrave; necessario attivare in .htaccess il reindirizzamento degli errori su errors.php (basta decommentare le linee apposite aggiustando l\'indirizzo del proprio sito).';
+
+	$lang['IP_write_digests_log'] = 'Attiva Log Digest su file di testo giornaliero';
+	$lang['IP_write_digests_log_explain'] = 'Attivando questa opzione tutti i Digest inviati verranno memorizzati in un file di log giornaliero.';
+
+	$lang['IP_logs_path'] = 'Percorso Logs (ricorda di attribuire i permessi CHMOD a 0777 a questa cartella)';
+	$lang['IP_logs_path_explain'] = 'Inserisci il percorso per la memorizzazione dei logs degli errori e di altri eventuali logs. Il percorso deve essere relativo al percorso dove &egrave; installato il sito e senza slash finale. Esempio: <b>logs</b>.';
+
 
 	// lang_extend_mods_settings.php
 	$lang['Lang_extend_mods_settings'] = 'Impostazioni Icy Phoenix';
@@ -391,11 +399,9 @@ $lang['CFG_ADMIN'] = 'ADMIN';
 $lang['Hierarchy_setting'] = 'Forum';
 $lang['Forum_link'] = 'Link esterno';
 $lang['Forum_link_visited'] = 'Link visitato %d volte';
-$lang['Redirect'] = 'Redirect';
-$lang['Redirect_to'] = 'Se il vostro browser non supporta le meta direction cliccate %sQUI% per accedere al link';
 
 $lang['Use_sub_forum'] = 'Compressione Indice';
-$lang['Index_packing_explain'] = 'Selezionate il livello di compressione dell\'indice';
+$lang['Index_packing_explain'] = 'Seleziona il livello di compressione dell\'indice';
 $lang['Medium'] = 'Medio';
 $lang['Full'] = 'Completo';
 $lang['Split_categories'] = 'Dividi le categorie nell\'indice';
@@ -430,7 +436,7 @@ $lang['Calendar_nb_row'] = 'Numero di colonne per giorno nell\'intestazione del 
 $lang['Calendar_birthday'] = 'Mostra i compleanni nel calendario';
 $lang['Calendar_forum'] = 'Mostra il nome del forum sotto il titolo dell\'argomento nell\'agenda';
 
-$lang['Sorry_auth_cal'] = 'Spiacenti, ma solo %s pssono inserire eventi in questo forum.';
+$lang['Sorry_auth_cal'] = 'Spiacenti, ma solo %s possono inserire eventi in questo forum.';
 $lang['Date_error'] = 'giorno %d, mese %d, anno %d non costituiscono una data valida';
 
 $lang['Event_time'] = 'Orario evento';
@@ -448,6 +454,8 @@ $lang['Rules_calendar_cannot'] = '<b>Non puoi</b> inserire eventi calendario';
 $lang['birthday_header'] = 'Buon Compleanno!';
 $lang['birthday'] = '<b>%s</b> festeggia il compleanno oggi!';
 // lang_extend_topic_calendar.php - END
+
+$lang['DB_LOG_ALL'] = 'Si con rapporti errori';
 
 //$lang[''] = '';
 

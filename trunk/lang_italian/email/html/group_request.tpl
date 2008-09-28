@@ -3,7 +3,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{GROUP_MODERATOR}</b>,<br /><br />
 
-Un utente ha richiesto di essere iscritto al gruppo da te moderatato su <b>{SITENAME}</b>.<br /><br />
+Un utente ha richiesto di essere iscritto al gruppo da te moderato su <b>{SITENAME}</b>.<br /><br />
 
 Per accettare o rifiutare la richiesta visita il seguente link:<br /><br />
 
