@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // 01 - Configuration
 $lang['Album_config'] = 'Configurazione';
 $lang['Album_config_explain'] = 'Da qui puoi cambiare le impostazioni generali dell\'Album';

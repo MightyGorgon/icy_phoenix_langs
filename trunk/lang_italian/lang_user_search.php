@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['Search_invalid_username'] = 'Immesso uno Username non valido per la ricerca';
 $lang['Search_invalid_email'] = 'Immessa una Email non valida per la ricerca';
 $lang['Search_invalid_ip'] = 'Immesso un indirizzo IP non valido per la ricerca';

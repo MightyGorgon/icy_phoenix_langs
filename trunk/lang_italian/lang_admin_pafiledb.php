@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // Categories
 $lang['Cat_manage_title'] = 'Gestione categorie';
 $lang['File_manage_title'] = 'Gestione file';
@@ -140,9 +150,9 @@ $lang['Default_sort_order'] = 'Ordinamento predefinito';
 $lang['Max_filesize'] = 'Dimensione massima file';
 $lang['Max_filesize_explain'] = 'Dimensione massima per i file. Un valore pari a 0 indica \'illimitato\'. Queste impostazioni sono soggette ai parametri del vostro server. P.E. Se la configurazione del vostro php permette massimo 2 Mega di Upload, questo parametro non pu&ograve; essere sovrascritto dal mod.';
 $lang['Upload_directory'] = 'Upload Directory';
-$lang['Upload_directory_explain'] = 'Inserire il percorso relativo al vostro forum per impostare una directory per upload dei file. p.e. \'pafiledb/uploads/\' se il vostro forum &egrave; installato su http://www.yourdomain.com/ip e la directory di upload &egrave; posizionata in http://www.yourdomain.com/ip/pafiledb/uploads.';
+$lang['Upload_directory_explain'] = 'Inserire il percorso relativo al vostro forum per impostare una directory per upload dei file. p.e. \'downloads/\' se il vostro forum &egrave; installato su http://www.yourdomain.com/ip e la directory di upload &egrave; posizionata in http://www.yourdomain.com/ip/downloads.';
 $lang['Screenshots_directory'] = 'Screenshots Directory';
-$lang['Screenshots_directory_explain'] = 'Inserire il percorso relativo al vostro forum per impostare una directory per upload delle schermate . p.e. \'pafiledb/images/screenshots/\' se il vostro forum &egrave; installato su http://www.yourdomain.com/ip  e la directory di upload &egrave; posizionata in http://www.yourdomain.com/ip/pafiledb/images/screenshots.';
+$lang['Screenshots_directory_explain'] = 'Inserire il percorso relativo al vostro forum per impostare una directory per upload delle schermate . p.e. \'files/screenshots/\' se il vostro forum &egrave; installato su http://www.yourdomain.com/ip  e la directory di upload &egrave; posizionata in http://www.yourdomain.com/ip/files/screenshots.';
 $lang['Forbidden_extensions'] = 'Estensioni proibite';
 $lang['Forbidden_extensions_explain'] = 'qui potete impostare o rimuovere le estensioni non permesse. Separate ciascuna estensione con la virgola.';
 $lang['Permission_settings'] = 'Impostazioni permessi';

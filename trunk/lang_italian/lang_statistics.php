@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // Statistics Information
 $lang['Version_info'] = '<br />Statistics Mod Versione %s <a href="http://www.opentools.de/board">Acyd Burn</a>'; //%s = number
 $lang['Install_info'] = 'Installato il %s'; //%s = date

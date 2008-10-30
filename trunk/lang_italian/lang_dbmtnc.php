@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['DB_Maintenance'] = 'Database Tools';
 $lang['DB_Maintenance_Description'] = 'Da qui puoi verificare se il tuo database ha delle incosistenze e degli errori.<br />
 	<b>Attenzione:</b> Alcune operazioni potrebbero richiedere un tempo piuttosto lungo. Il sito sar&agrave; <b>disabilitato</b> durante le operazioni.<br />
@@ -28,7 +38,7 @@ $lang['Processing_time'] = 'Manutenzione DB ha impiegato %f seconds per le opera
 
 $lang['Lock_db'] = 'Disabilitazione board in corso';
 $lang['Unlock_db'] = 'Attivazione board in corso';
-$lang['Already_locked'] = 'Il sito era gi&agrave; disabilitata';
+$lang['Already_locked'] = 'Il sito era gi&agrave; disabilitato';
 $lang['Ignore_unlock_command'] = 'Il sito era disabilitato quando &egrave; iniziato il comando. Il sito non sar&agrave; riattivato';
 $lang['Delay_info'] = 'Ritardo di tre secondi per permettere all\'azione sul database di terminare...';
 
@@ -39,18 +49,14 @@ $lang['Done'] = 'Fatto';
 // If you do not want a message to be displayed in these cases, just leave the variable empty.
 $lang['Nothing_to_do'] = '<p class="gen"><i>Non c\'&egrave; niente da fare :-)</i></p><br />' . "\n";
 
-//
 // Names for new records in several tables
-//
 $lang['New_cat_name'] = 'Forums Ripristinati';
 $lang['New_forum_name'] = 'Discussioni Ripristinate';
 $lang['New_topic_name'] = 'Post Ripristinati';
 $lang['Restored_topic_name'] = 'Discussioni Ripristinate';
 $lang['New_poster_name'] = 'Post Ripristinati'; // Name for Poster of a restored post
 
-//
 // Functions available
-//
 // Usage: $mtnc[] = array(internal Name, Name of Function, Description of Function, Warning Message (leef empty to avoid), Number of Check function (Integer))
 // Use $mtnc[] = array('--', '', '', '', 0) for a space row (you can us a different check function)
 //
@@ -178,9 +184,7 @@ $mtnc[] = array('unlock_db',
 	'',
 	3);
 
-//
 // Function specific vars
-//
 
 // statistic
 $lang['Statistic_title'] = 'Statistiche Sito e database';
@@ -368,8 +372,8 @@ $lang['Sync_topics_subjects_progress'] = 'Sincronizzazione in corso';
 $lang['Rebuilding_search_index'] = 'Ricostruzione indice di ricerca in corso';
 $lang['Deleting_search_tables'] = 'Svuotamento tabella indice di ricerca in corso';
 $lang['Reset_search_autoincrement'] = 'Azzeramento contatore tabella di ricerca in corso';
-$lang['Preparing_config_data'] = 'Imposazione dati di configurazione';
-$lang['Can_start_rebuilding'] = 'Adesso puoi iniziare la costruzione dell\'indice di ricerca';
+$lang['Preparing_config_data'] = 'Impostazione dati di configurazione';
+$lang['Can_start_rebuilding'] = 'Adesso puoi iniziare la ricostruzione dell\'indice di ricerca';
 $lang['Click_once_warning'] = '<b>Clicca una sola volta sul Link</b> - potrebbe volerci parecchio tempo prima che venga visualizzata una nuova pagina.';
 // proceed_rebuilding
 $lang['Preparing_to_proceed'] = 'Preparazione delle tabelle per permettere il processo';
@@ -502,8 +506,8 @@ $lang['cct_info'] = 'Procedendo la tabella di configurazione verr&agrave; verifi
 $lang['rpd_info'] = 'Procedendo i dati di configurazione saranno aggiornati se vengono selezionate le impostazioni raccomandate.';
 $lang['rcd_info'] = 'Procedendo i dati del cooki verr&agrave; aggiornato. L\'opzione sull\'impostazione del cookie sicuro si troba sotto \'Ripristino dati percorso del forum\'.';
 $lang['rld_info'] = 'Procedendo il linguaggio selezionato sar&agrave; usato per la board e per gli utenti.';
-$lang['rtd_info'] = 'Procedendo il template selezionato sar&agrave; impostato per la board e per gli utenti oppure il template di default (mg_themes) sar&agrave; ricreato e impostato di default per la board e per gli utenti.';
-$lang['rtd_info_no_theme'] = 'Procedendo il template di default (mg_themes)  sar&agrave; ricreato e impostato di default per la board e per gli utenti.';
+$lang['rtd_info'] = 'Procedendo il template selezionato sar&agrave; impostato per la board e per gli utenti oppure il template di default (Icy Phoenix) sar&agrave; ricreato e impostato di default per la board e per gli utenti.';
+$lang['rtd_info_no_theme'] = 'Procedendo il template di default (Icy Phoenix) sar&agrave; ricreato e impostato di default per la board e per gli utenti.';
 $lang['dgc_info'] = 'Procedendo la compressione GZip sar&agrave; disabilitata.';
 $lang['cbl_info'] = 'Procedendo sia l\'elenco degli utenti bannnati sia di quelli non ammessi sar&agrave; eliminato.';
 $lang['raa_info'] = 'Procedendo tutti gli amministratori verranno impostati a livello normale di utente. Se ti sei autenticato come admin, questo accoutn manterr&agrave; i privilegi

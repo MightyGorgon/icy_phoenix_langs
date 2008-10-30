@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // Toplist
 $lang['Toplist'] = 'Toplist';
 $lang['Select_list'] = 'Selezionate il tipo di elenco da mostrare';

@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['setup_upi2db'] = 'Configurazione UPI2DB';
 $lang['setup_upi2db_explain'] = 'In questa sezione &egrave; possibile configurare la funzione di <b>Memorizzazione Messaggi Non Letti Nel DB</b> (UPI2DB).';
 $lang['upi2db_on'] = 'UPI2DB Attivo?';

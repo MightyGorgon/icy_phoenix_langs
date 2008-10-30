@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['None'] = 'Nessuno';
 $lang['Allow_Access'] = 'Permetti l\'accesso';
 
@@ -66,9 +76,7 @@ $lang['No_Special_Ranks'] = 'Nessun livello speciale definito.';
 
 //This is the bookmark ASCII search list!  If you have odd usernames, you should add your own ASCII search numbers.
 //It uses a special format.
-//
 // Smaller-case letters are ignored also.  Don't bother listing them as everything is converted to upper case for eval.
-//
 // It searches and prepares the bookmark heading IN THE ORDER you have it below.  It will not sort lowest to highest.
 //
 // Item-Item2 will search the code from item to item2 AND give each their own bookmark heading (ex. A-Z)

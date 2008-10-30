@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['KB_title'] = 'Knowledge Base';
 $lang['Article'] = 'Articolo';
 $lang['Category'] = 'Categoria';
@@ -30,8 +40,8 @@ $lang['Edit'] = 'Modifica';
 
 $lang['Article_submitted_Approve'] = 'Articolo inviato senza problemi.<br />Un Amministratore esaminer&agrave; il tuo articolo e decider&agrave; se sia il caso di pubblicarlo cosicch&egrave; sia disponibile per gli Utenti.';
 $lang['Article_submitted'] = 'Articolo inviato senza problemi.';
-$lang['Click_return_kb'] = 'Clicca %sQUI%s per ritornare a ' . $lang['KB_title'];
-$lang['Click_return_article'] = 'Clicca %sQUI%s per ritornare all\' ' . $lang['Article'];
+$lang['Click_return_kb'] = 'Clicca %sQUI%s per ritornare alla Knowledge Base';
+$lang['Click_return_article'] = 'Clicca %sQUI%s per ritornare all\'articolo';
 
 
 $lang['Article_Edited_Approve'] = 'Articolo Modificato senza problemi.<br />L\'articolo dovr&agrave; essere riapprovato prima che gli utenti lo possano vedere nuovamente.';
@@ -69,7 +79,7 @@ $lang['Create'] = 'Crea';
 $lang['Cat_settings'] = 'Impostazioni Categoria';
 $lang['Create_description'] = 'Da qui puoi cambiare il nome della categoria e aggiungere una descrizione alla nuova categoria.';
 $lang['Cat_created'] = 'Categoria Creata senza problemi.';
-$lang['Click_return_cat_manager'] = 'Clicca %sQUI%s per ritornare alla ' . $lang['Cat_man'];
+$lang['Click_return_cat_manager'] = 'Clicca %sQUI%s per ritornare alla Gestione Categorie';
 $lang['Edit_description'] = 'Da qui puoi modificare le impostazioni della tua categoria';
 $lang['Edit_cat'] = 'Modifica Categoria';
 $lang['Cat_edited'] = 'Categoria Modificata senza problemi.';
@@ -111,9 +121,7 @@ $lang['Forum_id'] = 'ID del Forum';
 $lang['Forum_id_explain'] = 'Questo &egrave; il Forum in cui verrano salvati i commenti agli articoli';
 
 
-//
 // Permissions
-//
 $lang['KB_Auth_Title'] = 'Permessi KB';
 $lang['KB_Auth_Explain'] = 'Da qui puoi scegliere quali gruppi di utenti possono moderare le categorie della kb o che hanno possono avervi accesso nel caso le categorie fossero ad accesso privato.';
 $lang['Select_a_Category'] = 'Seleziona Categoria';
@@ -290,17 +298,13 @@ $lang['News_sort_par'] = 'Ordinamento ASC o DISC';
 $lang['News_sort_par_explain'] = '';
 
 
-//
 // General strings from the news admin panel
-//
 
 $lang['News_settings'] = "Impostazione blocco KB";
 $lang['News_settings_short_explain'] = "Configurazione opzioni per il blocco.";
 $lang['News_settings_explain'] = "Da qui potete configurare per il blocco KB. Questa sezione vi permette di estrarre le categoria da visualizzare nel blocco.";
 
-//
 // Update result messages
-//
 
 $lang['News_updated_return_settings'] = "Configurazione blocco KB aggiornata senza problemi.<br /><br />Cliccate %sQUI%s per ritornare alla pagina principale."; // %s's for URI params - DO NOT REMOVE
 $lang['News_update_error'] = "Impossibile aggiornare la configurazione del blocco KB.<br /><br />Questo blocco &egrave; progettato per MySQL. Contattate l\'autore per la soluzione di eventuali problemi. Se siete in grado di effettuare una traduzione da SQL in altro formato database, inviatela a:<br />";

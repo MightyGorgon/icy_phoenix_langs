@@ -15,9 +15,17 @@
 *
 */
 
-//
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // Attachment Mod Admin Language Variables
-//
 
 // Modules, this replaces the keys used
 $lang['Control_Panel'] = 'Pannello di controllo';
@@ -72,6 +80,9 @@ $lang['Attachment_topic_review_explain'] = 'Se selezionate si, tutti i file alle
 
 $lang['Ftp_server'] = 'FTP Upload Server';
 $lang['Ftp_server_explain'] = 'Indicare l\'indirizzo IP o l\'hostname FTP del server usato per i files uploadati. Se non compilate questi campi, verr&agrave; utilizzato il server su cui avete installato Icy Phoenix. Evitate di aggiungere ftp:// o simili, &egrave; sufficiente scrivere p.e. ftp.dominio.com o, cosa molto pi&ugrave; veloce, il semplice indirizzo IP.';
+
+$lang['ftp_username'] = 'Il tuo Username FTP';
+$lang['ftp_password'] = 'La tua Password FTP';
 
 $lang['Attach_ftp_path'] = 'FTP Path relativo alla directory upload';
 $lang['Attach_ftp_path_explain'] = 'La directory in cui saranno salvati gli allegati. Questa dir non deve essere modificata con il chmod. Non inserire l\'indirizzo IP o quello FTP, questo campo deve contenere solo il percorso ftp. <br /> p.e. : /home/web/uploads.';

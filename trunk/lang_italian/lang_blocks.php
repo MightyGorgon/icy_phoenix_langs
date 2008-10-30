@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['Title_ads'] = 'Annunci';
 $lang['Title_album'] = 'Album';
 $lang['Title_birthdays'] = 'Compleanni';

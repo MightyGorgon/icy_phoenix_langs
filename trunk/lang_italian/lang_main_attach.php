@@ -15,10 +15,12 @@
 *
 */
 
-/**
-* DO NOT CHANGE
-*/
-if (!isset($lang) || !is_array($lang))
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }

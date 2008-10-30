@@ -17,7 +17,12 @@
 
 if (!defined('IN_ICYPHOENIX'))
 {
-	die('Hacking attempt');
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
 }
 
 $lang['Lang_extend_lang_extend'] = 'Estensione dei file lingua';

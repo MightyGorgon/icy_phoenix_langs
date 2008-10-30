@@ -8,6 +8,11 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
 //
 // To add an entry to your FAQ simply add a line to this file in this format:
 // $faq[] = array("question", "answer");
@@ -16,9 +21,7 @@
 //
 // DO NOT forget the ; at the end of the line.
 // Do NOT put double quotes (") in your FAQ entries, if you absolutely must then escape them ie. \"something\"
-//
 // The FAQ items will appear on the FAQ page in the same order they are listed in this file
-//
 
 $faq[] = array("--", "Login e Registrazione");
 $faq[] = array("Perch&eacute; non riesco ad entrare?", "Ti sei registrato? Devi registrarti per poter entrare. Sei stato disabilitato dal forum (se &egrave; cos&igrave; ti viene mostrato un messaggio)? Se &egrave; cos&igrave; devi contattare il webmaster o l'amministratore del forum per capire perch&eacute;. Se ti sei registrato e non sei stato disabilitato e ancora non riesci ad entrare allora controlla e ricontrolla username e password. Di solito il problema &egrave; questo, altrimenti contatta l'amministratore del forum, potrebbe esserci una configurazione non corretta.");

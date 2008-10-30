@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['Index'] = 'Icy Phoenix';
 $lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, phoenix, php, portal, cms, premodded, community, open source, mods, templates';
 $lang['Default_META_Description'] = 'Icy Phoenix &egrave; un Content Management System basato su phpBB che consente in modo semplice la creazione di siti dinamici in pochi passi e con molte funzionalit&agrave; utili per la gestione di comunit&agrave; virtuali.';
@@ -32,7 +42,7 @@ $lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '
 $lang['PayPal'] = '
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick" />
-<input type="image" src="images/paypal.gif" border="0" name="submit" alt="' . $lang['Support_Us'] . '" />
+<input type="image" src="images/paypal.gif" name="submit" alt="' . $lang['Support_Us'] . '" style="border-width:0px;" />
 <input type="hidden" name="encrypted" value="" />
 </form>
 ';

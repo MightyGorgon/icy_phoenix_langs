@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 //
 // Modules, this replaces the keys used
 // in the modules[][] arrays in each module file
@@ -51,7 +61,8 @@ $lang['Admin Notepad'] = 'Blocco Note';
 $lang['Admin'] = 'Amministrazione';
 $lang['Not_admin'] = 'Non sei autorizzato ad Amministrare questo Forum';
 $lang['Welcome_phpBB'] = 'Benvenuto in Icy Phoenix';
-$lang['Admin_intro'] = 'Grazie per aver scelto Icy Phoenix come Forum. Questa schermata mostra alcune Statistiche del tuo Forum. Puoi tornare a questa pagina cliccando sul link  <u>Admin Index</u> nel pannello di sinistra. Per tornare all\'indice del tuo forum, clicca sul Link Forum nel pannello di sinistra. Gli altri collegamenti nella parte sinistra dello schermo ti permettono di controllare ogni aspetto del tuo Forum, in tutte le schermata avrai le informazioni su come usare al meglio le varie funzioni. Per maggiori info e supporto visita <a href="http://www.icyphoenix.com" target="_blank"><strong>icyphoenix.com</strong></a>.';
+$lang['Admin_intro'] = 'Grazie per aver scelto Icy Phoenix come Forum. Questa schermata mostra alcune Statistiche del tuo Forum. Puoi tornare a questa pagina cliccando sul link <u>ACP</u> in cima alla pagina. Per tornare all\'indice del tuo forum, clicca sul link <u>Forum</u> in cima alla pagina. Gli altri collegamenti nella parte sinistra dello schermo ti permettono di controllare ogni aspetto del tuo Forum, in tutte le schermata avrai le informazioni su come usare al meglio le varie funzioni. Per maggiori info e supporto visita <a href="http://www.icyphoenix.com" target="_blank"><strong>icyphoenix.com</strong></a>.';
+$lang['PayPalInfo'] = 'Icy Phoenix &egrave; un progetto open source, se vuoi contribuire allo sviluppo puoi usare il link sottostante.';
 $lang['Main_index'] = 'Forum';
 $lang['Site_Index'] = 'Home Page';
 $lang['Forum_stats'] = 'Statistiche Sito';
@@ -80,9 +91,7 @@ $lang['ON'] = 'ON'; // This is for GZip compression
 $lang['OFF'] = 'OFF';
 
 
-//
 // DB Utils
-//
 $lang['Database_Utilities'] = 'Utilit&agrave; Database';
 $lang['Restore'] = 'Ripristina';
 $lang['Backup'] = 'Backup';
@@ -93,20 +102,20 @@ $lang['Backup_explain'] = 'qui puoi fare il backup di tutti i dati del forum. Se
 $lang['Optimize'] = 'Ottimizza';
 $lang['Optimize_explain'] = 'Da qui si possono ottimizzare i dati contenuti nelle tabelle del database. In questo modo puoi eliminare parte di dati che contengono spazi vuoti.<br />Questa operazione dovrebbe essere compiuta regolarmente in modo da rendere il tuo database affidabile e veloce nell\'esecuzione.';
 $lang['Optimize_DB'] = 'Ottimizza Database';
-$lang['Optimize_Enable_cron'] = "Abilita Cron";
-$lang['Optimize_Cron_every'] = "Cron Ogni";
-$lang['Optimize_month'] = "Mese";
-$lang['Optimize_2weeks'] = "2 Settimane";
-$lang['Optimize_week'] = "Settimana";
-$lang['Optimize_3days'] = "3 Giorni";
-$lang['Optimize_day'] = "Giorno";
-$lang['Optimize_6hours'] = "6 Ore";
-$lang['Optimize_hour'] = "ora";
-$lang['Optimize_30minutes'] = "30 minuti";
-$lang['Optimize_20seconds'] = "20 secondi (solo per test)";
-$lang['Optimize_Current_time'] = "Ora Attuale";
-$lang['Optimize_Next_cron_action'] = "Prossima Azione del Cron";
-$lang['Optimize_Performed_Cron'] = "Cron Eseguito";
+$lang['Optimize_Enable_cron'] = 'Abilita Cron';
+$lang['Optimize_Cron_every'] = 'Cron Ogni';
+$lang['Optimize_month'] = 'Mese';
+$lang['Optimize_2weeks'] = '2 Settimane';
+$lang['Optimize_week'] = 'Settimana';
+$lang['Optimize_3days'] = '3 Giorni';
+$lang['Optimize_day'] = 'Giorno';
+$lang['Optimize_6hours'] = '6 Ore';
+$lang['Optimize_hour'] = 'ora';
+$lang['Optimize_30minutes'] = '30 minuti';
+$lang['Optimize_20seconds'] = '20 secondi (solo per test)';
+$lang['Optimize_Current_time'] = 'Ora Attuale';
+$lang['Optimize_Next_cron_action'] = 'Prossima Azione del Cron';
+$lang['Optimize_Performed_Cron'] = 'Cron Eseguito';
 $lang['Optimize_Show_not_optimized'] = 'Mostra solo tabelle non ottimizzate';
 $lang['Optimize_Show_begin_for'] = 'Mostra solo tabelle che iniziano per';
 $lang['Optimize_Configure'] = 'Configura';
@@ -144,9 +153,7 @@ $lang['Restore_Error_decompress'] = 'Non &egrave; possibile decomprimere un file
 $lang['Restore_Error_no_file'] = 'Nessun file &egrave; stato caricato';
 
 
-//
 // Auth pages
-//
 $lang['Select_a_User'] = 'Seleziona un Utente';
 $lang['Select_a_Group'] = 'Seleziona un Gruppo';
 $lang['Select_a_Forum'] = 'Seleziona un Forum';
@@ -226,9 +233,7 @@ $lang['Click_return_groupauth'] = 'Clicca %sQUI%s per tornare a Permessi Gruppo'
 $lang['Click_return_forumauth'] = 'Clicca %sQUI%s per tornare a Permessi Forum';
 
 
-//
 // Banning
-//
 $lang['Ban_control'] = 'Controllo Disabilitazione';
 $lang['Ban_explain'] = 'qui puoi controllare la disabilitazione degli utenti. Puoi disabilitare per utente specifico o un individuole, per intervallo di indirizzi IP o hostnames. Questi metodi impediscono all\'utente di raggiungere anche l\'indice del tuo forum. Per impedire ad un utente di registrarsi con uno username diverso puoi anche disabilitare un indirizzo email specifico. Nota che disabilitare solo un indirizzo email non eviter&agrave; che quell\'utente possa essere in grado di entrare o di inviare messaggi al tuo forum. Per questo devi usare uno dei primi due metodi.';
 $lang['Ban_explain_warn'] = 'Nota che inserendo un intervallo di indirizzi IP, nella disabilitazione verranno inclusi tutti gli indirizzi tra l\'inizio e la fine degli indirizzi. Verranno fatti dei tentativi per minimalizzare il numero degli indirizzi aggiunti al database introducendo abbreviazioni generate automaticamente in modo apprpopriato. Se davvero devi inserire un intervallo di indirizzi, prova a mantenerlo piccolo o meglio specifica un singolo indirizzo.';
@@ -264,9 +269,7 @@ $lang['Ban_update_sucessful'] = 'La lista degli utenti disabilitati &egrave; sta
 $lang['Click_return_banadmin'] = 'Clicca %sQUI%s per tornare a Controllo Disabilitazione';
 
 
-//
 // Configuration
-//
 $lang['General_Config'] = 'Configurazione Generale';
 $lang['Config_explain'] = 'Il modulo qui sotto ti permette di personalizzare tutte le opzioni generali del Forum. Per la configurazione dei Forum e degli Utenti utilizza i collegamenti appropriati nel pannello di sinistra.';
 
@@ -424,9 +427,7 @@ $lang['Must_delete_forums'] = 'Devi cancellare tutti i forum per cancellare ques
 $lang['Click_return_forumadmin'] = 'Clicca %sQUI%s per tornare a Amministrazione Forum';
 
 
-//
 // Smiley Management
-//
 $lang['smiley_title'] = 'Utility Modifica Smiley';
 $lang['smile_desc'] = 'Da questa pagina puoi aggiungere, togliere e modificare le emoticons o gli smiley che i tuoi utenti possono utilizzare nei loro messaggi.';
 
@@ -458,9 +459,7 @@ $lang['smiley_del_success'] = 'Gli Smiley sono stati rimossi con successo.';
 $lang['Click_return_smileadmin'] = 'Clicca %sQUI%s per tornare a Amministrazione Smiley';
 
 
-//
 // User Management
-//
 $lang['User_admin'] = 'Administrazione Utenti';
 $lang['User_admin_explain'] = 'qui puoi cambiare le informazioni degli utenti e alcune opzioni specifiche. Per modificare il permessi degli utenti, utilizza il modulo di Amministrazione dei Permessi per Utenti e Gruppi.';
 
@@ -486,9 +485,7 @@ $lang['User_special'] = 'Campi speciali solo per l\'amministratore';
 $lang['User_special_explain'] = 'Questi campi non possono essere modificati dagli utenti. qui puoi impostare il loro stato e altre opzioni che non vengono date agli utenti.';
 
 
-//
 // Group Management
-//
 $lang['Group_administration'] = 'Amministrazione Gruppi';
 $lang['Group_admin_explain'] = 'Da questo pannello puoi amministrare tutti i Gruppi Utenti. Puoi cancellare, creare e modificare i gruppi esistenti. Puoi scegliere i moderatori, modificare lo stato del gruppo (aperto/chiuso) e impostare il nome del gruppo e la descrizione.';
 $lang['Error_updating_groups'] = 'C\'&egrave; stato un errore durante l\'aggiornamento dei gruppi';
@@ -519,9 +516,7 @@ $lang['Select_group'] = 'Seleziona un gruppo';
 $lang['Look_up_group'] = 'Controlla gruppo';
 
 
-//
 // Prune Administration
-//
 $lang['Forum_Prune'] = 'Eliminazione Forum';
 $lang['Forum_Prune_explain'] = 'Questo canceller&agrave; tutti gli argomenti a cui non &egrave; stata inviata una risposta nel numero di giorni che hai selezionato. Se non inserisci un numero TUTTI gli argomenti saranno cancellati. Non verranno cancellati gli argomenti con sondaggi ancora attivi e neppure gli Annunci. Devi cancellare questi argomenti manualmente.';
 $lang['Do_Prune'] = 'Elimina';
@@ -532,9 +527,7 @@ $lang['Posts_pruned'] = 'Messaggi eliminati';
 $lang['Prune_success'] = 'L\'eliminazione dei forum &egrave; avvenuta con successo';
 
 
-//
 // Word censor
-//
 $lang['Words_title'] = 'Censura Parole';
 $lang['Words_explain'] = 'Da questo pannello puoi aggiungere, modificare e rimuovere parole che saranno censurate automaticamente da tutto il forum. Inoltre non sar&agrave; possibile registrarsi con gli username che contengono queste parole. Le abbreviazioni (*) sono accettate nel campo parola , eg. *tra* comprender&agrave; attraverso, tra* comprender&agrave; trave, *tra comprender&agrave; finestra.';
 $lang['Word'] = 'Parola';
@@ -553,9 +546,7 @@ $lang['Word_removed'] = 'La Parola selezionata &egrave; stata rimossa con succes
 $lang['Click_return_wordadmin'] = 'Clicca %sQUI%s per tornare a Censure Parole';
 
 
-//
 // Mass Email
-//
 $lang['Mass_email_explain'] = 'qui puoi inviare un messaggio a tutti i tuoi utenti o agli utenti di un gruppo specifico. Per fare questo, verr&agrave; inviato un messaggio all\'indirizzo email dell\'amministratore che hai fornito, ed una BCC (Blind Carbon Copy) verr&agrave; inviata ai destinatari. Se stai inviando una mail ad un grosso gruppo di utenti per favore si paziente dopo aver inviato e non interrompere il caricamento della pagina. Un tempo lungo &egrave; normale per una mass-email. quando il processo sar&agrave; finito, sarai avvisato.';
 $lang['Compose'] = 'Componi';
 
@@ -566,9 +557,7 @@ $lang['Email_successfull'] = 'Il tuo messaggio &egrave; stato inviato';
 $lang['Click_return_massemail'] = 'Clicca %sQUI%s per tornare a Email Generali';
 
 
-//
 // Ranks admin
-//
 $lang['Ranks_title'] = 'Amministrazione Livelli';
 $lang['Ranks_explain'] = 'Con questo modulo puoi aggiungere, cancellare, modificare e guardare il livello degli utenti. Puoi anche creare dei livelli personali che possono essere applicati ad un utente attraverso la Gestione Utenti';
 
@@ -592,9 +581,7 @@ $lang['No_update_ranks'] = 'Il livello &egrave; stato cancellato con successo, i
 $lang['Click_return_rankadmin'] = 'Clicca %sQUI%s per tornare a Amministrazione Livelli';
 
 
-//
 // Disallow Username Admin
-//
 $lang['Disallow_control'] = 'Controllo Disabilitazione Utenti';
 $lang['Disallow_explain'] = 'qui puoi controllare gli username che non si possono utilizzare. Gli username disabilitati possono contenere una abbreviazione (*). Per favore nota che non puoi specificare nessuno username che &egrave; gi&agrave; stato registrato, devi prima cancellare il nome e poi disabilitarlo';
 
@@ -615,9 +602,7 @@ $lang['Disallowed_already'] = 'Il nome che hai inserito non pu&ograve; essere di
 $lang['Click_return_disallowadmin'] = 'Clicca %sQUI%s per tornare a Disabilitazione Utenti';
 
 
-//
 // Styles Admin
-//
 $lang['Styles_admin'] = 'Amministrazione Stili';
 $lang['Styles_explain'] = 'Utilizzando queste opzioni puoi aggiungere, rimuovere e gestire gli stili (modelli e temi) del tuo forum';
 $lang['Styles_addnew_explain'] = 'La lista seguente contiene tutti i temi che sono disponibili per i modelli che hai al momento. I temi nella lista non sono ancora stati caricati nel database del forum. Per installarli semplicemente clicca sul link installa di fianco ad ogni stile.';
@@ -686,24 +671,8 @@ $lang['Td_color3'] = 'Tabella Cella Colore 3';
 $lang['Td_class1'] = 'Tabella Cella Colore 1';
 $lang['Td_class2'] = 'Tabella Cella Colore 2';
 $lang['Td_class3'] = 'Tabella Cella Colore 3';
-$lang['fontface1'] = 'Nome Carattere 1';
-$lang['fontface2'] = 'Nome Carattere 2';
-$lang['fontface3'] = 'Nome Carattere 3';
-$lang['fontsize1'] = 'Dimensione Carattere 1';
-$lang['fontsize2'] = 'Dimensione Carattere 2';
-$lang['fontsize3'] = 'Dimensione Carattere 3';
-$lang['fontcolor1'] = 'Colore Carattere 1';
-$lang['fontcolor2'] = 'Colore Carattere 2';
-$lang['fontcolor3'] = 'Colore Carattere 3';
-$lang['span_class1'] = 'Classe Span 1';
-$lang['span_class2'] = 'Classe Span 2';
-$lang['span_class3'] = 'Classe Span 3';
-$lang['img_poll_size'] = 'Dimensione Immagine Votazione [px]';
-$lang['img_pm_size'] = 'Dimensione Stato Messaggi Privati [px]';
 
-//
 // Admin Userlist Start
-//
 $lang['Userlist'] = 'Lista Utenti';
 $lang['Userlist_description'] = 'Visualizza una lista completa dei tuoi utenti su cui potrai compiere varie azioni';
 
@@ -742,13 +711,9 @@ $lang['User_deleted_successfully'] = 'Utente(i) cancellato(i) con successo!';
 $lang['User_add_group_successfully'] = 'Utente(i) aggiunto(i) al gruppo con successo!';
 
 $lang['Click_return_userlist'] = 'Clica %sQUI%s to per ritornare alla Lista Utenti';
-//
 // Admin Userlist End
-//
 
-//
 // Version Check
-//
 $lang['Version_up_to_date'] = 'Nessun aggiornamento disponibile per la versione in uso di phpBB.';
 $lang['Version_up_to_date_ip'] = 'Nessun aggiornamento disponibile per la versione in uso di Icy Phoenix.';
 $lang['Version_not_up_to_date'] = 'La versione in uso <il b>non </ b>&egrave; recente. Per gli aggiornamenti disponibili visita <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a> per vedere l\'ultima versione.';
@@ -806,7 +771,6 @@ $lang['sig_title'] = 'Controllo Avanzato Separatore della Firma';
 $lang['sig_divider'] = 'Separatore della Firma attuale';
 $lang['sig_explain'] = 'Da qui puoi controllare che Separatore utilizzare per dividere la firma degli utenti dai loro post.';
 
-
 //
 // Start add - Yellow card admin MOD
 $lang['Max_user_bancard'] = 'Numero massimo di ammonizioni';
@@ -822,12 +786,6 @@ $lang['Bluecard_limit_2_explain'] = 'Invia la prima notifica al moderatore quand
 $lang['Report_forum']= 'Forum segnalazioni';
 $lang['Report_forum_explain'] = 'Indicare il valore  ID relativo al forum in cui i report degli utenti verra\' immesso. Impostare a 0 per disattivare questa opzione. Gli utenti <b> devono avere almeno</b> il permesso di scrittura e risposta in questo forum';
 
-
-
-//
-// That's all Folks!
-// -------------------------------------------------
-
 // Start add - Last visit MOD
 $lang['Hidde_last_logon'] = 'Nascondi ultima connessione';
 $lang['Hidde_last_logon_expain'] = 'Se impostato a S&igrave; solo l\'amministratore del forum potr&agrave; visualizzare la data dell\'ultimo collegamento';
@@ -835,9 +793,6 @@ $lang['Hidde_last_logon_expain'] = 'Se impostato a S&igrave; solo l\'amministrat
 
 $lang['Postcounts_Configuration'] = 'Numero Post';
 $lang['Rebuild Search'] = 'Ricostruisci Cerca';
-
-
-
 
 // Start add - Online/Offline/Hidden Mod
 $lang['Online_setting'] = 'Online Status Setting';
@@ -871,9 +826,7 @@ $lang['Offline_color'] = 'Colore testo Offline';
 $lang['Hidden_color'] = 'Colore testo Utente Nascosto';
 // End add - Online/Offline/Hidden Mod
 
-//
 // google bot detector by pukapuka
-//
 $lang['Detector'] = 'Google Bot Detector';
 $lang['Detector_Explain'] = 'In questa pagina &egrave; possibile analizzare le visite del Bot di Google';
 $lang['Detector_ID'] = '#';
@@ -942,7 +895,6 @@ $lang['LIW_openssl'] = 'Estensione openSSL caricata';
 $lang['LIW_openssl_explain'] = 'Carica estensione openssl.dll nel tuo php.ini';
 $lang['LIW_openssl_available'] = 'La MOD &egrave; in grado di recuperare la dimensione dell\'immagine da https:// cos&igrave; le pu&ograve; mettere in cache';
 $lang['LIW_openssl_unavailable'] = 'La MOD NON &egrave; in grado di recuperare la dimensione dell\'immagine da https:// cos&igrave; NON le pu&ograve; mettere in cache';
-
 
 $lang['LIW_enable'] = 'Ridimensiona immagini nei messaggi';
 $lang['LIW_enable_explain'] = 'Imposta su %s per permettere alla MOD di ridimensionare le immagini nei posts'; // Set to $lang['Yes'] to ....
@@ -1131,8 +1083,8 @@ $lang['Rules_in_posting'] = 'Rispondendo o Inviando un messaggio in questo Forum
 // ... inserted MOD-Code: ['Olympus-Style' Forum Rules] ends here!
 
 $lang['db_update generator'] = 'Conversione SQL/PHP';
-$lang['FTR: Config']	= 'FTR: Configurazione';
-$lang['FTR: Users']	= 'FTR: Utenti';
+$lang['FTR: Config'] = 'FTR: Configurazione';
+$lang['FTR: Users'] = 'FTR: Utenti';
 $lang['Blocks Management'] = 'Gestione Blocchi';
 $lang['Blocks_Position_Tag'] = 'Tag Posizione Blocchi';
 $lang['Blocks Variables'] = 'Variabili Blocchi';
@@ -1172,10 +1124,7 @@ $lang['Prune_update'] = 'Le impostazioni di Pruning sono state salvate senza pro
 $lang['Admin_notepad_title'] = 'Notepad';
 $lang['Admin_notepad_explain'] = 'Da questa pagina gli Amministratori possono lasciare delle note per se stessi e per gli altri amministratori.';
 
-
-//
 // Start Autolinks Mod
-//
 $lang['Autolink_first'] = 'Linka Automaticamente la parola chiave una volta in ogni messaggio';
 
 $lang['Autolinks_title'] = 'Autolinks';
@@ -1202,9 +1151,7 @@ $lang['No_autolink_selected'] = 'Non &egrave; stato selezionato nessun autolink 
 $lang['No_autolinks'] = 'Non ci sono Autolinks nel database.';
 $lang['Must_enter_autolink'] = 'Devi inserire una Parola Chiave, un link, del testo, e un url.';
 $lang['Click_return_autolinkadmin'] = 'Clicca %sQUI%s per ritornare all\'Amministrazione Autolink';
-//
 // End Autolinks Mod
-//
 
 //030
 $lang['Max_login_attempts'] = 'Tentativi di login permessi';
@@ -1301,9 +1248,7 @@ $lang['Confirm_delete_smiley'] = 'Sei sicuro di voler eliminare questo Smiley?';
 $lang['Confirm_delete_word'] = 'Sei sicuro di voler eliminare questa Parola Censurata?';
 $lang['Confirm_delete_rank'] = 'Sei sicuro di voler eliminare questo Livello?';
 
-//
 // Custom Profile Fields MOD
-//
 $lang['custom_field_notice_admin'] = 'Questi campi sono stati creati da un amministratore del sito. Per avere delle informazioni aggiuntive, verifica cosa viene indicato nella sezione Campo Profilo. Gli elementi contrassegnati con * sono campi obbligatori. Gli elementi contrassegnati con &dagger; verranno visualizzati solo dagli amministratori.';
 
 $lang['field_deleted'] = 'Il campo selezionato &egrave; stato eliminato';
@@ -1313,8 +1258,8 @@ $lang['here'] = 'QUI';
 $lang['new_field_link'] = '<a href="' . append_sid($filename . '?mode=add&pfid=x') . '">%s</a>';
 $lang['edit_field_link'] = '<a href="' . append_sid($filename . '?mode=edit&pfid=x') . '">%s</a>';
 $lang['index_link'] = '<a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&pfid=x') . '">%s</a>';
-$lang['field_exists'] = 'Questo campo esiste gi&agrave;.<br /><br />Puoi provare a creare un ' . sprintf($lang['new_field_link'],'new') . ' campo,<br /><br />Oppure provare a ' . sprintf($lang['edit_field_link'],'editing') . ' quello gi&agrave; esistente.';
-$lang['click_here_here'] = 'Clicca ' . sprintf($lang['new_field_link'],$lang['here']) . ' per aggiungere un nuovo campo nel profilo,<br /><br />O clicca ' . sprintf($lang['index_link'],$lang['here']) . ' per tornare all\'Indice Del Pannello Di Amministrazione.';
+$lang['field_exists'] = 'Questo campo esiste gi&agrave;.<br /><br />Puoi provare a creare un ' . sprintf($lang['new_field_link'], 'new') . ' campo,<br /><br />Oppure provare a ' . sprintf($lang['edit_field_link'], 'editing') . ' quello gi&agrave; esistente.';
+$lang['click_here_here'] = 'Clicca ' . sprintf($lang['new_field_link'], $lang['here']) . ' per aggiungere un nuovo campo nel profilo,<br /><br />O clicca ' . sprintf($lang['index_link'], $lang['here']) . ' per tornare all\'Indice Del Pannello Di Amministrazione.';
 $lang['field_success'] = 'Campo aggiunto correttamente!<br /><br />' . $lang['click_here_here'];
 $lang['Custom_Profile'] = 'Campi Profilo';
 $lang['profile_field_created'] = 'Campo Profilo Creato';
@@ -1384,9 +1329,7 @@ $lang['profile_field_action'] = 'Azione';
 $lang['no_profile_fields_exist'] = 'Non esistono Campi Personalizzati.';
 
 $lang['enter_a_name'] = '<strong>Devi</strong> inserire il nome del campo<br /><br />Torna indietro e riprova';
-//
 // END Custom Profile Fields MOD
-//
 
 // XS BUILD 045
 $lang['Add'] = 'Aggiungi';
@@ -1435,9 +1378,7 @@ $lang['Shoutbox_refreshtime'] = 'Tempo Di Aggiornamento';
 $lang['Shoutbox_refresh_explain'] = 'Tempo espresso in millisecondi per l\'aggiornamento della Shoutbox.<br /><i>Questo valore dovrebbe essere almeno 1000 millisecondi.</i>';
 // Ajax Shoutbox - END
 
-//
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
-//
 $lang['MG_Configuration'] = 'Impostazioni Icy Phoenix';
 $lang['MG_Configuration_Explain'] = 'In questa sezione &egrave; possibile configurare alcune impostazioni avanzate di Icy Phoenix';
 
@@ -1505,9 +1446,7 @@ $lang['Click_return_config_mg'] = 'Clicca %sQUI%s per tornare alla configurazion
 /*
 $lang['MG_SW_'] = '';
 */
-//
 // ####################### [ Icy Phoenix Options END ] #######################
-//
 
 /* lang_postcount.php - BEGIN */
 $lang['Postcounts'] = 'Gestione Numero Messaggi';
@@ -1781,9 +1720,9 @@ $lang['PM_5'] = 'PM Non-Letti'; //PRIVMSGS_UNREAD_MAIL = 5
 
 /* Errors */
 $lang['Error_Other_Table'] = 'Errore nell\'interrogazione di una tabella richiesta.';
-$lang['Error_Posts_Text_Table'] = 'Errore nell\'interrogazione della tabella Private Messages Text.';
-$lang['Error_Posts_Table'] = 'Errore nell\'interrogazione della tabella Private Messages.';
-$lang['Error_Posts_Archive_Table'] = 'Errore nell\'interrogazione della tabella Private Messages Archive.';
+$lang['Error_PM_Text_Table'] = 'Errore nell\'interrogazione della tabella Private Messages Text.';
+$lang['Error_PM_Table'] = 'Errore nell\'interrogazione della tabella Private Messages.';
+$lang['Error_PM_Archive_Table'] = 'Errore nell\'interrogazione della tabella Private Messages Archive.';
 $lang['No_Message_ID'] = 'Non &egrave; stato specificato nessun ID messaggio.';
 
 /*Special Cases, Do not bother to change for another language */
@@ -2058,14 +1997,12 @@ $lang['LOGS_CMS_BLOCK_DELETE_LS'] = 'ha cancellato un blocco [ID = %s] di una pa
 $lang['MG_SW_'] = '';
 */
 
-//
 // ####################### [ ACP Navigation BEGIN ] #######################
-//
 // Use numbers to sort the ACP Navigation menu
 // Numbers have to be changed in all /adm/*.php files too
 
 // Configuration
-$lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_board_extend.php, admin_board_headers_banners.php, admin_board_main.php, admin_board_permissions.php, admin_board_server.php, admin_board_posting.php, admin_board_queries.php, admin_captcha_config.php, admin_lang_user_created.php, admin_upi2db.php
+$lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_board_extend.php, admin_board_headers_banners.php, admin_board_main.php, admin_board_permissions.php, admin_board_server.php, admin_board_posting.php, admin_board_queries.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_lang_user_created.php, admin_upi2db.php
 $lang['100_Server_Configuration'] = 'Server';															// admin_board_server.php
 $lang['110_Various_Configuration'] = 'Sito';															// admin_board.php
 $lang['120_MG_Configuration'] = 'Icy Phoenix';														// admin_board.php
@@ -2077,8 +2014,10 @@ $lang['145_Captcha_Config'] = 'Conferma Visuale';													// admin_captcha_c
 $lang['150_Similar_topics'] = 'Argomenti Simili';													// admin_similar_topics.php
 $lang['160_Title_infos'] = 'Gestione Titoli Veloci';											// admin_quick_title.php
 $lang['170_LIW'] = 'Larghezza Immagini';																	// admin_liw.php
-$lang['175_Yahoo_search'] = 'Yahoo Search';																// admin_yahoo_search.php
 $lang['180_MG_Configuration_Permissions'] = 'Permessi Visualizzazione';		// admin_board_permissions.php
+$lang['190_Spider_Bots'] = 'Spider / Bots';																// admin_bots.php
+$lang['192_Google_BOT'] = 'Google Bot';																		// admin_google_bot_detector.php
+$lang['195_Yahoo_search'] = 'Yahoo Search';																// admin_yahoo_search.php
 $lang['200_Language'] = 'Gestione Lingue';																// admin_lang_extend.php
 $lang['210_MG_Quick_Settings'] = 'Impostazioni Veloci';										// admin_board_quick_settings.php
 
@@ -2136,9 +2075,9 @@ $lang['150_Delete_Cache_Files'] = 'Elimina Cache';								// admin_clear_cache.p
 $lang['1600_News_Admin'] = 'News';													// admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
 $lang['100_News_Config'] = 'Configurazione News';						// admin_news.php
 $lang['110_News_Cats'] = 'Categorie News';									// admin_news_cats.php
-$lang['120_XS_News_Config'] = 'Configurazione XS News';			// admin_xs_news.php
-$lang['130_XS_News'] = 'Articoli XS News';									// admin_xs_news.php
-$lang['140_XS_News_Tickers'] = 'Ticker XS News';						// admin_xs_news_xml.php
+$lang['120_XS_News_Config'] = 'Configurazione Ticker News';	// admin_xs_news.php
+$lang['130_XS_News'] = 'Articoli Ticker News';							// admin_xs_news.php
+$lang['140_XS_News_Tickers'] = 'Ticker News';								// admin_xs_news_xml.php
 
 // Users
 $lang['1610_Users'] = 'Utenti';															// admin_account.php, admin_disallow.php, admin_email_list.php, admin_jr_admin.php, admin_postcount.php, admin_priv_msgs.php, admin_profile_fields.php, admin_ranks.php, admin_ug_auth.php, admin_user_ban.php, admin_user_bantron.php, admin_user_register.php, admin_user_search.php, admin_userlist.php, admin_users.php, admin_voting.php
@@ -2185,13 +2124,13 @@ $lang['160_Optimize_tables'] = 'Ottimizza Tabelle';					// admin_kb_rebuild_sear
 
 // Attachments
 $lang['1900_Attachments'] = 'Allegati';											// admin_attach_cp.php, admin_attachments.php, admin_extensions.php
-$lang['100_Control_Panel'] = 'Panello Di Controllo';				// admin_attach_cp.php
+$lang['100_Control_Panel'] = 'Pannello Di Controllo';				// admin_attach_cp.php
 $lang['110_Att_Manage'] = 'Gestione';												// admin_attachments.php
 $lang['120_Quota_limits'] = 'Gestione Quote';								// admin_attachments.php
 $lang['130_Shadow_attachments'] = 'Allegati Ombra';					// admin_attachments.php
 $lang['140_Sync_attachments'] = 'Sincronizza Allegati';			// admin_attachments.php
 $lang['150_Extension_control'] = 'Estensioni';							// admin_extensions.php
-$lang['160_Extension_group_manage'] = 'Gestione Gruppi Estensioni';	// admin_extensions.php
+$lang['160_Extension_group_manage'] = 'Gruppi Estensioni';	// admin_extensions.php
 $lang['170_Forbidden_extensions'] = 'Estensioni Proibite';	// admin_extensions.php
 $lang['180_Special_categories'] = 'Categorie Speciali';			// admin_attachments.php
 
@@ -2237,8 +2176,6 @@ $lang['130_GD_Info'] = 'GD Info';														// admin_gd_info.php
 $lang['140_HTTP_REF'] = 'HTTP Referrers';										// admin_referrers.php
 $lang['150_Google_BOT'] = 'Google Bot';											// admin_google_bot_detector.php
 
-//
 // ####################### [ ACP Navigation END ] #######################
-//
 
 ?>

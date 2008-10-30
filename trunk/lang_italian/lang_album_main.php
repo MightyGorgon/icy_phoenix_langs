@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // Album Index
 $lang['Photo_Album'] = 'Album Fotografico';
 $lang['Pics'] = 'Immagini';

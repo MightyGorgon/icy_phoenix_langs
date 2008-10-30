@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['Extreme_Styles'] = 'eXtreme style ';
 $lang['xs_title'] = 'eXtreme style mod';
 
@@ -514,7 +524,7 @@ $lang['xs_fileedit_upload'] = 'Upload';
 $lang['xs_fileedit_upload_file'] = 'Upload file:';
 
 /*
-* edit stili data (theme_info)
+* edit style data (theme_info)
 */
 $lang['xs_data_head_stylesheet'] = 'Foglio di stile CSS ';
 $lang['xs_data_body_background'] = 'Immagine di sfondo';

@@ -15,53 +15,43 @@
 *
 */
 
-//
-// CONTRIBUTORS:
-//         Add your details here if wanted,
-//
-//        e.g. Date, Name, username, email address, website
-//
-// <date>	<Name>		<Username>	<email>			<website>
-// 09-01-2005	<n/a>		Bicet		<n/a>			http://www.lesionetotale.org
-//
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 $lang['n_title'] = 'Amministrazione XS News';
 
 $lang['n_main_title'] = 'Elementi XS News';
 $lang['n_main_title_explain'] = 'Da qui puoi gestire le news.<br /><br />Se desideri cambiare lo stato di visualizzazione di una particolare news, la devi modificare.';
 
-//
 // Config
-//
 $lang['n_config_title'] = 'Configurazione XS News';
 $lang['n_config_title_explain'] = 'Da qui puoi modificare le impostazioni di XS News.';
 $lang['n_config_updated'] = 'Configurazione XS News aggiornata.';
 
-//
 // Add menu item
-//
 $lang['n_add_page_title'] = 'Aggiungi News';
 $lang['n_add_page_title_explain'] = 'Usando questo form potrai creare le news.';
 $lang['n_add_header'] = 'Aggiungi News';
 $lang['n_news_item_added'] = 'News Aggiunta.';
 
-//
 // edit menu item
-//
 $lang['n_edit_page_title'] = 'Modifica News';
 $lang['n_edit_page_title_explain'] = 'Usando questo form potrai modificare le news.';
 $lang['n_edit_header'] = 'Modifica news esistente';
 
-//
 // Delete
-//
 $lang['n_news_delete'] = 'Elimina News.';
 $lang['n_news_delete_explain'] = 'Usando questo form potrai eliminare le news';
 $lang['n_confirm_delete_news'] = 'Sei sicuro di voler eliminare questa news?';
 
-//
 // General Settings used by Add/Edit Menu item
-//
 $lang['n_news_item'] = 'News';
 $lang['n_news_item_display'] = 'Visualizza questa News?';
 
@@ -78,9 +68,7 @@ $lang['xs_news_invalid_date'] = 'Hai immesso un formato non valido per la data, 
 $lang['n_news_updated'] = 'La News &egrave; stata Aggiornata';
 $lang['n_click_return_newslist'] = 'Clicca %sQUI%s per tornare alla Lista delle News';
 
-//
 // XS News XML Settings
-//
 $lang['n_xml_title'] = 'Amministrazione XS News Ticker';
 $lang['n_xml_title_explain'] = 'Da qui puoi gestire i News Tickers.<br /><br />Se desideri cambiare lo stato di visualizzazione di un particolare feed di News, lo devi modificare.';
 $lang['n_xml_sub_title'] = 'Tickers XS News.';
@@ -106,31 +94,23 @@ $lang['xs_news_ticker_sd'] = 'Direzione di scorrimento';
 $lang['xs_news_left'] = 'Sinistra';
 $lang['xs_news_right'] = 'Destra';
 
-//
 // Add menu item
-//
 $lang['n_xml_add_page_title'] = 'Aggiungi Feed XML';
 $lang['n_xml_add_page_title_explain'] = 'Usando questo form potrai creare un nuovo Feed XML News.';
 $lang['n_xml_add_header'] = 'Aggiungi nuovo Feed XML News';
 $lang['n_xml_news_item_added'] = 'Feed XML News Aggiunto.';
 
-//
 // edit menu item
-//
 $lang['n_xml_edit_page_title'] = 'Modifica Feed XML Newsd';
 $lang['n_xml_edit_page_title_explain'] = 'Usando questo form potrai modificare un nuovo Feed XML News.';
 $lang['n_xml_edit_header'] = 'Modifica Feed XML News Preesistente';
 
-//
 // Delete
-//
 $lang['n_xml_news_delete'] = 'Elimina Feed XML News.';
 $lang['n_xml_news_delete_explain'] = 'Usando questo form potrai eliminare un Feed XML News.';
 $lang['n_xml_confirm_delete_news'] = 'Sei sicuro di voler eliminare questo Feed XML News?';
 
-//
 // General Settings used by Add/Edit Menu item
-//
 $lang['n_xml_news_item'] = 'XML News';
 $lang['n_xml_news_item_display'] = 'Visualizza questa News XML?';
 

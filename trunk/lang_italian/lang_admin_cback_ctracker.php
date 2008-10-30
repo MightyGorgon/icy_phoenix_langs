@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['ctracker_module_category'] = 'CrackerTracker';
 $lang['ctracker_module_1'] = 'Checksum Scanner';
 $lang['ctracker_module_2'] = 'Crediti';
@@ -132,9 +142,9 @@ $lang['ctracker_credits_credits_1'] = 'Idea & Implementazione';
 $lang['ctracker_credits_credits_2'] = 'Autore e supporto';
 $lang['ctracker_credits_credits_3'] = 'Icone';
 $lang['ctracker_credits_credits_4'] = 'Distribuzione ufficiale';
-$lang['ctracker_credits_moddownload']  = 'CrackerTracker MOD Download';
+$lang['ctracker_credits_moddownload'] = 'CrackerTracker MOD Download';
 $lang['ctracker_credits_thanks'] = 'Grazie...';
-$lang['ctracker_credits_thanks_text']  = 'Un grazie alle seguenti persone:';
+$lang['ctracker_credits_thanks_text'] = 'Un grazie alle seguenti persone:';
 $lang['ctracker_credits_thanks_to'] = '<strong>Idee, test di sicurezza e correzioni</strong><br />Tekin Bird&uuml;zen<br /><i>(<a href="http://www.cybercosmonaut.de" target="_blank">cYbercOsmOnauT</a>)</i><br /><br /><br /><br /><strong>Idee:</strong><br />Bernhard Jaud<br /><i>(GenuineParts)</i><br /><br /><br /><br /><strong>Traduttore (Inglese)</strong><br />Marc Renninger<br /><i>(mc-dragon)</i><br /><br /><br /><br /><strong>Correttore (Inglese)</strong><br />George <br />Sommerset<br /><i>(<a href="http://www.englisch-hilfen.de" target="_blank">www.englisch-hilfen.de</a>)</i><br /><br /><strong>Traduttore (Italiano)</strong><br />Antonio Mercurio<br /><i>(<a href="http://www.phpbbplus.it" target="_blank">phpBB Plus Italia</a>)<br /><br /><br /><strong>Beta Tester</strong><br />Grazie a tutti i partecipanti al Beta-Tests<br />ai  CBACK Premium users e, naturalmente, a<br />tutti i nostri colleghi della  "Mod-Scene" che ci hanno aiutato nei test e nella correzione delle bozze.</i>';
 $lang['ctracker_credits_info'] = 'Pi&ugrave; Sicurezza?';
 $lang['ctracker_credits_info_text'] = 'L\'addon ideale per Icy Phoenix &egrave; CrackerTracker: Per ottimizzare la sicurezza vi raccomandiamo l\'uso del  Mod <strong>Advanced Visual Confirmation</strong> by AmigaLink. Questo MOD espande le funzione di riconoscimento di processi automatici di registrazione. Una volta installato il vostro sistema risulter&agrave; ulteriormente protetto dalle azioni di Bot finalizzati a violare la sicurezza. &Egrave; possibile effettuare il download su <a href="http://www.amigalink.de" target="_blank">www.AmigaLink.de</a>.<br /><br /><br /><br />.';

@@ -8,6 +8,11 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
 //
 // To add an entry to your BBCode guide simply add a line to this file in this format:
 // $faq[] = array("question", "answer");
@@ -16,9 +21,7 @@
 //
 // DO NOT forget the ; at the end of the line.
 // Do NOT put double quotes (") in your BBCode guide entries, if you absolutely must then escape them ie. \"something\"
-//
 // The BBCode guide items will appear on the BBCode guide page in the same order they are listed in this file
-//
 // If just translating this file please do not alter the actual HTML unless absolutely necessary, thanks :)
 //
 // In addition please do not translate the colours referenced in relation to BBCode any section, if you do
@@ -67,8 +70,6 @@ $faq[] = array("Aggiungere un video o audio ai messaggi", "In questo forum puoi 
 $faq[] = array("--", "Altro");
 $faq[] = array("Posso aggiungere i miei tag personali?", "No, non direttamente tramite il pannello di amministrazione. Se conosci il PHP puoi provare a modificare il file <b>includes/bbcode.php</b> per aggiungere altri tags.");
 
-//
 // This ends the BBCode guide entries
-//
 
 ?>

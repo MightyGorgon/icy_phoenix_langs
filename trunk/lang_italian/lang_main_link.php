@@ -15,7 +15,17 @@
 *
 */
 
-/// Links_MOD
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// Links_MOD
 $lang['Site_links'] = 'Links';
 $lang['Link_lock_submit_site'] = 'L\'inserimento links &egrave; bloccato';
 $lang['Link_title'] = 'Nome sito';

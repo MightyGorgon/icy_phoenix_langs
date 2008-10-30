@@ -16,6 +16,16 @@ Example for items
 $lang['item_YOUR_ITEM_NAME'] = 'YOUR_ITEM_DESCRIPTION';
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['FEATURES'] = 'Features';
 $lang['PHPBB2'] = 'phpBB2';
 $lang['ICYPHOENIX'] = 'Icy Phoenix';

@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['bbcb_mg_lang'] = 'lang_italian';
 
 $lang['wrote'] = 'ha scritto';
@@ -260,5 +270,10 @@ $lang['s_list_help'] = 'Lista ordinata: [list|=1|a]testo[/list] (Consiglio: usa 
 $lang['xs_bbc_hide_message'] = 'Messaggio Nascosto';
 $lang['xs_bbc_hide_quote_message'] = 'Messaggio Nascosto Citato, rimane invisibile.';
 $lang['xs_bbc_hide_message_explain'] = 'Spiacenti, ma devi esere registrato e devi rispondere alla discussione per poter vedere questo messaggio.';
+
+$lang['bbcode_url'] = 'Inserisci URL (es. http://www.icyphoenix.com)';
+$lang['bbcode_url_title'] = 'Inserisci il titolo del Link';
+$lang['bbcode_url_empty'] = 'Non hai inserito l\'URL';
+$lang['bbcode_url_errors'] = 'Errore!';
 
 ?>

@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 /*
 * mod version string
 */
@@ -99,7 +109,7 @@ $lang['Dl_approve'] = 'Approva';
 $lang['Dl_check_file_sizes'] = 'Controllo dimensioni';
 $lang['Dl_check_thumbnails'] = 'Controllo miniature';
 $lang['Dl_delete'] = 'Elimina';
-$lang['Dl_down'] = 'in basso';
+$lang['Dl_down'] = 'In basso';
 $lang['Dl_edit'] = 'Modifica';
 $lang['Dl_go'] = 'Vai';
 $lang['Dl_klick_to_rate'] = 'Valuta';
@@ -108,7 +118,7 @@ $lang['Dl_mark_all'] = 'Seleziona tutto';
 $lang['Dl_move'] = 'Sposta ';
 $lang['Dl_set'] = 'Imposta';
 $lang['Dl_unmark'] = 'Annulla selezione';
-$lang['Dl_up'] = 'in alto';
+$lang['Dl_up'] = 'In alto';
 $lang['Dl_delete_cat'] = 'Elimina categoria';
 
 $lang['Dl_stats_delete'] = 'Cancella statistiche';

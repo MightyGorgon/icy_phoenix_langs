@@ -15,6 +15,11 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
 //
 // To add an entry to your Rules simply add a line to this file in this format:
 // $faq[] = array("question", "answer");
@@ -23,20 +28,14 @@
 //
 // DO NOT forget the ; at the end of the line.
 // Do NOT put double quotes (") in your Rules entries, if you absolutely must then escape them ie. \"something\"
-//
 // The FAQ items will appear on the Rules page in the same order they are listed in this file
-//
 // Per aggiungere una voce alle tue regole basta semplicemente aggiungere una riga a questo file secondo il formato:
 // $faq[] = array("Domanda","Risposta");
 // Se volete aprire una nuova sezione inserite $faq[] = array("--","Titolo della sezione");
 // i link verranno creati automaticamente
-//
 // NON dimenticate il ; alla fine della riga
-//
 // NON usate le virgolette ("). Se proprio ritieni di doverle usare adottate questa convenzione \"bla bla\"
-//
 // Le voci delle FAQ appariranno nello stesso ordine in cui sono inserite
-//
 //
 
 $faq[] = array('--','Regole base!');

@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['BBC_Overview'] = '
 <ul>
 <li><span class="topic_ann"><b>Che cos\'&egrave; Icy Phoenix?</b></span><br /></li>
@@ -91,14 +101,10 @@ Impostare i permessi a <span class="text_red">CHMOD 777</span> per i seguenti fi
 <li><b>files/album/users/</b></li>
 <li><b>files/album/wm_cache/</b></li>
 <li><b>files/posted_images/</b></li>
+<li><b>files/screenshots/</b></li>
 <li><b>files/thumbs/</b></li>
 <li><b>images/avatars/</b></li>
 <li><b>logs/</b></li>
-<li><b>pafiledb/uploads/</b></li>
-<li><b>pafiledb/cache/</b></li>
-<li><b>pafiledb/cache/templates/</b></li>
-<li><b>pafiledb/cache/templates/mg_themes/</b></li>
-<li><b>pafiledb/images/screenshots/</b></li>
 </ul>
 <br />
 </li>

@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['Already_Rated'] = 'Hai gi&agrave; valutato questo argomento con un voto di <b>%d</b>'; //%d = their rate
 $lang['Rate_Stats'] = '<b>%.2f</b>'; //%.2f = average, %d = min, %d = max, %d # of ratings
 $lang['Rate'] = 'Vota';

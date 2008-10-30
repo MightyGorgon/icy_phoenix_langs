@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // MG CMS - BEGIN
 // Some langs borrowed from IM Portal
 $lang['CMS_WELCOME'] = 'Benvenuto in Icy Phoenix';

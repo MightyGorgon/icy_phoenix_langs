@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['BBUS_Mod_Title'] = 'Statistiche Utilizzo Forum';
 $lang['BBUS_Misc'] = 'Varie';
 

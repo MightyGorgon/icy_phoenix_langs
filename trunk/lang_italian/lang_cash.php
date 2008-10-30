@@ -15,9 +15,17 @@
 *
 */
 
-//
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // Admin menu
-//
 $lang['Cmcat_main'] = 'Principale';
 $lang['Cmcat_addons'] = 'Moduli';
 $lang['Cmcat_other'] = 'Altro';
@@ -95,9 +103,7 @@ $lang['Bad_dbfield'] = 'Nome campo non valido: deve essere nel formato \'user_no
 // 0 currencies (most admin panels won't work... )
 $lang['Insufficient_currencies'] = 'Dovete creare almeno una valuta prima di modificare i parametri';
 
-//
 // Add-ons ?
-//
 
 // Events
 $lang['Cash_events'] = 'Eventi per Cash Mod ';
@@ -126,9 +132,7 @@ $lang['Update_successful'] = 'Aggiornamento completato!';
 $lang['Click_return_cash_reset'] = 'Clicca %sQUI%s per tornare al reset per il Cash Mod';
 $lang['User_updated'] = '%s aggiornato(i)<br />';
 
-//
 // Others
-//
 
 // Exchange
 $lang['Cash_exchange'] = 'Scambio Cash Mod ';
@@ -294,20 +298,14 @@ $lang['Year'] = 'Anno';
 $lang['Page'] = 'Pagina';
 $lang['Per_page'] = 'per pagina';
 
-//
 // Now for some regular stuff...
-//
 
-//
 // User CP
-//
 $lang['Donate'] = 'Regala';
 $lang['Mod_usercash'] = 'Modifica Saldo';
 $lang['Exchange'] = 'Cambio';
 
-//
 // Exchange
-//
 $lang['Convert'] = 'Converti';
 $lang['Select_one'] = 'Seleziona ';
 $lang['Exchange_lack_of_currencies'] = 'Non ci sono abbastanza tipi di valuta per poter effettuare i cambi <br /> Per abilitare questa opzione devono essere attivi almeno due tipi di valuta. <br />Richiedete l\'opzione all\'amministrazione.';
@@ -315,17 +313,13 @@ $lang['You_have'] = 'Hai';
 $lang['One_worth'] = 'Un %s vale:';
 $lang['Cannot_exchange'] = 'Non puoi cambiare attualmente %s ';
 
-//
 // Donate
-//
 $lang['Amount'] = 'Quantit&agrave;';
 $lang['Donate_to'] = 'Regala a %s';
 $lang['Donation_recieved'] = 'Avete ricevuto una donazione da %s';
 $lang['Has_donated'] = '%s ti ha regalato [b]%s[/b].' . "\n\n" . '%s ha scritto: ' . "\n";
 
-//
 // Mod Edit
-//
 $lang['Add'] = 'Aggiungi';
 $lang['Remove'] = 'Rimuovi';
 $lang['Omit'] = 'Nessuna Operazione';

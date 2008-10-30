@@ -15,6 +15,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 $lang['Search_no_new'] = 'Nessun nuovo messaggio dall\'ultima visita';
 $lang['Neue_Beitraege'] = 'Messaggi non letti';
 $lang['Editierte_Beitraege'] = 'Messaggi modificati';

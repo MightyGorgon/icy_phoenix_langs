@@ -15,14 +15,15 @@
 *
 */
 
-//
-// The format of this file is ---> $lang['message'] = 'text';
-//
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
 
-// This is optional, if you would like a _SHORT_ message output
-// along with our copyright message indicating you are the translator
-// please add it here.
-// $lang['TRANSLATION'] = '';
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 // Main Stuff.
 $lang['Regular_Post'] = 'Messaggio normale (non visualizzato come News)';
@@ -36,9 +37,7 @@ $lang['Read_More'] = 'Leggi tutto';
 $lang['News_Categories'] = 'Categoria News';
 
 // Admin Stuff
-//
 // News Config
-//
 $lang['Add_news_categories'] = 'Aggiungi categoria News';
 $lang['News_Configuration'] = 'Configurazione News';
 $lang['News_Add_Description'] = 'Da questo pannello di controllo potete aggiungere delle nuove categorie per le news';

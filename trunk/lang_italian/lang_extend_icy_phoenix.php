@@ -10,7 +10,12 @@
 
 if (!defined('IN_ICYPHOENIX'))
 {
-	die('Hacking attempt');
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
 }
 
 $lang['10_Main_Settings_Icy_Phoenix'] = 'Icy Phoenix';
@@ -27,7 +32,7 @@ if ($lang_extend_admin)
 {
 	$lang['Lang_extend_icy_phoenix'] = 'Icy Phoenix';
 
-	// TAB - Icy Phoenix
+// TAB - Icy Phoenix
 	$lang['IP_enable_xs_version_check'] = 'Verifica Versione Icy Phoenix';
 	$lang['IP_enable_xs_version_check_explain'] = 'Abilitando questa opzione ogni volta che si entra in ACP viene verificato che la versione in uso di Icy Phoenix sia la pi&ugrave; aggiornata. Disabilitando questa opzione l\'ACP potrebbe caricarsi pi&ugrave; velocemente. In ogni caso la verifica viene fatta solo una volta al giorno, per cui il rallentamento si dovrebbe riscontrare solo la prima volta che si entra in ACP per ogni giorno.';
 
@@ -91,7 +96,7 @@ if ($lang_extend_admin)
 	$lang['IP_split_topic_2'] = 'Annunci Globali divisi, Annunci e Discussioni Importanti insieme, Discussioni Normali divise';
 	$lang['IP_split_topic_3'] = 'Tutte le Discussioni divise per tipo';
 
-	// TAB - SQL Charge
+// TAB - SQL Charge
 	$lang['IP_fast_n_furious'] = 'Fast And Furious';
 	$lang['IP_fast_n_furious_explain'] = 'Attivando questa opzione verranno disattivate alcune funzionalit&agrave; che richiedono un\'uso intensivo di SQL, accelerando cos&igrave; il caricamento delle pagine!';
 
@@ -171,7 +176,7 @@ if ($lang_extend_admin)
 	$lang['IP_show_random_quote'] = 'Citazioni Casuali :: Indice Del Forum';
 	$lang['IP_show_random_quote_explain'] = 'Attivando questa opzione verrano visualizzate le citazioni casuali nell\'<b>Indice Del Forum</b>.';
 
-	// TAB - Posting
+// TAB - Posting
 	$lang['IP_posts_precompiled'] = 'Disattiva messaggi precompilati';
 	$lang['IP_posts_precompiled_explain'] = 'Attivando questa opzione non verranno pi&ugrave; caricati i messaggi precompilati, per cui il caricamento sar&agrave; pi&ugrave; lento, ma rispetter&agrave; sempre le preferenze degli utenti su BBCode ed HTML (pu&ograve; essere utile in alcuni casi).';
 
@@ -188,7 +193,8 @@ if ($lang_extend_admin)
 	$lang['IP_show_new_reply_posting_explain'] = 'Attivando questa opzione verr&agrave; mostrato un avviso che indica che ci sono nuove risposte quando si risponde ad un argomento';
 
 	$lang['IP_no_bump'] = 'Blocca "Bump" per 24 ore';
-	$lang['IP_no_bump_explain'] = 'Abilitando questa opzione gli utenti che hanno inviato l\'ultimo messaggio in un argomento non saranno in grado di inviare nuovi messaggi a meno che non siano passate 24 ore dal loro ultimo messaggio o finch&eacute; qualcun altro non risponda';
+	$lang['IP_no_bump_explain'] = 'Abilitando questa opzione gli utenti che hanno inviato l\'ultimo messaggio in un argomento non saranno in grado di inviare nuovi messaggi a meno che non siano passate 24 ore dal loro ultimo messaggio o finch&eacute; qualcun altro non risponda (non si applica agli amministratori)';
+	$lang['MODS_ALLOWED'] = 'Consenti Moderatori';
 
 	$lang['IP_show_topic_description'] = 'Mostra Descrizione Argomento';
 	$lang['IP_show_topic_description_explain'] = 'Attivando questa opzione sar&agrave; possibile inserire e visualizzare la descrizione degli argomenti';
@@ -232,7 +238,7 @@ if ($lang_extend_admin)
 	$lang['IP_switch_bbcb_active_content'] = 'Consenti BBCodes con contenuto attivo';
 	$lang['IP_switch_bbcb_active_content_explain'] = 'Attiva BBCodes Flash, Video, Audio Streams, RealMedia e Quicktime.';
 
-	// TAB - Images In Posts
+// TAB - Images In Posts
 	$lang['IP_auth_view_pic_upload'] = 'Permessi Caricamento Immagini (Post Icy Images)';
 
 	$lang['IP_enable_postimage_org'] = 'Abilita il pulsante PostImage';
@@ -258,7 +264,7 @@ if ($lang_extend_admin)
 
 	$lang['IP_thumbnail_size'] = 'Dimensione miniature (in pixels)';
 
-	// TAB - Forum
+// TAB - Forum
 	$lang['Lang_extend_categories_hierarchy'] = 'SubCategorie';
 
 	$lang['Category_attachment'] = 'Contenuto in';
@@ -274,7 +280,7 @@ if ($lang_extend_admin)
 	$lang['Category_delete'] = 'Elimina categoria';
 	$lang['Category_delete_explain'] = 'In questa sezione potete rimuovere una categoria e decidere dove collocare tutti i forum e categorie in essa contenute.';
 
-	// forum links type
+// forum links type
 	$lang['Forum_link_url'] = 'Link URL';
 	$lang['Forum_link_url_explain'] = 'Potete impostare un URI verso un programma phpBB, o un URL completo verso un server esterno';
 	$lang['Forum_link_internal'] = 'Icy Phoenix File';
@@ -299,20 +305,23 @@ if ($lang_extend_admin)
 	$lang['icon'] = 'Icona';
 	$lang['icon_explain'] = 'Quest\'icona verr&agrave; visualizzata vicina al nome del forum. Potete impostare un link diretto o una chiave $image[] (vedi <i>tuo_template</i>/<i>tuo_template</i>.cfg).';
 
-	// TAB - Calendar
+// TAB - Calendar
 	$lang['Lang_extend_topic_calendar'] = 'Calendario';
 
-	// TAB - SEO
+// TAB - SEO
 	$lang['IP_url_rw'] = 'URL Rewrite';
 	$lang['IP_url_rw_explain'] = 'Attivando questa opzione verr&agrave; attivata per tutti gli utenti la funzione URL Rewrite (indirizzi in formato HTML anzich&eacute; in formato PHP per una migliore indicizzazione delle pagine).';
 
 	$lang['IP_url_rw_guests'] = 'URL Rewrite Ospiti';
 	$lang['IP_url_rw_guests_explain'] = 'Attivando questa opzione verr&agrave; attivata la funzione URL Rewrite solo per gli ospiti ed i bots.';
 
+	$lang['IP_bots_reg_auth'] = 'Permessi Accesso Bots REG';
+	$lang['IP_bots_reg_auth_explain'] = 'Attivando questa opzione ai Bots verranno attribuiti gli stessi permessi degli utenti registrati per l\'accesso ai forum e alle pagine CMS.';
+
 	$lang['IP_lofi_bots'] = 'LoFi Per Bots';
 	$lang['IP_lofi_bots_explain'] = 'Attivando questa opzione LoFi verr&agrave; abilitato per i bots.';
 
-	//Sitemap
+//Sitemap
 	$lang['Sitemap_settings'] = 'Impostazioni Google Sitemap';
 
 	$lang['IP_sitemap_topic_limit'] = 'Google Sitemap :: Limite Discussioni';
@@ -361,7 +370,7 @@ if ($lang_extend_admin)
 	$lang['IP_similar_ignore_forums_ids'] = 'Argomenti Simili :: Forums Ignorati';
 	$lang['IP_similar_ignore_forums_ids_explain'] = 'Inserisci l\'ID dei forum che vuoi vengano ignorati dalla ricerca (ad esempio forum di test o off topics). Inserire un ID per ciascuna riga.';
 
-	// TAB - Logging And Security
+// TAB - Logging And Security
 	$lang['IP_admin_protect'] = 'Proteggi Account Amministratore Principale';
 	$lang['IP_admin_protect_explain'] = 'Attivando questa opzione l\'account dell\'Amministratore Principale godr&agrave; di maggior sicurezza: nessun utente potr&agrave; modificare i suoi permessi.';
 
@@ -381,7 +390,7 @@ if ($lang_extend_admin)
 	$lang['IP_logs_path_explain'] = 'Inserisci il percorso per la memorizzazione dei logs degli errori e di altri eventuali logs. Il percorso deve essere relativo al percorso dove &egrave; installato il sito e senza slash finale. Esempio: <b>logs</b>.';
 
 
-	// lang_extend_mods_settings.php
+// lang_extend_mods_settings.php
 	$lang['Lang_extend_mods_settings'] = 'Impostazioni Icy Phoenix';
 	$lang['Configuration_extend'] = 'Icy Phoenix';
 	$lang['Override_user_choices'] = 'Sovrascrivi le scelte dell\'utente';

@@ -8,6 +8,16 @@
 *
 */
 
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
 // This block goes as default text in the emailed digest (mail_digests.php)
 $lang['digest_introduction'] = 'Come richesto, ecco qui il Digest dei messaggi inviati su ' . $board_config['sitename'] . '. Vieni a visitare il sito per partecipare alle discussioni!';
 $lang['digest_from_text_name'] = $board_config['sitename'] . ' Robot Digest';

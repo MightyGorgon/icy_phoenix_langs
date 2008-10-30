@@ -8,13 +8,15 @@
 *
 */
 
-//
-// The format of this file is ---> $lang['message'] = 'text';
-//
-// You should also try to set a locale and a character encoding (plus direction). The encoding and direction
-// will be sent to the template. The locale may or may not work, it's dependent on OS support and the syntax
-// varies ... give it your best guess!
-//
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 $lang['BBC_IP_CREDITS_STATIC'] = '
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
@@ -112,6 +114,19 @@ $lang['Enabled'] = 'Abilitato';
 $lang['Disabled'] = 'Disabilitato';
 $lang['Error'] = 'Errore';
 
+$lang['GO'] = 'Vai';
+$lang['JUMP_TO'] = 'Vai a';
+$lang['SUBMIT'] = 'Invia';
+$lang['RESET'] = 'Annulla';
+$lang['CANCEL'] = 'Annulla';
+$lang['PREVIEW'] = 'Anteprima';
+$lang['CONFIRM'] = 'Conferma';
+$lang['YES'] = 'Si';
+$lang['NO'] = 'No';
+$lang['ENABLED'] = 'Abilitato';
+$lang['DISABLED'] = 'Disabilitato';
+$lang['ERROR'] = 'Errore';
+
 $lang['Next'] = 'Successivo';
 $lang['Previous'] = 'Precedente';
 $lang['Goto_page'] = 'Vai a';
@@ -147,9 +162,7 @@ $lang['Admin_panel'] = 'ACP';
 $lang['Board_disabled'] = 'Spiacenti ma il sito al momento non &egrave; disponibile, prova pi&ugrave; tardi.';
 
 
-//
 // Global Header strings
-//
 $lang['Registered_users'] = 'Utenti Registrati:';
 $lang['Browsing_forum'] = 'Utenti presenti in questo Forum:';
 $lang['Online_users_zero_total'] = 'In totale ci sono <b>0</b> Utenti in linea: ';
@@ -249,9 +262,7 @@ $lang['Mark_all_forums'] = 'Segna come gi&agrave; letti';
 $lang['Forums_marked_read'] = 'Tutti i Forum sono stati segnati come gi&agrave; letti';
 
 
-//
 // Viewforum
-//
 $lang['View_forum'] = 'Guarda Forum';
 
 $lang['Forum_not_exist'] = 'Il Forum selezionato non esiste.';
@@ -293,9 +304,7 @@ $lang['Rules_moderate'] = '<b>Puoi</b> %sModerare questo Forum%s'; // %s replace
 $lang['No_topics_post_one'] = 'Non ci sono Argomenti in questo Forum oppure non ci sono Argomenti che iniziano con la lettera selezionata.<br />Clicca <b>Inserisci Nuovo Argomento</b> per crearne uno o seleziona un\'altra lettera.';
 
 
-//
 // Viewtopic
-//
 $lang['View_topic'] = 'Leggi Argomento';
 
 $lang['Guest'] = 'Ospite';
@@ -346,9 +355,7 @@ $lang['You_are_watching'] = 'Adesso stai controllando questo Argomento';
 
 $lang['Total_votes'] = 'Voti Totali';
 
-//
 // Posting/Replying (Not private messaging!)
-//
 $lang['Message_body'] = 'Struttura Messaggio';
 $lang['Topic_review'] = 'Revisione Argomento';
 
@@ -465,9 +472,7 @@ $lang['font_huge'] = 'Enorme';
 $lang['Close_Tags'] = 'Chiudi i Tags';
 $lang['Styles_tip'] = 'Suggerimento: gli stili possono essere applicati velocemente al testo selezionato';
 
-//
 // Private Messaging
-//
 $lang['Private_Messaging'] = 'Messaggi Privati';
 
 $lang['Login_check_pm'] = 'Messaggi Privati';
@@ -665,9 +670,7 @@ $lang['password_confirm_if_changed'] = 'Devi confermare la tua password solo se 
 $lang['Avatar'] = 'Avatar';
 // MOD: Remote Avatar Resize  - by tomlevens (tom@tomlevens.co.uk)
 // (1 line replaced - original lines follow)
-//
 // $lang['Avatar_explain'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %d KB.';
-//
 $lang['Avatar_explain'] = 'Mostra una piccola immagine grafica sotto i tuoi dettagli nel Messaggio. Pu&ograve; essere mostrata una sola immagine alla volta, la sua larghezza massima &egrave; di %d pixels, l\'altezza di %d pixels e il file deve essere pi&ugrave; piccolo di %d KB. Gli avatar con Link Esterno saranno ridimensionati automaticamente.';
 //
 // END MOD
@@ -781,9 +784,7 @@ $lang['Sort_Descending'] = 'Decrescente';
 $lang['Order'] = 'Ordina';
 
 
-//
 // Group control panel
-//
 $lang['Group_Control_Panel'] = 'Pannello Di Controllo Gruppo';
 $lang['Group_member_details'] = 'Gruppi di cui sei membro';
 $lang['Group_member_join'] = 'Gruppi a cui puoi iscriverti';
@@ -888,9 +889,7 @@ $lang['Found_search_matches'] = 'La ricerca ha trovato %d risultati'; // eg. Sea
 $lang['Close_window'] = 'Chiudi Finestra';
 
 
-//
 // Auth related entries
-//
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['Sorry_auth_announce'] = 'Solo %s possono inviare Annunci.';
 $lang['Sorry_auth_sticky'] = 'Solo %s possono inviare Messaggi importanti.';
@@ -915,9 +914,7 @@ $lang['Not_Authorised'] = 'Non Autorizzato';
 $lang['You_been_banned'] = 'Sei stato escluso da questo Forum.<br />Contatta l\'Amministratore o Webmaster del Sito per ulteriori informazioni.';
 
 
-//
 // Viewonline
-//
 $lang['Reg_users_zero_online'] = 'Ci sono 0 Utenti Registrati e '; // There are 5 Registered and
 $lang['Reg_users_online'] = 'Ci sono %d Utenti Registrati e '; // There are 5 Registered and
 $lang['Reg_user_online'] = 'C\'&egrave; %d Utente Registrato e '; // There is 1 Registered and
@@ -950,9 +947,7 @@ $lang['Viewing_KB'] = 'Sta guardando la KB';
 $lang['Viewing_RSS'] = 'RSS feed';         // RSS Feed Mod
 
 
-//
 // Moderator Control Panel
-//
 $lang['Mod_CP'] = 'Pannello Di Controllo Moderatori';
 $lang['Mod_CP_explain'] = 'Utilizzando il modulo qui sotto puoi eseguire operazioni di massa su questo Forum. Puoi bloccare, sbloccare, spostare o cancellare.';
 
@@ -997,9 +992,7 @@ $lang['IP_info'] = 'Informazioni indirizzo IP';
 $lang['Lookup_IP'] = 'Cerca indirizzo IP';
 
 
-//
 // Timezones ... for display on each page
-//
 $lang['All_times'] = 'Tutti i fusi orari sono %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
 $lang['-12'] = 'GMT - 12 ore';
@@ -1140,8 +1133,8 @@ $lang['Birthday_to_high'] = 'Spiacente, questo sito, non accetta user oltre %d a
 $lang['Birthday_require'] = 'La tua data di nascita &egrave; richiesta in questo sito';
 $lang['Birthday_to_low'] = 'Spiacente, questo sito, non accetta user con meno di %d anni di et&agrave;';
 $lang['Submit_date_format'] = 'd-m-Y'; //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different seperators are accepted)
-$lang['Birthday_greeting_today'] = 'I nostri migliori auguri per i tuoi %s anni <br /><br />';//%s is substituted with the users age
-$lang['Birthday_greeting_prev'] = 'I nostri migliori auguri per aver compiuto %s anni il %s.<br /><br />';//%s is substituted with the users age, and birthday
+$lang['Birthday_greeting_today'] = 'I nostri migliori auguri per i tuoi %s anni.';//%s is substituted with the users age
+$lang['Birthday_greeting_prev'] = 'I nostri migliori auguri per aver compiuto %s anni il %s.';//%s is substituted with the users age, and birthday
 $lang['Greeting_Messaging'] = 'Buon Compleanno!!!';
 $lang['Birthday_today'] = 'Oggi &egrave; il compleanno di:';
 $lang['Birthday_week'] = 'Nei prossimi %d giorni &egrave; il compleanno di:';
@@ -1301,12 +1294,6 @@ $lang['No_gender_specify'] = 'Non Specificato';
 $lang['Gender_require'] = 'Su questo sito E\' necessario specificare il proprio sesso.';
 // End add - Gender MOD
 
-// Start add - BBCodes & smilies enhancement MOD
-$lang['bbcode_url'] = 'Inserisci URL (es. http://www.icyphoenix.com)';
-$lang['bbcode_url_title'] = 'Inserisci il titolo del Link';
-$lang['bbcode_url_empty'] = 'Non hai inserito l\'URL';
-$lang['bbcode_url_errors'] = 'Errore!';
-// End add - BBCodes & smilies enhancement MOD
 $lang['Download_Code'] = 'download';
 
 // db_update generator
@@ -1322,15 +1309,15 @@ $lang['Download'] = 'Download';
 $lang['TOP_POSTERS'] = 'Utenti Migliori';
 
 // Tell A Friend
-$lang['Tell_Friend'] = 'Segnala via email';
-$lang['Tell_Friend_Sender_User'] = 'Il tuo nome';
-$lang['Tell_Friend_Sender_Email'] = 'Il tuo indirizzo email';
-$lang['Tell_Friend_Reciever_User'] = 'Il nome del tuo amico';
-$lang['Tell_Friend_Reciever_Email'] = 'L\'indirizzo email del tuo amico';
-$lang['Tell_Friend_Wrong_Email'] = 'L\'indirizzo email indicato non &egrave; valido.';
-$lang['Tell_Friend_Msg'] = 'Il tuo messaggio:';
-$lang['Tell_Friend_Title'] = 'Segnala ad un amico';
-$lang['Tell_Friend_Body'] = "Ciao,\nho letto questa discussione sull'argomento &raquo;{TOPIC}&laquo; su {SITENAME} ed ho pensato che potrebbe interessarti.\n\nQuesto &egrave; il link: {LINK}\n\nVai e leggi e, se vuoi rispondere, ricordati che probabilmente dovrai registrarti.";
+$lang['TELL_FRIEND'] = 'Segnala via email';
+$lang['TELL_FRIEND_SENDER_USER'] = 'Il tuo nome';
+$lang['TELL_FRIEND_SENDER_EMAIL'] = 'Il tuo indirizzo email';
+$lang['TELL_FRIEND_RECIEVER_USER'] = 'Il nome del tuo amico';
+$lang['TELL_FRIEND_RECIEVER_EMAIL'] = 'L\'indirizzo email del tuo amico';
+$lang['TELL_FRIEND_WRONG_EMAIL'] = 'L\'indirizzo email indicato non &egrave; valido.';
+$lang['TELL_FRIEND_MSG'] = 'Il tuo messaggio:';
+$lang['TELL_FRIEND_TITLE'] = 'Segnala ad un amico';
+$lang['TELL_FRIEND_BODY'] = "Ciao,\nho letto questa discussione sull'argomento &raquo;{TOPIC}&laquo; su {SITENAME} ed ho pensato che potrebbe interessarti.\n\nQuesto &egrave; il link: {LINK}\n\nVai e leggi e, se vuoi rispondere, ricordati che probabilmente dovrai registrarti.";
 
 // Default Subject on Reply
 $lang['RE'] = 'Re';
@@ -1620,23 +1607,23 @@ $lang['private_msg_review_error'] = 'Errore nella Ricerca dei Messaggi Privati!'
 /* End Private Message Review By aUsTiN */
 
 
-$lang['BSH_Viewing_Topic'] 				= 'Sta Guardando la discussione: %t%';
-$lang['BSH_Viewing_Post'] 				= '%sSta Guardando un Messaggio%s';
-$lang['BSH_Viewing_Profile'] 			= 'Sta Guardando il Profilo di %u%';
-$lang['BSH_Viewing_Groups'] 			= '%sSta Guardando i Gruppi%s';
-$lang['BSH_Viewing_Forums'] 			= 'Sta Guardando il Forum: %f%';
-$lang['BSH_Index']						= '%sSta Guardando l\'Indice%s';
-$lang['BSH_Searching_Forums'] 			= '%sSta Cercando nei Forum%s';
-$lang['BSH_Viewing_Onlinelist'] 		= '%sSta Guardando la lista degli Utenti Online%s';
-$lang['BSH_Viewing_Messages'] 			= '%sSta Guardando i Messaggi Privati%s';
-$lang['BSH_Viewing_Memberlist']			= '%sSta Guardano la Lista degli Utenti%s';
-$lang['BSH_Login'] 						= '%sSta Effettuando il Login%s';
-$lang['BSH_Logout'] 					= '%sSta Effettuando il LogOut%s';
-$lang['BSH_Editing_Profile'] 			= '%sSta modificando il Profilo%s';
-$lang['BSH_Viewing_ACP'] 				= '%sSta Guardando l\'ACP%s';
-$lang['BSH_Moderating_Forum'] 			= '%sSta Moderando i Forum%s';
-$lang['BSH_Viewing_FAQ']				= '%sSta Guardando le FAQ%s';
-$lang['BSH_Viewing_Category'] 			= 'Sta Guardando la Categoria: %c%';
+$lang['BSH_Viewing_Topic'] = 'Sta Guardando la discussione: %t%';
+$lang['BSH_Viewing_Post'] = '%sSta Guardando un Messaggio%s';
+$lang['BSH_Viewing_Profile'] = 'Sta Guardando il Profilo di %u%';
+$lang['BSH_Viewing_Groups'] = '%sSta Guardando i Gruppi%s';
+$lang['BSH_Viewing_Forums'] = 'Sta Guardando il Forum: %f%';
+$lang['BSH_Index'] = '%sSta Guardando l\'Indice%s';
+$lang['BSH_Searching_Forums'] = '%sSta Cercando nei Forum%s';
+$lang['BSH_Viewing_Onlinelist'] = '%sSta Guardando la lista degli Utenti Online%s';
+$lang['BSH_Viewing_Messages'] = '%sSta Guardando i Messaggi Privati%s';
+$lang['BSH_Viewing_Memberlist'] = '%sSta Guardano la Lista degli Utenti%s';
+$lang['BSH_Login'] = '%sSta Effettuando il Login%s';
+$lang['BSH_Logout'] = '%sSta Effettuando il LogOut%s';
+$lang['BSH_Editing_Profile'] = '%sSta modificando il Profilo%s';
+$lang['BSH_Viewing_ACP'] = '%sSta Guardando l\'ACP%s';
+$lang['BSH_Moderating_Forum'] = '%sSta Moderando i Forum%s';
+$lang['BSH_Viewing_FAQ'] = '%sSta Guardando le FAQ%s';
+$lang['BSH_Viewing_Category'] = 'Sta Guardando la Categoria: %c%';
 
 $lang['Board_statistic'] = 'Statistiche Forum';
 $lang['Database_statistic'] = 'Statistiche Database';
@@ -1725,9 +1712,7 @@ $lang['Browsing_topic'] = 'Online in questo argomento:';
 //041
 $lang['Sudoku'] = 'Sudoku';
 
-//
 // Bookmarks Mod
-//
 $lang['Bookmarks'] = 'Segnalibri';
 $lang['Set_Bookmark'] = 'Imposta un segnalibro per questo argomento';
 $lang['Remove_Bookmark'] = 'Rimuovi segnalibro per questo argomento';
@@ -2339,6 +2324,15 @@ $lang['Redirect_to'] = 'Se il vostro browser non supporta le il reindirizzamento
 
 $lang['InProgress'] = 'In corso';
 
+$lang['HAPPY_BIRTHDAY'] = 'Buon Compleanno';
+
+$lang['DOWNLOADED'] = 'Scaricato';
+$lang['FILESIZE'] = 'Dimensione';
+$lang['FILENAME'] = 'Nome file';
+$lang['FILE_NOT_AUTH'] = 'Non hai i permessi sufficienti per scaricare il file';
+
+$lang['SHOW_POSTS_FROM'] = 'Mostra messaggi da';
+$lang['SHOW_POSTS_TO'] = 'a';
 //$lang[''] = '';
 
 //====================================================
