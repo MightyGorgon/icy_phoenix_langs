@@ -232,7 +232,7 @@ $lang['item_c_p_f'] = 'Custom Profile Fields';
 $lang['item_friend_foe_list'] = 'Friends / Foe List';
 
 /*********/
-$lang['cat_priv_messaging'] = 'Private Messaging';
+$lang['cat_priv_messaging'] = 'Private Messages';
 
 $lang['item_add_pm_folder'] = 'Additional PM Folders';
 $lang['item_custom_pm_filter'] = 'Customisable PM Filter Rules';

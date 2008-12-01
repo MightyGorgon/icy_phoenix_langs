@@ -211,6 +211,7 @@ $lang['cms_block_random_attach'] = 'Allegato Casuale';
 $lang['cms_block_random_quote'] = 'Citazione Casuale';
 $lang['cms_block_random_topics'] = 'Argomento Casuale';
 $lang['cms_block_random_topics_ver'] = 'Argomento Casuale';
+$lang['cms_block_random_user'] = 'Utente Casuale';
 $lang['cms_block_recent_articles'] = 'Articoli Recenti';
 $lang['cms_block_recent_topics'] = 'Argomenti Recenti';
 $lang['cms_block_recent_topics_wide'] = 'Argomenti Recenti';

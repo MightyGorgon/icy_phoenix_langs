@@ -63,11 +63,11 @@ if ($lang_extend_admin)
 	$lang['IP_switch_header_dropdown'] = 'Attiva menu a discesa in header';
 	$lang['IP_switch_header_dropdown_explain'] = 'Questa opzione consente di attivare il menu a discesa nell\'intestazione di ogni pagina per la ricerca dei messaggi.';
 
-	$lang['IP_show_alpha_bar'] = 'Mostra Barra Ordinamento Alfabetico Argomenti';
-	$lang['IP_show_alpha_bar_explain'] = 'Attivando questa opzione verr&agrave; mostrata in cima alla visualizzazione dei forum una barra per l\'ordinamento alfabetico degli argomenti.';
+	$lang['IP_show_alpha_bar'] = 'Blocco Ordinamento Alfabetico Argomenti (Globale)';
+	$lang['IP_show_alpha_bar_explain'] = 'Attivando questa opzione verr&agrave; mostrata in cima alla visualizzazione dei forum una barra per l\'ordinamento alfabetico degli argomenti. La visualizzazione deve comunque essere impostata per ciascun forum nella gestione dei forum.';
 
-	$lang['IP_show_rss_forum_icon'] = 'Icone Indice Forum';
-	$lang['IP_show_rss_forum_icon_explain'] = 'Questa opzione mostra delle icone accanto il titolo di ogni forum: RSS, Nuovo Argomento...';
+	$lang['IP_show_rss_forum_icon'] = 'Icone Indice Forum (Globale)';
+	$lang['IP_show_rss_forum_icon_explain'] = 'Questa opzione mostra delle icone accanto il titolo di ogni forum: RSS, Nuovo Argomento. La visualizzazione deve comunque essere impostata per ciascun forum nella gestione dei forum.';
 
 	$lang['IP_allow_mods_view_self'] = 'Consenti accesso ad argomenti con permessi SELF AUTH a TUTTI i Moderatori';
 	$lang['IP_allow_mods_view_self_explain'] = 'Se un forum ha permessi di accesso solo per i PROPRI messaggi (SELF AUTH) soltanto gli amministratori ed i moderatori di quel forum possono visualizzare tutti i messaggi, altrimenti ciascun utente potr&agrave; visualizzare soltanto i propri messaggi. Purtroppo ci sono vie secondarie che in qualche modo consentono l\'accesso a questi messaggi "riservati", e per questo &egrave; stata programmata una funzione di controllo che consente soltanto agli amministratori di accedere a tutti i messaggi in sezioni come: Argomenti Recenti, Ricerca, Blocchi relativi a messaggi... Se vuoi consentirne l\'accesso secondario anche a TUTTI i moderatori (dunque non soltanto agli amministratori) allora abilita questa opzione. Ricorda che l\'accesso secondario non pu&ograve; essere riservato ai soli moderatori delle sezioni con SELF AUTH, perch&eacute; questo richiederebbe molto carico SQL in pi&ugrave;. Se non usi forum con permessi SELF AUTH allora non hai bisogno di questa funzione.';
@@ -348,13 +348,14 @@ if ($lang_extend_admin)
 	$lang['IP_word_graph_word_counts'] = 'TAGS :: Abilita Conteggio Parole';
 	$lang['IP_word_graph_word_counts_explain'] = 'Visualizza il numero di ricorrenze a fianco di ogni parola. Es: <b>Icy Phoenix (365)</b>?';
 
-	$lang['IP_forum_wordgraph'] = 'TAGS :: Forum Tags';
-	$lang['IP_forum_wordgraph_explain'] = 'Questa funzione abilita la visualizzazione dei tags pi&ugrave; usati per ogni forum';
+	$lang['IP_forum_wordgraph'] = 'TAGS :: Forum Tags (Globale)';
+	$lang['IP_forum_wordgraph_explain'] = 'Questa funzione abilita la visualizzazione dei tags pi&ugrave; usati per ogni forum. La visualizzazione deve comunque essere impostata per ciascun forum nella gestione dei forum.';
 
 	$lang['Similar_topics'] = 'Argomenti Simili';
 	$lang['Similar_topics_explain'] = 'In questa pagina puoi configurare la ricerca di argomenti simili.';
 
-	$lang['IP_similar_topics'] = 'Argomenti Simili :: Attiva Argomenti Simili';
+	$lang['IP_similar_topics'] = 'Argomenti Simili :: Attiva Argomenti Simili (Globale)';
+	$lang['IP_similar_topics_explain'] = 'Per poter visualizzare gli argomenti simili &egrave; necessario attivare questa opzione. La visualizzazione deve comunque essere impostata per ciascun forum nella gestione dei forum.';
 
 	$lang['IP_similar_topics_desc'] = 'Argomenti Simili :: Prendi in considerazione anche la descrizione degli argomenti';
 

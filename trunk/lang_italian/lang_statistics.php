@@ -26,7 +26,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 // Statistics Information
-$lang['Version_info'] = '<br />Statistics Mod Versione %s <a href="http://www.opentools.de/board">Acyd Burn</a>'; //%s = number
+$lang['Version_info'] = '<br />Statistiche programmate da <a href="http://www.icyphoenix.com/">Mighty Gorgon</a> basate su Statistics Mod Versione %s <a href="http://www.opentools.de/board">Acyd Burn</a>'; //%s = number
 $lang['Install_info'] = 'Installato il %s'; //%s = date
 $lang['Viewed_info'] = 'Pagina Statistiche visualizzata %d volte'; //%d = number
 
@@ -87,15 +87,18 @@ $lang['Back_to_management'] = 'Ritorna alla schermata di amministrazione';
 $lang['Statistics_modules_title'] = 'Gestione Moduli Statistiche';
 
 $lang['Module_name'] = 'Nome';
+$lang['Module_file_name'] = 'Nome Modulo';
+$lang['Modules_order_update'] = 'Moduli Aggiornati';
 $lang['Directory_name'] = 'Nome Directory';
 $lang['Status'] = 'Stato';
 $lang['Update_time_minutes'] = 'Tempo di aggiornamento in minuti';
 $lang['Update_time_desc'] = 'Intervallo di tempo (in Minuti) per l\'aggiornamento dei dati nella cache.';
-$lang['Auto_set_update_time'] = 'Determinare e impostare il valore raccomandato per il tempo di aggiornamento dei dati di qualsiasi modulo installato (e attivo). Attenzione: Il tempo necessario potrebbe essere lungo.';
+$lang['Auto_set_update_time'] = 'Determinare e impostare il valore raccomandato per il periodo di aggiornamento dei dati dei moduli installati (e attivi).<br />Attenzione: Il tempo necessario potrebbe essere lungo.<br />Consiglio: puoi variare l\'ordine dei moduli usando il "Drag and Drop".';
 $lang['Uninstall_module'] = 'Disinstalla modulo';
 $lang['Uninstall_module_desc'] = 'Imposta il modulo con il flag "non installato", e quindi lo rende disponibile per nuove installazione. Il modulo non viene rimosso dal file system, dovete rimuoverlo manualmente della directory dei moduli.';
 $lang['Active_desc'] = 'Opzione che, qualora il modulo sia attivo, questo viene visualizzato in base ai permessi.';
 $lang['Go'] = 'Vai';
+$lang['Update_Modules'] = 'Aggiorna Moduli';
 
 $lang['Not_allowed_to_install'] = 'Non e\' possibile installare questo modulo. Probabilmente perche\' non avete installato un MOD necessario per installare questo Modulo. Contattare l\'autore del modulo per ulteriori informazioni o consultate eventuale documentazione.';
 $lang['Wrong_stats_mod_version'] = 'Non potete installare questo modulo, perche\' la versione di Statistic Mod installata non corrisponde con quella richiesta. Modulo compatibile con la versione %s.'; // replace %s with Version (2.1.3 for example)
@@ -110,7 +113,7 @@ $lang['Update_time_recommend'] = 'Il Mod raccomanda (in base alle informazioni d
 
 $lang['module_name__stats_overview_section'] = 'Tabella Riassuntiva Statistiche';
 
-$lang['module_name_admin_statistics'] = 'Administrative Statistics';
+$lang['module_name_admin_statistics'] = 'Statistiche Amministrative';
 $lang['Statistic'] = 'Statistiche';
 $lang['Value'] = 'Valore';
 $lang['Number_posts'] = 'Numero di messaggi';
@@ -134,6 +137,11 @@ $lang['Title'] = 'Media Post';
 $lang['Average_Posts'] = 'Media Post';
 
 $lang['module_name_average_posts_per_user'] = 'Media Post';
+
+$lang['module_name_age_clusters'] = 'Fasce Et&agrave;';
+$lang['AGE'] = 'Et&agrave;';
+$lang['LESS_THAN'] = 'Meno di';
+$lang['MORE_THAN'] = 'Pi&ugrave; di';
 
 $lang['module_name_fastest_users'] = 'Utenti Pi&ugrave; Veloci';
 $lang['time_on_forum'] = 'Giorni nel Forum';
@@ -204,10 +212,16 @@ $lang['Traffic_reg'] = 'Traffico per Giorno della Settimana: Nuovi Utenti';
 $lang['Dow'] = 'Giorno';
 $lang['New_users'] = 'Nuovi Utenti';
 
-$lang['module_name_site_hist_month_top_posters'] = 'Top Posters di questo mese';
+$lang['module_name_site_hist_daily_stats_current_week'] = 'Statistiche Settimanali';
+
+$lang['module_name_site_hist_hours_stats_current_day'] = 'Statistiche Odierne';
+
+$lang['module_name_site_hist_month_top_posters'] = 'Top Posters Mese Corrente';
 $lang['Month_Var'] = '[%s]'; // %s will be replaced by the current Month
 
-$lang['module_name_site_hist_week_top_posters'] = 'Top Posters di questa settimana';
+$lang['module_name_site_hist_monthly_stats_current_year'] = 'Statistiche Mensili';
+
+$lang['module_name_site_hist_week_top_posters'] = 'Top Posters Settimana Corrente';
 $lang['Week_Var'] = '[%s]'; // %s will be replaced by the current Week
 
 $lang['module_name_top_attachments'] = 'Allegati Pi&ugrave; Scaricati';
@@ -216,9 +230,9 @@ $lang['File_comment'] = 'Commenti';
 
 $lang['module_name_top_posters'] = 'Top Posters';
 
-$lang['module_name_top_smilies'] = 'Smileys Pi&ugrave; Usate';
-$lang['smiley_url'] = 'Immagine Emoticon';
-$lang['smiley_code'] = 'Codice Emoticon';
+$lang['module_name_top_smilies'] = 'Smileys Pi&ugrave; Usati';
+$lang['smiley_url'] = 'Immagine';
+$lang['smiley_code'] = 'Codice';
 
 $lang['module_name_top_words'] = 'Parole Pi&ugrave; Usate';
 $lang['Word'] = 'Parola';

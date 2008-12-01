@@ -476,15 +476,15 @@ $lang['Styles_tip'] = 'Suggerimento: gli stili possono essere applicati veloceme
 $lang['Private_Messaging'] = 'Messaggi Privati';
 
 $lang['Login_check_pm'] = 'Messaggi Privati';
-$lang['New_pms'] = '%d nuovi Messaggi'; // You have 2 new messages
-$lang['New_pm'] = '%d nuovo Messaggio'; // You have 1 new message
-$lang['No_new_pm'] = 'Non ci sono nuovi Messaggi Privati';
-$lang['Unread_pms'] = '%d Messaggi non letti';
-$lang['Unread_pm'] = '%d Messaggio non letto';
-$lang['No_unread_pm'] = 'Hai letto tutti i Messaggi';
-$lang['You_new_pm'] = 'Hai un nuovo Messaggio in Posta in Arrivo';
-$lang['You_new_pms'] = 'Ci sono nuovi Messaggi in Posta in Arrivo';
-$lang['You_no_new_pm'] = 'Non ci sono nuovi messaggi';
+$lang['New_pms'] = '%d nuovi MP'; // You have 2 new messages
+$lang['New_pm'] = '%d nuovo MP'; // You have 1 new message
+$lang['No_new_pm'] = 'Non ci sono nuovi MP';
+$lang['Unread_pms'] = '%d MP non letti';
+$lang['Unread_pm'] = '%d MP non letto';
+$lang['No_unread_pm'] = 'Hai letto tutti i MP';
+$lang['You_new_pm'] = 'Hai un nuovo MP in Posta in Arrivo';
+$lang['You_new_pms'] = 'Ci sono nuovi MP in Posta in Arrivo';
+$lang['You_no_new_pm'] = 'Non ci sono nuovi MP';
 
 $lang['Unread_message'] = 'Messaggio da leggere';
 $lang['Read_message'] = 'Messaggio letto';
@@ -992,7 +992,7 @@ $lang['IP_info'] = 'Informazioni indirizzo IP';
 $lang['Lookup_IP'] = 'Cerca indirizzo IP';
 
 
-// Timezones ... for display on each page
+// Timezones - BEGIN
 $lang['All_times'] = 'Tutti i fusi orari sono %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
 $lang['-12'] = 'GMT - 12 ore';
@@ -1102,6 +1102,7 @@ $lang['datetime']['Sep'] = 'Set';
 $lang['datetime']['Oct'] = 'Ott';
 $lang['datetime']['Nov'] = 'Nov';
 $lang['datetime']['Dec'] = 'Dic';
+// Timezones - END
 
 //
 // Errors (not related to a
@@ -2333,6 +2334,9 @@ $lang['FILE_NOT_AUTH'] = 'Non hai i permessi sufficienti per scaricare il file';
 
 $lang['SHOW_POSTS_FROM'] = 'Mostra messaggi da';
 $lang['SHOW_POSTS_TO'] = 'a';
+
+$lang['SEE_MORE_DETAILS'] = 'See more details...';
+
 //$lang[''] = '';
 
 //====================================================

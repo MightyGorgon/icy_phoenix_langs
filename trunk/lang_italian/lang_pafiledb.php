@@ -243,7 +243,7 @@ $lang['Dls'] = 'Scaricato';
 // MX Addon
 $lang['Deletefile'] = 'Cancella file';
 $lang['Editfile'] = 'Modifica file';
-$lang['pa_MCP'] = '[PC Moderatore]';
+$lang['pa_MCP'] = 'PC Moderatore';
 $lang['Click_return_not_validated'] = 'Clicca %sQUI%s per ritornare alla pagina precedente';
 
 ?>

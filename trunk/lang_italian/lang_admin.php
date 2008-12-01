@@ -412,6 +412,17 @@ $lang['prune_freq'] = 'Verifica l\'et&agrave; degli argomenti ogni';
 $lang['prune_days'] = 'Rimuovi gli argomenti che non hanno avuto risposte per';
 $lang['Set_prune_data'] = 'Hai attivato l\'eliminazione automatica per questo forum ma non hai impostato la frequenza o il numero di giorni per l\'autoeliminazione. Torna indietro e attivalo';
 
+$lang['FORUM_SIMILAR_TOPICS'] = 'Argomenti Simili';
+$lang['FORUM_SIMILAR_TOPICS_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata una tabella con gli argomenti simili nella visualizzazione degli argomenti in questo forum';
+$lang['FORUM_TAGS'] = 'Forum Tags';
+$lang['FORUM_TAGS_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata una tabella con le parole pi&ugrave; ricorrenti in questo forum';
+$lang['FORUM_SORT_BOX'] = 'Casella Ordinamento';
+$lang['FORUM_SORT_BOX_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata la casella per ordinare alfabeticamente gli argomenti in questo forum';
+$lang['FORUM_KB_MODE'] = 'Modalit&agrave; KB';
+$lang['FORUM_KB_MODE_EXPLAIN'] = 'Attivando questa opzione il forum verr&agrave; visualizzato usando la modalit&agrave; Knowledge Base';
+$lang['FORUM_INDEX_ICONS'] = 'Icone RSS E Nuovo Argomento';
+$lang['FORUM_INDEX_ICONS_EXPLAIN'] = 'Attivando questa opzione verranno mostrate le icone per il feed RSS e Nuovo Argomento nell\'indice del forum';
+
 $lang['Move_and_Delete'] = 'Sposta e Cancella';
 
 $lang['Delete_all_posts'] = 'Cancella tutti i messaggi';
@@ -1076,7 +1087,7 @@ $lang['MOD_OS_ForumRules'] = 'Regole del Forum';
 $lang['Forum_rules'] = 'Regole del Forum';
 $lang['Rules_display_title'] = 'Visualizza il titolo nel Box delle Regole del Forum?';
 $lang['Rules_custom_title'] = 'Titolo Personalizzato';
-$lang['Rules_appear_in'] = 'Queste Regole del Forum appariranno...';
+$lang['Rules_appear_in'] = 'Queste regole appariranno...';
 $lang['Rules_in_viewforum'] = 'Visualizzando questo Forum';
 $lang['Rules_in_viewtopic'] = 'Visualizzando le discussioni in questo Forum';
 $lang['Rules_in_posting'] = 'Rispondendo o Inviando un messaggio in questo Forum';

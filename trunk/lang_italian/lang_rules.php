@@ -68,6 +68,7 @@ $faq[] = array('Comportamento degli utenti', 'Il comportamento degli Utenti dovr
 $faq[] = array('Contenuti non ammessi', 'Non sono ammessi "Contenuti" che siano:
 - illeciti, minatori, molesti, diffamatori, osceni, razzisti, lesivi della privacy altrui, dannosi ai minori, irrispettosi delle minoranze etniche e religiose
 - rivolti all\'apologia del fascismo e del nazismo
+- politici ove vengano inseriti riferimenti a fatti non dimostrabili
 - sacrileghi nei confronti di religioni o credi religiosi
 - istigatori ad attivit&agrave; illecite, attivit&agrave; terroristiche, associazioni a delinquere, a gruppi di tipo eversivo
 - lesivi di diritti d\'autore o copyright su testi, fotografie, immagini, software, audio, video e quant\'altro protetto dalla SIAE o altri Enti o Soggetti Giuridici italiani o esteri

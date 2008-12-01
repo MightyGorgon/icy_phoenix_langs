@@ -47,6 +47,7 @@ $lang['Title_poll'] = 'Sondaggio';
 $lang['Title_random_attach'] = 'Allegato casuale';
 $lang['Title_random_topics'] = 'Argomenti Casuali';
 $lang['Title_random_topics_ver'] = 'Argomenti Casuali';
+$lang['Title_random_user'] = 'Utente Casuale';
 $lang['Title_recent_articles'] = 'Ultimi Articoli';
 $lang['Title_recent_topics'] = 'Argomenti Recenti';
 $lang['Title_recent_topics_wide'] = 'Messaggi Recenti';
