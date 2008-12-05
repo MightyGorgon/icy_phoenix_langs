@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * (c) 2002 Meik Sievertsen (Acyd Burn)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -120,9 +120,9 @@ $lang = array_merge($lang, array(
     'Note_user_empty_group_permissions' => 'Hinweis:<br />Dir ist es normalerweise gestattet, Dateien in diesem Forum anzuhängen, <br />da es aber keiner Extension Group gestattet ist, hier angehängt zu werden,<br />kannst du nichts anhängen. Wenn du es versuchst, <br />wirst du eine Fehlermeldung erhalten.<br />',
 
 // Quota Variables
-    'Upload_quota' => 'Upload Quota',
-    'Pm_quota' => 'PN Quota',
-    'User_upload_quota_reached' => 'Du hast das maximale Upload Quota Limit von %d %s erreicht.', // replace %d with Size, %s with Size Lang (MB for example)
+    'Upload_quota' => 'Upload Kontingent',
+    'Pm_quota' => 'PN Kontingent',
+    'User_upload_quota_reached' => 'Du hast das maximale Upload Kontingent Limit von %d %s erreicht.', // replace %d with Size, %s with Size Lang (MB for example)
 
 // User Attachment Control Panel
     'User_acp_title' => 'Benutzer ACP',

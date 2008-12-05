@@ -34,16 +34,16 @@ $lang['Default_META_Copyright'] = '(c) 2001-2006 Mighty Gorgon';
 
 $lang['Welcome_Message'] = 'Willkommen bei <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Willkommen bei %s';
-$lang['register_pm'] = 'Hallo!<br /><br />Willkommen bei %s. <br /><br />Wir hoffen du genießt die Zeit hier auf unserer Seite! <br /><br />Fühle dich frei um mitzumachen und mit anderen Deine Erfahrungen auszutauschen oder Deine eigene Diskussion zu starten!<br /><br />~Viel Spaß!<br />%s';
+$lang['register_pm'] = 'Hallo!\n\nWillkommen bei %s.\n\nWir hoffen du genießt die Zeit hier auf unserer Seite! <br /><br />Fühle dich frei um mitzumachen und mit anderen Deine Erfahrungen auszutauschen oder Deine eigene Diskussion zu starten!<br /><br />~Viel Spaß!<br />%s';
 
 $lang['Support_Us'] = 'Unterstützt uns';
 $lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '" title="' . $lang['Support_Us'] . '" />';
 /* Beispiel Code den du hinzufügen kannst... Ersetze ihn mit deinem eigenen.
 $lang['PayPal'] = '
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="image" src="images/paypal.gif" border="0" name="submit" alt="' . $lang['Support_Us'] . '">
-<input type="hidden" name="encrypted" value="">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="image" src="images/paypal.gif" name="submit" alt="' . $lang['Support_Us'] . '" style="border-width:0px;" />
+<input type="hidden" name="encrypted" value="" />
 </form>
 ';
 */

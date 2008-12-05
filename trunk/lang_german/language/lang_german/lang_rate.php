@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Nivisec.com (support@nivisec.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -27,7 +27,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-    'Already_Rated' => 'Deine Wertung: <b>%d</b>', //%d = their rate
+    'Already_Rated' => 'Deine Bewertung: <b>%d</b>', //%d = their rate
     'Rate_Stats' => '<b>%.2f</b>', //%.2f = average, %d = min, %d = max, %d # of ratings
     'Rate' => 'Bewerten',
     'Choose_Rating' => 'Wertung auswählen',

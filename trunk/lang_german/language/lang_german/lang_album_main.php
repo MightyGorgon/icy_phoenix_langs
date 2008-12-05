@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Smartor (smartor_xp@hotmail.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -135,9 +135,9 @@ $lang = array_merge($lang, array(
     'Album_upload_partially_successful' => 'Nur ein Teil der Bilder wurde erfolgreich hochgeladen.<br /><br />',
     'No_pictures_selected_for_upload' => 'Kein Bild zum Hochladen ausgew‰hlt oder unbekannter Fehler.',
 
-//    'Bad_upload_file_size' => 'Deine hochgeladene Datei ist zu groﬂ oder korrupt',
-//    'Album_upload_successful' => 'Dein Bild wurde erfolgreich hochgeladen',
-//    'Album_upload_need_approval' => 'Dein Bild wurde erfolgreich hochgeladen.<br /><br />Aber Bild¸berpr¸fung ist angeschaltet, sodass dein Bild vor der Verˆffentlichung erst von einem Administrator oder Moderator dieses Forum ¸berpr¸ft werden muss',
+// 'Bad_upload_file_size' => 'Deine hochgeladene Datei ist zu groﬂ oder korrupt',
+// 'Album_upload_successful' => 'Dein Bild wurde erfolgreich hochgeladen',
+// 'Album_upload_need_approval' => 'Dein Bild wurde erfolgreich hochgeladen.<br /><br />Aber Bild¸berpr¸fung ist angeschaltet, sodass dein Bild vor der Verˆffentlichung erst von einem Administrator oder Moderator dieses Forum ¸berpr¸ft werden muss',
 
     'Bad_upload' => 'Das Hochladen des Bildes ist fehlgeschlagen.',
     'Bad_upload_file_size' => 'Die von Dir hochgeladene Datei ist zu groﬂ oder besch‰digt.',

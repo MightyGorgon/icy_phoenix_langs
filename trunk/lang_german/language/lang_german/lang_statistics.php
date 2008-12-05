@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Nivisec.com (support@nivisec.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -84,6 +84,8 @@ $lang = array_merge($lang, array(
     'Statistics_modules_title' => 'Statistik Modul Verwaltung',
 
     'Module_name' => 'Name',
+	'Module_file_name' => 'Modul Name',
+	'Modules_order_update' => 'Module aktualisiert',
     'Directory_name' => 'Verzeichnisname',
     'Status' => 'Status',
     'Update_time_minutes' => 'Update Zeit in Minuten',
@@ -93,6 +95,7 @@ $lang = array_merge($lang, array(
     'Uninstall_module_desc' => 'Markiert das Modul als "nicht installiert", so das es möglich ist das Modul noch einmal zu installieren. Es löscht das Modul nicht von der Festplatte, du musst das Modul Verzeichnis löschen um das Modul komplett zu deinstallieren.',
     'Active_desc' => 'Option, ob das Modul aktiv ist oder nicht. Im aktiviertem Zustand wird das Modul in abhängigkeit der Berechtigungen in den Statistiken angezeigt.',
     'Go' => 'Los',
+	'Update_Modules' => 'Module aktualisieren',
 
     'Not_allowed_to_install' => 'Dieses Modul kann nicht installiert werden. Meistens deshalb nicht, weil das Modul ein Mod benötigt, welches du nicht installiert hast. Bitte kontaktiere den Autoren des Moduls falls du weitere Fragen hast oder wenn die obigen Informationen nicht ausreichen.',
     'Wrong_stats_mod_version' => 'Dieses Modul kann nicht installiert werden, da es eine höhere Statistik Mod Version benötigt. Um dieses Modul ordnungsgemäß ausführen zu können benötigst du mindestens eine Statistik Mod Version %s.', // replace %s with Version (2.1.3 for example)
@@ -129,6 +132,11 @@ $lang = array_merge($lang, array(
     'Average_Posts' => 'Durchschnittliche Beiträge pro Benutzer:',
 
     'module_name_average_posts_per_user' => 'Durschnittliche Beiträge pro Benutzer',
+
+	'module_name_age_clusters' => 'Altersgruppen',
+	'AGE' => 'Alter',
+	'LESS_THAN' => 'Weniger als',
+	'MORE_THAN' => 'Mehr als',
 
     'module_name_fastest_users' => 'Schnellste Benutzer',
     'time_on_forum' => 'Tage im Forum',
@@ -198,8 +206,14 @@ $lang = array_merge($lang, array(
     'Traffic_reg' => 'Tag der Woche Traffic: Registrierungen',
     'New_users' => 'Neue Benutzer',
 
+	'module_name_site_hist_daily_stats_current_week' => 'Current Week Daily Statistics',
+
+	'module_name_site_hist_hours_stats_current_day' => 'Current Day Statistics',
+
     'module_name_site_hist_month_top_posters' => 'Die aktivesten Benutzer diesen Monat',
     'Month_Var' => '[%s]', // %s wird durch den aktuellen Monat ersetzt
+
+	'module_name_site_hist_monthly_stats_current_year' => 'Current Year Monthly Statistics',
 
     'module_name_site_hist_week_top_posters' => 'Die aktivesten Benutzer diese Woche',
     'Week_Var' => '[%s]', // %s wird durch die aktuelle Woche ersetzt
@@ -225,13 +239,12 @@ $lang = array_merge($lang, array(
     'module_name_users_from_where' => 'Woher kommen die Benutzer',
     'From_where_title' => 'Woher kommen die Benutzer',
     'From_where' => 'Wohnort',
-    'How_many' => 'Anzahl',
 
     'module_name_users_gender' => 'Geschlechter',
     'Users' => 'Benutzer',
 
     'module_name_users_ranks' => 'Ränge',
-    'Rank_image' => 'Rangsymbol',
+    'Rank_image' => 'Rang Bild',
     'Rank_range' => 'Rang Beiträge',
     'Rank_special' => 'Spezialrang',
 	)

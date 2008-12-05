@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Nivisec.com (support@nivisec.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

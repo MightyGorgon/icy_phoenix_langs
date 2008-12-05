@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Chris Lennert - (calennert@users.sourceforge.net) - (http://lennertmods.sourceforge.net)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

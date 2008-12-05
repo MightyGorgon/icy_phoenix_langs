@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * aUsTiN-Inc - (austin_inc@hotmail.com) - (phpbb-amod.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

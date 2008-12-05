@@ -11,7 +11,7 @@
 /**
 *
 * @Extra credits for this file
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
     'Title_random_attach' => 'Zufällige Anhänge',
     'Title_random_topics' => 'Zufällige Themen',
     'Title_random_topics_ver' => 'Zufällige Themen',
+	'Title_random_user' => 'Zufällige Benutzer',
     'Title_recent_articles' => 'Neuste Artikel',
     'Title_recent_topics' => 'Neueste Themen',
     'Title_recent_topics_wide' => 'Neueste Themen',

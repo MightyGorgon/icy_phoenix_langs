@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Majorflam - (majorflam@majormod.com) - (http://majormod.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

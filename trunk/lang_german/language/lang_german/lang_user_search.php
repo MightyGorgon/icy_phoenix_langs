@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Adam Alkins (phpbb at rasadam dot com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

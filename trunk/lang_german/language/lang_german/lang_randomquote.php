@@ -8,6 +8,13 @@
 *
 */
 
+/**
+*
+* @Extra credits for this file
+* TheSteffen
+*
+*/
+
 if (!defined('IN_ICYPHOENIX'))
 {
 	exit;
@@ -17,12 +24,6 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-/**
-*
-* @Extra credits for this file
-* TheSteffen
-*
-*/
 
 $lang['RandomQuote'] = 'Zufälliges Zitat';
 

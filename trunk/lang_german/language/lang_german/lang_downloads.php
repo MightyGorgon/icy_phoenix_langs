@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * (c) 2005 oxpus (Karsten Ude) <webmaster@oxpus.de> http://www.oxpus.de
 * (c) hotschi / demolition fabi / oxpus
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -31,7 +31,7 @@ $lang = array_merge($lang, array(
 /*
 * mod version string
 */
-    'Dl_mod_version' => 'Download MOD v%s&nbsp;&nbsp;&nbsp;(c) 2002 - 2007 by Hotschi, Demolition Fabi, OXPUS',
+    'Dl_mod_version' => 'Download MOD v%s&nbsp;&copy;(c) 2002 - 2007 by Hotschi, Demolition Fabi, OXPUS',
 
 /*
 * general messages after successfull data managements

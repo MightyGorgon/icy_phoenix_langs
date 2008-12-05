@@ -18,7 +18,7 @@
 /**
 *
 * @Extra credits for this file
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -31,6 +31,40 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
+// Do not remove these even if duplicated...
+$lang['-12'] = 'GMT - 12 Hours';
+$lang['-11'] = 'GMT - 11 Hours';
+$lang['-10'] = 'GMT - 10 Hours';
+$lang['-9'] = 'GMT - 9 Hours';
+$lang['-8'] = 'GMT - 8 Hours';
+$lang['-7'] = 'GMT - 7 Hours';
+$lang['-6'] = 'GMT - 6 Hours';
+$lang['-5'] = 'GMT - 5 Hours';
+$lang['-4'] = 'GMT - 4 Hours';
+$lang['-3.5'] = 'GMT - 3.5 Hours';
+$lang['-3'] = 'GMT - 3 Hours';
+$lang['-2'] = 'GMT - 2 Hours';
+$lang['-1'] = 'GMT - 1 Hours';
+$lang['0'] = 'GMT';
+$lang['1'] = 'GMT + 1 Hour';
+$lang['2'] = 'GMT + 2 Hours';
+$lang['3'] = 'GMT + 3 Hours';
+$lang['3.5'] = 'GMT + 3.5 Hours';
+$lang['4'] = 'GMT + 4 Hours';
+$lang['4.5'] = 'GMT + 4.5 Hours';
+$lang['5'] = 'GMT + 5 Hours';
+$lang['5.5'] = 'GMT + 5.5 Hours';
+$lang['6'] = 'GMT + 6 Hours';
+$lang['6.5'] = 'GMT + 6.5 Hours';
+$lang['7'] = 'GMT + 7 Hours';
+$lang['8'] = 'GMT + 8 Hours';
+$lang['9'] = 'GMT + 9 Hours';
+$lang['9.5'] = 'GMT + 9.5 Hours';
+$lang['10'] = 'GMT + 10 Hours';
+$lang['11'] = 'GMT + 11 Hours';
+$lang['12'] = 'GMT + 12 Hours';
+$lang['13'] = 'GMT + 13 Hours';
 
 $lang['BBC_IP_CREDITS_STATIC'] = '
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
@@ -319,7 +353,6 @@ $lang = array_merge($lang, array(
 
 // 'No_topics_post_one' => 'There are no posts in this forum.<br />Click on the <b>Post New Topic</b> link on this page to post one.',
     'No_topics_post_one' => 'In diesem Forum sind keine Beiträge vorhanden.<br />Klicke auf <b>Neues Thema</b>, um den ersten Beitrag zu erstellen.',
-
 
 // Viewtopic
     'View_topic' => 'Thema anzeigen',
@@ -1707,7 +1740,7 @@ $lang = array_merge($lang, array(
     'Permissions_List' => 'Berechtigungsliste',
     'IP_TEAM' => 'Icy Phoenix Team',
 
-//    '' => '',
+//	'' => '',
 // Mighty Gorgon - LANG - END
 
 // New MG - BEGIN
@@ -2104,6 +2137,8 @@ $lang = array_merge($lang, array(
 	'FILE_NOT_AUTH' => 'You are not authorised to download this file',
 	'SHOW_POSTS_FROM' => 'Show posts from',
 	'SHOW_POSTS_TO' => 'to',
+
+	'SEE_MORE_DETAILS' => 'Mehr Details sehen...',
 	)
 );
 
@@ -2131,6 +2166,7 @@ $lang['Prune_explain'][5] = 'Who have never posted and not visited recently, <b>
 // Timezones ... for display on each page
 $lang['All_times'] = 'Alle Zeiten sind %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
+// Do not remove these even if duplicated...
 $lang['-12'] = 'GMT - 12 Stunden';
 $lang['-11'] = 'GMT - 11 Stunden';
 $lang['-10'] = 'GMT - 10 Stunden';
@@ -2164,10 +2200,7 @@ $lang['11'] = 'GMT + 11 Stunden';
 $lang['12'] = 'GMT + 12 Stunden';
 $lang['13'] = 'GMT + 13 Stunden';
 
-//
-// Time Zone Mod
 // These are displayed in the timezone select box
-
 $lang['tz']['-12'] = '(GMT -12 Stunden) Eniwetok, Kwajalein';
 $lang['tz']['-11'] = '(GMT -11 Stunden) Midway Island, Samoa';
 $lang['tz']['-10'] = '(GMT -10 Stunden) Hawaii';
@@ -2201,8 +2234,7 @@ $lang['tz']['10'] = '(GMT +10 Stunden) EAST (East Australian Standard), Guam';
 $lang['tz']['11'] = '(GMT +11 Stunden) Magadan, Solomon Islands, Neu Caledonia';
 $lang['tz']['12'] = '(GMT +12 Stunden) Auckland, Fiji, Kamchatka, Marshall Inseln';
 $lang['tz']['13'] = '(GMT +13 Stunden) Nuku\'alofa';
-
-// End Time Zone Mod
+// Timezones - END
 
 $lang['datetime']['Sunday'] = 'Sonntag';
 $lang['datetime']['Monday'] = 'Montag';

@@ -11,7 +11,7 @@
 /**
 *
 * @Extra credits for this file
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -362,6 +362,7 @@ if ($lang_extend_admin)
 	    'Similar_topics_explain' => 'Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 
 	    'IP_similar_topics' => 'Ähnliche Themen :: Ähnliche Themen aktivieren',
+		'IP_similar_topics_explain' => 'This is the global switch for Similar Topics. If you want to switch on this feature you will need also to enable single forums in Forums Management section.',
 
 	    'IP_similar_topics_desc' => 'Ähnliche Themen :: Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 

@@ -14,7 +14,7 @@
 * OOHOO < webdev@phpbb-tw.net >
 * Stefan2k1 and ddonker from www.portedmods.com
 * CRLin from http://mail.dhjh.tcc.edu.tw/~gzqbyr/
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

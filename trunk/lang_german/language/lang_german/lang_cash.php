@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Xore (mods@xore.ca)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

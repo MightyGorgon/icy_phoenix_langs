@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * MX-System - (jonohlsson@hotmail.com) - (www.mx-system.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

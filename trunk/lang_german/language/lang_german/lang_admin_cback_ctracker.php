@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Christian Knerr (cback) - (www.cback.de)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

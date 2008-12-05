@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Smartor (smartor_xp@hotmail.com)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

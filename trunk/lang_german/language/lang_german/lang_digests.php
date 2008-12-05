@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Mark D. Hamill (mhamill@computer.org)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

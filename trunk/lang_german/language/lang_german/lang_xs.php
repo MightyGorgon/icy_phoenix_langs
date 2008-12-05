@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Vjacheslav Trushkin (http://www.stsoftware.biz)
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
@@ -50,19 +50,19 @@ $lang = array_merge($lang, array(
 * navigation
 */
     'xs_config_shownav' => array(
-	'Konfiguration',
-	'Styles installieren',
-	'Styles deinstallieren',
-	'Standard Style',
-	'Cache verwalten',
-	'Styles importieren',
-	'Styles exportieren',
-	'Styles clonen',
-	'Styles downloaden',
-	'Templates bearbeiten',
-	'Styles bearbeiten',
-	'Datenbank exportieren',
-	'Auf Updates prüfen',
+		'Konfiguration',
+		'Styles installieren',
+		'Styles deinstallieren',
+		'Standard Style',
+		'Cache verwalten',
+		'Styles importieren',
+		'Styles exportieren',
+		'Styles clonen',
+		'Styles downloaden',
+		'Templates bearbeiten',
+		'Styles bearbeiten',
+		'Datenbank exportieren',
+		'Auf Updates prüfen',
 	),
 
 /*
@@ -585,7 +585,7 @@ $lang = array_merge($lang, array(
 		2 => 'Mod',
 		3 => 'phpBB',
 		4 => 'Icy Phoenix'
-		),
+	),
     'xs_update_fileinfo' => 'Weitere Info',
     'xs_update_nothing' => 'Es gibt kein Update.',
     'xs_update_noupdate' => 'Du verwendest bereits die aktuelle Version.',
@@ -606,7 +606,7 @@ $lang = array_merge($lang, array(
 /*
 * style configuration
 */
-    'Template_Config' => 'Template Konfig',
+    'Template_Config' => 'Template Konfiguration',
     'xs_style_configuration' => 'Template Konfiguration',
 	)
 );

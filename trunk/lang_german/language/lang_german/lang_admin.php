@@ -34,8 +34,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
     'General' => 'Allgemeines',
-    'Users'=> 'Benutzer',
-	'Groups'=> 'Gruppen',
+    'Users' => 'Benutzer',
+	'Groups' => 'Gruppen',
     'Forums' => 'Forum',
     'Styles' => 'Styles/Themes',
 
@@ -386,6 +386,17 @@ $lang = array_merge($lang, array(
     'prune_freq' => 'Überprüfe das Themenalter alle',
     'prune_days' => 'Entferne Themen, in denen nichts mehr geschrieben wurde seit',
     'Set_prune_data' => 'Du hast das automatische Löschen für dieses Forum aktiviert, aber weder ein Intervall noch eine Anzahl an Tagen angegeben.',
+
+	'FORUM_SIMILAR_TOPICS' => 'Similar Topics',
+	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'If you enable this option you will see a box with similar topics at the bottom of each topic in this forum',
+	'FORUM_TAGS' => 'Forum Tags',
+	'FORUM_TAGS_EXPLAIN' => 'If you enable this option you will see a box with all the most used words in this forum',
+	'FORUM_SORT_BOX' => 'Topic Sort Box',
+	'FORUM_SORT_BOX_EXPLAIN' => 'If you enable this option you will see a box wich allows you to alphabetically sort topics in this forum',
+	'FORUM_KB_MODE' => 'KB Mode',
+	'FORUM_KB_MODE_EXPLAIN' => 'If you enable this option this forum will be shown in KB Mode (topics listed like Knowledge Base)',
+	'FORUM_INDEX_ICONS' => 'Index Icons',
+	'FORUM_INDEX_ICONS_EXPLAIN' => 'If you enable this option you will see icons for RSS and New Topic in Forum Index',
 
     'Move_and_Delete' => 'Verschieben und Löschen',
 
@@ -1596,9 +1607,9 @@ $lang = array_merge($lang, array(
 
 /* Errors */
     'Error_Other_Table' => 'Fehler beim Lesen der erforderlichen Tabelle.',
-    'Error_Posts_Text_Table' => 'Fehler beim Abfragen der Private Messages Text Tabelle.',
-    'Error_Posts_Table' => 'Fehler beim Abfragen der Private Messages Tabelle.',
-    'Error_Posts_Archive_Table' => 'Fehler beim Abfragen der Private Messages Archive Tabelle.',
+    'Error_PM_Text_Table' => 'Fehler beim Abfragen der Private Messages Text Tabelle.',
+    'Error_PM_Table' => 'Fehler beim Abfragen der Private Messages Tabelle.',
+    'Error_PM_Archive_Table' => 'Fehler beim Abfragen der Private Messages Archive Tabelle.',
     'No_Message_ID' => 'Keine Nachrichten ID angegeben',
 /* lang_admin_priv_msgs.php - END */
 

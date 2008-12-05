@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Philipp Kordowich
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

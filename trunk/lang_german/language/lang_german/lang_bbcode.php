@@ -18,7 +18,7 @@
 /**
 *
 * @Extra credits for this file
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 

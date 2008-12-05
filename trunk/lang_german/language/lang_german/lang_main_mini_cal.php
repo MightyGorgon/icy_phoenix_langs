@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * netclectic - Adrian Cockburn - phpbb@netclectic.com
-* TheSteffen, KugeLSichA, Tom,Carsten
+* TheSteffen, KugeLSichA, Tom, Carsten
 *
 */
 
