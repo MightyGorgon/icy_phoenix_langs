@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 
     'News_base_url' => 'News Mod Basis URL',
     'News_base_url_explain' => 'Der Ort deiner News Index Datei.<br /> z.B. http://mydomain.com/Icy_Phoenix/, deine News Index Datei ist hier gespeichert.',
-    'Show_RSS_abstract' => 'Zeige Abstracte in RSS Feeds.',
+    'Show_RSS_abstract' => 'Zeige Abstracte in RSS-Feeds.',
 
     'News_index_file' => 'News Mod Index Datei',
     'News_index_file_explain' => 'Der Name der News Index Datei, z.B. news_index.php.',

@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 /*********/
     'cat_notifications' => 'Notifications',
 
-    'item_e_mail_true' => 'E-mail',
+    'item_e_mail_true' => 'E-Mail',
     'item_instant_mess' => 'Instant Messaging',
     'item_book_m' => 'Bookmarks',
 
@@ -357,7 +357,7 @@ $lang = array_merge($lang, array(
     'cat_localisations' => 'Localisations',
 
     'item_s_m_l_p' => 'Support for Multiple Language Packs',
-    'item_language' => 'Languages',
+    'item_language' => 'Sprachen',
     'bb2_language' => '50+',
     'ip_language' => '6',
     'bb3_language' => '61',
@@ -436,7 +436,7 @@ $lang = array_merge($lang, array(
     'cat_features_seo' => 'Extra Features SEO',
 
     'item_feat_url_rewrite' => 'SEO Optimization and URL Rewrite',
-    'item_feat_rss' => 'RSS Feed',
+    'item_feat_rss' => 'RSS-Feed',
     'item_feat_referrers' => 'Referrers Tracking',
     'item_feat_referrers' => 'Bots Tracking',
     'item_feat_referrers' => 'Browsers and OS Detection',

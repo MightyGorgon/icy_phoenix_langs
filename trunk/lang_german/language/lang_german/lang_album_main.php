@@ -129,8 +129,8 @@ $lang = array_merge($lang, array(
     'Picture_exceeded_maximum_size_INI' => 'Das Bild namens \'%s\' ist zu groß und wurde ausgelassen.<br />',
     'Thumbnail_exceeded_maximum_size_INI' => 'Das Thumbnail namens \'%s\' ist zu groß, Bild und Thumbnail wurden ausgelassen.<br />',
     'Execution_time_exceeded_skipping' => 'Die maximale Zeit zur Ausführung des Skriptes wurde überschritten, die folgenden Bilder wurden ausgelassen:<br />',
-    'Skipping_uploaded_picture_file' => '%s<br/>',
-    'Skipping_uploaded_picture_and_thumbnail_file' => '%s (Thumbnail: %s)<br/>',
+    'Skipping_uploaded_picture_file' => '%s<br />',
+    'Skipping_uploaded_picture_and_thumbnail_file' => '%s (Thumbnail: %s)<br />',
     'Album_upload_not_successful' => 'Kein Bild wurde erfolgreich hochgeladen.<br /><br />',
     'Album_upload_partially_successful' => 'Nur ein Teil der Bilder wurde erfolgreich hochgeladen.<br /><br />',
     'No_pictures_selected_for_upload' => 'Kein Bild zum Hochladen ausgewählt oder unbekannter Fehler.',
@@ -358,8 +358,8 @@ $lang = array_merge($lang, array(
     'Unwatch_pic' => 'Beende das Beobachten der Kommentare dieses Bildes',
     'Click_return_pic' => 'Klicke %shier%s um zum Bild zurückzukehren',
 
-    'Pic_RDF' => 'RSS Feed 1.0',
-    'Pic_RSS' => 'RSS Feed 2.0',
+    'Pic_RDF' => 'RSS-Feed 1.0',
+    'Pic_RSS' => 'RSS-Feed 2.0',
 	)
 );
 

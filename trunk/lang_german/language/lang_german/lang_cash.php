@@ -99,7 +99,7 @@ $lang['Cash_currency_dbfield'] = 'Datenbank Spaltenname der Währung';
 $lang['Cash_currency_decimals'] = 'Anzahl an Nachkommastellen für die Währung';
 $lang['Cash_currency_default'] = 'Anfangswert für die Währung';
 
-$lang['Bad_dbfield'] = 'Fehlerhafter Spaltenname, der Spaltenname muss in der Form \'user_word\' sein.<br /><br />%s<br /><br/>Beispiele:<br />user_points<br />user_cash<br />user_money<br />user_warnings<br /><br />';
+$lang['Bad_dbfield'] = 'Fehlerhafter Spaltenname, der Spaltenname muss in der Form \'user_word\' sein.<br /><br />%s<br /><br />Beispiele:<br />user_points<br />user_cash<br />user_money<br />user_warnings<br /><br />';
 
 // 0 currencies (most admin panels won't work... )
 $lang['Insufficient_currencies'] = 'Du musst Währungen erstellen bevor du Einstellungen ändern kannst';

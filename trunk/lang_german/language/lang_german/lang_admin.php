@@ -179,6 +179,7 @@ $lang = array_merge($lang, array(
     'Forum_SELF' => 'SELBST',
     'Forum_PRIVATE' => 'PRIVAT',
     'Forum_MOD' => 'MODS',
+	'Forum_JADMIN' => 'J ADMIN',
     'Forum_ADMIN' => 'ADMIN',
 
     'View' => 'Ansicht',
@@ -387,16 +388,18 @@ $lang = array_merge($lang, array(
     'prune_days' => 'Entferne Themen, in denen nichts mehr geschrieben wurde seit',
     'Set_prune_data' => 'Du hast das automatische Löschen für dieses Forum aktiviert, aber weder ein Intervall noch eine Anzahl an Tagen angegeben.',
 
-	'FORUM_SIMILAR_TOPICS' => 'Similar Topics',
-	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'If you enable this option you will see a box with similar topics at the bottom of each topic in this forum',
+	'FORUM_SIMILAR_TOPICS' => 'Ähnliche Themen Box',
+	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird unter jedem Thema eine Box mit ähnlichen Themen angezeigt.',
+	'FORUM_TOPIC_VIEWS' => 'Topics Viewer',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'If you enable this option all users that views topics in this forum will be stored in the DB (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SQL TAB)',
 	'FORUM_TAGS' => 'Forum Tags',
-	'FORUM_TAGS_EXPLAIN' => 'If you enable this option you will see a box with all the most used words in this forum',
-	'FORUM_SORT_BOX' => 'Topic Sort Box',
-	'FORUM_SORT_BOX_EXPLAIN' => 'If you enable this option you will see a box wich allows you to alphabetically sort topics in this forum',
-	'FORUM_KB_MODE' => 'KB Mode',
-	'FORUM_KB_MODE_EXPLAIN' => 'If you enable this option this forum will be shown in KB Mode (topics listed like Knowledge Base)',
+	'FORUM_TAGS_EXPLAIN' => 'Diese Option aktiviert eine Box, die die am häufigsten genutzten Wörter des gesamten Forums anzeigt (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
+	'FORUM_SORT_BOX' => 'Themen Sortierungs Box',
+	'FORUM_SORT_BOX_EXPLAIN' => 'Wenn diese Option aktiviert ist, siehst du eine Box die dir erlaubt, die Themen alphabetisch zu ordnen (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
+	'FORUM_KB_MODE' => 'Wissensdatenbank Modus',
+	'FORUM_KB_MODE_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird das Forum im Wissensdatenbank Modus gezeigt. (Themen werden ähnlich der Wissensdatenbank aufgelistet)',
 	'FORUM_INDEX_ICONS' => 'Index Icons',
-	'FORUM_INDEX_ICONS_EXPLAIN' => 'If you enable this option you will see icons for RSS and New Topic in Forum Index',
+	'FORUM_INDEX_ICONS_EXPLAIN' => 'Wenn diese Option aktiviert ist, werden Icons für RSS und Neues Thema im Foren-Index angezeigt (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
 
     'Move_and_Delete' => 'Verschieben und Löschen',
 
@@ -692,16 +695,16 @@ $lang = array_merge($lang, array(
 // Admin Userlist End
 
 // Version Check
-    'Version_up_to_date' => 'Dein Forum ist auf dem neuesten Stand; es sind keine Updates für deine phpBB-Version verfügbar.',
-    'Version_up_to_date_ip' => 'Dein Forum ist auf dem neuesten Stand; es sind keine Updates für deine Icy Phoenix Version verfügbar.',
-    'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neuesten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
+    'Version_up_to_date' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine phpBB-Version verfügbar.',
+    'Version_up_to_date_ip' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine Icy Phoenix Version verfügbar.',
+    'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neusten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
     'Version_not_up_to_date_ip' => 'Es sind Updates für deine Icy Phoenix Version verfügbar, bitte besuche <a href="http://www.icyphoenix.com/" target="_new">Icy Phoenix</a>, um die aktuellste Version zu erhalten.',
-    'Latest_version_info' => 'Die neueste verfügbare Version ist <b>phpBB %s</b>.',
+    'Latest_version_info' => 'Die neuste verfügbare Version ist <b>phpBB %s</b>.',
     'Current_version_info' => 'Du verwendest <b>phpBB %s</b>.',
     'Connect_socket_error' => 'Die Verbindung zum phpBB-Server konnte nicht aufgebaut werden. Es trat folgender Fehler auf:<br />%s',
     'Connect_socket_error_ip' => 'Es konnte keine Verbindung zum Icy Phoenix Server hergestellt werden',
     'Socket_functions_disabled' => 'Die Socket-Funktionen konnten nicht benutzt werden.',
-    'Mailing_list_subscribe_reminder' => 'Um immer die neuesten Informationen zu Updates von phpBB zu erhalten, solltest du dich <a href="http://www.phpbb.com/support/" target="_new">beim phpBB Newsletter anmelden</a>.',
+    'Mailing_list_subscribe_reminder' => 'Um immer die neusten Informationen zu Updates von phpBB zu erhalten, solltest du dich <a href="http://www.phpbb.com/support/" target="_new">beim phpBB Newsletter anmelden</a>.',
     'Version_information' => 'Versions-Information',
     'Version_not_checked' => 'Versionsprüfung ist zur Zeit deaktiviert. Bitte besuche die Icy Phoenix Support Foren für Informationen über neue Versionen.',
 
@@ -773,6 +776,7 @@ $lang = array_merge($lang, array(
     'Optimize_DB' => 'Datenbank optimieren',
     'Optimize_Enable_cron' => 'Cron aktivieren',
     'Optimize_Cron_every' => 'Cron alle',
+	'Optimize_Cron_every_explain' => 'Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Cron</b>',
     'Optimize_month' => 'Monat',
     'Optimize_2weeks' => '2 Wochen',
     'Optimize_week' => 'Woche',
@@ -1164,7 +1168,7 @@ $lang = array_merge($lang, array(
     'auth_view_kb' => 'Wissensdatenbank',
     'auth_view_ranks' => 'Ränge',
     'auth_view_statistics' => 'Statistiken',
-    'auth_view_recent' => 'Neueste Themen',
+    'auth_view_recent' => 'Neuste Themen',
     'auth_view_referrers' => 'Referrers',
     'auth_view_rules' => 'Regeln',
     'auth_view_site_hist' => 'Seiten Historie',
@@ -1356,14 +1360,15 @@ $lang = array_merge($lang, array(
 /* lang_postcount.php - END */
 
 /* lang_megamail.php - BEGIN */
-    'Megamail_Explain' => 'Hier kannst du eine E-Mail an alle Benutzer oder an alle Benutzer einer Gruppe schicken. Diese geschieht normalerweise, indem eine E-Mail über die Forum E-Mail-Adresse gesendet wird, auf der alle Empfänger dieser E-Mail als Blind Carbon Copy (BCC - Blindkopie) eingetragen sind.<br />Dieses modifizierte Script sendet diese E-Mail in mehreren Batches. Dies sollte Timeouts und Serverlastprobleme umgehen. Der Status des Massen E-Mail-Sendens wird in der Datenbank gespeichert. Du kannst dieses Fenster schließen, um das Massen E-Mail-Senden zu pausieren (das aktuelle Batch wird noch abgearbeitet). Du kannst später dort weitermachen, wo du aufgehört hast.<br /><b>Wenn HTML Emails aktiviert sind, solltest Du Emails unter Verwendung des HTML Codes schreiben, &lt;br /&gt; für ein Zeilenumbruch verwenden.</b>',
+    'Megamail_Explain' => 'Hier kannst du eine PN (private Nachricht) oder E-Mail an alle Benutzer oder an alle Benutzer einer Gruppe schicken. Diese geschieht normalerweise, indem eine E-Mail über die Forum E-Mail-Adresse gesendet wird, auf der alle Empfänger dieser E-Mail als Blind Carbon Copy (BCC - Blindkopie) eingetragen sind.<br />Dieses modifizierte Script sendet diese E-Mail in mehreren Batches. Dies sollte Timeouts und Serverlastprobleme umgehen. Der Status des Massen E-Mail-Sendens wird in der Datenbank gespeichert. Du kannst dieses Fenster schließen, um das Massen E-Mail-Senden zu pausieren (das aktuelle Batch wird noch abgearbeitet). Du kannst später dort weitermachen, wo du aufgehört hast.<br /><b>Wenn HTML Emails aktiviert sind, solltest Du Emails unter Verwendung des HTML Codes schreiben, &lt;br /&gt; für ein Zeilenumbruch verwenden.</b>',
+	'megamail_inactive_users' => 'Non visiting users in the last {DAYS} days',
     'megamail_header' => 'Deine E-Mail-Sessions',
     'megamail_id' => 'Mail-ID',
     'megamail_batchstart' => 'Bearbeitet',
-    'megamail_batchsize' => 'E-Mails pro Batch',
+    'megamail_batchsize' => 'Nachrichten pro Batch',
     'megamail_batchwait' => 'Pause',
     'megamail_created_message' => 'Die Massen-Mail wurde in der Datenbank gespeichert.<br /><br /> Um das Senden zu starten, %sklicke hier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
-    'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br/>Um mit dem Senden fortzufahren, %sklicke hier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
+    'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br />Um mit dem Senden fortzufahren, %sklicke hier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
     'megamail_status' => 'Status',
     'megamail_proceed' => '%sJetzt fortfahren%s',
     'megamail_done' => 'FERTIG',
@@ -1817,9 +1822,12 @@ $lang = array_merge($lang, array(
 /* lang_admin_db_backup.php - END */
 
 /* Logs - BEGIN */
+	'LOGS_ACTIONS_FILTER' => 'Aktionen-Filter',
     'LOGS_TITLE' => 'Logs',
     'LOGS_EXPLAIN' => 'Alle relevanten Aktionen wurden in der DB gespeichert.',
     'LOGS_TARGET' => 'Ziel',
+	'LOGS_DELETE' => 'Auswahl löschen',
+	'LOGS_DELETE_ALL' => 'Logs Tabelle löschen',
     'LOGS_DENY' => 'Keine Berechtigung!',
     'LOGS_POST_EDIT' => 'änderte einen Beitrag geschrieben von',
     'LOGS_POST_DELETE' => 'löschte einen Beitrag von',
@@ -1844,14 +1852,14 @@ $lang = array_merge($lang, array(
     'LOGS_CARD_WARN' => 'verwarnt',
     'LOGS_CARD_UNBAN' => 'entsperrt',
     'LOGS_ADMIN_CAT_ADD' => 'fügte ein Forum hinzu',
-    'LOGS_ADMIN_DB_UTILITIES_BACKUP' => 'sicherte die DB %s',
+    'LOGS_ADMIN_DB_UTILITIES_BACKUP' => 'DB gesichert %s',
     'LOGS_ADMIN_DB_UTILITIES_BACKUP_full' => 'vollständig',
     'LOGS_ADMIN_DB_UTILITIES_BACKUP_structure' => '(nur die Struktur)',
     'LOGS_ADMIN_DB_UTILITIES_BACKUP_data' => '(nur die Daten)',
     'LOGS_ADMIN_DB_UTILITIES_BACKUP_store_and_download' => ', hat sie heruntergeladen und auf dem Webspace gespeichert',
     'LOGS_ADMIN_DB_UTILITIES_BACKUP_store' => ', und hat sie auf dem Webspace gespeichert',
     'LOGS_ADMIN_DB_UTILITIES_BACKUP_download' => ', und hat sie heruntergeladen',
-    'LOGS_ADMIN_DB_UTILITIES_RESTORE' => 'Wiederherstellung der DB von',
+    'LOGS_ADMIN_DB_UTILITIES_RESTORE' => 'DB wiederhergestellt von',
     'LOGS_ADMIN_BOARD_CONFIG' => 'änderte die Board/Server Einstellungen',
     'LOGS_ADMIN_BOARD_IP_CONFIG' => 'änderte die IcyPhoenix Einstellungen',
     'LOGS_ADMIN_GROUP_NEW' => 'erstellte Gruppe',
@@ -1870,6 +1878,8 @@ $lang = array_merge($lang, array(
     'LOGS_CMS_BLOCK_DELETE' => 'löschte einen Block [ID = %s] in %sdiese%s Seite',
     'LOGS_CMS_BLOCK_DELETE_LS' => 'löschte einen Block [ID = %s] in einer Standard-Seite [%s]',
 /* Logs - END */
+
+	'SMILEYS_UPDATED' => 'Smilies aktualisiert',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
     'MG_Configuration' => 'Icy Phoenix Einstellungen',
@@ -1934,7 +1944,7 @@ $lang = array_merge($lang, array(
 
     'MG_SW_No_Right_Click' => 'Block Rechts Klick',
 
-    'Click_return_config_mg' => 'klicke %shier%s um zu den Icy Phoenix Einstellungen zurückzukehren',
+    'Click_return_config_mg' => 'Llicke %shier%s um zu den Icy Phoenix Einstellungen zurückzukehren',
 	)
 );
 
@@ -1978,7 +1988,7 @@ $lang['1100_General'] = 'Allgemein'; // admin_acronyms.php, admin_autolinks.php,
 $lang['100_Acronyms'] = 'Abkürzungen'; // admin_acronyms.php
 $lang['110_Autolinks'] = 'Autolinks'; // admin_autolinks.php
 $lang['130_Mass_Email'] = 'Massen-E-Mail versenden'; // admin_mass_email.php
-$lang['140_Mega_Mail'] = 'Mega Mailer'; // admin_megamail.php
+$lang['140_Mega_Mail'] = 'Mega Mailer / PN'; // admin_megamail.php
 $lang['150_FTR_Config'] = 'FTR Konfiguration'; // admin_force_read.php
 $lang['160_FTR_Users'] = 'FTR Benutzer'; // admin_force_read.php
 $lang['170_Smilies'] = 'Smilies'; // admin_smilies.php
@@ -2001,7 +2011,7 @@ $lang['150_Topic_Shadow'] = 'Schatten Themen'; // admin_topic_shadow.php
 // eXtreme Styles
 $lang['1300_Extreme_Styles'] = 'Styles &amp; Templates'; // xs_include.php -> $module_name
 
-// DB Maintenance
+// DB Maintenance & Security
 $lang['1400_DB_Maintenance'] = 'Datenbank'; // admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php
 $lang['100_Actions_LOG'] = 'Aktionen Log'; // admin_logs.php
 $lang['110_DB_Admin'] = 'IP MySQLAdmin'; // admin_bb_db.php
@@ -2027,9 +2037,9 @@ $lang['150_Delete_Cache_Files'] = 'Cachedateien löschen'; // admin_clear_cache.p
 $lang['1600_News_Admin'] = 'News'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
 $lang['100_News_Config'] = 'News Konfiguration'; // admin_news.php
 $lang['110_News_Cats'] = 'News Kategorien'; // admin_news_cats.php
-$lang['120_XS_News_Config'] = 'News Konfiguration';    // admin_xs_news.php
-$lang['130_XS_News'] = 'News Artikel';  // admin_xs_news.php
-$lang['140_XS_News_Tickers'] = 'News Ticker';    // admin_xs_news_xml.php
+$lang['120_XS_News_Config'] = 'News Konfiguration'; // admin_xs_news.php
+$lang['130_XS_News'] = 'News Artikel'; // admin_xs_news.php
+$lang['140_XS_News_Tickers'] = 'News Ticker'; // admin_xs_news_xml.php
 
 // Users
 $lang['1610_Users'] = 'Benutzer'; // admin_account.php, admin_disallow.php, admin_email_list.php, admin_jr_admin.php, admin_postcount.php, admin_priv_msgs.php, admin_profile_fields.php, admin_ranks.php, admin_ug_auth.php, admin_user_ban.php, admin_user_bantron.php, admin_user_register.php, admin_user_search.php, admin_userlist.php, admin_users.php, admin_voting.php

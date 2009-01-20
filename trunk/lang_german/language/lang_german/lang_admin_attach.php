@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
     'Empty_file_entry' => 'Leerer Dateieintrag',
 
 // Attachments -> Sync
+	'Sync_thumbnail_recreated' => 'Thumbnail für Attachment erstellt: %s', // replace %s with physical Filename
     'Sync_thumbnail_resetted' => 'Thumbnail für Attachment %s zurückgesetzt.',
     'Attach_sync_finished' => 'Attachment Synchronisierung erfolgreich beendet.',
     'Sync_topics' => 'Themen syncronisieren',

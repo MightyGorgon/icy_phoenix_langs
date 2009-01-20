@@ -529,8 +529,8 @@ $lang = array_merge($lang, array(
     'Dl_filter_bt_own' => 'Zeige meine Meldungen',
     'Dl_filter_bt_assign' => 'Zeige meine Zuordnungen',
 
-    'Dl_user_download_limit_flag' => 'Limit number of downloads per month',
-    'Dl_user_download_limit' => 'Max number of downloads per month',
+    'Dl_user_download_limit_flag' => 'Begrenze die Anzahl der Downloads pro Monat',
+    'Dl_user_download_limit' => 'Maximale Anzahl an Downloads pro Monat',
 	)
 );
 

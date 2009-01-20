@@ -6,7 +6,7 @@ Hallo <b>{USERNAME}</b>,<br />
 
 dies ist eine automatische Nachricht um dir mitzuteilen, dass Dein Benutzer-Konto bei <b>"{SITENAME}"</b> gelöscht wurde.<br />
 
-Falls du wieder Mitglied unserer Community werden willst, kannst du dich mit einem Klick auf den folgenden Link wieder registrieren. <br /><br/>
+Falls du wieder Mitglied unserer Community werden willst, kannst du dich mit einem Klick auf den folgenden Link wieder registrieren. <br /><br />
 
 <a href="{U_REGISTER}" target="_blank">{U_REGISTER}</a>
 <br /><br />

@@ -179,7 +179,7 @@ $lang = array_merge($lang, array(
     'Done' => 'Erledigt',
 // The following variable is used when nothing hat to be fixed in the database. It needs the complete paragraph-tag.
 // If you do not want a message to be displayed in these cases, just leave the variable empty.
-    'Nothing_to_do' => "<p class=\"gen\"><i>Keine Arbeit notwendig :-)</i></p>\n",
+	'Nothing_to_do' => '<p class="gen"><i>Keine Arbeit notwendig :-)</i></p><br />' . "\n",
 
 // Names for new records in several tables
     'New_cat_name' => 'Wiederhergestellte Foren',

@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 // Stats
     'Top_toprated' => 'Beste Artikel',
     'Top_most_popular' => 'Populärste Artikel',
-    'Top_latest' => 'Neueste Artikel',
+    'Top_latest' => 'Neuste Artikel',
 
 // Votes check
     'Votes_check_ip' => 'IP Adressen bei Bewertungen prüfen',

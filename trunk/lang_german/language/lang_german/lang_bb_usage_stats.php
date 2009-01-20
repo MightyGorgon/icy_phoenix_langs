@@ -58,15 +58,15 @@ $lang = array_merge($lang, array(
     'BBUS_Settings_Explain' => 'Diese Einstellungen erlauben Dir einzustellen, welche Benutzer berechtigt sind die Forum Verwendungs-Statistiken auf einer Benutzer-Profil-Seite anzusehen und verschiedene Optionen (verbunden mit den auf dieser Seite präsentierten Daten) zu konfigurieren. ',
 
     'BBUS_Setting_ViewLevel_Caption' => 'Ansichts-Level',
-    'BBUS_Setting_ViewLevel_Note' => '<i>Beachte</i>: Diese Textbox kann nur gelesen werden (read-only).<br/>Benutze die Checkboxen um den Wert zu anzupassen.',
+    'BBUS_Setting_ViewLevel_Note' => '<i>Beachte</i>: Diese Textbox kann nur gelesen werden (read-only).<br />Benutze die Checkboxen um den Wert zu anzupassen.',
 
-    'BBUS_Setting_ViewLevel_Explain1' => 'Die Ansichts-Level Einstellung ist eine Summe von einem oder mehr Flags welche festlegt ob ein Benutzer die Forum Verwendungs-Stats auf der Benutzerprofil-Seite sehen kann.<br /><b>Nutze die Checkboxen unten um die Ansicht der Stats für bestimmte Benutzergruppen zu aktivieren oder deaktivieren.</b><br/><br/>Die Ansichts-Level Zugriffs Flags werden wie folgt bestimmt:<br/>',
+    'BBUS_Setting_ViewLevel_Explain1' => 'Die Ansichts-Level Einstellung ist eine Summe von einem oder mehr Flags welche festlegt ob ein Benutzer die Forum Verwendungs-Stats auf der Benutzerprofil-Seite sehen kann.<br /><b>Nutze die Checkboxen unten um die Ansicht der Stats für bestimmte Benutzergruppen zu aktivieren oder deaktivieren.</b><br /><br />Die Ansichts-Level Zugriffs Flags werden wie folgt bestimmt:<br />',
 
-    'BBUS_Setting_ViewLevel_Explain2' => 'Die häufigste Einstellung für Foren ist 24 (16 + 8). Diese erlaubt Administratoren und Moderatoren, die Forum Verwendungs-Statistiken zu überwachen, während alle anderen Benutzer nur die Standard Benutzerprofilseite angezeigt bekommen.<br/><br/> Es wird empfohlen, dass Du die Ansicht der Statistik (besonders für gro&szlig;e Foren) einschränkst, um Leistungsverminderung zu vermeiden, die aus der Erzeugung von Statistiken für viele Benutzer gleichzeitig entstehen können.',
+    'BBUS_Setting_ViewLevel_Explain2' => 'Die häufigste Einstellung für Foren ist 24 (16 + 8). Diese erlaubt Administratoren und Moderatoren, die Forum Verwendungs-Statistiken zu überwachen, während alle anderen Benutzer nur die Standard Benutzerprofilseite angezeigt bekommen.<br /><br /> Es wird empfohlen, dass Du die Ansicht der Statistik (besonders für gro&szlig;e Foren) einschränkst, um Leistungsverminderung zu vermeiden, die aus der Erzeugung von Statistiken für viele Benutzer gleichzeitig entstehen können.',
 
     'BBUS_Setting_ViewOptions_Caption' => 'Ansichts-Optionen',
-    'BBUS_Setting_ViewOptions_Note' => '<i>Beachte</i>: Diese Textbox kann nur gelesen werden (read-only).<br/>Benutze die Checkboxen um diesen Wert zu anzupassen.',
-    'BBUS_Setting_ViewOptions_Explain1' => 'Wie die Ansichts-Level Einstellung ist auch die Ansichts-Optionen Einstellung eine Summe von Flags, welche verschiedene Eigenschaften der Forum Verwendungs-Statistik aktiviert oder deaktiviert. <b>Nutze die Checkboxen unten um diese Eigenschaften zu aktiveren oder deaktivieren.</b><br/><br/>Die Ansichts-Optionen Flags werden wie folgt bestimmt:<br/>',
+    'BBUS_Setting_ViewOptions_Note' => '<i>Beachte</i>: Diese Textbox kann nur gelesen werden (read-only).<br />Benutze die Checkboxen um diesen Wert zu anzupassen.',
+    'BBUS_Setting_ViewOptions_Explain1' => 'Wie die Ansichts-Level Einstellung ist auch die Ansichts-Optionen Einstellung eine Summe von Flags, welche verschiedene Eigenschaften der Forum Verwendungs-Statistik aktiviert oder deaktiviert. <b>Nutze die Checkboxen unten um diese Eigenschaften zu aktiveren oder deaktivieren.</b><br /><br />Die Ansichts-Optionen Flags werden wie folgt bestimmt:<br />',
     'BBUS_Setting_ViewOptions_Explain2' => 'Reduziere die Anzahl, um die Serverlast zu reduzieren.',
 
     'BBUS_Settings_Default_Post_Rate_Scaling_Caption' => 'vorgegebener Beitrags-Skalierungs-Faktor',

@@ -68,48 +68,47 @@ $lang['13'] = 'GMT + 13 Hours';
 
 $lang['BBC_IP_CREDITS_STATIC'] = '
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
-<span style="color: #FF5500;"><b>Mighty Gorgon</b></span><br />
+<span style="color: #ff5500;"><b>Mighty Gorgon</b></span><br />
 <i>(Luca Libralato)</i><br />
 <b><i>Developer</i></b><br />
 Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
 Location: Homer\'s Head<br />
 <br />
 <br />
-<span style="color: #DD2222;"><b>hpl</b></span><br />
+<span style="color: #dd2222;"><b>hpl</b></span><br />
 <i>(Alessandro Drago)</i><br />
 <b><i>Developer</i></b><br />
 Interests: CMS, little animals<br />
 Location: Global Header<br />
 <br />
 <br />
-<span style="color: #DD2222;"><b>Bicet</b></span><br />
+<span style="color: #dd2222;"><b>Bicet</b></span><br />
 <b><i>phpBB XS Developer</i></b><br />
 <br />
 <br />
 <b><i>Valued Contributors</i></b><br />
-<span style="color: #228844;"><b>Andrea75</b></span><br />
-<span style="color: #DD2222;"><b>Artie</b></span><br />
-<span style="color: #228844;"><b>buldo</b></span><br />
-<span style="color: #228844;"><b>casimedicos</b></span><br />
-<span style="color: #DD2222;"><b>CyberAlien</b></span><br />
-<span style="color: #800080;"><b>darkone</b></span><br />
-<span style="color: #228844;"><b>difus</b></span><br />
-<span style="color: #800080;"><b>fare85</b></span><br />
-<span style="color: #228844;"><b>fracs</b></span><br />
+<span style="color: #228822;"><b>Andrea75</b></span><br />
+<span style="color: #dd2222;"><b>Artie</b></span><br />
+<span style="color: #228822;"><b>buldo</b></span><br />
+<span style="color: #228822;"><b>casimedicos</b></span><br />
+<span style="color: #228822;"><b>Chaotic</b></span><br />
+<span style="color: #dd2222;"><b>CyberAlien</b></span><br />
+<span style="color: #228822;"><b>difus</b></span><br />
+<span style="color: #228822;"><b>fracs</b></span><br />
 <span style="color: #800080;"><b>ganesh</b></span><br />
-<span style="color: #228844;"><b>JANU1535</b></span><br />
+<span style="color: #228822;"><b>JANU1535</b></span><br />
 <span style="color: #800080;"><b>jz</b></span><br />
-<span style="color: #228844;"><b>KasLimon</b></span><br />
-<span style="color: #AAFF00;"><b>KugeLSichA</b></span><br />
-<span style="color: #228844;"><b>Lopalong</b></span><br />
-<span style="color: #228844;"><b>moreteavicar</b></span><br />
-<span style="color: #228844;"><b>Nikola</b></span><br />
-<span style="color: #228844;"><b>novice programmer</b></span><br />
-<span style="color: #228844;"><b>ThE KuKa</b></span><br />
-<span style="color: #FF7700;"><b>TheSteffen</b></span><br />
-<span style="color: #0000BB;"><b>Tom</b></span><br />
-<span style="color: #228844;"><b>z3d0</b></span><br />
-<span style="color: #228844;"><b>Zuker</b></span><br />
+<span style="color: #228822;"><b>KasLimon</b></span><br />
+<span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
+<span style="color: #0000bb;"><b>Limun</b></span><br />
+<span style="color: #228822;"><b>Lopalong</b></span><br />
+<span style="color: #228822;"><b>moreteavicar</b></span><br />
+<span style="color: #228822;"><b>novice programmer</b></span><br />
+<span style="color: #228822;"><b>ThE KuKa</b></span><br />
+<span style="color: #ff7700;"><b>TheSteffen</b></span><br />
+<span style="color: #0000bb;"><b>Tom</b></span><br />
+<span style="color: #228822;"><b>z3d0</b></span><br />
+<span style="color: #228822;"><b>Zuker</b></span><br />
 <br />
 Interests: Icy Phoenix<br />
 Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
@@ -160,18 +159,18 @@ $lang = array_merge($lang, array(
     'Disabled' => 'Deaktiviert',
     'Error' => 'Fehler',
 
-	'GO' => 'Go',
-	'JUMP_TO' => 'Jump to',
-	'SUBMIT' => 'Submit',
-	'RESET' => 'Reset',
-	'CANCEL' => 'Cancel',
-	'PREVIEW' => 'Preview',
-	'CONFIRM' => 'Confirm',
-	'YES' => 'Yes',
-	'NO' => 'No',
-	'ENABLED' => 'Enabled',
-	'DISABLED' => 'Disabled',
-	'ERROR' => 'Error',
+	'GO' => 'Los',
+	'JUMP_TO' => 'Gehe zu',
+	'SUBMIT' => 'Absenden',
+	'RESET' => 'Zurücksetzen',
+	'CANCEL' => 'Abbrechen',
+	'PREVIEW' => 'Vorschau',
+	'CONFIRM' => 'Bestätigen',
+	'YES' => 'Ja',
+	'NO' => 'Nein',
+	'ENABLED' => 'Aktiviert',
+	'DISABLED' => 'Deaktiviert',
+	'ERROR' => 'Fehler',
 
     'Next' => 'Weiter',
     'Previous' => 'Zurück',
@@ -181,7 +180,7 @@ $lang = array_merge($lang, array(
 
     'Select_forum' => 'Forum auswählen',
     'View_latest_post' => 'Letzten Beitrag anzeigen',
-    'View_newest_post' => 'Neuesten Beitrag anzeigen',
+    'View_newest_post' => 'Neusten Beitrag anzeigen',
     'Page_of' => 'Seite <b>%d</b> von <b>%d</b>', // Replaces with: Page 1 of 2 for example
 
     'ICQ' => 'ICQ-Nummer',
@@ -245,7 +244,7 @@ $lang = array_merge($lang, array(
     'KB_title' => 'Wissensdatenbank',
     'BBCode_guide' => 'BBCode-Hilfe',
     'Usergroups' => 'Benutzergruppen',
-    'Last_Post' => 'Letzter&nbsp;Beitrag',
+    'Last_Post' => 'Letzter Beitrag',
     'Moderator' => '<b>Moderator</b>',
     'Moderators' => '<b>Moderatoren</b>',
 
@@ -256,7 +255,7 @@ $lang = array_merge($lang, array(
     'Registered_users_zero_total' => 'Wir haben <b>keine</b> registrierten Benutzer.', // # registered users
     'Registered_users_total' => 'Wir haben <b>%d</b> registrierte Benutzer.', // # registered users
     'Registered_user_total' => 'Wir haben <b>einen</b> registrierten Benutzer.', // # registered users
-    'Newest_user' => 'Der neueste Benutzer ist <b>%s%s%s</b>.', // a href, username, /a
+    'Newest_user' => 'Der neuste Benutzer ist <b>%s%s%s</b>.', // a href, username, /a
 
     'No_new_posts_last_visit' => 'Keine neuen Beiträge seit deinem letzten Besuch',
 
@@ -782,7 +781,7 @@ $lang = array_merge($lang, array(
     'Sort_Website' => 'Webseite',
     'Sort_Ascending' => 'Aufsteigend',
     'Sort_Descending' => 'Absteigend',
-    'Order' => 'Ordnung',
+    'Order' => 'Sortierung',
 
 
 // Group control panel
@@ -852,7 +851,7 @@ $lang = array_merge($lang, array(
     'Search_keywords_explain' => 'Du kannst <u>AND</u> benutzen, um Wörter zu definieren, die vorkommen müssen, <u>OR</u> kannst du benutzen für Wörter, die im Resultat sein können und <u>NOT</u> für Wörter, die im Ergebnis nicht vorkommen sollen. Das *-Zeichen kannst du als Platzhalter benutzen.',
     'Search_author' => 'Nach Autor suchen',
     'Search_author_explain' => 'Benutze das *-Zeichen als Platzhalter',
-    'Search_author_topic_starter' => 'Search only topics started by this author',
+    'Search_author_topic_starter' => 'Nur nach von diesem Autor gestartete Themen suchen',
 
     'Search_for_any' => 'Nach irgendeinem Wort suchen',
     'Search_for_all' => 'Nach allen Wörtern suchen',
@@ -890,7 +889,7 @@ $lang = array_merge($lang, array(
     'Sorry_auth_post' => 'Nur %s haben die Berechtigung, in diesem Forum Beiträge zu erstellen.',
     'Sorry_auth_reply' => 'Nur %s haben die Berechtigung, in diesem Forum auf Beiträge zu antworten.',
     'Sorry_auth_edit' => 'Nur %s haben die Berechtigung, in diesem Forum Beiträge zu bearbeiten.',
-    'Sorry_auth_delete' => 'nur %s haben die Berechtigung, in diesem Forum Beiträge zu löschen.',
+    'Sorry_auth_delete' => 'Nur %s haben die Berechtigung, in diesem Forum Beiträge zu löschen.',
     'Sorry_auth_vote' => 'In diesem Forum können sich nur %s an Abstimmungen beteiligen.',
 
 // These replace the %s in the above strings
@@ -936,7 +935,7 @@ $lang = array_merge($lang, array(
     'Viewing_priv_msgs' => 'Private Nachrichten anzeigen',
     'Viewing_FAQ' => 'FAQ anzeigen',
     'Viewing_KB' => 'KB anzeigen',
-    'Viewing_RSS' => 'RSS feed',
+    'Viewing_RSS' => 'RSS-Feed',
 
 
 // Moderator Control Panel
@@ -965,7 +964,7 @@ $lang = array_merge($lang, array(
     'Leave_shadow_topic' => 'Shadow Topic im alten Forum lassen',
 
     'Split_Topic' => 'Thema teilen Kontrollbereich',
-    'Split_Topic_explain' => 'Mit den Eingabefeldern unten kannst du ein Thema in zwei teilen, in dem du entweder die Beiträge manuell auswählst oder ab einem gewählten Beitrag teilst',
+    'Split_Topic_explain' => 'Mit den Eingabefeldern unten kannst du ein Thema in zwei Teile teilen, in dem du entweder die Beiträge manuell auswählst oder ab einem gewählten Beitrag teilst',
     'Split_title' => 'Titel des neuen Themas',
     'Split_forum' => 'Forum des neuen Themas',
     'Split_posts' => 'Gewählte Beiträge teilen',
@@ -1005,8 +1004,8 @@ $lang = array_merge($lang, array(
 
     'Today_at' => '<b class="date-today">Heute</b> um ',
     'Yesterday_at' => '<b class="date-yesterday">Gestern</b> um ',
-    'TODAY' => '<b class="date-today">Today</b>',
-    'YESTERDAY' => '<b class="date-yesterday">Yesterday</b>',
+    'TODAY' => '<b class="date-today">Heute</b>',
+    'YESTERDAY' => '<b class="date-yesterday">Gestern</b>',
 
 // Birthday - BEGIN
     'Birthday' => 'Geburtstag',
@@ -1017,7 +1016,7 @@ $lang = array_merge($lang, array(
     'Birthday_require' => 'Die Eingabe des Geburtstags ist erforderlich',
     'Birthday_to_low' => 'Das Alter muss über %d Jahren liegen',
     'Submit_date_format' => 'd.m.Y', //php date() format - note: ONLY d , m and Y may be used and SHALL ALL be used (different sepperators are accepted)
-    'Birthday_greeting_today' =>'Herzlichen Glückwünsch zum Geburstag! Mit deinen %s Jahren siehst du immer noch so aus wie eh und je: einfach <b>blendend</b>.<br /> Also lass dich heute reich beschenken und feiern und lass dich nicht ärgern.',//%s is substituted with the users age
+    'Birthday_greeting_today' =>'Herzlichen Glückwünsch zum Geburtstag! Mit deinen %s Jahren siehst du immer noch so aus wie eh und je: einfach <b>blendend</b>.<br /> Also lass dich heute reich beschenken und feiern und lass dich nicht ärgern.',//%s is substituted with the users age
     'Birthday_greeting_prev' =>'Hui! Wir kommen zu spät zu deinem %s. Geburtstag, der am %s war, stimmt\'s? Wir wünschen dir auch nachträglich noch alles Gute und hoffen, dass du einen schönen Geburtstag hattest.',//%s is substituted with the users age, and birthday
     'Greeting_Messaging' =>'Herzlichen Glückwunsch!',
     'Birthday_today' => 'Geburtstage heute: ',
@@ -1068,14 +1067,14 @@ $lang = array_merge($lang, array(
     'user_already_banned' => 'Der gewählte Benutzer ist bereits gesperrt.',
     'Ban_no_admin' => 'Dieser Benutzer ist ein Administrator und kann weder verwarnt noch gesperrt werden.',
     'Give_b_card' => 'Diesen Beitrag einem Moderator melden.',
-    'Clear_b_card' => 'Dieses Posting hat bisher %d blaue Karten erhalten. Wenn du bestätigst wird der Counter zurückgesetzt.',
+    'Clear_b_card' => 'Dieser Beitrag hat bisher %d blaue Karten erhalten. Wenn du bestätigst wird der Counter zurückgesetzt.',
     'No_moderators' => 'Dieses Forum hat keinen Moderator, deswegen wird kein Bericht versandt.',
-    'Post_repported' => '%d Moderatoren werden über die Beanstandung dieses Postings informiert.',
-    'Post_repported_1' => 'Der Moderator wird über die Beanstandung dieses Postings informaiert.',
+    'Post_repported' => '%d Moderatoren werden über die Beanstandung dieses Beitrags informiert.',
+    'Post_repported_1' => 'Der Moderator wird über die Beanstandung dieses Beitrags informiert.',
     'Post_repport' => 'Die Beanstandung abschicken.',
-    'Post_reset' => 'Die Anzahl der blauen Karten dieses Postings wurde zurückgesetzt.',
+    'Post_reset' => 'Die Anzahl der blauen Karten dieses Beitrags wurde zurückgesetzt.',
     'Search_only_bluecards' => 'Alle Beiträge mit blauen Karten anzeigen.',
-    'Send_message' => '%sKlicke hier%s, um einen Beitrag zu beanstanden.<br/>',
+    'Send_message' => '%sKlicke hier%s, um einen Beitrag zu beanstanden.<br />',
     'Send_PM_user' => '%sKlicke hier%s, um dem Benutzer eine PN zu schreiben.',
     'Link_to_post' => '%sKlicke hier%s, um zum beanstandeten Beitrag zu gehen.
 --------------------------------
@@ -1158,15 +1157,15 @@ $lang = array_merge($lang, array(
     'TOP_POSTERS' => 'Top Posters',
 
 // TELL A FRIEND
-    'Tell_Friend' => 'E-Mail an einen Freund',
-    'Tell_Friend_Sender_User' => 'Dein Name:',
-    'Tell_Friend_Sender_Email' => 'Deine E-Mail:',
-    'Tell_Friend_Reciever_User' => 'Name deines Freundes:',
-    'Tell_Friend_Reciever_Email' => 'E-Mail deines Freundes:',
-    'Tell_Friend_Wrong_Email' => 'Du hast keine gültige E-Mail Adresse angegeben.',
-    'Tell_Friend_Msg' => 'Deine Nachricht:',
-    'Tell_Friend_Title' => 'Freund informieren',
-    'Tell_Friend_Body' => "Hallo,\nIch habe gerade das Thema &raquo;{TOPIC}&laquo; auf {SITENAME} gesehen und dachte, dass es dich vielleicht interessiert.\n Hier ist der Link: {LINK}\n\nSchau es dir mal. Wenn du darauf antworten möchtest, kannst du ein eigenes Benutzer-Konto erstellen, sofern du nicht schon eines hast.",
+    'TELL_FRIEND' => 'E-Mail an einen Freund',
+    'TELL_FRIEND_SENDER_USER' => 'Dein Name:',
+    'TELL_FRIEND_SENDER_EMAIL' => 'Deine E-Mail:',
+    'TELL_FRIEND_RECEIVER_USER' => 'Name deines Freundes:',
+    'TELL_FRIEND_RECEIVER_EMAIL' => 'E-Mail deines Freundes:',
+    'TELL_FRIEND_WRONG_EMAIL' => 'Du hast keine gültige E-Mail Adresse angegeben.',
+    'TELL_FRIEND_MSG' => 'Deine Nachricht:',
+    'TELL_FRIEND_TITLE' => 'Freund informieren',
+    'TELL_FRIEND_BODY' => "Hallo,\nIch habe gerade das Thema &raquo;{TOPIC}&laquo; auf {SITENAME} gesehen und dachte, dass es dich vielleicht interessiert.\n Hier ist der Link: {LINK}\n\nSchau es dir mal. Wenn du darauf antworten möchtest, kannst du ein eigenes Benutzer-Konto erstellen, sofern du nicht schon eines hast.",
 
 // Begin Thanks Mod
     'thankful' => 'Dankbare Nutzer',
@@ -1344,7 +1343,7 @@ $lang = array_merge($lang, array(
     'Viewing_Referrers' => 'Referer anzeigen',
 //Referrers Mod End
 
-    'Recent_topics' => 'Neueste Themen', // Recent Topics
+    'Recent_topics' => 'Neuste Themen', // Recent Topics
     'Recent_today' => 'Heute',
     'Recent_yesterday' => 'Gestern',
     'Recent_last24' => 'in den letzten 24 Stunden',
@@ -1365,13 +1364,13 @@ $lang = array_merge($lang, array(
     'Recent_title_lastXdays' => ' seit den letzten %s Tagen', // %s = days
     'Recent_no_topics' => 'Es wurden keine Themen gefunden.',
     'Recent_wrong_mode' => 'Du hast den falschen Modus ausgewählt.',
-    'Recent_click_return' => '%sKlicke hier%s, um zur Neueste Themen Seite zurückzukehren.',
+    'Recent_click_return' => '%sKlicke hier%s, um zur Neuste Themen Seite zurückzukehren.',
 
     'Profile_view_option' => 'Pop up Fenster für Profilansichten',
     'Profile_viewed' => 'Profilansichten',
 
 // BEGIN Disable Registration MOD
-    'registration_status' => 'Es tut uns leid, aber Neuregistrierungen im Forum sind zur Zeit nicht möglich. Bitte versuche es später noch einmal.',
+    'registration_status' => 'Es tut uns leid, aber Neuregistrierungen im Forum sind zurzeit nicht möglich. Bitte versuche es später noch einmal.',
 // END Disable Registration MOD
 
     'PostHighlight' => 'Markieren',
@@ -1394,7 +1393,6 @@ $lang = array_merge($lang, array(
     'Posts_per_page' => 'Beiträge pro Seite',
     'Hot_threshold' => 'Beitragsgrenze für "heiße" Themen',
 
-    'Mod_CP_enhanced' => '(erweiterte Version)',
     'Mod_CP_first_post' => 'Erster Beitrag',
     'Mod_CP_topic_count' => '<b>%s</b> Thema gefunden.',
     'Mod_CP_topics_count' => '<b>%s</b> Themen gefunden.',
@@ -1444,7 +1442,7 @@ $lang = array_merge($lang, array(
 
     'UCP_SubscForums' => 'Beobachtete Foren',
     'UCP_NoSubscForums' => 'Du beobachtest keine Foren',
-    'UCP_SubscForums_Flag' => 'Flagge',
+    'UCP_SubscForums_Flag' => 'Fahne',
     'UCP_SubscForums_Forum' => 'Forum',
     'UCP_SubscForums_Forum_subscribed' => 'Forum beobachtet',
     'UCP_SubscForums_Forum_already_subscribed' => 'Du beobachtest dieses Forum bereits',
@@ -1573,7 +1571,7 @@ $lang = array_merge($lang, array(
     'Rss_news_help_explain_3' => 'Als erstes benötigst Du einen Feed-Reader, den bekommst Du beispielsweise bei <a href="http://www.rssowl.org/" target="new">http://www.rssowl.org/</a>.<br /><br />Danach kannst Du in dem Programm:<br /><br /><b>1.</b> Nach RSS Links auf unserer Seite suchen. (Extras => Suche Newsfeeds auf Webseite) <b>oder</b><br /><b>2.</b> eine der folgenden Feed URL´s hinzufügen:',
     'L_url_rss_explain' => 'URL für alle Forenbeiträge.',
     'L_url_rss_news_explain' => 'URL nur für die Foren News.',
-    'L_url_rss_atom_explain' => 'URL für Atom RSS Feed.',
+    'L_url_rss_atom_explain' => 'URL für Atom RSS-Feed.',
     'Rss_news_help_rights' => 'Wir behalten uns das Recht vor, die Nutzung von Feeds jederzeit nach unserem Ermessen zu beenden. Unsere Foren-Feeds dürfen nicht weitervertrieben werden.',
     'Rss_news_feeds' => 'RSS News Feeds',
 
@@ -1622,8 +1620,8 @@ $lang = array_merge($lang, array(
     'Remote_avatar_no_image' => 'Das Bild %s ist nicht vorhanden',
     'Remote_avatar_error_filesize' => 'Das Bild ist zu groß. Avatare dürfen maximal (%d Bytes) groß sein.',
     'Remote_avatar_error_dimension' => 'Die Bildpixelgröße ist zu groß. Avatare dürfen maximal (%d x %d Pixel) groß sein.',
-    'How_Many_Chatters' => 'Es sind zur Zeit <b>%d</b> Benutzer im Chat.',
-    'Who_Are_Chatting'  => '<b>%s</b>',
+    'How_Many_Chatters' => 'Es sind zurzeit <b>%d</b> Benutzer im Chat.',
+    'Who_Are_Chatting' => '<b>%s</b>',
     'Click_to_join_chat' => 'Hier klicken um zu chatten.',
     'ChatBox' => 'ChatBox',
     'log_out_chat' => 'Du hast Dich erfolgreich ausgeloggt ',
@@ -1652,12 +1650,12 @@ $lang = array_merge($lang, array(
 /* Errors */
     'Error_Hacks_List_Table' => 'Fehler beim abfragen der Credit Tabelle.',
     'Required_Field_Missing' => 'Du hast nicht alle erforderlichen Informationen eingegeben.',
-    'Error_File_Opening' => 'Fehler beim Öffen von Datei: %s',
+    'Error_File_Opening' => 'Fehler beim Öffnen von Datei: %s',
 
 //====================================================
 // Mighty Gorgon - LANG - BEGIN
 // Mighty Gorgon - Full Album Pack - BEGIN
-    'Newest_pic' => 'Neuestes Bild', // Album Addon
+    'Newest_pic' => 'Neustes Bild', // Album Addon
     'Random_pic' => 'Zufälliges Bild', // Album Addon
     'Click_enlarge_pic' => 'Klicke auf das Bild, um es zu vergrößern.',
 // Mighty Gorgon - Full Album Pack - END
@@ -1852,7 +1850,7 @@ $lang = array_merge($lang, array(
 
 // Moved here from lang_adv_time.php
     'time_mode' => 'Zeit-Verwaltung',
-    'time_mode_text' => 'Forumeinstellungen werden ignoriert, wenn die Automatische Eintellung aktiviert ist (JavaScript ist für die ersten beiden erforderlich).<br />Wenn du Manuelle Einstellung gewählt hast, kannst du die Sommerzeit Differenz im Feld Sommerzeit Unterschied die Differenz zur normalen Zeit eingeben (0 bis 120 Minuten, normalerweise 60 Minuten).<br /><br />* Der mit Sternchen markierte Modus, ist der Standardmodus im Forum und vom Administrator empfohlen.',
+    'time_mode_text' => 'Forumeinstellungen werden ignoriert, wenn die Automatische Einstellung aktiviert ist (JavaScript ist für die ersten beiden erforderlich).<br />Wenn du Manuelle Einstellung gewählt hast, kannst du die Sommerzeit Differenz im Feld Sommerzeit Unterschied die Differenz zur normalen Zeit eingeben (0 bis 120 Minuten, normalerweise 60 Minuten).<br /><br />* Der mit Sternchen markierte Modus, ist der Standardmodus im Forum und vom Administrator empfohlen.',
     'time_mode_auto' => 'Automatische Einstellung:',
     'time_mode_full_pc' => 'Zeit deines Computers',
     'time_mode_server_pc' => 'Server Universalzeit, Zeitzone/Sommerzeit<br /><span STYLE="margin-left: 25">deines Computers</span>',
@@ -1867,9 +1865,9 @@ $lang = array_merge($lang, array(
     'dst_time_lag_error' => 'Sommerzeit Unterschied Fehler. Der Wert muss zwischen 0 und 120 Minuten liegen.',
 
     'dst_enabled_mode' => ' [Sommerzeit aktiviert]',
-    'full_server_mode' => 'Zeit mit dem Server syncronisiert',
+    'full_server_mode' => 'Zeit mit dem Server synchronisiert',
     'server_pc_mode' => 'Zeitsyncronisation mit dem Server - Zeitzone/Sommerzeit mit deinem Computer',
-    'full_pc_mode' => 'Zeit mit deinem Computer syncronisiert',
+    'full_pc_mode' => 'Zeit mit deinem Computer synchronisiert',
 
     'Smileys_Per_Page' => 'Smilies pro Seite',
 
@@ -1918,7 +1916,7 @@ $lang = array_merge($lang, array(
     'X_Months' => '%d Monate',
     'X_Years' => '%d Jahre',
 
-    'Confirm_delete_user' => 'Bist du Dir wirklich sicher das Du diesen Benutzer löschen willst?',
+    'Confirm_delete_user' => 'Bist du Dir wirklich sicher, dass Du diesen Benutzer löschen willst?',
     'Prune_no_users' => 'Es wurden keine Benutzer gelöscht.',
     'Prune_users_number' => '%d Benutzer wurden gelöscht:',
 
@@ -1952,6 +1950,7 @@ $lang = array_merge($lang, array(
     'Upload_Insert_Image' => 'Füge BBCode ein',
     'Upload_Close' => 'Schließen',
     'BBCode' => 'BBCode',
+	'HTML' => 'HTML',
 
     'No_News' => 'Keine News',
 
@@ -1965,7 +1964,7 @@ $lang = array_merge($lang, array(
     'Edit_quick_post' => 'Schnellbearbeitung dieses Beitrags',
     'AJAX_search_results' => 'Eine Schnellsuche hat %s Themen mit den Schlüsselwörtern aus Deinem Thementitel gefunden. Klickt hier, um diese Themen anzusehen.',
     'AJAX_search_result' => 'Eine Schnellsuche hat ein Thema mit den Schlüsselwörtern aus Deinem Thementitel gefunden. Klickt hier, um dieses Thema anzusehen.',
-    'More_matches_username' => 'Mehr als ein Benutzer paßt zu deiner Anfrage. Bitte wähle einen aus der obigen Box aus.',
+    'More_matches_username' => 'Mehr als ein Benutzer passt zu deiner Anfrage. Bitte wähle einen aus der obigen Box aus.',
     'No_username' => 'Du mußt einen Benutzernamen eingeben.',
     'AJAX_quick_search_results' => 'Eine Schnellsuche hat %s Themen mit diesen Schlüsselwörtern gefunden.<br />Rechts kannst du die ersten Ergebnisse sehen.<br />Klicke auf SUCHEN, um die komplette Ergebnisliste zu erhalten.',
     'AJAX_quick_search_result' => 'Eine Schnellsuche hat ein Thema mit diesen Schlüsselwörtern gefunden.<br />Rechts kannst du das Ergebnis sehen.',
@@ -1975,11 +1974,11 @@ $lang = array_merge($lang, array(
     'Feature_Disabled' => 'Diese Funktion wurde deaktiviert.',
 
 // Resend Activation - BEGIN
-    'Resend_activation_email' => 'Erneutes Senden der Aktivierungs E-Mail',
-    'Invalid_activation' => 'Benutzer-Konto Aktivierung kann nur vom einem Administrator durchgeführt werden.',
+    'Resend_activation_email' => 'Erneutes Senden der Aktivierungs-E-Mail',
+    'Invalid_activation' => 'Benutzer-Konto Aktivierung kann nur von einem Administrator durchgeführt werden.',
     'No_actkey' => 'Es existiert kein Aktivierung-Schlüssel für Dein Konto. Bitte kontaktiere den Administrator für mehr Informationen.',
-    'Send_actmail_flood_error' => 'Du kannst nicht so schnell eine erneute Anfrage nach deiner letzten senden! Bitte versuche es später nocheinmal.',
-    'Resend_activation_email_done' => 'Die Aktivierungs E-Mail wurde gesendet. Bitte prüfe dein E-Mail Postfach für weitere Informationen.',
+    'Send_actmail_flood_error' => 'Du kannst nicht so schnell eine erneute Anfrage nach deiner letzten senden! Bitte versuche es später noch einmal.',
+    'Resend_activation_email_done' => 'Die Aktivierungs-E-Mail wurde gesendet. Bitte prüfe dein E-Mail Postfach für weitere Informationen.',
 // Resend Activation - END
 
     'Bots_Group' => 'Bots',
@@ -2004,7 +2003,7 @@ $lang = array_merge($lang, array(
     'ShareThisTopic' => 'Verteile dieses Thema',
 
     'Remove_cookies' => 'Entferne die Cookies die von dieser Seite gesetzt wurden',
-    'Cookies_deleted' => 'Alle Cookies wurden gelöscht. Du bist nun ausgeloggt.<br />Um das Löschen abzuschliessen musst Du nun deinen Browser schliessen.',
+    'Cookies_deleted' => 'Alle Cookies wurden gelöscht. Du bist nun ausgeloggt.<br />Um das Löschen abzuschließen musst Du nun deinen Browser schließen.',
     'Delete_cookies' => 'Entferne Cookies',
     'cookies_confirm' => 'Bist Du sicher das Du alle Cookies die von dieser Seite gesetzt wurden, löschen willst?<br /><br />Diese Aktion wird Dich auch automatisch ausloggen.',
 
@@ -2049,7 +2048,7 @@ $lang = array_merge($lang, array(
 
     'Admin_Emails' => 'Administratoren können mir Informationen per E-Mail senden',
     'Allow_PM_IN' => 'Erlaube Benutzer mir private Nachrichten zu schreiben',
-    'Allow_PM_IN_Explain' => 'Denke daran, daß diese Oprion den Administratoren, Moderatoren und Freunden erlaubt, dir jederzeit eine Nachricht schreiben zu können.',
+    'Allow_PM_IN_Explain' => 'Denke daran, dass diese Option den Administratoren, Moderatoren und Freunden erlaubt, dir jederzeit eine Nachricht schreiben zu können.',
     'Allow_PM_IN_SEND_ERROR' => 'Der Benutzer, dem du eine PN senden wolltest, könnte deine Mitteilung nicht empfangen, da er private Mitteilungen nicht empfangen möchte.',
 
 // 'UCP_ZEBRA' => 'Freunde &amp; Feinde',
@@ -2109,9 +2108,9 @@ $lang = array_merge($lang, array(
     'LINK_BBCODE' => 'BBCode',
     'LINK_HTML' => 'HTML',
 
-    'NEWS_POSTED' => 'Browse news posted',
-    'TOPICS_POSTED' => 'Search topics started',
-    'POSTS_POSTED' => 'Search all user posts',
+    'NEWS_POSTED' => 'Geschriebene News durchsuchen',
+    'TOPICS_POSTED' => 'Gestartete Themen durchsuchen',
+    'POSTS_POSTED' => 'Alle Benutzer-Beiträge durchsuchen',
 
     'ACCOUNT_DELETION_REQUEST' => 'Benutzer %s hat die Löschung seines Accounts beantragt.',
 
@@ -2119,10 +2118,10 @@ $lang = array_merge($lang, array(
     'SORT_TOPICS_NEWEST' => 'Neusten',
     'SORT_TOPICS_OLDEST' => 'Ältesten',
 
-    'EDIT_POST_DETAILS' => 'Edit Post Details',
-    'CURRENT_POSTER' => 'Current Poster',
-    'NEW_POSTER' => 'New Poster',
-    'DETAILS_CHANGED' => '<b>Post details successfully changed.</b></span><br /><span class="postdetails">This window will be closed after 3 seconds.',
+    'EDIT_POST_DETAILS' => 'Beitragsangaben ändern',
+    'CURRENT_POSTER' => 'Aktueller Poster',
+    'NEW_POSTER' => 'Neuer Poster',
+    'DETAILS_CHANGED' => '<b>Beitragsangaben wurden erfolgreich geändert.</b></span><br /><span class="postdetails">Dieses Fenster wird in 3 Sekunden geschlossen.',
 
     'Redirect' => 'Weiterleiten',
     'Redirect_to' => 'Wenn Dein Browser keine META Weiterleitung unterstützt klicke bitte %shier%',
@@ -2131,14 +2130,23 @@ $lang = array_merge($lang, array(
 
 	'HAPPY_BIRTHDAY' => 'Happy Birthday',
 
-	'DOWNLOADED' => 'Downloaded',
-	'FILESIZE' => 'Filesize',
-	'FILENAME' => 'Filename',
-	'FILE_NOT_AUTH' => 'You are not authorised to download this file',
-	'SHOW_POSTS_FROM' => 'Show posts from',
-	'SHOW_POSTS_TO' => 'to',
+	'DOWNLOADED' => 'Heruntergeladen',
+	'FILESIZE' => 'Dateigröße',
+	'FILENAME' => 'Dateiname',
+	'FILE_NOT_AUTH' => 'Du bist nicht berechtigt diese Datei herunterzuladen',
+	'SHOW_POSTS_FROM' => 'Zeige Beiträge von',
+	'SHOW_POSTS_TO' => 'an',
 
 	'SEE_MORE_DETAILS' => 'Mehr Details sehen...',
+	'UNKNOWN' => 'Unbekannt',
+	'MASS_PM' => 'Massen-PN',
+	'TEXT_FORMAT' => 'Format',
+	'SENDER' => 'Absender',
+	'PM_NOTIFICATION' => 'Hello,<br /><br />You have received a new private message to your account on "{SITENAME}".<br /><br />You can view your new message by clicking on the following link:<br /><br />{U_INBOX}<br /><br />',
+
+	'GSEARCH' => 'Google Suche',
+	'GSEARCH_ENGINE' => 'Google-Suchmaschine benutzen',
+
 	)
 );
 
@@ -2160,10 +2168,10 @@ $lang['Prune_commands'][3] = 'Untreue Benutzer löschen';
 $lang['Prune_explain'][3] = 'Löscht die Benutzer, die sich seit 60 Tagen nicht mehr eingeloggt haben, <b>au&szlig;er</b> den neuen Benutzern der letzten %d Tage';
 $lang['Prune_commands'][4] = 'Schreibfaule Benutzer löschen';
 $lang['Prune_explain'][4] = 'Löscht die Benutzer, die nicht mindestens 1 Beitrag innerhalb von 10 Tagen schreiben, <b>au&szlig;er</b> den neuen Benutzern der letzten %d Tage';
-$lang['Prune_commands'][5] = 'Prune non-posting and non-visiting users';
-$lang['Prune_explain'][5] = 'Who have never posted and not visited recently, <b>excluding</b> new users from the past %d days';
+$lang['Prune_commands'][5] = 'Faule und nie eingeloggte Benutzer löschen';
+$lang['Prune_explain'][5] = 'Löscht die Benutzer, die zwar aktiviert sind, aber nichts geschrieben bzw. sich nie eingeloggt haben, <b>au&szlig;er</b> den neuen Benutzern der letzten %d Tage';
 
-// Timezones ... for display on each page
+// Timezones - BEGIN
 $lang['All_times'] = 'Alle Zeiten sind %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
 // Do not remove these even if duplicated...
