@@ -388,13 +388,13 @@ $lang = array_merge($lang, array(
     'prune_days' => 'Entferne Themen, in denen nichts mehr geschrieben wurde seit',
     'Set_prune_data' => 'Du hast das automatische Löschen für dieses Forum aktiviert, aber weder ein Intervall noch eine Anzahl an Tagen angegeben.',
 
-	'FORUM_SIMILAR_TOPICS' => 'Ähnliche Themen Box',
+	'FORUM_SIMILAR_TOPICS' => 'Ähnliche Themen-Box',
 	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird unter jedem Thema eine Box mit ähnlichen Themen angezeigt.',
-	'FORUM_TOPIC_VIEWS' => 'Topics Viewer',
-	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'If you enable this option all users that views topics in this forum will be stored in the DB (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SQL TAB)',
+	'FORUM_TOPIC_VIEWS' => 'Themen-Betrachter',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Wenn du diese Option aktivierst werden alle Benutzer die ein Thema in diesem Forum anschauen, in der Datenbank gespeichert ( Um diese Funktion nutzen zu können, mußt du auch den Global Switch in Icy Phoenix Einstellungen => SQL Optimierung aktivieren)',
 	'FORUM_TAGS' => 'Forum Tags',
 	'FORUM_TAGS_EXPLAIN' => 'Diese Option aktiviert eine Box, die die am häufigsten genutzten Wörter des gesamten Forums anzeigt (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
-	'FORUM_SORT_BOX' => 'Themen Sortierungs Box',
+	'FORUM_SORT_BOX' => 'Themen Sortierungs-Box',
 	'FORUM_SORT_BOX_EXPLAIN' => 'Wenn diese Option aktiviert ist, siehst du eine Box die dir erlaubt, die Themen alphabetisch zu ordnen (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
 	'FORUM_KB_MODE' => 'Wissensdatenbank Modus',
 	'FORUM_KB_MODE_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird das Forum im Wissensdatenbank Modus gezeigt. (Themen werden ähnlich der Wissensdatenbank aufgelistet)',
@@ -473,7 +473,7 @@ $lang = array_merge($lang, array(
 
 // Group Management
     'Group_administration' => 'Gruppenadministration',
-    'Group_admin_explain' => 'Hier kannst du die Benutzergruppen deines Forum überwachen. Du kannst bestehende Gruppen löschen oder bearbeiten oder neue anlegen. Ebenso kannst du Gruppenleiter wählen, den Gruppenstatus auf offen/geschlossen ändern und den Gruppennamen bzw. die Gruppenbeschreibung ändern',
+    'Group_admin_explain' => 'Hier kannst du die Benutzergruppen deines Forums überwachen. Du kannst bestehende Gruppen löschen oder bearbeiten oder neue anlegen. Ebenso kannst du Gruppenleiter wählen, den Gruppenstatus auf offen/geschlossen ändern und den Gruppennamen bzw. die Gruppenbeschreibung ändern',
     'Error_updating_groups' => 'Fehler beim Aktualisieren der Gruppe',
     'Updated_group' => 'Die Gruppe wurde abgeändert',
     'Added_new_group' => 'Die Gruppe wurde hinzugefügt',
@@ -857,7 +857,7 @@ $lang = array_merge($lang, array(
     'Available' => 'verfügbar',
     'Unavailable' => 'nicht verfügbar',
     'LIW_title' => 'Bildbreiten-Begrenzung',
-    'LIW_admin_explain' => 'Diese Seite erlaubt dir das Ein- und Ausschalten der Bildbreitenbegrenzung, sowie das einstellen der maximalen Bildbreite für jedes im Forum eingestellte Bild. Sollte die SQL-Tabelle, welche die Abmessungen aller Bilder enthält, zu groß werden, kannst du sie mit einem Klick auf \'Cache-Tabelle leeren\' leeren.<br /><br />Du kannst auch sehen, ob es möglich ist, die Bildbreitenbegrenzung auf deinem Webserver zu nutzen, indem du in der \'Kompatibilitätsprüfung\' Box unten nachschaust.',
+    'LIW_admin_explain' => 'Diese Seite erlaubt dir das Ein- und Ausschalten der Bildbreitenbegrenzung, sowie das Einstellen der maximalen Bildbreite für jedes im Forum eingestellte Bild. Sollte die SQL-Tabelle, welche die Abmessungen aller Bilder enthält, zu groß werden, kannst du sie mit einem Klick auf \'Cache-Tabelle leeren\' leeren.<br /><br />Du kannst auch sehen, ob es möglich ist, die Bildbreitenbegrenzung auf deinem Webserver zu nutzen, indem du in der \'Kompatibilitätsprüfung\' Box unten nachschaust.',
     'LIW_compatibility_checks' => 'Kompatibilitätsprüfung',
     'LIW_mod_config' => 'MOD Konfiguration',
 
@@ -1224,9 +1224,9 @@ $lang = array_merge($lang, array(
 // Search Flood Control - added 2.0.20
     'Search_Flood_Interval' => 'Flood-Intervall für Suche',
     'Search_Flood_Interval_explain' => 'Anzahl der Sekunden, die ein Benutzer zwischen Suchanfragen warten muss',
-    'Confirm_delete_smiley' => 'Bist Du sicher das dieses Smiley gelöscht werden soll?',
-    'Confirm_delete_word' => 'Bist Du sicher das diese Wortzensur gelöscht werden soll?',
-    'Confirm_delete_rank' => 'Bist Du sicher das dieser Rang gelöscht werden soll?',
+    'Confirm_delete_smiley' => 'Bist Du sicher, dass dieses Smiley gelöscht werden soll?',
+    'Confirm_delete_word' => 'Bist Du sicher, dass diese Wortzensur gelöscht werden soll?',
+    'Confirm_delete_rank' => 'Bist Du sicher, dass dieser Rang gelöscht werden soll?',
 
 // Custom Profile Fields MOD
     'custom_field_notice_admin' => 'Diese Erklärungen sind von Dir oder einem anderen Administrator erstellt worden. Für mehr Informationen, prüfe die Erklärungen unter den Profilfeldern. Felder die mit * gekennzeichnet sind, sind Pflichtfelder. Felder die mit &dagger; gekennzeichnet sind, sind nur für Admins sichtbar.',
@@ -1361,7 +1361,7 @@ $lang = array_merge($lang, array(
 
 /* lang_megamail.php - BEGIN */
     'Megamail_Explain' => 'Hier kannst du eine PN (private Nachricht) oder E-Mail an alle Benutzer oder an alle Benutzer einer Gruppe schicken. Diese geschieht normalerweise, indem eine E-Mail über die Forum E-Mail-Adresse gesendet wird, auf der alle Empfänger dieser E-Mail als Blind Carbon Copy (BCC - Blindkopie) eingetragen sind.<br />Dieses modifizierte Script sendet diese E-Mail in mehreren Batches. Dies sollte Timeouts und Serverlastprobleme umgehen. Der Status des Massen E-Mail-Sendens wird in der Datenbank gespeichert. Du kannst dieses Fenster schließen, um das Massen E-Mail-Senden zu pausieren (das aktuelle Batch wird noch abgearbeitet). Du kannst später dort weitermachen, wo du aufgehört hast.<br /><b>Wenn HTML Emails aktiviert sind, solltest Du Emails unter Verwendung des HTML Codes schreiben, &lt;br /&gt; für ein Zeilenumbruch verwenden.</b>',
-	'megamail_inactive_users' => 'Non visiting users in the last {DAYS} days',
+	'megamail_inactive_users' => 'Benutzer, die das Forum in den letzten {DAYS} Tagen nicht besucht haben',
     'megamail_header' => 'Deine E-Mail-Sessions',
     'megamail_id' => 'Mail-ID',
     'megamail_batchstart' => 'Bearbeitet',
@@ -1415,7 +1415,7 @@ $lang = array_merge($lang, array(
     'VC_active' => 'Visuelle Bestätigung ist aktiviert!',
     'VC_inactive' => 'Visuelle Bestätigung ist nicht aktiviert!',
     'background_configs' => 'Hintergrund',
-    'Click_return_captcha_config' => 'Klick %shier%s um zur CAPTCHA Konfiguration zurückzukehren',
+    'Click_return_captcha_config' => 'Klicke %shier%s um zur CAPTCHA Konfiguration zurückzukehren',
 
     'CAPTCHA_width' => 'Breite des CAPTCHA',
     'CAPTCHA_height' => 'Höhe des CAPTCHA',
@@ -1476,12 +1476,12 @@ $lang = array_merge($lang, array(
     'Error_Month' => 'Deine Eingabe muss zwischen 1 und 12 liegen.',
     'Error_Day' => 'Der eingegebene Tag muss zwischen 1 und 31 liegen.',
     'Error_Year' => 'Das eingegebene Jahr muss zwischen 1970 und 2038 liegen.',
-    'Error_Topics_Table' => 'Fehler beil Zugriff auf die Themen-Tabelle.',
+    'Error_Topics_Table' => 'Fehler bei Zugriff auf die Themen-Tabelle.',
 /* lang_admin_topic_shadow.php - END */
 
 /* lang_admin_rebuild_search.php - BEGIN */
     'Rebuild_search' => 'Suche aufbauen',
-    'Rebuild_search_desc' => 'Damit wird jeder Beitrag in deiner Knowledge Base indiziert und die Suchetabellen neu aufgebaut. Dies kann einige Zeit dauern. Verlasse diese Seite nicht, bis der Vorgang abgeschlossen ist.',
+    'Rebuild_search_desc' => 'Damit wird jeder Beitrag in deiner Wissendatenbank indiziert und die Suchetabellen neu aufgebaut. Dies kann einige Zeit dauern. Verlasse diese Seite nicht, bis der Vorgang abgeschlossen ist.',
     'Post_limit' => 'Beitrags-Limit',
     'Time_limit' => 'Zeit-Limit',
     'Refresh_rate' => 'Aktualisierungsrate',
@@ -1671,7 +1671,7 @@ $lang = array_merge($lang, array(
     'Link_delete' => 'Link löschen',
     'Link_title' => 'Name der Seite',
     'Link_url' => 'URL der Seite',
-    'Link_logo_src' => 'Logo (88x31 pixel, nicht grösser als 10k)',
+    'Link_logo_src' => 'Logo (88x31 Pixel, nicht grösser als 10k)',
     'Link_category' => 'Kategorie',
     'Link_desc' => 'Beschreibung der Seite',
     'link_hits' => 'Klicks',
@@ -1772,7 +1772,7 @@ $lang = array_merge($lang, array(
     'Empty_Cache_Success' => 'Cache Ordner erfolgreich geleert.',
 
     'Copy_Auth' => 'Kopiere Berechtigungen von',
-    'Copy_Auth_Explain' => 'Bitte beachte das Du Berechtigungen nur von Foren kopieren kannst, nicht von Kategorien!!!',
+    'Copy_Auth_Explain' => 'Bitte beachte, dass Du Berechtigungen nur von Foren kopieren kannst, nicht von Kategorien!!!',
 
 // Icy Phoenix - BUILD 027
 /* lang_admin_db_backup.php - BEGIN */
@@ -1786,7 +1786,7 @@ $lang = array_merge($lang, array(
 
 // Backup
     'ACP_BACKUP' => 'Datenbank Backup',
-    'ACP_BACKUP_EXPLAIN' => 'Hier kannst du alle seitenbezogenen Daten sichern. Du kannst das Ergebniss in deinem <samp>backup/</samp> Ordner speichern, oder direkt herunterladen. Abhängig von deinen Server Einstellungen, kannst du dieses Archiv in mehrere Formate komprimieren.',
+    'ACP_BACKUP_EXPLAIN' => 'Hier kannst du alle seitenbezogenen Daten sichern. Du kannst das Ergebnis in deinem <samp>backup/</samp> Ordner speichern, oder direkt herunterladen. Abhängig von deinen Server Einstellungen, kannst du dieses Archiv in mehrere Formate komprimieren.',
 
     'BACKUP_OPTIONS' => 'Backup-Optionen',
     'BACKUP_TYPE' => 'Backup-Typ',
@@ -1817,7 +1817,7 @@ $lang = array_merge($lang, array(
 
 // Errors
     'No_Backup_Selected' => 'Du hast kein Backup ausgewählt, somit kannst du keins wiederherstellen.',
-    'Backup_Invalid' => 'Die gewöhlte Backup-Datei ist ungültig.',
+    'Backup_Invalid' => 'Die ausgewählte Backup-Datei ist ungültig.',
     'RESTORE_FAILURE' => 'Die Backup-Datei hat Fehler.',
 /* lang_admin_db_backup.php - END */
 
@@ -1831,14 +1831,14 @@ $lang = array_merge($lang, array(
     'LOGS_DENY' => 'Keine Berechtigung!',
     'LOGS_POST_EDIT' => 'änderte einen Beitrag geschrieben von',
     'LOGS_POST_DELETE' => 'löschte einen Beitrag von',
-    'LOGS_GROUP_JOIN' => 'beantragt Gruppenmitschliedschaft in der Gruppe',
+    'LOGS_GROUP_JOIN' => 'beantragt Gruppenmitgliedschaft in der Gruppe',
     'LOGS_GROUP_EDIT' => 'änderte Gruppenoptionen von %s',
     'LOGS_GROUP_ADD' => 'fügte %s zur Gruppe',
     'LOGS_GROUP_TYPE' => 'änderte Gruppe %s, jetzt ist die Gruppe %s',
     'LOGS_GROUP_TYPE_0' => 'geöffnet',
     'LOGS_GROUP_TYPE_1' => 'geschlossen',
     'LOGS_GROUP_TYPE_2' => 'versteckt',
-    'LOGS_MESSAGE' => 'versendete eine Email zu einem oder mehreren Benutzern, code <b>%s</b>',
+    'LOGS_MESSAGE' => 'versendete eine E-Mail zu einem oder mehreren Benutzern, code <b>%s</b>',
     'LOGS_MODCP_DELETE' => 'löschte ein Thema von %s durch das MODCP',
     'LOGS_MODCP_RECYCLE' => 'verschon ein Thema von %s durch das MODCP in den Papierkorb',
     'LOGS_MODCP_LOCK' => 'sperrte ein Thema von %s durch das MODCP',
@@ -1926,7 +1926,7 @@ $lang = array_merge($lang, array(
     'MG_SW_Empty_Precompiled_Posts_Fail' => 'Fehler beim Leeren der vorkompilierten Beiträge.',
 
     'MG_FNF_Header' => 'Schnell-Einstellungen',
-    'MG_FNF_Header_Explain' => 'Auf diser Seite kannst du schnell und einfach einige Schnell-Einstellungen für dein Forum vornehmen. Diese Voreinstellungen wurden für Benutzer erstellt, um einfach eine Massenänderung an den Einstellungen vorzunehmen, ohne jede Einstellung einzeln für sich ändern zu müssen. Diese Voreinstellungen können als Grundlage benutzt werden, um sie danach den persönlichen Bedürfnissen anzupassen: z.B. kannst du "Schnell und aufgebracht" auswählen und dann die Einstellungen ändern, die du nicht magst.<br /><br /><span class="text_red"><b>ACHTUNG, wenn du einmal eine Schnell-Einstellung ausgewählt hast, kannst du sie nicht mehr automatisch rückgängig machen. Du musst sie dann manuell wieder auswählen.</b></span>',
+    'MG_FNF_Header_Explain' => 'Auf dieser Seite kannst du schnell und einfach einige Schnell-Einstellungen für dein Forum vornehmen. Diese Voreinstellungen wurden für Benutzer erstellt, um einfach eine Massenänderung an den Einstellungen vorzunehmen, ohne jede Einstellung einzeln für sich ändern zu müssen. Diese Voreinstellungen können als Grundlage benutzt werden, um sie danach den persönlichen Bedürfnissen anzupassen: z.B. kannst du "Schnell und aufgebracht" auswählen und dann die Einstellungen ändern, die du nicht magst.<br /><br /><span class="text_red"><b>ACHTUNG, wenn du einmal eine Schnell-Einstellung ausgewählt hast, kannst du sie nicht mehr automatisch rückgängig machen. Du musst sie dann manuell wieder auswählen.</b></span>',
     'MG_FNF_Options_Set' => 'Schnell-Einstellungen',
     'MG_FNF_FNF' => 'Schnell und aufgebracht',
     'MG_FNF_FNF_Explain' => 'Diese Einstellung erhöht die Geschwindigkeit deines Forums, da viele der Funktionen, welche eine hohe CPU-Belastung oder DB-Zugriffe benötigen, deaktiviert werden. Dies ist eine gute Anfangseinstellung für eine schnelles Forum.',
@@ -1944,7 +1944,7 @@ $lang = array_merge($lang, array(
 
     'MG_SW_No_Right_Click' => 'Block Rechts Klick',
 
-    'Click_return_config_mg' => 'Llicke %shier%s um zu den Icy Phoenix Einstellungen zurückzukehren',
+    'Click_return_config_mg' => 'Klicke %shier%s um zu den Icy Phoenix Einstellungen zurückzukehren',
 	)
 );
 
