@@ -26,6 +26,7 @@ $lang['50_Hierarchy_setting'] = 'Forum';
 $lang['60_Calendar_settings'] = 'Calendario';
 $lang['70_SEO'] = 'SEO';
 $lang['80_Security'] = 'Logs E Sicurezza';
+$lang['90_Cron'] = 'Cron';
 
 // admin part
 if ($lang_extend_admin)
@@ -44,7 +45,7 @@ if ($lang_extend_admin)
 	$lang['IP_enable_digests'] = 'Attiva Digests';
 
 	$lang['IP_digests_php_cron'] = 'Attiva Digests PHP Cron';
-	$lang['IP_digests_php_cron_explain'] = 'Questa funzione consente di abilitare un\'emulazione del CRON per l\'invio dei digests. E\' consigliabile attivarla solo se non si ha accesso al CRON sul proprio server, perch&eacute; questa funzione potrebbe non andare a buon fine in alcuni casi.';
+	$lang['IP_digests_php_cron_explain'] = 'Questa funzione consente di abilitare un\'emulazione del CRON per l\'invio dei digests. E\' consigliabile attivarla solo se non si ha accesso al CRON sul proprio server, perch&eacute; questa funzione potrebbe non andare a buon fine in alcuni casi. Per poter utilizzare questa funzione, ricorda che devi abilitare <b>PHP Cron [Global Switch]</b> in <b>Configurazione &raquo; Icy Phoenix &raquo; Cron</b>';
 
 	$lang['IP_emails_only_to_admins'] = 'Emails Solo Agli Amministratori';
 	$lang['IP_emails_only_to_admins_explain'] = 'Consenti di utilizzare il sistema di emails solo per inviare emails agli amministratori.';
@@ -100,8 +101,10 @@ if ($lang_extend_admin)
 	$lang['IP_fast_n_furious'] = 'Fast And Furious';
 	$lang['IP_fast_n_furious_explain'] = 'Attivando questa opzione verranno disattivate alcune funzionalit&agrave; che richiedono un\'uso intensivo di SQL, accelerando cos&igrave; il caricamento delle pagine!';
 
+	/*
 	$lang['IP_db_cron'] = 'Ottimizzazione Database';
 	$lang['IP_db_cron_explain'] = 'Attivando questa opzione verr&agrave; attivata l\'ottimizzazione automatica del Database';
+	*/
 
 	$lang['IP_site_history'] = 'Storico Sito';
 	$lang['IP_site_history_explain'] = 'Attivando questa opzione verr&agrave; attivato lo Storico Sito';
@@ -120,6 +123,8 @@ if ($lang_extend_admin)
 
 	$lang['IP_google_bot_detector'] = 'Abilita GoogleBot Detector';
 
+	$lang['IP_gsearch_guests'] = 'Forza gli ospiti ad usare la Ricerca Google';
+
 	$lang['IP_visit_counter_switch'] = 'Abilita il contatore visite';
 
 	$lang['IP_enable_new_messages_number'] = 'Visualizza il numero di nuovi messaggi dall\'ultima visita';
@@ -130,7 +135,7 @@ if ($lang_extend_admin)
 
 	$lang['IP_show_thanks_viewtopic'] = 'Mostra i ringraziamenti ricevuti nella visualizzazione dei messaggi';
 
-	$lang['IP_disable_topic_view'] = 'Disattiva "Chi ha letto questo argomento"';
+	$lang['IP_disable_topic_view'] = 'Disattiva "Chi ha letto questo argomento" (Globale)';
 	$lang['IP_disable_topic_view_explain'] = 'Questa opzione consente di disattivare la funzione "Chi ha letto questo argomento" (consente di risparmiare spazio nel DB).';
 
 	$lang['IP_disable_referrers'] = 'Disattiva la memorizzazione dei Referrers';
@@ -389,6 +394,42 @@ if ($lang_extend_admin)
 
 	$lang['IP_logs_path'] = 'Percorso Logs (ricorda di attribuire i permessi CHMOD a 0777 a questa cartella)';
 	$lang['IP_logs_path_explain'] = 'Inserisci il percorso per la memorizzazione dei logs degli errori e di altri eventuali logs. Il percorso deve essere relativo al percorso dove &egrave; installato il sito e senza slash finale. Esempio: <b>logs</b>.';
+
+// TAB - Cron
+	$lang['IP_cron_global_switch'] = 'PHP Cron [Global Switch]';
+	$lang['IP_cron_global_switch_explain'] = 'Attivando questa opzione verr&agrave; abilitato un CRON basato su PHP: il CRON consente l\'esecuzione automatica (ad intervalli regolari) di particolari operazioni sul sito. L\'intervallo ottimale per ciascuna operazione dipende dal traffico del sito e dalle tue preferenze: se non comprendi bene l\'impatto di tali funzioni &egrave; consigliabile lasciare questa funzione disattivata, perch&eacute; probabilmente non ne hai bisogno.';
+
+	$lang['IP_cron_files_interval'] = 'Intervallo Esecuzione Automatica Di Files';
+	$lang['IP_cron_files_interval_explain'] = 'Attivando questa opzione potrai eseguire ad intervalli regolari dei files. Per selezionare i files da eseguire devi modificare manualmente il file <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\'; \'\');</b>. Puoi aggiungere anche pi&ugrave; files separati da virgola.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_files_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>';
+
+	$lang['IP_cron_database_interval'] = 'Intervallo Ottimizzazione DB';
+	$lang['IP_cron_database_interval_explain'] = 'Ottimizzazione del DB ad intervalli regolari.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_database_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>';
+
+	$lang['IP_cron_cache_interval'] = 'Intervallo Pulizia Cache Templates';
+	$lang['IP_cron_cache_interval_explain'] = 'Pulizia della cache dei templates.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>';
+
+	$lang['IP_cron_sql_interval'] = 'Intervallo Pulizia Cache SQL';
+	$lang['IP_cron_sql_interval_explain'] = 'Pulizia della cache SQL.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_sql_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>';
+
+	$lang['IP_cron_users_interval'] = 'Intervallo Pulizia Cache Utenti';
+	$lang['IP_cron_users_interval_explain'] = 'Pulizia della cache utenti.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_users_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>';
+
+	$lang['IP_cron_topics_interval'] = 'Intervallo Pulizia Cache Argomenti';
+	$lang['IP_cron_topics_interval_explain'] = 'Pulizia della cache argomenti.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_topics_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>';
+
+	$lang['Cron_Disabled'] = 'Disabled';
+	$lang['15M'] = '15 Minuti';
+	$lang['30M'] = '30 Minuti';
+	$lang['1H'] = '1 Ora';
+	$lang['2H'] = '2 Ore';
+	$lang['3H'] = '3 Ore';
+	$lang['6H'] = '6 Ore';
+	$lang['12H'] = '12 Ore';
+	$lang['1D'] = '1 Giorno';
+	$lang['3D'] = '3 Giorni';
+	$lang['7D'] = '1 Settimana';
+	$lang['14D'] = '2 Settimane';
+	$lang['30D'] = '1 Mese';
 
 
 // lang_extend_mods_settings.php

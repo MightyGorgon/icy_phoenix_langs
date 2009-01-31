@@ -291,6 +291,7 @@ $lang['CMS_Configure_Blocks'] = 'Configura Blocchi';
 $lang['CMS_Page_Permissions'] = 'Permessi Visualizzazione';
 $lang['CMS_Page_Permissions_Explain'] = 'In questa pagina &egrave; possibile configurare i permessi di visualizzazione delle pagine del sito e la visualizzazione dei <b>Blocchi Globali</b>. I blocchi globali, se abilitati nella <b>Configurazione CMS</b>, vengono visualizzati solo nelle pagine dove sono stati attivati.';
 $lang['CMS_Page'] = 'Pagina';
+$lang['CMS_ADS'] = 'Banners &amp; Sponsors';
 //$lang['CMS_'] = '';
 // MG CMS - END
 

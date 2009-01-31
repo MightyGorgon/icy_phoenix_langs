@@ -104,6 +104,7 @@ $lang['Optimize_explain'] = 'Da qui si possono ottimizzare i dati contenuti nell
 $lang['Optimize_DB'] = 'Ottimizza Database';
 $lang['Optimize_Enable_cron'] = 'Abilita Cron';
 $lang['Optimize_Cron_every'] = 'Cron Ogni';
+$lang['Optimize_Cron_every_explain'] = 'Per poter utilizzare questa funzione, ricorda che devi abilitare <b>PHP Cron [Global Switch]</b> in <b>Configurazione &raquo; Icy Phoenix &raquo; Cron</b>';
 $lang['Optimize_month'] = 'Mese';
 $lang['Optimize_2weeks'] = '2 Settimane';
 $lang['Optimize_week'] = 'Settimana';
@@ -201,6 +202,7 @@ $lang['Forum_REG'] = 'REG';
 $lang['Forum_SELF'] = 'PROPRI';
 $lang['Forum_PRIVATE'] = 'PRIVATO';
 $lang['Forum_MOD'] = 'MOD';
+$lang['Forum_JADMIN'] = 'J ADMIN';
 $lang['Forum_ADMIN'] = 'ADMIN';
 
 $lang['View'] = 'Guarda';
@@ -413,15 +415,17 @@ $lang['prune_days'] = 'Rimuovi gli argomenti che non hanno avuto risposte per';
 $lang['Set_prune_data'] = 'Hai attivato l\'eliminazione automatica per questo forum ma non hai impostato la frequenza o il numero di giorni per l\'autoeliminazione. Torna indietro e attivalo';
 
 $lang['FORUM_SIMILAR_TOPICS'] = 'Argomenti Simili';
-$lang['FORUM_SIMILAR_TOPICS_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata una tabella con gli argomenti simili nella visualizzazione degli argomenti in questo forum';
+$lang['FORUM_SIMILAR_TOPICS_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata una tabella con gli argomenti simili nella visualizzazione degli argomenti in questo forum (ricorda che devi anche attivare l\'opzione globale per questa funzionalit&agrave; nella Configurazione Icy Phoenix => SEO)';
+$lang['FORUM_TOPIC_VIEWS'] = 'Visualizzazione Argomenti';
+$lang['FORUM_TOPIC_VIEWS_EXPLAIN'] = 'Attivando questa opzione verranno memorizzati nel db tutti gli utenti che visualizzeranno gli argomenti di questo forum (ricorda che devi anche attivare l\'opzione globale per questa funzionalit&agrave; nella Configurazione Icy Phoenix => SQL)';
 $lang['FORUM_TAGS'] = 'Forum Tags';
-$lang['FORUM_TAGS_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata una tabella con le parole pi&ugrave; ricorrenti in questo forum';
+$lang['FORUM_TAGS_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata una tabella con le parole pi&ugrave; ricorrenti in questo forum (ricorda che devi anche attivare l\'opzione globale per questa funzionalit&agrave; nella Configurazione Icy Phoenix => SEO)';
 $lang['FORUM_SORT_BOX'] = 'Casella Ordinamento';
-$lang['FORUM_SORT_BOX_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata la casella per ordinare alfabeticamente gli argomenti in questo forum';
+$lang['FORUM_SORT_BOX_EXPLAIN'] = 'Attivando questa opzione verr&agrave; mostrata la casella per ordinare alfabeticamente gli argomenti in questo forum (ricorda che devi anche attivare l\'opzione globale per questa funzionalit&agrave; nella Configurazione Icy Phoenix)';
 $lang['FORUM_KB_MODE'] = 'Modalit&agrave; KB';
 $lang['FORUM_KB_MODE_EXPLAIN'] = 'Attivando questa opzione il forum verr&agrave; visualizzato usando la modalit&agrave; Knowledge Base';
 $lang['FORUM_INDEX_ICONS'] = 'Icone RSS E Nuovo Argomento';
-$lang['FORUM_INDEX_ICONS_EXPLAIN'] = 'Attivando questa opzione verranno mostrate le icone per il feed RSS e Nuovo Argomento nell\'indice del forum';
+$lang['FORUM_INDEX_ICONS_EXPLAIN'] = 'Attivando questa opzione verranno mostrate le icone per il feed RSS e Nuovo Argomento nell\'indice del forum (ricorda che devi anche attivare l\'opzione globale per questa funzionalit&agrave; nella Configurazione Icy Phoenix)';
 
 $lang['Move_and_Delete'] = 'Sposta e Cancella';
 
@@ -1402,31 +1406,10 @@ $lang['MG_SW_Logins_Title'] = 'Registrazione Logins';
 $lang['MG_SW_Edit_Notes_Title'] = 'Note di Modifica';
 $lang['MG_Configuration_IMG_Posting'] = 'Immagini nei messaggi';
 
-$lang['MG_SW_Top_Bottom_HTML_Block'] = 'Blocchi HTML Header Footer';
-$lang['MG_SW_Top_HTML_Block'] = 'Blocco HTML Header';
-$lang['MG_SW_Top_HTML_Block_Explain'] = 'Attivando questa opzione verr&agrave; visualizzato in cima ad ogni pagina il codice HTML specificato nella casella di testo sottostante.';
-$lang['MG_SW_Top_HTML_Block_Text'] = 'Inserisci qui il codice HTML per l\'Header';
-$lang['MG_SW_Bottom_HTML_Block'] = 'Blocco HTML Footer';
-$lang['MG_SW_Bottom_HTML_Block_Explain'] = 'Attivando questa opzione verr&agrave; visualizzato in fondo ad ogni pagina il codice HTML specificato nella casella di testo sottostante.';
-$lang['MG_SW_Bottom_HTML_Block_Text'] = 'Inserisci qui il codice HTML per il Footer';
-
-$lang['MG_SW_Header_Footer'] = 'Messaggi Header e Footer';
+$lang['MG_SW_Header_Footer'] = 'Messaggi Header';
 $lang['MG_SW_Header_Table'] = 'Tabella Intestazione Pagina';
 $lang['MG_SW_Header_Table_Explain'] = 'Attivando questa opzione verr&agrave; visualizzata una tabella in cima ad ogni pagina con un messaggio personalizzato.';
 $lang['MG_SW_Header_Table_Text'] = 'Inserisci qui il tuo testo personalizzato';
-$lang['MG_SW_Footer_Table'] = 'Tabella Fondo Pagina';
-$lang['MG_SW_Footer_Table_Explain'] = 'Attivando questa opzione verr&agrave; visualizzata una tabella in fondo ad ogni pagina con un messaggio personalizzato.';
-$lang['MG_SW_Footer_Table_Text'] = 'Inserisci qui il tuo testo personalizzato';
-
-$lang['MG_SW_Banner_Title'] = 'Gestione Banner';
-$lang['MG_SW_Header_Banner'] = 'Banner nell\'Intestazione';
-$lang['MG_SW_Header_Banner_Explain'] = 'Abilitando questa opzione verr&agrave; visualizzato un Banner nell\'Intestazione di ogni pagina';
-$lang['MG_SW_Header_Banner_Code'] = 'Codice Banner Intestazione';
-$lang['MG_SW_Header_Banner_Code_Explain'] = 'Inserisci qui il codice html per il banner nell\'Intestazione';
-$lang['MG_SW_Viewtopic_Banner'] = 'Banner in Viewtopic';
-$lang['MG_SW_Viewtopic_Banner_Explain'] = 'Abilitando questa opzione verr&agrave; visualizzato un Banner dopo il primo messaggio in tutte le pagine di una discussione';
-$lang['MG_SW_Viewtopic_Banner_Code'] = 'Codice Banner Viewtopic';
-$lang['MG_SW_Viewtopic_Banner_Code_Explain'] = 'Inserisci qui il codice html per il banner del Viewtopic';
 
 $lang['MG_SW_Empty_Precompiled_Posts'] = 'Svuota messaggi precompilati';
 $lang['MG_SW_Empty_Precompiled_Posts_Explain'] = 'Con questa funzione, tutti i messaggi precompilati verranno svuotati.';
@@ -1471,16 +1454,17 @@ $lang['Post_count'] = 'Numero Messaggi';
 /* lang_postcount.php - END */
 
 /* lang_megamail.php - BEGIN */
-$lang['Megamail_Explain'] = 'Da qui puoi inviare un messaggio a tutti i tuoi utenti o agli utenti di un gruppo specifico. Per fare questo, verr&agrave; inviato un messaggio all\'indirizzo email dell\'amministratore che hai fornito, ed una BCC (Blind Carbon Copy) verr&agrave; inviata ai destinatari.<br />
-Questo script modificato invier&agrave; le emails in numerosi blocchi. In questo modo si dovrebbero aggirare le problematiche derivanti da timeout e da sovraccarico del server. Lo stato d\'invio delle email generali sar&agrave; salvato nel database. Puoi chiudere la finestra quando vuoi interrompere momentaneamente l\'invio delle email generali (il blocco attuale sar&agrave; comunque spedito). Puoi continuare in seguito da dove eri rimasto.<br />
+$lang['Megamail_Explain'] = 'Da questa pagina puoi inviare un messaggio privato o email a tutti gli utenti o agli utenti di un gruppo specifico. Per fare questo, verr&agrave; inviato un messaggio all\'indirizzo email dell\'amministratore che hai fornito, ed una BCC (Blind Carbon Copy) verr&agrave; inviata ai destinatari.<br />
+Le email verranno inviate in numerosi blocchi: in questo modo si dovrebbero aggirare le problematiche derivanti da timeout e da sovraccarico del server. Lo stato d\'invio delle email generali sar&agrave; salvato nel database. Puoi chiudere la finestra quando vuoi interrompere momentaneamente l\'invio delle email generali (il blocco attuale sar&agrave; comunque spedito). Puoi continuare in seguito da dove eri rimasto.<br />
 <b>Se sono abilitate email in formato HTML allora l\'email verr&agrave; inviata in formato HTML, per cui dovrai fare attenzione che le interruzioni di linea avvengano tramite &lt;br /&gt;.</b>';
+$lang['megamail_inactive_users'] = 'Utenti non entrati negli ultimi {DAYS} giorni';
 $lang['megamail_header'] = 'Sessione Email';
 $lang['megamail_id'] = 'ID Email';
 $lang['megamail_batchstart'] = 'Elaborate';
-$lang['megamail_batchsize'] = 'Emails per Blocco';
+$lang['megamail_batchsize'] = 'Messaggi per Blocco';
 $lang['megamail_batchwait'] = 'Pausa';
-$lang['megamail_created_message'] = 'Le email generali sono state salvate nel database.<br /><br/> Per iniziare a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
-$lang['megamail_send_message'] = 'Il blocco Corrente (%s - %s) &egrave stato spedito.<br /><br/> Per riprendere a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
+$lang['megamail_created_message'] = 'Le email generali sono state salvate nel database.<br /><br/>Per iniziare a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
+$lang['megamail_send_message'] = 'Il blocco Corrente (%s - %s) &egrave stato spedito.<br /><br/>Per riprendere a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
 $lang['megamail_status'] = 'Status';
 $lang['megamail_proceed'] = '%sProcedi ora%s';
 $lang['megamail_done'] = 'FATTO';
@@ -1949,9 +1933,12 @@ $lang['RESTORE_FAILURE'] = 'Il file di backup potrebbe essere corrotto.';
 /* lang_admin_db_backup.php - END */
 
 /* Logs - BEGIN */
+$lang['LOGS_ACTIONS_FILTER'] = 'Filtro azioni';
 $lang['LOGS_TITLE'] = 'Logs';
 $lang['LOGS_EXPLAIN'] = 'Da qui puoi ottenere informazioni utili sull\'attivit&agrave; dello staff sul tuo sito';
 $lang['LOGS_TARGET'] = 'Target';
+$lang['LOGS_DELETE'] = 'Elimina Selezionati';
+$lang['LOGS_DELETE_ALL'] = 'Svuota Tabella Logs';
 $lang['LOGS_DENY'] = 'Non autorizzato!';
 $lang['LOGS_POST_EDIT'] = 'ha modificato un messaggio di';
 $lang['LOGS_POST_DELETE'] = 'ha eliminato un messaggio di';
@@ -2004,6 +1991,50 @@ $lang['LOGS_CMS_BLOCK_DELETE_LS'] = 'ha cancellato un blocco [ID = %s] di una pa
 //$lang['LOGS_'] = '';
 /* Logs - END */
 
+$lang['SMILEYS_UPDATED'] = 'Smileys Aggiornati';
+
+/* ADS - BEGIN */
+$lang['ADS_TITLE'] = 'Banner &amp; Sponsors';
+$lang['ADS_TITLE_EXPLAIN'] = 'In questa sezione &egrave; possibile aggiungere dei banner da visualizzare nel sito. Si possono aggiungere diversi tipi di banner e decidere dove questi banner devono essere visualizzati e da chi. E\' anche possibile impostare pi&ugrave; di un banner per la stessa posizione: in questo caso il banner da mostrare verr&agrave; scelto casualmente tra quelli disponibili.';
+$lang['AD_DES'] = 'Descrizione';
+$lang['AD_TEXT'] = 'Contenuto';
+$lang['AD_ENABLED'] = 'Abilitato';
+$lang['AD_STATUS'] = 'Stato';
+$lang['AD_STATUS_EXPLAIN'] = 'Seleziona SI se vuoi abilitare questo banner, oppure NO per disattivarlo';
+$lang['AD_POSITION'] = 'Posizione';
+$lang['AD_AUTH'] = 'Permessi';
+$lang['AD_AUTH_EXPLAIN'] = 'Scegli il livello di utenza a cui verr&agrave; mostrato il banner';
+$lang['AD_AUTH_GUESTS'] = 'Solo Ospiti';
+$lang['AD_AUTH_REG'] = 'Ospiti e Registrati (non ADMINS e MODS)';
+$lang['AD_AUTH_MOD'] = 'Tutti tranne Amministratori';
+$lang['AD_AUTH_ADMIN'] = 'Tutti';
+$lang['AD_FORMAT'] = 'Formato';
+$lang['AD_POS_GLT'] = 'Globale Inizio Pagina';
+$lang['AD_POS_GLB'] = 'Globale Fine Pagina';
+$lang['AD_POS_GLH'] = 'Globale Intestazione';
+$lang['AD_POS_GLF'] = 'Globale Fondo Pagina';
+$lang['AD_POS_FIX'] = 'Indice Forum: Elemento';
+$lang['AD_POS_FIT'] = 'Indice Forum: Inizio';
+$lang['AD_POS_FIB'] = 'Indice Forum: Fine';
+$lang['AD_POS_VFX'] = 'Visualizzazione Forum: Elemento';
+$lang['AD_POS_VFT'] = 'Visualizzazione Forum: Inizio';
+$lang['AD_POS_VFB'] = 'Visualizzazione Forum: Fine';
+$lang['AD_POS_VTX'] = 'Visualizzazione Argomento: Elemento';
+$lang['AD_POS_VTT'] = 'Visualizzazione Argomento: Inizio';
+$lang['AD_POS_VTB'] = 'Visualizzazione Argomento: Fine';
+$lang['AD_POS_NMT'] = 'Menu Navigazione: Inizio';
+$lang['AD_POS_NMB'] = 'Menu Navigazione: Fine';
+$lang['AD_ADD'] = 'Aggiungi Banner';
+$lang['AD_EDIT'] = 'Modifica Banner';
+$lang['AD_ADDED'] = 'Banner aggiunto correttamente';
+$lang['ADS_UPDATE'] = 'Aggiorna Banner';
+$lang['AD_UPDATED'] = 'Banner aggiornato correttamente';
+$lang['AD_DELETED'] = 'Banner eliminato correttamente';
+$lang['CLICK_RETURN_ADS'] = 'Clicca %sQUI%s per tornare alla Gestione dei Banner';
+$lang['AD_NO_ADS'] = 'Nessun banner creato';
+$lang['ERR_AD_ADD'] = 'Si prega di compilare tutti i campi richiesti';
+/* ADS - END */
+
 /*
 $lang['MG_SW_'] = '';
 */
@@ -2036,15 +2067,16 @@ $lang['210_MG_Quick_Settings'] = 'Impostazioni Veloci';										// admin_board_
 $lang['1100_General'] = 'Generale'; 												// admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php
 $lang['100_Acronyms'] = 'Acronimi';													// admin_acronyms.php
 $lang['110_Autolinks'] = 'Autolinks';												// admin_autolinks.php
+$lang['120_Ads'] = 'Sponsor &amp; Pubblicit&agrave;';				// admin_ads.php
 $lang['130_Mass_Email'] = 'Email Di Gruppo';								// admin_mass_email.php
-$lang['140_Mega_Mail'] = 'Mega Mail';												// admin_megamail.php
+$lang['140_Mega_Mail'] = 'Email / PM Di Gruppo';						// admin_megamail.php
 $lang['150_FTR_Config'] = 'Configurazione FTR';							// admin_force_read.php
 $lang['160_FTR_Users'] = 'Utenti FTR';											// admin_force_read.php
 $lang['170_Smilies'] = 'Smileys';														// admin_smilies.php
 $lang['180_Word_Censor'] = 'Censura';												// admin_words.php
 $lang['200_Notepad'] = 'Blocco Note';												// admin_notepad.php
 $lang['210_Help_Desk'] = 'Help Desk';												// admin_helpdesk.php
-$lang['240_Replace_title'] = 'Sostituisci in posts';				// admin_replace.php
+$lang['240_Replace_title'] = 'Sostituisci In Posts';				// admin_replace.php
 
 // Forum
 $lang['1200_Forums'] = 'Forum';															// admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
@@ -2121,7 +2153,7 @@ $lang['120_Color_Groups'] = 'Colori';												// admin_color_groups.php
 $lang['130_Permissions_Group'] = 'Permessi';								// admin_ug_auth.php
 
 // Topic Rating
-$lang['1700_Topic_Rating'] = 'Valutazione Argomenti';				// admin_rate.php
+$lang['1700_Topic_Rating'] = 'Valutazioni';									// admin_rate.php
 
 // Knowledge Base
 $lang['1800_KB_title'] = 'Knowledge Base';									// admin_kb_art.php, admin_kb_auth.php, admin_kb_cat.php, admin_kb_config.php, admin_kb_custom.php, admin_kb_rebuild_search.php, admin_kb_types.php

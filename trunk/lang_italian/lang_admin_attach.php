@@ -100,6 +100,7 @@ $lang['Shadow_attachments_row_explain'] = 'Cancellate tutti i riferimenti ai fil
 $lang['Empty_file_entry'] = 'File vuoto';
 
 // Attachments -> Sync
+$lang['Sync_thumbnail_recreated'] = 'Thumbnail ricreato per l\'allegato: %s'; // replace %s with physical Filename
 $lang['Sync_thumbnail_resetted'] = 'Thumbnail resettato per l\'allegato: %s'; // replace %s with physical Filename
 $lang['Attach_sync_finished'] = 'Sincronizzazione allegati completata.';
 

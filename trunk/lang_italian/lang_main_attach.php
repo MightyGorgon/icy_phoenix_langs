@@ -73,6 +73,7 @@ $lang['Upload_new_version'] = 'Invia aggiornamento';
 $lang['Invalid_filename'] = '%s &egrave; un nome file non valido'; // replace %s with given filename
 $lang['Attachment_php_size_na'] = 'L\'allegato &egrave; troppo grande.<br />Couldn\'t get the maximum Size defined in PHP.<br />The Attachment Mod is unable to determine the maximum Upload Size defined in the php.ini.';
 $lang['Attachment_php_size_overrun'] = 'Allegato troppo grande.<br />Maximum Upload Size: %d MB.<br /> Limite in php.ini, questo limite &egrave; modificabile sono in PHP.ini alla voce \'upload_max_filesiz&egrave;.';
+$lang['FileType_Mismatch'] = 'Tipo file non corrispondente';
 $lang['Disallowed_extension'] = 'L\'estensione %s non &egrave; permessa su questo forum'; // replace %s with extension (e.g. .php)
 $lang['Disallowed_extension_within_forum'] = 'Non avete un\'autorizzazione sufficiente per allegare file con questa estensione in questo forum'; // replace %s with the Extension
 $lang['Attachment_too_big'] = 'Allegato troppo grande.<br />Max : %d %s'; // replace %d with maximum file size, %s with size var
