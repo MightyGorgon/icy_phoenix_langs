@@ -281,10 +281,10 @@ $lang = array_merge($lang, array(
     'xs_bbc_hide_quote_message' => 'Zitierte versteckte Nachricht ist noch verdeckt.',
     'xs_bbc_hide_message_explain' => 'Um diese Nachricht lesen zu können, mußt du registriert sein und eine Antwort geschrieben haben.',
 
-	'bbcode_url' => 'Enter the URL (eg. http://www.phpbb.com)',
-	'bbcode_url_title' => 'Enter the title of the link',
-	'bbcode_url_empty' => 'You didn\'t enter a url',
-	'bbcode_url_errors' => 'Error!',
+	'bbcode_url' => 'URL eingeben (z.B. http://www.phpbb.com)',
+	'bbcode_url_title' => 'Titel des Links eingeben',
+	'bbcode_url_empty' => 'Du hast keine URL eingegeben.',
+	'bbcode_url_errors' => 'Fehler!',
 	)
 );
 

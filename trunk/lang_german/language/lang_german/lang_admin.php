@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
 	'FORUM_SIMILAR_TOPICS' => 'Ähnliche Themen-Box',
 	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird unter jedem Thema eine Box mit ähnlichen Themen angezeigt.',
 	'FORUM_TOPIC_VIEWS' => 'Themen-Betrachter',
-	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Wenn du diese Option aktivierst werden alle Benutzer die ein Thema in diesem Forum anschauen, in der Datenbank gespeichert ( Um diese Funktion nutzen zu können, mußt du auch den Global Switch in Icy Phoenix Einstellungen => SQL Optimierung aktivieren)',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Wenn du diese Option aktivierst werden alle Benutzer die ein Thema in diesem Forum anschauen, in der Datenbank gespeichert ( Um diese Funktion nutzen zu können, mußt du auch die Globale Einstellung in Icy Phoenix Einstellungen => SQL Optimierung aktivieren)',
 	'FORUM_TAGS' => 'Forum Tags',
 	'FORUM_TAGS_EXPLAIN' => 'Diese Option aktiviert eine Box, die die am häufigsten genutzten Wörter des gesamten Forums anzeigt (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
 	'FORUM_SORT_BOX' => 'Themen Sortierungs-Box',
@@ -776,7 +776,7 @@ $lang = array_merge($lang, array(
     'Optimize_DB' => 'Datenbank optimieren',
     'Optimize_Enable_cron' => 'Cron aktivieren',
     'Optimize_Cron_every' => 'Cron alle',
-	'Optimize_Cron_every_explain' => 'Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Cron</b>',
+	'Optimize_Cron_every_explain' => 'Bitte beachte, dass auch die Funktion <b>PHP Cron [Globale Einstellung]</b> in <b>Konfiguration &raquo; Icy Phoenix Einstellungen &raquo; Cron</b> aktiviert sein muss.',
     'Optimize_month' => 'Monat',
     'Optimize_2weeks' => '2 Wochen',
     'Optimize_week' => 'Woche',
@@ -828,7 +828,7 @@ $lang = array_merge($lang, array(
     'Group_count_update' => 'Hinzufügen/Aktualisieren neuer Nutzer',
     'Group_count_delete' => 'Löschen/Aktualisieren alter Nutzer',
     'User_allow_ag' => 'Aktiviere Auto Gruppe',
-    'group_count_explain' => 'Wenn Benutzer mehr als diese Anzahl Beiträge geschrieben haben <i>(in beliebigen Foren)</i>, werden sie automatisch zu dieser Benutzergruppe hinzugefügt<br /> Das trifft nur zu, wenn "' . $lang['Group_count_enable'] . '" aktiviert ist.',
+    'group_count_explain' => 'Wenn Benutzer mehr als diese Anzahl Beiträge geschrieben haben <i>(in beliebigen Foren)</i>, werden sie automatisch zu dieser Benutzergruppe hinzugefügt<br /> Das trifft nur zu, wenn "Füge Benutzer automatisch hinzu, wenn sie schreiben" aktiviert ist.',
 
 // Start add - Bin Mod
     'Bin_forum' => 'Papierkorb-Forum',
@@ -1881,6 +1881,48 @@ $lang = array_merge($lang, array(
 
 	'SMILEYS_UPDATED' => 'Smilies aktualisiert',
 
+/* ADS - BEGIN */
+	'ADS_TITLE' => 'Banner &amp; Sponsoren',
+	'ADS_TITLE_EXPLAIN' => 'Dieses Kapitel erlaubt dir die Konfiguration von Banner, Werbungen und Sponsoren um sie auf deiner Seite anzuzeigen. Du kannst unterschiedliche Banner hinzufügen und selbst entscheiden, wo und für welche Benutzer sie angezeigt werden sollen. Wenn du mehrere Banner für die selbe Position festlegst, dann wird von diese Bannern jeweils einer zufällig angezeigt.',
+	'AD_DES' => 'Beschreibung',
+	'AD_TEXT' => 'Inhalt',
+	'AD_ENABLED' => 'Freigegeben',
+	'AD_STATUS' => 'Status',
+	'AD_STATUS_EXPLAIN' => 'Wähle JA aus, wenn du diesen Banner aktivieren möchtest oder NEIN zum deaktivieren',
+	'AD_POSITION' => 'Position',
+	'AD_AUTH' => 'Befugnisse',
+	'AD_AUTH_EXPLAIN' => 'Benutzer die diese Banner sehen werden',
+	'AD_AUTH_GUESTS' => 'Nur Gäste',
+	'AD_AUTH_REG' => 'Gäste und Registrierte (Keine ADMINS oder MODS)',
+	'AD_AUTH_MOD' => 'Alle außer Administratoren',
+	'AD_AUTH_ADMIN' => 'Alle',
+	'AD_FORMAT' => 'Format',
+	'AD_POS_GLT' => 'Global Top',
+	'AD_POS_GLB' => 'Global Bottom',
+	'AD_POS_GLH' => 'Global Header',
+	'AD_POS_GLF' => 'Global Footer',
+	'AD_POS_FIX' => 'Forum Index Element',
+	'AD_POS_FIT' => 'Forum Index Top',
+	'AD_POS_FIB' => 'Forum Index Bottom',
+	'AD_POS_VFX' => 'View Forum Element',
+	'AD_POS_VFT' => 'View Forum Top',
+	'AD_POS_VFB' => 'View Forum Bottom',
+	'AD_POS_VTX' => 'View Topic Element',
+	'AD_POS_VTT' => 'View Topic Top',
+	'AD_POS_VTB' => 'View Topic Bottom',
+	'AD_POS_NMT' => 'Nav Menü Top',
+	'AD_POS_NMB' => 'Nav Menü Bottom',
+	'AD_ADD' => 'Banner hinzufügen',
+	'AD_EDIT' => 'Banner erfolgreich geändert',
+	'AD_ADDED' => 'Banner erfolgreich hinzugefügt',
+	'ADS_UPDATE' => 'Banner aktualisieren',
+	'AD_UPDATED' => 'Banner erfolgreich aktualisiert',
+	'AD_DELETED' => 'Banner erfolgreich gelöscht',
+	'CLICK_RETURN_ADS' => 'Klicke %shier%s, um zu den Banner-Einstellungen zurückzukehren.',
+	'AD_NO_ADS' => 'Keine Banner festgelegt',
+	'ERR_AD_ADD' => 'Fehler, bitte fülle alle benötigten Felder aus',
+/* ADS - END */
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
     'MG_Configuration' => 'Icy Phoenix Einstellungen',
     'MG_Configuration_Explain' => 'Hier kannst Du einige fortgeschrittene Icy Phoenix Einstellungen vornehmen',
@@ -1894,32 +1936,11 @@ $lang = array_merge($lang, array(
     'MG_SW_Edit_Notes_Title' => 'Bearbeitungs Notizen',
     'MG_Configuration_IMG_Posting' => 'Bilder in Beiträgen',
 
-    'MG_SW_Top_Header_Bottom_Footer' => 'Header und Footer HTML Blöcke',
-    'MG_SW_Top_HTML_Block' => 'HTML Header Block',
-    'MG_SW_Top_HTML_Block_Explain' => 'Wenn du diese Option aktivierst, wird auf jeder Seite oben der festgelegte HTML-Code angezeigt.',
-    'MG_SW_Top_HTML_Block_Text' => 'Füge hier den HTML-Code für den Header ein.',
-    'MG_SW_Bottom_HTML_Block' => 'HTML Footer Block',
-    'MG_SW_Bottom_HTML_Block_Explain' => 'Wenn du diese Option aktivierst, wird auf jeder Seite unten der festgelegte HTML-Code angezeigt.',
-    'MG_SW_Bottom_HTML_Block_Text' => 'Füge hier den HTML-Code für den Footer ein.',
-
     'MG_SW_Header_Footer' => 'Header und Footer Mitteilungen',
     'MG_SW_Header_Table' => 'Header Tabelle',
     'MG_SW_Header_Table_Explain' => 'Bei Aktivierung dieser Option wird eine Tabelle auf jeder Seite Oben mit einer speziellen Nachricht angezeigt.',
     'MG_SW_Header_Table_Text' => 'Füge deinen Text hier ein',
-    'MG_SW_Footer_Table' => 'Footer Tabelle',
-    'MG_SW_Footer_Table_Explain' => 'Bei Aktivierung dieser Option wird eine Tabelle auf jeder Seite Unten mit einer speziellen Nachricht angezeigt.',
-    'MG_SW_Footer_Table_Text' => 'Füge deinen Text hier ein',
-
-    'MG_SW_Banner_Title' => 'Banner Management',
-    'MG_SW_Header_Banner' => 'Header Banner',
-    'MG_SW_Header_Banner_Explain' => 'Bei Aktivierung dieser Option, wird im Header auf jeder Seite ein Banner angezeigt',
-    'MG_SW_Header_Banner_Code' => 'Header Banner Code',
-    'MG_SW_Header_Banner_Code_Explain' => 'Füge hier deinen Banneranzeigen Code ein',
-    'MG_SW_Viewtopic_Banner' => 'Viewtopic Banner',
-    'MG_SW_Viewtopic_Banner_Explain' => 'Bei Aktivierung dieser Option, wird nach jedem ersten Post eines jeden Themas angezeigt',
-    'MG_SW_Viewtopic_Banner_Code' => 'Viewtopic Banner Code',
-    'MG_SW_Viewtopic_Banner_Code_Explain' => 'Füge hier deinen Banneranzeigen Code ein',
-
+ 
     'MG_SW_Empty_Precompiled_Posts' => 'Leere vorkompilierte Beiträge',
     'MG_SW_Empty_Precompiled_Posts_Explain' => 'Diese Funktion leert alle vorkompilierten Beiträge.',
     'MG_SW_Empty_Precompiled_Posts_Success' => 'Vorkompilierte Beiträge korrekt geleert.',
@@ -1978,7 +1999,7 @@ $lang['160_Title_infos'] = 'Quick Titel Verwaltung'; // admin_quick_title.php
 $lang['170_LIW'] = 'Bildbreite begrenzen'; // admin_liw.php
 $lang['180_MG_Configuration_Permissions'] = 'Seitenbefugnisse'; // admin_board_permissions.php
 $lang['190_Spider_Bots'] = 'Spider / Bots'; // admin_bots.php
-$lang['192_Google_BOT'] = 'Google Bot Detector'; // admin_google_bot_detector.php
+$lang['192_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
 $lang['195_Yahoo_search'] = 'Yahoo Suche'; // admin_yahoo_search.php
 $lang['200_Language'] = 'Sprache'; // admin_lang_extend.php
 $lang['210_MG_Quick_Settings'] = 'Schnell-Einstellungen'; // admin_board_quick_settings.php
@@ -1987,6 +2008,7 @@ $lang['210_MG_Quick_Settings'] = 'Schnell-Einstellungen'; // admin_board_quick_s
 $lang['1100_General'] = 'Allgemein'; // admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php
 $lang['100_Acronyms'] = 'Abkürzungen'; // admin_acronyms.php
 $lang['110_Autolinks'] = 'Autolinks'; // admin_autolinks.php
+$lang['120_Ads'] = 'Banner &amp; Sponsoren'; // admin_ads.php
 $lang['130_Mass_Email'] = 'Massen-E-Mail versenden'; // admin_mass_email.php
 $lang['140_Mega_Mail'] = 'Mega Mailer / PN'; // admin_megamail.php
 $lang['150_FTR_Config'] = 'FTR Konfiguration'; // admin_force_read.php
