@@ -188,7 +188,6 @@ $lang['bbcb_mg_albumimgl'] = 'Immagine Album SX';
 $lang['bbcb_mg_albumimgr'] = 'Immagine Album DX';
 $lang['bbcode_help'] = 'BBCode FAQ';
 
-
 $lang['s_formerrors'] = 'Devi inserire del testo per poter inviare un messaggio';
 $lang['s_gen_error'] = ':: Errore ::\n\n';
 $lang['s_url_insert'] = 'Inserisci l\'URL (es. http://www.phpbb.com/)';
@@ -234,6 +233,8 @@ $lang['s_img_help'] = 'Inserisci immagine: [img]http://image_url[/img]';
 $lang['s_imgl_help'] = 'Inserisci immagine con allineamento a sx: [img align=left]http://image_url[/img]';
 $lang['s_imgr_help'] = 'Inserisci immagine con allineamento a dx: [img align=right]http://image_url[/img]';
 $lang['s_albumimg_help'] = 'Inserisci immagine dall\'album: [albumimg]Album Pic ID[/albumimg]';
+$lang['s_albumimgl_help'] = 'Inserisci immagine dall\'album allineata a sx: [albumimg align=left]Album Pic ID[/albumimg]';
+$lang['s_albumimgr_help'] = 'Inserisci immagine dall\'album allineata a dx: [albumimg align=right]Album Pic ID[/albumimg]';
 $lang['s_url_help'] = 'Inserisci URL: [url]http://url[/url] or [url=http://url]URL testo[/url]';
 $lang['s_fc_help'] = 'Colore Font: [color=red]testo[/color] (Consiglio: puoi anche usare color=#FF0000)';
 $lang['s_fs_help'] = 'Dimensione Font: [size=9]testo[/size]';

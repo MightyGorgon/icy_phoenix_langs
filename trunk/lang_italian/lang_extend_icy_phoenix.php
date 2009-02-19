@@ -129,7 +129,7 @@ if ($lang_extend_admin)
 
 	$lang['IP_enable_new_messages_number'] = 'Visualizza il numero di nuovi messaggi dall\'ultima visita';
 
-	$lang['IP_disable_thanks_topics'] = 'Disattiva i ringraziamenti';
+	$lang['IP_disable_thanks_topics'] = 'Disattiva i ringraziamenti (Globale)';
 
 	$lang['IP_show_thanks_profile'] = 'Mostra i ringraziamenti ricevuti nel profilo';
 
@@ -325,6 +325,12 @@ if ($lang_extend_admin)
 
 	$lang['IP_lofi_bots'] = 'LoFi Per Bots';
 	$lang['IP_lofi_bots_explain'] = 'Attivando questa opzione LoFi verr&agrave; abilitato per i bots.';
+
+	$lang['IP_adsense_code'] = 'Codice Publisher Google AdSense';
+	$lang['IP_adsense_code_explain'] = 'Inserisci qui il tuo Codice Publisher di Google AdSense e verr&agrave; automaticamente inserito nella pagina ricerca di Google. Se non vuoi utilizzare il tuo codice, lascia questo campo vuoto.';
+
+	$lang['IP_google_analytics'] = 'Codice Google Analytics';
+	$lang['IP_google_analytics_explain'] = 'Inserisci qui il codice per inserire Google Analytics nel tuo sito e verr&agrave; automaticamente inserito in fondo ad ogni pagina.';
 
 //Sitemap
 	$lang['Sitemap_settings'] = 'Impostazioni Google Sitemap';

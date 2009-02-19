@@ -34,6 +34,7 @@ $lang = array_merge($lang, array(
 	'60_Calendar_settings' => 'Calendar',
 	'70_SEO' => 'SEO',
 	'80_Security' => 'Logs And Security',
+	'90_Cron' => 'Cron',
 	)
 );
 
@@ -55,7 +56,7 @@ if ($lang_extend_admin)
 		'IP_enable_digests' => 'Enable Digests',
 
 		'IP_digests_php_cron' => 'Enable Digests PHP Cron',
-		'IP_digests_php_cron_explain' => 'This feature will enable a PHP emulation of the CRON trying to send the emails once per hour, but since it is based on a PHP emulation it may not be correctly executed every time. This means that sometimes emails may not be sent. If you can enable CRON on your server, use CRON instead of this feature.',
+		'IP_digests_php_cron_explain' => 'This feature will enable a PHP emulation of the CRON trying to send the emails once per hour, but since it is based on a PHP emulation it may not be correctly executed every time. This means that sometimes emails may not be sent. If you can enable CRON on your server, use CRON instead of this feature. Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Cron</b>',
 
 		'IP_emails_only_to_admins' => 'Emails Only To Admins',
 		'IP_emails_only_to_admins_explain' => 'Allow email system only for sending emails to admins',
@@ -74,11 +75,11 @@ if ($lang_extend_admin)
 		'IP_switch_header_dropdown' => 'Activate Dropdown Menu in Header',
 		'IP_switch_header_dropdown_explain' => 'This will activate a dropdown menu in the forum header for search and for posts.',
 
-		'IP_show_alpha_bar' => 'Show Alphabetical Sort Bar In View Forum',
-		'IP_show_alpha_bar_explain' => 'This option will show an alphabetical sort bar on top of viewforum page.',
+		'IP_show_alpha_bar' => 'Show Alphabetical Sort Bar In View Forum (Global Switch)',
+		'IP_show_alpha_bar_explain' => 'This option will show an alphabetical sort bar on top of viewforum page. You will need also to enable single forums in Forums Management section.',
 
-		'IP_show_rss_forum_icon' => 'Forum Index Icons',
-		'IP_show_rss_forum_icon_explain' => 'This option will show icons on the right of every forum title (on Forum Index): RSS, New Topic...',
+		'IP_show_rss_forum_icon' => 'Forum Index Icons (Global Switch)',
+		'IP_show_rss_forum_icon_explain' => 'This option will show icons on the right of every forum title (on Forum Index): RSS, New Topic. You will need also to enable single forums in Forums Management section.',
 
 		'IP_allow_mods_view_self' => 'Allow ALL Moderators to View Self Auth Topics',
 		'IP_allow_mods_view_self_explain' => 'If a forum has been set to SELF AUTH access only admins and forum moderators can access those topics through viewforum and viewtopic. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow non authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks... Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
@@ -111,8 +112,10 @@ if ($lang_extend_admin)
 		'IP_fast_n_furious' => 'Fast And Furious',
 		'IP_fast_n_furious_explain' => 'Enabling this option some heavy SQL functions will be disabled, to hopefully speed up your site!',
 
+		/*
 		'IP_db_cron' => 'Database Optimize',
 		'IP_db_cron_explain' => 'Enabling this option will enable Database Optimization.',
+		*/
 
 		'IP_site_history' => 'Site History',
 		'IP_site_history_explain' => 'Enabling this option will enable Site History.',
@@ -128,17 +131,19 @@ if ($lang_extend_admin)
 
 		'IP_google_bot_detector' => 'Enable GoogleBot Detector',
 
+		'IP_gsearch_guests' => 'Force Google Search for guests',
+
 		'IP_visit_counter_switch' => 'Enable Visit Counter',
 
 		'IP_enable_new_messages_number' => 'Show the number of new messages since last visit',
 
-		'IP_disable_thanks_topics' => 'Disable Thanks',
+		'IP_disable_thanks_topics' => 'Disable Thanks (Global Switch)',
 
 		'IP_show_thanks_profile' => 'Show Thanks received when viewing profile',
 
 		'IP_show_thanks_viewtopic' => 'Show Thanks received when viewing topics',
 
-		'IP_disable_topic_view' => 'Disable "Who read this topic"',
+		'IP_disable_topic_view' => 'Disable "Who read this topic" (Global Switch)',
 		'IP_disable_topic_view_explain' => 'This option allows you to disable "Who read this topic" feature (this saves SQL space).',
 
 		'IP_disable_referrers' => 'Disable Referrers',
@@ -290,8 +295,8 @@ if ($lang_extend_admin)
 
 // forum links type
 		'Forum_link_url' => 'Link URL',
-		'Forum_link_url_explain' => 'Set a URI to an Icy Phoenix prog, or a full URL to an external server',
-		'Forum_link_internal' => 'Icy Phoenix prog',
+		'Forum_link_url_explain' => 'Set a URI to an Icy Phoenix file or a full URL to an external server',
+		'Forum_link_internal' => 'Icy Phoenix File',
 		'Forum_link_internal_explain' => 'Choose yes if you invoke a program that stands in the Icy Phoenix dirs',
 		'Forum_link_hit_count' => 'Hit count',
 		'Forum_link_hit_count_explain' => 'Choose yes if you want the board to count and display the number of hits using this link',
@@ -328,6 +333,12 @@ if ($lang_extend_admin)
 		'IP_lofi_bots' => 'LoFi For Bots',
 		'IP_lofi_bots_explain' => 'By enabling this option LoFi will be enabled for bots.',
 
+		'IP_adsense_code' => 'Google AdSense Publisher Code',
+		'IP_adsense_code_explain' => 'Insert here your Google AdSense Publisher Code and it will be inserted in the Google Search page. If you don\'t want to use it, just leave this field blank.',
+
+		'IP_google_analytics' => 'Google Analytics Code',
+		'IP_google_analytics_explain' => 'Insert here your Google Analytics Code (the Javascript provided by Google site) and it will be automatically inserted at the bottom of every page.',
+
 //Sitemap
 		'Sitemap_settings' => 'Sitemap Settings',
 
@@ -355,13 +366,14 @@ if ($lang_extend_admin)
 		'IP_word_graph_word_counts' => 'TAGS :: Enable Word Counts',
 		'IP_word_graph_word_counts_explain' => 'Display the total number of words next to each word?<br />Example: <b>Icy Phoenix (365)</b>?',
 
-		'IP_forum_wordgraph' => 'TAGS :: Forum Tags',
-		'IP_forum_wordgraph_explain' => 'This feature will enable a forum based tags table at the bottom of each forum',
+		'IP_forum_wordgraph' => 'TAGS :: Forum Tags (Global Switch)',
+		'IP_forum_wordgraph_explain' => 'This feature will enable a forum based tags table at the bottom of each forum. You will need also to enable single forums in Forums Management section.',
 
 		'Similar_topics' => 'Similar Topics',
 		'Similar_topics_explain' => 'Configure search of similar topics.',
 
-		'IP_similar_topics' => 'Similar Topics :: Enable Similar Topics',
+		'IP_similar_topics' => 'Similar Topics :: Similar Topics (Global Switch)',
+		'IP_similar_topics_explain' => 'This is the global switch for Similar Topics. If you want to switch on this feature you will need also to enable single forums in Forums Management section.',
 
 		'IP_similar_topics_desc' => 'Similar Topics :: Take into account the description of a topics',
 
@@ -395,6 +407,42 @@ if ($lang_extend_admin)
 
 		'IP_logs_path' => 'Path for Logs (remember to CHMOD this folder to 0755 or 0777 as required)',
 		'IP_logs_path_explain' => 'Insert the path for the errors and other logs relative to your root and without ending slash. Example: <b>logs</b>.',
+
+// TAB - Cron
+		'IP_cron_global_switch' => 'Enable PHP Cron [Global Switch]',
+		'IP_cron_global_switch_explain' => 'By enabling this option a PHP based cron will be activated: some automatic operations will be executed at fixed time intervals. The optimal time range for each cron feature depends on your site traffic and preferences: if you don\'t know what these settings may impact, please leave this feature disabled, you probably don\'t need it.',
+
+		'IP_cron_files_interval' => 'Files Executions Cron Interval',
+		'IP_cron_files_interval_explain' => 'This kind of cron may be used to automatically run certain files every fixed interval you decide. The files to be executed must be added in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b>. Multiple files must be separated by comma.<br /><br /><b>Last run: ' . (($board_config['cron_files_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>',
+
+		'IP_cron_database_interval' => 'DB Optimization Cron Interval',
+		'IP_cron_database_interval_explain' => 'This feature will optimize the database of the site every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_database_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>',
+
+		'IP_cron_cache_interval' => 'Tidy Templates Cache Cron Interval',
+		'IP_cron_cache_interval_explain' => 'Templates cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
+
+		'IP_cron_sql_interval' => 'Tidy SQL Cache Cron Interval',
+		'IP_cron_sql_interval_explain' => 'SQL cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_sql_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>',
+
+		'IP_cron_users_interval' => 'Tidy Users Cache Cron Interval',
+		'IP_cron_users_interval_explain' => 'Users cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_users_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>',
+
+		'IP_cron_topics_interval' => 'Tidy Topics Cache Cron Interval',
+		'IP_cron_topics_interval_explain' => 'Topics cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_topics_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>',
+
+		'Cron_Disabled' => 'Disabled',
+		'15M' => '15 Minutes',
+		'30M' => '30 Minutes',
+		'1H' => '1 Hour',
+		'2H' => '2 Hours',
+		'3H' => '3 Hours',
+		'6H' => '6 Hours',
+		'12H' => '12 Hours',
+		'1D' => '1 Day',
+		'3D' => '3 Days',
+		'7D' => '1 Week',
+		'14D' => '2 Weeks',
+		'30D' => '1 Month',
 
 
 // lang_extend_mods_settings.php

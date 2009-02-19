@@ -8,13 +8,6 @@
 *
 */
 
-/**
-*
-* @Extra credits for this file
-* Antonio Mercurio (roland@phpbbplus.it) www.phpbbplus.it
-*
-*/
-
 if (!defined('IN_ICYPHOENIX'))
 {
 	exit;
@@ -31,6 +24,8 @@ $lang['Default_META_Description'] = 'Icy Phoenix &egrave; un Content Management 
 $lang['Default_META_Title'] = 'Icy Phoenix';
 $lang['Default_META_Author'] = 'Mighty Gorgon And Icy Phoenix Staff :: http://www.icyphoenix.com/';
 $lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
+
+$lang['REGISTER_MESSAGE'] = '';
 
 $lang['Welcome_Message'] = 'Benvenuto in <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Benvenuto su %s';

@@ -179,6 +179,7 @@ $lang = array_merge($lang, array(
 	'Forum_SELF' => 'SELF',
 	'Forum_PRIVATE' => 'PRIVATE',
 	'Forum_MOD' => 'MOD',
+	'Forum_JADMIN' => 'J ADMIN',
 	'Forum_ADMIN' => 'ADMIN',
 
 	'View' => 'View',
@@ -331,7 +332,7 @@ $lang = array_merge($lang, array(
 	'SMTP_password' => 'SMTP Password',
 	'SMTP_password_explain' => 'Only enter a password if your SMTP server requires it',
 
-	'Disable_privmsg' => 'Private Messaging',
+	'Disable_privmsg' => 'Private Messages',
 	'Inbox_limits' => 'Max posts in Inbox',
 	'Sentbox_limits' => 'Max posts in Sentbox',
 	'Savebox_limits' => 'Max posts in Savebox',
@@ -386,6 +387,19 @@ $lang = array_merge($lang, array(
 	'prune_freq' => 'Check for topic age every',
 	'prune_days' => 'Remove topics that have not been posted to in',
 	'Set_prune_data' => 'You have turned on auto-prune for this forum but did not set a frequency or number of days to prune. Please go back and do so.',
+
+	'FORUM_SIMILAR_TOPICS' => 'Similar Topics',
+	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'If you enable this option you will see a box with similar topics at the bottom of each topic in this forum (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
+	'FORUM_TOPIC_VIEWS' => 'Topics Viewer',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'If you enable this option all users that views topics in this forum will be stored in the DB (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SQL TAB)',
+	'FORUM_TAGS' => 'Forum Tags',
+	'FORUM_TAGS_EXPLAIN' => 'If you enable this option you will see a box with all the most used words in this forum (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
+	'FORUM_SORT_BOX' => 'Topic Sort Box',
+	'FORUM_SORT_BOX_EXPLAIN' => 'If you enable this option you will see a box wich allows you to alphabetically sort topics in this forum (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
+	'FORUM_KB_MODE' => 'KB Mode',
+	'FORUM_KB_MODE_EXPLAIN' => 'If you enable this option this forum will be shown in KB Mode (topics listed like Knowledge Base)',
+	'FORUM_INDEX_ICONS' => 'Index Icons',
+	'FORUM_INDEX_ICONS_EXPLAIN' => 'If you enable this option you will see icons for RSS and New Topic in Forum Index (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
 
 	'Move_and_Delete' => 'Move and Delete',
 
@@ -762,6 +776,7 @@ $lang = array_merge($lang, array(
 	'Optimize_DB' => 'Optimize Database',
 	'Optimize_Enable_cron' => 'Enable Cron',
 	'Optimize_Cron_every' => 'Cron Every',
+	'Optimize_Cron_every_explain' => 'Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Cron</b>',
 	'Optimize_month' => 'Month',
 	'Optimize_2weeks' => '2 weeks',
 	'Optimize_week' => 'Week',
@@ -813,7 +828,7 @@ $lang = array_merge($lang, array(
 	'Group_count_update' => 'Add/Update new users',
 	'Group_count_delete' => 'Delete/Update old users',
 	'User_allow_ag' => 'Activate Auto Group',
-	'group_count_explain' => 'When users have posted more posts than this value <i>(in any forum)</i> then they will be added to this usergroup<br/> This only applies if "' . $lang['Group_count_enable'] . '" are enabled',
+	'group_count_explain' => 'When users have posted more posts than this value <i>(in any forum)</i> then they will be added to this usergroup<br/> This only applies if "Users automatically added when posting" are enabled',
 
 // Start add - Bin Mod
 	'Bin_forum' => 'Bin forum',
@@ -1050,14 +1065,14 @@ $lang = array_merge($lang, array(
 	'Prune_shouts' => 'Auto prune shouts',
 	'Prune_shouts_explain' => 'Number of days before the shouts are deleted. If the value is set to 0, autoprune will be disabled',
 
-	'MOD_OS_ForumRules' => 'Olympus-Style Forum Rules',
+	'MOD_OS_ForumRules' => 'Forum Rules',
 	'Forum_rules' => 'Forum Rules',
 	'Rules_display_title' => 'Display title in the Forum Rules BOX?',
 	'Rules_custom_title' => 'Custom title',
-	'Rules_appear_in' => 'These Forum Rules appear while ...',
+	'Rules_appear_in' => 'These rules appear while...',
 	'Rules_in_viewforum' => 'Viewing this forum',
 	'Rules_in_viewtopic' => 'Viewing topics in this forum',
-	'Rules_in_posting' => 'Posting/Replying in this forum',
+	'Rules_in_posting' => 'Posting / replying in this forum',
 
 	'Php_Info_Explain' => 'This page lists information on the version of PHP installed on this server. It includes details of loaded modules, available variables and default settings. This information may be useful when diagnosing problems. Please be aware that some hosting companies will limit what information is displayed here for security reasons. You are advised to not give out any details on this page except when asked for by support or other Team Member on the support forums.',
 
@@ -1345,11 +1360,12 @@ $lang = array_merge($lang, array(
 /* lang_postcount.php - END */
 
 /* lang_megamail.php - BEGIN */
-	'Megamail_Explain' => 'Email a message to either all of your users, or all users of a specific group. To do this, an email will be sent out to the administrative email address supplied, with a blind carbon copy sent to all recipients.<br />This modified script will send the emails in several batches. This should circumvent timeout and server-load issues. The status of the mass mail sending will be saved in the db. You can close the window when you want to pause mass-mail-sending (the current batch will be sent out). You can simply continue later from where you left off.<br /><b>If HTML emails are enabled, then you should write emails using HTML code, inserting &lt;br /&gt; for a line break.</b>',
+	'Megamail_Explain' => 'This feature allows you to send private messages or email to either all of your users, or all users in a specific group. To do this, an email will be sent out to the administrative email address supplied, with a blind carbon copy sent to all recipients.<br />Emails will be sent in several batches: this should circumvent timeout and server-load issues. The status of the mass mail sending will be saved in the db. You can close the window when you want to pause mass-mail-sending (the current batch will be sent out). You can simply continue later from where you left off.<br /><b>If HTML emails are enabled, then you should write emails using HTML code, inserting &lt;br /&gt; for a line break.</b><br /><b>If you chose to send FULL HTML emails, then remember that no template or css is used, so you have to insert a full html code, including HEAD and BODY tags.</b><br /><b>Please remember that Mass PM supports only BBCode, if you write a PM in HTML then it will not be correctly shown.</b>',
+	'megamail_inactive_users' => 'Non visiting users in the last {DAYS} days',
 	'megamail_header' => 'Your Email-Sessions',
 	'megamail_id' => 'Mail-ID',
 	'megamail_batchstart' => 'Processed',
-	'megamail_batchsize' => 'Mails per Batch',
+	'megamail_batchsize' => 'Batch',
 	'megamail_batchwait' => 'Pause',
 	'megamail_created_message' => 'The Mass Mail has been saved to the database.<br /><br/> To start sending %sclick here%s or wait until the Meta-Refresh takes you there...',
 	'megamail_send_message' => 'The Current Batch (%s - %s) has been sent .<br /><br/> To continue sending %sclick here%s or wait until the Meta-Refresh takes you there...',
@@ -1357,6 +1373,9 @@ $lang = array_merge($lang, array(
 	'megamail_proceed' => '%sProceed now%s',
 	'megamail_done' => 'DONE',
 	'megamail_none' => 'No records were found.',
+	'megamail_delete_confirm' => 'Do you really want to delete this email?',
+	'megamail_deleted' => 'Email deleted successfully',
+	'megamail_click_return' => 'Click %sHere%s to return to Mass Emails / PM',
 /* lang_megamail.php - END */
 
 /* lang_admin_voting.php - BEGIN */
@@ -1770,7 +1789,7 @@ $lang = array_merge($lang, array(
 
 // Backup
 	'ACP_BACKUP' => 'Backup Database',
-	'ACP_BACKUP_EXPLAIN' => 'Backup all your site related data. You can store the resulting archive in your <samp>backup/</samp> folder or download it directly. Your server configuration may also allow you to save the file in compressed gzip format.',
+	'ACP_BACKUP_EXPLAIN' => 'Backup all your site related data. Backup will be stored <b><samp>backup/</samp></b> (make sure this folder is <b>writable</b>) folder so you can download or restore it from the <b>Restore</b> page. Your server configuration may also allow you to save the file in compressed gzip format.<br /><br /><span class="text_red">Backup will be performed on several steps to avoid timeouts: the script should be able to perform the full process all automatically, so you have just to wait it to complete the automated task.</span><br /><br />',
 
 	'BACKUP_OPTIONS' => 'Backup Options',
 	'BACKUP_TYPE' => 'Backup type',
@@ -1785,16 +1804,27 @@ $lang = array_merge($lang, array(
 	'FILE_TYPE' => 'File type',
 	'FULL_BACKUP' => 'Full',
 
-	'Backup_Success' => 'The backup file has been created successfully.',
-	'Backup_Deleted' => 'The backup file has been deleted successfully.',
+	'BACKUP_TYPE_COMPLETE' => 'Complete',
+	'BACKUP_TYPE_EXTENDED' => 'Extended',
+	'BACKUP_TYPE_COMPACT' => 'Compact Line Breaks',
+
+	'BACKUP_SUCCESS' => 'The backup file has been created successfully.',
+	'BACKUP_DELETED' => 'The backup file has been deleted successfully.',
 
 	'TABLE_SELECT' => 'Table select',
+
+	'BACKUP_IN_PROGRESS' => 'Backup in progress...',
+	'BACKUP_IN_PROGRESS_TABLE' => 'Backing up table: <b>%s</b>',
+	'BACKUP_IN_PROGRESS_REDIRECT' => 'You will be automatically redirected to next step in few seconds',
+	'BACKUP_IN_PROGRESS_REDIRECT_CLICK' => 'If you are not automatically redirected within few seconds you may click %sHere%s',
+	'BACKUP_OPTIONS_RETURN' => 'Click %sHere%s to return to Backup Management',
+
 // Errors
 	'Table_Select_Error' => 'You must select at least one table.',
 
 // Restore
 	'ACP_RESTORE' => 'Restore Database',
-	'ACP_RESTORE_EXPLAIN' => 'Restore of all your database tables from a saved backup file. If your server supports it you can use a gzip or bzip2 compressed text file and it will be automatically decompressed. <strong>WARNING</strong> This will overwrite any existing data. The restore may take a long time to process, please <b>do not</b> move from this page until it is complete. Backups are stored in the <samp>backup/</samp> folder, and are assumed to be generated by this site backup functions. Restoring backups that were not created by the built in system may not work properly.',
+	'ACP_RESTORE_EXPLAIN' => 'Restore of all your database tables from a saved backup file. If your server supports it you can use a gzip or bzip2 compressed text file and it will be automatically decompressed. <strong>WARNING</strong> This will overwrite any existing data. The restore may take a long time to process, please <b>do not</b> move from this page until it is complete. Backups are stored in the <b><samp>backup/</samp></b> folder, and are assumed to be generated by this site backup functions. Restoring backups that were not created by the built in system may not work properly.<br /><br /><strong class="text_red">Please note that if the DB to be restored is too big this script may time out and you could not be able to use the site again. In case this will happen, you could try to download the backup from FTP and then restore it using a different method such as phpMyAdmin or MySQLDumper.</strong><br /><br />',
 	'RESTORE_OPTIONS' => 'Restore Options',
 
 	'Restore_Success' => 'The database has been successfully restored.<br />Your site should be back to the state it was in when the backup was made.',
@@ -1806,9 +1836,12 @@ $lang = array_merge($lang, array(
 /* lang_admin_db_backup.php - END */
 
 /* Logs - BEGIN */
+	'LOGS_ACTIONS_FILTER' => 'Actions filter',
 	'LOGS_TITLE' => 'Logs',
 	'LOGS_EXPLAIN' => 'All relevant actions stored in the DB',
 	'LOGS_TARGET' => 'Target',
+	'LOGS_DELETE' => 'Delete Selected',
+	'LOGS_DELETE_ALL' => 'Empty Logs Table',
 	'LOGS_DENY' => 'Not authorized!',
 	'LOGS_POST_EDIT' => 'edited a post posted by',
 	'LOGS_POST_DELETE' => 'deleted a post posted by',
@@ -1833,14 +1866,14 @@ $lang = array_merge($lang, array(
 	'LOGS_CARD_WARN' => 'warned',
 	'LOGS_CARD_UNBAN' => 'unbanned',
 	'LOGS_ADMIN_CAT_ADD' => 'added a forum category',
-	'LOGS_ADMIN_DB_UTILITIES_BACKUP' => 'backupped the DB %s',
+	'LOGS_ADMIN_DB_UTILITIES_BACKUP' => 'DB backup %s',
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_full' => 'full',
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_structure' => 'structure only',
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_data' => 'data',
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_store_and_download' => ', downloaded and stored',
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_store' => ', stored',
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_download' => ', downloaded',
-	'LOGS_ADMIN_DB_UTILITIES_RESTORE' => 'restored the DB from',
+	'LOGS_ADMIN_DB_UTILITIES_RESTORE' => 'DB restored from',
 	'LOGS_ADMIN_BOARD_CONFIG' => 'edited config settings',
 	'LOGS_ADMIN_BOARD_IP_CONFIG' => 'edited Icy Phoenix settings',
 	'LOGS_ADMIN_GROUP_NEW' => 'group created',
@@ -1857,8 +1890,57 @@ $lang = array_merge($lang, array(
 	'LOGS_CMS_BLOCK_EDIT' => 'edited a block [ID = %s] in %sTHIS%s page',
 	'LOGS_CMS_BLOCK_EDIT_LS' => 'edited a block [ID = %s] in a standard page [%s]',
 	'LOGS_CMS_BLOCK_DELETE' => 'deleted a block [ID = %s] in %sTHIS%s page',
-	'LOGS_CMS_BLOCK_DELETE_LS' => 'deleted a block  [ID = %s] in a standard page [%s]',
+	'LOGS_CMS_BLOCK_DELETE_LS' => 'deleted a block [ID = %s] in a standard page [%s]',
 /* Logs - END */
+
+	'SMILEYS_UPDATED' => 'Smileys Updated',
+
+/* ADS - BEGIN */
+	'ADS_TITLE' => 'Ads &amp; Sponsors',
+	'ADS_TITLE_EXPLAIN' => 'This section allows you to configure banners, ads and sponsors to be shown on your site. You can add different types of banners and decide where these banners have to be shown or which level of users won\'t see them. If you specify more than one banner for a single position, then one banner will be shown randomly among all of those specified for the same position.',
+	'AD_DES' => 'Description',
+	'AD_TEXT' => 'Content',
+	'AD_ENABLED' => 'Enabled',
+	'AD_STATUS' => 'Status',
+	'AD_STATUS_EXPLAIN' => 'Select YES if you want to enable this ad or NO if you want to disable it',
+	'AD_POSITION' => 'Position',
+	'AD_AUTH' => 'Permission',
+	'AD_AUTH_EXPLAIN' => 'Users who will see this ad',
+	'AD_AUTH_GUESTS' => 'Guests only',
+	'AD_AUTH_REG' => 'Guests and Registered (not ADMINS and MODS)',
+	'AD_AUTH_MOD' => 'All but Administrators',
+	'AD_AUTH_ADMIN' => 'All',
+	'AD_FORMAT' => 'Format',
+	'AD_POS_GLT' => 'Global Top',
+	'AD_POS_GLB' => 'Global Bottom',
+	'AD_POS_GLH' => 'Global Header',
+	'AD_POS_GLF' => 'Global Footer',
+	'AD_POS_FIX' => 'Forum Index Element',
+	'AD_POS_FIT' => 'Forum Index Top',
+	'AD_POS_FIB' => 'Forum Index Bottom',
+	'AD_POS_VFX' => 'View Forum Element',
+	'AD_POS_VFT' => 'View Forum Top',
+	'AD_POS_VFB' => 'View Forum Bottom',
+	'AD_POS_VTX' => 'View Topic Element',
+	'AD_POS_VTT' => 'View Topic Top',
+	'AD_POS_VTB' => 'View Topic Bottom',
+	'AD_POS_NMT' => 'Nav Menu Top',
+	'AD_POS_NMB' => 'Nav Benu Bottom',
+	'AD_ADD' => 'Add Ad',
+	'AD_EDIT' => 'Edit Ad',
+	'AD_ADDED' => 'Ad added successfully',
+	'ADS_UPDATE' => 'Update Ads',
+	'AD_UPDATED' => 'Ad updated successfully',
+	'AD_DELETED' => 'Ad deleted successfully',
+	'CLICK_RETURN_ADS' => 'Click %sHere%s to return to Ads administration',
+	'AD_NO_ADS' => 'No ads defined',
+	'ERR_AD_ADD' => 'Please fill all required fields',
+/* ADS - END */
+
+	'FULL_HTML' => 'Full HTML',
+	'ACTIONS' => 'Actions',
+	'EDIT' => 'Edit',
+	'DELETE' => 'Delete',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Icy Phoenix Settings',
@@ -1873,36 +1955,19 @@ $lang = array_merge($lang, array(
 	'MG_SW_Edit_Notes_Title' => 'Edit Notes',
 	'MG_Configuration_IMG_Posting' => 'Images In Posting',
 
-	'MG_SW_Top_Header_Bottom_Footer' => 'Header and Footer HTML Blocks',
-	'MG_SW_Top_HTML_Block' => 'HTML Header Block',
-	'MG_SW_Top_HTML_Block_Explain' => 'Enabling this option shows the specified HTML code on top of each page.',
-	'MG_SW_Top_HTML_Block_Text' => 'Insert the HTML code for the header.',
-	'MG_SW_Bottom_HTML_Block' => 'HTML Footer Block',
-	'MG_SW_Bottom_HTML_Block_Explain' => 'Enabling this option shows the specified HTML code on the bottom of each page.',
-	'MG_SW_Bottom_HTML_Block_Text' => 'Insert the HTML code for the footer.',
-
-	'MG_SW_Header_Footer' => 'Header and Footer Messages',
+	'MG_SW_Header_Footer' => 'Header Table Message',
 	'MG_SW_Header_Table' => 'Header Table',
 	'MG_SW_Header_Table_Explain' => 'Enabling this option shows a customised message in the header table of each page.',
 	'MG_SW_Header_Table_Text' => 'Insert your text here.',
-	'MG_SW_Footer_Table' => 'Footer Table',
-	'MG_SW_Footer_Table_Explain' => 'Enabling this option shows a customised message in the footer table of each page.',
-	'MG_SW_Footer_Table_Text' => 'Insert your text here.',
-
-	'MG_SW_Banner_Title' => 'Banner Management',
-	'MG_SW_Header_Banner' => 'Header Banner',
-	'MG_SW_Header_Banner_Explain' => 'Enabling this option shows a Header Banner on every page.',
-	'MG_SW_Header_Banner_Code' => 'Header Banner Code',
-	'MG_SW_Header_Banner_Code_Explain' => 'Insert your advertisement code for the Header here.',
-	'MG_SW_Viewtopic_Banner' => 'Viewtopic Banner',
-	'MG_SW_Viewtopic_Banner_Explain' => 'Enabling this option will show a banner after the first post on every topic page.',
-	'MG_SW_Viewtopic_Banner_Code' => 'Viewtopic Banner Code',
-	'MG_SW_Viewtopic_Banner_Code_Explain' => 'Insert your advertisement code for Viewtopic here.',
 
 	'MG_SW_Empty_Precompiled_Posts' => 'Empty precompiled posts',
 	'MG_SW_Empty_Precompiled_Posts_Explain' => 'Empty all precompiled posts.',
 	'MG_SW_Empty_Precompiled_Posts_Success' => 'Precompiled posts emptied correctly.',
 	'MG_SW_Empty_Precompiled_Posts_Fail' => 'Errors in emptying precompiled posts.',
+	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Emptying cache folders in progress...',
+	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect' => 'You will be automatically redirected to next step in three seconds',
+	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click' => 'If you are not automatically redirected within three seconds you may click %sHere%s',
+	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Click %sHere%s to return to Cache Management',
 
 	'MG_FNF_Header' => 'Quick Settings',
 	'MG_FNF_Header_Explain' => '<b>Configuration options for your site.</b><br /> These configuration packages have been created to easily allow users to mass change their settings without having to modify each option one by one in the configuration panel, and may be used as a starting point for future customizations: For example you can choose "Fast And Furious" and then modify only the options of this package that you don\'t want.<br /><br /><span class="text_red"><b>Please note! that once you have applied one of these set of options you cannot automatically restore your old settings, and you have to set them up again manually.</b></span>',
@@ -1966,15 +2031,16 @@ $lang['210_MG_Quick_Settings'] = 'Quick Settings'; // admin_board_quick_settings
 $lang['1100_General'] = 'General'; // admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php
 $lang['100_Acronyms'] = 'Acronyms'; // admin_acronyms.php
 $lang['110_Autolinks'] = 'Autolinks'; // admin_autolinks.php
+$lang['120_Ads'] = 'Ads &amp; Sponsors'; // admin_ads.php
 $lang['130_Mass_Email'] = 'Mass Email'; // admin_mass_email.php
-$lang['140_Mega_Mail'] = 'Mega Mail'; // admin_megamail.php
+$lang['140_Mega_Mail'] = 'Mass Email / PM'; // admin_megamail.php
 $lang['150_FTR_Config'] = 'FTR'; // admin_force_read.php
 $lang['160_FTR_Users'] = 'FTR User'; // admin_force_read.php
 $lang['170_Smilies'] = 'Smileys'; // admin_smilies.php
 $lang['180_Word_Censor'] = 'Word Censor'; // admin_words.php
 $lang['200_Notepad'] = 'Admin Notepad'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Help Desk'; // admin_helpdesk.php
-$lang['240_Replace_title'] = 'Replace in posts'; // admin_replace.php
+$lang['240_Replace_title'] = 'Replace In Posts'; // admin_replace.php
 
 // Forum
 $lang['1200_Forums'] = 'Forum'; // admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php

@@ -269,8 +269,6 @@ $lang['ctracker_ma_secure'] = '<span class="text_green">SICURO</span>';
 $lang['ctracker_ma_warning'] = '<span class="text_red">ATTENZIONE</span>';
 $lang['ctracker_ma_active'] = '<span class="text_green">ATTIVO</span>';
 $lang['ctracker_ma_inactive'] = '<span class="text_red">INATTIVO</span>';
-$lang['ctracker_ma_on'] = 'ON';
-$lang['ctracker_ma_off'] = 'OFF';
 $lang['ctracker_ma_ca'] = '<span class="text_green">OK</span>';
 $lang['ctracker_ma_ci'] = '<span class="text_red">NON IMPOSTATO</span>';
 $lang['ctracker_ma_head'] = 'Manutenzione e verifica del sistema';

@@ -34,7 +34,7 @@ $lang['function_unknown'] = 'La funzione specificata &egrave; sconosciuta';
 $lang['Old_MySQL_Version'] = 'Spiacenti, la tua versione di MySQL non supporta questa funzione. Per cortesia usa una verione 3.23.17 o superiore.';
 
 $lang['Back_to_DB_Maintenance'] = 'Ritorna a Manutenzione Database';
-$lang['Processing_time'] = 'Manutenzione DB ha impiegato %f seconds per le operazioni.';
+$lang['Processing_time'] = 'Manutenzione DB ha impiegato %f secondi per le operazioni.';
 
 $lang['Lock_db'] = 'Disabilitazione board in corso';
 $lang['Unlock_db'] = 'Attivazione board in corso';
@@ -485,7 +485,6 @@ $lang['New_config_php'] = 'Questa &egrave; la tua nuova configurazione: config.'
 // Options
 $lang['cls'] = 'Elimina tutte le sessioni';
 $lang['ecf'] = 'Svuota la cache';
-$lang['fdt'] = 'Ripara def_tree.php';
 $lang['rdb'] = 'Ripara tabelle del database';
 $lang['cct'] = 'Verifica tabella di configurazione';
 $lang['rpd'] = 'Risistema dati relativi al percorso del forum';
@@ -500,7 +499,6 @@ $lang['rcp'] = 'Ricrea config.php';
 // Info for options
 $lang['cls_info'] = 'Procedendo tutte le sessioni verranno eliminate.';
 $lang['ecf_info'] = 'Procedendo la cache verr&agrave; svuotata.';
-$lang['fdt_info'] = 'Procedendo il file def_tree.php verr&agrave; ripristinato.';
 $lang['rdb_info'] = 'Procedendo le tabelle del database verranno riaparate.';
 $lang['cct_info'] = 'Procedendo la tabella di configurazione verr&agrave; verificata e gli elementi mancanti ripristinati.';
 $lang['rpd_info'] = 'Procedendo i dati di configurazione saranno aggiornati se vengono selezionate le impostazioni raccomandate.';
@@ -517,7 +515,6 @@ $lang['rcp_info'] = 'Procedendo verr&agrave; creato un nuovo file config.php con
 // Success messages for options
 $lang['cls_success'] = 'Tutte le ssessioni sono state eliminate correttamente.';
 $lang['ecf_success'] = 'Cache svuotata correttamente.';
-$lang['fdt_success'] = 'File def_tree.php ripristinato correttamente.';
 $lang['rdb_success'] = 'Le tabelle del database sono state riparate correttamente.';
 $lang['rpd_success'] = 'Configurazione della board aggiornata correttamente.';
 $lang['cct_success'] = 'Tabella di configurazione verificata correttamente.';

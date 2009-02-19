@@ -30,6 +30,8 @@ if (empty($lang) || !is_array($lang))
  */
 $lang['ctracker_settings_on'] = 'ATTIVATA';
 $lang['ctracker_settings_off'] = 'DISATTIVATA';
+$lang['ctracker_ma_on'] = 'ON';
+$lang['ctracker_ma_off'] = 'OFF';
 $lang['ctracker_blockmode_0'] = 'Disattivata';
 $lang['ctracker_blockmode_1'] = 'Banna Utente';
 $lang['ctracker_blockmode_2'] = 'Blocca Utente';

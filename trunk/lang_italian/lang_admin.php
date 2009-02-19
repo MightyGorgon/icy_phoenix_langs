@@ -860,7 +860,7 @@ $lang['Group_count_enable'] = 'Utenti aggiunti automaticamente quando postano';
 $lang['Group_count_update'] = 'Aggiungi/Aggiorna nuovi membri';
 $lang['Group_count_delete'] = 'Elimina/Aggiorna vecchi utenti';
 $lang['User_allow_ag'] = 'Attiva AutoGroup';
-$lang['group_count_explain'] = 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno aggiunti automaticamente a questo gruppo<br/> Questo si applica solo se "'.$lang['Group_count_enable'].'" &egrave; abilitato';
+$lang['group_count_explain'] = 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno aggiunti automaticamente a questo gruppo<br/> Questo si applica solo se "Utenti aggiunti automaticamente quando postano" &egrave; abilitato';
 // Start add - Bin Mod
 $lang['Bin_forum'] = 'Cestino';
 $lang['Bin_forum_explain'] = 'Immetti l\'ID del Forum che vuoi utilizzare come Cestino; impostando il valore a 0 (zero) la caratteristica sar&agrave; disabilitata. Dovresti inoltre modificare i permessi di questo forum per permettere oppure no l\'accesso agli utenti.';
@@ -1415,6 +1415,10 @@ $lang['MG_SW_Empty_Precompiled_Posts'] = 'Svuota messaggi precompilati';
 $lang['MG_SW_Empty_Precompiled_Posts_Explain'] = 'Con questa funzione, tutti i messaggi precompilati verranno svuotati.';
 $lang['MG_SW_Empty_Precompiled_Posts_Success'] = 'I messaggi precompilati sono stati eliminati.';
 $lang['MG_SW_Empty_Precompiled_Posts_Fail'] = 'Errore nell\'eliminazione dei messaggi precompilati.';
+$lang['MG_SW_Empty_Precompiled_Posts_InProgress'] = 'Svuotamento cache in corso';
+$lang['MG_SW_Empty_Precompiled_Posts_InProgress_Redirect'] = 'Verrai automaticamente reindirizzato al passo successivo in tre secondi';
+$lang['MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click'] = 'Se il reindirizzamento automatico non dovesse funzionare, puoi cliccare %sQUI%s';
+$lang['MG_SW_Empty_Precompiled_Posts_Redirect_Click'] = 'Clicca %sQUI%s per tornare alla Gestione Cache';
 
 $lang['MG_FNF_Header'] = 'Impostazioni Veloci';
 $lang['MG_FNF_Header_Explain'] = 'In questa pagina puoi impostare con un solo click alcune delle opzioni di configurazioni del sito. Queste configurazioni sono state pensate per chi vuole testare la velocit&agrave; del proprio server senza dover cercare e selezionare le opzioni una ad una nel pannello di controllo. Qualcuna di queste configurazioni possono essere utilizzate anche come base per delle personalizzazioni: ad esempio si pu&ograve; scegliere una delle opzioni proposte e poi modificare a mano le singole opzioni una ad una in seguito in base ai propri gusti.<br /><br /><span class="text_red"><b>Fate attenzione che scegliendo una di queste configurazioni le vostre opzioni saranno modificate senza possibilit&agrave; di annullare l\'operazione e ripristinare le vecchie impostazioni.</b></span>';
@@ -1456,12 +1460,12 @@ $lang['Post_count'] = 'Numero Messaggi';
 /* lang_megamail.php - BEGIN */
 $lang['Megamail_Explain'] = 'Da questa pagina puoi inviare un messaggio privato o email a tutti gli utenti o agli utenti di un gruppo specifico. Per fare questo, verr&agrave; inviato un messaggio all\'indirizzo email dell\'amministratore che hai fornito, ed una BCC (Blind Carbon Copy) verr&agrave; inviata ai destinatari.<br />
 Le email verranno inviate in numerosi blocchi: in questo modo si dovrebbero aggirare le problematiche derivanti da timeout e da sovraccarico del server. Lo stato d\'invio delle email generali sar&agrave; salvato nel database. Puoi chiudere la finestra quando vuoi interrompere momentaneamente l\'invio delle email generali (il blocco attuale sar&agrave; comunque spedito). Puoi continuare in seguito da dove eri rimasto.<br />
-<b>Se sono abilitate email in formato HTML allora l\'email verr&agrave; inviata in formato HTML, per cui dovrai fare attenzione che le interruzioni di linea avvengano tramite &lt;br /&gt;.</b>';
+<b>Se sono abilitate email in formato HTML allora l\'email verr&agrave; inviata in formato HTML, per cui dovrai fare attenzione che le interruzioni di linea avvengano tramite &lt;br /&gt;.</b><br /><b>Se scegli di inviare l\'email usando HTML Integrale, ricorda che non verr&agrave; usato nessun template o css, e dovrai inserire un codice HTML completo con tanto di tag HEAD e BODY.</b><br /><b>Ricorda anche che se decidi di inviare un PM di massa, l\'unico formato supportato &egrave; il BBCode, se usi codice HTML non verr&agrave; processato, ma mostrato cos&igrave; com\'&egrave;.</b>';
 $lang['megamail_inactive_users'] = 'Utenti non entrati negli ultimi {DAYS} giorni';
 $lang['megamail_header'] = 'Sessione Email';
 $lang['megamail_id'] = 'ID Email';
 $lang['megamail_batchstart'] = 'Elaborate';
-$lang['megamail_batchsize'] = 'Messaggi per Blocco';
+$lang['megamail_batchsize'] = 'Blocchi';
 $lang['megamail_batchwait'] = 'Pausa';
 $lang['megamail_created_message'] = 'Le email generali sono state salvate nel database.<br /><br/>Per iniziare a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
 $lang['megamail_send_message'] = 'Il blocco Corrente (%s - %s) &egrave stato spedito.<br /><br/>Per riprendere a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
@@ -1469,6 +1473,9 @@ $lang['megamail_status'] = 'Status';
 $lang['megamail_proceed'] = '%sProcedi ora%s';
 $lang['megamail_done'] = 'FATTO';
 $lang['megamail_none'] = 'Non sono stati trovati records.';
+$lang['megamail_delete_confirm'] = 'Vuoi davvero eliminare questa email?';
+$lang['megamail_deleted'] = 'Email eliminata correttamente';
+$lang['megamail_click_return'] = 'Clicca %sQUI%s per ritornare alla gestione Email / PM';
 /* lang_megamail.php - END */
 
 /* lang_admin_voting.php - BEGIN */
@@ -1897,7 +1904,7 @@ $lang['STRUCTURE_ONLY'] = 'Solo Struttura';
 
 // Backup
 $lang['ACP_BACKUP'] = 'Backup Database';
-$lang['ACP_BACKUP_EXPLAIN'] = 'In questa sezione puoi effettuare il backup del database del tuo sito. Puoi salvare l\'archivio nella cartella <samp>backup/</samp> o scegliere di scaricarlo su disco. A seconda della configurazione del server puoi comprimere il file scegliendo tra alcuni formati disponibili.';
+$lang['ACP_BACKUP_EXPLAIN'] = 'In questa sezione puoi effettuare il backup del database del tuo sito. L\'archivio viene salvato nella cartella <b><samp>backup/</samp></b> (assicurati che questa cartella abbia i permessi di scrittura) e puoi decidere se scaricarlo o reimportarlo dalla pagina di <b>Ripristino</b>. A seconda della configurazione del server puoi comprimere il file in formato GZIP.<br /><br /><span class="text_red">La procedura di backup viene effettuata in diversi passi: lo script dovrebbe procedere automaticamente, per cui tutto quello che devi fare &egrave; attendere il messaggio di completamento.</span><br /><br />';
 
 $lang['BACKUP_OPTIONS'] = 'Opzioni Backup';
 $lang['BACKUP_TYPE'] = 'Tipo backup';
@@ -1912,16 +1919,27 @@ $lang['DOWNLOAD_BACKUP'] = 'Scarica backup';
 $lang['FILE_TYPE'] = 'Tipo file';
 $lang['FULL_BACKUP'] = 'Completo';
 
-$lang['Backup_Success'] = 'Il backup &egrave; stato creato correttamente.';
-$lang['Backup_Deleted'] = 'Il backup &egrave; stato eliminato correttamente.';
+$lang['BACKUP_TYPE_COMPLETE'] = 'Completo';
+$lang['BACKUP_TYPE_EXTENDED'] = 'Esteso';
+$lang['BACKUP_TYPE_COMPACT'] = 'Compatta Interruzioni Di Riga';
+
+$lang['BACKUP_SUCCESS'] = 'Il backup &egrave; stato creato correttamente.';
+$lang['BACKUP_DELETED'] = 'Il backup &egrave; stato eliminato correttamente.';
 
 $lang['TABLE_SELECT'] = 'Seleziona tabelle';
+
+$lang['BACKUP_IN_PROGRESS'] = 'Backup in corso';
+$lang['BACKUP_IN_PROGRESS_TABLE'] = 'Backup tabella: <b>%s</b>';
+$lang['BACKUP_IN_PROGRESS_REDIRECT'] = 'Verrai automaticamente reindirizzato al passo successivo in pochi secondi';
+$lang['BACKUP_IN_PROGRESS_REDIRECT_CLICK'] = 'Se il reindirizzamento automatico non dovesse funzionare, puoi cliccare %sQUI%s';
+$lang['BACKUP_OPTIONS_RETURN'] = 'Clicca %sQUI%s per tornare alla Gestione Backup';
+
 // Errors
 $lang['Table_Select_Error'] = 'Devi selezionare almeno una tabella.';
 
 // Restore
 $lang['ACP_RESTORE'] = 'Ripristina Database';
-$lang['ACP_RESTORE_EXPLAIN'] = 'Effettua un ripristino completo di tutte le tabelle del tuo sito da un file salvato precedentemente. Se il tuo server lo supporta puoi utilizzare la compressione gzip o bzip2, i file verranno decompressi automaticamente. <strong>ATTENZIONE</strong> Verranno sovrascritti tutti i dati attuali. Il ripristino può impiegare molto tempo dipende dalla grandezza del database, non uscire questa pagina fino al completamento del ripristino. I backup sono memorizzati nella cartella <samp>backup/</samp> e sono generati dalla funzione backup di questo sistema. Il ripristino di backup non generati da questo stesso sistema potrebbe non funzionare correttamente.';
+$lang['ACP_RESTORE_EXPLAIN'] = 'Effettua un ripristino completo di tutte le tabelle del tuo sito da un file salvato precedentemente. Se il tuo server lo supporta puoi utilizzare la compressione gzip o bzip2, i file verranno decompressi automaticamente. <strong>ATTENZIONE</strong> Verranno sovrascritti tutti i dati attuali. Il ripristino può impiegare molto tempo dipende dalla grandezza del database, non uscire questa pagina fino al completamento del ripristino. I backup sono memorizzati nella cartella <b><samp>backup/</samp></b> e sono generati dalla funzione backup di questo sistema. Il ripristino di backup non generati da questo stesso sistema potrebbe non funzionare correttamente.<br /><br /><strong class="text_red">Importante: se il backup da ripristinare &egrave; troppo grande, potrebbe essere possibile che il timeout impedisca il corretto ripristino ed il sito non funzioni piì&ugrave; correttamente. In questo caso potrebbe essere necessario scaricare il file di backup direttamente dal server ed utilizzre un\'applicazione diversa per ripristinarlo (phpMyAdmin o MySQLDumper ad esempio).</strong><br /><br />';
 $lang['RESTORE_OPTIONS'] = 'Opzioni Ripristino';
 
 $lang['Restore_Success'] = 'Il database &grave; stato ripristinato correttamente.';
@@ -2034,6 +2052,11 @@ $lang['CLICK_RETURN_ADS'] = 'Clicca %sQUI%s per tornare alla Gestione dei Banner
 $lang['AD_NO_ADS'] = 'Nessun banner creato';
 $lang['ERR_AD_ADD'] = 'Si prega di compilare tutti i campi richiesti';
 /* ADS - END */
+
+$lang['FULL_HTML'] = 'HTML Integrale';
+$lang['ACTIONS'] = 'Azioni';
+$lang['EDIT'] = 'Modifica';
+$lang['DELETE'] = 'Elimina';
 
 /*
 $lang['MG_SW_'] = '';

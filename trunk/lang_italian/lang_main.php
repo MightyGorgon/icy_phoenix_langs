@@ -753,7 +753,7 @@ $lang['Email_message_desc'] = 'Questo messaggio verr&agrave; inviato come testo,
 $lang['Flood_email_limit'] = 'Non puoi inviare un\'altra Email al momento. Prova pi&ugrave; tardi.';
 $lang['Recipient'] = 'Destinatario';
 $lang['Email_sent'] = 'Questa Email &egrave; stata inviata.';
-$lang['Send_email'] = 'Invia Email';
+$lang['Send_Email'] = 'Invia Email';
 $lang['Empty_sender_email'] = 'Devi specificare un indirizzo email mittente.';
 $lang['Empty_subject_email'] = 'Devi specificare un oggetto per l\'Email.';
 $lang['Empty_message_email'] = 'Devi inserire un Messaggio da inviare.';
@@ -1062,13 +1062,21 @@ $lang['tz']['11'] = '(GMT +11:00 Ore) Magadan, New Caledonia, Solomon Islands';
 $lang['tz']['12'] = '(GMT +12:00 Ore) Auckland, Wellington, Fiji, Marshall Island';
 $lang['tz']['13'] = '(GMT +13 Ore) Nuku\'alofa';
 
-$lang['datetime']['Sunday'] = 'Domenica';
-$lang['datetime']['Monday'] = 'Luned&igrave;';
-$lang['datetime']['Tuesday'] = 'Marted&igrave;';
-$lang['datetime']['Wednesday'] = 'Mercoled&igrave;';
-$lang['datetime']['Thursday'] = 'Gioved&igrave;';
-$lang['datetime']['Friday'] = 'Venerd&igrave;';
-$lang['datetime']['Saturday'] = 'Sabato';
+$lang['WEEK_DAY_SUNDAY'] = 'Domenica';
+$lang['WEEK_DAY_MONDAY'] = 'Luned&igrave;';
+$lang['WEEK_DAY_TUESDAY'] = 'Marted&igrave;';
+$lang['WEEK_DAY_WEDNESDAY'] = 'Mercoled&igrave;';
+$lang['WEEK_DAY_THURSDAY'] = 'Gioved&igrave;';
+$lang['WEEK_DAY_FRIDAY'] = 'Venerd&igrave;';
+$lang['WEEK_DAY_SATURDAY'] = 'Sabato';
+
+$lang['datetime']['Sunday'] = $lang['WEEK_DAY_SUNDAY'];
+$lang['datetime']['Monday'] = $lang['WEEK_DAY_MONDAY'];
+$lang['datetime']['Tuesday'] = $lang['WEEK_DAY_TUESDAY'];
+$lang['datetime']['Wednesday'] = $lang['WEEK_DAY_WEDNESDAY'];
+$lang['datetime']['Thursday'] = $lang['WEEK_DAY_THURSDAY'];
+$lang['datetime']['Friday'] = $lang['WEEK_DAY_FRIDAY'];
+$lang['datetime']['Saturday'] = $lang['WEEK_DAY_SATURDAY'];
 $lang['datetime']['Sun'] = 'Dom';
 $lang['datetime']['Mon'] = 'Lun';
 $lang['datetime']['Tue'] = 'Mar';
@@ -1088,19 +1096,18 @@ $lang['datetime']['September'] = 'Settembre';
 $lang['datetime']['October'] = 'Ottobre';
 $lang['datetime']['November'] = 'Novembre';
 $lang['datetime']['December'] = 'Dicembre';
-
-$lang['datetime']['Jan'] = 'Gen';
-$lang['datetime']['Feb'] = 'Feb';
-$lang['datetime']['Mar'] = 'Mar';
-$lang['datetime']['Apr'] = 'Apr';
-$lang['datetime']['Mag'] = 'Mag';
-$lang['datetime']['Jun'] = 'Giu';
-$lang['datetime']['Jul'] = 'Lug';
-$lang['datetime']['Aug'] = 'Ago';
-$lang['datetime']['Sep'] = 'Set';
-$lang['datetime']['Oct'] = 'Ott';
-$lang['datetime']['Nov'] = 'Nov';
-$lang['datetime']['Dec'] = 'Dic';
+$lang['datetime']['JAN'] = 'Gen';
+$lang['datetime']['FEB'] = 'Feb';
+$lang['datetime']['MAR'] = 'Mar';
+$lang['datetime']['APR'] = 'Apr';
+$lang['datetime']['MAY'] = 'Mag';
+$lang['datetime']['JUN'] = 'Giu';
+$lang['datetime']['JUL'] = 'Lug';
+$lang['datetime']['AUG'] = 'Ago';
+$lang['datetime']['SEP'] = 'Set';
+$lang['datetime']['OCT'] = 'Ott';
+$lang['datetime']['NOV'] = 'Nov';
+$lang['datetime']['DEC'] = 'Dic';
 // Timezones - END
 
 //
@@ -1146,10 +1153,10 @@ $lang['Day'] = 'Giorno';
 
 // NOTE: Please do not translate the following 4 lines!
 // They are automatically translated into your language
-$lang['day_short'] = array ($lang['datetime']['Sun'],$lang['datetime']['Mon'],$lang['datetime']['Tue'],$lang['datetime']['Wed'],$lang['datetime']['Thu'],$lang['datetime']['Fri'],$lang['datetime']['Sat']);
-$lang['day_long'] = array ($lang['datetime']['Sunday'],$lang['datetime']['Monday'],$lang['datetime']['Tuesday'],$lang['datetime']['Wednesday'],$lang['datetime']['Thursday'],$lang['datetime']['Friday'],$lang['datetime']['Saturday']);
-$lang['month_short'] = array ($lang['datetime']['JAN'],$lang['datetime']['FEB'],$lang['datetime']['MAR'],$lang['datetime']['APR'],$lang['datetime']['MAY'],$lang['datetime']['JUN'],$lang['datetime']['JUL'],$lang['datetime']['AUG'],$lang['datetime']['SEP'],$lang['datetime']['OCT'],$lang['datetime']['NOV'],$lang['datetime']['DEC']);
-$lang['month_long'] = array ($lang['datetime']['January'],$lang['datetime']['February'],$lang['datetime']['March'],$lang['datetime']['April'],$lang['datetime']['May'],$lang['datetime']['June'],$lang['datetime']['July'],$lang['datetime']['August'],$lang['datetime']['September'],$lang['datetime']['October'],$lang['datetime']['November'],$lang['datetime']['December']);
+$lang['day_short'] = array ($lang['datetime']['Sun'], $lang['datetime']['Mon'], $lang['datetime']['Tue'], $lang['datetime']['Wed'], $lang['datetime']['Thu'], $lang['datetime']['Fri'], $lang['datetime']['Sat']);
+$lang['day_long'] = array ($lang['datetime']['Sunday'], $lang['datetime']['Monday'], $lang['datetime']['Tuesday'], $lang['datetime']['Wednesday'], $lang['datetime']['Thursday'], $lang['datetime']['Friday'], $lang['datetime']['Saturday']);
+$lang['month_short'] = array ($lang['datetime']['JAN'], $lang['datetime']['FEB'], $lang['datetime']['MAR'], $lang['datetime']['APR'], $lang['datetime']['MAY'], $lang['datetime']['JUN'], $lang['datetime']['JUL'], $lang['datetime']['AUG'], $lang['datetime']['SEP'], $lang['datetime']['OCT'], $lang['datetime']['NOV'], $lang['datetime']['DEC']);
+$lang['month_long'] = array ($lang['datetime']['January'], $lang['datetime']['February'], $lang['datetime']['March'], $lang['datetime']['April'], $lang['datetime']['May'], $lang['datetime']['June'], $lang['datetime']['July'], $lang['datetime']['August'], $lang['datetime']['September'], $lang['datetime']['October'], $lang['datetime']['November'], $lang['datetime']['December']);
 // End add - Birthday MOD
 
 // Start add - Who viewed a topic MOD
@@ -1343,6 +1350,7 @@ $lang['new_pm_lofi'] = 'Spedisci un PM';
 //End Lo-Fi Mod
 
 $lang['legend'] = 'Legenda';
+$lang['users'] = 'Utenti';
 //added to autogroup mod
 $lang['No_more'] = 'Non si accettano altri utenti';
 $lang['No_add_allowed'] = 'l\'aggiunta automatica di utenti non &egrave; consentita';
@@ -1366,6 +1374,7 @@ $lang['Bin_recycle'] = 'Cestina';
 
 $lang['Topics_Title_Edited'] = 'I titoli delle discussioni selezionate sono stati modificati.';
 $lang['Edit_title'] = 'Modifica Titolo';
+$lang['PM'] = 'PM';
 
 // Start Advanced IP Tools Pack MOD
 $lang['Moderator_ip_information'] = 'Informazioni indirizzo IP per i soli Moderatori';
@@ -1512,7 +1521,7 @@ $lang['registration_status'] = 'Spiacenti, ma al momento le registrazioni a ques
 // END Disable Registration MOD
 
 $lang['PostHighlight'] = 'Seleziona';
-$lang['quickQuote'] = 'Citazione Veloce';
+$lang['QuickQuote'] = 'Citazione Veloce';
 $lang['Randomquote'] = 'Citazione Casuale';
 
 // Mod User CP Organize
@@ -1951,11 +1960,11 @@ $lang['Last_Seen'] = 'Ultimi Online';
 // New MG - END
 
 // MG CMS - BEGIN
-$lang['CMS_Title'] = 'CMS';
-$lang['CMS_Management'] = 'Gestione CMS';
-$lang['CMS_Config'] = 'Configurazione CMS';
+$lang['CMS_TITLE'] = 'CMS';
+$lang['CMS_MANAGEMENT'] = 'Gestione CMS';
+$lang['CMS_CONFIG'] = 'Configurazione CMS';
 $lang['CMS_ACP'] = 'Modifica Questa Pagina';
-$lang['Custom_Page'] = 'Pagina Personalizzata';
+$lang['CUSTOM_PAGE'] = 'Pagina Personalizzata';
 //$lang['CMS_'] = '';
 // MG CMS - END
 
@@ -2320,7 +2329,7 @@ $lang['NEW_POSTER'] = 'Nuovo Autore';
 $lang['DETAILS_CHANGED'] = '<b>Dettagli messaggio aggiornati correttamente.</b></span><br /><span class="postdetails">Questa finestra si chiuder&agrave; in 3 secondi.';
 
 $lang['Redirect'] = 'Reindirizzamento';
-$lang['Redirect_to'] = 'Se il vostro browser non supporta le il reindirizzamento via meta tags clicca %sQUI% per accedere al link';
+$lang['Redirect_to'] = 'Se il vostro browser non supporta le il reindirizzamento via meta tags clicca %sQUI%s per accedere al link';
 
 $lang['InProgress'] = 'In corso';
 
@@ -2345,6 +2354,19 @@ $lang['PM_NOTIFICATION'] = 'Ciao,<br /><br />hai ricevuto un messaggio privato s
 
 $lang['GSEARCH'] = 'Ricerca Google';
 $lang['GSEARCH_ENGINE'] = 'Ricerca Utilizzando Il Motore Google';
+$lang['SEARCH_WHAT'] = 'Cerca cosa';
+$lang['SEARCH_WHERE'] = 'Cerca in';
+$lang['SEARCH_THIS_FORUM'] = 'Cerca in questa categoria';
+$lang['SEARCH_THIS_TOPIC'] = 'Cerca in questo argomento';
+$lang['VF_ALL_TOPICS'] = 'Tutti Gli Argomenti';
+
+$lang['WHITE_LIST_MESSAGE'] = 'Questo sito richiede la conferma della registrazione tramite email, per favore controlla che questo dominio sia tra i domini consentiti, altrimenti a causa dei filtri antispam potresti non ricevere l\'email per attivare il tuo account.';
+
+$lang['CLICK_RETURN_HOME'] = 'Clicca %sQUI%s per ritornare alla Home Page';
+
+$lang['RATINGS'] = 'Valutazioni';
+
+$lang['ERROR_TABLE'] = 'Could not query %s table';
 
 //$lang[''] = '';
 

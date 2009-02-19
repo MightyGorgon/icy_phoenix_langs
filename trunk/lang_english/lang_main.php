@@ -32,50 +32,83 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
+// Do not remove these even if duplicated...
+$lang['-12'] = 'GMT - 12 Hours';
+$lang['-11'] = 'GMT - 11 Hours';
+$lang['-10'] = 'GMT - 10 Hours';
+$lang['-9'] = 'GMT - 9 Hours';
+$lang['-8'] = 'GMT - 8 Hours';
+$lang['-7'] = 'GMT - 7 Hours';
+$lang['-6'] = 'GMT - 6 Hours';
+$lang['-5'] = 'GMT - 5 Hours';
+$lang['-4'] = 'GMT - 4 Hours';
+$lang['-3.5'] = 'GMT - 3.5 Hours';
+$lang['-3'] = 'GMT - 3 Hours';
+$lang['-2'] = 'GMT - 2 Hours';
+$lang['-1'] = 'GMT - 1 Hours';
+$lang['0'] = 'GMT';
+$lang['1'] = 'GMT + 1 Hour';
+$lang['2'] = 'GMT + 2 Hours';
+$lang['3'] = 'GMT + 3 Hours';
+$lang['3.5'] = 'GMT + 3.5 Hours';
+$lang['4'] = 'GMT + 4 Hours';
+$lang['4.5'] = 'GMT + 4.5 Hours';
+$lang['5'] = 'GMT + 5 Hours';
+$lang['5.5'] = 'GMT + 5.5 Hours';
+$lang['6'] = 'GMT + 6 Hours';
+$lang['6.5'] = 'GMT + 6.5 Hours';
+$lang['7'] = 'GMT + 7 Hours';
+$lang['8'] = 'GMT + 8 Hours';
+$lang['9'] = 'GMT + 9 Hours';
+$lang['9.5'] = 'GMT + 9.5 Hours';
+$lang['10'] = 'GMT + 10 Hours';
+$lang['11'] = 'GMT + 11 Hours';
+$lang['12'] = 'GMT + 12 Hours';
+$lang['13'] = 'GMT + 13 Hours';
+
 $lang['BBC_IP_CREDITS_STATIC'] = '
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
-<span style="color: #FF5500;"><b>Mighty Gorgon</b></span><br />
+<span style="color: #ff5500;"><b>Mighty Gorgon</b></span><br />
 <i>(Luca Libralato)</i><br />
 <b><i>Developer</i></b><br />
 Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
 Location: Homer\'s Head<br />
 <br />
 <br />
-<span style="color: #DD2222;"><b>hpl</b></span><br />
+<span style="color: #dd2222;"><b>hpl</b></span><br />
 <i>(Alessandro Drago)</i><br />
 <b><i>Developer</i></b><br />
 Interests: CMS, little animals<br />
 Location: Global Header<br />
 <br />
 <br />
-<span style="color: #DD2222;"><b>Bicet</b></span><br />
+<span style="color: #dd2222;"><b>Bicet</b></span><br />
 <b><i>phpBB XS Developer</i></b><br />
 <br />
 <br />
 <b><i>Valued Contributors</i></b><br />
-<span style="color: #228844;"><b>Andrea75</b></span><br />
-<span style="color: #DD2222;"><b>Artie</b></span><br />
-<span style="color: #228844;"><b>buldo</b></span><br />
-<span style="color: #228844;"><b>casimedicos</b></span><br />
-<span style="color: #DD2222;"><b>CyberAlien</b></span><br />
-<span style="color: #800080;"><b>darkone</b></span><br />
-<span style="color: #228844;"><b>difus</b></span><br />
-<span style="color: #800080;"><b>fare85</b></span><br />
-<span style="color: #228844;"><b>fracs</b></span><br />
+<span style="color: #228822;"><b>Andrea75</b></span><br />
+<span style="color: #dd2222;"><b>Artie</b></span><br />
+<span style="color: #228822;"><b>buldo</b></span><br />
+<span style="color: #228822;"><b>casimedicos</b></span><br />
+<span style="color: #228822;"><b>Chaotic</b></span><br />
+<span style="color: #dd2222;"><b>CyberAlien</b></span><br />
+<span style="color: #228822;"><b>difus</b></span><br />
+<span style="color: #228822;"><b>fracs</b></span><br />
 <span style="color: #800080;"><b>ganesh</b></span><br />
-<span style="color: #228844;"><b>JANU1535</b></span><br />
+<span style="color: #228822;"><b>JANU1535</b></span><br />
 <span style="color: #800080;"><b>jz</b></span><br />
-<span style="color: #228844;"><b>KasLimon</b></span><br />
-<span style="color: #AAFF00;"><b>KugeLSichA</b></span><br />
-<span style="color: #228844;"><b>Lopalong</b></span><br />
-<span style="color: #228844;"><b>moreteavicar</b></span><br />
-<span style="color: #228844;"><b>Nikola</b></span><br />
-<span style="color: #228844;"><b>novice programmer</b></span><br />
-<span style="color: #228844;"><b>ThE KuKa</b></span><br />
-<span style="color: #FF7700;"><b>TheSteffen</b></span><br />
-<span style="color: #0000BB;"><b>Tom</b></span><br />
-<span style="color: #228844;"><b>z3d0</b></span><br />
-<span style="color: #228844;"><b>Zuker</b></span><br />
+<span style="color: #228822;"><b>KasLimon</b></span><br />
+<span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
+<span style="color: #0000bb;"><b>Limun</b></span><br />
+<span style="color: #228822;"><b>Lopalong</b></span><br />
+<span style="color: #228822;"><b>moreteavicar</b></span><br />
+<span style="color: #228822;"><b>novice programmer</b></span><br />
+<span style="color: #228822;"><b>ThE KuKa</b></span><br />
+<span style="color: #ff7700;"><b>TheSteffen</b></span><br />
+<span style="color: #0000bb;"><b>Tom</b></span><br />
+<span style="color: #228822;"><b>z3d0</b></span><br />
+<span style="color: #228822;"><b>Zuker</b></span><br />
 <br />
 Interests: Icy Phoenix<br />
 Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
@@ -320,7 +353,6 @@ $lang = array_merge($lang, array(
 // 'No_topics_post_one' => 'There are no posts in this forum.<br />Click on the <b>Post New Topic</b> link on this page to post one.',
 	'No_topics_post_one' => 'Either there are no posts in this forum, or there are no matches for the letter you selected.<br />Click on the <b>Post New Topic</b> link on this page to start a new post or select another letter.',
 
-
 // Viewtopic
 	'View_topic' => 'View topic',
 
@@ -456,15 +488,15 @@ $lang = array_merge($lang, array(
 	'More_emoticons' => 'View All Smileys',
 
 // Private Messaging
-	'Private_Messaging' => 'Private Messaging',
+	'Private_Messaging' => 'Private Messages',
 
 	'Login_check_pm' => 'Log in to check your private messages',
-	'New_pms' => 'You have %d new messages', // You have 2 new messages
-	'New_pm' => 'You have %d new message', // You have 1 new message
-	'No_new_pm' => 'You have no new messages',
-	'Unread_pms' => 'You have %d unread messages',
-	'Unread_pm' => 'You have %d unread message',
-	'No_unread_pm' => 'You have no unread messages',
+	'New_pms' => 'You have %d new PM', // You have 2 new messages
+	'New_pm' => 'You have %d new PM', // You have 1 new message
+	'No_new_pm' => 'You have no new PM',
+	'Unread_pms' => 'You have %d unread PM',
+	'Unread_pm' => 'You have %d unread PM',
+	'No_unread_pm' => 'You have no unread PM',
 	'You_new_pm' => 'A new private message is waiting for you in your Inbox',
 	'You_new_pms' => 'New private messages are waiting for you in your Inbox',
 	'You_no_new_pm' => 'No new private messages are waiting for you',
@@ -722,7 +754,7 @@ $lang = array_merge($lang, array(
 	'Flood_email_limit' => 'You cannot send another e-mail at this time. Try again later.',
 	'Recipient' => 'Recipient',
 	'Email_sent' => 'The e-mail has been sent.',
-	'Send_email' => 'Send e-mail',
+	'Send_Email' => 'Send e-mail',
 	'Empty_sender_email' => 'You must specify an email sender address.',
 	'Empty_subject_email' => 'You must specify a subject for the e-mail.',
 	'Empty_message_email' => 'You must enter a message to be e-mailed.',
@@ -1361,7 +1393,6 @@ $lang = array_merge($lang, array(
 	'Posts_per_page' => 'Posts Per Page',
 	'Hot_threshold' => 'Popular Posts Threshold',
 
-	'Mod_CP_enhanced' => '(enhanced version)',
 	'Mod_CP_first_post' => 'First Post',
 	'Mod_CP_topic_count' => '<b>%s</b> topic found.',
 	'Mod_CP_topics_count' => '<b>%s</b> topics found.',
@@ -1741,11 +1772,11 @@ $lang = array_merge($lang, array(
 // New MG - END
 
 // MG CMS - BEGIN
-	'CMS_Title' => 'CMS',
-	'CMS_Management' => 'CMS Management',
-	'CMS_Config' => 'CMS Configuration',
+	'CMS_TITLE' => 'CMS',
+	'CMS_MANAGEMENT' => 'CMS Management',
+	'CMS_CONFIG' => 'CMS Configuration',
 	'CMS_ACP' => 'Edit This Page',
-	'Custom_Page' => 'Customized Page',
+	'CUSTOM_PAGE' => 'Customized Page',
 // MG CMS - END
 
 // Icy Phoenix - BUILD 001
@@ -1919,6 +1950,7 @@ $lang = array_merge($lang, array(
 	'Upload_Insert_Image' => 'Insert BBCode',
 	'Upload_Close' => 'Close',
 	'BBCode' => 'BBCode',
+	'HTML' => 'HTML',
 
 	'No_News' => 'No News',
 
@@ -2092,7 +2124,7 @@ $lang = array_merge($lang, array(
 	'DETAILS_CHANGED' => '<b>Post details successfully changed.</b></span><br /><span class="postdetails">This window will be closed after 3 seconds.',
 
 	'Redirect' => 'Redirect',
-	'Redirect_to' => 'If your browser does not support meta redirection please click %sHERE% to be redirected',
+	'Redirect_to' => 'If your browser does not support meta redirection please click %sHere%s to be redirected',
 
 	'InProgress' => 'In progress',
 
@@ -2104,6 +2136,37 @@ $lang = array_merge($lang, array(
 	'FILE_NOT_AUTH' => 'You are not authorised to download this file',
 	'SHOW_POSTS_FROM' => 'Show posts from',
 	'SHOW_POSTS_TO' => 'to',
+
+	'SEE_MORE_DETAILS' => 'See more details...',
+	'UNKNOWN' => 'Unknown',
+	'MASS_PM' => 'Mass PM',
+	'TEXT_FORMAT' => 'Format',
+	'SENDER' => 'Sender',
+	'PM_NOTIFICATION' => 'Hello,<br /><br />You have received a new private message to your account on "{SITENAME}".<br /><br />You can view your new message by clicking on the following link:<br /><br />{U_INBOX}<br /><br />',
+
+	'GSEARCH' => 'Google Search',
+	'GSEARCH_ENGINE' => 'Use Google Search Engine',
+	'SEARCH_WHAT' => 'Search what',
+	'SEARCH_WHERE' => 'Search where',
+	'SEARCH_THIS_FORUM' => 'Search this forum...',
+	'SEARCH_THIS_TOPIC' => 'Search this topic...',
+	'VF_ALL_TOPICS' => 'All Topics',
+
+	'WHITE_LIST_MESSAGE' => 'This site require account confirmation via email. Please check that this domains in the white-list of your antispam system or you could never receive the activation message.',
+	'CLICK_RETURN_HOME' => 'Click %sHere%s to return to Home Page',
+
+	'WEEK_DAY_SUNDAY' => 'Sunday',
+	'WEEK_DAY_MONDAY' => 'Monday',
+	'WEEK_DAY_TUESDAY' => 'Tuesday',
+	'WEEK_DAY_WEDNESDAY' => 'Wednesday',
+	'WEEK_DAY_THURSDAY' => 'Thursday',
+	'WEEK_DAY_FRIDAY' => 'Friday',
+	'WEEK_DAY_SATURDAY' => 'Saturday',
+
+	'RATINGS' => 'Ratings',
+
+	'ERROR_TABLE' => 'Could not query %s table',
+
 	)
 );
 
@@ -2128,9 +2191,10 @@ $lang['Prune_explain'][4] = 'Who have less than an average of 1 post for every 1
 $lang['Prune_commands'][5] = 'Prune non-posting and non-visiting users';
 $lang['Prune_explain'][5] = 'Who have never posted and not visited recently, <b>excluding</b> new users from the past %d days';
 
-// Timezones ... for display on each page
+// Timezones - BEGIN
 $lang['All_times'] = 'All times are %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
+// Do not remove these even if duplicated...
 $lang['-12'] = 'GMT - 12 Hours';
 $lang['-11'] = 'GMT - 11 Hours';
 $lang['-10'] = 'GMT - 10 Hours';
@@ -2164,10 +2228,7 @@ $lang['11'] = 'GMT + 11 Hours';
 $lang['12'] = 'GMT + 12 Hours';
 $lang['13'] = 'GMT + 13 Hours';
 
-//
-// Time Zone Mod
 // These are displayed in the timezone select box
-
 $lang['tz']['-12'] = '(GMT -12 Hours) Eniwetok, Kwajalein';
 $lang['tz']['-11'] = '(GMT -11 Hours) Midway Island, Samoa';
 $lang['tz']['-10'] = '(GMT -10 Hours) Hawaii';
@@ -2201,16 +2262,15 @@ $lang['tz']['10'] = '(GMT +10 Hours) EAST(East Australian Standard), Guam';
 $lang['tz']['11'] = '(GMT +11 Hours) Magadan, Solomon Islands, New Caledonia';
 $lang['tz']['12'] = '(GMT +12 Hours) Auckland, Fiji, Kamchatka, Marshall Island';
 $lang['tz']['13'] = '(GMT +13 Hours) Nuku\'alofa';
+// Timezones - END
 
-// End Time Zone Mod
-
-$lang['datetime']['Sunday'] = 'Sunday';
-$lang['datetime']['Monday'] = 'Monday';
-$lang['datetime']['Tuesday'] = 'Tuesday';
-$lang['datetime']['Wednesday'] = 'Wednesday';
-$lang['datetime']['Thursday'] = 'Thursday';
-$lang['datetime']['Friday'] = 'Friday';
-$lang['datetime']['Saturday'] = 'Saturday';
+$lang['datetime']['Sunday'] = $lang['WEEK_DAY_SUNDAY'];
+$lang['datetime']['Monday'] = $lang['WEEK_DAY_MONDAY'];
+$lang['datetime']['Tuesday'] = $lang['WEEK_DAY_TUESDAY'];
+$lang['datetime']['Wednesday'] = $lang['WEEK_DAY_WEDNESDAY'];
+$lang['datetime']['Thursday'] = $lang['WEEK_DAY_THURSDAY'];
+$lang['datetime']['Friday'] = $lang['WEEK_DAY_FRIDAY'];
+$lang['datetime']['Saturday'] = $lang['WEEK_DAY_SATURDAY'];
 $lang['datetime']['Sun'] = 'Sun';
 $lang['datetime']['Mon'] = 'Mon';
 $lang['datetime']['Tue'] = 'Tue';

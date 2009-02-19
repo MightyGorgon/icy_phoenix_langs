@@ -32,6 +32,8 @@ $lang['Default_META_Title'] = 'Icy Phoenix';
 $lang['Default_META_Author'] = 'Mighty Gorgon And Icy Phoenix Staff :: http://www.icyphoenix.com/';
 $lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
 
+$lang['REGISTER_MESSAGE'] = '';
+
 $lang['Welcome_Message'] = 'Welcome to <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Welcome to %s';
 $lang['register_pm'] = "Hello!\n\nWelcome to %s.\n\nWe hope you enjoy your time at this site!\n\nFeel free to join in and share with others or start your own discussion!\n\n~Enjoy!\n » [b]%s[/b] « Staff";
@@ -58,6 +60,7 @@ $lang['OwnerServer'] = 'Icy Phoenix';
 $lang['PrivacyDisclaimer'] = 'You specifically agree that your personal data will be treated in respect to current law in the country of the site owner.<br />';
 
 $lang['ENCODING'] = 'iso-8859-1';
+//$lang['ENCODING'] = 'utf8';
 $lang['ENCODING_ALT'] = 'utf8';
 $lang['DIRECTION'] = 'ltr';
 $lang['HEADER_LANG'] = 'en-gb';

@@ -35,7 +35,7 @@ $lang['edit_topic_first_explain'] = 'Se impostato su "No", tutti gli argomenti m
 
 $lang['upi2db_condition_setup'] = 'UPI2DB Condizioni';
 $lang['upi2db_condition_min_posts'] = 'Minimo numero di messaggi';
-$lang['upi2db_condition_min_regdays'] = 'Minimum numero di giorni di registrazione';
+$lang['upi2db_condition_min_regdays'] = 'Minimo numero di giorni di registrazione';
 $lang['upi2db_unread_color'] = 'Codice colore per il titolo dell\'argomento (messaggio non letto)';
 $lang['upi2db_edit_color'] = 'Codice colore per il titolo dell\'argomento (messaggio modificato)';
 $lang['upi2db_mark_color'] = 'Codice colore per il titolo dell\'argomento (mnessaggio contrassegnato come non letto)';
