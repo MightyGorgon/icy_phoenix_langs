@@ -260,8 +260,11 @@ if ($lang_extend_admin)
 
 	$lang['IP_show_pic_size_on_thumb'] = 'Mostra le dimensioni dell\'immagine in basso sulla miniatura';
 
+	$lang['IP_thumbnail_highslide'] = 'Attiva HighSlide se le miniature nei post sono abilitate';
+	$lang['IP_thumbnail_highslide_explain'] = 'Apri l\'immagine in una finestra Java invece che in una nuova finestra.<br />E\' necessario svuotare i messaggi precompilati dopo aver cambiato questa impostazione.';
+
 	$lang['IP_thumbnail_lightbox'] = 'Attiva Lightbox se le miniature nei post sono abilitate';
-	$lang['IP_thumbnail_lightbox_explain'] = 'Apri l\'immagine in una finestra Java invece che in una nuova finestra.<br />Bisogna svuotare i messaggi precompilati dopo aver cambiato questa impostazione.';
+	$lang['IP_thumbnail_lightbox_explain'] = 'Apri l\'immagine in una finestra Java invece che in una nuova finestra.<br />E\' necessario svuotare i messaggi precompilati dopo aver cambiato questa impostazione.<br />Se anche la funzione HighSlide &egrave; stata attivata, l\'impostazione Lightbox verr&agrave; ignorata.';
 
 	$lang['IP_thumbnail_cache'] = 'Cache miniature';
 
