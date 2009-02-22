@@ -2368,6 +2368,11 @@ $lang['RATINGS'] = 'Valutazioni';
 
 $lang['ERROR_TABLE'] = 'Could not query %s table';
 
+$lang['SMILEYS'] = 'Smileys';
+$lang['SMILEYS_NO_CATEGORIES'] = 'Nessuna categoria creata';
+$lang['SMILEYS_CATEGORY'] = 'Categoria';
+$lang['SMILEYS_GALLERY'] = 'Galleria Smileys';
+$lang['SMILEYS_STANDARD'] = 'Smileys Standard';
 //$lang[''] = '';
 
 //====================================================
