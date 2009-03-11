@@ -282,6 +282,7 @@ $lang['Ldeleted'] = 'La licenza d\'uso selezionata &egrave; stata cancellata';
 $lang['License_title'] = 'Licenza';
 // ENd
 $lang['Click_return'] = 'Cliccate %sQUI%s per tornare alla pagina precedente';
+$lang['Click_return_upload'] = 'Cliccate %sQUI%s per tornare al caricamento files';
 $lang['Click_edit_permissions'] = 'Clicca %sQUI%s per modificare i permessi di questa categoria';
 
 //Java script messages and php errors

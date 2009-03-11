@@ -154,5 +154,6 @@ $lang['ctracker_sendmail_info'] = 'Per motivi di sicurezza puoi inviare un\'emai
 $lang['ctracker_pwreset_info'] = 'Per motivi di sicurezza puoi richiedere l\'invio di una nuova password ogni %s minuti. Contatta l\'amministratore in caso di problemi!';
 $lang['ctracker_vc_guest_post'] = 'Conferma visuale per visitatori';
 $lang['ctracker_vc_guest_expl'] = 'Prima di poter inviare questo messaggio devi inserire il codice seguente. Questa impostazione &egrave; attiva per tutti gli utenti non registrati.';
+$lang['ctracker_dbg_mode'] = '<b>CrackerTracker in modalit&agrave; DEBUG. Questa opzione non dovrebbe restare attivata in maniera permanente.<br />Per favore, scegli di tornare alla modalit&agrave; il pi&ugrave; presto possibile.<br /><br /><u>Questo messaggio non pu&ograve; essere eliminato!</u></b>';
 
 ?>

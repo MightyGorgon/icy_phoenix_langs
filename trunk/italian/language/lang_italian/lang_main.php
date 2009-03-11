@@ -994,38 +994,39 @@ $lang['Lookup_IP'] = 'Cerca indirizzo IP';
 // Timezones - BEGIN
 $lang['All_times'] = 'Tutti i fusi orari sono %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
-$lang['-12'] = 'GMT - 12 ore';
-$lang['-11'] = 'GMT - 11 ore';
-$lang['-10'] = 'GMT - 10 ore';
-$lang['-9'] = 'GMT - 9 ore';
-$lang['-8'] = 'GMT - 8 ore';
-$lang['-7'] = 'GMT - 7 ore';
-$lang['-6'] = 'GMT - 6 ore';
-$lang['-5'] = 'GMT - 5 ore';
-$lang['-4'] = 'GMT - 4 ore';
-$lang['-3.5'] = 'GMT - 3.5 ore';
-$lang['-3'] = 'GMT - 3 ore';
-$lang['-2'] = 'GMT - 2 ore';
-$lang['-1'] = 'GMT - 1 ore';
-$lang['0'] = 'GMT';
-$lang['1'] = 'GMT + 1 ora';
-$lang['2'] = 'GMT + 2 ore';
-$lang['3'] = 'GMT + 3 ore';
-$lang['3.5'] = 'GMT + 3.5 ore';
-$lang['4'] = 'GMT + 4 ore';
-$lang['4.5'] = 'GMT + 4.5 ore';
-$lang['5'] = 'GMT + 5 ore';
-$lang['5.5'] = 'GMT + 5.5 ore';
-$lang['6'] = 'GMT + 6 ore';
-$lang['6.5'] = 'GMT + 6.5 ore';
-$lang['7'] = 'GMT + 7 ore';
-$lang['8'] = 'GMT + 8 ore';
-$lang['9'] = 'GMT + 9 ore';
-$lang['9.5'] = 'GMT + 9.5 ore';
-$lang['10'] = 'GMT + 10 ore';
-$lang['11'] = 'GMT + 11 ore';
-$lang['12'] = 'GMT + 12 ore';
-$lang['13'] = 'GMT + 13 ore';
+// Time zones short
+$lang['tzs']['-12'] = 'GMT - 12 Hours';
+$lang['tzs']['-11'] = 'GMT - 11 Hours';
+$lang['tzs']['-10'] = 'GMT - 10 Hours';
+$lang['tzs']['-9'] = 'GMT - 9 Hours';
+$lang['tzs']['-8'] = 'GMT - 8 Hours';
+$lang['tzs']['-7'] = 'GMT - 7 Hours';
+$lang['tzs']['-6'] = 'GMT - 6 Hours';
+$lang['tzs']['-5'] = 'GMT - 5 Hours';
+$lang['tzs']['-4'] = 'GMT - 4 Hours';
+$lang['tzs']['-3.5'] = 'GMT - 3.5 Hours';
+$lang['tzs']['-3'] = 'GMT - 3 Hours';
+$lang['tzs']['-2'] = 'GMT - 2 Hours';
+$lang['tzs']['-1'] = 'GMT - 1 Hours';
+$lang['tzs']['0'] = 'GMT';
+$lang['tzs']['1'] = 'GMT + 1 Hour';
+$lang['tzs']['2'] = 'GMT + 2 Hours';
+$lang['tzs']['3'] = 'GMT + 3 Hours';
+$lang['tzs']['3.5'] = 'GMT + 3.5 Hours';
+$lang['tzs']['4'] = 'GMT + 4 Hours';
+$lang['tzs']['4.5'] = 'GMT + 4.5 Hours';
+$lang['tzs']['5'] = 'GMT + 5 Hours';
+$lang['tzs']['5.5'] = 'GMT + 5.5 Hours';
+$lang['tzs']['6'] = 'GMT + 6 Hours';
+$lang['tzs']['6.5'] = 'GMT + 6.5 Hours';
+$lang['tzs']['7'] = 'GMT + 7 Hours';
+$lang['tzs']['8'] = 'GMT + 8 Hours';
+$lang['tzs']['9'] = 'GMT + 9 Hours';
+$lang['tzs']['9.5'] = 'GMT + 9.5 Hours';
+$lang['tzs']['10'] = 'GMT + 10 Hours';
+$lang['tzs']['11'] = 'GMT + 11 Hours';
+$lang['tzs']['12'] = 'GMT + 12 Hours';
+$lang['tzs']['13'] = 'GMT + 13 Hours';
 
 // These are displayed in the timezone select box
 $lang['tz']['-12'] = '(GMT -12:00 Ore) Eniwetok, Kwajalein';
@@ -2373,6 +2374,10 @@ $lang['SMILEYS_NO_CATEGORIES'] = 'Nessuna categoria creata';
 $lang['SMILEYS_CATEGORY'] = 'Categoria';
 $lang['SMILEYS_GALLERY'] = 'Galleria Smileys';
 $lang['SMILEYS_STANDARD'] = 'Smileys Standard';
+
+$lang['QUICK_LIST'] = 'Elenco Completo';
+$lang['NORMAL_LIST'] = 'Elenco Standard';
+
 //$lang[''] = '';
 
 //====================================================

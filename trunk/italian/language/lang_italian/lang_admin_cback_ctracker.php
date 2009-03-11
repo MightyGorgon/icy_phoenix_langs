@@ -205,7 +205,6 @@ $lang['ctracker_glob_msg_reset'] = 'Cancella messaggio attivo';
 $lang['ctracker_glob_res_txt'] = 'Quando si clicca su <strong>Cancella messaggio attivo</strong> il messaggio memorizzato verr&agrave; cancellato.';
 $lang['ctracker_glob_msg_saved'] = 'Il messaggio globale &egrave; stato memorizzato correttamente.<br /><br />Clicca <a href="%s">QUI</a> per ritornare alla gestione di CrackerTracker.';
 $lang['ctracker_glob_msg_reset_ok'] = 'Il messaggio globale &egrave; stato rimosso dalla tabella utente. Il messaggio inserito non verr&agrave; pi&ugrave; visualizzato.<br /><br />Clicca <a href="%s">QUI</a> per ritornare alla gestione di CrackerTracker.';
-$lang['ctracker_dbg_mode'] = '<b>CrackerTracker in modalit&agrave; DEBUG. Questa opzione non dovrebbe restare attivata in maniera permanente.<br />Per favore, scegli di tornare alla modalit&agrave; il pi&ugrave; presto possibile.<br /><br /><u>Questo messaggio non pu&ograve; essere eliminato!</u></b>';
 
 
 /*
