@@ -11,9 +11,9 @@ Puoi utilizzare il seguente link per visualizzare le risposte inviate:<br /><br 
 <br /><br />
 
 <b>Testo Discussione:</b><br /><br />
-{POST_TEXT}<br /><br />
+<div class="post-text">{POST_TEXT}</div>
 
-
+<br /><br />
 Stai ricevendo questa email, perchè stai controllando il forum <b>"{FORUM_NAME}"</b> su <b>{SITENAME}.</b><br />
 Se non desideri controllare il forum puoi cliccare su "Smetti di controllare questa Discussione" che si trova sul fondo della discussione o cliccando sul seguente link:
 <br /><br />

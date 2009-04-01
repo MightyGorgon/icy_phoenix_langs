@@ -12,10 +12,10 @@ Hai ricevuto un nuovo messaggio privato sul tuo account su <b>"{SITENAME}"</b> e
 <b>Oggetto:</b> {SUBJECT}<br />
 
 <b>Testo del Messaggio:</b><br /><br />
-{PRIV_MSG_TEXT}
+<div class="post-text">{PRIV_MSG_TEXT}</div>
 
 <br /><br />
-<b>Attenzione:</b> Non rispondere direttamente a questa email! Per rispondere fai il login nel sito e consulta i tuoi Messaggi Privati
+<b>Attenzione:</b> Non rispondere direttamente a questa email, si tratta solo di una notifica! Per rispondere fai il login nel sito e vai nella sezione Messaggi Privati nel tuo profilo.
 <br /><br />
 
 Puoi consultare il tuo nuovo messaggio cliccando sul seguente link:<br /><br />

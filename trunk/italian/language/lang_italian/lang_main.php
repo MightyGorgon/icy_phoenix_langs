@@ -2378,6 +2378,13 @@ $lang['SMILEYS_STANDARD'] = 'Smileys Standard';
 $lang['QUICK_LIST'] = 'Elenco Completo';
 $lang['NORMAL_LIST'] = 'Elenco Standard';
 
+$lang['RETURN_PAGE'] = '%sTorna alla pagina precedente%s';
+$lang['FILE_NOT_FOUND'] = 'File non trovato';
+$lang['FSOCK_DISABLED'] = 'FSOCK Disabilitato';
+
+$lang['MANAGEMENT'] = 'Gestione';
+$lang['SORT_ORDER'] = 'Ordina per';
+$lang['SORT_DIR'] = 'Ordinamento';
 //$lang[''] = '';
 
 //====================================================

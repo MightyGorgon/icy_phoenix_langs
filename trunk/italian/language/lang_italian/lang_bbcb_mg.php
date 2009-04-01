@@ -188,86 +188,6 @@ $lang['bbcb_mg_albumimgl'] = 'Immagine Album SX';
 $lang['bbcb_mg_albumimgr'] = 'Immagine Album DX';
 $lang['bbcode_help'] = 'BBCode FAQ';
 
-$lang['s_formerrors'] = 'Devi inserire del testo per poter inviare un messaggio';
-$lang['s_gen_error'] = ':: Errore ::\n\n';
-$lang['s_url_insert'] = 'Inserisci l\'URL (es. http://www.phpbb.com/)';
-$lang['s_url_insert_tip'] = 'http://';
-$lang['s_url_error'] = 'Non hai inserito alcun indirizzo';
-$lang['s_url_title_insert'] = 'Inserisci un titolo per il link';
-$lang['s_url_title_insert_tip'] = 'Link';
-$lang['s_url_title_error'] = 'Non hai inserito alcun nome per la pagina';
-$lang['s_email_insert'] = 'Inserisci un indirizzo email';
-$lang['s_email_insert_tip'] = 'yourname@yourdomain.com';
-$lang['s_email_error'] = 'Non hai inserito alcun indirizzo';
-$lang['s_img_insert'] = 'Inserisci l\'indirizzo dell\'immagine';
-$lang['s_img_error'] = 'Non hai inserito l\'indirizzo dell\'immagine';
-$lang['s_albumimg_insert'] = 'Inserisci l\'ID dell\'immagine';
-$lang['s_albumimg_insert_tip'] = 'ID';
-$lang['s_albumimg_error'] = 'Non hai inserito l\'ID dell\'immagine';
-$lang['s_ram_insert'] = 'Inserisci l\'indirizzo del file Real Media';
-$lang['s_stream_insert'] = 'Inserisci l\'indirizzo del file audio';
-$lang['s_video_insert'] = 'Inserisci l\'indirizzo del file video';
-$lang['s_video_w_insert'] = 'Inserisci la larghezza del file video';
-$lang['s_video_w_error'] = 'Non hai inserito la larghezza del file video';
-$lang['s_video_h_insert'] = 'Inserisci l\'altezza del file video';
-$lang['s_video_h_error'] = 'Non hai inserito l\'altezza del file video';
-$lang['s_flash_insert'] = 'Inserisci l\'indirizzo del file Flash';
-$lang['s_flash_w_insert'] = 'Inserisci la larghezza del file Flash';
-$lang['s_flash_w_error'] = 'Non hai inserito la larghezza del file Flash';
-$lang['s_flash_h_insert'] = 'Inserisci l\'altezza del file Flash';
-$lang['s_flash_h_error'] = 'Non hai inserito l\'altezza del file Flash';
-$lang['s_file_insert_error'] = 'Non hai inserito l\'indirizzo del file';
-$lang['s_view_more_code'] = 'Visualizza pi&ugrave codice';
-
-// Helpline messages
-$lang['s_a_help'] = 'Chiudi tutti i tags';
-$lang['s_b_help'] = 'Grassetto testo: [b]testo[/b]';
-$lang['s_i_help'] = 'Corsivo testo: [i]testo[/i]';
-$lang['s_u_help'] = 'Sottolineatura testo: [u]testo[/u]';
-$lang['s_strike_help'] = 'Sbarratura testo: [strike]testo[/strike]';
-$lang['s_quote_help'] = 'Citazione testo: [quote]testo[/quote]';
-$lang['s_code_help'] = 'Codice: [code]codice[/code]';
-$lang['s_phpbbmod_help'] = 'phpBB Mod Template';
-$lang['s_highlight_help'] = 'Evidenzia: [highlight=#FFFFAA]testo[/highlight]';
-$lang['s_img_help'] = 'Inserisci immagine: [img]http://image_url[/img]';
-$lang['s_imgl_help'] = 'Inserisci immagine con allineamento a sx: [img align=left]http://image_url[/img]';
-$lang['s_imgr_help'] = 'Inserisci immagine con allineamento a dx: [img align=right]http://image_url[/img]';
-$lang['s_albumimg_help'] = 'Inserisci immagine dall\'album: [albumimg]Album Pic ID[/albumimg]';
-$lang['s_albumimgl_help'] = 'Inserisci immagine dall\'album allineata a sx: [albumimg align=left]Album Pic ID[/albumimg]';
-$lang['s_albumimgr_help'] = 'Inserisci immagine dall\'album allineata a dx: [albumimg align=right]Album Pic ID[/albumimg]';
-$lang['s_url_help'] = 'Inserisci URL: [url]http://url[/url] or [url=http://url]URL testo[/url]';
-$lang['s_fc_help'] = 'Colore Font: [color=red]testo[/color] (Consiglio: puoi anche usare color=#FF0000)';
-$lang['s_fs_help'] = 'Dimensione Font: [size=9]testo[/size]';
-$lang['s_ft_help'] = 'Tipo Font: [font=Andalus]testo[/font]';
-$lang['s_table_help'] = 'Inserisci tabella: [table]testo[/table]';
-$lang['s_td_help'] = 'Inserisci colonna in tabella: [td]testo[/td]';
-$lang['s_mail_help'] = 'Inserisci email: [email]indirizzo email[/email]';
-$lang['s_grad_help'] = 'Inserisci gradiente testo';
-$lang['s_right_help'] = 'Allinea il testo a destra: [align=right]testo[/align]';
-$lang['s_left_help'] = 'Allinea il testo a sinistra: [align=left]testo[/align]';
-$lang['s_center_help'] = 'Allinea il testo al centro: [align=center]testo[/align]';
-$lang['s_justify_help'] = 'Giustifica testo: [align=justify]testo[/align]';
-$lang['s_marqr_help'] = 'Scorrimento testo a destra: [marq=right]testo[/marq]';
-$lang['s_marql_help'] = 'Scorrimento testo a sinistra: [marq=left]testo[/marq]';
-$lang['s_marqu_help'] = 'Scorrimento testo in alto: [marq=up]testo[/marq]';
-$lang['s_marqd_help'] = 'Scorrimento testo in basso: [marq=down]testo[/marq]';
-$lang['s_sup_help'] = 'Apice: [sup]testo[/sup]';
-$lang['s_sub_help'] = 'Pedice: [sub]testo[/sub]';
-$lang['s_hr_help'] = 'Inserisci linea orizzontale [hr]';
-$lang['s_bullet_help'] = 'Inserisci punto elenco [*]';
-$lang['s_video_help'] = 'Inserisci file video: [video width=# height=#]URL File[/video]';
-$lang['s_googlevideo_help'] = 'Inserisci filmato Google Video: [googlevideo]Google Video ID[/googlevideo]';
-$lang['s_youtube_help'] = 'Inserisci filmato YouTube: [youtube]YouTube ID[/youtube]';
-$lang['s_quick_help'] = 'Inserisci file quicktime video: [quick]http://quicktime_video_url/[/quick]';
-$lang['s_flash_help'] = 'Inserisci file flash: [flash width=# height=#]Flash URL[/flash]';
-$lang['s_ram_help'] = 'Inserisci file Real Media : [ram]URL File[/ram]';
-$lang['s_stream_help'] = 'Inserisci file audio: [stream]URL File[/stream]';
-$lang['s_emff_help'] = 'Inserisci file mp3: [emff]URL File[/emff]';
-$lang['s_fade_help'] = 'Sfumatura: [fade]testo[/fade] oppure [fade][img]http://image_url/[/img][/fade]';
-$lang['s_spoiler_help'] = 'Spoiler: [spoiler]testo[/spoiler]';
-$lang['s_cell_help'] = 'Cella: [cell]testo[/cell]';
-$lang['s_list_help'] = 'Lista ordinata: [list|=1|a]testo[/list] (Consiglio: usa [*] per inserire nuovi elementi)';
-
 $lang['xs_bbc_hide_message'] = 'Messaggio Nascosto';
 $lang['xs_bbc_hide_quote_message'] = 'Messaggio Nascosto Citato, rimane invisibile.';
 $lang['xs_bbc_hide_message_explain'] = 'Spiacenti, ma devi esere registrato e devi rispondere alla discussione per poter vedere questo messaggio.';
@@ -276,5 +196,120 @@ $lang['bbcode_url'] = 'Inserisci URL (es. http://www.icyphoenix.com)';
 $lang['bbcode_url_title'] = 'Inserisci il titolo del Link';
 $lang['bbcode_url_empty'] = 'Non hai inserito l\'URL';
 $lang['bbcode_url_errors'] = 'Errore!';
+
+// JavaScript Text - BEGIN
+// Forms
+$js_lang = array();
+
+$js_lang['s_formerrors'] = 'Devi inserire del testo per poter inviare un messaggio';
+$js_lang['s_gen_error'] = ':: Errore ::\n\n';
+$js_lang['s_url_insert'] = 'Inserisci l\'URL (es. http://www.phpbb.com/)';
+$js_lang['s_url_insert_tip'] = 'http://';
+$js_lang['s_url_error'] = 'Non hai inserito alcun indirizzo';
+$js_lang['s_url_title_insert'] = 'Inserisci un titolo per il link';
+$js_lang['s_url_title_insert_tip'] = 'Link';
+$js_lang['s_url_title_error'] = 'Non hai inserito alcun nome per la pagina';
+$js_lang['s_email_insert'] = 'Inserisci un indirizzo email';
+$js_lang['s_email_insert_tip'] = 'yourname@yourdomain.com';
+$js_lang['s_email_error'] = 'Non hai inserito alcun indirizzo';
+$js_lang['s_img_insert'] = 'Inserisci l\'indirizzo dell\'immagine';
+$js_lang['s_img_error'] = 'Non hai inserito l\'indirizzo dell\'immagine';
+$js_lang['s_albumimg_insert'] = 'Inserisci l\'ID dell\'immagine';
+$js_lang['s_albumimg_insert_tip'] = 'ID';
+$js_lang['s_albumimg_error'] = 'Non hai inserito l\'ID dell\'immagine';
+$js_lang['s_ram_insert'] = 'Inserisci l\'indirizzo del file Real Media';
+$js_lang['s_stream_insert'] = 'Inserisci l\'indirizzo del file audio';
+$js_lang['s_video_insert'] = 'Inserisci l\'indirizzo del file video';
+$js_lang['s_video_w_insert'] = 'Inserisci la larghezza del file video';
+$js_lang['s_video_w_error'] = 'Non hai inserito la larghezza del file video';
+$js_lang['s_video_h_insert'] = 'Inserisci l\'altezza del file video';
+$js_lang['s_video_h_error'] = 'Non hai inserito l\'altezza del file video';
+$js_lang['s_googlevideo_insert'] = 'Inserisci l\'ID del file Google Video';
+$js_lang['s_youtube_insert'] = 'Inserisci l\'ID del video YouTube';
+$js_lang['s_emff_insert'] = 'Inserisci l\'indirizzo del file mp3';
+$js_lang['s_flash_insert'] = 'Inserisci l\'indirizzo del file Flash';
+$js_lang['s_flash_w_insert'] = 'Inserisci la larghezza del file Flash';
+$js_lang['s_flash_w_error'] = 'Non hai inserito la larghezza del file Flash';
+$js_lang['s_flash_h_insert'] = 'Inserisci l\'altezza del file Flash';
+$js_lang['s_flash_h_error'] = 'Non hai inserito l\'altezza del file Flash';
+$js_lang['s_id_insert_tip'] = 'ID';
+$js_lang['s_id_insert_error'] = 'Non hai inserito l\'ID';
+$js_lang['s_file_insert_error'] = 'Non hai inserito l\'indirizzo del file';
+$js_lang['s_grad_select'] = 'Seleziona il test';
+$js_lang['s_grad_error'] = 'Selezionare al massimo 120 caratteri';
+$js_lang['s_grad_path'] = 'includes/grad.htm';
+$js_lang['s_view_more_code'] = 'Visualizza pi&ugrave codice';
+$js_lang['s_image_upload'] = 'Carica un\'immagine su PostImage.org e l\'aggiunge al messaggio';
+$js_lang['s_posticyimage'] = 'Carica un\'immagine e l\'aggiunge al messaggio';
+
+// Helpline messages
+$js_lang['s_a_help'] = 'Chiudi tutti i tags';
+$js_lang['s_b_help'] = 'Grassetto testo: [b]testo[/b]';
+$js_lang['s_i_help'] = 'Corsivo testo: [i]testo[/i]';
+$js_lang['s_u_help'] = 'Sottolineatura testo: [u]testo[/u]';
+$js_lang['s_strike_help'] = 'Sbarratura testo: [strike]testo[/strike]';
+$js_lang['s_quote_help'] = 'Citazione testo: [quote]testo[/quote]';
+$js_lang['s_code_help'] = 'Codice: [code]codice[/code]';
+$js_lang['s_phpbbmod_help'] = 'phpBB Mod Template';
+$js_lang['s_highlight_help'] = 'Evidenzia: [highlight=#FFFFAA]testo[/highlight]';
+$js_lang['s_img_help'] = 'Inserisci immagine: [img]http://image_url[/img]';
+$js_lang['s_imgl_help'] = 'Inserisci immagine con allineamento a sx: [img align=left]http://image_url[/img]';
+$js_lang['s_imgr_help'] = 'Inserisci immagine con allineamento a dx: [img align=right]http://image_url[/img]';
+$js_lang['s_albumimg_help'] = 'Inserisci immagine dall\'album: [albumimg]Album Pic ID[/albumimg]';
+$js_lang['s_albumimgl_help'] = 'Inserisci immagine dall\'album con allineamento a sinistra: [albumimg align=left]Album Pic ID[/albumimg]';
+$js_lang['s_albumimgr_help'] = 'Inserisci immagine dall\'album con allineamento a destra: [albumimg align=right]Album Pic ID[/albumimg]';
+$js_lang['s_url_help'] = 'Inserisci URL: [url]http://url[/url] o [url=http://url]URL testo[/url]';
+$js_lang['s_fc_help'] = 'Colore Font: [color=red]testo[/color] (Consiglio: puoi anche usare color=#FF0000)';
+$js_lang['s_fs_help'] = 'Dimensione Font: [size=9]testo[/size]';
+$js_lang['s_ft_help'] = 'Tipo Font: [font=Andalus]testo[/font]';
+$js_lang['s_table_help'] = 'Inserisci tabella: [table]testo[/table]';
+$js_lang['s_td_help'] = 'Inserisci colonna in tabella: [td]testo[/td]';
+$js_lang['s_mail_help'] = 'Inserisci email: [email]indirizzo email[/email]';
+$js_lang['s_grad_help'] = 'Inserisci gradiente testo';
+$js_lang['s_right_help'] = 'Allinea il testo a destra: [align=right]testo[/align]';
+$js_lang['s_left_help'] = 'Allinea il testo a sinistra: [align=left]testo[/align]';
+$js_lang['s_center_help'] = 'Allinea il testo al centro: [align=center]testo[/align]';
+$js_lang['s_justify_help'] = 'Giustifica testo: [align=justify]testo[/align]';
+$js_lang['s_marqr_help'] = 'Scorrimento testo a destra: [marquee direction=right]testo[/marquee]';
+$js_lang['s_marql_help'] = 'Scorrimento testo a sinistra: [marquee direction=left]testo[/marquee]';
+$js_lang['s_marqu_help'] = 'Scorrimento testo in alto: [marquee direction=up]testo[/marquee]';
+$js_lang['s_marqd_help'] = 'Scorrimento testo in basso: [marquee direction=down]testo[/marquee]';
+$js_lang['s_sup_help'] = 'Apice: [sup]testo[/sup]';
+$js_lang['s_sub_help'] = 'Pedice: [sub]testo[/sub]';
+$js_lang['s_hr_help'] = 'Inserisci linea orizzontale [hr]';
+$js_lang['s_bullet_help'] = 'Inserisci punto elenco [*]';
+$js_lang['s_video_help'] = 'Inserisci file video: [video width=# height=#]URL File[/video]';
+$js_lang['s_googlevideo_help'] = 'Inserisci file Google Video: [googlevideo]Google Video ID[/googlevideo]';
+$js_lang['s_youtube_help'] = 'Inserisci file video YouTube: [youtube]YouTube ID[/youtube]';
+$js_lang['s_quick_help'] = 'Inserisci file Quicktime video: [quick]http://quicktime_video_url/[/quick]';
+$js_lang['s_flash_help'] = 'Inserisci file flash: [flash width=# height=#]Flash URL[/flash]';
+$js_lang['s_ram_help'] = 'Inserisci file Real Media : [ram]URL File[/ram]';
+$js_lang['s_stream_help'] = 'Inserisci file audio: [stream]URL File[/stream]';
+$js_lang['s_emff_help'] = 'Inserisci file mp3: [emff]URL File[/emff]';
+$js_lang['s_fade_help'] = 'Sfumatura: [opacity]testo[/opacity] oppure [opacity][img]http://image_url/[/img][/opacity]';
+$js_lang['s_spoiler_help'] = 'Spoiler: [spoiler]testo[/spoiler]';
+$js_lang['s_cell_help'] = 'Cella: [cell]testo[/cell]';
+$js_lang['s_list_help'] = 'Lista ordinata: [list|=1|a]testo[/list] (Consiglio: usa [*] per inserire nuovi elementi)';
+$js_lang['s_listo_help'] = 'Lista ordinata: [list=1|a]testo[/list] (Consiglio: usa [*] per inserire nuovi elementi)';
+$js_lang['s_help_help'] = 'BBCode FAQ';
+$js_lang['s_image_upload_help'] = 'Carica un\'immagine su PostImage.org e l\'aggiunge al messaggio';
+$js_lang['s_posticyimage_help'] = 'Carica un\'immagine e l\'aggiunge al messaggio';
+$js_lang['s_smiley_creator'] = 'Smiley Creator: [smiley=1]Testo[/smiley] inserisce uno smiley con testo';
+
+// Please do not remove this!!!
+foreach ($js_lang as $k => $v)
+{
+	$lang[$k] = $v;
+}
+
+$javascript_lang_vars = '';
+foreach ($js_lang as $k => $v)
+{
+	$javascript_lang_vars .= 'var ' . $k . ' = \'' . str_replace("'", "\'", $v) . '\';' . "\n";
+}
+
+$lang['JAVASCRIPT_LANG_VARS'] = $javascript_lang_vars;
+unset($js_lang);
+// JavaScript Text - END
 
 ?>
