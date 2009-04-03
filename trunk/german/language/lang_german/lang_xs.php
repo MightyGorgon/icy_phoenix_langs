@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 * frame_top.tpl
 */
     'xs_menu_lc' => 'eXtreme Styles MOD Menü',
-    'xs_support_forum_lc' => 'Support forum',
+    'xs_support_forum_lc' => 'Support Forum',
     'xs_download_styles_lc' => 'Styles downloaden',
     'xs_install_styles_lc' => 'Styles installieren',
 
@@ -77,9 +77,9 @@ $lang = array_merge($lang, array(
 * index.tpl
 */
 
-    'xs_main_comment1' => 'Du befindest Dich im eXtreme Styles MOD Hauptmenu. Es gibt eine Menge Funktionen in diesem Interface, diese Seite versteht sich als eine Übersicht. Unterhalb einer Funktion befindet sich immer eine Kurzanleitung.<br /><br />Achtung: Dieser Mod ersetzt das Icy Phoenix Styles Management. Du findest alle Standard Icy Phoenix Funktionen in dieser Liste, diese wurden jedoch optimiert und erweitert.<br /><br />Solltest Du irgendwelche Fragen haben dann besuche das <a href="http://www.stsoftware.biz/forum" target="_blank">Support Forum</a> in dem Du Unterstützung für diesen Mod findest.',
+    'xs_main_comment1' => 'Du befindest Dich im eXtreme Styles MOD Hauptmenu. Es gibt eine Menge Funktionen in diesem Interface, diese Seite versteht sich als eine Übersicht. Unterhalb einer Funktion befindet sich immer eine Kurzanleitung.<br /><br />Achtung: Dieser Mod ersetzt das Icy Phoenix Styles Management. Du findest alle Standard Icy Phoenix Funktionen in dieser Liste, diese wurden jedoch optimiert und erweitert.<br /><br />Solltest du irgendwelche Fragen haben dann besuche das <a href="http://www.stsoftware.biz/forum" target="_blank">Support Forum</a> in dem du Unterstützung für diesen Mod findest.',
     'xs_main_comment2' => 'Der eXtreme Styles MOD erlaubt dem Admin, komplette Styles in .style Dateien zu speichern. Die Styles werden in einer kleinen komprimierten Datei gespeichert, hierdurch erspart man sich den Ärger viele Dateien hoch/runterladen zu müssen. Die Style Dateien sind komprimiert, hierdurch ist der upload/download wesentlich effizienter als bei normalen Style-Dateien.',
-    'xs_main_comment3' => 'Alle Funktionen des Icy Phoenix Styles Management sind durch den eXtreme Styles mod ersetzt worden.<br /><br /><a href="{URL}">Klicke hier</a> um zum Menu zu gelangen.',
+    'xs_main_comment3' => 'Alle Funktionen des Icy Phoenix Styles Management sind durch den eXtreme Styles mod ersetzt worden.<br /><br />Klicke <a href="{URL}">hier</a>, um zum Menu zu gelangen.',
     'xs_main_title' => 'eXtreme Styles Navigationsmenu',
     'xs_menu' => 'eXtreme Styles Menu',
 
@@ -98,22 +98,22 @@ $lang = array_merge($lang, array(
     'xs_import_styles' => 'Styles importieren',
     'xs_import_styles_explain' => 'Diese Funktion erlaubt Dir den Download und die Installation von .style Dateien.',
     'xs_export_styles' => 'Styles exportieren',
-    'xs_export_styles_explain' => 'Diese Funktion erlaubt Dir, einen Style Deines Forums als .style Datei zu sichern und diesen dadurch leicht zu einem anderen Forum oder einer anderen Webseite zu transferieren.',
+    'xs_export_styles_explain' => 'Diese Funktion erlaubt Dir, einen Style deines Forums als .style Datei zu sichern und diesen dadurch leicht zu einem anderen Forum oder einer anderen Webseite zu transferieren.',
     'xs_clone_styles' => 'Styles clonen',
     'xs_clone_styles_explain' => 'Diese Funktion erlaubt Dir das schnelle clonen eines Styles oder eines ganzen Templates.',
     'xs_download_styles' => 'Styles Download',
     'xs_download_styles_explain' => 'Diese Funktion erlaubt Dir das schnelle downloaden und die Installation von Styles von Webseiten. Du kannst selbst eine Liste mit Webseiten konfigurieren.',
     'xs_install_styles' => 'Styles installieren',
-    'xs_install_styles_explain' => 'Diese Funktion erlaubt Dir die Installation von Styles, die Du bereits in Dein Forum hochgeladen hast.',
+    'xs_install_styles_explain' => 'Diese Funktion erlaubt Dir die Installation von Styles, die du bereits in dein Forum hochgeladen hast.',
     'xs_uninstall_styles' => 'Styles deinstallieren',
-    'xs_uninstall_styles_explain' => 'Diese Funktion erlaubt Dir, Styles von Deinem Forum zu entfernen.',
+    'xs_uninstall_styles_explain' => 'Diese Funktion erlaubt Dir, Styles von deinem Forum zu entfernen.',
     'xs_edit_templates_explain' => 'Diese Funktion erlaubt Dir, tpl Dateien online zu editieren.',
     'xs_edit_styles_data' => 'Styles Daten bearbeiten',
     'xs_edit_styles_data_explain' => 'Diese Funktion erlaubt Dir, Styles Variablen zu bearbeiten. Es wird von einigen Styles verwendet, meist werden jedoch stattdessen css Files verwendet.',
     'xs_export_styles_data' => 'Styles Daten exportieren',
     'xs_export_styles_data_explain' => 'Diese Feature erlaubt Dir, Styles Variablen in die Datei theme_info.cfg zu speichern.',
     'xs_check_for_updates' => 'Prüfe auf Updates',
-    'xs_check_for_updates_explain' => 'Diese Funktion erlaubt Dir die Überprüfung auf aktualisierte Versionen von Styles und Mods in Deinem Forum.',
+    'xs_check_for_updates_explain' => 'Diese Funktion erlaubt Dir die Überprüfung auf aktualisierte Versionen von Styles und Mods in deinem Forum.',
 
     'xs_set_configuration_lc' => 'Konfiguration ändern',
     'xs_set_default_style_lc' => 'Standard Style ändern',
@@ -131,13 +131,13 @@ $lang = array_merge($lang, array(
 * ftp.tpl, ftp functions
 */
 
-    'xs_ftp_comment1' => 'Um diese Funktion zu nutzen musst Du die Datei Upload Methode auswählen. Wenn Du FTP auswählst, wird ein Passwort nicht gespeichert und eXtreme Styles wird Dich jedesmal nach dem Passwort fragen, wenn ein FTP-Zugriff erfolgt. Wenn Du das lokale Dateisystem auswählst stelle sicher, das für alle erforderlichen Verzeichnisse Schreibrechte existieren.',
-    'xs_ftp_comment2' => 'Um Diese Funktion zu benutzen müssen die FTP-Einstellungen gesetzt werden. Wenn Du FTP auswählst, wird ein Passwort nicht gespeichert und eXtreme Styles wird Dich jedesmal nach dem Passwort fragen, wenn ein FTP-Zugriff erfolgt',
+    'xs_ftp_comment1' => 'Um diese Funktion zu nutzen musst du die Datei Upload Methode auswählen. Wenn du FTP auswählst, wird ein Passwort nicht gespeichert und eXtreme Styles wird Dich jedesmal nach dem Passwort fragen, wenn ein FTP-Zugriff erfolgt. Wenn du das lokale Dateisystem auswählst stelle sicher, das für alle erforderlichen Verzeichnisse Schreibrechte existieren.',
+    'xs_ftp_comment2' => 'Um Diese Funktion zu benutzen müssen die FTP-Einstellungen gesetzt werden. Wenn du FTP auswählst, wird ein Passwort nicht gespeichert und eXtreme Styles wird Dich jedesmal nach dem Passwort fragen, wenn ein FTP-Zugriff erfolgt',
     'xs_ftp_comment3' => 'Warnung: FTP Funktionen sind auf diesem Server deaktiviert. Du kannst keine eXtreme Styles Funktionalität verwenden, die FTP Zugriff benötigt.',
 
     'xs_ftp_title' => 'FTP Konfiguration',
 
-    'xs_ftp_explain' => 'FTP wird verwendet, um neue Styles hochzuladen. Wenn Du die Styles Importieren Funktion verwenden möchtest musst Du vorher die FTP-Einstellungen gemacht haben. eXtreme Styles versucht die Einstellungen soweit möglich automatisch zu erkennen.',
+    'xs_ftp_explain' => 'FTP wird verwendet, um neue Styles hochzuladen. Wenn du die Styles Importieren Funktion verwenden möchtest musst du vorher die FTP-Einstellungen gemacht haben. eXtreme Styles versucht die Einstellungen soweit möglich automatisch zu erkennen.',
 
     'xs_ftp_error_fatal' => 'FTP Funktionen sind auf diesem Server deaktiviert. Kann nicht fortsetzen.',
     'xs_ftp_error_connect' => 'FTP Fehler: Kann keine Verbindung aufbauen zu {HOST}',
@@ -190,12 +190,12 @@ $lang = array_merge($lang, array(
 * config.tpl
 */
     'xs_config_updated' => 'Konfiguration aktualisiert.',
-    'xs_config_updated_explain' => 'Du musst diese Seite aktualisieren bevor die Konfiguration übernommen werden kann. <a href="{URL}">Klicke hier</a> um die Seite zu aktualisieren.',
+    'xs_config_updated_explain' => 'Du musst diese Seite aktualisieren bevor die Konfiguration übernommen werden kann. Klicke <a href="{URL}">hier</a>, um die Seite zu aktualisieren.',
     'xs_config_warning' => 'Achtung: Cache kann nicht geschrieben werden.',
-    'xs_config_warning_explain' => 'In das Cache Verzeichnis kann nicht geschrieben werden. eXtreme Styles kann versuchen, dieses Problem zu lösen.<br /><a href="{URL}">Klicke hier</a> um zu versuchen, den Zugriffsmodus für das Cache Verzeichnis zu ändern.<br /><br />Sollte Cache aus irgendwelchen Gründen auf Deinem Server nicht funktionieren...kein Problem, eXtreme Styles<br />beschleunigt die Geschwindigkeit des Forums auch ohne Cache um ein Vielfaches.',
+    'xs_config_warning_explain' => 'In das Cache Verzeichnis kann nicht geschrieben werden. eXtreme Styles kann versuchen, dieses Problem zu lösen.<br />Klicke <a href="{URL}">hier</a>, um zu versuchen, den Zugriffsmodus für das Cache Verzeichnis zu ändern.<br /><br />Sollte Cache aus irgendwelchen Gründen auf deinem Server nicht funktionieren...kein Problem, eXtreme Styles<br />beschleunigt die Geschwindigkeit des Forums auch ohne Cache um ein Vielfaches.',
 
     'xs_config_maintitle' => 'eXtreme Styles mod Konfiguration',
-    'xs_config_subtitle' => 'Das ist die Konfiguration von eXtreme Styles. Wenn Du eine Einstellungsmöglichkeit nicht verstehst, ändere sie bitte nicht.',
+    'xs_config_subtitle' => 'Das ist die Konfiguration von eXtreme Styles. Wenn du eine Einstellungsmöglichkeit nicht verstehst, ändere sie bitte nicht.',
     'xs_config_title' => 'eXtreme Styles mod v{VERSION} Einstellungen',
     'xs_config_cache' => 'Cache Konfiguration',
 
@@ -203,10 +203,10 @@ $lang = array_merge($lang, array(
     'xs_config_navbar_explain' => 'Du kannst auswählen, welche Punkte im linken Frame des Admin Panels angezeigt werden sollen.',
 
     'xs_config_def_template' => 'Default Template Verzeichnis',
-    'xs_config_def_template_explain' => 'Sollte eine benötigte tpl Datei nicht im aktuellen Template Verzeichnis gefunden werden (das könnte passieren, wenn Du Icy Phoenix falsch modifiziert hast) dann wird das Template System auch in anderen Verzeichnissen danach suchen (Wenn also Beispielsweise das momentane Template "meinTemplate" heisst und das Script die Datei "meinTemplate/meinedatei.cfg" benötigt und die Datei ist nicht vorhanden, wird das Template System auch nach "subSilver/meineDatei.tpl" suchen). Wenn Du hier nichts einträgst wird diese Funktion deaktiviert.',
+    'xs_config_def_template_explain' => 'Sollte eine benötigte tpl Datei nicht im aktuellen Template Verzeichnis gefunden werden (das könnte passieren, wenn du Icy Phoenix falsch modifiziert hast) dann wird das Template System auch in anderen Verzeichnissen danach suchen (Wenn also Beispielsweise das momentane Template "meinTemplate" heißt und das Script die Datei "meinTemplate/meinedatei.cfg" benötigt und die Datei ist nicht vorhanden, wird das Template System auch nach "subSilver/meineDatei.tpl" suchen). Wenn du hier nichts einträgst wird diese Funktion deaktiviert.',
 
     'xs_config_check_switches' => 'Überprüfung beim kompilieren',
-    'xs_config_check_switches_explain' => 'Diese Funktion prüft auf Fehler in Templates. Wenn Du es deaktivierst beschleunigst Du die Kompilierung, jedoch könnten Fehler in den Templates übersehen werden.<br /><br />Smart Check wird die Templates auf Fehler überprüfen und alle bekannten Fehler automatisch korrigieren (es gibt einige wenige bekannte Tippfehler in verschiedenen Mods). Ist etwas langsamer als die einfache Überprüfung.<br /><br />Manchmal sieht das Template nur fehlerfrei aus, wenn die Fehlerkorrektur deaktiviert wurde; das passiert bei schlecht programmiertem HTML Code - bitte kontaktiere denjenigen, der das Template geschrieben hat, wenn Du den Fehler nicht selbst korrigieren kannst.<br /><br />Sollte die Cache Funktion deaktiviert sein, dann schalte das hier ab um eine schnellere Kompilierung zu erhalten.',
+    'xs_config_check_switches_explain' => 'Diese Funktion prüft auf Fehler in Templates. Wenn du es deaktivierst beschleunigst du die Kompilierung, jedoch könnten Fehler in den Templates übersehen werden.<br /><br />Smart Check wird die Templates auf Fehler überprüfen und alle bekannten Fehler automatisch korrigieren (es gibt einige wenige bekannte Tippfehler in verschiedenen Mods). Ist etwas langsamer als die einfache Überprüfung.<br /><br />Manchmal sieht das Template nur fehlerfrei aus, wenn die Fehlerkorrektur deaktiviert wurde; das passiert bei schlecht programmiertem HTML Code - bitte kontaktiere denjenigen, der das Template geschrieben hat, wenn du den Fehler nicht selbst korrigieren kannst.<br /><br />Sollte die Cache Funktion deaktiviert sein, dann schalte das hier ab um eine schnellere Kompilierung zu erhalten.',
     'xs_config_check_switches_0' => 'Aus',
     'xs_config_check_switches_1' => 'Smart Check',
     'xs_config_check_switches_2' => 'Einfacher Check',
@@ -224,12 +224,12 @@ $lang = array_merge($lang, array(
     'xs_config_auto_compile_explain' => 'Templates, die noch nicht im Cache existieren, werden bei Aktivierung automatisch ins Cache Verzeichnis gespeichert.',
 
     'xs_config_auto_recompile' => 'Cache automatisch rekompilieren',
-    'xs_config_auto_recompile_explain' => 'Templates, die geändert wurden, werden autmatisch neu kompiliert.',
+    'xs_config_auto_recompile_explain' => 'Templates, die geändert wurden, werden automatisch neu kompiliert.',
 
     'xs_config_php' => 'Datei-Erweiterung der Cache Dateien',
-    'xs_config_php_explain' => 'Das ist die Erweiterung der Cache-Dateien. Dateien weren im php Format gespeichert, also ist die Standard Erweiterung "php". Bitte den Punkt nicht miteingeben',
+    'xs_config_php_explain' => 'Das ist die Erweiterung der Cache-Dateien. Dateien werden im php Format gespeichert, also ist die Standard Erweiterung "php". Bitte den Punkt nicht mit eingeben.',
 
-    'xs_config_back' => '<a href="{URL}">Klicke hier</a> um zur Konfiguration zurückzukehren.',
+    'xs_config_back' => 'Klicke <a href="{URL}">hier</a>, um zur Konfiguration zurückzukehren.',
     'xs_config_sql_error' => 'Fehler bei der Aktualisierung der Allgemeinen Konfiguration für {VAR}',
 
 // Debug info
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 * chmod
 */
     'xs_chmod' => 'CHMOD',
-    'xs_chmod_return' => '<br /><br /><a href="{URL}">Klicke hier</a> um zur Konfiguration zurückzukehren.',
+    'xs_chmod_return' => '<br /><br />Klicke <a href="{URL}">hier</a>, um zur Konfiguration zurückzukehren.',
     'xs_chmod_message1' => 'Konfiguration geändert.',
     'xs_chmod_error1' => 'Kann den Zugriffsmodus des Cache Verzeichnisses nicht ändern',
 
@@ -287,7 +287,7 @@ $lang = array_merge($lang, array(
     'xs_compile_all_lc' => 'alle kompilieren',
     'xs_clear_cache_lc' => 'Cache löschen',
     'xs_compile_cache_lc' => 'Cache kompilieren',
-    'xs_cache_confirm' => 'Wenn Du viele Styles hast, kann das die Last des Servers deutlich erhöhen. Bist Du sicher, das Du fortfahren möchtest?',
+    'xs_cache_confirm' => 'Wenn du viele Styles hast, kann das die Last des Servers deutlich erhöhen. Bist du sicher, das du fortfahren möchtest?',
 
     'xs_cache_nowrite' => 'Fehler: Kein Zugriff auf das Cache Verzeichnis',
     'xs_cache_log_deleted' => '{FILE} gelöscht',
@@ -305,7 +305,7 @@ $lang = array_merge($lang, array(
 /*
 * export/import/download/clone
 */
-    'xs_import_explain' => 'Diese Funktion erlaubt den Import von Styles. Ebenfalls können Styles automatisch installiert und aktualisiert werden.<br /><br />Achtung: Solltest Du irgendwelche Mods in diesem Forum installiert haben (ausser dem eXtreme Styles Mod) musst Du beim Import von Styles vorsichtig sein, da diese nicht kompatibel mit Deinem Forum sein könnten. Du kannst nur Styles installieren, die die gleichen Modifikationen wie die anderen Styles haben, die Du in Deinem Forum konfiguriert hast.',
+    'xs_import_explain' => 'Diese Funktion erlaubt den Import von Styles. Ebenfalls können Styles automatisch installiert und aktualisiert werden.<br /><br />Achtung: Solltest du irgendwelche Mods in diesem Forum installiert haben (außer dem eXtreme Styles Mod) musst du beim Import von Styles vorsichtig sein, da diese nicht kompatibel mit deinem Forum sein könnten. Du kannst nur Styles installieren, die die gleichen Modifikationen wie die anderen Styles haben, die du in deinem Forum konfiguriert hast.',
 
     'xs_import_lc' => 'importieren',
     'xs_list_files_lc' => 'Dateien auflisten',
@@ -348,9 +348,9 @@ $lang = array_merge($lang, array(
     'xs_style_header_error_file' => 'Kann lokale Datei nicht öffnen',
     'xs_style_header_error_server' => 'Fehler auf dem Server: ',
     'xs_style_header_error_invalid' => 'Ungültiger Datei Header',
-    'xs_style_header_error_reason' => 'Fehler beim lesen des Datei Headers: ',
+    'xs_style_header_error_reason' => 'Fehler beim Lesen des Datei Headers: ',
     'xs_style_header_error_incomplete' => 'Datei ist unvollständig',
-    'xs_style_header_error_incomplete2' => 'Falsche Dateigrösse. Datei ist möglicherweise nicht komplett.',
+    'xs_style_header_error_incomplete2' => 'Falsche Dateigröße. Datei ist möglicherweise nicht komplett.',
     'xs_style_header_error_invalid2' => 'Falsche Datei. Wahrscheinlich ist die Datei kein eXtreme Styles mod kompatibles Style oder eine ungültige Version.',
     'xs_error_cannot_open' => 'Kann Datei nicht öffnen.',
     'xs_error_decompress_style' => 'Fehler beim auspacken der Datei. Die Datei ist wahrscheinlich fehlerhaft.',
@@ -368,12 +368,12 @@ $lang = array_merge($lang, array(
     'xs_import_nodownload' => 'Kann Style nicht von {URL} downloaden',
     'xs_import_nodownload2' => 'Kann Style nicht von {URL} kopieren',
     'xs_import_nodownload3' => 'Datei nicht hochgeladen.',
-    'xs_import_uploaded2' => 'Style heruntergeladen. Du kannst ihn nun importieren.<br /><br /><a href="{URL}">Klicke hier</a> um den Style zu importieren.',
-    'xs_import_uploaded3' => 'Style kopiert. Du kannst ihn nun importieren.<br /><br /><a href="{URL}">Klicke hier</a> um den Style zu importieren.',
-    'xs_import_uploaded4' => 'Style hochgeladen. Du kannst ihn nun importieren.<br /><br /><a href="{URL}">Klicke hier</a> um den Style zu importieren.',
+    'xs_import_uploaded2' => 'Style heruntergeladen. Du kannst ihn nun importieren.<br /><br />Klicke <a href="{URL}">hier</a>, um den Style zu importieren.',
+    'xs_import_uploaded3' => 'Style kopiert. Du kannst ihn nun importieren.<br /><br />Klicke <a href="{URL}">hier</a>, um den Style zu importieren.',
+    'xs_import_uploaded4' => 'Style hochgeladen. Du kannst ihn nun importieren.<br /><br />Klicke <a href="{URL}">hier</a>, um den Style zu importieren.',
     'xs_export_no_open_dir' => 'Kann Verzeichnis {DIR} nicht öffnen',
     'xs_export_no_open_file' => 'Kann Datei {FILE} nicht öffnen',
-    'xs_export_no_read_file' => 'Fehler beim lesen der Datei {FILE}',
+    'xs_export_no_read_file' => 'Fehler beim Lesen der Datei {FILE}',
     'xs_no_theme_data' => 'Konnte die Style Daten für das gewählte Template nicht lesen',
     'xs_no_style_info' => 'Konnte die Style Informationen nicht lesen',
     'xs_export_noselect_themes' => 'Du solltest mindestens ein Style auswählen',
@@ -387,17 +387,17 @@ $lang = array_merge($lang, array(
     'xs_theme_cloned' => 'Style geclont.',
     'xs_invalid_style_name' => 'Ungültiger Stylename.',
     'xs_clone_style_exists' => 'Dieses Template existiert bereits',
-    'xs_clone_no_select' => 'Du solltest mindestens ein Style zum clonen auswählen.',
+    'xs_clone_no_select' => 'Du solltest mindestens ein Style zum Clonen auswählen.',
     'xs_no_themes' => 'Style in der Datenbank nicht gefunden.',
 
-    'xs_import_back' => '<a href="{URL}">Klicke hier</a> um zur Styles Importieren Seite zurückzukehren.',
+    'xs_import_back' => 'Klicke <a href="{URL}">hier</a>, um zur Styles Importieren Seite zurückzukehren.',
     'xs_import_back_download' => '<a href="{URL}" target="main">Klicke hier</a> um zu den Downloads zurückzukehren.',
-    'xs_export_back' => '<a href="{URL}">Klicke hier</a> um zur Styles exportieren Seite zurückzukehren.',
-    'xs_clone_back' => '<a href="{URL}">Klicke hier</a> um zur Styles Clone Seite zurückzukehren.',
-    'xs_download_back' => '<a href="{URL}">Klicke hier</a> um zur Downloadseite zurückzukehren.',
+    'xs_export_back' => 'Klicke <a href="{URL}">hier</a>, um zur Styles exportieren Seite zurückzukehren.',
+    'xs_clone_back' => 'Klicke <a href="{URL}">hier</a>, um zur Styles Clone Seite zurückzukehren.',
+    'xs_download_back' => 'Klicke <a href="{URL}">hier</a>, um zur Downloadseite zurückzukehren.',
 
     'xs_import_tpl' => 'Importiere Template "{TPL}"',
-    'xs_import_tpl_comment' => 'Diese Funktion wird ein Template in Dein Forum hochladen. Sollte ein Template mit diesem Namen bereits in Deinem Forum existieren, wird diese Funktion automatisch die alten Dateien überschreiben, daher kann es auch verwendet werden, um Styles zu aktualisieren.<br /><br />Diese Funktion kann ebenfalls automatisch Styles installieren.',
+    'xs_import_tpl_comment' => 'Diese Funktion wird ein Template in dein Forum hochladen. Sollte ein Template mit diesem Namen bereits in deinem Forum existieren, wird diese Funktion automatisch die alten Dateien überschreiben, daher kann es auch verwendet werden, um Styles zu aktualisieren.<br /><br />Diese Funktion kann ebenfalls automatisch Styles installieren.',
     'xs_import_tpl_filename' => 'Dateiname:',
     'xs_import_tpl_tplname' => 'Template Name:',
     'xs_import_tpl_comment2' => 'Kommentar:',
@@ -419,19 +419,19 @@ $lang = array_merge($lang, array(
     'xs_import_nogzip' => 'Diese Funktion benötigt gz Komprimierung, und diese wird auf diesem Server nicht unterstützt.',
     'xs_import_nowrite_cache' => 'Kann nicht in den Cache schreiben. Diese Funktion benötigt, dass der Cache beschrieben werden kann. Überprüfe die mod Konfiguration.<br /><br /><a href="{URL1}">Klicke hier</a> um den Cache schreibfähig zu machen.<br /><br /><a href="{URL2}">Klicke hier</a> um zur Import Seite zurückzukehren.',
 
-    'xs_import_download_warning' => 'Das führt Dich auf eine externe Webseite, auf der Du Styles mit ein paar wenigen klicks über die eXtreme Styles Import Funktion herunterladen kannst.',
+    'xs_import_download_warning' => 'Das führt Dich auf eine externe Webseite, auf der du Styles mit ein paar wenigen klicks über die eXtreme Styles Import Funktion herunterladen kannst.',
 
     'xs_clone_style' => 'Style clonen',
-    'xs_clone_style_explain' => 'Diese Funktion erlaubt das schnelle clonen von Styles oder ganzen Templates.<br /><br />Achtung: Bitte stelle vor dem kopieren sicher, dass der Autor des Original-Templates das kopieren erlaubt (ausser subSilver, mit dem Du alles machen darfst). In der Regel erlauben die Autoren die Modifizierung der Styles, jedoch sollten diese dann nicht weitergegeben werden.',
+    'xs_clone_style_explain' => 'Diese Funktion erlaubt das schnelle clonen von Styles oder ganzen Templates.<br /><br />Achtung: Bitte stelle vor dem kopieren sicher, dass der Autor des Original-Templates das kopieren erlaubt (außer subSilver, mit dem du alles machen darfst). In der Regel erlauben die Autoren die Modifizierung der Styles, jedoch sollten diese dann nicht weitergegeben werden.',
     'xs_clone_style_explain2' => 'Diese Funktion erlaubt das Erstellen neuer Styles für ein Template. Die Funktion kopiert keine Dateien sondern fügt für das neue Style Einträge in die Datenbank hinzu. Sowohl das alte als auch das neue Style teilen sich das Template.',
     'xs_clone_style_explain3' => 'Gib den Namen für das neue Style ein und klicke auf den "clonen" Knopf.',
-    'xs_clone_style_explain4' => 'Diese Funktion erlaubt das clonen von Templates. Du kannst ebenfalls alle Styles dieses Templates kopieren. Später kannst Du die tpl einfach bearbeiten ohne das alte Template zu beeinflussen.',
+    'xs_clone_style_explain4' => 'Diese Funktion erlaubt das clonen von Templates. Du kannst ebenfalls alle Styles dieses Templates kopieren. Später kannst du die tpl einfach bearbeiten ohne das alte Template zu beeinflussen.',
 
     'xs_clone_style_lc' => 'Style clonen',
     'xs_clone_style2' => 'Clone Style "{STYLE}":',
     'xs_clone_style3' => 'Clone Template "{STYLE}"',
     'xs_clone_newdir_name' => 'Neues Template (directory) Name:',
-    'xs_clone_select' => 'Wähle Style(s) zum  clonen:',
+    'xs_clone_select' => 'Wähle Style(s) zum  Clonen:',
     'xs_clone_select_explain' => 'Du musst mindestens ein Style auswählen.',
     'xs_clone_newname' => 'Neuer Stylename:',
 
@@ -439,8 +439,8 @@ $lang = array_merge($lang, array(
 /*
 * install/uninstall
 */
-    'xs_install_styles_explain2' => 'Das ist eine Liste der Styles, die ins Forum hochgeladen wurden, die jedoch nicht installiert sind. Klicke auf den "installieren" Link bei dem Style, den Du installieren möchtest, oder wähle mehrere Styles und kliche auf den Absenden Button.',
-    'xs_uninstall_styles_explain2' => 'Das ist eine Liste der installierten Styles Deines Forums. Klicke auf den "Deinstallieren" Link um Styles vom Forum zu entfernen. Die Deinstallation ist sicher, da alle Benutzer, die dieses Style bisher eingestellt hatten auf das Standard Style umgeschaltet werden. Ebenfalls wird automatisch der Cache für das entfernte Style gelöscht.',
+    'xs_install_styles_explain2' => 'Das ist eine Liste der Styles, die ins Forum hochgeladen wurden, die jedoch nicht installiert sind. Klicke auf den "installieren" Link bei dem Style, den du installieren möchtest, oder wähle mehrere Styles und klicke auf den Absenden Button.',
+    'xs_uninstall_styles_explain2' => 'Das ist eine Liste der installierten Styles deines Forums. Klicke auf den "Deinstallieren" Link um Styles vom Forum zu entfernen. Die Deinstallation ist sicher, da alle Benutzer, die dieses Style bisher eingestellt hatten auf das Standard Style umgeschaltet werden. Ebenfalls wird automatisch der Cache für das entfernte Style gelöscht.',
 
     'xs_install' => 'Installation',
     'xs_install_lc' => 'installieren',
@@ -450,9 +450,9 @@ $lang = array_merge($lang, array(
     'xs_uninstall_lc' => 'deinstallieren',
     'xs_uninstall2_lc' => 'deinstallieren und Dateien löschen',
 
-    'xs_install_back' => '<a href="{URL}">Klicke hier</a> um zur Styles Installation zurückzukehren.',
-    'xs_uninstall_back' => '<a href="{URL}">Klicke hier</a> um zur Styles Deinstallation zurückzukehren.',
-    'xs_goto_default' => '<a href="{URL}">Klicke hier</a> um den Default Style zu ändern.',
+    'xs_install_back' => 'Klicke <a href="{URL}">hier</a>, um zur Styles Installation zurückzukehren.',
+    'xs_uninstall_back' => 'Klicke <a href="{URL}">hier</a>, um zur Styles Deinstallation zurückzukehren.',
+    'xs_goto_default' => 'Klicke <a href="{URL}">hier</a>, um den Default Style zu ändern.',
 
     'xs_install_installed' => 'Style(s) installiert.',
     'xs_install_error' => 'Fehler bei der Installation des Styles.',
@@ -463,10 +463,10 @@ $lang = array_merge($lang, array(
 /*
 * export theme_info.cfg
 */
-    'xs_export_styles_data_explain2' => 'Diese Funktion speichert Style Datein in die theme_info.cfg. Es kann verwendet werden, um Datenbankinformationen vor dem Transfer eines Styles von einem Forum auf ein anderes zu sichern.<br /><br />Achtung: Wenn Du die Export Funktion von eXtreme Styles verwendest, um ein Style auf ein anderes Forum zu übertragen brauchst Du die theme_info.cfg nicht speichern - es wird automatisch durch die Style Export Funktion gemacht.',
-    'xs_export_styles_data_explain3' => 'Wähle Styles, die Du exportieren möchtest.',
+    'xs_export_styles_data_explain2' => 'Diese Funktion speichert Style Dateien in die theme_info.cfg. Es kann verwendet werden, um Datenbankinformationen vor dem Transfer eines Styles von einem Forum auf ein anderes zu sichern.<br /><br />Achtung: Wenn du die Export Funktion von eXtreme Styles verwendest, um ein Style auf ein anderes Forum zu übertragen brauchst du die theme_info.cfg nicht speichern - es wird automatisch durch die Style Export Funktion gemacht.',
+    'xs_export_styles_data_explain3' => 'Wähle Styles, die du exportieren möchtest.',
 
-    'xs_export_data_back' => '<a href="{URL}">Klicke hier</a> um zur Style Export Daten Seite zurückzukehren.',
+    'xs_export_data_back' => 'Klicke <a href="{URL}">hier</a>, um zur Style Export Daten Seite zurückzukehren.',
     'xs_export_style_data_lc' => 'Style Daten exportieren',
 
     'xs_export_data_saved' => 'Daten exportiert.',
@@ -474,11 +474,11 @@ $lang = array_merge($lang, array(
 /*
 * edit templates (file manager)
 */
-    'xs_edit_template_comment1' => 'Diese Funktion ermöglicht die Bearbeitung der Templates. Der Dateibrowser zeigt nur Dateien an, die editierbar sind',
+    'xs_edit_template_comment1' => 'Diese Funktion ermöglicht die Bearbeitung der Templates. Der Dateibrowser zeigt nur Dateien an, die geändert werden können.',
     'xs_edit_template_comment2' => 'Diese Funktion ermöglicht die Bearbeitung von Templates.',
     'xs_edit_file_saved' => 'Datei wurde gespeichert.',
     'xs_edit_not_found' => 'Datei nicht gefunden.',
-    'xs_edittpl_back_dir' => '<a href="{URL}">Klicke hier</a> um zum Dateimanager zurückzukehren.',
+    'xs_edittpl_back_dir' => 'Klicke <a href="{URL}">hier</a>, um zum Dateimanager zurückzukehren.',
 
     'xs_fileman_browser' => 'Datei Browser',
     'xs_fileman_directory' => 'Verzeichnis:',
@@ -488,7 +488,7 @@ $lang = array_merge($lang, array(
     'xs_fileman_filter_content' => 'Nur Dateien anzeigen, die dieses enthalten:',
     'xs_fileman_filter_clear' => 'Filter löschen',
     'xs_fileman_filename' => 'Dateiname',
-    'xs_fileman_filesize' => 'Grösse',
+    'xs_fileman_filesize' => 'Größe',
     'xs_fileman_filetime' => 'Modifikationen',
     'xs_fileman_options' => 'Optionen',
     'xs_fileman_time_today' => '(heute)',
@@ -523,7 +523,7 @@ $lang = array_merge($lang, array(
 * edit styles data (theme_info)
 */
     'xs_data_head_stylesheet' => 'CSS Stylesheet',
-    'xs_data_body_background' => 'Hintergundbild',
+    'xs_data_body_background' => 'Hintergrundbild',
     'xs_data_body_bgcolor' => 'Hintergrundfarbe',
     'xs_data_style_name' => 'Style Name',
     'xs_data_body_link' => 'Linkfarbe',
@@ -538,11 +538,11 @@ $lang = array_merge($lang, array(
     'xs_data_td_color' => 'Zellenfarbe der Tabellen %s',
     'xs_data_td_class' => 'Zellenklasse der Tabellen %s',
     'xs_data_fontface' => 'Schriftart %s',
-    'xs_data_fontsize' => 'Schriftgrösse %s',
+    'xs_data_fontsize' => 'Schriftgröße %s',
     'xs_data_fontcolor' => 'Schriftfarbe %s',
     'xs_data_span_class' => 'Span Class %s',
-    'xs_data_img_size_poll' => 'Polling-Bild Grösse [px]',
-    'xs_data_img_size_privmsg' => 'Private Nachrichten Status Grösse [px]',
+    'xs_data_img_size_poll' => 'Umfrage-Bild Größe [px]',
+    'xs_data_img_size_privmsg' => 'Private Nachrichten Status Größe [px]',
     'xs_data_theme_public' => 'Öffentliches Style (1 oder 0)',
     'xs_data_unknown' => 'Beschreibung nicht verfügbar (%s)',
 
@@ -550,8 +550,8 @@ $lang = array_merge($lang, array(
     'xs_edittpl_style_updated' => 'Style aktualisiert.',
     'xs_invalid_style_id' => 'Falsche Style ID.',
 
-    'xs_edittpl_back_edit' => '<a href="{URL}">Klicke hier</a> um zur Bearbeitung zurückzukehren.',
-    'xs_edittpl_back_list' => '<a href="{URL}">Klicke hier</a> um zur Liste der Styles zurückzukehren.',
+    'xs_edittpl_back_edit' => 'Klicke <a href="{URL}">hier</a>, um zur Bearbeitung zurückzukehren.',
+    'xs_edittpl_back_list' => 'Klicke <a href="{URL}">hier</a>, um zur Liste der Styles zurückzukehren.',
 
     'xs_editdata_explain' => 'Diese Funktion erlaubt die Bearbeitung von Datenbankwerten der installierten Styles. Einige Styles ignorieren die Datenbank-Einträge und verwenden stattdessen css Dateien, einige andere verwenden nur einige der Datenbankeinträge.',
     'xs_editdata_var' => 'Variable',
@@ -566,7 +566,7 @@ $lang = array_merge($lang, array(
     'xs_updates_comment' => 'Diese Funktion prüft auf Updates einiger Styles und Mods. Es funktioniert dort, wo die notwendigen Update Informationen vorhanden sind.',
     'xs_updates_comment2' => 'Ergebnis der Versionsprüfung.',
     'xs_update_total1' => 'Gesamt: {NUM}',
-    'xs_update_info1' => 'Diese Administrationsfunktion prüft auf vorhandene Updates für phpBB, einige Mods, und einige Styles, die in Deinem Forum installiert sind. Sollten verfügbare Updates gefunden werden, werden diese mit dem entsprechenden Download-Link angezeigt.<br /><br />Diese Funktion benötigt \'Sockets\' aktiviert. Die meisten freien Webhoster (z.B. Lycos) bieten dieses Feature nicht an, sollte dieses Forum also auf einem freien Webhost laufen, kann diese Funktion nicht benutzt werden, auf einem normalen Server sollte es hingegen keine Probleme geben.<br /><br />Wenn Du auf "Weiter" klickst wird das Script die Software des Forums prüfen. Sollte Deine Webseite langsam sein, wird dies einige Zeit in Anspruch nehmen. Bitte bewahre die Ruhe und klicke nicht auf "Stop" im Browser, wenn es Verzögerungen gibt. Sollte der Server oder die Webseite langsam sein könnte es sein, das das Script in einen Timeout läuft. Sollte das passieren, musst Du den Timeout-Wert erhöhen.',
+    'xs_update_info1' => 'Diese Administrationsfunktion prüft auf vorhandene Updates für phpBB, einige Mods, und einige Styles, die in deinem Forum installiert sind. Sollten verfügbare Updates gefunden werden, werden diese mit dem entsprechenden Download-Link angezeigt.<br /><br />Diese Funktion benötigt \'Sockets\' aktiviert. Die meisten freien Webhoster (z.B. Lycos) bieten dieses Feature nicht an, sollte dieses Forum also auf einem freien Webhost laufen, kann diese Funktion nicht benutzt werden, auf einem normalen Server sollte es hingegen keine Probleme geben.<br /><br />Wenn du auf "Weiter" klickst wird das Script die Software des Forums prüfen. Sollte deine Webseite langsam sein, wird dies einige Zeit in Anspruch nehmen. Bitte bewahre die Ruhe und klicke nicht auf "Stop" im Browser, wenn es Verzögerungen gibt. Sollte der Server oder die Webseite langsam sein könnte es sein, das das Script in einen Timeout läuft. Sollte das passieren, musst du den Timeout-Wert erhöhen.',
     'xs_update_name' => 'Name',
     'xs_update_type' => 'Typ',
     'xs_update_current_version' => 'Deine Version',

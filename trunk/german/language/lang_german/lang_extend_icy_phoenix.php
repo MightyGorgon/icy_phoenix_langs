@@ -135,16 +135,16 @@ if ($lang_extend_admin)
 
 	    'IP_visit_counter_switch' => 'Aktiviere Besucher Zähler',
 
-	    'IP_enable_new_messages_number' => 'Zeige die Anzahl der neuen Nachrichten seid dem Letzten Besuch',
+	    'IP_enable_new_messages_number' => 'Zeige die Anzahl der neuen Nachrichten seit dem letzten Besuch',
 
-	    'IP_disable_thanks_topics' => 'Deaktiviere Bedanken Button in der Themen-Ansicht (viewtopic.php)',
+	    'IP_disable_thanks_topics' => 'Deaktiviere Bedanken Button (komplett)',
 
 	    'IP_show_thanks_profile' => 'Zeigt "Erhaltene Danksagungen" beim Anschauen eines Profils an',
 
 	    'IP_show_thanks_viewtopic' => 'Zeigt "Erhaltene Danksagungen" beim Lesen von Themen an',
 
 	    'IP_disable_topic_view' => '"Thema angesehen von" (komplett) deaktivieren',
-	    'IP_disable_topic_view_explain' => 'Diese Option deaktiviert "Thema angesehen von"-Funktion (dies reduziert SQL-Platz).',
+	    'IP_disable_topic_view_explain' => 'Diese Option deaktiviert die "Thema angesehen von"-Funktion (dies reduziert SQL-Platz).',
 
 	    'IP_disable_referrers' => 'Referer deaktivieren',
 	    'IP_disable_referrers_explain' => 'Diese Option deaktiviert die Referer Funktion (dies reduziert SQL-Platz).',
@@ -169,7 +169,7 @@ if ($lang_extend_admin)
 	    'IP_last_msgs_x_explain' => 'Bitte, trage hier die IDs der Foren ein die in der Letzte Nachrichten Box ausgeschlossen werden sollen (Du kannst jede Foren ID mit Komma trennen).',
 
 	    'IP_show_chat_online' => 'AJAX Chat Online :: Forum Index',
-	    'IP_show_chat_online_explain' => 'Aktiviere diese Option um im <b>Forum Index</b> die online Benutzer zu zeigen, die im AJAX Chat sind.',
+	    'IP_show_chat_online_explain' => 'Aktiviere diese Option um im <b>Forum Index</b> die online Benutzer anzuzeigen, die im AJAX Chat sind.',
 
 	    'IP_index_shoutbox' => 'Shoutbox :: Forum Index',
 	    'IP_index_shoutbox_explain' => 'Bei Aktivierung dieser Option, wird die Shoutbox im <b>Forum Index</b> angezeigt.',
@@ -199,10 +199,10 @@ if ($lang_extend_admin)
 	    'IP_allow_mods_edit_admin_posts' => 'Erlaube Moderatoren die Bearbeitung von Administrator Beiträgen',
 	    'IP_allow_mods_edit_admin_posts_explain' => 'Erlaubt Moderatoren die Beiträge von Administratoren zu bearbeiten',
 
-	    'IP_force_large_caps_mods' => 'Passender Betreff',
-	    'IP_force_large_caps_mods_explain' => 'Der Themen-Betreff wird zu einem passenden Betreff für alle Benutzer außer Admins umgewandelt',
+	    'IP_force_large_caps_mods' => 'Themen-Betreff anpassen',
+	    'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepaßt, indem der erste Buchstabe jedes Wortes groß geschrieben wird. (außer für Admins)',
 
-	    'IP_show_new_reply_posting' => 'Vor neuen Antworten warnen',
+	    'IP_show_new_reply_posting' => 'Vor neuen Antworten-Warn-System',
 	    'IP_show_new_reply_posting_explain' => 'Wenn du diese Option aktivierst, wird eine Warnung angezeigt, wenn beim Schreiben einer Antwort zwischenzeitlich ein neuer Eintrag gemacht wurde.',
 
 	    'IP_no_bump' => 'Verbiete doppelte Beiträge innerhalb von 24 Stunden',
@@ -261,16 +261,18 @@ if ($lang_extend_admin)
 	    'GD_1' => 'GD1',
 	    'GD_2' => 'GD2',
 
-	    'IP_show_img_no_gd' => 'Zeige GIF Thumbnails ohne Verwendung der GD Bibliotheken (komplettes Bld wird geladen und dann nur verkleinert angezeigt).',
+	    'IP_show_img_no_gd' => 'Zeige GIF Thumbnails ohne Verwendung der GD Bibliotheken (komplettes Bild wird geladen und dann nur verkleinert angezeigt).',
 
 	    'IP_thumbnail_posts' => 'Thumbnails in Beiträgen',
 	    'IP_thumbnail_posts_explain' => 'Mit dieser Option wird ein Thumbnail anstatt des kompletten Bildes in einem Beitrag angezeigt, wenn der IMG BBCode verwendet wird',
 
 	    'IP_show_pic_size_on_thumb' => 'Zeige die Bildgröße in den Thumbnails',
 
-	    'IP_thumbnail_lightbox' => 'Benutze Lightbox JavaScript wenn Thumbnails aktiviert sind',
-	    'IP_thumbnail_lightbox_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
+		'IP_thumbnail_highslide' => 'Benutze HighSlide JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
+		'IP_thumbnail_highslide_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.highslide.com/" target="_blank">HighSlide JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
 
+	    'IP_thumbnail_lightbox' => 'Benutze Lightbox JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
+	    'IP_thumbnail_lightbox_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!<br />Wenn du HighSlide aktiviert hast, wird diese Einstellung ignoriert.',
 	    'IP_thumbnail_cache' => 'Thumbnails Cache',
 
 	    'IP_thumbnail_quality' => 'Thumbnails Qualität (1-100)',
@@ -291,15 +293,15 @@ if ($lang_extend_admin)
 	    'Delete_forum_with_attachment_denied' => 'Du kannst keine Foren löschen, die Sub-Level enthalten',
 
 	    'Category_delete' => 'Lösche Kategorie',
-	    'Category_delete_explain' => 'Hier kannst Du eine Kategorie löschen und bestimmen, wohin alle darin enthaltenen Foren und Kategorien verschoben werden sollen.',
+	    'Category_delete_explain' => 'Hier kannst du eine Kategorie löschen und bestimmen, wohin alle darin enthaltenen Foren und Kategorien verschoben werden sollen.',
 
 // forum links type
 	    'Forum_link_url' => 'Link URL',
 	    'Forum_link_url_explain' => 'Du kannst hier die URL zu einem Icy Phoenix Prog. setzen oder eine vollständige URL zu einem externen Server',
 	    'Forum_link_internal' => 'Icy Phoenix Prog',
-	    'Forum_link_internal_explain' => 'Wähle Ja, wenn Du ein Programm aufrufen möchtest, welches im Icy Phoenix Directory liegt',
+	    'Forum_link_internal_explain' => 'Wähle Ja, wenn du ein Programm aufrufen möchtest, welches im Icy Phoenix Directory liegt',
 	    'Forum_link_hit_count' => 'Hits Zähler',
-	    'Forum_link_hit_count_explain' => 'Wähle Ja wenn Du möchtest, das das Board die Klicks zählt und auch darstellt',
+	    'Forum_link_hit_count_explain' => 'Wähle Ja wenn du möchtest, das das Board die Klicks zählt und auch darstellt',
 	    'Forum_link_with_attachment_deny' => 'Du kannst kein Forum als Link definieren, wenn es schon Sub-Level hat',
 	    'Forum_link_with_topics_deny' => 'Du kannst kein Forum als Link definieren, wenn es schon Themen enthält',
 	    'Forum_attached_to_link_denied' => 'Du kannst kein Forum oder eine Kategorie einem Forum Link zuordnen',
@@ -332,6 +334,12 @@ if ($lang_extend_admin)
 
 	    'IP_lofi_bots' => 'LoFi für Bots',
 	    'IP_lofi_bots_explain' => 'Bei Aktivierung dieser Option, wird LoFi für die Bots aktiviert.',
+
+		'IP_adsense_code' => 'Google AdSense Publisher Code',
+		'IP_adsense_code_explain' => 'Füge hier deinen Google AdSense Publisher Code ein und er wird in der Google Suchen Seite eingefügt. Wenn du dies nicht nutzen willst, lasse das Feld einfach leer.',
+
+		'IP_google_analytics' => 'Google Analytics Code',
+		'IP_google_analytics_explain' => 'Füge hier deinen Google Analytics Code ein (der Javascript code der von Google zur Verfügung gestellt wird) und dieser wird automatisch im Fuß jeder Seite eingefügt.',
 
 //Sitemap
 	    'Sitemap_settings' => 'Sitemap Einstellungen',
@@ -388,7 +396,7 @@ if ($lang_extend_admin)
 	    'IP_admin_protect_explain' => 'Bei Aktivierung dieser Option, wird mehr Sicherheit dem Haupt Admin Account hinzugefügt',
 
 	    'IP_db_log_actions' => 'Aktiviere DB Aktionen Log',
-	    'IP_db_log_actions_explain' => 'Bei Aktivierung dieser Option werden alle Aktionen, die die DB ändern, in der Datenbank gespeichert. Wurde diese Option in der constans.php als "true" gesetzt, so kann sie nicht durch das ACP abgeschaltet werden. Willst du noch zusätzlich alle Fehler gespeichert haben, werden diese in einer extra Datei gespeichert.',
+	    'IP_db_log_actions_explain' => 'Bei Aktivierung dieser Option werden alle Aktionen, die die DB ändern, in der Datenbank gespeichert. Wurde diese Option in der constans.php als "true" gesetzt, so kann sie nicht durch das ACP abgeschaltet werden. Willst du noch zusätzlich alle Fehler gespeichert haben, werden diese in einer extra Datei gesichert.',
 
 	    'IP_mg_log_actions' => 'Aktiviere TXT Actions Log',
 	    'IP_mg_log_actions_explain' => 'Aktiviere diese Option und es wird jede Aktion, die die DB ändert, in einer Textdatei auf unter dem Benutzer gespeichert (Datei wird im LOGS Ordner gespeichert). Diese Datei ist nicht einfach zu lesen, aber es kann unter bestimmten Bedingungen nützlich sein. Aktiviere es nur, wenn du weißt was du machst (die Seite kann nach der Aktivierung langsamer sein).',
@@ -403,40 +411,40 @@ if ($lang_extend_admin)
 	    'IP_logs_path_explain' => 'Gib hier den Pfad für die Fehler und andere Logs, relativ zum Forenpfad, ohne Slash am Ende ein. Zum Beispiel: <b>logs</b>.',
 
 // TAB - Cron
-		'IP_cron_global_switch' => 'Enable PHP Cron [Global Switch]',
-		'IP_cron_global_switch_explain' => 'By enabling this option a PHP based cron will be activated: some automatic operations will be executed at fixed time intervals. The optimal time range for each cron feature depends on your site traffic and preferences: if you don\'t know what these settings may impact, please leave this feature disabled, you probably don\'t need it.',
+		'IP_cron_global_switch' => 'Aktiviere PHP Cron [Globale Einstellung]',
+		'IP_cron_global_switch_explain' => 'Bei Aktivierung dieser Option wird der PHP-basierende Cron aktiviert: einige automatische Arbeiten werden in bestimmten Intervallen ausgeführt. Der optimale Zeitabstand für jeden Cron hängt von der Auslastung und den Einstellungen der Seite ab: Wenn du nicht weißt was diese Einstellungen bedeuten, dann lass diese Funktion deaktiviert, denn du wirst sie wahrscheinlich nicht benötigen.',
 
-		'IP_cron_files_interval' => 'Files Executions Cron Interval',
-		'IP_cron_files_interval_explain' => 'This kind of cron may be used to automatically run certain files every fixed interval you decide. The files to be executed must be added in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b>. Multiple files must be separated by comma.<br /><br /><b>Last run: ' . (($board_config['cron_files_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_files_interval' => 'Dateiausführungs Cron Intervall',
+		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausführen in dem Intervall das du bestimmst. Die Dateien die ausgeführt werden sollen müssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien müssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>',
 
-		'IP_cron_database_interval' => 'DB Optimization Cron Interval',
-		'IP_cron_database_interval_explain' => 'This feature will optimize the database of the site every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_database_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_database_interval' => 'DB Optimierungs Cron Intervall',
+		'IP_cron_database_interval_explain' => 'Diese Funktion wird deine Datenbank in dem von dir bestimmten Intervall optimieren.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_database_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>',
 
-		'IP_cron_cache_interval' => 'Tidy Templates Cache Cron Interval',
-		'IP_cron_cache_interval_explain' => 'Templates cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_cache_interval' => 'Templates Cache Cron Intervall',
+		'IP_cron_cache_interval_explain' => 'Der Template Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_cache_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
 
-		'IP_cron_sql_interval' => 'Tidy SQL Cache Cron Interval',
-		'IP_cron_sql_interval_explain' => 'SQL cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_sql_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_sql_interval' => 'SQL Cache Cron Intervall',
+		'IP_cron_sql_interval_explain' => 'Der SQL Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_sql_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>',
 
-		'IP_cron_users_interval' => 'Tidy Users Cache Cron Interval',
-		'IP_cron_users_interval_explain' => 'Users cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_users_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_users_interval' => 'Benutzer Cache Cron Intervall',
+		'IP_cron_users_interval_explain' => 'Der Benutzer Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_users_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>',
 
-		'IP_cron_topics_interval' => 'Tidy Topics Cache Cron Interval',
-		'IP_cron_topics_interval_explain' => 'Topics cache is cleaned every chosen interval.<br /><br /><b>Last run: ' . (($board_config['cron_topics_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_topics_interval' => 'Themen Cache Cron Intervall',
+		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>',
 
-		'Cron_Disabled' => 'Disabled',
-		'15M' => '15 Minutes',
-		'30M' => '30 Minutes',
-		'1H' => '1 Hour',
-		'2H' => '2 Hours',
-		'3H' => '3 Hours',
-		'6H' => '6 Hours',
-		'12H' => '12 Hours',
-		'1D' => '1 Day',
-		'3D' => '3 Days',
-		'7D' => '1 Week',
-		'14D' => '2 Weeks',
-		'30D' => '1 Month',
+		'Cron_Disabled' => 'Deaktiviert',
+		'15M' => '15 Minuten',
+		'30M' => '30 Minuten',
+		'1H' => '1 Stunde',
+		'2H' => '2 Stunden',
+		'3H' => '3 Stunden',
+		'6H' => '6 Stunden',
+		'12H' => '12 Stunden',
+		'1D' => '1 Tag',
+		'3D' => '3 Tage',
+		'7D' => '1 Woche',
+		'14D' => '2 Wochen',
+		'30D' => '1 Monat',
 
 
 // lang_extend_mods_settings.php
@@ -510,8 +518,8 @@ $lang = array_merge($lang, array(
 	'Rules_calendar_can' => 'You <b>can</b> post calendar events in this forum',
 	'Rules_calendar_cannot' => 'You <b>cannot</b> post calendar events in this forum',
 */
-    'Rules_calendar_can' => 'Du <b>kannst</b> Kalender-Ereignisse in diesem Forum eintragen.',
-    'Rules_calendar_cannot' => 'Du <b>kannst keine</b> Kalender-Ereignisse in diesem Forum eintragen.',
+    'Rules_calendar_can' => 'Du <b>kannst</b> Kalender-Ereignisse eintragen.',
+    'Rules_calendar_cannot' => 'Du <b>kannst keine</b> Kalender-Ereignisse eintragen.',
 
     'birthday_header' => 'Happy Birthday!',
     'birthday' => '<b>%s</b> hat heute Geburtstag.',

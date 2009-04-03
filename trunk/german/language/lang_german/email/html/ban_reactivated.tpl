@@ -8,4 +8,3 @@ Dein Benutzer-Konto bei <b>{SITENAME}</b> ist jetzt wieder aktiv. Du kannst dich
 <br /><br />
 <span style="color:#a4a4a4; font-size:11">
 {EMAIL_SIG}</span></font>
-

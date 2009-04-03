@@ -14,4 +14,3 @@ Erkläre deinen Beitrag und warum du mit der Verwarnung nicht einverstanden bist.
 
 <span style="color:#a4a4a4; font-size:11">
 {EMAIL_SIG}</span></font>
-

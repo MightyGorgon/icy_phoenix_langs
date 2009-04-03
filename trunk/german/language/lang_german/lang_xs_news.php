@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
     'xs_no_news' => 'Es existieren keine News Artikel.',
     'xs_news_invalid_date' => 'Du hast ein ungültiges Datum eingegeben, das Format ist: TT-MM-JJJJ',
     'n_news_updated' => 'Der Artikel wurde aktualisiert',
-    'n_click_return_newslist' => '%sKlicke hier%s, um zur News Liste zurückzukehren',
+    'n_click_return_newslist' => 'Klicke %shier%s, um zur News Liste zurückzukehren',
 
 // News XML Settings
     'n_xml_title' => 'News Ticker Administration',
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 
     'n_xml_no_feeds' => 'Es sind keine XML News Feeds eingerichtet.',
     'n_xml_news_updated' => 'Der Ticker wurde aktualisiert.',
-    'n_xml_click_return_newslist' => '%sKlicke hier%s, um zur News Ticker Liste zurückzukehren.',
+    'n_xml_click_return_newslist' => 'Klicke %shier%s, um zur News Ticker Liste zurückzukehren.',
 
     'n_xml_show' => 'Anzeigen',
     'n_xml_title' => 'Ticker Titel',

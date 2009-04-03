@@ -4,7 +4,7 @@ Charset: iso-8859-1
 Hallo {WARNED_POSTER},
 
 Du wurdest bei {SITENAME} verwarnt.
-Du hast jetzt insgesammt {WARNINGS} Verwarnungen. Wenn du mehr als {TOTAL_WARN} Verwarnungen erhälst, wird dein Benutzer-Konto gesperrt.
+Du hast jetzt insgesammt {WARNINGS} Verwarnungen. Wenn du mehr als {TOTAL_WARN} Verwarnungen erhältst, wird dein Benutzer-Konto gesperrt.
 
 Für die Verwarnung kann es verschiedene Gründe geben. Diese Verwarnung wurde wegen diesem Beitrag ausgesprochen:
 {POST_URL}

@@ -172,7 +172,7 @@ $lang = array_merge($lang, array(
     'module_name_most_used_styles' => 'Verwendete Styles',
     'Style' => 'Style',
 
-    'module_name_most_viewed_topics' => 'Am häufigsten angesehene Themen',
+    'module_name_most_viewed_topics' => 'Am meisten angesehene Themen',
     'Month_jan' => 'Jan',
     'Month_feb' => 'Feb',
     'Month_mar' => 'Mrz',
@@ -218,17 +218,17 @@ $lang = array_merge($lang, array(
     'module_name_site_hist_week_top_posters' => 'Die aktivesten Benutzer diese Woche',
     'Week_Var' => '[%s]', // %s wird durch die aktuelle Woche ersetzt
 
-    'module_name_top_attachments' => 'Am häufigsten heruntergeladene Anhänge',
+    'module_name_top_attachments' => 'Am meisten heruntergeladene Anhänge',
     'File_name' => 'Dateiname',
     'File_comment' => 'Dateikommentar',
 
     'module_name_top_posters' => 'Top Poster',
 
-    'module_name_top_smilies' => 'Am häufigsten verwendete Smilies',
-    'smiley_url' => 'Smilie',
-    'smiley_code' => 'Smilie Code',
+    'module_name_top_smilies' => 'Am meisten verwendete Smilies',
+    'smiley_url' => 'Smiley',
+    'smiley_code' => 'Smiley Code',
 
-    'module_name_top_words' => 'Am häufigsten verwendete Worte',
+    'module_name_top_words' => 'Am meisten verwendete Wörter',
     'Word' => 'Wort',
     'Uses2' => 'Verwendet',
 

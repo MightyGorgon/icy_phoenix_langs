@@ -10,10 +10,10 @@ Nutze den folgenden Link um dir das Thema anzuschauen:<br /><br />
 <br /><br />
 
 <b>Geschriebener Beitrag:</b><br /><br />
-{POST_TEXT}<br /><br />
+<div class="post-text">{POST_TEXT}</div>
 
-
-Du erhälst diese E-Mail, weil du das Forum "<b>{FORUM_NAME}</b>" bei <b>{SITENAME}</b> beobachtest.<br />
+<br /><br />
+Du erhältst diese E-Mail, weil du das Forum "<b>{FORUM_NAME}</b>" bei <b>{SITENAME}</b> beobachtest.<br />
 Wenn du nicht mehr über neue Themen in diesem Forum benachrichtigt werden möchtest, dann klicke entweder auf "Dieses Forum nicht mehr beobachten" im Forum "<b>{FORUM_NAME}</b>", oder nutze den folgenden Link:
 <br /><br />
 <a href="{U_STOP_WATCHING_FORUM}" target="_blank">{U_STOP_WATCHING_FORUM}</a>

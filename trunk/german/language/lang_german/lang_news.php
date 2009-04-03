@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
     'Enable_News' => 'Newserstellung erlauben',
     'News_Path' => 'News Icons-Pfad',
-    'News_Path_Explain' => 'Der Pfad in Deinem Icy Phoenix Verzeichnis, in dem die Bilder liegen (z.B. images/news)',
+    'News_Path_Explain' => 'Der Pfad in deinem Icy Phoenix Verzeichnis, in dem die Bilder liegen (z.B. images/news)',
 
     'News_explain' => 'Hier kannst du die Einstellungen des <i>Slashdot News Mod by CMX</i> ändern.',
     'News_settings' => 'News-Konfiguration',

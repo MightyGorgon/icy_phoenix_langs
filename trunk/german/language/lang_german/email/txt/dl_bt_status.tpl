@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 Hallo {USERNAME},
 
-Du erhälst diese E-Mail weil der Status für deinen Bug Report {REPORT_TITLE} bei {SITENAME} geändert wurde.
+Du erhältst diese E-Mail weil der Status für deinen Bug Report {REPORT_TITLE} bei {SITENAME} geändert wurde.
 
 Neuer Status: {STATUS}.
 

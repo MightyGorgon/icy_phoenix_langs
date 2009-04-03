@@ -28,13 +28,13 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 // Album Index
-    'Photo_Album' => 'Foto Album',
+    'Photo_Album' => 'Foto-Galerie',
     'Pics' => 'Bilder',
     'Last_Pic' => 'Letztes Bild',
     'Public_Categories' => 'Öffentliche Kategorien',
     'No_Pics' => 'Keine Bilder',
-    'Users_Personal_Galleries' => 'Persönliche Galerien der Benutzer',
-    'Your_Personal_Gallery' => 'Deine persönliche Galerie',
+    'Users_Personal_Galleries' => 'Persönliche Foto-Galerien der Benutzer',
+    'Your_Personal_Gallery' => 'Deine persönliche Foto-Galerie',
     'Recent_Public_Pics' => 'Neu veröffentlichte Bilder',
     'Nav_Separator' => '&nbsp;&raquo;&nbsp;',
 
@@ -67,10 +67,10 @@ $lang = array_merge($lang, array(
     'Album_rate_cannot' => 'Du <b>kannst</b> Bilder in dieser Kategorie <b>nicht</b> bewerten.',
     'Album_comment_can' => 'Du <b>kannst</b> Kommentare in dieser Kategorie schreiben.',
     'Album_comment_cannot' => 'Du <b>kannst keine</b> Kommentare in dieser Kategorie schreiben.',
-    'Album_edit_can' => 'Du <b>kannst</b> Deine Bilder in dieser Kategorie bearbeiten.',
-    'Album_edit_cannot' => 'Du <b>kannst</b> Deine Bilder in dieser Kategorie <b>nicht</b> bearbeiten.',
-    'Album_delete_can' => 'Du <b>kannst</b> Deine Bilder in dieser Kategorie löschen.',
-    'Album_delete_cannot' => 'Du <b>kannst</b> Deine Bilder in dieser Kategorie <b>nicht</b> löschen.',
+    'Album_edit_can' => 'Du <b>kannst</b> deine Bilder in dieser Kategorie bearbeiten.',
+    'Album_edit_cannot' => 'Du <b>kannst</b> deine Bilder in dieser Kategorie <b>nicht</b> bearbeiten.',
+    'Album_delete_can' => 'Du <b>kannst</b> deine Bilder in dieser Kategorie löschen.',
+    'Album_delete_cannot' => 'Du <b>kannst</b> deine Bilder in dieser Kategorie <b>nicht</b> löschen.',
     'Album_moderate_can' => 'Du <b>kannst</b> %sdiese Kategorie moderieren%s.',
 
     'Edit_pic' => 'Bearbeiten',
@@ -93,11 +93,11 @@ $lang = array_merge($lang, array(
     'Max_length' => 'Max. Länge (bytes)',
     'Upload_pic_from_machine' => 'Lade ein Bild von Deiner Festplatte hoch',
     'Upload_to_Category' => 'Lade in Kategorie',
-    'Upload_thumbnail_from_machine' => 'Lade das Vorschaubild von der Festplatte (gleicher Typ wie Bild)',
+    'Upload_thumbnail_from_machine' => 'Lade das Vorschaubild von der Festplatte (gleicher Dateityp wie Bild)',
     'Upload_thumbnail' => 'Lade ein Vorschaubild hoch',
-    'Upload_thumbnail_explain' => 'Muss gleicher Filetyp wie das Bild haben!',
+    'Upload_thumbnail_explain' => 'Muss gleichen Dateityp wie das Bild haben!',
     'Thumbnail_size' => 'Vorschaubild Größe (Pixel)',
-    'Filetype_and_thumbtype_do_not_match' => 'Dein Bild und das Vorschaubild müssen den gleichen Typ haben!',
+    'Filetype_and_thumbtype_do_not_match' => 'Dein Bild und das Vorschaubild müssen den gleichen Dateitypen haben!',
 
     'Upload_no_title' => 'Du musst einen Titel für das Bild angeben',
     'Upload_no_file' => 'Du musst einen Pfad und den Namen angeben',
@@ -108,18 +108,18 @@ $lang = array_merge($lang, array(
     'GIF_allowed' => 'GIFs erlaubt?',
 
     'Album_reached_quota' => 'Diese Kategorie hat die maximale Bildanzahl erreicht. Du kannst hier keine Bilder mehr hochladen. Bitte kontaktiere den Administrator für mehr Informationen!',
-    'User_reached_pics_quota' => 'Du hast Deine maximale Bildanzahl erreicht! Du kannst keine Bilder mehr hochladen. Bitte kontaktiere den Administrator für mehr Informationen!',
+    'User_reached_pics_quota' => 'Du hast deine maximale Bildanzahl erreicht! Du kannst keine Bilder mehr hochladen. Bitte kontaktiere den Administrator für mehr Informationen!',
 
     'No_valid_category_selected' => 'Keine gültige Album-Kategorie gewählt',
-    'No_category_to_upload' => 'Leider existieren zur Zeit keine Kategorien, in welche du Bilder hochladen kannst.',
+    'No_category_to_upload' => 'Leider existieren zurzeit keine Kategorien, in welche du Bilder hochladen kannst.',
     'Not_allowed_file_type' => 'Dein Dateityp ist nicht erlaubt',
     'Upload_image_size_too_big' => 'Die Bildmaße sind zu groß',
-    'Upload_thumbnail_size_too_big' => 'Die Maße Deines Vorschaubildes sind zu groß',
+    'Upload_thumbnail_size_too_big' => 'Die Maße deines Vorschaubildes sind zu groß',
 
     'Missed_pic_title' => 'Du musst einen Bildtitel angeben',
 
-    'Click_return_category' => 'Klick %shier%s, um zur Kategorie zurückzukehren',
-    'Click_return_album_index' => 'Klick %shier %s um zum Album Index zurückzukehren',
+    'Click_return_category' => 'Klicke %shier%s, um zur Kategorie zurückzukehren',
+    'Click_return_album_index' => 'Klicke %shier%s, um zum Album Index zurückzukehren',
 
     'Add_File' => 'Datei hinzufügen',
     'File_thumbnail_count_mismatch' => 'Die Anzahl der hochgeladenen Bilder stimmt nicht mit der Anzahl der Thumbnails überein.',
@@ -142,13 +142,13 @@ $lang = array_merge($lang, array(
     'Bad_upload' => 'Das Hochladen des Bildes ist fehlgeschlagen.',
     'Bad_upload_file_size' => 'Die von Dir hochgeladene Datei ist zu groß oder beschädigt.',
     'Album_upload_successful' => 'Dein Bild wurde erfolgreich hochgeladen.',
-    'Album_upload_need_approval' => 'Dein Bild wurde erfolgreich hochgeladen.<br /><br />Allerdings muss Dein Bild erst von einem Administrator oder Moderator überprüft werden, bevor es angezeigt wird.',
+    'Album_upload_need_approval' => 'Dein Bild wurde erfolgreich hochgeladen.<br /><br />Allerdings muss dein Bild erst von einem Administrator oder Moderator überprüft werden, bevor es angezeigt wird.',
 
     'Rotation' => 'Rotieren (gegen den Uhrzeigersinn) - Grad',
 
     'Max_file_size' => 'Maximale Dateigröße (Bytes)',
-    'Max_width' => 'Maximale Bildbreite vor Komression (Pixel)',
-    'Max_height' => 'Maximale Bildhöhe vor Komression (Pixel)',
+    'Max_width' => 'Maximale Bildbreite vor Kompression (Pixel)',
+    'Max_height' => 'Maximale Bildhöhe vor Kompression (Pixel)',
 
 // Album Nuffload
     'time_elapsed' => 'Vergangene Zeit',
@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
     'Pics_updated_successfully' => 'Deine Bildinformationen wurden erfolgreich aktualisiert',
 
 // Delete Pic
-    'Album_delete_confirm' => 'Bist Du sicher, dass Du diese(s) Bild(er) löschen willst?',
+    'Album_delete_confirm' => 'Bist du sicher, dass du diese(s) Bild(er) löschen willst?',
     'Pics_deleted_successfully' => 'Diese(s) Bild(er) wurden erfolgreich gelöscht',
 
 // ModCP
@@ -217,26 +217,26 @@ $lang = array_merge($lang, array(
     'Already_rated' => 'Du hast dieses Bild schon bewertet',
     'Own_Pic_Rate' => 'Du darfst deine eigenen Bilder nicht bewerten.',
     'Album_rate_successfully' => 'Das Bild wurde erfolgreich bewertet.',
-    'Click_rate_more' => 'klicke %shier%s um weitere Bilder zu bewerten.',
+    'Click_rate_more' => 'Klicke %shier%s, um weitere Bilder zu bewerten.',
     'Hot_Or_Not' => 'Hot Or Not',
 
 // Comment
     'Comment_no_text' => 'Bitte gib Deinen Kommentar ein',
     'Comment_too_long' => 'Dein Kommentar ist zu lang',
-    'Comment_delete_confirm' => 'Bist Du sicher, dass Du diesen Kommentar löschen willst?',
+    'Comment_delete_confirm' => 'Bist du sicher, dass du diesen Kommentar löschen willst?',
     'Pic_Locked' => 'Sorry, dieses Bild ist gesperrt. Du kannst hier keine weiteren Kommentare einstellen.',
     'Post_your_comment' => 'Bitte gib Deinen Kommentar ein',
 
 // Personal Gallery
-    'Personal_Gallery_Explain' => 'Du kannst die persönlichen Galerien anderer Mitglieder betrachten, wenn Du auf den Link in deren Profil klickst',
-    'Personal_gallery_not_created' => 'Die Persönliche Galerie von %s ist leer oder wurde noch nicht erstellt',
-    'Not_allowed_to_create_personal_gallery' => 'Sorry, der Administrator des Boards erlaubt es Dir nicht, eine persönliche Galerie zu erstellen',
-    'Click_return_personal_gallery' => 'Klick %shier%s um zur Persönlichen Galerie zurückzukehren',
+    'Personal_Gallery_Explain' => 'Du kannst die persönlichen Foto-Galerien anderer Mitglieder betrachten, wenn du auf den Link in deren Profil klickst',
+    'Personal_gallery_not_created' => 'Die persönliche Foto-Galerie von %s ist leer oder wurde noch nicht erstellt',
+    'Not_allowed_to_create_personal_gallery' => 'Sorry, der Administrator des Boards erlaubt es Dir nicht, eine persönliche Foto-Galerie zu erstellen',
+    'Click_return_personal_gallery' => 'Klicke %shier%s, um zur persönlichen Foto-Galerie zurückzukehren',
 
 // Download Archive
     'Download_pics' => 'Bilder herunterladen (ZIP)',
     'Download_page' => 'Bilder auf dieser Seite herunterladen (ZIP)',
-    'No_Download_auth' => 'Du bist nicht berechtigt, Bilder aus dieser Galerie herunterzuaden!',
+    'No_Download_auth' => 'Du bist nicht berechtigt, Bilder aus dieser Foto-Galerie herunterzuladen!',
 
 // Email Notification
     'Email_Notification' => 'Album-E-Mail-Benachrichtigung',
@@ -255,32 +255,32 @@ $lang = array_merge($lang, array(
     'One_Sub_Total_Pics' => '%d Bild',
     'Multiple_Sub_Total_Pics' => '%d Bilder',
     'Album_sub_categories' => 'Unterkategorie',
-    'No_Public_Galleries' => 'Keine öffentlichen Galerien',
+    'No_Public_Galleries' => 'Keine öffentlichen Foto-Galerien',
     'One_new_picture' => '%d neues Bild',
     'Multiple_new_pictures' => '%d neue Bilder',
 
 // Personal Album Hierarchy Index Table
-    'Personal_Categories' => 'Persönliche Galerien',
-    'Create_Personal_Categories' => 'Persönliche Galerie erstellen',
-    'Personal_Cat_Admin' => 'Persönliche Galerie Kategorien-Administration',
-    'Recent_Personal_Pics' => 'Letzte Bilder aus der Persönlichen Galerie von %s',
+    'Personal_Categories' => 'Persönliche Foto-Galerien',
+    'Create_Personal_Categories' => 'Persönliche Foto-Galerie erstellen',
+    'Personal_Cat_Admin' => 'Persönliche Foto-Galerie Kategorien-Administration',
+    'Recent_Personal_Pics' => 'Letzte Bilder aus der persönlichen Foto-Galerie von %s',
 
 // Album Moderator Control Panel
     'Modcp_check_all' => 'Alle markieren',
     'Modcp_uncheck_all' => 'Alle Markierungen aufheben',
     'Modcp_inverse_selection' => 'Auswahl umkehren',
 
-    'Show_selected_pic_view_mode' => 'Zeige nur die gewählte Kategorie der persönlichen Galerie',
-    'Show_all_pic_view_mode' => 'Zeige alle Bilder in dieser persönlichen Galerie',
+    'Show_selected_pic_view_mode' => 'Zeige nur die gewählte Kategorie der persönlichen Foto-Galerie',
+    'Show_all_pic_view_mode' => 'Zeige alle Bilder in dieser persönlichen Foto-Galerie',
 
 // Access language strings
-    'Album_Can_Manage_Categories' => 'Du <b>kannst</b> die Kategorien in der Galerie %smanagen%s',
-    'No_Personal_Category_admin' => 'Du darfst die Kategorien der persönlichen Galerie nicht managen',
+    'Album_Can_Manage_Categories' => 'Du <b>kannst</b> die Kategorien in der Foto-Galerie %smanagen%s',
+    'No_Personal_Category_admin' => 'Du darfst die Kategorien der persönlichen Foto-Galerie nicht managen',
 
 // The picture list of a member (album_memberlist.php)
     'Pic_Cat' => 'Kategorie',
     'Picture_List_Of_User' => 'Alle Bilder von %s',
-    'Member_Picture_List_Explain' => 'Du kannst eine komplette Liste aller von einem Mitglied hinzugefügten Bilder sehen, indem Du auf den Link in deren Profil klickst.',
+    'Member_Picture_List_Explain' => 'Du kannst eine komplette Liste aller von einem Mitglied hinzugefügten Bilder sehen, indem du auf den Link in deren Profil klickst.',
     'Comment_List_Of_User' => 'Alle Kommentare von %s',
     'Rating_List_Of_User' => 'Alle Bewertungen von %s',
     'Show_All_Pictures_Of_user' => 'Zeige alle Bilder von %s',
@@ -290,10 +290,10 @@ $lang = array_merge($lang, array(
 // The pictures list
     'All_Picture_List_Of_User' => 'Alle Bilder',
     'All_Comment_List_Of_User' => 'Alle Kommentare',
-    'All_Rating_List_Of_User' => 'Alle Wertungen',
+    'All_Rating_List_Of_User' => 'Alle Bewertungen',
     'All_Show_All_Pictures_Of_user' => 'Zeige alle Bilder',
     'All_Show_All_Comments_Of_user' => 'Zeige alle Kommentare',
-    'All_Show_All_Ratings_Of_user' => 'Zeige alle Wertungen',
+    'All_Show_All_Ratings_Of_user' => 'Zeige alle Bewertungen',
 
     'Not_commented' => '<i>Nicht kommentiert</i>',
 
@@ -301,7 +301,7 @@ $lang = array_merge($lang, array(
     'Nuff_Click' => 'Hier klicken, um Spezialeffekte anzuwenden',
     'Nuff_UnClick' => 'Klicke hier, für normale Ansicht',
     'Nuff_Title' => 'Spezialeffekte',
-    'Nuff_Explain' => 'Auf dieser Seite können mehrere Effekte auf das Bild angewendet werden.<br />Dies ist eine <i><b>große Belastung für die Server CPU</b></i>, also bitte nicht mißbrauchen. Einige Effekte verändern die Größe des Bildes automatisch, um die CPU-Last zu minimieren.',
+    'Nuff_Explain' => 'Auf dieser Seite können mehrere Effekte auf das Bild angewendet werden.<br />Dies ist eine <i><b>große Belastung für die Server CPU</b></i>, also bitte nicht missbrauchen. Einige Effekte verändern die Größe des Bildes automatisch, um die CPU-Last zu minimieren.',
     'Nuff_Normal' => 'Normales Bild',
     'Nuff_Normal_Explain' => 'Keine Effekte angewandt',
     'Nuff_BW' => 'Schwarz / Weiß',
@@ -330,7 +330,7 @@ $lang = array_merge($lang, array(
     'Nuff_Blur' => 'Unschärfe',
     'Nuff_Blur_Explain' => 'Dieser Effekt läßt das Bild unschärfer erscheinen',
     'Nuff_Pixelate' => 'Verpixeln',
-    'Nuff_Pixelate_Explain' => 'Dieser Effekt wendet einen Pixel-Filter auf das Bild an und läßt es verpixelt erscheinen',
+    'Nuff_Pixelate_Explain' => 'Dieser Effekt wendet einen Pixel-Filter auf das Bild an und lässt es verpixelt erscheinen',
     'Nuff_Scatter' => 'Streuung',
     'Nuff_Scatter_Explain' => 'Dieser Effekt wendet einen Streufilter auf das Bild an',
     'Nuff_Infrared' => 'Infrarot',
@@ -344,7 +344,7 @@ $lang = array_merge($lang, array(
     'Nuff_Stereogram' => 'Stereogramm',
     'Nuff_Stereogram_Explain' => 'Dieser Effekt konvertiert das Bild in ein Stereogramm (BW 16 bit erforderlich)',
 
-    'Pic_Gallery' => 'Schnelles Foto Album',
+    'Pic_Gallery' => 'Schnelle Foto-Galerie',
     'Select_Pic' => 'Wähle ein Bild aus',
     'Select_Category' => 'Wähle eine Kategorie aus',
     'Title_Description' => 'Titel &amp; Beschreibung',
@@ -352,11 +352,11 @@ $lang = array_merge($lang, array(
 // Pic watch
     'No_longer_watching_comment' => 'Du beobachtest die Kommentare dieses Bildes nun nicht mehr',
     'Watching_comment' => 'Du beobachtest nun die Kommentare dieses Bildes',
-    'Pic_comment_notification' => 'Galerie-Kommentar-Benachrichtigung',
+    'Pic_comment_notification' => 'Foto-Galerie-Kommentar-Benachrichtigung',
     'Pic_comment_watch_checkbox' => 'Markiere die Box um über Kommentare zu diesem Bild benachrichtigt zu werden:',
     'Watch_pic' => 'Beobachte dieses Bild für Kommentare',
     'Unwatch_pic' => 'Beende das Beobachten der Kommentare dieses Bildes',
-    'Click_return_pic' => 'Klicke %shier%s um zum Bild zurückzukehren',
+    'Click_return_pic' => 'Klicke %shier%s, um zum Bild zurückzukehren',
 
     'Pic_RDF' => 'RSS-Feed 1.0',
     'Pic_RSS' => 'RSS-Feed 2.0',

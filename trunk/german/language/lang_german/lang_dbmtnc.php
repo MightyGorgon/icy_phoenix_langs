@@ -484,8 +484,7 @@ $lang = array_merge($lang, array(
     'New_config_php' => "Das ist deine neue config.$phpEx",
 // Options
     'cls' => 'Lösche alle Sitzungen',
-    'ecf' => 'Lösche Cache Ordner',
-    'fdt' => 'Korrektur def_tree.php',
+    'ecf' => 'Leere Cache',
     'rdb' => 'Repariere Datenbank-Tabellen',
     'cct' => 'Überprüfe Konfigurations-Tabelle',
     'rpd' => 'Setze Pfad-Daten zurück',
@@ -499,8 +498,7 @@ $lang = array_merge($lang, array(
     'rcp' => 'Stelle config.php wieder her',
 // Info for options
     'cls_info' => 'Wenn fortgefahren wird, werden alle Sitzungsdaten gelöscht.',
-    'ecf_info' => 'Wenn fortgefahren wird, wird der Cache Ordner geleert.',
-    'fdt_info' => 'Wenn fortgefahren wird, wird die Datei def_tree.php repariert.',
+    'ecf_info' => 'Wenn fortgefahren wird, wird der Cache geleert.',
     'rdb_info' => 'Wenn fortgefahren wird, werden die Tabellen in der Datenbank repariert.',
     'cct_info' => 'Wenn fortgefahren wird, wird die Konfigurations-Tabelle geprüft und fehlende Einträge wieder hergesetellt.',
     'rpd_info' => 'Wenn fortgefahren wird, werden die Konfigurations-Einstellungen geändert, sofern die empfohlene Einstellung ausgewählt ist.',
@@ -516,7 +514,6 @@ $lang = array_merge($lang, array(
 // Success messages for options
     'cls_success' => 'Alle Sitzungsdaten wurden erfolgreich gelöscht.',
     'ecf_success' => 'Cache erfolgreich geleert.',
-    'fdt_success' => 'def_tree.php erfolgreich wiederhergestellt.',
     'rdb_success' => 'Die Tabellen der Datenbank wurden repariert.',
     'rpd_success' => 'Die Konfigurations-Einstellungen wurden erfolgreich aktualisiert.',
     'cct_success' => 'Die Konfigurations-Tabelle wurde erfolgreich repariert.',
@@ -535,7 +532,7 @@ $lang = array_merge($lang, array(
 // Text for success messages
     'Removing_admins' => 'Entferne Administratoren',
 // Help Text
-    'Option_Help_Text' => '<p>Wenn du eine Fehlermeldung erhälst, dass bei der Erstellung einer Session bzw. Sitzung ein Fehler aufgetreten ist (oder so ähnlich), kannst du die Sitzungsdaten mit <b>Lösche alle Sitzungen</b> löschen. Wenn du Probleme beim Zugriff auf Datenbank-Tabellen hast, so kannst du diese mit <b>Repariere Datenbank-Tabellen</b> reparieren. <b>Überprüfe Konfigurations-Tabelle</b> überprüft die Konfiguartions-Tabelle auf fehlende Einträge, was bei verschiedensten Problemen helfen kann.</p><p>Wenn du dich nicht anmelden kannst oder nicht auf den Administrations-Bereich zugreifen kannst, kann ein Fehler bei den Pfad- oder Cookie-Einstellungen vorliegen. Du kannst sie unter <b>Setze Pfad-Daten zurück</b> oder <b>Setze Cookie-Daten zurück</b> ändern. Du kannst auch die Spracheinstellungen unter <b>Setze Sprach-Daten zurück</b> bzw. die Style-Einstellungen unter <b>Setze Style-Daten zurück</b> zurücksetzen.</p><p>Wenn nach der Aktivierung der GZip-Komprimierung Probleme auftreten, so kannst du sie mit <b>Deaktiviere GZip-Komprimierung</b> ausschalten.</p><p>Wenn du das Passwort zu deinem Benutzernamen vergessen hast, kannst du einem Benutzer Admin-Rechte geben, indem du <b> Gewähre einem Benutzer Admin-Rechte</b> auswählst. Dadurch wird der Benutzer auch aktiviert, so dass du einen kurz zuvor erstelltes Benutzer-Konto verwenden kannst. Wenn du keinen neuen Benutzer erstellen kannst, kannst du die Bann-Liste mit <b> Lösche Bann-Liste</b> löschen (dies stelle auch das Gast-Benutzer-Konto wieder her).</p><p>Wenn dein Board gehackt wurde, solltest du alle Admin-Accounts entfernen, indem du <b>Entferne alle Administratoren</b> entfernst. (Die Accounts selbst werden nicht gelöscht sondern nur die Admin-Rechte entfernt.)</p><p>Wenn du die config.php wiederherstellen musst, kannst du dies mit <b>Stelle config.php wieder her</b> machen.</p>',
+    'Option_Help_Text' => '<p>Wenn du eine Fehlermeldung erhältst, dass bei der Erstellung einer Session bzw. Sitzung ein Fehler aufgetreten ist (oder so ähnlich), kannst du die Sitzungsdaten mit <b>Lösche alle Sitzungen</b> löschen. Wenn du Probleme beim Zugriff auf Datenbank-Tabellen hast, so kannst du diese mit <b>Repariere Datenbank-Tabellen</b> reparieren. <b>Überprüfe Konfigurations-Tabelle</b> überprüft die Konfiguartions-Tabelle auf fehlende Einträge, was bei verschiedensten Problemen helfen kann.</p><p>Wenn du dich nicht anmelden kannst oder nicht auf den Administrations-Bereich zugreifen kannst, kann ein Fehler bei den Pfad- oder Cookie-Einstellungen vorliegen. Du kannst sie unter <b>Setze Pfad-Daten zurück</b> oder <b>Setze Cookie-Daten zurück</b> ändern. Du kannst auch die Spracheinstellungen unter <b>Setze Sprach-Daten zurück</b> bzw. die Style-Einstellungen unter <b>Setze Style-Daten zurück</b> zurücksetzen.</p><p>Wenn nach der Aktivierung der GZip-Komprimierung Probleme auftreten, so kannst du sie mit <b>Deaktiviere GZip-Komprimierung</b> ausschalten.</p><p>Wenn du das Passwort zu deinem Benutzernamen vergessen hast, kannst du einem Benutzer Admin-Rechte geben, indem du <b> Gewähre einem Benutzer Admin-Rechte</b> auswählst. Dadurch wird der Benutzer auch aktiviert, so dass du einen kurz zuvor erstelltes Benutzer-Konto verwenden kannst. Wenn du keinen neuen Benutzer erstellen kannst, kannst du die Bann-Liste mit <b> Lösche Bann-Liste</b> löschen (dies stelle auch das Gast-Benutzer-Konto wieder her).</p><p>Wenn dein Board gehackt wurde, solltest du alle Admin-Accounts entfernen, indem du <b>Entferne alle Administratoren</b> entfernst. (Die Accounts selbst werden nicht gelöscht sondern nur die Admin-Rechte entfernt.)</p><p>Wenn du die config.php wiederherstellen musst, kannst du dies mit <b>Stelle config.php wieder her</b> machen.</p>',
 
     'dbmntc_Invalid_Option' => 'Ungültige Option',
 	)

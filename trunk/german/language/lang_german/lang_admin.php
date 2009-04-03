@@ -73,11 +73,11 @@ $lang = array_merge($lang, array(
     'Not_admin' => 'Du hast keine Administrator-Rechte',
     'Welcome_phpBB' => 'Willkommen bei Icy Phoenix',
     'Admin_intro' => 'Danke, dass du dich für Icy Phoenix entschieden hast. Auf diesem Bildschirm erhältst du einen Überblick über die Statistiken deines Forums. Wenn du auf diese Seite zurückkehren möchtest, klicke auf den <u>Admin Index</u>-Link im oberen Bedienfeld. Um zu deinem Forum zurückzukehren, klicke oben rechts auf Forum. Die anderen Links auf der linken Seite erlauben es dir, alle wichtigen Bereiche deines Forums zu kontrollieren. In jedem Bereich wird beschrieben, wie die einzelnen Funktionen verwendet werden.',
-	'PayPalInfo' => 'Icy Phoenix ist ein Open Source Project, solltest du an der Weiterentwicklung von Icy Phoenix interessiert sein, kannst du unten stehenden Link verwenden.',
+	'PayPalInfo' => 'Icy Phoenix ist ein Open Source Projekt. Du kannst deine Anerkennung zeigen und die Weiterentwicklung von Icy Phoenix unterstützen, indem du für das Projekt spendest.',
     'Forum_stats' => 'Forum Statistiken',
     'Admin_Index' => 'Admin-Index',
     'Preview_forum' => 'Forumsvorschau',
-    'Click_return_admin_index' => '%sKlicke hier%s, um zum Admin-Index zurückzukehren.',
+    'Click_return_admin_index' => 'Klicke %shier%s, um zum Admin-Index zurückzukehren.',
     'Portal' => 'Portal',
     'Preview_Portal' => 'Portal Vorschau',
     'Main_index' => 'Forum',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 
     'Restore_success' => 'Die Datenbank wurde wieder hergestellt.<br /><br />Dein Board sollte jetzt wieder den Stand des Backups haben.',
     'Backup_download' => 'Dein Download wird in Kürze beginnen - bitte etwas Geduld',
-    'Backups_not_supported' => 'Fehler: Dein Datenbanksystem unterstützt Datenbank-Backups nicht!',
+    'Backups_not_supported' => 'Fehler: dein Datenbanksystem unterstützt Datenbank-Backups nicht!',
 
     'Restore_Error_uploading' => 'Fehler beim Hochladen der Backup-Datei',
     'Restore_Error_filename' => 'Probleme mit dem Dateinamen, probiere einen anderen',
@@ -207,9 +207,9 @@ $lang = array_merge($lang, array(
     'Group_auth_updated' => 'Gruppenberechtigungen aktualisiert',
 
     'Auth_updated' => 'Befugnisse wurden aktualisiert',
-    'Click_return_userauth' => '%sKlicke hier%s, um zu den Benutzerrechten zurückzukehren.',
-    'Click_return_groupauth' => '%sKlicke hier%s, um zu den Gruppenrechten zurückzukehren.',
-    'Click_return_forumauth' => '%sKlicke hier%s, um zu den Forenberechtigungen zurückzukehren.',
+    'Click_return_userauth' => 'Klicke %shier%s, um zu den Benutzerrechten zurückzukehren.',
+    'Click_return_groupauth' => 'Klicke %shier%s, um zu den Gruppenrechten zurückzukehren.',
+    'Click_return_forumauth' => 'Klicke %shier%s, um zu den Forenberechtigungen zurückzukehren.',
 
 // Banning
     'Ban_control' => 'Sperren',
@@ -244,13 +244,13 @@ $lang = array_merge($lang, array(
     'No_banned_email' => 'Keine gebannten E-Mail Adressen',
 
     'Ban_update_sucessful' => 'Die Banliste wurde aktualisiert',
-    'Click_return_banadmin' => '%sKlicke hier%s, um zur Sperr-Kontrolle zurückzukehren.',
+    'Click_return_banadmin' => 'Klicke %shier%s, um zur Sperr-Kontrolle zurückzukehren.',
 
 // Configuration
     'General_Config' => 'Allgemeine Konfiguration',
     'Config_explain' => 'Hier kannst du die allgemeinen Einstellungen deines Forums ändern. Für Benutzer- und Foreneinstellungen nutze bitte die Links auf der linken Seite.',
 
-    'Click_return_config' => '%sKlicke hier%s, um zur allgemeinen Konfiguration zurückzukehren.',
+    'Click_return_config' => 'Klicke %shier%s, um zur allgemeinen Konfiguration zurückzukehren.',
 
     'General_settings' => 'Allgemeine Boardeinstellungen',
     'Server_name' => 'Domainname',
@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
     'Allow_name_change' => 'Namenswechsel erlauben',
 
     'Avatar_settings' => 'Avatareinstellungen',
-    'Allow_local' => 'Galerieavatare erlauben',
+    'Allow_local' => 'Galerie-Avatare erlauben',
     'Allow_remote' => 'Avatarremote erlauben',
     'Allow_remote_explain' => 'Avatare, die von einer anderen Site verlinkt werden',
     'Allow_upload' => 'Hochladen von Avataren erlauben',
@@ -391,15 +391,15 @@ $lang = array_merge($lang, array(
 	'FORUM_SIMILAR_TOPICS' => 'Ähnliche Themen-Box',
 	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird unter jedem Thema eine Box mit ähnlichen Themen angezeigt.',
 	'FORUM_TOPIC_VIEWS' => 'Themen-Betrachter',
-	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Wenn du diese Option aktivierst werden alle Benutzer die ein Thema in diesem Forum anschauen, in der Datenbank gespeichert ( Um diese Funktion nutzen zu können, mußt du auch die Globale Einstellung in Icy Phoenix Einstellungen => SQL Optimierung aktivieren)',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Wenn du diese Option aktivierst werden alle Benutzer die ein Thema in diesem Forum anschauen, in der Datenbank gespeichert (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung in Icy Phoenix Einstellungen => SQL Optimierung aktivieren)',
 	'FORUM_TAGS' => 'Forum Tags',
-	'FORUM_TAGS_EXPLAIN' => 'Diese Option aktiviert eine Box, die die am häufigsten genutzten Wörter des gesamten Forums anzeigt (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
+	'FORUM_TAGS_EXPLAIN' => 'Diese Option aktiviert eine Box, die die am häufigsten genutzten Wörter des gesamten Forums anzeigt (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung in Icy Phoenix Einstellungen => SEO aktivieren)',
 	'FORUM_SORT_BOX' => 'Themen Sortierungs-Box',
-	'FORUM_SORT_BOX_EXPLAIN' => 'Wenn diese Option aktiviert ist, siehst du eine Box die dir erlaubt, die Themen alphabetisch zu ordnen (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
+	'FORUM_SORT_BOX_EXPLAIN' => 'Wenn diese Option aktiviert ist, siehst du eine Box die dir erlaubt, die Themen alphabetisch zu ordnen (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung in Icy Phoenix Einstellungen aktivieren)',
 	'FORUM_KB_MODE' => 'Wissensdatenbank Modus',
 	'FORUM_KB_MODE_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird das Forum im Wissensdatenbank Modus gezeigt. (Themen werden ähnlich der Wissensdatenbank aufgelistet)',
 	'FORUM_INDEX_ICONS' => 'Index Icons',
-	'FORUM_INDEX_ICONS_EXPLAIN' => 'Wenn diese Option aktiviert ist, werden Icons für RSS und Neues Thema im Foren-Index angezeigt (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
+	'FORUM_INDEX_ICONS_EXPLAIN' => 'Wenn diese Option aktiviert ist, werden Icons für RSS und Neues Thema im Foren-Index angezeigt (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung in Icy Phoenix Einstellungen aktivieren)',
 
     'Move_and_Delete' => 'Verschieben und Löschen',
 
@@ -413,10 +413,10 @@ $lang = array_merge($lang, array(
 
     'Must_delete_forums' => 'Du musst erst alle Foren löschen, bevor du diese Kategorie löschen kannst',
 
-    'Click_return_forumadmin' => '%sKlicke hier%s, um zur Forumsadministration zurückzukehren.',
+    'Click_return_forumadmin' => 'Klicke %shier%s, um zur Forumsadministration zurückzukehren.',
 
 // Smiley Management
-    'smiley_title' => 'Smiley-Bearbeitung',
+    'smiley_title' => 'Smilies-Bearbeitung',
     'smile_desc' => 'Hier kannst du die Smilies, die die Benutzer in ihren Beiträgen und Privaten Nachrichten einfügen können, hinzufügen, löschen oder bearbeiten.',
  
 	'smiley_config' => 'Smiley-Konfiguration',
@@ -444,7 +444,7 @@ $lang = array_merge($lang, array(
     'smiley_edit_success' => 'Der Smiley wurde geändert',
     'smiley_import_success' => 'Das Smiley-Paket wurde installiert',
     'smiley_del_success' => 'Der Smiley wurde gelöscht',
-    'Click_return_smileadmin' => '%sKlicke hier%s, um zur Smiley-Verwaltung zurückzukehren.',
+    'Click_return_smileadmin' => 'Klicke %shier%s, um zur Smiley-Verwaltung zurückzukehren.',
 	
 // User Management
     'User_admin' => 'Benutzer-Administration',
@@ -454,9 +454,9 @@ $lang = array_merge($lang, array(
 
     'Admin_user_fail' => 'Benutzerprofil konnte nicht geändert werden',
     'Admin_user_updated' => 'Benutzerprofil geändert',
-    'Click_return_useradmin' => '%sKlicke hier%s, um zur Benutzeradministration zurückzukehren.',
+    'Click_return_useradmin' => 'Klicke %shier%s, um zur Benutzeradministration zurückzukehren.',
 //Start Quick Administrator User Options and Information MOD
-    'Click_return_userprofile' => '%sKlicke hier%s, um zum Benutzerprofil zurückzugelangen.',
+    'Click_return_userprofile' => 'Klicke %shier%s, um zum Benutzerprofil zurückzugelangen.',
 //End Quick Administrator User Options and Information MOD
     'User_delete' => 'Diesen Benutzer löschen',
     'User_delete_explain' => 'Klicke hier, um den Benutzer zu löschen - diese Aktion kann nicht rückgängig gemacht werden.',
@@ -497,7 +497,7 @@ $lang = array_merge($lang, array(
     'No_group_action' => 'Es wurde keine Aktion ausgewählt',
     'delete_group_moderator' => 'Alten Gruppenleiter entfernen?',
     'delete_moderator_explain' => 'Wenn du den Gruppenleiter wechseln möchtest, wähle die entsprechende Option, um den alten Leiter zu entfernen. Ansonsten wähle die Option nicht und der Benutzer wird ein reguläres Mitglied der Gruppe.',
-    'Click_return_groupsadmin' => '%sKlicke hier%s, um zur Gruppenadministration zurückzukehren.',
+    'Click_return_groupsadmin' => 'Klicke %shier%s, um zur Gruppenadministration zurückzukehren.',
     'Select_group' => 'Gruppe wählen',
     'Look_up_group' => 'Gruppe finden',
 
@@ -527,7 +527,7 @@ $lang = array_merge($lang, array(
     'Word_added' => 'Die Wortzensur wurde eingerichtet',
     'Word_removed' => 'Die Wortzensur wurde entfernt',
 
-    'Click_return_wordadmin' => '%sKlicke hier%s, um zur Wortzensur-Administration zurückzukehren.',
+    'Click_return_wordadmin' => 'Klicke %shier%s, um zur Wortzensur-Administration zurückzukehren.',
 
 // Mass Email
     'Mass_email_explain' => 'Hier kannst du entweder allen registrierten Benutzern oder einer bestimmten Gruppe eine Nachricht schicken. Diese Nachricht wird an das Postfach des Administrators geschickt und anonym (BCC) an alle Empfänger. Solltest du einer großen Gruppe eine E-Mail schicken, habe etwas Geduld und brich den Vorgang nicht ab. Es ist völlig normal, dass der Vorgang länger dauert und du erhältst eine Rückmeldung, wenn das Skript beendet ist',
@@ -537,7 +537,7 @@ $lang = array_merge($lang, array(
     'All_users' => 'Alle Benutzer',
 
     'Email_successfull' => 'Die Nachricht wurde gesendet',
-    'Click_return_massemail' => '%sKlicke hier%s, um zur Massen E-Mail zurückzukehren.',
+    'Click_return_massemail' => 'Klicke %shier%s, um zur Massen E-Mail zurückzukehren.',
 
 // Ranks admin
     'Ranks_title' => 'Rang-Administration',
@@ -560,7 +560,7 @@ $lang = array_merge($lang, array(
     'Rank_removed' => 'Der Rang wurde gelöscht',
     'No_update_ranks' => 'Der Rang wurde erfolgreich gelöscht. Allerdings wurden Benutzer, denen dieser Rang zugeordnet war, nicht aktualisiert. Du musst den Rang bei diesen Benutzern manuell aktualisieren',
 
-    'Click_return_rankadmin' => '%sKlicke hier%s, um zur Rang-Administration zurückzukehren.',
+    'Click_return_rankadmin' => 'Klicke %shier%s, um zur Rang-Administration zurückzukehren.',
 
 // Disallow Username Admin
     'Disallow_control' => 'Verbot von Benutzernamen',
@@ -580,7 +580,7 @@ $lang = array_merge($lang, array(
     'Disallow_successful' => 'Der verbotene Benutzername wurde hinzugefügt',
     'Disallowed_already' => 'Der angegebene Benutzername kann nicht verboten werden. Er existiert entweder schon oder stimmt mit einem existierenden überein.',
 
-    'Click_return_disallowadmin' => '%sKlicke hier%s, um zum Verbot der Benutzernamen zurückzukehren.',
+    'Click_return_disallowadmin' => 'Klicke %shier%s, um zum Verbot der Benutzernamen zurückzukehren.',
 
 // Styles Admin
     'Styles_admin' => 'Styles Administration',
@@ -616,7 +616,7 @@ $lang = array_merge($lang, array(
     'Cannot_remove_style' => 'Du kannst den gewählten Style nicht entfernen, da er zum Forumsstandard gehört. Du kannst jedoch einen anderen Forumsstandard wählen und es erneut versuchen.',
     'Style_exists' => 'Der gewählte Stylename existiert bereits, bitte gehe zurück und wähle einen anderen Namen.',
 
-    'Click_return_styleadmin' => '%sKlicke hier%s, um zur Styles Administration zurückzukehren.',
+    'Click_return_styleadmin' => 'Klicke %shier%s, um zur Styles Administration zurückzukehren.',
 
     'Theme_settings' => 'Theme Einstellungen',
     'Theme_element' => 'Theme Element',
@@ -690,7 +690,7 @@ $lang = array_merge($lang, array(
     'User_deleted_successfully' => 'Benutzer wurde(n) erfolgreich gelöscht.',
     'User_add_group_successfully' => 'Benutzer wurde(n) erfolgreich zur Gruppe hinzugefügt.',
 
-    'Click_return_userlist' => '%sKlicke hier%s um zur Benutzerliste zurückzukehren.',
+    'Click_return_userlist' => 'Klicke %shier%s um zur Benutzerliste zurückzukehren.',
 //
 // Admin Userlist End
 
@@ -800,7 +800,7 @@ $lang = array_merge($lang, array(
     'Optimize_CheckAll' => 'Alle auswählen',
     'Optimize_UncheckAll' => 'Alle abwählen',
     'Optimize_InvertChecked' => 'Auswahl umkehren',
-    'Optimize_return' => '%sKlicke hier%s, um zur Datenbankoptimierung zurückzukehren.',
+    'Optimize_return' => 'Klicke %shier%s, um zur Datenbankoptimierung zurückzukehren.',
     'Optimize_success' => 'Die Datenbank wurde erfolgreich optimiert.',
     'Optimize_NoTableChecked' => '<b>Keine</b> Tabellen ausgewählt',
 	
@@ -818,7 +818,7 @@ $lang = array_merge($lang, array(
     'Detector_Clear' => 'Alles löschen',
     'Detector_No_Bot' => 'Kein Bot gefunden',
     'Detector_Cleared' => 'Erkannte Bots erfolgreich gelöscht.',
-    'Click_Return_Detector' => '%sKlicke hier%s, um zum Bot Detektor zurückzukehren.',
+    'Click_Return_Detector' => 'Klicke %shier%s, um zum Bot Detektor zurückzukehren.',
 
 // added to Auto group mod
     'group_count' => 'Anzahl erforderlicher Beiträge',
@@ -828,7 +828,7 @@ $lang = array_merge($lang, array(
     'Group_count_update' => 'Hinzufügen/Aktualisieren neuer Nutzer',
     'Group_count_delete' => 'Löschen/Aktualisieren alter Nutzer',
     'User_allow_ag' => 'Aktiviere Auto Gruppe',
-    'group_count_explain' => 'Wenn Benutzer mehr als diese Anzahl Beiträge geschrieben haben <i>(in beliebigen Foren)</i>, werden sie automatisch zu dieser Benutzergruppe hinzugefügt<br /> Das trifft nur zu, wenn "Füge Benutzer automatisch hinzu, wenn sie schreiben" aktiviert ist.',
+    'group_count_explain' => 'Wenn Benutzer mehr als diese Anzahl Beiträge geschrieben haben <i>(in beliebigen Foren)</i>, werden sie automatisch zu dieser Benutzergruppe hinzugefügt<br /> Das trifft nur zu, wenn "' . $lang['Group_count_enable'] . '" aktiviert ist.',
 
 // Start add - Bin Mod
     'Bin_forum' => 'Papierkorb-Forum',
@@ -840,7 +840,7 @@ $lang = array_merge($lang, array(
     'Must_select_title' => 'Du musst ein Quick Titel Add-on auswählen',
     'Title_updated' => 'Quick Titel Add-on aktualisiert',
     'Title_added' => 'Quick Titel Add-on hinzugefügt',
-    'Click_return_titleadmin' => '%sKlicke hier%s, um zum Quick Titel Management zurückzukehren.',
+    'Click_return_titleadmin' => 'Klicke %shier%s, um zum Quick Titel Management zurückzukehren.',
     'Title_removed' => 'Quick Titel Add-on entfernt',
     'Quick_title_explain' => 'Hier kannst du kurze Texte erstellen, welche du dann per Klick auf einen Button zum Thementitel hinzufügen kannst.</br>Wenn du möchtest, dass der Name des Benutzers, der die Änderung durchgeführt hat angezeigt wird, setzte einfach %mod% an die gewünschte Stelle. Zum Beispiel wird [Link OK | geprüft von %mod%] als [Link OK | geprüft von ModeratorName] angezeigt. Auf die gleiche Art und Weise kannst du auch das Datum einfügen, indem du %date% an die gewünschte Stelle setzt.',
     'Title_head' => 'Quick Titel Add-on',
@@ -863,7 +863,7 @@ $lang = array_merge($lang, array(
 
     'LIW_config_updated' => 'Die Bildbreitenbegrenzungs-Konfiguration wurde erfolgreich aktualisiert.',
     'LIW_cache_emptied' => 'Die Cache-Tabelle wurde erfolgreich geleert.',
-    'LIW_click_return_config' => '%sKlicke hier%s, um zur Bildbreitenbegrenzungs-Konfigurationsseite zurückzukehren.',
+    'LIW_click_return_config' => 'Klicke %shier%s, um zur Bildbreitenbegrenzungs-Konfigurationsseite zurückzukehren.',
 
     'LIW_getimagesize' => 'getimagesize() URL Unterstützung',
     'LIW_getimagesize_explain' => 'Verfügbar ab PHP 4.0.5',
@@ -1061,7 +1061,7 @@ $lang = array_merge($lang, array(
     'Acronym_added' => 'Die Abkürzung wurde erfolgreich hinzugefügt',
     'Acronym_removed' => 'Die ausgewählte Abkürzung wurde entfernt',
 
-    'Click_return_acronymadmin' => '%sKlicke hier%s, um zur Abkürzungs-Verwaltung zurückzukehren.',
+    'Click_return_acronymadmin' => 'Klicke %shier%s, um zur Abkürzungs-Verwaltung zurückzukehren.',
     'Prune_shouts' => 'Shouts automatisch löschen',
     'Prune_shouts_explain' => 'Anzahl Tage, bevor Shouts gelöscht werden. Gib 0 ein, um diese Funktion zu deaktivieren.',
 
@@ -1092,7 +1092,7 @@ $lang = array_merge($lang, array(
     'Prune_check' => 'Alle auswählen',
     'Prune_days' => 'Tage',
     'Prune_days_explain' => '* Entferne Themen ohne Antworten.',
-    'Click_return_admin_po' => '%sKlicke hier%s, um zur Pruning Übersicht zurückzukehren.',
+    'Click_return_admin_po' => 'Klicke %shier%s, um zur Pruning Übersicht zurückzukehren.',
     'Prune_update' => 'Die Einstellungen zum automatischen Löschen wurden erfolgreich aktualisiert.',
 
     'Admin_notepad_title' => 'Notizblock',
@@ -1127,7 +1127,7 @@ $lang = array_merge($lang, array(
     'No_autolink_selected' => 'Es wurde kein Autolink zum Löschen ausgewählt.',
     'No_autolinks' => 'Es gibt keine Autolinks in der Datenbank.',
     'Must_enter_autolink' => 'Du musst ein Schlüsselwort, Link-Text und eine URL eingeben.',
-    'Click_return_autolinkadmin' => '%sKlicke hier%s, um zur Autolink Administration zurückzukehren.',
+    'Click_return_autolinkadmin' => 'Klicke %shier%s, um zur Autolink Administration zurückzukehren.',
 // End Autolinks Mod
 
 // XS BUILD 030
@@ -1159,7 +1159,7 @@ $lang = array_merge($lang, array(
     'auth_view_group_cp' => 'Benutzergruppen',
     'auth_view_profile' => 'Benutzerprofile',
     'auth_view_search' => 'Suche',
-    'auth_view_album' => 'Galerie',
+    'auth_view_album' => 'Foto-Galerie',
     'auth_view_links' => 'Links',
     'auth_view_calendar' => 'Kalender',
     'auth_view_attachments' => 'Anhänge',
@@ -1182,20 +1182,20 @@ $lang = array_merge($lang, array(
 // Begin Yahoo Submit Your Site MOD by www.pentapenguin.com
     'Yahoo_search' => 'Yahoo Suche',
     'Yahoo_search_settings' => 'Yahoo Suche Einstellungen',
-    'Yahoo_search_settings_explain' => 'Hier kannst Du die Einstellungen für den Yahoo Submit Your Site MOD vornehmen. Für mehr Informationen, schau bitte auf die <a href="http://submit.search.yahoo.com/free/request" target="_blank">Yahoo Submit Your Site Webseite</a>.',
+    'Yahoo_search_settings_explain' => 'Hier kannst du die Einstellungen für den Yahoo Submit Your Site MOD vornehmen. Für mehr Informationen, schau bitte auf die <a href="http://submit.search.yahoo.com/free/request" target="_blank">Yahoo Submit Your Site Webseite</a>.',
     'Yahoo_search_select_forums' => 'Foren auswählen',
-    'Yahoo_search_select_forums_explain' => 'Wähle die Foren aus die in diese Liste eingeschlossen werden sollen. Du kannst soviele Foren auswählen wie Du willst, wenn Du die STRG Taste (Windows) oder Command Taste (Macintosh) gedrückt hältst. Standardmäßig sind alle öffentlich sichtbaren Foren ausgewählt.',
+    'Yahoo_search_select_forums_explain' => 'Wähle die Foren aus die in diese Liste eingeschlossen werden sollen. Du kannst soviele Foren auswählen wie Du willst, wenn du die STRG Taste (Windows) oder Command Taste (Macintosh) gedrückt hältst. Standardmäßig sind alle öffentlich sichtbaren Foren ausgewählt.',
     'Yahoo_search_savepath' => 'Speicherort der URL Liste',
-    'Yahoo_search_savepath_explain' => 'Gib einen Ort an, wo die URL Liste gespeichert werden soll. Gib den Pfad relativ zum Icy Phoenix Root-Verzeichnis an. -- z.B. wenn du die Datei im Cache Ordner unter <b>www.yoursite.com/cache/</b> speicherst, dann gib <b>cache</b> ein. Beachte das Du den CHMOD 777 bei diesem Ordner einstellen musst.',
+    'Yahoo_search_savepath_explain' => 'Gib einen Ort an, wo die URL Liste gespeichert werden soll. Gib den Pfad relativ zum Icy Phoenix Root-Verzeichnis an. -- z.B. wenn du die Datei im Cache Ordner unter <b>www.yoursite.com/cache/</b> speicherst, dann gib <b>cache</b> ein. Beachte das du den CHMOD 777 bei diesem Ordner einstellen musst.',
     'Yahoo_search_additional_urls' => 'Zusätzliche URLs angeben',
     'Yahoo_search_additional_urls_explain' => 'Gib zusätzliche URLs an die Yahoo besuchen soll, pro Zeile eine. Du musst die vollständige URL angeben -- z.B. <b>http://www.yoursite.com/yourpage.HTML</b>.',
     'Yahoo_search_compress_file' => 'Die URL Liste komprimieren',
-    'Yahoo_search_compress_file_explain' => 'Wenn Du Ja für diese Option gewählt hast, wird die Liste der URLs mit Gzip komprimiert was eine viel kleinere Datei und demzufolge eine kleinere Bandbreite vom Yahoo Bot ergibt. Diese Einstellung funktioniert nicht wenn Dein Server kein Gzip unterstützt.',
+    'Yahoo_search_compress_file_explain' => 'Wenn du Ja für diese Option gewählt hast, wird die Liste der URLs mit Gzip komprimiert was eine viel kleinere Datei und demzufolge eine kleinere Bandbreite vom Yahoo Bot ergibt. Diese Einstellung funktioniert nicht wenn dein Server kein Gzip unterstützt.',
     'Yahoo_search_compression_level' => 'Kompressions-Level für die Datei',
-    'Yahoo_search_compression_level_explain' => 'Wähle ein Kompressions-Level für die Datei. 9 ist die empfohlene Einstellung, es sei denn Du hast Probleme damit, dann solltest Du einen kleineren Wert einstellen.',
+    'Yahoo_search_compression_level_explain' => 'Wähle ein Kompressions-Level für die Datei. 9 ist die empfohlene Einstellung, es sei denn Du hast Probleme damit, dann solltest du einen kleineren Wert einstellen.',
     'Yahoo_search_generate_file' => 'Datei erstellen',
     'Yahoo_search_error_no_forums' => 'Fehler: keine Foren ausgewählt. Gehe zurück und wähle mindestens eins aus.',
-    'Yahoo_search_error_no_gzip' => 'Fehler: Entweder Du verwendest eine alte PHP Version, oder Dein Webhost stützt kein Gzip . Bitte gehe zurück und wähle <b>Nein</b> für die <b>Die URL Liste komprimiert</b> Option.',
+    'Yahoo_search_error_no_gzip' => 'Fehler: Entweder Du verwendest eine alte PHP Version, oder dein Webhost stützt kein Gzip . Bitte gehe zurück und wähle <b>Nein</b> für die <b>Die URL Liste komprimiert</b> Option.',
     'Yahoo_search_error_unopenable_file' => 'Fehler: kann die Datei %s nicht öffnen.',
     'Yahoo_search_error_unwritable_file' => 'Fehler: kann die Datei %s nicht überschreiben.',
     'Yahoo_search_error_unclosable_file' => 'Fehler: kann die Datei %s nicht schliessen.',
@@ -1224,15 +1224,15 @@ $lang = array_merge($lang, array(
 // Search Flood Control - added 2.0.20
     'Search_Flood_Interval' => 'Flood-Intervall für Suche',
     'Search_Flood_Interval_explain' => 'Anzahl der Sekunden, die ein Benutzer zwischen Suchanfragen warten muss',
-    'Confirm_delete_smiley' => 'Bist Du sicher, dass dieses Smiley gelöscht werden soll?',
-    'Confirm_delete_word' => 'Bist Du sicher, dass diese Wortzensur gelöscht werden soll?',
-    'Confirm_delete_rank' => 'Bist Du sicher, dass dieser Rang gelöscht werden soll?',
+    'Confirm_delete_smiley' => 'Bist du sicher, dass dieses Smiley gelöscht werden soll?',
+    'Confirm_delete_word' => 'Bist du sicher, dass diese Wortzensur gelöscht werden soll?',
+    'Confirm_delete_rank' => 'Bist du sicher, dass dieser Rang gelöscht werden soll?',
 
 // Custom Profile Fields MOD
     'custom_field_notice_admin' => 'Diese Erklärungen sind von Dir oder einem anderen Administrator erstellt worden. Für mehr Informationen, prüfe die Erklärungen unter den Profilfeldern. Felder die mit * gekennzeichnet sind, sind Pflichtfelder. Felder die mit &dagger; gekennzeichnet sind, sind nur für Admins sichtbar.',
 
     'field_deleted' => 'Das angegebene Feld ist gelöscht worden',
-    'double_check_delete' => 'Bist Du sicher das Profil Feld "%s" komplett aus der Datenbank zu entfernen?',
+    'double_check_delete' => 'Bist du sicher das Profil Feld "%s" komplett aus der Datenbank zu entfernen?',
 
     'here' => 'Hier',
 	'new_field_link' => '<a href="' . append_sid($filename . '?mode=add&amp;pfid=x') . '">%s</a>',
@@ -1247,8 +1247,8 @@ $lang = array_merge($lang, array(
 
     'add_field_title' => 'Füge spezifische Profil Felder hinzu',
     'edit_field_title' => 'Bearbeite spezifische Profil Felder',
-    'add_field_explain' => 'Hier kannst Du neue Felder für Deine Benutzer anlegen die in deren Profilen angezeigt werden.',
-    'edit_field_explain' => 'Hier kannst Du Felder bearbeiten die Du bereits für Deine Benutzer angelegt hast.',
+    'add_field_explain' => 'Hier kannst du neue Felder für deine Benutzer anlegen die in deren Profilen angezeigt werden.',
+    'edit_field_explain' => 'Hier kannst du Felder bearbeiten die du bereits für deine Benutzer angelegt hast.',
 
     'add_field_general' => 'Allgemeine Einstellungen',
     'add_field_admin' => 'Administrator Einstellungen',
@@ -1273,10 +1273,10 @@ $lang = array_merge($lang, array(
     'add_field_name' => 'Feld Name',
     'add_field_name_explain' => 'Trage den Namen ein, den Du mit diesem Feld verbinden möchtest.',
     'add_field_description' => 'Feld Beschreibung',
-    'add_field_description_explain' => 'Trage eine Beschreibung ein, die Du mit diesem Feld verbinden möchtest. Er wird in kleinem Text unterhalb des Feldnamens, wie dieser Text ist, angezeigt.',
+    'add_field_description_explain' => 'Trage eine Beschreibung ein, die du mit diesem Feld verbinden möchtest. Er wird in kleinem Text unterhalb des Feldnamens, wie dieser Text ist, angezeigt.',
     'add_field_type' => 'Feld Typ',
-    'add_field_type_explain' => 'Wähle den Typ des Profil Feldes das Du hinzufügen möchtest. Beispiele jedes Feldtyps werden ganz rechts angezeigt.',
-    'edit_field_type_explain' => 'Wähle den Typ des Profil Feldes das Du ändern möchtest. Beispiele jedes Feldtyps werden ganz rechts angezeigt.',
+    'add_field_type_explain' => 'Wähle den Typ des Profil Feldes das du hinzufügen möchtest. Beispiele jedes Feldtyps werden ganz rechts angezeigt.',
+    'edit_field_type_explain' => 'Wähle den Typ des Profil Feldes das du ändern möchtest. Beispiele jedes Feldtyps werden ganz rechts angezeigt.',
     'add_field_required' => 'Setze als erforderlich',
     'add_field_required_explain' => 'Wenn das Feld als "Erforderlich" gesetzt ist, jeder Benutzer der sich später registriert <strong>muss</strong> es ausfüllen, und alle vorhandenen Benutzer müssen es mit einem Standard Wert ausfüllen.',
     'add_field_user_can_view' => 'Erlaube Benutzern die Ansicht',
@@ -1302,7 +1302,7 @@ $lang = array_merge($lang, array(
     'checkbox_example' => 'Das ist ein Beispiel für zwei Checkboxen',
 
     'profile_field_list' => 'Deine Custom Profil Felder',
-    'profile_field_list_explain' => 'Dies sind alle Custom Profil Felder die Du für dein Forum erstellt hast, mit Links um diese zu bearbeiten oder zu löschen.',
+    'profile_field_list_explain' => 'Dies sind alle Custom Profil Felder die du für dein Forum erstellt hast, mit Links um diese zu bearbeiten oder zu löschen.',
     'profile_field_id' => 'ID #',
     'profile_field_name' => 'Feld Name',
     'profile_field_action' => 'Aktion',
@@ -1325,7 +1325,7 @@ $lang = array_merge($lang, array(
     'Forum_postcount' => 'Beiträge zählen',
     'Use_Captcha' => 'CAPTCHA aktivieren',
     'Use_Captcha_Explain' => 'Wenn CAPTCHA aktiviert ist, wird ein erweiterter Bestätigungs-Code generiert, welcher für Bots schwer auszulesen ist (erfordert GD). Wenn deaktiviert wird der Standard Bestätigungs-Code angezeigt.',
-    'Sync_Pics_Count' => 'Wenn du auf <b>JA</b> klickst, werden die Zähler der persönlichen Galerien aller Nutzer synchronisiert.',
+    'Sync_Pics_Count' => 'Wenn du auf <b>JA</b> klickst, werden die Zähler der persönlichen Foto-Galerien aller Nutzer synchronisiert.',
     'Pics_Count_Synchronized' => 'Folgende Bildzähler wurden korrekt synchronisiert:',
     'Pics_Count_Not_Synchronized' => 'Folgende Bildzähler wurden nicht korrekt synchronisiert:',
 
@@ -1353,26 +1353,29 @@ $lang = array_merge($lang, array(
     'Post_count_explain' => 'Hier kannst du den Beitragszähler für einen bestimmten Benutzer anpassen.',
     'Modify_post_counts' => 'Beitragszähler bearbeiten',
     'Post_count_changed' => 'Der Beitragszähler des Benutzers wurde erfolgreich bearbeitet.',
-    'Click_return_posts_config' => '%sKlicke hier%s, um zur Beitragszähler-Verwaltung zurückzukehren.',
+    'Click_return_posts_config' => 'Klicke %shier%s, um zur Beitragszähler-Verwaltung zurückzukehren.',
     'Modify_post_count' => 'Beitragszähler bearbeiten',
     'Edit_post_count' => 'Beitragszähler von <b>%s</b> bearbeiten',
     'Post_count' => 'Anzahl der Mitteilungen',
 /* lang_postcount.php - END */
 
 /* lang_megamail.php - BEGIN */
-    'Megamail_Explain' => 'Hier kannst du eine PN (private Nachricht) oder E-Mail an alle Benutzer oder an alle Benutzer einer Gruppe schicken. Diese geschieht normalerweise, indem eine E-Mail über die Forum E-Mail-Adresse gesendet wird, auf der alle Empfänger dieser E-Mail als Blind Carbon Copy (BCC - Blindkopie) eingetragen sind.<br />Dieses modifizierte Script sendet diese E-Mail in mehreren Batches. Dies sollte Timeouts und Serverlastprobleme umgehen. Der Status des Massen E-Mail-Sendens wird in der Datenbank gespeichert. Du kannst dieses Fenster schließen, um das Massen E-Mail-Senden zu pausieren (das aktuelle Batch wird noch abgearbeitet). Du kannst später dort weitermachen, wo du aufgehört hast.<br /><b>Wenn HTML Emails aktiviert sind, solltest Du Emails unter Verwendung des HTML Codes schreiben, &lt;br /&gt; für ein Zeilenumbruch verwenden.</b>',
+    'Megamail_Explain' => 'Hier kannst du eine PN (private Nachricht) oder E-Mail an alle Benutzer oder an alle Benutzer einer Gruppe schicken. Diese geschieht normalerweise, indem eine E-Mail über die Forum E-Mail-Adresse gesendet wird, auf der alle Empfänger dieser E-Mail als Blind Carbon Copy (BCC - Blindkopie) eingetragen sind.<br />Dieses modifizierte Script sendet diese E-Mail in mehreren Batches. Dies sollte Timeouts und Serverlastprobleme umgehen. Der Status des Massen E-Mail-Sendens wird in der Datenbank gespeichert. Du kannst dieses Fenster schließen, um das Massen E-Mail-Senden zu pausieren (das aktuelle Batch wird noch abgearbeitet). Du kannst später dort weitermachen, wo du aufgehört hast.<br /><b>Wenn HTML Emails aktiviert sind, solltest du Emails unter Verwendung des HTML Codes schreiben, &lt;br /&gt; für ein Zeilenumbruch verwenden.</b><br /><b>Wenn du KOMPLETTE HTML E-Mails senden willst, beachte bitte das dann kein Template oder CSS benutzt wird, und du den kompletten HTML-Code inklusive HEAD und BODY Tags.</b><br /><b>Bitte beachte das Massen-PN nur BBCode unterstützt, wenn du eine PN in HTML schreibst, wird diese nicht richtig angezeigt.</b>',
 	'megamail_inactive_users' => 'Benutzer, die das Forum in den letzten {DAYS} Tagen nicht besucht haben',
     'megamail_header' => 'Deine E-Mail-Sessions',
     'megamail_id' => 'Mail-ID',
     'megamail_batchstart' => 'Bearbeitet',
     'megamail_batchsize' => 'Nachrichten pro Batch',
     'megamail_batchwait' => 'Pause',
-    'megamail_created_message' => 'Die Massen-Mail wurde in der Datenbank gespeichert.<br /><br /> Um das Senden zu starten, %sklicke hier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
-    'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br />Um mit dem Senden fortzufahren, %sklicke hier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
+    'megamail_created_message' => 'Die Massen-Mail wurde in der Datenbank gespeichert.<br /><br /> Um das Senden zu starten, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
+    'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br />Um mit dem Senden fortzufahren, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
     'megamail_status' => 'Status',
     'megamail_proceed' => '%sJetzt fortfahren%s',
     'megamail_done' => 'FERTIG',
     'megamail_none' => 'Es wurden keine Einträge gefunden.',
+	'megamail_delete_confirm' => 'Möchtest du diese E-Mail wirklich löschen?',
+	'megamail_deleted' => 'E-Mail erfolgreich gelöscht',
+	'megamail_click_return' => 'Klicke %shier%s, um zu Mega E-Mails / PN zurückzukehren',
 /* lang_megamail.php - END */
 
 /* lang_admin_voting.php - BEGIN */
@@ -1415,7 +1418,7 @@ $lang = array_merge($lang, array(
     'VC_active' => 'Visuelle Bestätigung ist aktiviert!',
     'VC_inactive' => 'Visuelle Bestätigung ist nicht aktiviert!',
     'background_configs' => 'Hintergrund',
-    'Click_return_captcha_config' => 'Klicke %shier%s um zur CAPTCHA Konfiguration zurückzukehren',
+    'Click_return_captcha_config' => 'Klicke %shier%s, um zur CAPTCHA Konfiguration zurückzukehren',
 
     'CAPTCHA_width' => 'Breite des CAPTCHA',
     'CAPTCHA_height' => 'Höhe des CAPTCHA',
@@ -1492,18 +1495,18 @@ $lang = array_merge($lang, array(
 
 /* lang_admin_faq_editor.php - BEGIN */
     'faq_editor' => 'Sprache bearbeiten',
-    'faq_editor_explain' => 'Dieses Modul erlaub es Dir, Deine Anhänge, BBCode und Foren FAQs zu bearbeiten. Du solltest den Bereich <b>phpBB 2 Issues</b> nicht entfernen oder die Beschreibung ändern genau wie den Bereich <b>Über Icy Phoenix</b>.',
+    'faq_editor_explain' => 'Dieses Modul erlaub es dir, deine Anhänge, BBCode und Foren FAQs zu bearbeiten. Du solltest den Bereich <b>phpBB 2 Issues</b> nicht entfernen oder die Beschreibung ändern genau wie den Bereich <b>Über Icy Phoenix</b>.',
 
-    'faq_select_language' => 'Wähle die Sprache aus, die Du bearbeiten möchtest.',
+    'faq_select_language' => 'Wähle die Sprache aus, die du bearbeiten möchtest.',
     'faq_retrieve' => 'Datei herunterladen',
 
-    'faq_block_delete' => 'Bist Du sicher, dass Du diesen Block entfernen willst?',
-    'faq_quest_delete' => 'Bist Du sicher, dass Du diese Frage (und seine Antwort) entfernen möchtest?',
+    'faq_block_delete' => 'Bist du sicher, dass du diesen Block entfernen willst?',
+    'faq_quest_delete' => 'Bist du sicher, dass du diese Frage (und seine Antwort) entfernen möchtest?',
 
     'faq_quest_edit' => 'Frage & Antwort bearbeiten',
     'faq_quest_create' => 'Neue Frage & Antwort erstellen',
 
-    'faq_quest_edit_explain' => 'Editiere die Frage und die Antwort. Ändere den Block, wenn Du magst.',
+    'faq_quest_edit_explain' => 'Editiere die Frage und die Antwort. Ändere den Block, wenn du magst.',
     'faq_quest_create_explain' => 'Schreibe nun die neue Frage und die neue Antwort und drücke danach auf absenden.',
 
     'faq_block' => 'Block',
@@ -1521,23 +1524,23 @@ $lang = array_merge($lang, array(
     'faq_no_blocks' => 'Keine Blöcke definiert. Füge einen neuen Block hinzu, indem Du ihm unterstehend eine Bezeichnung gibst.',
 
     'faq_write_file' => 'Die Sprachdatei kann nicht beschrieben werden!',
-    'faq_write_file_explain' => 'Du musst die Sprachdateien in language/lang_german/ und allen anderen Sprachen <i>beschreibbar</i> machen, um dieses Tool zu benutzen. Das bedeutet, dass Du den <b>chmod Modus auf 666</b> setzen musst. Dies können die meisten FTP Programme. Auch kannst Du den chmod via telnet oder SSH anpassen.',
+    'faq_write_file_explain' => 'Du musst die Sprachdateien in language/lang_german/ und allen anderen Sprachen <i>beschreibbar</i> machen, um dieses Tool zu benutzen. Das bedeutet, dass du den <b>chmod Modus auf 666</b> setzen musst. Dies können die meisten FTP Programme. Auch kannst du den chmod via telnet oder SSH anpassen.',
 /* lang_admin_faq_editor.php - END */
 
 /* lang_admin_rules_editor.php - BEGIN */
     'rules_editor' => 'Bearbeite Sprache',
-    'rules_editor_explain' => 'Dieses Modul erlaubt Dir Deine Forum Richtlinien zu bearbeiten oder neu anzuordnen.',
+    'rules_editor_explain' => 'Dieses Modul erlaubt dir deine Forum Richtlinien zu bearbeiten oder neu anzuordnen.',
 
-    'rules_select_language' => 'Wähle die Sprache der Datei die Du ändern möchtest',
+    'rules_select_language' => 'Wähle die Sprache der Datei die du ändern möchtest',
     'rules_retrieve' => 'Datei herunterladen',
 
-    'rules_block_delete' => 'Bist Du Dir sicher diesen Block zu löschen?',
-    'rules_quest_delete' => 'Bist Du Dir sicher diese Frage (und deren Antwort) zu löschen?',
+    'rules_block_delete' => 'Bist du Dir sicher diesen Block zu löschen?',
+    'rules_quest_delete' => 'Bist du Dir sicher diese Frage (und deren Antwort) zu löschen?',
 
     'rules_quest_edit' => 'Bearbeite Frage & Antwort',
     'rules_quest_create' => 'Erstelle Frage & Antwort',
 
-    'rules_quest_edit_explain' => 'Bearbeite die Frage und Antwort. Ändere den Block wenn Du willst.',
+    'rules_quest_edit_explain' => 'Bearbeite die Frage und Antwort. Ändere den Block wenn du willst.',
     'rules_quest_create_explain' => 'Gib die neue Frage und Antwort ein und klicke auf Senden.',
 
     'rules_block' => 'Block',
@@ -1555,7 +1558,7 @@ $lang = array_merge($lang, array(
     'rules_no_blocks' => 'Keine Blocks festgelegt. Füge einen neuen Block hinzu, indem Du unten den Namen eingibst.',
 
     'rules_write_file' => 'Konnte nicht zur Sprach-Datei schreiben!',
-    'rules_write_file_explain' => 'Du musst die Sprachdateien in language/lang_german/ und allen anderen Sprachen <i>beschreibbar</i> machen, um dieses Tool zu benutzen. Das bedeutet, dass Du den <b>chmod Modus auf 666</b> setzen musst. Dies können die meisten FTP Programme. Auch kannst Du den chmod via telnet oder SSH anpassen.',
+    'rules_write_file_explain' => 'Du musst die Sprachdateien in language/lang_german/ und allen anderen Sprachen <i>beschreibbar</i> machen, um dieses Tool zu benutzen. Das bedeutet, dass du den <b>chmod Modus auf 666</b> setzen musst. Dies können die meisten FTP Programme. Auch kannst du den chmod via telnet oder SSH anpassen.',
 /* lang_admin_rules_editor.php - END */
 
 /* lang_admin_priv_msgs.php - BEGIN */
@@ -1565,7 +1568,7 @@ $lang = array_merge($lang, array(
     'Archive_Feature' => 'Archiv-Erweiterung',
     'Inline' => 'Auf dieser Seite',
     'Pop_up' => 'Als PopUp',
-    'Current' => 'Zur Zeit',
+    'Current' => 'Zurzeit',
     'Rows_Plus_5' => '5 Zeilen mehr',
     'Rows_Minus_5' => '5 Zeilen weniger',
     'Enable' => 'Aktivieren',
@@ -1621,7 +1624,7 @@ $lang = array_merge($lang, array(
 /* lang_admin_link.php - BEGIN */
 // Categories
     'Link_Categories_Title' => 'Link Kategorie Einstellung',
-    'Link_Categories_Explain' => 'In diesem Menu kannst Du die Kategorien verwalten: erstellen, bearbeiten, löschen, sortieren etc.',
+    'Link_Categories_Explain' => 'In diesem Menu kannst du die Kategorien verwalten: erstellen, bearbeiten, löschen, sortieren etc.',
     'Category_Permissions' => 'Kategorie Befugnisse',
     'Category_Title' => 'Kategorie Titel',
     'Category_Desc' => 'Kategorie Beschreibung',
@@ -1632,7 +1635,7 @@ $lang = array_merge($lang, array(
     'Edit_level' => ' Level bearbeiten',
     'Delete_level' => 'Level löschen',
     'New_category_created' => 'Die neue Kategorie wurde erfolgreich erstellt',
-    'Click_return_link_category' => 'Klicke %shier%s um zur Kategorie Verwaltung zurückzukehren',
+    'Click_return_link_category' => 'Klicke %shier%s, um zur Kategorie Verwaltung zurückzukehren',
     'Category_updated' => 'Die Kategorie wurde erfolgreich bearbeitet',
     'Delete_Category' => 'Kategorie löschen',
     'Delete_Category_Explain' => 'Mit dem nachstehenden Formular kannst du Kategorien zu löschen',
@@ -1641,7 +1644,7 @@ $lang = array_merge($lang, array(
 
 // Config
     'Link_Config' => 'Links Konfiguration',
-    'Link_config_explain' => 'Hier kannst Du die Einstellungen des Link Mods vornehmen',
+    'Link_config_explain' => 'Hier kannst du die Einstellungen des Link Mods vornehmen',
     'lock_submit_site' => 'Sperre Benutzer für das Eintragen von Seiten',
     'allow_guest_submit_site' => 'Erlaube Gästen, Seiten zu übermitteln',
     'allow_no_logo' => 'Erlaube die Übermittlung einer Seite ohne Banner',
@@ -1656,7 +1659,7 @@ $lang = array_merge($lang, array(
     'Link_email_notify' => 'Sende eine E-Mail an alle Administratoren, wenn ein neuer Link hinzugefügt wurde',
     'Link_pm_notify' => 'Sende eine PM an alle Administratoren, wenn ein neuer Link hinzugefügt wurde',
     'Link_config_updated' => 'Links Konfiguration wurde erfolgreich bearbeitet',
-    'Click_return_link_config' => 'Klicke %shier%s um zur Links Konfiguration zurückzukehren',
+    'Click_return_link_config' => 'Klicke %shier%s, um zur Links Konfiguration zurückzukehren',
 
 // Link_MOD
     'Links' => 'Links Einstellungen',
@@ -1671,7 +1674,7 @@ $lang = array_merge($lang, array(
     'Link_delete' => 'Link löschen',
     'Link_title' => 'Name der Seite',
     'Link_url' => 'URL der Seite',
-    'Link_logo_src' => 'Logo (88x31 Pixel, nicht grösser als 10k)',
+    'Link_logo_src' => 'Logo (88x31 Pixel, nicht größer als 10k)',
     'Link_category' => 'Kategorie',
     'Link_desc' => 'Beschreibung der Seite',
     'link_hits' => 'Klicks',
@@ -1685,8 +1688,8 @@ $lang = array_merge($lang, array(
     'Link_admin_update_fail' => 'Der Link konnte nicht bearbeitet werden, bitte versuche es später wieder',
     'Link_admin_delete_success' => 'Der Link wurde erfolgreich gelöscht',
     'Link_admin_delete_fail' => 'Der Link konnte nicht gelöscht werden, bitte versuche es später wieder',
-    'Click_return_lastpage' => 'Klicke %shier%s um zur vorherigen Seite zurückzukehren',
-    'Click_return_admin_links' => 'Klicke %shier%s um zur Links Verwaltung zurückzukehren',
+    'Click_return_lastpage' => 'Klicke %shier%s, um zur vorherigen Seite zurückzukehren',
+    'Click_return_admin_links' => 'Klicke %shier%s, um zur Links Verwaltung zurückzukehren',
     'Preview' => 'Vorschau',
     'Search_site' => 'Suche Seite',
     'Search_site_title' => 'Suche Seite Name/Beschreibung:',
@@ -1697,7 +1700,7 @@ $lang = array_merge($lang, array(
 
 // Icy Phoenix - BUILD 009
     'Replace_title' => 'Ersetzen in Beiträgen',
-    'Replace_text' => 'Von dieser Seite aus kannst Du Wörter oder Zeilen mit "was auch immer" ersetzen. Dies kann aber NICHT mehr rückgängig gemacht werden!',
+    'Replace_text' => 'Von dieser Seite aus kannst du Wörter oder Zeilen mit "was auch immer" ersetzen. Dies kann aber NICHT mehr rückgängig gemacht werden!',
     'Link' => 'Link',
     'Str_old' => 'Jetziger Text',
     'Str_new' => 'Ersetzen mit',
@@ -1755,14 +1758,14 @@ $lang = array_merge($lang, array(
 
 //Dynamic
     'Group_Updated' => 'Aktualisierte Farb Gruppe %s<br />',
-    'Editing_Group' => 'Zur Zeit wird die Benutzer Liste für %s bearbeitet.',
+    'Editing_Group' => 'Zurzeit wird die Benutzer Liste für %s bearbeitet.',
     'Invalid_User' => '%s ist ein ungültiger Benutzer Name, überspringen<br />',
     'Invalid_Order_Num' => '%s beinhaltet eine ungültige Nummer, aber dies wurde behoben.  Bitte versuche deine Sortierung erneut.',
 
 //New for 1.2.0
     'Users_List' => 'Benutzer Liste',
     'Groups_List' => 'Benutzer Gruppen Liste',
-    'List_Info' => '<b>Beachte</b>: <ul><li>Halte STRG gedrückt wenn Du mehrere Namen auswählen willst. <li>If a user belongs to a user group, and is added to a specific color group, the color group that contains the user will be used; not the one the user group belongs to. <li>The list names are formated as NAME (CURRENT_COLOR_GROUP). There will be no (CURRENT_COLOR_GROUP) if the entry doesn\'t belong to one. <li>If a user is a member of 2 or more user groups, the highest ranking color group will be assigned (you order their appearance on the main page).</ul>',
+    'List_Info' => '<b>Beachte</b>: <ul><li>Halte STRG gedrückt wenn du mehrere Namen auswählen willst. <li>If a user belongs to a user group, and is added to a specific color group, the color group that contains the user will be used; not the one the user group belongs to. <li>The list names are formated as NAME (CURRENT_COLOR_GROUP). There will be no (CURRENT_COLOR_GROUP) if the entry doesn\'t belong to one. <li>If a user is a member of 2 or more user groups, the highest ranking color group will be assigned (you order their appearance on the main page).</ul>',
 /* lang_color_groups.php - END */
 
 // Icy Phoenix - BUILD 023
@@ -1772,7 +1775,7 @@ $lang = array_merge($lang, array(
     'Empty_Cache_Success' => 'Cache Ordner erfolgreich geleert.',
 
     'Copy_Auth' => 'Kopiere Berechtigungen von',
-    'Copy_Auth_Explain' => 'Bitte beachte, dass Du Berechtigungen nur von Foren kopieren kannst, nicht von Kategorien!!!',
+    'Copy_Auth_Explain' => 'Bitte beachte, dass du Berechtigungen nur von Foren kopieren kannst, nicht von Kategorien!!!',
 
 // Icy Phoenix - BUILD 027
 /* lang_admin_db_backup.php - BEGIN */
@@ -1786,7 +1789,7 @@ $lang = array_merge($lang, array(
 
 // Backup
     'ACP_BACKUP' => 'Datenbank Backup',
-    'ACP_BACKUP_EXPLAIN' => 'Hier kannst du alle seitenbezogenen Daten sichern. Du kannst das Ergebnis in deinem <samp>backup/</samp> Ordner speichern, oder direkt herunterladen. Abhängig von deinen Server Einstellungen, kannst du dieses Archiv in mehrere Formate komprimieren.',
+    'ACP_BACKUP_EXPLAIN' => 'Hier kannst du alle seitenbezogenen Daten sichern. Du kannst das Ergebnis in deinem <b><samp>backup/</samp></b> Ordner speichern, oder direkt herunterladen. Abhängig von deinen Server Einstellungen, kannst du dieses Archiv in mehrere Formate komprimieren.<br /><br /><span class="text_red">Das Backup wird in mehreren Schritten ausgeführt um PHP Timeouts vorzubeugen: Das Script sollte den Vorgang komplett automatisch ausführen, sodass du nur warten musst, bis es beendet ist.</span><br /><br />',
 
     'BACKUP_OPTIONS' => 'Backup-Optionen',
     'BACKUP_TYPE' => 'Backup-Typ',
@@ -1801,16 +1804,27 @@ $lang = array_merge($lang, array(
     'FILE_TYPE' => 'Datei-Typ',
     'FULL_BACKUP' => 'Komplett',
 
-    'Backup_Success' => 'Das Backup wurde erfolgreich erstellt.',
-    'Backup_Deleted' => 'Das Backup wurde erfolgreich gelöscht.',
+	'BACKUP_TYPE_COMPLETE' => 'Komplett',
+	'BACKUP_TYPE_EXTENDED' => 'Umfassend',
+	'BACKUP_TYPE_COMPACT' => 'Compact Line Breaks',
+
+    'BACKUP_SUCCESS' => 'Das Backup wurde erfolgreich erstellt.',
+    'BACKUP_DELETED' => 'Das Backup wurde erfolgreich gelöscht.',
 
     'TABLE_SELECT' => 'Tabellen-Auswahl',
+
+	'BACKUP_IN_PROGRESS' => 'Backup wird erstellt...',
+	'BACKUP_IN_PROGRESS_TABLE' => 'Sichere Tabelle: <b>%s</b>',
+	'BACKUP_IN_PROGRESS_REDIRECT' => 'Du wirst automatisch in ein paar Sekunden zum nächsten Schritt weitergeleitet',
+	'BACKUP_IN_PROGRESS_REDIRECT_CLICK' => 'Wenn du nicht innerhalb von ein paar Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
+	'BACKUP_OPTIONS_RETURN' => 'Klicke %shier%s, um zur Backup Verwaltung zurückzukehren',
+
 // Errors
     'Table_Select_Error' => 'Du musst mindestens eine Tabelle auswählen.',
 
 // Restore
     'ACP_RESTORE' => 'Datenbank wiederherstellen',
-    'ACP_RESTORE_EXPLAIN' => 'Dies führt eine komplette Wiederherstellung aller deiner Seiten-Tabellen von einer gespeicherten Datei aus. Wenn dein Server es unterstützt, kannst du eine Gzip oder bzip2 komprimierte Text-Datei verwenden, welche dann automatisch dekomprimiert wird. <strong>ACHTUNG</strong> Dies wird alle vorhandenen Daten überschreiben. Die Wiederherstellung kann etwas Zeit in Anspruch nehmen, bitte verlasse diese Seite nicht bis die Wiederherstellung komplett ist. Backups werden in dem <samp>backup/</samp> Ordner gespeichert. Backups die nicht mit diesem System erstellt wurden, werden wahrscheinlich nicht funktionieren.',
+    'ACP_RESTORE_EXPLAIN' => 'Dies führt eine komplette Wiederherstellung aller deiner Seiten-Tabellen von einer gespeicherten Datei aus. Wenn dein Server es unterstützt, kannst du eine Gzip oder bzip2 komprimierte Text-Datei verwenden, welche dann automatisch dekomprimiert wird. <strong>ACHTUNG</strong> Dies wird alle vorhandenen Daten überschreiben. Die Wiederherstellung kann etwas Zeit in Anspruch nehmen, bitte verlasse diese Seite nicht bis die Wiederherstellung komplett ist. Backups werden in dem <b><samp>backup/</samp></b> Ordner gespeichert. Backups die nicht mit diesem System erstellt wurden, werden wahrscheinlich nicht funktionieren.',
     'RESTORE_OPTIONS' => 'Wiederherstellungs-Optionen',
 
     'Restore_Success' => 'Die Datenbank wurde erfolgreich wiederhergestellt.<br />Deine Seite sollte nun wieder auf den Stand des gewählten Backups sein.',
@@ -1872,11 +1886,11 @@ $lang = array_merge($lang, array(
     'LOGS_ADMIN_USER_DELETE' => 'löschte Benutzer',
     'LOGS_ADMIN_USER_EDIT' => 'änderte das Profil von',
     'LOGS_CMS_LAYOUT_EDIT' => 'änderte %sdiese%s Seite',
-    'LOGS_CMS_LAYOUT_DELETE' => 'löschte eine Seite [ID = %s]',
-    'LOGS_CMS_BLOCK_EDIT' => 'änderte einen Block [ID = %s] in %sdiese%s Seite',
-    'LOGS_CMS_BLOCK_EDIT_LS' => 'änderte einen Block [ID = %s] in einer Standard Seite [%s]',
-    'LOGS_CMS_BLOCK_DELETE' => 'löschte einen Block [ID = %s] in %sdiese%s Seite',
-    'LOGS_CMS_BLOCK_DELETE_LS' => 'löschte einen Block [ID = %s] in einer Standard-Seite [%s]',
+    'LOGS_CMS_LAYOUT_DELETE' => 'löschte eine Seite [ID=%s]',
+    'LOGS_CMS_BLOCK_EDIT' => 'änderte einen Block [ID=%s] auf %sdieser%s Seite',
+    'LOGS_CMS_BLOCK_EDIT_LS' => 'änderte einen Block [ID=%s] in einer Standard Seite [%s]',
+    'LOGS_CMS_BLOCK_DELETE' => 'löschte einen Block [ID=%s] auf %sdieser%s Seite',
+    'LOGS_CMS_BLOCK_DELETE_LS' => 'löschte einen Block [ID=%s] in einer Standard-Seite [%s]',
 /* Logs - END */
 
 	'SMILEYS_UPDATED' => 'Smilies aktualisiert',
@@ -1923,9 +1937,14 @@ $lang = array_merge($lang, array(
 	'ERR_AD_ADD' => 'Fehler, bitte fülle alle benötigten Felder aus',
 /* ADS - END */
 
+	'FULL_HTML' => 'Full HTML',
+	'ACTIONS' => 'Aktionen',
+	'EDIT' => 'Bearbeiten',
+	'DELETE' => 'Löschen',
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
     'MG_Configuration' => 'Icy Phoenix Einstellungen',
-    'MG_Configuration_Explain' => 'Hier kannst Du einige fortgeschrittene Icy Phoenix Einstellungen vornehmen',
+    'MG_Configuration_Explain' => 'Hier kannst du einige fortgeschrittene Icy Phoenix Einstellungen vornehmen',
 
     'MG_Configuration_Headers_Banners' => 'Headers &amp; Banners',
     'MG_Configuration_Queries' => 'SQL Optimierung',
@@ -1945,6 +1964,10 @@ $lang = array_merge($lang, array(
     'MG_SW_Empty_Precompiled_Posts_Explain' => 'Diese Funktion leert alle vorkompilierten Beiträge.',
     'MG_SW_Empty_Precompiled_Posts_Success' => 'Vorkompilierte Beiträge korrekt geleert.',
     'MG_SW_Empty_Precompiled_Posts_Fail' => 'Fehler beim Leeren der vorkompilierten Beiträge.',
+	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Leeren der Cache Ordner in Bearbeitung...',
+	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect' => 'Du wirst automatisch in 3 Sekunden zum nächsten Schritt weitergeleitet',
+	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click' => 'Wenn du nicht automatisch in 3 Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
+	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Klicke %shier%s, um zur Cache Verwaltung zurückzukehren',
 
     'MG_FNF_Header' => 'Schnell-Einstellungen',
     'MG_FNF_Header_Explain' => 'Auf dieser Seite kannst du schnell und einfach einige Schnell-Einstellungen für dein Forum vornehmen. Diese Voreinstellungen wurden für Benutzer erstellt, um einfach eine Massenänderung an den Einstellungen vorzunehmen, ohne jede Einstellung einzeln für sich ändern zu müssen. Diese Voreinstellungen können als Grundlage benutzt werden, um sie danach den persönlichen Bedürfnissen anzupassen: z.B. kannst du "Schnell und aufgebracht" auswählen und dann die Einstellungen ändern, die du nicht magst.<br /><br /><span class="text_red"><b>ACHTUNG, wenn du einmal eine Schnell-Einstellung ausgewählt hast, kannst du sie nicht mehr automatisch rückgängig machen. Du musst sie dann manuell wieder auswählen.</b></span>',
@@ -1963,9 +1986,9 @@ $lang = array_merge($lang, array(
     'MG_SW_CENSOR' => 'Wortzensur deaktivieren',
     'MG_SW_CENSOR_Explain' => 'Diese Option deaktiviert die Wortzensur-Analyse',
 
-    'MG_SW_No_Right_Click' => 'Block Rechts Klick',
+    'MG_SW_No_Right_Click' => 'Blockiere Rechts Klick',
 
-    'Click_return_config_mg' => 'Klicke %shier%s um zu den Icy Phoenix Einstellungen zurückzukehren',
+    'Click_return_config_mg' => 'Klicke %shier%s, um zu den Icy Phoenix Einstellungen zurückzukehren',
 	)
 );
 
@@ -2140,11 +2163,11 @@ $lang['120_Add_new'] = 'Link Hinzufügen'; // admin_links.php
 $lang['130_Link_Manage'] = 'Linkverwaltung'; // admin_links.php
 
 // Album
-$lang['2200_Photo_Album'] = 'Fotoalbum'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
+$lang['2200_Photo_Album'] = 'Foto-Galerie'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
 $lang['110_Album_Config'] = 'Konfiguration'; // admin_album_config_extended.php
 $lang['120_Album_Categories'] = 'Kategorieverwaltung'; // admin_album_cat.php
 $lang['130_Album_Permissions'] = 'Berechtigungen'; // admin_album_auth.php
-$lang['140_Personal_Galleries'] = 'Persönliche Galerien'; // admin_album_personal.php
+$lang['140_Personal_Galleries'] = 'Persönliche Foto-Galerien'; // admin_album_personal.php
 
 // FAQ
 $lang['2300_FAQ'] = 'FAQ & Regeln'; // admin_faq_editor.php
@@ -2154,11 +2177,11 @@ $lang['130_FAQ_Rules'] = 'Seiten-Regeln'; // admin_faq_editor.php
 
 // INFO
 $lang['2400_INFO'] = 'Info'; // admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referrers.php, admin_google_bot_detector.php
-$lang['110_Actions_LOG'] = 'Actions Log'; // admin_logs.php
+$lang['110_Actions_LOG'] = 'Aktionen Log'; // admin_logs.php
 $lang['120_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
 $lang['130_GD_Info'] = 'GD Info'; // admin_gd_info.php
 $lang['140_HTTP_REF'] = 'HTTP Referrers'; // admin_referrers.php
-$lang['150_Google_BOT'] = 'Google Bot Detector'; // admin_google_bot_detector.php
+$lang['150_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
 
 // ####################### [ ACP Navigation END ] #######################
 

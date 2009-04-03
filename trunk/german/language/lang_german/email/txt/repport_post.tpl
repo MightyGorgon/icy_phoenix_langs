@@ -12,6 +12,6 @@ Nutze den folgenden Link um zum Beitrag zu gelangen:
 {POST_URL} 
 
 
-Du erhälst diese E-Mail, weil du Moderator des Forums "{FORUM_NAME}" bei {SITENAME} bist.
+Du erhältst diese E-Mail, weil du Moderator des Forums "{FORUM_NAME}" bei {SITENAME} bist.
 
 {EMAIL_SIG}

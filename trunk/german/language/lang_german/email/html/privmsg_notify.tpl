@@ -13,8 +13,10 @@ Du hast eine neue Private Nachricht von {FROM} bei "<b>{SITENAME}</b>" erhalten 
 <b>Betreff:</b> {SUBJECT}<br />
 
 <b>Nachricht:</b><br /><br />
-{PRIV_MSG_TEXT}
+<div class="post-text">{PRIV_MSG_TEXT}</div>
 
+<br /><br />
+<b>Achtung:</b> Du kannst nicht auf diese E-Mail antworten, da es nur eine Mitteilung ist! Um diese Private Nachricht zu beantworten musst du dich auf der Seite einloggen und deine Privaten Nachrichten aufrufen.
 <br /><br />
 
 Durch Klicken auf den folgenden Link kommst du direkt zur Nachricht:<br /><br />
@@ -25,4 +27,3 @@ Du kannst die Benachrichtigungen übrigens abstellen, indem du die entsprechende 
 
 <span style="color:#a4a4a4; font-size:11">
 {EMAIL_SIG}</span></font>
-

@@ -28,12 +28,12 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 // This block goes as default text in the emailed digest (mail_digests.php)
-    'digest_introduction' => 'Wie von dir gewünscht, erhälst du hier die letzten Digests der Mitteilungen die bei ' . $board_config['sitename'] . ' gepostet wurden. Bitte trete der Diskussion bei!',
+    'digest_introduction' => 'Wie von dir gewünscht, erhältst du hier die letzten Digests der Mitteilungen die bei ' . $board_config['sitename'] . ' gepostet wurden. Bitte trete der Diskussion bei!',
     'digest_from_text_name' => $board_config['sitename'] . ' Digest Robot',
     'digest_from_email_address' => $board_config['board_email'],
     'digest_subject_line' => $board_config['sitename'] . ' Digests',
-    'digest_disclaimer_html' => "\r\n" . 'Dieser Digest wird an registrierte Mitglieder von <a href="' . DIGEST_SITE_URL . '">' . $board_config['sitename'] . '</a> gesendet und nur weil du es explizit angefordert hast. Deine E-Mail Adresse wird nie an andere Anbieter weitergegeben. Schau in unsere <a href="' . DIGEST_SITE_URL . 'faq.' . $phpEx . '">FAQ</a> für mehr Informationen darüber. Du kannst deine Abonnierung bearbeiten oder löschen, indem du Dich unter ' . $board_config['sitename'] . ' einloggst und die <a href="' . DIGEST_SITE_URL . 'digests.' . $phpEx . '">Digest Seite</a> besuchst. (Du musst eingeloggt sein um deine Digest Einstellungen ändern zu können.) Wenn du Fragen oder Hinweise zum Format der Digests hast, sende diese bitte an den <a href="mailto:' . $board_config['board_email'] . '">' . $board_config['sitename'] . ' Webmaster</a>.',
-    'digest_disclaimer_text' => "\r\n" . 'Dieser Digest wird an registrierte Mitglieder von ' . $board_config['sitename'] . ' gesendet und nur weil du es explizit angefordert hast. Deine E-Mail Adresse wird nie an andere Anbieter weitergegeben. Schau in unsere FAQ für mehr Informationen darüber. Du kannst deine Abonnierung bearbeiten oder löschen, indem du Dich unter ' . $board_config['sitename'] . ' einloggst und die Digest Seite besuchst.. (Du musst eingeloggt sein um deine Digest Einstellungen ändern zu können.) Wenn du Fragen oder Hinweise zum Format der Digests hast, sende diese bitte an den ' . $board_config['board_email'] . '.',
+    'digest_disclaimer_html' => "\n" . 'Dieser Digest wird an registrierte Mitglieder von <a href="' . DIGEST_SITE_URL . '">' . $board_config['sitename'] . '</a> gesendet und nur weil du es explizit angefordert hast. Deine E-Mail Adresse wird nie an andere Anbieter weitergegeben. Schau in unsere <a href="' . DIGEST_SITE_URL . 'faq.' . $phpEx . '">FAQ</a> für mehr Informationen darüber. Du kannst deine Abonnierung bearbeiten oder löschen, indem du Dich unter ' . $board_config['sitename'] . ' einloggst und die <a href="' . DIGEST_SITE_URL . 'digests.' . $phpEx . '">Digest Seite</a> besuchst. (Du musst eingeloggt sein um deine Digest Einstellungen ändern zu können.) Wenn du Fragen oder Hinweise zum Format der Digests hast, sende diese bitte an den <a href="mailto:' . $board_config['board_email'] . '">' . $board_config['sitename'] . ' Webmaster</a>.',
+    'digest_disclaimer_text' => "\n" . 'Dieser Digest wird an registrierte Mitglieder von ' . $board_config['sitename'] . ' gesendet und nur weil du es explizit angefordert hast. Deine E-Mail Adresse wird nie an andere Anbieter weitergegeben. Schau in unsere FAQ für mehr Informationen darüber. Du kannst deine Abonnierung bearbeiten oder löschen, indem du Dich unter ' . $board_config['sitename'] . ' einloggst und die Digest Seite besuchst.. (Du musst eingeloggt sein um deine Digest Einstellungen ändern zu können.) Wenn du Fragen oder Hinweise zum Format der Digests hast, sende diese bitte an den ' . $board_config['board_email'] . '.',
     'digest_forum' => 'Forum: ',
     'digest_topic' => 'Thema: ',
     'digest_link' => 'Link',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
     'digest_select_forums' => '<b>Sende Digests für diese Foren:</b>',
     'digest_create' => 'Deine Digest Einstellungen wurden erfolgreich erstellt',
     'digest_modify' => 'Deine Digest Einstellungen wurden erfolgreich aktualisiert',
-    'digest_unsubscribe' => 'Du wurdest ausgetragen und erhälst nun keine Digests mehr',
+    'digest_unsubscribe' => 'Du wurdest ausgetragen und erhältst nun keine Digests mehr',
     'digest_no_forums_selected' => 'Du hast kein Forum ausgewählt, du wirst nun ausgetragen',
     'digest_all_forums' => 'Alle abonnierten Foren',
     'digest_submit_text' => 'Mache Digest Änderungen',

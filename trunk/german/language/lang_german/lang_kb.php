@@ -42,25 +42,25 @@ $lang = array_merge($lang, array(
     'Article_text' => 'Artikeltext',
     'Add_article' => 'Artikel hinzufügen',
     'Read_article' => 'Artikel lesen',
-    'Article_not_exsist' => 'Artikel exsistiert nicht',
+    'Article_not_exsist' => 'Artikel existiert nicht',
     'Category_not_exsist' => 'Kategorie existiert nicht',
 
     'Edit' => 'Bearbeiten',
 
-    'Article_submitted_Approve' => 'Artikel wurde erfolgreich gesendet.<br />Ein Administrator wird sich den Artikel anschauen und entscheiden ob Dein Artikel veröffentlicht wird oder nicht.',
+    'Article_submitted_Approve' => 'Artikel wurde erfolgreich gesendet.<br />Ein Administrator wird sich den Artikel anschauen und entscheiden ob dein Artikel veröffentlicht wird oder nicht.',
     'Article_submitted' => 'Artikel wurde erfolgreich gesendet.',
-    'Click_return_kb' => '%sKlicke hier%s um zur Wissensdatenbank zurückzukehren.',
-    'Click_return_article' => '%sKlicke hier%s um zum Artikel zurückzukehren.',
+    'Click_return_kb' => 'Klicke %shier%s, um zur Wissensdatenbank zurückzukehren.',
+    'Click_return_article' => 'Klicke %shier%s, um zum Artikel zurückzukehren.',
 
     'Article_Edited_Approve' => 'Der Artikel wurde erfolgreich bearbeitet.<br />Es wird eine erneute Freischaltung benötigt bis er veröffentlicht wird.',
     'Article_Edited' => 'Artikel erfolgreich bearbeitet',
     'Edit_article' => 'Artikel bearbeiten',
 
     'KB_title' => 'Wissensdatenbank',
-    'KB_art_description' => 'Hier kannst Du Artikel freischalten oder löschen.',
+    'KB_art_description' => 'Hier kannst du Artikel freischalten oder löschen.',
     'Art_man' => 'Artikel Manager',
     'Cat_man' => 'Kategorie Manager',
-    'KB_cat_description' => 'Hier kannst Du Kategorien für die Wissensdatenbank hinzufügen, bearbeiten oder löschen.',
+    'KB_cat_description' => 'Hier kannst du Kategorien für die Wissensdatenbank hinzufügen, bearbeiten oder löschen.',
     'Art_action' => 'Aktion',
 
 //approve
@@ -79,22 +79,22 @@ $lang = array_merge($lang, array(
     'Confirm_art_delete_no' => '%sNein, ich bin mir nicht sicher.%s',
     'Article_deleted' => 'Artikel erfolgreich gelöscht',
 
-    'Click_return_article_manager' => '%sKlicke hier%s um zum Artikel Manager zurückzukehren',
+    'Click_return_article_manager' => 'Klicke %shier%s, um zum Artikel Manager zurückzukehren',
 
 //cat manager
     'Create_cat' => 'Erstellen einer neuen Kategorie:',
     'Create' => 'Erstellen',
     'Cat_settings' => 'Kategorie Einstellungen',
-    'Create_description' => 'Hier kannst Du den Namen einer Kategorie ändern und/oder eine Beschreibung hinzufügen.',
+    'Create_description' => 'Hier kannst du den Namen einer Kategorie ändern und/oder eine Beschreibung hinzufügen.',
     'Cat_created' => 'Kategorie erfolgreich erstellt.',
-    'Click_return_cat_manager' => '%sKlicke hier%s um zum Kategorie Manager zurückkehren',
-    'Edit_description' => 'Hier kannst Du die Einstellungen deiner Kategorie ändern.',
+    'Click_return_cat_manager' => 'Klicke %shier%s, um zum Kategorie Manager zurückkehren',
+    'Edit_description' => 'Hier kannst du die Einstellungen deiner Kategorie ändern.',
     'Edit_cat' => 'Kategorie bearbeiten',
     'Cat_edited' => 'Kategorie erfolgreich geändert.',
     'Parent' => 'übergeordnet',
 
     'Cat_delete_title' => 'Kategorie löschen',
-    'Cat_delete_desc' => 'Hier kannst Du eine Kategorie löschen und deine Artikel in eine neue Kategorie verschieben.',
+    'Cat_delete_desc' => 'Hier kannst du eine Kategorie löschen und deine Artikel in eine neue Kategorie verschieben.',
     'Cat_deleted' => 'Kategorie erfolgreich gelöscht.',
     'Delete_all_articles' => 'Artikel gelöscht',
 
@@ -108,9 +108,9 @@ $lang = array_merge($lang, array(
     'Edit_name' => 'Änderungen erlauben',
     'Edit_explain' => 'Erlaubt es Benutzern ihre Artikel nach dem posten zu ändern.',
     'Notify_name' => 'Informiere mich per',
-    'Notify_explain' => 'Wähle auf welchem Wege Du bei neuen Artikeln informiert werden willst',
+    'Notify_explain' => 'Wähle auf welchem Wege du bei neuen Artikeln informiert werden möchtest',
     'PM' => 'PN',
-    'Click_return_kb_config' => '%sKlicke hier%s um zur Wissensdatenbank Konfiguration zurückzukehren',
+    'Click_return_kb_config' => 'Klicke %shier%s, um zur Wissensdatenbank Konfiguration zurückzukehren',
     'Admin_id_name' => 'Admin-ID',
     'Admin_id_explain' => 'Dies ist die Benutzer ID an welche die PNs geschickt werden.',
     'Approve_new_name' => 'Neue Artikel veröffentlichen',
@@ -118,12 +118,12 @@ $lang = array_merge($lang, array(
     'Approve_edit_name' => 'Geänderte Artikel veröffentlichen',
     'Approve_edit_explain' => 'Wähle, ob <b />geänderte</b /> Artikel eine Freischaltung benötigen',
     'Allow_anon_name' => 'Erlaube anonymen Benutzern neue Artikel zu schreiben',
-    'Allow_anon_explain' => 'Wähle, ob <b />neu</b /> Artikel von anonymen User erstellt werden können',
+    'Allow_anon_explain' => 'Wähle, ob <b />neue</b /> Artikel von anonymen Benutzern erstellt werden können',
     'Del_topic' => 'Lösche Beitrag',
-    'Del_topic_explain' => 'Wenn Du einen Artikel löschst, willst Du dann auch die Kommentare dazu löschen?',
+    'Del_topic_explain' => 'Wenn du einen Artikel löschst, willst du dann auch die Kommentare dazu löschen?',
 
     'Use_comments' => 'Kommentare',
-    'Use_comments_explain' => 'Erlaubst Du Kommentare zu Deinen Artikeln',
+    'Use_comments_explain' => 'Erlaubst du Kommentare zu Deinen Artikeln',
     'Use_ratings' => 'Bewertungen',
     'Use_ratings_explain' => 'Erlaube den Benutzern, Bewertungen zu den Artikeln abzugeben',
 
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
     'Select_a_Category' => 'Kategorie auswählen',
     'Look_up_Category' => 'Kategorie ansehen',
     'KB_Auth_successfully' => 'Auth wurde erfolgreich aktualisiert',
-    'Click_return_KB_auth' => '%sKlicke Here%s, um zu den KB Berechtigungen zurückzukehren.',
+    'Click_return_KB_auth' => 'Klicke %shier%s, um zu den KB Berechtigungen zurückzukehren.',
 
     'Upload' => 'Upload',
     'Rate' => 'Bewerten',
@@ -146,7 +146,7 @@ $lang = array_merge($lang, array(
     'Approval_edit' => 'Genehmigung bearbeiten',
 
     'Allow_rating' => 'Bewertungen erlauben',
-    'Allow_rating_explain' => 'Benutzer können Artkiel bewerten.',
+    'Allow_rating_explain' => 'Benutzer können Artikel bewerten.',
 
     'Allow_anonymos_rating' => 'Erlaube anonyme Bewertungen',
     'Allow_anonymos_rating_explain' => 'Wenn Bewertungen aktiviert sind, ist es auch anonymen Benutzern gestattet, Artikel zu bewerten.',
@@ -168,7 +168,7 @@ $lang = array_merge($lang, array(
     'Upload_level' => 'Upload',
     'Rate_level' => 'Bewerten',
     'Comment_level' => 'Kommentieren',
-    'Edit_level' => ' Editieren',
+    'Edit_level' => ' Bearbeiten',
     'Delete_level' => 'Löschen',
     'Approval_level' => 'Genehmigungen',
     'Approval_edit_level' => 'Genehmigungen Bearbeiten',
@@ -214,7 +214,7 @@ $lang = array_merge($lang, array(
     'Mod_group_explain' => '- mit KB Admin Berechtigungen!',
 
     'Bump_post' => 'Artikel Beitrag im Forum beim Editieren',
-    'Bump_post_explain' => 'Wenn ein Artikel bearbeitet wurde, wird eine Antwort auf das Thema des Artikels im Forum geposted.',
+    'Bump_post_explain' => 'Wenn ein Artikel bearbeitet wurde, wird eine Antwort auf das Thema des Artikels im Forum geschrieben.',
 
     'Stats_list' => 'Zeige KB Statistiken',
     'Stats_list_explain' => 'Zeigt KB Statistiken im Kopf',
@@ -231,7 +231,7 @@ $lang = array_merge($lang, array(
     'KB_types_description' => 'Hier kannst du die verschiedenen Typen von Artikeln hinzufügen, bearbeiten oder löschen.',
     'Create_type' => 'Neuen Artikeltyp erstellen:',
     'Type_created' => 'Artikeltyp erfolgreich erstellt',
-    'Click_return_type_manager' => '%sKlicke hier%s um zum Typ Manager zurückzukehren',
+    'Click_return_type_manager' => 'Klicke %shier%s, um zum Typ Manager zurückzukehren',
 
     'Edit_type' => 'Typ bearbeiten',
     'Edit_type_description' => 'Hier kannst du den Namen des Typs bearbeiten',
@@ -252,7 +252,7 @@ $lang = array_merge($lang, array(
     'Hide' => 'Verstecken',
 
     'Empty_fields' => 'Bitte fülle alle Teile des Formulars aus.',
-    'Empty_fields_return' => '%sKlicke hier%s um zum Formular zurückzukehren',
+    'Empty_fields_return' => 'Klicke %shier%s, um zum Formular zurückzukehren',
     'Empty_category' => 'Du musst eine Kategorie auswählen',
     'Empty_type' => 'Du musst einen Typ auswählen',
     'Empty_article_name' => 'Du musst einen Artikelnamen eingeben',
@@ -294,7 +294,7 @@ $lang = array_merge($lang, array(
     'R8' => '8',
     'R9' => '9',
     'R10' => '10',
-    'Click_return_rate' => '%sKlicke hier%s, um zum Artikel zurückzukehren.',
+    'Click_return_rate' => 'Klicke %shier%s, um zum Artikel zurückzukehren.',
 
 // Print version
     'Print_version' => '[Druckansicht]',
@@ -331,7 +331,7 @@ $lang = array_merge($lang, array(
 
 // Update result messages
 
-    'News_updated_return_settings' => 'KB Block Einstellungen erfolgreich aktualisiert.<br /><br />%sKlicke hier%s um zur Hauptseite zurückzukehren.', // %s's for URI params - DO NOT REMOVE
+    'News_updated_return_settings' => 'KB Block Einstellungen erfolgreich aktualisiert.<br /><br />Klicke %shier%s, um zur Hauptseite zurückzukehren.', // %s's for URI params - DO NOT REMOVE
     'News_update_error' => 'Die KB Block Einstellungen konnten <b>nicht</b> aktualisiert werden.<br />',
 
 // Custom Field
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
     'Fieldname' => 'Feldname',
     'Fieldnameinfo' => 'Der Name des Feldes, z.B. &quot;Dateigröße&quot;',
     'Fielddesc' => 'Feldbeschreibung',
-    'Fielddescinfo' => 'Eine Beschreibing des Feldes, z.B. &quot;Größe in MB&quot;',
+    'Fielddescinfo' => 'Eine Beschreibung des Feldes, z.B. &quot;Größe in MB&quot;',
     'Fieldadded' => 'Das benutzerdefinierte Feld wurde erfolgreich hinzugefügt',
     'Fieldedited' => 'Das benutzerdefinierte Feld wurde erfolgreich bearbeitet',
     'Dfielderror' => 'Du hast keine Felder zum löschen ausgewählt',
@@ -368,7 +368,7 @@ $lang = array_merge($lang, array(
     'Field_Select_multiple' => 'Mehrfachauswahl Menü',
     'Field_Checkbox' => 'Mehrfachauswahl Checkbox',
 
-    'Click_return' => '%sKlicke hier%s, um zur vorhergehenden Seite zurückzukehren.',
+    'Click_return' => 'Klicke %shier%s, um zur vorhergehenden Seite zurückzukehren.',
 
 // added
     'Cat_all' => 'Alle',
@@ -376,7 +376,7 @@ $lang = array_merge($lang, array(
     'L_Pages' => 'Seiten',
     'L_Pages_explain' => 'Verwende [pages], um den Artikel in Seiten aufzuteilen.',
     'L_Toc' => 'Inhaltstabelle (TOC)',
-    'L_Toc_explain' => 'Verwende [toc], um einen Eintrag zur Intaltstabelle (Table Of Contents - TOC) hinzuzufügen',
+    'L_Toc_explain' => 'Verwende [toc], um einen Eintrag zur Inhaltstabelle (Table Of Contents - TOC) hinzuzufügen',
     'L_Abstract' => 'Zusammenfassung',
     'L_Abstract_explain' => 'Verwende [abstract]...[/abstract], um eine Zusammenfassung einzufügen',
 
@@ -401,7 +401,7 @@ $lang = array_merge($lang, array(
     'Wysiwyg_explain' => 'Wenn aktiviert, wird der Standard BBCode/HTML/Smilies Eingabedialog durch den wysiwyg Editor ersetzt.',
 
     'Wysiwyg_path' => 'Pfad zur wysiwyg Software',
-    'Wysiwyg_path_explain' => 'Das ist der Pfad (vom /Icy Phoenix root pfad) zum Verzeichnis der wysiwyg Software, z.B. <i>modules/</i> wenn du tinemce ins Verzeichnis <i>modules/tinymce/</i> hochgeladen hast.',
+    'Wysiwyg_path_explain' => 'Das ist der Pfad (vom /Icy Phoenix root pfad) zum Verzeichnis der wysiwyg Software, z.B. <i>modules/</i> wenn du tinymce ins Verzeichnis <i>modules/tinymce/</i> hochgeladen hast.',
 
     'Formatting_fixup' => 'Formatierung korrigieren',
     'Formatting_fixup_explain' => 'Wenn aktiviert, wird der Text in den Artikeln neu formatiert: Worttrennungen, URL-Kürzungen, Größenanpassung von Bildern sowie einige BBCode reformatierungen.',

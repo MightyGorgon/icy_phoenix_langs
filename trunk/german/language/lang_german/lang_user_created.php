@@ -19,9 +19,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang['DEMO_VAR'] = 'DEMO VAR';
-
-$lang['BBC_Overview'] = '
-<ul>
+$lang['BBC_Overview'] = '<ul>
 <li><span class="topic_ann"><b>Was ist Icy Phoenix?</b></span><br /></li>
 <li><span class="topic_imp">Icy Phoenix ist ein CMS basierend auf phpBB (ein vollständig skalierbares und hoch anpassbares open-source Bulletin Board basierend auf php) zusätzlich vieler Änderungen und Code Integrationen welche dem Ganzen die Flexibilität verleiht. Die offizielle Homepage für phpBB ist <a class="post-url" href="http://www.phpbb.com/" target="_blank">www.phpbb.com</a>. Icy Phoenix hat einige Funktionen ursprünglich für <acronym title="phpBB eXpertS">phpBB XS Project</acronym> entwickelt, welches von Bicet gegründet wurde und dann von Bicet und Mighty Gorgon weiterentwickelt wurde. Icy Phoenix wurde von <a class="post-url" href="http://www.mightygorgon.com/" target="_blank">Mighty Gorgon</a> geschaffen, nachdem er das <acronym title="phpBB eXpertS">phpBB XS Project</acronym> verlassen hatte.</span><br /><br /></li>
 <li><span class="topic_ann"><b>Was sind die Hauptmerkmale von Icy Phoenix?</b></span><br /></li>
@@ -31,7 +29,7 @@ $lang['BBC_Overview'] = '
 <li><span class="topic_imp">phpBB bulletin Board und Berechtigungssystem</span><br /></li>
 <li><span class="topic_imp">CMS Funktion welche die Schaffung von neuen Seiten und Blöcken ermöglicht (einige dieser Funktionen stammen vom aufgegebenen IM Portal Projekt)</span><br /></li>
 <li><span class="topic_imp">Übergreifende Template Integration zwischen allen Seitenabschnitten</span><br /></li>
-<li><span class="topic_imp">Viele Funktionen können sofort benutzt werden: Photo Galerie, Downloads, Wissensdatenbank, Links, Chat...</span><br /></li>
+<li><span class="topic_imp">Viele Funktionen können sofort benutzt werden: Foto-Galerie, Downloads, Wissensdatenbank, Links, Chat...</span><br /></li>
 <li><span class="topic_imp">Startbereit für Mehrsprachigkeit und Mehrfach-Template</span><br /></li>
 <li><span class="topic_imp">Nahezu 100% XHTML und CSS W3C konform</span><br /></li>
 <li><span class="topic_imp">...und vieles mehr...</span><br /></li>
@@ -50,22 +48,16 @@ $lang['BBC_Overview'] = '
 <li><span class="topic_imp">Im Moment gibt es keine Überlegungen Icy Phoenix auf phpBB 3 upzugraden. Dafür gibt es einige Gründe. Wenn phpBB 3 lange genug und stabil laufen sollte, kann es sein, dass sich Dinge auch einmal ändern...</span><br /><br /></li>
 <li><span class="topic_ann"><b>Darf ich dem Icy Phoenix Projekt beitreten?</b></span><br /></li>
 <li><span class="topic_imp">Natürlich. Icy Phoenix ist ein Open-Source Projekt und jeder, der einen kontinuierlichen Beitrag dafür leisten möchte, kann sich für ein Team anmelden.</span><br /><br /></li>
-</ul>
-';
-
-$lang['BBC_License'] = '
-<b>Icy Phoenix</b>, welches von Mighty Gorgon entwickelt wurde, ist ein CMS basierend auf einer premodded Version von phpBB, verschiedener phpBB MODs und mehrerer Funktionen, die von Mighty Gorgon und dem Icy Phoenix Team entwickelt wurden. Da phpBB unter der GNU Lizenz freigegeben ist, ist Icy Phoenix auch unter der GNU Lizenz freigegeben (du kannst die Bedingungen hier nachlesen: <a class="post-url" href="http://www.icyphoenix.com/docs/COPYING" target="_blank">GNU</a>)<br /><br />
+</ul>';
+$lang['BBC_License'] = '<b>Icy Phoenix</b>, welches von Mighty Gorgon entwickelt wurde, ist ein CMS basierend auf einer premodded Version von phpBB, verschiedener phpBB MODs und mehrerer Funktionen, die von Mighty Gorgon und dem Icy Phoenix Team entwickelt wurden. Da phpBB unter der GNU Lizenz freigegeben ist, ist Icy Phoenix auch unter der GNU Lizenz freigegeben (du kannst die Bedingungen hier nachlesen: <a class="post-url" href="http://www.icyphoenix.com/docs/COPYING" target="_blank">GNU</a>)<br /><br />
 Credits für alle verwendeten MODs und ihre Autoren können unter diesem Link gefunden werden: <a class="post-url" href="http://www.icyphoenix.com/credits.php" target="_blank">Credits</a>.<br /><br />
 phpBB &copy; 2008 <a class="post-url" href="http://www.phpbb.com/" target="_blank">phpBB Group</a>.<br />
-Icy Phoenix &copy; 2008 <a class="post-url" href="http://www.icyphoenix.com/" target="_blank">Icy Phoenix Team</a>.
-';
-
-$lang['BBC_Requirements'] = '
-Bevor du Icy Phoenix installierst solltest du sicher sein, dass die <b>MINDESTANFORDERUNGEN</b> vorhanden sind:
+Icy Phoenix &copy; 2008 <a class="post-url" href="http://www.icyphoenix.com/" target="_blank">Icy Phoenix Team</a>.';
+$lang['BBC_Requirements'] = 'Bevor du Icy Phoenix installierst solltest du sicher sein, dass die <b>MINDESTANFORDERUNGEN</b> vorhanden sind:
 <ul>
 <li>Mindestens 20 MB freien Speicherplatz in dem Ordner, wo du Icy Phoenix installieren möchtest</li>
 <li>Web Server mit PHP (4 oder höher) installiert und gestartet (läuft am besten mit Linux + Apache)</li>
-<li>MySQL (3 oder höher) Datenbank mit mindestens 1 MB freien Speicherplatz (natürlich hängt die größe davon ab, wie groß dein Forum sein wird... 1 MB ist genug, für die Anfangsinstallation)</li>
+<li>MySQL (3 oder höher) Datenbank mit mindestens 1 MB freien Speicherplatz (natürlich hängt die Größe davon ab, wie groß dein Forum sein wird... 1 MB ist genug, für die Anfangsinstallation)</li>
 <li>Erlaubnis haben, CHMOD setzen zu können</li>
 </ul>
 <br /><br />
@@ -75,11 +67,8 @@ Die anderen Erfordernisse (selbst wenn nicht notwendiger Weise benötigt werden) 
 <li>Apache Rewrite Mod installiert und gestartet</li>
 <li>GD Bibliotheken (mindestens 2.0.28) installiert und gestartet</li>
 <li>Register Globals auf OFF gesetzt</li>
-</ul>
-';
-
-$lang['BBC_Fresh_Installation'] = '
-<ol type="1">
+</ul>';
+$lang['BBC_Fresh_Installation'] = '<ol type="1">
 <li>Entpacke das Icy Phoenix Paket in einen Ordner auf deiner Festplatte.</li>
 <li>Kopiere alle Icy Phoenix Dateien in ein Verzeichnis auf deinem Webserver (z.B. /icyphoenix/)</li>
 <li>
@@ -129,11 +118,8 @@ Setze die Berechtigung <span class="text_red">CHMOD 666</span> für die folgenden
 <li>Lösche das Verzeichnis <b>install</b> oder benenne es um.</li>
 <li>Passe das an, was du anpassen möchtest, in Dateien und DB (einige Dateien müssen von Hand angepasst werden, die meisten Änderungen können im Admin-Bereich und CMS vorgenommen werden).</li>
 <li>Genieße dein neues Forum <img src="http://www.icyphoenix.com/images/smiles/icon_mrgreen.gif" alt="Enjoy!" title="Enjoy!" />.</li>
-</ol>
-';
-
-$lang['BBC_Upgrade_phpbb'] = '
-Wenn du bereits phpBB 2.0.23 oder älter verwendest, kannst du dein Forum einfach aktualisieren, indem du die folgenden Schritte durchführst:<br />
+</ol>';
+$lang['BBC_Upgrade_phpbb'] = 'Wenn du bereits phpBB 2.0.23 oder älter verwendest, kannst du dein Forum einfach aktualisieren, indem du die folgenden Schritte durchführst:<br />
 <ol type="1">
 <li><span class="text_red">Erstelle ein vollständiges Backup aller Dateien und der Datenbank</span> (Wenn du kein Backup hast, frage nicht nach Support! <img src="http://www.icyphoenix.com/images/smiles/icon_mrgreen.gif" alt="Backup Regeln!" title="Backup Regeln!" />)</li>
 <li>Hast du ein Backup von allem? Wenn du kein Backup hast, gehe zum vorhergehenden Punkt zurück.</li>
@@ -158,11 +144,8 @@ Wenn du bereits phpBB 2.0.23 oder älter verwendest, kannst du dein Forum einfach
 <li>Passe das an, was du anpassen möchtest, in Dateien und DB (einige Dateien müssen von Hand angepasst werden, die meisten Änderungen können im Admin-Bereich und CMS vorgenommen werden).</li>
 <li>Entsperre dein Forum.</li>
 <li>Genieße dein neues <b>Icy Phoenix</b> Forum <img src="http://www.icyphoenix.com/images/smiles/icon_mrgreen.gif" alt="Enjoy!" title="Enjoy!" />.</li>
-</ol>
-';
-
-$lang['BBC_Upgrade_XS'] = '
-Wenn du bereits phpBB XS verwendest, kannst du dein Forum einfach aktualisieren, indem du die folgenden Schritte durchführst (basierend auf eine phpBB XS 058 Standard Installation):<br />
+</ol>';
+$lang['BBC_Upgrade_XS'] = 'Wenn du bereits phpBB XS verwendest, kannst du dein Forum einfach aktualisieren, indem du die folgenden Schritte durchführst (basierend auf eine phpBB XS 058 Standard Installation):<br />
 <ol type="1">
 <li><span class="text_red">Erstelle ein vollständiges Backup aller Dateien und der Datenbank</span> (Wenn du kein Backup hast, frage nicht nach Support! <img src="http://www.icyphoenix.com/images/smiles/icon_mrgreen.gif" alt="Backup Regeln!" title="Backup Regeln!" />)</li>
 <li>Hast du ein Backup von allem? Wenn du kein Backup hast, gehe zum vorhergehenden Punkt zurück.</li>
@@ -206,11 +189,8 @@ Wenn du bereits phpBB XS verwendest, kannst du dein Forum einfach aktualisieren,
 <li>Passe das an, was du anpassen möchtest, in Dateien und DB (einige Dateien müssen von Hand angepasst werden, die meisten Änderungen können im Admin-Bereich und CMS vorgenommen werden).</li>
 <li>Entsperre dein Forum.</li>
 <li>Genieße dein neues <b>Icy Phoenix</b> Forum <img src="http://www.icyphoenix.com/images/smiles/icon_mrgreen.gif" alt="Enjoy!" title="Enjoy!" />.</li>
-</ol>
-';
-
-$lang['BBC_Upgrade_IP'] = '
-Wenn du bereits Icy Phoenix 1.0.9.9 oder höher verwendest, kannst du dein Forum einfach aktualisieren, indem du die folgenden Schritte durchführst:<br />
+</ol>';
+$lang['BBC_Upgrade_IP'] = 'Wenn du bereits Icy Phoenix 1.0.9.9 oder höher verwendest, kannst du dein Forum einfach aktualisieren, indem du die folgenden Schritte durchführst:<br />
 <ol type="1">
 <li><span class="text_red">Erstelle ein vollständiges Backup aller Dateien und der Datenbank</span> (Wenn du kein Backup hast, frage nicht nach Support! <img src="http://www.icyphoenix.com/images/smiles/icon_mrgreen.gif" alt="Backup Regeln!" title="Backup Regeln!" />)</li>
 <li>Hast du ein Backup von allem? Wenn du kein Backup hast, gehe zum vorhergehenden Punkt zurück.</li>
@@ -235,7 +215,6 @@ Wenn du bereits Icy Phoenix 1.0.9.9 oder höher verwendest, kannst du dein Forum 
 <li>Passe das an, was du anpassen möchtest, in Dateien und DB (einige Dateien müssen von Hand angepasst werden, die meisten Änderungen können im Admin-Bereich und CMS vorgenommen werden).</li>
 <li>Entsperre dein Forum.</li>
 <li>Genieße dein neues <b>Icy Phoenix</b> Forum <img src="http://www.icyphoenix.com/images/smiles/icon_mrgreen.gif" alt="Enjoy!" title="Enjoy!" />.</li>
-</ol>
-';
+</ol>';
 
 ?>

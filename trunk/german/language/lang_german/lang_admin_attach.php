@@ -103,9 +103,9 @@ $lang = array_merge($lang, array(
 	'Sync_thumbnail_recreated' => 'Thumbnail für Attachment erstellt: %s', // replace %s with physical Filename
     'Sync_thumbnail_resetted' => 'Thumbnail für Attachment %s zurückgesetzt.',
     'Attach_sync_finished' => 'Attachment Synchronisierung erfolgreich beendet.',
-    'Sync_topics' => 'Themen syncronisieren',
-    'Sync_posts' => 'Beiträge syncronisieren',
-    'Sync_thumbnails' => 'Thumbnails syncronisieren',
+    'Sync_topics' => 'Themen synchronisieren',
+    'Sync_posts' => 'Beiträge synchronisieren',
+    'Sync_thumbnails' => 'Thumbnails synchronisieren',
 
 
 // Extensions -> Extension Control
@@ -229,7 +229,7 @@ $lang = array_merge($lang, array(
 
 // Successfully updated
     'Attach_config_updated' => 'Attachment Einstellungen wurden erfolgreich verändert',
-    'Click_return_attach_config' => 'Klicke %shier%s um zu den Attachment Einstellungen zurückzukehren',
+    'Click_return_attach_config' => 'Klicke %shier%s, um zu den Attachment Einstellungen zurückzukehren',
     'Test_settings_successful' => 'Einstellungstest abgeschlossen, die Konfiguration scheint zu funktionieren.',
 
 // Some basic definitions

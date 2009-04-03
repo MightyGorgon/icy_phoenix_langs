@@ -30,11 +30,13 @@ $lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, ph
 $lang['Default_META_Description'] = 'Icy Phoenix ist ein sehr anpassbares CMS-System, welches auf phpBB basiert. Dieses erlaubt Ihnen die Erstellung dynamischen Seiten mit vielen besonderen Fähigkeiten.';
 $lang['Default_META_Title'] = 'Icy Phoenix';
 $lang['Default_META_Author'] = 'Mighty Gorgon And Icy Phoenix Staff :: http://www.icyphoenix.com/';
-$lang['Default_META_Copyright'] = '(c) 2001-2006 Mighty Gorgon';
+$lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
+
+$lang['REGISTER_MESSAGE'] = '';
 
 $lang['Welcome_Message'] = 'Willkommen bei <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Willkommen bei %s';
-$lang['register_pm'] = 'Hallo!\n\nWillkommen bei %s.\n\nWir hoffen du genießt die Zeit hier auf unserer Seite! <br /><br />Fühle dich frei um mitzumachen und mit anderen Deine Erfahrungen auszutauschen oder Deine eigene Diskussion zu starten!<br /><br />~Viel Spaß!<br />%s';
+$lang['register_pm'] = 'Hallo!\n\nWillkommen bei %s.\n\nWir hoffen du genießt die Zeit hier auf unserer Seite! <br /><br />Fühle dich frei um mitzumachen und mit anderen deine Erfahrungen auszutauschen oder deine eigene Diskussion zu starten!<br /><br />~Viel Spaß!<br />%s';
 
 $lang['Support_Us'] = 'Unterstützt uns';
 $lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '" title="' . $lang['Support_Us'] . '" />';
@@ -76,7 +78,7 @@ $lang['JOINED_DATE_FORMAT'] = 'F Y'; // Datums-Format der Anmeldung, php date() 
 // along with our copyright message indicating you are the translator
 // please add it here.
 
-$lang['TRANSLATION_INFO'] = '';
+$lang['TRANSLATION_INFO'] = 'Deutsche Übersetzung durch <a href="http://www.icyphoenix.de" target="_blank">IcyPhoenix.de</a>';
 $lang['TRANSLATION'] = '';
 
 ?>

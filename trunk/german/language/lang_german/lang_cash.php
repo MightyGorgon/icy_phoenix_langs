@@ -186,7 +186,7 @@ $lang['Display'] = 'Anzeige';
 $lang['Implementation'] = 'Verdienste';
 $lang['Allowances'] = 'Taschengelder';
 $lang['Allowances_explain'] = 'Taschengelder setzen das Cash Mod Taschengeld Plug-in vorraus';
-$lang['Click_return_cash_settings'] = 'Klicke %shier%s um zu den Cash Mod Einstellungen zurückzukehren';
+$lang['Click_return_cash_settings'] = 'Klicke %shier%s, um zu den Cash Mod Einstellungen zurückzukehren';
 $lang['Cash_settings_updated'] = 'Cash Mod Einstellungen geändert';
 
 $lang['Cash_enabled'] = 'Währung aktivieren';

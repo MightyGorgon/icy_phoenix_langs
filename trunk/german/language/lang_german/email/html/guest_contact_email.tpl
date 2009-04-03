@@ -1,4 +1,3 @@
-Subject: Neue E-Mail von {FROM_USERNAME}
 Charset: iso-8859-1
 
 <br /><font face="Verdana" size="2">

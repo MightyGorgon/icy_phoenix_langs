@@ -1,4 +1,3 @@
-Subject: Neue Administrator Nachricht von {SITENAME}
 Charset: iso-8859-1
 
 Die folgende E-Mail erhältst du von einem Administrator von {SITENAME}. Wenn diese E-Mail unerwünschten Inhalt (Spam) enthält, dann kontaktiere bitte den Administrator unter:

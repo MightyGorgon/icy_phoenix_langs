@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 
     'BBUS_Setting_ViewLevel_Explain1' => 'Die Ansichts-Level Einstellung ist eine Summe von einem oder mehr Flags welche festlegt ob ein Benutzer die Forum Verwendungs-Stats auf der Benutzerprofil-Seite sehen kann.<br /><b>Nutze die Checkboxen unten um die Ansicht der Stats für bestimmte Benutzergruppen zu aktivieren oder deaktivieren.</b><br /><br />Die Ansichts-Level Zugriffs Flags werden wie folgt bestimmt:<br />',
 
-    'BBUS_Setting_ViewLevel_Explain2' => 'Die häufigste Einstellung für Foren ist 24 (16 + 8). Diese erlaubt Administratoren und Moderatoren, die Forum Verwendungs-Statistiken zu überwachen, während alle anderen Benutzer nur die Standard Benutzerprofilseite angezeigt bekommen.<br /><br /> Es wird empfohlen, dass Du die Ansicht der Statistik (besonders für gro&szlig;e Foren) einschränkst, um Leistungsverminderung zu vermeiden, die aus der Erzeugung von Statistiken für viele Benutzer gleichzeitig entstehen können.',
+    'BBUS_Setting_ViewLevel_Explain2' => 'Die häufigste Einstellung für Foren ist 24 (16 + 8). Diese erlaubt Administratoren und Moderatoren, die Forum Verwendungs-Statistiken zu überwachen, während alle anderen Benutzer nur die Standard Benutzerprofilseite angezeigt bekommen.<br /><br /> Es wird empfohlen, dass du die Ansicht der Statistik (besonders für gro&szlig;e Foren) einschränkst, um Leistungsverminderung zu vermeiden, die aus der Erzeugung von Statistiken für viele Benutzer gleichzeitig entstehen können.',
 
     'BBUS_Setting_ViewOptions_Caption' => 'Ansichts-Optionen',
     'BBUS_Setting_ViewOptions_Note' => '<i>Beachte</i>: Diese Textbox kann nur gelesen werden (read-only).<br />Benutze die Checkboxen um diesen Wert zu anzupassen.',

@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
     'New_Files' => 'Alle neuen Dateien der letzten %d Tage',
     'Last_week' => 'Letzte Woche',
     'Last_30_days' => 'Letzten 30 Tage',
-    'Show_top' => 'Teige Top',
+    'Show_top' => 'Zeige Top',
     'Or_top' => 'oder Top',
     'Popular_num' => 'Top %d von %d Dateien in der Datenbank',
     'Popular_per' => 'Top %d %% von allen %d Dateien in der Datenbank',
@@ -209,7 +209,7 @@ $lang = array_merge($lang, array(
     'Category' => 'Kategorie',
     'Error_no_download' => 'Die ausgewählte Datei existiert nicht mehr.',
     'Options' => 'Optionen',
-    'Click_return' => '%sKlicke hier%s, um zur vorhergehenden Seite zurückzukehren.',
+    'Click_return' => 'Klicke %shier%s, um zur vorhergehenden Seite zurückzukehren.',
     'Click_here' => 'Klicke hier',
     'never' => 'Keine',
     'pafiledb_disable' => 'Die Download Datenbank ist deaktiviert.',
@@ -234,8 +234,8 @@ $lang = array_merge($lang, array(
 // MX Addon
     'Deletefile' => 'Datei löschen',
     'Editfile' => 'Datei bearbeiten',
-    'pa_MCP' => '[ModeratorCP]',
-    'Click_return_not_validated' => '%sKlicke hier%s, um zur vorhergehenden Seite zurückzukehren.',
+    'pa_MCP' => 'ModeratorCP',
+    'Click_return_not_validated' => 'Klicke %shier%s, um zur vorhergehenden Seite zurückzukehren.',
 	)
 );
 

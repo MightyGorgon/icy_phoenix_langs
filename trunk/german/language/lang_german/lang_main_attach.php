@@ -34,11 +34,11 @@ $lang = array_merge($lang, array(
 	'Rules_download_can' => 'You <b>can</b> download files in this forum',
 	'Rules_download_cannot' => 'You <b>cannot</b> download files in this forum',
 */
-    'Rules_attach_can' => 'Du <b>kannst</b> Dateien in diesem Forum anhängen.',
-    'Rules_attach_cannot' => 'Du <b>kannst keine</b> Dateien in diesem Forum anhängen.',
-    'Rules_download_can' => 'Du <b>kannst</b> Dateien in diesem Forum herunterladen.',
-    'Rules_download_cannot' => 'Du <b>kannst keine</b> Dateien in diesem Forum herunterladen.',
-    'Sorry_auth_view_attach' => 'Du bist leider nicht autorisiert, diesen Anhang anzuzeigen oder herunterzuladen.',
+    'Rules_attach_can' => 'Du <b>kannst</b> Dateien anhängen.',
+    'Rules_attach_cannot' => 'Du <b>kannst keine</b> anhängen.',
+    'Rules_download_can' => 'Du <b>kannst</b> Dateien herunterladen.',
+    'Rules_download_cannot' => 'Du <b>kannst keine</b> herunterladen.',
+    'Sorry_auth_view_attach' => 'Du bist leider nicht autorisiert, diesen Anhang anzusehen oder herunterzuladen.',
 
 // Viewtopic -> Display of Attachments
     'Description' => 'Beschreibung', // wird im ACP auch verwendet...

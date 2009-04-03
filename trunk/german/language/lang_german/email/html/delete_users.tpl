@@ -13,4 +13,3 @@ Falls du wieder Mitglied unserer Community werden willst, kannst du dich mit ein
 Du wirst keine weiteren E-Mails zu diesem Benutzer-Konto erhalten.
 <span style="color:#a4a4a4; font-size:11">
 {EMAIL_SIG}</span></font>
-

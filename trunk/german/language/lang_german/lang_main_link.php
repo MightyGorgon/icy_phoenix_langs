@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
     'Link_category' => 'Kategorie',
     'link_hits' => 'Hits',
     'Link_us' => 'Link zu uns',
-    'Link_us_explain' => 'Wenn du zu <b>%s</b> linken möchtest, benutze den folgenden HTML-Code:',
+    'Link_us_explain' => 'Wenn du zu <b>%s</b> verlinken möchtest, benutze den folgenden HTML-Code:',
     'Link_us_syntax' => '<a href="%s" target="_blank"><img src="%s" width="%d" height="%d" border="0" alt="%s" /></a>',
     'Link_register' => 'Seite vorschlagen',
     'Link_register_guest_rule' => 'Als registrierter Benutzer musst du dich einloggen, um deine Seite vorschlagen zu können.',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
     'Link_update_fail' => 'Deine Informationen konnten nicht gespeichert werden. Bitte gehe zurück und versuche es noch einmal.',
     'Link_incomplete' => 'Du hast das Formular nicht vollständig ausgefüllt. Bitte gehe zurück und versuche es noch einmal.',
     'Link_intval_warning' => 'Du kannst nicht meherere Seiten innerhalb einer Minute einreichen. Bitte versuche es später noch einmal.',
-    'Click_return_links' => '%sKlicke hier%s, um zum Links-Index zurückzukehren',
+    'Click_return_links' => 'Klicke %shier%s, um zum Links-Index zurückzukehren',
     'Please_enter_your' => 'Gib ein deinen ',
     'No_Logo_img' => '<font color=blue>&#8226;</font>', // Du kannst die Farbe bearbeiten
     'No_Display_Links_Logo' => '<font color=brown>&#8226;</font>', // Keine Anzeige des Links Logos

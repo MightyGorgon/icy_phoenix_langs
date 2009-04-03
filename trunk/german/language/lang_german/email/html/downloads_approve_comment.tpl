@@ -17,4 +17,3 @@ Oder du kannst dir den Kommentar anschauen, wenn du diesen zweiten Link verwende
 <br /><br />
 <span style="color:#a4a4a4; font-size:11">
 {EMAIL_SIG}</span></font>
-

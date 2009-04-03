@@ -4,7 +4,7 @@ Charset: iso-8859-1
 Hallo <b>{WARNED_POSTER}</b>,<br /><br />
 
 Du wurdest bei <b>{SITENAME}</b> verwarnt.<br />
-Du hast jetzt insgesammt <b>{WARNINGS}</b> Verwarnungen. Wenn du mehr als <b>{TOTAL_WARN}</b> Verwarnungen erhälst, wird dein Benutzer-Konto gesperrt.<br /><br />
+Du hast jetzt insgesammt <b>{WARNINGS}</b> Verwarnungen. Wenn du mehr als <b>{TOTAL_WARN}</b> Verwarnungen erhältst, wird dein Benutzer-Konto gesperrt.<br /><br />
 
 Für die Verwarnung kann es verschiedene Gründe geben. Diese Verwarnung wurde wegen diesem Beitrag ausgesprochen:<br /><br />
 
@@ -20,4 +20,3 @@ Erkläre deinen Beitrag und warum du mit der Verwarnung nicht einverstanden bist.
 <br /><br />
 <span style="color:#a4a4a4; font-size:11">
 {EMAIL_SIG}</span></font>
-

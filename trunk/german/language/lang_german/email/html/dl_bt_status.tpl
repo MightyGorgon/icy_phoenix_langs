@@ -4,7 +4,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
 
-Du erhälst diese E-Mail weil der Status für deinen Bug Report {REPORT_TITLE} bei <b>{SITENAME}</b> geändert wurde.<br /><br />
+Du erhältst diese E-Mail weil der Status für deinen Bug Report {REPORT_TITLE} bei <b>{SITENAME}</b> geändert wurde.<br /><br />
 
 Neuer Status: {STATUS}.<br /><br />
 
@@ -17,4 +17,3 @@ Für weitere Informationen darüber nutze einfach den folgenden Link:<br /><br />
 <br /><br />
 <span style="color:#a4a4a4; font-size:11">
 {EMAIL_SIG}</span></font>
-
