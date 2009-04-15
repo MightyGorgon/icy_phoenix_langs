@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'phpBB_Version_UpToDate' => 'Deine phpBB Version ist aktuell',
 	'phpBB_Version_NotUpToDate' => 'Deine phpBB Version ist nicht aktuell',
 	'ClickUpdate' => 'Bitte klicke %shier%s, um ein Update zu machen!',
-	'ClickReturn' => 'Bitte klicke %shier%s, um zum Menü zurückzukehren!',^
+	'ClickReturn' => 'Bitte klicke %shier%s, um zum Menü zurückzukehren!',
 
 	'Clean_OldFiles_Explain' => 'Lösche alle unbenutzten Icy Phoenix Dateien (Dateien, die noch von alten Versionen auf deinem Server sind)',
 	'ActionUndone' => 'Achtung, dieser Vorgang kann nicht rückgängig gemacht werden. Vergewissere dich, dass du eine Sicherung hast!!!',
