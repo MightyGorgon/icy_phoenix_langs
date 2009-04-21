@@ -32,40 +32,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// Do not remove these even if duplicated...
-$lang['-12'] = 'GMT - 12 Horas';
-$lang['-11'] = 'GMT - 11 Horas';
-$lang['-10'] = 'GMT - 10 Horas';
-$lang['-9'] = 'GMT - 9 Horas';
-$lang['-8'] = 'GMT - 8 Horas';
-$lang['-7'] = 'GMT - 7 Horas';
-$lang['-6'] = 'GMT - 6 Horas';
-$lang['-5'] = 'GMT - 5 Horas';
-$lang['-4'] = 'GMT - 4 Horas';
-$lang['-3.5'] = 'GMT - 3.5 Horas';
-$lang['-3'] = 'GMT - 3 Horas';
-$lang['-2'] = 'GMT - 2 Horas';
-$lang['-1'] = 'GMT - 1 Horas';
-$lang['0'] = 'GMT';
-$lang['1'] = 'GMT + 1 Hora';
-$lang['2'] = 'GMT + 2 Horas';
-$lang['3'] = 'GMT + 3 Horas';
-$lang['3.5'] = 'GMT + 3.5 Horas';
-$lang['4'] = 'GMT + 4 Horas';
-$lang['4.5'] = 'GMT + 4.5 Horas';
-$lang['5'] = 'GMT + 5 Horas';
-$lang['5.5'] = 'GMT + 5.5 Horas';
-$lang['6'] = 'GMT + 6 Horas';
-$lang['6.5'] = 'GMT + 6.5 Horas';
-$lang['7'] = 'GMT + 7 Horas';
-$lang['8'] = 'GMT + 8 Horas';
-$lang['9'] = 'GMT + 9 Horas';
-$lang['9.5'] = 'GMT + 9.5 Horas';
-$lang['10'] = 'GMT + 10 Horas';
-$lang['11'] = 'GMT + 11 Horas';
-$lang['12'] = 'GMT + 12 Horas';
-$lang['13'] = 'GMT + 13 Horas';
-
 $lang['BBC_IP_CREDITS_STATIC'] = '
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
 <span style="color: #ff5500;"><b>Mighty Gorgon</b></span><br />
@@ -754,7 +720,7 @@ $lang = array_merge($lang, array(
 	'Flood_email_limit' => 'No puede enviar otro correo en este momento. Intente de nuevo más tarde.',
 	'Recipient' => 'Destinatario',
 	'Email_sent' => 'El correo ha sido enviado.',
-	'Send_email' => 'Enviar correo',
+	'Send_Email' => 'Enviar correo',
 	'Empty_sender_email' => 'Debe especificar un remitente en el e-mail.',
 	'Empty_subject_email' => 'Debe especificar un asunto para el correo.',
 	'Empty_message_email' => 'Debe ingresar un mensaje para que el correo pueda ser enviado.',
@@ -1621,7 +1587,7 @@ $lang = array_merge($lang, array(
 	'Remote_avatar_error_filesize' => 'La imagen pesa más del limite permitido (%d bytes)',
 	'Remote_avatar_error_dimension' => 'La imagen es más grande de lo permitido (%d x %d pixels)',
 	'How_Many_Chatters' => 'Hay <b>%d</b> usuario(s) en el chat',
-	'Who_Are_Chatting'  => '<b>%s</b>',
+	'Who_Are_Chatting' => '<b>%s</b>',
 	'Click_to_join_chat' => 'Pulse para ingresar en el chat',
 	'ChatBox' => 'Sala de chat',
 	'log_out_chat' => 'Usted se ha identificado correctamente en el chat',
@@ -1772,11 +1738,11 @@ $lang = array_merge($lang, array(
 // New MG - END
 
 // MG CMS - BEGIN
-	'CMS_Title' => 'CMS',
-	'CMS_Management' => 'Administración CMS',
-	'CMS_Config' => 'Configuración CMS',
+	'CMS_TITLE' => 'CMS',
+	'CMS_MANAGEMENT' => 'Administración CMS',
+	'CMS_CONFIG' => 'Configuración CMS',
 	'CMS_ACP' => 'Editar esta página',
-	'Custom_Page' => 'Página personalizada',
+	'CUSTOM_PAGE' => 'Página personalizada',
 // MG CMS - END
 
 // Icy Phoenix - BUILD 001
@@ -2146,7 +2112,43 @@ $lang = array_merge($lang, array(
 
 	'GSEARCH' => 'Búsqueda Google',
 	'GSEARCH_ENGINE' => 'Utilizar sistema de búsqueda Google',
+	'SEARCH_WHAT' => 'Buscar que',
+	'SEARCH_WHERE' => 'Buscar en',
+	'SEARCH_THIS_FORUM' => 'Buscar en este foro...',
+	'SEARCH_THIS_TOPIC' => 'Buscar en este tema...',
+	'VF_ALL_TOPICS' => 'Todos los temas',
 
+	'WHITE_LIST_MESSAGE' => 'Este foro requiere confirmación de cuenta a través de e-mail. Por favor, verifique que este dominio está en la lista blanca de su sistema de antispam o nunca recibirá el mensaje de activación.',
+	'CLICK_RETURN_HOME' => 'Pulse %saquí%s para volver a la página principal',
+
+	'WEEK_DAY_SUNDAY' => 'Domingo',
+	'WEEK_DAY_MONDAY' => 'Lunes',
+	'WEEK_DAY_TUESDAY' => 'Martes',
+	'WEEK_DAY_WEDNESDAY' => 'Miércoles',
+	'WEEK_DAY_THURSDAY' => 'Jueves',
+	'WEEK_DAY_FRIDAY' => 'Viernes',
+	'WEEK_DAY_SATURDAY' => 'Sábado',
+
+	'RATINGS' => 'Valoraciones',
+
+	'ERROR_TABLE' => 'No se ha posido consultar la tabla %s',
+
+	'SMILEYS' => 'Emoticonos',
+	'SMILEYS_NO_CATEGORIES' => 'No hay categorías definidas',
+	'SMILEYS_CATEGORY' => 'Categoría',
+	'SMILEYS_GALLERY' => 'Galería de emoticonos',
+	'SMILEYS_STANDARD' => 'Emoticonos estándares',
+
+	'QUICK_LIST' => 'Lista completa',
+	'NORMAL_LIST' => 'Lista normal',
+
+	'RETURN_PAGE' => '%sVolver a la página anterior%s',
+	'FILE_NOT_FOUND' => 'Archivo no encontrado',
+	'FSOCK_DISABLED' => 'FSOCK deshabilitado',
+
+	'MANAGEMENT' => 'Gestión',
+	'SORT_ORDER' => 'Ordenar por',
+	'SORT_DIR' => 'Dirección de ordenación',
 	)
 );
 
@@ -2168,55 +2170,55 @@ $lang['Prune_commands'][3] = 'Borrar usuarios/as que no nos visitan';
 $lang['Prune_explain'][3] = 'De quienes no nos visitan desde hace 60 dias, <b>Excluir</b> nuevos usuarios a partir de %d días'; 
 $lang['Prune_commands'][4] = 'Borrar usuarios/as que no escriben regularmente'; 
 $lang['Prune_explain'][4] = 'De quienes tienen menos de un 1 envío por cada 10 días de registro, <b>Excluir</b> nuevos usuarios a partir de %d días';
-$lang['Prune_commands'][5] = 'Borrar usuarios que no escriben i no visitan el foro';
-$lang['Prune_explain'][5] = 'De quieres nunca han enviado un mensaje i no han visitado el foro recientemente, <b>excluyendo</b> los nuevos usuarios de los últimos %d días';
+$lang['Prune_commands'][5] = 'Borrar usuarios que no escriben y no visitan el foro';
+$lang['Prune_explain'][5] = 'De quieres nunca han enviado un mensaje y no han visitado el foro recientemente, <b>excluyendo</b> los nuevos usuarios de los últimos %d días';
 
 // Timezones - BEGIN
 $lang['All_times'] = 'Todas las horas son %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
-// Do not remove these even if duplicated...
-$lang['-12'] = 'GMT - 12 horas';
-$lang['-11'] = 'GMT - 11 horas';
-$lang['-10'] = 'GMT - 10 horas';
-$lang['-9'] = 'GMT - 9 horas';
-$lang['-8'] = 'GMT - 8 horas';
-$lang['-7'] = 'GMT - 7 horas';
-$lang['-6'] = 'GMT - 6 horas';
-$lang['-5'] = 'GMT - 5 horas';
-$lang['-4'] = 'GMT - 4 horas';
-$lang['-3.5'] = 'GMT - 3.5 horas';
-$lang['-3'] = 'GMT - 3 horas';
-$lang['-2'] = 'GMT - 2 horas';
-$lang['-1'] = 'GMT - 1 hora';
-$lang['0'] = 'GMT';
-$lang['1'] = 'GMT + 1 hora';
-$lang['2'] = 'GMT + 2 horas';
-$lang['3'] = 'GMT + 3 horas';
-$lang['3.5'] = 'GMT + 3.5 horas';
-$lang['4'] = 'GMT + 4 horas';
-$lang['4.5'] = 'GMT + 4.5 horas';
-$lang['5'] = 'GMT + 5 horas';
-$lang['5.5'] = 'GMT + 5.5 horas';
-$lang['6'] = 'GMT + 6 horas';
-$lang['6.5'] = 'GMT + 6.5 horas';
-$lang['7'] = 'GMT + 7 horas';
-$lang['8'] = 'GMT + 8 horas';
-$lang['9'] = 'GMT + 9 horas';
-$lang['9.5'] = 'GMT + 9.5 horas';
-$lang['10'] = 'GMT + 10 horas';
-$lang['11'] = 'GMT + 11 horas';
-$lang['12'] = 'GMT + 12 horas';
-$lang['13'] = 'GMT + 13 horas';
+// Time zones short
+$lang['tzs']['-12'] = 'GMT - 12 horas';
+$lang['tzs']['-11'] = 'GMT - 11 horas';
+$lang['tzs']['-10'] = 'GMT - 10 horas';
+$lang['tzs']['-9'] = 'GMT - 9 horas';
+$lang['tzs']['-8'] = 'GMT - 8 horas';
+$lang['tzs']['-7'] = 'GMT - 7 horas';
+$lang['tzs']['-6'] = 'GMT - 6 horas';
+$lang['tzs']['-5'] = 'GMT - 5 horas';
+$lang['tzs']['-4'] = 'GMT - 4 horas';
+$lang['tzs']['-3.5'] = 'GMT - 3.5 horas';
+$lang['tzs']['-3'] = 'GMT - 3 horas';
+$lang['tzs']['-2'] = 'GMT - 2 horas';
+$lang['tzs']['-1'] = 'GMT - 1 hora';
+$lang['tzs']['0'] = 'GMT';
+$lang['tzs']['1'] = 'GMT + 1 hora';
+$lang['tzs']['2'] = 'GMT + 2 horas';
+$lang['tzs']['3'] = 'GMT + 3 horas';
+$lang['tzs']['3.5'] = 'GMT + 3.5 horas';
+$lang['tzs']['4'] = 'GMT + 4 horas';
+$lang['tzs']['4.5'] = 'GMT + 4.5 horas';
+$lang['tzs']['5'] = 'GMT + 5 horas';
+$lang['tzs']['5.5'] = 'GMT + 5.5 horas';
+$lang['tzs']['6'] = 'GMT + 6 horas';
+$lang['tzs']['6.5'] = 'GMT + 6.5 horas';
+$lang['tzs']['7'] = 'GMT + 7 horas';
+$lang['tzs']['8'] = 'GMT + 8 horas';
+$lang['tzs']['9'] = 'GMT + 9 horas';
+$lang['tzs']['9.5'] = 'GMT + 9.5 horas';
+$lang['tzs']['10'] = 'GMT + 10 horas';
+$lang['tzs']['11'] = 'GMT + 11 horas';
+$lang['tzs']['12'] = 'GMT + 12 horas';
+$lang['tzs']['13'] = 'GMT + 13 horas';
 
 // These are displayed in the timezone select box
 $lang['tz']['-12'] = '(GMT -12 horas) Eniwetok, Kwajalein';
 $lang['tz']['-11'] = '(GMT -11 horas) Midway Island, Samoa';
 $lang['tz']['-10'] = '(GMT -10 horas) Hawaii';
 $lang['tz']['-9'] = '(GMT -9 horas) Alaska';
-$lang['tz']['-8'] = '(GMT -8 horas) Pacific Time (US & Canada)';
-$lang['tz']['-7'] = '(GMT -7 horas) Mountain Time (US & Canada)';
-$lang['tz']['-6'] = '(GMT -6 horas) Central Time (US & Canada), Mexico City';
-$lang['tz']['-5'] = '(GMT -5 horas) Eastern Time (US & Canada), Bogota, Lima, Quito';
+$lang['tz']['-8'] = '(GMT -8 horas) Pacific Time (US &amp; Canada)';
+$lang['tz']['-7'] = '(GMT -7 horas) Mountain Time (US &amp; Canada)';
+$lang['tz']['-6'] = '(GMT -6 horas) Central Time (US &amp; Canada), Mexico City';
+$lang['tz']['-5'] = '(GMT -5 horas) Eastern Time (US &amp; Canada), Bogota, Lima, Quito';
 $lang['tz']['-4'] = '(GMT -4 horas) Atlantic Time (Canada), Caracas, La Paz';
 $lang['tz']['-3.5'] = '(GMT -3.5 horas) Newfoundland';
 $lang['tz']['-3'] = '(GMT -3 horas) Brazil, Buenos Aires, Georgetown';

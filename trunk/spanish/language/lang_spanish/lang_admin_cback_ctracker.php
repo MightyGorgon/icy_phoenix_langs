@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 	'ctracker_settings_e29' => 'Aquí puede activar esta característica, así los usuarios pueden utilizar la función de correo del foro solamente una vez en el período de tiempo marcado. Esto previene el spamming.',
 	'ctracker_settings_m30' => 'Tiempo de spam e-mail',
 	'ctracker_settings_e30' => 'Periodo de tiempo en el que un usuario puede enviar dos e-mails usando la función interna de correo (en minutos).',
-	'ctracker_settings_m31' => 'Auto recuperación',
+	'ctracker_settings_m31' => 'Autorecuperación',
 	'ctracker_settings_e31' => 'Active esta característica para guardar los ajustes del foro automáticamente. Si esto no funciona, puede utilizar la última configuración.',
 	'ctracker_settings_m32' => 'Confirmación visual para invitados',
 	'ctracker_settings_e32' => 'Cuando se activa esta caracteristica, los invitados tienen que introducir un código visual para escribir nuevos mensajes. De no ser así, no podrán enviar el mensaje. Esto protege contra los spambots automáticos.',
@@ -223,7 +223,6 @@ $lang = array_merge($lang, array(
 	'ctracker_glob_res_txt' => 'Si pulsa en "Cancelar mensaje actual", el mensaje guardado se cancelará.',
 	'ctracker_glob_msg_saved' => 'El mensaje global se ha guardado.<br /><br />Pulse <a href="%s">Aquí</a> para volver a la administración de CrackerTracker.',
 	'ctracker_glob_msg_reset_ok' => 'El mensaje global ha sido borrado de la tabla del usuario. El mensaje incorporado no se mostrará más.<br /><br />Pulse <a href="%s">Aquí</a> para volver a la administración CrackerTracker.',
-	'ctracker_dbg_mode' => '<b>CrackerTracker funcionando en MODO DEBUG. Esto no debe ser una condición permanente.<br />Por favor, ajuste de nuevo a modo normal cuanto antes.<br /><br /><u>¡Este mensaje no puede ser borrado!</u></b>',
 
 /*
 * IP&Agent Blocker
@@ -284,8 +283,6 @@ $lang = array_merge($lang, array(
 	'ctracker_ma_warning' => '<font color="#FF0000"><b>CUIDADO</b></font>',
 	'ctracker_ma_active' => '<font color="#1CBF00"><b>ACTIVO</b></font>',
 	'ctracker_ma_inactive' => '<font color="#FF0000"><b>NO ACTIVO</b></font>',
-	'ctracker_ma_on' => 'ENCENDIDO',
-	'ctracker_ma_off' => 'APAGADO',
 	'ctracker_ma_ca' => '<font color="#1CBF00"><b>BIEN</b></font>',
 	'ctracker_ma_ci' => '<font color="#FF0000"><b>NO FIJADO</b></font>',
 	'ctracker_ma_head' => 'Comprobador de mantenimiento y sistema',

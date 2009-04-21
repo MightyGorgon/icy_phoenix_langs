@@ -485,7 +485,6 @@ $lang = array_merge($lang, array(
 // Options
 	'cls' => 'Limpiar todas las sesiones',
 	'ecf' => 'Limpiar directorio caché',
-	'fdt' => 'Fijar def_tree.php',
 	'rdb' => 'Reparar tablas de la base de datos',
 	'cct' => 'Comprobar la tabla de configuración',
 	'rpd' => 'Actualizar los datos de la ruta',
@@ -500,7 +499,6 @@ $lang = array_merge($lang, array(
 // Info for options
 	'cls_info' => 'Cuando proceda, todas las sesiones serán limpiadas.',
 	'ecf_info' => 'Cuando se proceda el directorio caché será limpiado.',
-	'fdt_info' => 'Cuando proceda, se reparará el archivo def_tree.php.',
 	'rdb_info' => 'Cuando proceda, las tablas de la base de datos serán reparadas.',
 	'cct_info' => 'Cuando proceda, la tabla de la configuración será comprobada y las entradas que falten serán restauradas.',
 	'rpd_info' => 'Cuando proceda, los datos de la configuración serán actualizados si se selecciona el ajuste recomendado.',
@@ -516,7 +514,6 @@ $lang = array_merge($lang, array(
 // Success messages for options
 	'cls_success' => 'Todas las sesiones fueron limpiadas.',
 	'ecf_success' => 'Caché limpiado correctamente.',
-	'fdt_success' => 'def_tree.php restaurado correctamente.',
 	'rdb_success' => 'Las tablas de la base de datos fueron reparadas.',
 	'rpd_success' => 'La configuración del foro fue actualizada.',
 	'cct_success' => 'La tabla de configuración fue comprobada.',

@@ -32,6 +32,8 @@ $lang['Default_META_Title'] = 'Icy Phoenix';
 $lang['Default_META_Author'] = 'Mighty Gorgon and Icy Phoenix Staff :: http://www.icyphoenix.com/';
 $lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
 
+$lang['REGISTER_MESSAGE'] = '';
+
 $lang['Welcome_Message'] = 'Bienvenido a <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Bienvenido a %s';
 $lang['register_pm'] = "Hola!\n\nBienvenido a %s.\n\nEsperemos que disfrute de esta web!\n\nSiéntase libre de participar en los temas o crear los suyos!\n\n~Disfrute!\nEquipo de %s";

@@ -1062,8 +1062,8 @@ $lang = array_merge($lang, array(
 	'Acronym_removed' => 'La sigla ha sido quitada correctamente',
 
 	'Click_return_acronymadmin' => 'Pulse %saquí%s para volver a administración de siglas',
-	'Prune_shouts' => 'Auto limpiar charla',
-	'Prune_shouts_explain' => 'Numero de días antes de borrar la charla. Si el valor es 0, la auto limpieza sera deshabilitada',
+	'Prune_shouts' => 'Limpiar automáticamente cuadro de charla',
+	'Prune_shouts_explain' => 'Numero de días antes de borrar los mensajes del cuadro de charla. Si el valor es 0, la limpieza será deshabilitada',
 
 	'MOD_OS_ForumRules' => 'Normas del foro con estilo Olympus',
 	'Forum_rules' => 'Normas del foro',
@@ -1373,6 +1373,9 @@ $lang = array_merge($lang, array(
 	'megamail_proceed' => '%sProceder%s',
 	'megamail_done' => 'HECHO',
 	'megamail_none' => 'No se encontró ningun proceso.',
+	'megamail_delete_confirm' => '¿Esta seguro que quieres eliminar este correo?',
+	'megamail_deleted' => 'Correo eliminado correctamente',
+	'megamail_click_return' => 'Pulse %saquí%s para volver al e-mail massivo/MP',
 /* lang_megamail.php - END */
 
 /* lang_admin_voting.php - BEGIN */
@@ -1801,10 +1804,21 @@ $lang = array_merge($lang, array(
 	'FILE_TYPE' => 'Tipo de archivo',
 	'FULL_BACKUP' => 'Completo',
 
-	'Backup_Success' => 'El archivo de copia a sido creado.',
-	'Backup_Deleted' => 'El archivo de copia a sido borrado.',
+	'BACKUP_TYPE_COMPLETE' => 'Completo',
+	'BACKUP_TYPE_EXTENDED' => 'Extendido',
+	'BACKUP_TYPE_COMPACT' => 'Saltos de línea compactos',
+
+	'BACKUP_SUCCESS' => 'La copia de seguridad se ha creado correctamente.',
+	'BACKUP_DELETED' => 'La copia de seguridad se ha eliminado correctamente.',
 
 	'TABLE_SELECT' => 'Tabla seleccionada',
+
+	'BACKUP_IN_PROGRESS' => 'Copia de seguridad en progreso...',
+	'BACKUP_IN_PROGRESS_TABLE' => 'Copiando la tabla: <b>%s</b>',
+	'BACKUP_IN_PROGRESS_REDIRECT' => 'Será redirigido automáticamente al siguiente paso en unos segundos',
+	'BACKUP_IN_PROGRESS_REDIRECT_CLICK' => 'Si no es redirigido automáticamente en unos segundos puede pulsar %saquí%s',
+	'BACKUP_OPTIONS_RETURN' => 'Pulse %saquí%s para volver a la administración de copias de seguridad',
+
 // Errors
 	'Table_Select_Error' => 'Debe seleccionar al menos una tabla.',
 
@@ -1923,6 +1937,11 @@ $lang = array_merge($lang, array(
 	'ERR_AD_ADD' => 'Por favor, rellene todos los campos que se requieren',
 /* ADS - END */
 
+	'FULL_HTML' => 'HTML completo',
+	'ACTIONS' => 'Acciones',
+	'EDIT' => 'Editar',
+	'DELETE' => 'Eliminar',
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Ajustes Icy Phoenix',
 	'MG_Configuration_Explain' => 'Aquí puede instalar los ajustes avanzados de Icy Phoenix',
@@ -1945,6 +1964,10 @@ $lang = array_merge($lang, array(
 	'MG_SW_Empty_Precompiled_Posts_Explain' => 'Esta función permite vaciar los mensajes precompilados.',
 	'MG_SW_Empty_Precompiled_Posts_Success' => 'Precompilado de mensajes vaciado correctamente.',
 	'MG_SW_Empty_Precompiled_Posts_Fail' => 'Errores vaciando el precompilado de mensajes.',
+	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Limpiando directorios de cache en progreso...',
+	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect' => 'Será redirigido automáticamente al siguiente paso en unos segundos',
+	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click' => 'Si no es redirigido automáticamente en unos segundos puede pulsar %saquí%s',
+	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Pulse %saquí%s para volver a la administración de cache',
 
 	'MG_FNF_Header' => 'Configuraciones rápidas',
 	'MG_FNF_Header_Explain' => 'En esta página puede configurar rápida y fácilmente algunas de las opciones de su foro. Estas configuraciones por defecto se han creado para que les sea más fácil a los usuarios escoger sus configuraciones sin tener que modificarlas una a una en el panel de control. Estas configuraciones por defecto se pueden utilizar como punto de partida para los futuros requisitos particulares: por ejemplo, puede seleccionar "Fast and furious" y sólo modificar las opciones de este sistema que no le gusten.<br /><br /><span class="text_red"><b>Por favor, tenga en cuenta que una vez haya aplicado alguna de estas opciones del sistema no podrá restaurar automáticamente sus anteriores configuraciones, pero si que podrá hacerlo manualmente.</b></span>',
@@ -1998,7 +2021,7 @@ $lang['150_Similar_topics'] = 'Temas parecidos'; // admin_similar_topics.php
 $lang['160_Title_infos'] = 'Administrar título rápido'; // admin_quick_title.php
 $lang['170_LIW'] = 'Limite de anchura de imagen'; // admin_liw.php
 $lang['180_MG_Configuration_Permissions'] = 'Permisos de página'; // admin_board_permissions.php
-$lang['190_Spider_Bots'] = 'Spider / Bots'; // admin_bots.php
+$lang['190_Spider_Bots'] = 'Arañas/robots'; // admin_bots.php
 $lang['192_Google_BOT'] = 'Detector GoogleBot'; // admin_google_bot_detector.php
 $lang['195_Yahoo_search'] = 'Búsqueda yahoo'; // admin_yahoo_search.php
 $lang['200_Language'] = 'Lenguaje';	

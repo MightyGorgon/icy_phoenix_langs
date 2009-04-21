@@ -41,10 +41,10 @@ $lang['_Description'] = '';
 $lang['1_Phone'] = 'Teléfono';
 $lang['1_Description'] = 'Número de Teléfono';
 $lang['2_Team'] = 'Equipo';
-$lang['2_Description'] = 'Equipo Español';
-$lang['2_Juve'] = 'F.C. Barcelona';
-$lang['2_Milan'] = 'R. Madrid C.F.';
-$lang['2_Altro'] = 'Valencia C.F.';
+$lang['2_Description'] = 'Equipo Australiano';
+$lang['2_Barca'] = 'Wallabies';
+$lang['2_Madr'] = 'Kangaroos';
+$lang['2_Otro'] = 'Otro';
 */
 
 ?>

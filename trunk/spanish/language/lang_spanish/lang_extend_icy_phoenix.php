@@ -73,10 +73,10 @@ if ($lang_extend_admin)
 		'IP_page_gen' => 'Mostrar tiempo de generación de la página en el inferior',
 
 		'IP_switch_header_dropdown' => 'Activar menú desplegable en la cabecera',
-		'IP_switch_header_dropdown_explain' => 'Esto activará un menú desplegable en la cabecera del foro para la búsqueda i los mensajes',
+		'IP_switch_header_dropdown_explain' => 'Esto activará un menú desplegable en la cabecera del foro para la búsqueda y los mensajes',
 
 		'IP_show_alpha_bar' => 'Mostrar barra de orden alfabético en la vista de foros (Configuración global)',
-		'IP_show_alpha_bar_explain' => 'Esta característica mostrará una barra de orden alfabetico al inicio de la página de vista de foros. Puede que necesites activar esto en algún foro en particular en la sección de administración de foros.',
+		'IP_show_alpha_bar_explain' => 'Esta característica mostrará una barra de orden alfabetico de los títulos de los temas al inicio de la página de vista de foros. Necesitarás tambien activar esto en cada foro en particular, en la sección de administración de foros.',
 
 		'IP_show_rss_forum_icon' => 'Iconos del índice del foro',
 		'IP_show_rss_forum_icon_explain' => 'Esta opción mostrará iconos a la derecha de cada título de foro (en el índice del foro): RSS, tema nuevo...',
@@ -268,8 +268,11 @@ if ($lang_extend_admin)
 
 		'IP_show_pic_size_on_thumb' => 'Mostrar el tamaño de la imagen de la miniatura',
 
+		'IP_thumbnail_highslide' => 'Utilizar HighSlide si las miniaturas de las  están activadas',
+		'IP_thumbnail_highslide_explain' => 'Abre la imagen delante de la página actual en lugar de abrirlo en una nueva ventana. Mas acerca de <a href="http://www.highslide.com/" target="_blank">HighSlide JS...</a><br />Asegúrese de vaciar los mensajes precompilados después de cambiar esta opción!',
+
 		'IP_thumbnail_lightbox' => 'Usar efecto Lightbox si las miniaturas están activadas',
-		'IP_thumbnail_lightbox_explain' => 'Abre la imagen delante de la página actual en vez de abrirlo en una nueva ventana. Mas acerca de <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox</a><br />Asegúrese de vaciar los mensajes precompilados después de cambiar esta opción!',
+		'IP_thumbnail_lightbox_explain' => 'Abre la imagen delante de la página actual en lugar de abrirlo en una nueva ventana. Mas acerca de <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox</a><br />Asegúrese de vaciar los mensajes precompilados después de cambiar esta opción!',
 
 		'IP_thumbnail_cache' => 'Caché de miniaturas',
 
@@ -332,6 +335,12 @@ if ($lang_extend_admin)
 
 		'IP_lofi_bots' => 'LoFi para buscadores',
 		'IP_lofi_bots_explain' => 'Habilitando esta opción el sistema LoFi se activará para robots de búsqueda.',
+
+		'IP_adsense_code' => 'Código Google AdSense',
+		'IP_adsense_code_explain' => 'Introduzca aquí su código de Google AdSense y se insertará en las páginas de Google Search. Sino desea usarlo, solo debe dejar este campo en blanco.',
+
+		'IP_google_analytics' => 'Código Google Analytics',
+		'IP_google_analytics_explain' => 'Introduzca aquí su código de Google Analytics (el Javascript proporcionado por la web de Google) y será insertado automáticamente en el inferior de todas las páginas.',
 
 //Sitemap
 		'Sitemap_settings' => 'Configuracion del sitemap',
@@ -407,22 +416,22 @@ if ($lang_extend_admin)
 		'IP_cron_global_switch_explain' => 'Habilitando esta opción el Cron PHP será activado : algunas operaciones automáticas serán ejecutadas a intervalos de tiempo determinados. El rango de tiempo óptimo para cada característica cron, depende del tráfico de tu sitio y otras preferencias: si no sabes qué impacto pueden tener estos ajustes, por favor deja desactivada esta opción, pues probablemente no la necesites.',
 
 		'IP_cron_files_interval' => 'Ejecuciones de archivos con intervalo cron',
-		'IP_cron_files_interval_explain' => 'Este tipo de cron puede ser usado para ejecutar ciertos archivos de forma automática cada cierto intervalo que tu decidas. Los archivos a ser ejecutados deben ser añadidos en <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b>. Si indicas mas de un archivo, deben ser separados por comas.<br /><br /><b>Última ejecución: ' . (($board_config['cron_files_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_files_interval_explain' => 'Este tipo de cron puede ser usado para ejecutar ciertos archivos de forma automática cada cierto intervalo que tu decidas. Los archivos a ser ejecutados deben ser añadidos en <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b>. Si indicas mas de un archivo, deben ser separados por comas.<br /><br /><b>Última ejecución: ' . (($board_config['cron_files_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'IP_cron_database_interval' => 'Optimización de la BD con intervalo cron',
-		'IP_cron_database_interval_explain' => 'Esta característica optimizará la base de datos del sitio en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_database_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_database_interval_explain' => 'Esta característica optimizará la base de datos del sitio en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_database_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'IP_cron_cache_interval' => 'Ordenar el caché de plantillas con intervalo cron',
-		'IP_cron_cache_interval_explain' => 'El caché de plantillas sera limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_cache_interval_explain' => 'El caché de plantillas sera limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'IP_cron_sql_interval' => 'Ordenar el caché SQL con intervalo cron',
-		'IP_cron_sql_interval_explain' => 'El caché SQL será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_sql_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_sql_interval_explain' => 'El caché SQL será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_sql_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'IP_cron_users_interval' => 'Ordenar el caché de usuarios con intervalo cron',
-		'IP_cron_users_interval_explain' => 'El caché de usuarios será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_users_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_users_interval_explain' => 'El caché de usuarios será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_users_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'IP_cron_topics_interval' => 'Ordenar el Cache de temas con Intervalo Cron',
-		'IP_cron_topics_interval_explain' => 'El cache de temas será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_topics_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_topics_interval_explain' => 'El cache de temas será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_topics_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'Cron_Disabled' => 'Deshabilitado',
 		'15M' => '15 minutos',

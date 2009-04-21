@@ -42,6 +42,8 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ctracker_settings_on' => 'Activar',
 	'ctracker_settings_off' => 'Desactivar',
+	'ctracker_ma_on' => 'ON',
+	'ctracker_ma_off' => 'OFF',
 	'ctracker_blockmode_0' => 'Apagado',
 	'ctracker_blockmode_1' => 'Banear usuario',
 	'ctracker_blockmode_2' => 'Bloquear usuario',
@@ -160,6 +162,7 @@ $lang = array_merge($lang, array(
 	'ctracker_pwreset_info' => 'Por razones de seguridad, no es posible enviar una nueva contraseña cada %s minutos. ¡Por favor, contacte con un administrador si tiene prisa!',
 	'ctracker_vc_guest_post' => 'Confirmación visual para invitados',
 	'ctracker_vc_guest_expl' => 'Por favor, introduzca el siguiente código antes de enviar su mensaje. Para los invitados es necesario por razones de seguridad para evitar spam.',
+	'ctracker_dbg_mode' => '<b>CrackerTracker funciona con DEBUG MODE. No se debería usar de forma permanente.<br />Por favor, pongalo en el modo normal cuando sea posible.<br /><br /><u>Este mensaje no puede borrarse!</u></b>',
 	)
 );
 
