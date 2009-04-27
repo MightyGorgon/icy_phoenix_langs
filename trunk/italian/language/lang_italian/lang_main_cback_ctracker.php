@@ -48,7 +48,7 @@ $lang['ctracker_ipb_new_entry'] = 'Nuova voce';
 $lang['ctracker_ipb_added'] = 'Voce inserita correttamente!';
 $lang['ctracker_ipb_deleted'] = 'Voce rimossa correttamente!';
 $lang['ctracker_ipb_add_now'] = 'Aggiungi voce';
-$lang['ctracker_mu_success'] = 'Utente Indesiderato: i suoi messaggi non vengono visualizzati dagli altri utenti.';
+$lang['ctracker_mu_success'] = 'Utente Indesiderato: i suoi messaggi non vengono visualizzati.';
 $lang['ctracker_mu_success_bbc'] = '[cell class="text_orange"]' . $lang['ctracker_mu_success'] . '[/cell]';
 $lang['ctracker_mu_success_html'] = '<span class="text_orange">' . $lang['ctracker_mu_success'] . '</span>';
 $lang['ctracker_mu_error_admin'] = 'ADMIN o MOD non possono essere impostati come <strong>Utente indesiderato</strong>!';

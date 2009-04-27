@@ -18,7 +18,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang['Sudoku_Version'] = 'Sudoku Mod Versione %s &copy Majorflam 2005 - Ultimo Game Pack Installato: Pack %s';
+$lang['Sudoku_Version'] = 'Sudoku Mod Versione %s &copy; Majorflam 2005 - Ultimo Game Pack Installato: Pack %s';
 $lang['suduko_blank_tile'] = 'Clicca per inserire un numero';
 $lang['suduko_user_tile'] = 'Clicca per modificare';
 $lang['sudoku_no_tile'] = 'Nessuna casella selezionata!';

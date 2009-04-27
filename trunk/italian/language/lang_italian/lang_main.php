@@ -276,10 +276,12 @@ $lang['Topic_Announcement_nb'] = 'Annuncio';
 $lang['Topic_Sticky_nb'] = 'Importante';
 $lang['Topic_Moved_nb'] = 'Spostato';
 $lang['Topic_Poll_nb'] = 'Sondaggio';
+$lang['Topic_Event_nb'] = 'Evento';
 $lang['Topic_Announcement'] = '<b>Annuncio:</b>';
 $lang['Topic_Sticky'] = '<b>Importante:</b>';
 $lang['Topic_Moved'] = '<b>Spostato:</b>';
 $lang['Topic_Poll'] = '<b>[ Sondaggio ]</b>';
+$lang['Topic_Event'] = '<b>Evento:</b>';
 $lang['Topic_global_announcement'] ='<b>Annuncio Globale:</b>';
 $lang['Post_global_announcement'] = 'Annuncio Globale';
 
@@ -908,7 +910,7 @@ $lang['Auth_Moderators'] = '<b>i Moderatori</b>';
 $lang['Auth_Administrators'] = '<b>gli Amministratori</b>';
 
 $lang['Not_Moderator'] = 'Non sei Moderatore di questo Forum.';
-$lang['Not_Authorised'] = 'Non Autorizzato';
+$lang['Not_Authorized'] = 'Non Autorizzato';
 
 $lang['You_been_banned'] = 'Sei stato escluso da questo Forum.<br />Contatta l\'Amministratore o Webmaster del Sito per ulteriori informazioni.';
 
@@ -2336,6 +2338,7 @@ $lang['InProgress'] = 'In corso';
 
 $lang['HAPPY_BIRTHDAY'] = 'Buon Compleanno';
 
+$lang['DOWNLOAD'] = 'Scarica';
 $lang['DOWNLOADED'] = 'Scaricato';
 $lang['FILESIZE'] = 'Dimensione';
 $lang['FILENAME'] = 'Nome file';
@@ -2385,6 +2388,48 @@ $lang['FSOCK_DISABLED'] = 'FSOCK Disabilitato';
 $lang['MANAGEMENT'] = 'Gestione';
 $lang['SORT_ORDER'] = 'Ordina per';
 $lang['SORT_DIR'] = 'Ordinamento';
+
+$lang['TIME_YEAR'] = 'Anno';
+$lang['TIME_MONTH'] = 'Mese';
+$lang['TIME_DAY'] = 'Giorno';
+$lang['TIME_HOUR'] = 'Ora';
+$lang['TIME_MINUTE'] = 'Minuto';
+$lang['TIME_SECOND'] = 'Secondo';
+
+$lang['CONTACTS'] = 'Contatti';
+
+// Event Registration - BEGIN
+$lang['Reg_Title'] = 'Registrazione Eventi';
+$lang['Post_Registration'] = 'Registrazione Eventi';
+$lang['Add_registration'] = 'Aggiungi Registrazione Eventi';
+$lang['Add_reg_explain'] = '&nbsp;&bull; Contrassegna <i>Attiva</i> per mostrare un modulo di registrazione in questo messaggio. Togli il contrassegno per nascondere il modulo di registrazione.<br />&nbsp;&bull; Contrassegna <i>Azzera</i> per cancellare tutte le registrazioni effettuate.<br />&nbsp;&bull; Inserisci un numero negli <i>Spazi</i> per limitare le registrazioni per ciascuna opzione. "0" o vuoto = illimitate.';
+$lang['reg_activate'] = 'Attiva';
+$lang['reg_reset'] = 'Azzera';
+$lang['Reg_Insert'] = 'Ti sei registrato per l\'evento.';
+$lang['Reg_Change'] = 'Registrazione modificata.';
+$lang['Reg_Confirm'] = 'Registrazione confermata.';
+$lang['Reg_Unregister'] = 'Registrazione annullata.';
+$lang['Reg_Max_Registrations'] = 'E\' stato raggiunto il numero massimo di registrazioni per questa opzione. Non verranno accettate nuove registrazioni.';
+$lang['Reg_No_Slots_Left'] = 'Non ci sono posti disponibili.';
+$lang['Reg_One_Slot_Left'] = 'Un solo posto disponibile.';
+$lang['Reg_Slots_Left'] = '%s posti disponibili.';
+$lang['Reg_Self_Unregister'] = 'Cancella Registrazione';
+$lang['Reg_Own_Confirmation'] = 'Conferma';
+$lang['Reg_Own_Confirmed'] = 'confermata';
+$lang['Reg_Green_Option'] = 'Opzione Verde';
+$lang['Reg_Blue_Option'] = 'Opzione Blu';
+$lang['Reg_Red_Option'] = 'Opzione Rossa';
+$lang['Reg_Value_Max_Registrations'] = 'Posti';
+$lang['Reg_Do'] = 'Partecipo';
+$lang['Reg_Maybe'] = 'Incerto';
+$lang['Reg_Dont'] = 'Non Partecipo';
+$lang['Reg_Head_Username'] = 'Utente:';
+$lang['Reg_Head_Time'] = 'Data:';
+$lang['Reg_for'] = 'Inizia registrazioni per';
+$lang['Reg_for_explain'] = '[ Inserisci 0 o lascia vuoto il campo per registrazioni senza limiti di tempo ]';
+$lang['Reg_no_options_specified'] = 'Devi specificare almeo un\'opzione di registrazione.';
+$lang['Reg_event_date'] = '<b>Data evento: </b>';
+// Event Registration - END
 //$lang[''] = '';
 
 //====================================================

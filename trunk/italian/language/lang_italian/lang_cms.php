@@ -90,6 +90,7 @@ $lang['B_Mod'] = 'Moderatori';
 $lang['B_Admin'] = 'Amministratori';
 $lang['B_None'] = 'Nessuno';
 $lang['B_Layout'] = 'Pagina Sito';
+$lang['B_Layout_Edit'] = 'Modifica Impostazioni Pagina';
 $lang['B_Page'] = 'ID Pagina';
 $lang['B_Add'] = 'Aggiungi Blocco';
 $lang['B_Duplicate'] = 'Duplica Blocchi';

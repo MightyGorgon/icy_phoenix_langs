@@ -47,6 +47,8 @@ $lang['Pic_Poster'] = 'Autore';
 $lang['Pic_Image'] = 'Immagine';
 $lang['Waiting'] = ' immagini in attesa di approvazione';
 
+$lang['Album_view_can'] = '<b>Puoi</b> visualizzare le immagini in questa categoria';
+$lang['Album_view_cannot'] = '<b>Non puoi</b> visualizzare le immagini in questa categoria';
 $lang['Album_upload_can'] = '<b>Puoi</b> caricare nuove immagini in questa categoria';
 $lang['Album_upload_cannot'] = '<b>Non puoi</b> caricare nuove immagini in questa categoria';
 $lang['Album_rate_can'] = '<b>Puoi</b> valutare le immagini in questa categoria';
