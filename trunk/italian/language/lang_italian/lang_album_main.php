@@ -121,10 +121,10 @@ $lang['Unknown_file_and_thumbnail_error_mismatch'] = 'Errore sconosciuto nel car
 $lang['Picture_exceeded_maximum_size_INI'] = 'L\'immagine \'%s\' &egrave; troppo grande e non verr&agrave; caricata.<br />';
 $lang['Thumbnail_exceeded_maximum_size_INI'] = 'La miniatura \'%s\' &egrave; troppo grande e non verr&agrave; caricata.<br />';
 $lang['Execution_time_exceeded_skipping'] = 'Il tempo massimo per l\'esecuzione dello script di caricamento &egrave; stato superato. I seguenti files sono stati saltati:<br />';
-$lang['Skipping_uploaded_picture_file'] = '%s<br/>';
-$lang['Skipping_uploaded_picture_and_thumbnail_file'] = '%s (miniagura: %s)<br/>';
-$lang['Album_upload_not_successful'] = 'Nessuna delle immagini &egrave; stata caricata<br/><br/>';
-$lang['Album_upload_partially_successful'] = 'Soltanto una parte delle immagini sono state caricate<br/><br/>';
+$lang['Skipping_uploaded_picture_file'] = '%s<br />';
+$lang['Skipping_uploaded_picture_and_thumbnail_file'] = '%s (miniagura: %s)<br />';
+$lang['Album_upload_not_successful'] = 'Nessuna delle immagini &egrave; stata caricata<br /><br />';
+$lang['Album_upload_partially_successful'] = 'Soltanto una parte delle immagini sono state caricate<br /><br />';
 $lang['No_pictures_selected_for_upload'] = 'Nessuna immagine selezionata per il caricamento, oppure c\'&egrave; stato un errore sconosciuto';
 
 //$lang['Bad_upload_file_size'] = 'Il file che stai cercando di caricare &egrave; troppo grande oppure &egrave; corrotto';

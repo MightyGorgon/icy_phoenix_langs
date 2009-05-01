@@ -49,15 +49,15 @@ $lang['BBUS_Settings_Caption'] = 'Impostazioni Statistiche Utilizzo Forum';
 $lang['BBUS_Settings_Explain'] = 'Queste impostazioni ti permettono di configurare quali utenti posso vedere le statistiche di Utilizzo del Forum nel profilo degli Utenti e permettono di configurare varie opzioni inerenti i dati presentati in quella pagina.';
 
 $lang['BBUS_Setting_ViewLevel_Caption'] = 'Permessi di Visualizzazione';
-$lang['BBUS_Setting_ViewLevel_Note'] = '<i>Nota</i>: Il Box di testo &egrave; di sola lettura.<br/>Usa i checkboxes per modificare questo valore.';
+$lang['BBUS_Setting_ViewLevel_Note'] = '<i>Nota</i>: Il Box di testo &egrave; di sola lettura.<br />Usa i checkboxes per modificare questo valore.';
 
-$lang['BBUS_Setting_ViewLevel_Explain1'] = 'L\'impostazione dei Permessi di Visualizzazione &egrave; la somma di uno o pi&ugrave; segni di spunta che determinano cosa sar&agrave; possibile vedere ad un determinato tipo di utente del forum nelle statistiche del profilo.  <b>Usa i checkbox qui sotto per abilitare o disabilitare la visualizzazione delle statistiche ad una determinata classe di utenti.</b><br/><br/>I Livelli di Visualizzazione sono definiti nel modo seguente:<br/>';
+$lang['BBUS_Setting_ViewLevel_Explain1'] = 'L\'impostazione dei Permessi di Visualizzazione &egrave; la somma di uno o pi&ugrave; segni di spunta che determinano cosa sar&agrave; possibile vedere ad un determinato tipo di utente del forum nelle statistiche del profilo.  <b>Usa i checkbox qui sotto per abilitare o disabilitare la visualizzazione delle statistiche ad una determinata classe di utenti.</b><br /><br />I Livelli di Visualizzazione sono definiti nel modo seguente:<br />';
 
-$lang['BBUS_Setting_ViewLevel_Explain2'] = '<br/>L\'impostazione pi&ugrave; comune per la maggior parte dei Forum potrebbe essere 24 (16 + 8), Che permette agli amministratori e ai moderatori di vedere le statistiche d\'uso, mentre a tutte le altre tipologio di utenti verr&agrave; visualizzata la normale pagina del profilo.<br/><br/> Si raccomanda di porre dei limiti alla visualizzazione delle statistiche soprattutto per Forum molto grandi, al fine di prevenire un degradamento delle performance.';
+$lang['BBUS_Setting_ViewLevel_Explain2'] = '<br />L\'impostazione pi&ugrave; comune per la maggior parte dei Forum potrebbe essere 24 (16 + 8), Che permette agli amministratori e ai moderatori di vedere le statistiche d\'uso, mentre a tutte le altre tipologio di utenti verr&agrave; visualizzata la normale pagina del profilo.<br /><br /> Si raccomanda di porre dei limiti alla visualizzazione delle statistiche soprattutto per Forum molto grandi, al fine di prevenire un degradamento delle performance.';
 
 $lang['BBUS_Setting_ViewOptions_Caption'] = 'Opzioni di Visualizzazione';
-$lang['BBUS_Setting_ViewOptions_Note'] = '<i>Nota</i>: Il Box di testo &egrave; di sola lettura.<br/>Usa i checkboxes per modificare questo valore.';
-$lang['BBUS_Setting_ViewOptions_Explain1'] = 'Come per i Permessi di Visualizzazione, le Impostazioni di Visualizzazione sono la somma dei segni di spunta che permetto di abilitare o disabilitare alcune informazioni delle Statitistiche del Forum. <b>Usa i checkbox qui sotto per abilitare o disabilitare queste caratteristiche.</b><br/><br/>Le Impostazioni di Visualizzazione sono definite nel modo seguente:<br/>';
+$lang['BBUS_Setting_ViewOptions_Note'] = '<i>Nota</i>: Il Box di testo &egrave; di sola lettura.<br />Usa i checkboxes per modificare questo valore.';
+$lang['BBUS_Setting_ViewOptions_Explain1'] = 'Come per i Permessi di Visualizzazione, le Impostazioni di Visualizzazione sono la somma dei segni di spunta che permetto di abilitare o disabilitare alcune informazioni delle Statitistiche del Forum. <b>Usa i checkbox qui sotto per abilitare o disabilitare queste caratteristiche.</b><br /><br />Le Impostazioni di Visualizzazione sono definite nel modo seguente:<br />';
 $lang['BBUS_Setting_ViewOptions_Explain2'] = '';
 
 $lang['BBUS_Settings_Default_Post_Rate_Scaling_Caption'] = 'Scala Rating Messaggi Predefinita';

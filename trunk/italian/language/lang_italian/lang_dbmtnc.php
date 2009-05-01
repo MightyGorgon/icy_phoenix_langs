@@ -52,9 +52,9 @@ $lang['Nothing_to_do'] = '<p class="gen"><i>Non c\'&egrave; niente da fare :-)</
 // Names for new records in several tables
 $lang['New_cat_name'] = 'Forums Ripristinati';
 $lang['New_forum_name'] = 'Discussioni Ripristinate';
-$lang['New_topic_name'] = 'Post Ripristinati';
+$lang['New_topic_name'] = 'Messaggi Ripristinati';
 $lang['Restored_topic_name'] = 'Discussioni Ripristinate';
-$lang['New_poster_name'] = 'Post Ripristinati'; // Name for Poster of a restored post
+$lang['New_poster_name'] = 'Messaggi Ripristinati'; // Name for Poster of a restored post
 
 // Functions available
 // Usage: $mtnc[] = array(internal Name, Name of Function, Description of Function, Warning Message (leef empty to avoid), Number of Check function (Integer))
@@ -227,14 +227,14 @@ $lang['Rebuildcfg_Minposts'] = 'Numero minimo di post da indicizzare per step';
 $lang['Rebuildcfg_Minposts_Explain'] = 'Numero minimo di post da indicizzare per step (default: 3). Definisce il numero minimo di post da indicizzare per pagina.';
 $lang['Rebuildcfg_PHP3Only'] = 'Usa esclusivamente lo standard compatibile con PHP 3 per l\'indicizzazione';
 $lang['Rebuildcfg_PHP3Only_Explain'] = 'Manutenzione DB utilizza un metodo avanzato per l\'indicizzazione quando sia disponibile una versione di PHP 4.0.5 o superiore. Puoi fare a meno del metodo avanzato in modo che Manutenzione DB utilizzi il metodo standard della board.';
-$lang['Rebuildcfg_PHP4PPS'] = 'Numero di post indicizzati per secondo con il metodo avanzato';
-$lang['Rebuildcfg_PHP4PPS_Explain'] = 'Valore stimato di posts che possono essere indicizzati per secondo utilizzando il metodo avanzato (default: 8).';
-$lang['Rebuildcfg_PHP3PPS'] = 'Numero di post indicizzati per secondo con il metodo standard ';
-$lang['Rebuildcfg_PHP3PPS_Explain'] = 'Valore stimato di posts che possono essere indicizzati per secondo utilizzando il metodo standard (default: 1).';
-$lang['Rebuild_Pos'] = 'Ultimo Post indicizzato';
+$lang['Rebuildcfg_PHP4PPS'] = 'Numero di messaggi indicizzati per secondo con il metodo avanzato';
+$lang['Rebuildcfg_PHP4PPS_Explain'] = 'Valore stimato di messaggi che possono essere indicizzati per secondo utilizzando il metodo avanzato (default: 8).';
+$lang['Rebuildcfg_PHP3PPS'] = 'Numero di messaggi indicizzati per secondo con il metodo standard ';
+$lang['Rebuildcfg_PHP3PPS_Explain'] = 'Valore stimato di messaggi che possono essere indicizzati per secondo utilizzando il metodo standard (default: 1).';
+$lang['Rebuild_Pos'] = 'Ultimo messaggio indicizzato';
 $lang['Rebuild_Pos_Explain'] = 'ID dell\'ultimo post indicizzato con successo. E\' -1 quando la ricostruzione &egrave; terminata.';
-$lang['Rebuild_End'] = 'Ultimo Post da Indicizzare';
-$lang['Rebuild_End_Explain'] = 'ID dell\'ultimo post da indicizzare. E\' 0 quando la ricostruzione &egrave; terminata.';
+$lang['Rebuild_End'] = 'Ultimo messaggio da Indicizzare';
+$lang['Rebuild_End_Explain'] = 'ID dell\'ultimo messaggio da indicizzare. E\' 0 quando la ricostruzione &egrave; terminata.';
 $lang['Dbmtnc_config_updated'] = 'Configurazione aggiornata correttamente';
 $lang['Click_return_dbmtnc_config'] = 'Clicca %sQUI%s per ritornare alla Configurazione';
 // check_user

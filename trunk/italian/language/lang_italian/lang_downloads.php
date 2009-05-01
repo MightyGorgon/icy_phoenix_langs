@@ -182,7 +182,7 @@ $lang['Dl_can_download_traffic_footer'] = '<strong>Il sistema &egrave; stato imp
 $lang['Traffic_all_users_admin_explain'] = 'Imposta i limiti di traffico mensile per tutti gli utenti.';
 $lang['Traffic_single_user_admin_explain'] = 'Imposta i limiti di traffico mensile per un utente specifico.';
 $lang['Traffic_usergroup_admin_explain'] = 'Imposta i limiti di traffico mensile per gli iscritti ad un gruppo.';
-$lang['Dl_auto_traffic_explain'] = 'In questa sezione &grave; possibile impostare i limiti di traffico mensile per tutti gli utenti o per tutti gli iscritti ad un gruppo.<br>Il traffico &egrave; relativo al download dei file.';
+$lang['Dl_auto_traffic_explain'] = 'In questa sezione &egrave; possibile impostare i limiti di traffico mensile per tutti gli utenti o per tutti gli iscritti ad un gruppo.<br>Il traffico &egrave; relativo al download dei file.';
 
 /*
 * auth values

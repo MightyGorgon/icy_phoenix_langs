@@ -621,15 +621,15 @@ $lang['Invision_Info'] = 'Informazioni';
 $lang['Invision_Member_Group'] = 'Membro dei Gruppi';
 $lang['Invision_Member_Title'] = 'Titolo Utente';
 $lang['Invision_Most_Active'] = 'Maggiormente attivo in';
-$lang['Invision_Most_Active_Posts'] = '%s posts in questo forum';
+$lang['Invision_Most_Active_Posts'] = '%s messaggi in questo forum';
 $lang['Invision_Details'] = 'Dettagli Utente';
-$lang['Invision_PPD_Stats'] = 'Post al Giorno';
+$lang['Invision_PPD_Stats'] = 'Messaggi al giorno';
 $lang['Invision_Signature'] = 'Firma';
 $lang['Invision_Website'] = 'Sito Web';
-$lang['Invision_Total_Posts'] = 'Totale Post';
-$lang['Invision_User_post_pct_stats'] = '( %.2f%% dei post totali del forum )';
-$lang['Invision_User_post_day_stats'] = '%.2f posts al giorno';
-$lang['Invision_Search_user_posts'] = 'Trova tutti i Post dell\'utente';
+$lang['Invision_Total_Posts'] = 'Totale messaggi';
+$lang['Invision_User_post_pct_stats'] = '( %.2f%% dei messaggi totali del forum )';
+$lang['Invision_User_post_day_stats'] = '%.2f messaggi al giorno';
+$lang['Invision_Search_user_posts'] = 'Trova tutti i messaggi dell\'utente';
 $lang['Invision_Posting_details'] = 'Dettagli Utente';
 //====
 //==== Author: Disturbed One [http://anthonycoy.com] =================== |

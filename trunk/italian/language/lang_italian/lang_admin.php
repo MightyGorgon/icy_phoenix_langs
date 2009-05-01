@@ -860,7 +860,7 @@ $lang['Group_count_enable'] = 'Utenti aggiunti automaticamente quando postano';
 $lang['Group_count_update'] = 'Aggiungi/Aggiorna nuovi membri';
 $lang['Group_count_delete'] = 'Elimina/Aggiorna vecchi utenti';
 $lang['User_allow_ag'] = 'Attiva AutoGroup';
-$lang['group_count_explain'] = 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno aggiunti automaticamente a questo gruppo<br/> Questo si applica solo se "Utenti aggiunti automaticamente quando postano" &egrave; abilitato';
+$lang['group_count_explain'] = 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno aggiunti automaticamente a questo gruppo<br /> Questo si applica solo se "Utenti aggiunti automaticamente quando postano" &egrave; abilitato';
 // Start add - Bin Mod
 $lang['Bin_forum'] = 'Cestino';
 $lang['Bin_forum_explain'] = 'Immetti l\'ID del Forum che vuoi utilizzare come Cestino; impostando il valore a 0 (zero) la caratteristica sar&agrave; disabilitata. Dovresti inoltre modificare i permessi di questo forum per permettere oppure no l\'accesso agli utenti.';
@@ -1467,8 +1467,8 @@ $lang['megamail_id'] = 'ID Email';
 $lang['megamail_batchstart'] = 'Elaborate';
 $lang['megamail_batchsize'] = 'Blocchi';
 $lang['megamail_batchwait'] = 'Pausa';
-$lang['megamail_created_message'] = 'Le email generali sono state salvate nel database.<br /><br/>Per iniziare a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
-$lang['megamail_send_message'] = 'Il blocco Corrente (%s - %s) &egrave stato spedito.<br /><br/>Per riprendere a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
+$lang['megamail_created_message'] = 'Le email generali sono state salvate nel database.<br /><br />Per iniziare a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
+$lang['megamail_send_message'] = 'Il blocco Corrente (%s - %s) &egrave stato spedito.<br /><br />Per riprendere a spedire clicca %sQUI%s o attendi finch&egrave; il Meta-Aggiornamento ti riporter&agrave; qui...';
 $lang['megamail_status'] = 'Status';
 $lang['megamail_proceed'] = '%sProcedi ora%s';
 $lang['megamail_done'] = 'FATTO';
@@ -1909,7 +1909,7 @@ $lang['ACP_BACKUP_EXPLAIN'] = 'In questa sezione puoi effettuare il backup del d
 $lang['BACKUP_OPTIONS'] = 'Opzioni Backup';
 $lang['BACKUP_TYPE'] = 'Tipo backup';
 
-$lang['DATABASE'] = 'Utilit&grave; database';
+$lang['DATABASE'] = 'Utilit&agrave; database';
 $lang['DATA_ONLY'] = 'Solo dati';
 $lang['DELETE_BACKUP'] = 'Elimina backup';
 $lang['DELETE_SELECTED_BACKUP'] = 'Sei sicuro di voler eliminare i backup selezionati??';
@@ -1942,7 +1942,7 @@ $lang['ACP_RESTORE'] = 'Ripristina Database';
 $lang['ACP_RESTORE_EXPLAIN'] = 'Effettua un ripristino completo di tutte le tabelle del tuo sito da un file salvato precedentemente. Se il tuo server lo supporta puoi utilizzare la compressione gzip o bzip2, i file verranno decompressi automaticamente. <strong>ATTENZIONE</strong> Verranno sovrascritti tutti i dati attuali. Il ripristino può impiegare molto tempo dipende dalla grandezza del database, non uscire questa pagina fino al completamento del ripristino. I backup sono memorizzati nella cartella <b><samp>backup/</samp></b> e sono generati dalla funzione backup di questo sistema. Il ripristino di backup non generati da questo stesso sistema potrebbe non funzionare correttamente.<br /><br /><strong class="text_red">Importante: se il backup da ripristinare &egrave; troppo grande, potrebbe essere possibile che il timeout impedisca il corretto ripristino ed il sito non funzioni piì&ugrave; correttamente. In questo caso potrebbe essere necessario scaricare il file di backup direttamente dal server ed utilizzre un\'applicazione diversa per ripristinarlo (phpMyAdmin o MySQLDumper ad esempio).</strong><br /><br />';
 $lang['RESTORE_OPTIONS'] = 'Opzioni Ripristino';
 
-$lang['Restore_Success'] = 'Il database &grave; stato ripristinato correttamente.';
+$lang['Restore_Success'] = 'Il database &egrave; stato ripristinato correttamente.';
 
 // Errors
 $lang['No_Backup_Selected'] = 'Non hai selezionato nessun backup da ripristinare.';

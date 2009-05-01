@@ -98,7 +98,7 @@ $lang['Cash_currency_dbfield'] = 'Nome del campo per valuta';
 $lang['Cash_currency_decimals'] = 'Numero di decimali per la valuta';
 $lang['Cash_currency_default'] = 'Valore predefinito per la valuta';
 
-$lang['Bad_dbfield'] = 'Nome campo non valido: deve essere nel formato \'user_nome\'<br /><br />%s<br /><br/>Esempi:<br />user_points<br />user_cash<br />user_money<br />user_warnings<br /><br />';
+$lang['Bad_dbfield'] = 'Nome campo non valido: deve essere nel formato \'user_nome\'<br /><br />%s<br /><br />Esempi:<br />user_points<br />user_cash<br />user_money<br />user_warnings<br /><br />';
 
 // 0 currencies (most admin panels won't work... )
 $lang['Insufficient_currencies'] = 'Dovete creare almeno una valuta prima di modificare i parametri';
