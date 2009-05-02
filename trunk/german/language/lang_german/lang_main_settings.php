@@ -59,9 +59,9 @@ $lang['OwnerServer'] = 'Icy Phoenix';
 
 $lang['PrivacyDisclaimer'] = 'Du erklärst dich ausdrücklich damit einverstanden, dass deine persönlichen Daten vertraulich nach der aktuellen Gesetzgebung (des Landes des Seiteninhabers) behandelt werden.<br />';
 
-$lang['ENCODING'] = 'iso-8859-1';
-//$lang['ENCODING'] = 'utf8';
-$lang['ENCODING_ALT'] = 'utf8';
+$lang['ENCODING'] = 'ISO-8859-1';
+//$lang['ENCODING'] = 'UTF-8';
+$lang['ENCODING_ALT'] = 'UTF-8';
 $lang['DIRECTION'] = 'ltr';
 $lang['HEADER_LANG'] = 'de-de';
 $lang['HEADER_XML_LANG'] = 'de-de';

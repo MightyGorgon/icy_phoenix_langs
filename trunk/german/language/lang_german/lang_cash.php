@@ -318,7 +318,7 @@ $lang['Cannot_exchange'] = 'Du kannst momentan %s nicht wechseln';
 $lang['Amount'] = 'Menge';
 $lang['Donate_to'] = 'An %s verschenken';
 $lang['Donation_recieved'] = 'Du hast ein Geschenk von %s erhalten';
-$lang['Has_donated'] = '%s hat dir [b]%s[/b] geschenkt. \n\n%s schrieb:\n';
+$lang['Has_donated'] = '%s hat dir [b]%s[/b] geschenkt.' . "\n\n" . '%s schrieb: ' . "\n";
 
 // Mod Edit
 $lang['Add'] = 'Hinzufügen';
@@ -327,9 +327,9 @@ $lang['Omit'] = 'Auslassen';
 $lang['Amount'] = 'Kontostand';
 $lang['Donate_to'] = 'An %s verschenken';
 $lang['Has_moderated'] = '%s hat deine %s moderiert';
-$lang['Has_added'] = '[*]Hinzugefügt: [b]%s[/b]\n';
-$lang['Has_removed'] = '[*]Entfernt: [b]%s[/b]\n';
-$lang['Has_set'] = '[*]Gesetzt auf: [b]%s[/b]\n';
+$lang['Has_added'] = '[*]Hinzugefügt: [b]%s[/b]' . "\n";
+$lang['Has_removed'] = '[*]Entfernt: [b]%s[/b]' . "\n";
+$lang['Has_set'] = '[*]Gesetzt auf: [b]%s[/b]' . "\n";
 
 // That's all folks!
 
