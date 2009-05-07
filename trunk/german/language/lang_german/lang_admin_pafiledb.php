@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'Edit_comment' => 'Kommentare ändern', 
 	'Delete_comment' => 'Kommentare löschen', 
 	'Category_auth_updated' => 'Kategorie Befugnisse aktualisiert',
-	'Click_return_catauth' => 'Klicke %shier%s, um zu den Kategorie Befugnissen zurückzukehren',
+	'Click_return_catauth' => 'Klicke %shier%s, um zu den Kategorie Befugnissen zurückzukehren.',
 	'Auth_Control_Category' => 'Kategorie Befugnis Kontrolle', 
 	'Category_auth_explain' => 'Hier kannst du die Zugriffslevel jeder Kategorie bearbeiten. Bedenke das Änderungen des Zugriffslevels der Kategorien bestimmen, welche Benutzer verschiedene Dinge ausführen können.',
 	'Select_a_Category' => 'Wähle eine Kategorie',
@@ -275,20 +275,20 @@ $lang = array_merge($lang, array(
 	'Licenseexplain' => 'Du kannst das Lizenz Management verwenden, um Lizenzbestimmungen hinzuzufügen, zu bearbeiten oder zu löschen. Du kannst die Lizenz für eine Datei auf der Datei hinzufügen Seite auswählen. Wenn eine Datei eine Lizenzbestimmung hat, muss der Benutzer dieser erst zustimmen, bevor er die Datei herunterladen kann.',
 	'Lname' => 'Lizenz Name',
 	'Ltext' => 'Lizenz Text',
-	'Licenseadded' => 'Die neue Lizenzbestimmung wurde erfolgreich hinzugefügt',
-	'Licenseedited' => 'Die gewählte Lizenzbestimmung wurde erfolgreich bearbeitet',
-	'Lderror' => 'Es wurden keine zu löschenden Lizenzen ausgewählt',
-	'Ldeleted' => 'Die gewählten Lizenzbestimmungen wurden erfolgreich gelöscht',
+	'Licenseadded' => 'Die neue Lizenzbestimmung wurde erfolgreich hinzugefügt.',
+	'Licenseedited' => 'Die gewählte Lizenzbestimmung wurde erfolgreich bearbeitet.',
+	'Lderror' => 'Es wurden keine zu löschenden Lizenzen ausgewählt.',
+	'Ldeleted' => 'Die gewählten Lizenzbestimmungen wurden erfolgreich gelöscht.',
 // MX
 	'License_title' => 'Lizenz',
 // ENd
-	'Click_return' => 'Klicke %shier%s, um zur vorherigen Seite zurückzukehren',
+	'Click_return' => 'Klicke %shier%s, um zur vorherigen Seite zurückzukehren.',
 	'Click_return_upload' => 'Klicke %shier%s, um zur Upload-Seite zurückzukehren.',
-	'Click_edit_permissions' => 'Klicke %shier%s, um die Befugnisse für diese Kategorie zu bearbeiten',
+	'Click_edit_permissions' => 'Klicke %shier%s, um die Befugnisse für diese Kategorie zu bearbeiten.',
 
 //Java script messages and php errors
 	'Cat_name_missing' => 'Bitte fülle das Feld \'Kategorie\' Name aus',
-	'Cat_conflict' => 'Du kannst keine Kategorie ohne Datei in einer Kategorie die keine Dateien erlaubt haben',
+	'Cat_conflict' => 'Du kannst keine Kategorie ohne Datei in einer Kategorie die keine Dateien erlaubt haben.',
 	'Cat_id_missing' => 'Bitte wähle eine Kategorie',
 	'Missing_field' => 'Bitte fülle alle benötigten Felder aus',
 

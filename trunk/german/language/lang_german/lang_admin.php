@@ -1375,7 +1375,7 @@ $lang = array_merge($lang, array(
 	'megamail_none' => 'Es wurden keine Einträge gefunden.',
 	'megamail_delete_confirm' => 'Möchtest du diese E-Mail wirklich löschen?',
 	'megamail_deleted' => 'E-Mail erfolgreich gelöscht',
-	'megamail_click_return' => 'Klicke %shier%s, um zu Mega E-Mails / PN zurückzukehren',
+	'megamail_click_return' => 'Klicke %shier%s, um zu Mega E-Mails / PN zurückzukehren.',
 /* lang_megamail.php - END */
 
 /* lang_admin_voting.php - BEGIN */
@@ -1418,7 +1418,7 @@ $lang = array_merge($lang, array(
 	'VC_active' => 'Visuelle Bestätigung ist aktiviert!',
 	'VC_inactive' => 'Visuelle Bestätigung ist nicht aktiviert!',
 	'background_configs' => 'Hintergrund',
-	'Click_return_captcha_config' => 'Klicke %shier%s, um zur CAPTCHA Konfiguration zurückzukehren',
+	'Click_return_captcha_config' => 'Klicke %shier%s, um zur CAPTCHA Konfiguration zurückzukehren.',
 
 	'CAPTCHA_width' => 'Breite des CAPTCHA',
 	'CAPTCHA_height' => 'Höhe des CAPTCHA',
@@ -1634,20 +1634,20 @@ $lang = array_merge($lang, array(
 	'Comment_level' => 'Kommentar Level',
 	'Edit_level' => ' Level bearbeiten',
 	'Delete_level' => 'Level löschen',
-	'New_category_created' => 'Die neue Kategorie wurde erfolgreich erstellt',
-	'Click_return_link_category' => 'Klicke %shier%s, um zur Kategorie Verwaltung zurückzukehren',
-	'Category_updated' => 'Die Kategorie wurde erfolgreich bearbeitet',
+	'New_category_created' => 'Die neue Kategorie wurde erfolgreich erstellt.',
+	'Click_return_link_category' => 'Klicke %shier%s, um zur Kategorie Verwaltung zurückzukehren.',
+	'Category_updated' => 'Die Kategorie wurde erfolgreich bearbeitet.',
 	'Delete_Category' => 'Kategorie löschen',
-	'Delete_Category_Explain' => 'Mit dem nachstehenden Formular kannst du Kategorien zu löschen',
-	'Category_deleted' => 'Diese Kategorie wurde erfolgreich gelöscht',
-	'Category_changed_order' => 'Diese Kategorie wurde erfolgreich verschoben',
+	'Delete_Category_Explain' => 'Mit dem nachstehenden Formular kannst du Kategorien zu löschen.',
+	'Category_deleted' => 'Diese Kategorie wurde erfolgreich gelösch.t',
+	'Category_changed_order' => 'Diese Kategorie wurde erfolgreich verschoben.',
 
 // Config
 	'Link_Config' => 'Links Konfiguration',
-	'Link_config_explain' => 'Hier kannst du die Einstellungen des Link Mods vornehmen',
-	'lock_submit_site' => 'Sperre Benutzer für das Eintragen von Seiten',
-	'allow_guest_submit_site' => 'Erlaube Gästen, Seiten zu übermitteln',
-	'allow_no_logo' => 'Erlaube die Übermittlung einer Seite ohne Banner',
+	'Link_config_explain' => 'Hier kannst du die Einstellungen des Link Mods vornehmen.',
+	'lock_submit_site' => 'Sperre Benutzer für das Eintragen von Seiten.',
+	'allow_guest_submit_site' => 'Erlaube Gästen, Seiten zu übermitteln.',
+	'allow_no_logo' => 'Erlaube die Übermittlung einer Seite ohne Banner.',
 	'site_logo' => 'Die URL des eigenen Logos (komplette URL)',
 	'site_url' => 'Die URL Deiner Webseite',
 	'width' => 'Max Breite der Banner',
@@ -1659,7 +1659,7 @@ $lang = array_merge($lang, array(
 	'Link_email_notify' => 'Sende eine E-Mail an alle Administratoren, wenn ein neuer Link hinzugefügt wurde',
 	'Link_pm_notify' => 'Sende eine PM an alle Administratoren, wenn ein neuer Link hinzugefügt wurde',
 	'Link_config_updated' => 'Links Konfiguration wurde erfolgreich bearbeitet',
-	'Click_return_link_config' => 'Klicke %shier%s, um zur Links Konfiguration zurückzukehren',
+	'Click_return_link_config' => 'Klicke %shier%s, um zur Links Konfiguration zurückzukehren.',
 
 // Link_MOD
 	'Links' => 'Links Einstellungen',
@@ -1682,14 +1682,14 @@ $lang = array_merge($lang, array(
 	'Link_adv_setting' => 'Erweiterte Einstellungen',
 	'Link_active' => 'Aktiv Status',
 
-	'Link_admin_add_success' => 'Der Link wurde erfolgreich hinzugefügt',
-	'Link_admin_add_fail' => 'Der Link konnte nicht hinzugefügt werden, bitte versuche es später wieder',
-	'Link_admin_update_success' => 'Der Link wurde erfolgreich bearbeitet',
-	'Link_admin_update_fail' => 'Der Link konnte nicht bearbeitet werden, bitte versuche es später wieder',
-	'Link_admin_delete_success' => 'Der Link wurde erfolgreich gelöscht',
-	'Link_admin_delete_fail' => 'Der Link konnte nicht gelöscht werden, bitte versuche es später wieder',
-	'Click_return_lastpage' => 'Klicke %shier%s, um zur vorherigen Seite zurückzukehren',
-	'Click_return_admin_links' => 'Klicke %shier%s, um zur Links Verwaltung zurückzukehren',
+	'Link_admin_add_success' => 'Der Link wurde erfolgreich hinzugefügt.',
+	'Link_admin_add_fail' => 'Der Link konnte nicht hinzugefügt werden, bitte versuche es später wieder.',
+	'Link_admin_update_success' => 'Der Link wurde erfolgreich bearbeitet.',
+	'Link_admin_update_fail' => 'Der Link konnte nicht bearbeitet werden, bitte versuche es später wieder.',
+	'Link_admin_delete_success' => 'Der Link wurde erfolgreich gelöscht.',
+	'Link_admin_delete_fail' => 'Der Link konnte nicht gelöscht werden, bitte versuche es später wieder.',
+	'Click_return_lastpage' => 'Klicke %shier%s, um zur vorherigen Seite zurückzukehren.',
+	'Click_return_admin_links' => 'Klicke %shier%s, um zur Links Verwaltung zurückzukehren.',
 	'Preview' => 'Vorschau',
 	'Search_site' => 'Suche Seite',
 	'Search_site_title' => 'Suche Seite Name/Beschreibung:',
@@ -1817,7 +1817,7 @@ $lang = array_merge($lang, array(
 	'BACKUP_IN_PROGRESS_TABLE' => 'Sichere Tabelle: <b>%s</b>',
 	'BACKUP_IN_PROGRESS_REDIRECT' => 'Du wirst automatisch in ein paar Sekunden zum nächsten Schritt weitergeleitet',
 	'BACKUP_IN_PROGRESS_REDIRECT_CLICK' => 'Wenn du nicht innerhalb von ein paar Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
-	'BACKUP_OPTIONS_RETURN' => 'Klicke %shier%s, um zur Backup Verwaltung zurückzukehren',
+	'BACKUP_OPTIONS_RETURN' => 'Klicke %shier%s, um zur Backup Verwaltung zurückzukehren.',
 
 // Errors
 	'Table_Select_Error' => 'Du musst mindestens eine Tabelle auswählen.',
@@ -1967,7 +1967,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Leeren der Cache Ordner in Bearbeitung...',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect' => 'Du wirst automatisch in 3 Sekunden zum nächsten Schritt weitergeleitet',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click' => 'Wenn du nicht automatisch in 3 Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
-	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Klicke %shier%s, um zur Cache Verwaltung zurückzukehren',
+	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Klicke %shier%s, um zur Cache Verwaltung zurückzukehren.',
 
 	'MG_FNF_Header' => 'Schnell-Einstellungen',
 	'MG_FNF_Header_Explain' => 'Auf dieser Seite kannst du schnell und einfach einige Schnell-Einstellungen für dein Forum vornehmen. Diese Voreinstellungen wurden für Benutzer erstellt, um einfach eine Massenänderung an den Einstellungen vorzunehmen, ohne jede Einstellung einzeln für sich ändern zu müssen. Diese Voreinstellungen können als Grundlage benutzt werden, um sie danach den persönlichen Bedürfnissen anzupassen: z.B. kannst du "Schnell und aufgebracht" auswählen und dann die Einstellungen ändern, die du nicht magst.<br /><br /><span class="text_red"><b>ACHTUNG, wenn du einmal eine Schnell-Einstellung ausgewählt hast, kannst du sie nicht mehr automatisch rückgängig machen. Du musst sie dann manuell wieder auswählen.</b></span>',
@@ -1988,7 +1988,7 @@ $lang = array_merge($lang, array(
 
 	'MG_SW_No_Right_Click' => 'Blockiere Rechts Klick',
 
-	'Click_return_config_mg' => 'Klicke %shier%s, um zu den Icy Phoenix Einstellungen zurückzukehren',
+	'Click_return_config_mg' => 'Klicke %shier%s, um zu den Icy Phoenix Einstellungen zurückzukehren.',
 	)
 );
 

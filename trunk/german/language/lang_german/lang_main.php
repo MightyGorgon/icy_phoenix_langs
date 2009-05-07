@@ -966,7 +966,7 @@ $lang = array_merge($lang, array(
 	'Guestbook' => 'Gästebuch',
 	'Viewing_guestbook' => 'Das Gästebuch lesen',
 
-	'Click_return_preferences' => 'Klicke %shier%s, um zu den Einstellungen zurückzukehren',
+	'Click_return_preferences' => 'Klicke %shier%s, um zu den Einstellungen zurückzukehren.',
 
 	'Warn_new_post' => 'Es gibt mindestens eine neue Antwort in diesem Thema. Bitte schau dir die neuen Antworten in der Thema Übersicht an und sende deinen Beitrag erneut ab.',
 
@@ -1866,7 +1866,7 @@ $lang = array_merge($lang, array(
 	'Referrers_Title' => 'Http Referer Konfiguration',
 	'Referrers_Cleared' => 'Referer gelöscht',
 	'Referrers_Clear' => 'Alle löschen',
-	'Click_Return_Referrers' => 'Klicke %shier%s, um zu den Referer zurückzukehren',
+	'Click_Return_Referrers' => 'Klicke %shier%s, um zu den Referer zurückzukehren.',
 	'Referrers' => 'Http Referer',
 	'Referrer_host' => 'Verweisender Host',
 	'Referrer_url' => 'Verweisende URL',
@@ -2122,7 +2122,7 @@ $lang = array_merge($lang, array(
 	'VF_ALL_TOPICS' => 'Alle Themen',
 
 	'WHITE_LIST_MESSAGE' => 'Diese Seite benötigt eine Benutzerkonto Freischaltung via Email. Bitte überprüfe das diese Domain auf der White-Liste (erlaubte Domains) deines Anti-Spam-Systems steht, andernfalls wirst du die Aktivierungsmitteilung nicht erhalten können.',
-	'CLICK_RETURN_HOME' => 'Klicke %shier%s, um zur Startseite zurückzukehren',
+	'CLICK_RETURN_HOME' => 'Klicke %shier%s, um zur Startseite zurückzukehren.',
 
 	'WEEK_DAY_SUNDAY' => 'Sonntag',
 	'WEEK_DAY_MONDAY' => 'Montag',

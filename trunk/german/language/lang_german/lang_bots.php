@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'BOT_COL_LAST_VISIT' => 'Letzter Besuch',
 	'BOT_COL_COUNTER' => 'Counter',
 
-	'CLICK_RETURN_BOTS' => 'Klicke %shier%s, um zur Bot-Administration zurückzukehren',
+	'CLICK_RETURN_BOTS' => 'Klicke %shier%s, um zur Bot-Administration zurückzukehren.',
 
 	'ERR_BOT_ADD' => 'Du hast nicht alle benötigten Felder ausgefüllt, bitte gehe zurück und versuche es erneut.',
 	'ERR_BOT_AGENT_MATCHES_UA' => 'Der Bot Agent den du eingeben willst ist der gleiche den du zur Zeit benutzt. Bitte stelle den Agent für diesen Bot ein.',

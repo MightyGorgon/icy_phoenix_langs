@@ -239,7 +239,7 @@ $lang = array_merge($lang, array(
 	'Rebuild_End' => 'Letzter zu indizierender Beitrag',
 	'Rebuild_End_Explain' => 'ID des letzten zu indizierenden Beitrags. Hat den Wert 0 wenn der Neuaufbau abgeschlossen ist.',
 	'Dbmtnc_config_updated' => 'Konfiguration geändert',
-	'Click_return_dbmtnc_config' => 'Klicke %shier%s, um zur Konfiguration zurückzukehren',
+	'Click_return_dbmtnc_config' => 'Klicke %shier%s, um zur Konfiguration zurückzukehren.',
 // check_user
 	'Checking_user_tables' => 'Prüfe Benutzer- und Gruppen-Tabellen',
 	'Checking_missing_anonymous' => 'Prüfe auf fehlendes Gast-Benutzer-Konto',

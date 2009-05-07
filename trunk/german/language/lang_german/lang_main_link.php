@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'Link_update_fail' => 'Deine Informationen konnten nicht gespeichert werden. Bitte gehe zurück und versuche es noch einmal.',
 	'Link_incomplete' => 'Du hast das Formular nicht vollständig ausgefüllt. Bitte gehe zurück und versuche es noch einmal.',
 	'Link_intval_warning' => 'Du kannst nicht meherere Seiten innerhalb einer Minute einreichen. Bitte versuche es später noch einmal.',
-	'Click_return_links' => 'Klicke %shier%s, um zum Links-Index zurückzukehren',
+	'Click_return_links' => 'Klicke %shier%s, um zum Links-Index zurückzukehren.',
 	'Please_enter_your' => 'Gib ein deinen ',
 	'No_Logo_img' => '<font color=blue>&#8226;</font>', // Du kannst die Farbe bearbeiten
 	'No_Display_Links_Logo' => '<font color=brown>&#8226;</font>', // Keine Anzeige des Links Logos

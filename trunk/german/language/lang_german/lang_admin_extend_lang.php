@@ -57,8 +57,8 @@ $lang = array_merge($lang, array(
 	'Lang_extend_key_missing' => 'Das Feld "Sprachvariable" wurde nicht ausgefüllt.',
 	'Lang_extend_duplicate_entry' => 'Dieser Eintrag existiert bereits (siehe Datei %)',
 
-	'Lang_extend_update_done' => 'Der Eintrag wurde erfolgreich aktualisiert.<br /><br />Klicke %shier%s, um zum Eintrag zurückzukehren.<br /><br />Klicke %shier%s, um zur Eintragsliste zurückzukehren',
-	'Lang_extend_delete_done' => 'Der Eintrag wurde erfolgreich gelöscht.<br />Note that only customized key entries are deleted, not the basic key entries if exist.<br /><br />Klicke %shier%s, um zur Eintragsliste zurückzukehren',
+	'Lang_extend_update_done' => 'Der Eintrag wurde erfolgreich aktualisiert.<br /><br />Klicke %shier%s, um zum Eintrag zurückzukehren.<br /><br />Klicke %shier%s, um zur Eintragsliste zurückzukehren.',
+	'Lang_extend_delete_done' => 'Der Eintrag wurde erfolgreich gelöscht.<br />Note that only customized key entries are deleted, not the basic key entries if exist.<br /><br />Klicke %shier%s, um zur Eintragsliste zurückzukehren.',
 
 	'Lang_extend_search' => 'Suchen in den Sprachvariablen',
 	'Lang_extend_search_words' => 'Zu suchende Wörter',

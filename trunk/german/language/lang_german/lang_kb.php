@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'Confirm_art_delete_no' => '%sNein, ich bin mir nicht sicher.%s',
 	'Article_deleted' => 'Artikel erfolgreich gelöscht',
 
-	'Click_return_article_manager' => 'Klicke %shier%s, um zum Artikel Manager zurückzukehren',
+	'Click_return_article_manager' => 'Klicke %shier%s, um zum Artikel Manager zurückzukehren.',
 
 //cat manager
 	'Create_cat' => 'Erstellen einer neuen Kategorie:',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'Notify_name' => 'Informiere mich per',
 	'Notify_explain' => 'Wähle auf welchem Wege du bei neuen Artikeln informiert werden möchtest',
 	'PM' => 'PN',
-	'Click_return_kb_config' => 'Klicke %shier%s, um zur Wissensdatenbank Konfiguration zurückzukehren',
+	'Click_return_kb_config' => 'Klicke %shier%s, um zur Wissensdatenbank Konfiguration zurückzukehren.',
 	'Admin_id_name' => 'Admin-ID',
 	'Admin_id_explain' => 'Dies ist die Benutzer ID an welche die PNs geschickt werden.',
 	'Approve_new_name' => 'Neue Artikel veröffentlichen',
@@ -231,7 +231,7 @@ $lang = array_merge($lang, array(
 	'KB_types_description' => 'Hier kannst du die verschiedenen Typen von Artikeln hinzufügen, bearbeiten oder löschen.',
 	'Create_type' => 'Neuen Artikeltyp erstellen:',
 	'Type_created' => 'Artikeltyp erfolgreich erstellt',
-	'Click_return_type_manager' => 'Klicke %shier%s, um zum Typ Manager zurückzukehren',
+	'Click_return_type_manager' => 'Klicke %shier%s, um zum Typ Manager zurückzukehren.',
 
 	'Edit_type' => 'Typ bearbeiten',
 	'Edit_type_description' => 'Hier kannst du den Namen des Typs bearbeiten',
@@ -252,7 +252,7 @@ $lang = array_merge($lang, array(
 	'Hide' => 'Verstecken',
 
 	'Empty_fields' => 'Bitte fülle alle Teile des Formulars aus.',
-	'Empty_fields_return' => 'Klicke %shier%s, um zum Formular zurückzukehren',
+	'Empty_fields_return' => 'Klicke %shier%s, um zum Formular zurückzukehren.',
 	'Empty_category' => 'Du musst eine Kategorie auswählen',
 	'Empty_type' => 'Du musst einen Typ auswählen',
 	'Empty_article_name' => 'Du musst einen Artikelnamen eingeben',

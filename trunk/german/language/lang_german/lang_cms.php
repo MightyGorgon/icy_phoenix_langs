@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'Must_enter_bp' => 'Du musst ein Position Tag Key, Position Charakter und Site Page angeben',
 	'BP_updated' => 'Block Position Aktualisiert',
 	'BP_added' => 'Block Position hinzugefügt',
-	'Click_return_bpadmin' => 'Klicke %shier%s, um zur Block Positionen Administration zurückzukehren',
+	'Click_return_bpadmin' => 'Klicke %shier%s, um zur Block Positionen Administration zurückzukehren.',
 	'BP_removed' => 'Block Position entfernt',
 	'Portal_wide' => 'Globale Blöcke',
 
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'Layout_Page_Nav' => 'Seiten-Navigations-Block (Pfadnavigation)',
 	'Must_enter_layout' => 'Du muss einen Namen und eine Template Datei angeben',
 	'Layout_updated' => 'Site Page aktualisiert',
-	'Click_return_layoutadmin' => 'Klicke %shier%s, um zur Site Page Administration zurückzukehren',
+	'Click_return_layoutadmin' => 'Klicke %shier%s, um zur Site Page Administration zurückzukehren.',
 	'Layout_added' => 'Site Page hinzugefügt',
 	'Layout_removed' => 'Site Page entfernt',
 	'Layout_Add' => 'Site Page hinzufügen',
@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'Block_added' => 'Block wurde hinzugefügt',
 	'Blocks_added' => 'Blöcke wurden hinzugefügt',
 	'Blocks_duplicated' => 'Blöcke wurden dupliziert',
-	'Click_return_blocksadmin' => 'Klicke %shier%s, um zum Block Management zurückzukehren',
+	'Click_return_blocksadmin' => 'Klicke %shier%s, um zum Block Management zurückzukehren.',
 	'Block_removed' => 'Block wurde gelöscht',
 	'B_BV_added' => 'Block Config Datei verfügbar: Block Variablen automatisch eingefügt',
 
@@ -142,14 +142,14 @@ $lang = array_merge($lang, array(
 	'Must_enter_bv' => 'Du musst ein Feld Label und ein Config Name angeben',
 	'BV_updated' => 'Block Variable wurde aktualisiert',
 	'BV_added' => 'Block Variable wurde hinzufügt',
-	'Click_return_bvadmin' => 'Klicke %shier%s, um zur Block Variablen Konfiguration zurückzukehren',
+	'Click_return_bvadmin' => 'Klicke %shier%s, um zur Block Variablen Konfiguration zurückzukehren.',
 	'Config_Name_Explain' => 'Darf kein Leerzeichen haben',
 	'Field_Options_Explain' => 'Für Dropdown-Listen vorgeschrieben und<br />für Radio Buttons (Kommagetrennt).',
 	'Field_Values_Explain' => 'Für Dropdown-Listen vorgeschrieben und<br />für Radio Buttons (Kommagetrennt).',
 	'BV_removed' => 'Block Variable wurde entfernt',
 
 	'Config_updated' => 'Konfiguration wurde aktualisiert',
-	'Click_return_config' => 'Klicke %shier%s, um zur Konfiguration zurückzukehren',
+	'Click_return_config' => 'Klicke %shier%s, um zur Konfiguration zurückzukehren.',
 	'Portal_Config' => 'Site Pages Konfiguration',
 	'Portal_Explain' => 'Von diesem Bedienpanel aus, kannst du alle Konfigurationen die für deine Site Pages benötigt werden, einstellen. Block Variablen die auf dieser Seite gelistet sind, können auf der Block Variablen Config Seite erstellt/aktualisiert werden',
 	'Portal_General_Config' => 'Allgemeine Konfiguration',
@@ -264,8 +264,8 @@ $lang = array_merge($lang, array(
 //  'cms_var_' => '',
 
 	'CMS_Config_updated' => 'Konfigurations-Update erfolgreich',
-	'CMS_Click_return_config' => 'Klicke %shier%s, um zu den Einstellungen zurückzukehren',
-	'CMS_Click_return_cms' => 'Klicke %shier%s, um zur CMS-Verwaltung zurückzukehren',
+	'CMS_Click_return_config' => 'Klicke %shier%s, um zu den Einstellungen zurückzukehren.',
+	'CMS_Click_return_cms' => 'Klicke %shier%s, um zur CMS-Verwaltung zurückzukehren.',
 	'CMS_TITLE' => 'CMS',
 	'CMS_MANAGEMENT' => 'CMS-Verwaltung',
 	'CMS_Config' => 'CMS Konfiguration',
@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'CMS_Menu_New_cat_link_url' => 'URL dieser Kategorie (wenn keine URL angegeben wird, kannst du die Kategorie auf- und zuklappen um die Beiträge zu sehen)',
 	'CMS_Menu_Update' => 'Menü aktualisieren',
 
-	'Click_Return_CMS_Menu' => 'Klicke %shier%s, um zur Menü-Administration zurückzukehren',
+	'Click_Return_CMS_Menu' => 'Klicke %shier%s, um zur Menü-Administration zurückzukehren.',
 
 	'Menu_created' => 'Menü wurde erfolgreich erstellt.',
 	'Cat_created' => 'Kategorie wurde erfolgreich erstellt.',

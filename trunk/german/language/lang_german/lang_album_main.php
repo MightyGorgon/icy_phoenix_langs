@@ -118,10 +118,10 @@ $lang = array_merge($lang, array(
 	'Upload_image_size_too_big' => 'Die Bildmaße sind zu groß',
 	'Upload_thumbnail_size_too_big' => 'Die Maße deines Vorschaubildes sind zu groß',
 
-	'Missed_pic_title' => 'Du musst einen Bildtitel angeben',
+	'Missed_pic_title' => 'Du musst einen Bildtitel angeben.',
 
-	'Click_return_category' => 'Klicke %shier%s, um zur Kategorie zurückzukehren',
-	'Click_return_album_index' => 'Klicke %shier%s, um zum Album Index zurückzukehren',
+	'Click_return_category' => 'Klicke %shier%s, um zur Kategorie zurückzukehren.',
+	'Click_return_album_index' => 'Klicke %shier%s, um zum Album Index zurückzukehren.',
 
 	'Add_File' => 'Datei hinzufügen',
 	'File_thumbnail_count_mismatch' => 'Die Anzahl der hochgeladenen Bilder stimmt nicht mit der Anzahl der Thumbnails überein.',
@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 	'Personal_Gallery_Explain' => 'Du kannst die persönlichen Foto-Galerien anderer Mitglieder betrachten, wenn du auf den Link in deren Profil klickst',
 	'Personal_gallery_not_created' => 'Die persönliche Foto-Galerie von %s ist leer oder wurde noch nicht erstellt',
 	'Not_allowed_to_create_personal_gallery' => 'Sorry, der Administrator des Boards erlaubt es Dir nicht, eine persönliche Foto-Galerie zu erstellen',
-	'Click_return_personal_gallery' => 'Klicke %shier%s, um zur persönlichen Foto-Galerie zurückzukehren',
+	'Click_return_personal_gallery' => 'Klicke %shier%s, um zur persönlichen Foto-Galerie zurückzukehren.',
 
 // Download Archive
 	'Download_pics' => 'Bilder herunterladen (ZIP)',
@@ -356,9 +356,9 @@ $lang = array_merge($lang, array(
 	'Watching_comment' => 'Du beobachtest nun die Kommentare dieses Bildes',
 	'Pic_comment_notification' => 'Foto-Galerie-Kommentar-Benachrichtigung',
 	'Pic_comment_watch_checkbox' => 'Markiere die Box um über Kommentare zu diesem Bild benachrichtigt zu werden:',
-	'Watch_pic' => 'Beobachte dieses Bild für Kommentare',
-	'Unwatch_pic' => 'Beende das Beobachten der Kommentare dieses Bildes',
-	'Click_return_pic' => 'Klicke %shier%s, um zum Bild zurückzukehren',
+	'Watch_pic' => 'Beobachte dieses Bild für Kommentare.',
+	'Unwatch_pic' => 'Beende das Beobachten der Kommentare dieses Bildes.',
+	'Click_return_pic' => 'Klicke %shier%s, um zum Bild zurückzukehren.',
 
 	'Pic_RDF' => 'RSS-Feed 1.0',
 	'Pic_RSS' => 'RSS-Feed 2.0',

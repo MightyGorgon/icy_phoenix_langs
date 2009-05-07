@@ -228,8 +228,8 @@ $lang = array_merge($lang, array(
 	'View_Attachments' => 'Datei-Anhänge',
 
 // Successfully updated
-	'Attach_config_updated' => 'Attachment Einstellungen wurden erfolgreich verändert',
-	'Click_return_attach_config' => 'Klicke %shier%s, um zu den Attachment Einstellungen zurückzukehren',
+	'Attach_config_updated' => 'Attachment Einstellungen wurden erfolgreich verändert.',
+	'Click_return_attach_config' => 'Klicke %shier%s, um zu den Attachment Einstellungen zurückzukehren.',
 	'Test_settings_successful' => 'Einstellungstest abgeschlossen, die Konfiguration scheint zu funktionieren.',
 
 // Some basic definitions

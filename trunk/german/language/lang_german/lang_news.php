@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'Icon' => 'News Icon',
 	'Add_new_category' => 'Neue News Kategorie hinzufügen',
 
-	'Click_return_newsadmin' => 'Klicke %shier%s, um zur News-Konfiguration zurückzukehren',
+	'Click_return_newsadmin' => 'Klicke %shier%s, um zur News-Konfiguration zurückzukehren.',
 	'Category_Deleted' => 'Die News Kategorie wurde erfolgreich gelöscht.',
 	'Category_Updated' => 'Die News Kategorie wurde erfolgreich geändert.',
 	'Category_Added' => 'Die News Kategorie wurde erfolgreich hinzugefügt.',

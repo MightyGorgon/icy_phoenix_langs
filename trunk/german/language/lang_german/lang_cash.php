@@ -64,10 +64,10 @@ $lang['Menu'] = 'Menü';
 
 $lang['Messages'] = 'Nachrichten';
 $lang['Spam'] = 'Spam';
-$lang['Click_return_cash_config'] = 'Klicke %shier%s, um zum Cash Mod zurückzukehren';
-$lang['Cash_config_updated'] = 'Cash Mod Konfiguration geändert';
+$lang['Click_return_cash_config'] = 'Klicke %shier%s, um zum Cash Mod zurückzukehren.';
+$lang['Cash_config_updated'] = 'Cash Mod Konfiguration geändert.';
 $lang['Cash_disabled'] = 'Cash Mod deaktivieren';
-$lang['Cash_message'] = 'Verdienst auf dem Beitrags-Bestätigungs Bildschirm anzeigen';
+$lang['Cash_message'] = 'Verdienst auf dem Beitrags-Bestätigungs Bildschirm anzeigen.';
 $lang['Cash_display_message'] = 'Nachricht zum anzeigen der Benutzerverdienste';
 $lang['Cash_display_message_explain'] = 'Es muss exakt ein "%s" enthalten sein.';
 $lang['Cash_spam_disable_num'] = 'Anzahl an Posts, die zur Verdienstsperrung führt (Spamvorsorge)';
@@ -78,7 +78,7 @@ $lang['Cash_spam_disable_message'] = 'Spamwarnung im Falle von Verdienstsperrung
 $lang['Cash_currencies'] = 'Cash Mod Währungen';
 $lang['Cash_currencies_explain'] = 'Mit den Eingabefeldern unten kannst du deine Währungen verändern.';
 
-$lang['Click_return_cash_currencies'] = 'Klicke %shier%s, um zu den Cash Mod Währungen zurückzukehren';
+$lang['Click_return_cash_currencies'] = 'Klicke %shier%s, um zu den Cash Mod Währungen zurückzukehren.';
 $lang['Cash_currencies_updated'] = 'Cash Mod Währungen geändert';
 $lang['Cash_field'] = 'Spaltenname';
 $lang['Cash_currency'] = 'Währung';
@@ -114,7 +114,7 @@ $lang['No_events'] = 'Keine Ereignisse vorhanden';
 $lang['Existing_events'] = 'Vorhandene Ereignisse';
 $lang['Add_an_event'] = 'Ereignis hinzufügen';
 $lang['Cash_events_updated'] = 'Cash Ereignisse geändert';
-$lang['Click_return_cash_events'] = 'Klicke %shier%s, um zu den Cash Ereignissen zurückzukehren';
+$lang['Click_return_cash_events'] = 'Klicke %shier%s, um zu den Cash Ereignissen zurückzukehren.';
 
 //Reset
 $lang['Cash_reset_title'] = 'Cash Mod Zurücksetzen';
@@ -149,7 +149,7 @@ $lang['Forum_cm_settings_explain'] = 'In diesem Bereich kannst du einstellen, in
 $lang['Cash_groups'] = 'Cash Mod Gruppen';
 $lang['Cash_groups_explain'] = 'In diesem Bereich kannst du besondere Privilegien für Ränge, Benutzergruppen, Administratoren und Moderatoren einstellen';
 
-$lang['Click_return_cash_groups'] = 'Klicke %shier%s,um zu den Cash Gruppen zurückzukehren';
+$lang['Click_return_cash_groups'] = 'Klicke %shier%s,um zu den Cash Gruppen zurückzukehren.';
 $lang['Cash_groups_updated'] = 'Cash Gruppen geändert';
 
 $lang['Set'] = 'Festlegen';
@@ -186,7 +186,7 @@ $lang['Display'] = 'Anzeige';
 $lang['Implementation'] = 'Verdienste';
 $lang['Allowances'] = 'Taschengelder';
 $lang['Allowances_explain'] = 'Taschengelder setzen das Cash Mod Taschengeld Plug-in vorraus';
-$lang['Click_return_cash_settings'] = 'Klicke %shier%s, um zu den Cash Mod Einstellungen zurückzukehren';
+$lang['Click_return_cash_settings'] = 'Klicke %shier%s, um zu den Cash Mod Einstellungen zurückzukehren.';
 $lang['Cash_settings_updated'] = 'Cash Mod Einstellungen geändert';
 
 $lang['Cash_enabled'] = 'Währung aktivieren';
