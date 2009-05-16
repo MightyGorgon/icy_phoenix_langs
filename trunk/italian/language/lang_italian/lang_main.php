@@ -1329,9 +1329,6 @@ $lang['TELL_FRIEND_MSG'] = 'Il tuo messaggio:';
 $lang['TELL_FRIEND_TITLE'] = 'Segnala ad un amico';
 $lang['TELL_FRIEND_BODY'] = "Ciao,\nho letto questa discussione sull'argomento &raquo;{TOPIC}&laquo; su {SITENAME} ed ho pensato che potrebbe interessarti.\n\nQuesto &egrave; il link: {LINK}\n\nVai e leggi e, se vuoi rispondere, ricordati che probabilmente dovrai registrarti.";
 
-// Default Subject on Reply
-$lang['RE'] = 'Re';
-
 //Begin Lo-Fi Mod
 $lang['Lofi'] = 'Visualizzazione Lo-Fi';
 //$lang['Full_Version'] = 'Visualizzazione Integrale';
@@ -2430,6 +2427,9 @@ $lang['Reg_for_explain'] = '[ Inserisci 0 o lascia vuoto il campo per registrazi
 $lang['Reg_no_options_specified'] = 'Devi specificare almeo un\'opzione di registrazione.';
 $lang['Reg_event_date'] = '<b>Data evento: </b>';
 // Event Registration - END
+
+$lang['REPLY_PREFIX_OLD'] = 'Re: ';
+$lang['REPLY_PREFIX'] = 'Re: ';
 //$lang[''] = '';
 
 //====================================================
