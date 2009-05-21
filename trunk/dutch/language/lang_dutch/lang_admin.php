@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 80 2009-02-19 13:45:54Z Mighty Gorgon $
+* @version $Id: lang_admin.php 101 2009-05-16 16:03:40Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -1152,11 +1152,11 @@ $lang = array_merge($lang, array(
 	'auth_view_title' => 'Paginabekijkbevoegdheid',
 	'auth_view_portal' => 'Startpagina',
 	'auth_view_forum' => 'Forum',
-	'auth_view_viewf' => 'Forum weergeven',
-	'auth_view_viewt' => 'Onderwerp weergeven',
+	'auth_view_viewforum' => 'Forum weergeven',
+	'auth_view_viewtopic' => 'Onderwerp weergeven',
 	'auth_view_faq' => 'FAQ',
 	'auth_view_memberlist' => 'Gebruikerslijst',
-	'auth_view_group_cp' => 'Gebruikersgroepen',
+	'auth_view_group cp' => 'Gebruikersgroepen',
 	'auth_view_profile' => 'Profiel',
 	'auth_view_search' => 'Zoeken',
 	'auth_view_album' => 'Album',
@@ -2170,7 +2170,7 @@ $lang['130_Album_Permissions'] = 'Permissies'; // admin_album_auth.php
 $lang['140_Personal_Galleries'] = 'Persoonlijke albums'; // admin_album_personal.php
 
 // FAQ
-$lang['2300_FAQ'] = 'FAQ & Regels'; // admin_faq_editor.php
+$lang['2300_FAQ'] = 'FAQ &amp; Regels'; // admin_faq_editor.php
 $lang['110_FAQ_BBCode'] = 'BBCode FAQ'; // admin_faq_editor.php
 $lang['120_FAQ_Board'] = 'Website FAQ'; // admin_faq_editor.php
 $lang['130_FAQ_Rules'] = 'Websiteregels'; // admin_faq_editor.php

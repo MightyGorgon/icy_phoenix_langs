@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_sudoku.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
+* @version $Id: lang_sudoku.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -27,7 +27,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'Sudoku_Version' => 'Sudoku Modversie %s &copy Majorflam 2005 - Laatst geinstalleerde spelpakket: Spelpakket %s',
+	'Sudoku_Version' => 'Sudoku Modversie %s &copy; Majorflam 2005 - Laatst geinstalleerde spelpakket: Spelpakket %s',
 	'suduko_blank_tile' => 'Klik om een getal in te vullen',
 	'suduko_user_tile' => 'Klik om een getal te wijzigen',
 	'sudoku_no_tile' => 'Er is geen veld gespecificeerd!',

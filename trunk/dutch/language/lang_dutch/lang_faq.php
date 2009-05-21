@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_faq.php 80 2009-02-19 13:45:54Z Mighty Gorgon $
+* @version $Id: lang_faq.php 97 2009-05-01 17:18:07Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

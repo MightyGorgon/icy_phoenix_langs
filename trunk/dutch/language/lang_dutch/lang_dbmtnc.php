@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_dbmtnc.php 80 2009-02-19 13:45:54Z Mighty Gorgon $
+* @version $Id: lang_dbmtnc.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

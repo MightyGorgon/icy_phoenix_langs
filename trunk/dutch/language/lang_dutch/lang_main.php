@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main.php 88 2009-02-22 19:54:45Z Mighty Gorgon $
+* @version $Id: lang_main.php 101 2009-05-16 16:03:40Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -88,7 +88,6 @@ $lang = array_merge($lang, array(
 	'Category' => 'Categorie',
 	'Topic' => 'Onderwerp',
 	'Topics' => 'Onderwerpen',
-	'RE' => 'Re',
 	'Replies' => 'Reacties',
 	'Views' => 'Bekeken',
 	'Post' => 'Bericht',
@@ -279,10 +278,12 @@ $lang = array_merge($lang, array(
 	'Topic_Sticky_nb' => 'Vastgepind',
 	'Topic_Moved_nb' => 'Verplaatst',
 	'Topic_Poll_nb' => 'Peiling',
+	'Topic_Event_nb' => 'Evenement',
 	'Topic_Announcement' => '<b>Mededeling:</b>',
 	'Topic_Sticky' => '<b>Vastgepind:</b>',
 	'Topic_Moved' => '<b>Verplaatst:</b>',
 	'Topic_Poll' => '<b>Peiling:</b>',
+	'Topic_Event' => '<b>Evenement:</b>',
 	'Topic_global_announcement' => '<b>Forummededeling:</b>',
 	'Post_global_announcement' => 'Forummededeling',
 
@@ -2096,6 +2097,7 @@ $lang = array_merge($lang, array(
 
 	'HAPPY_BIRTHDAY' => 'Hartelijk Gefeliciteerd!',
 
+	'DOWNLOAD' => 'Download',
 	'DOWNLOADED' => 'Gedownload',
 	'FILESIZE' => 'Bestandsgrootte',
 	'FILENAME' => 'Bestandsnaam',
@@ -2149,6 +2151,51 @@ $lang = array_merge($lang, array(
 	'MANAGEMENT' => 'Team',
 	'SORT_ORDER' => 'Sorteer op',
 	'SORT_DIR' => 'Sorteervolgorde',
+	
+	'TIME_YEAR' => 'Jaar',
+	'TIME_MONTH' => 'Maand',
+	'TIME_DAY' => 'Dag',
+	'TIME_HOUR' => 'Uur',
+	'TIME_MINUTE' => 'Minuut',
+	'TIME_SECOND' => 'Seconde',
+
+	'CONTACTS' => 'Contacten',
+
+	// Event Registration - BEGIN
+	'Reg_Title' => 'Evenementregistratie',
+	'Post_Registration' => 'Evenementregistratie',
+	'Add_registration' => 'Voeg evenementregistratie toe',
+	'Add_reg_explain' => '&nbsp;&bull; Vink <i>activeren</i> aan om de registratieformulier weer te geven in dit bericht. Vink het uit om het te verbergen.<br />&nbsp;&bull; Vink <i>resetten</i> aan om alle huidige registraties te verwijderen in dit forumulier.<br />&nbsp;&bull; Geef een aantal <i>plaatsen</i> in om een maximum te stellen aan de aantal registraties per optie.  "0" of leeg = oneindig.',
+	'reg_activate' => 'Activeren',
+	'reg_reset' => 'Resetten',
+	'Reg_Insert' => 'Je hebt je geregistreerd voor de evenement.',
+	'Reg_Change' => 'Registratie gewijzigd.',
+	'Reg_Confirm' => 'Registratie bevestigd.',
+	'Reg_Unregister' => 'Registratie geannuleerd.',
+	'Reg_Max_Registrations' => 'De maximum aantal registraties voor deze optie is bereikt. Er worden geen registraties meer geaccepteerd.',
+	'Reg_No_Slots_Left' => 'Geen plaatsen over om te registreren.',
+	'Reg_One_Slot_Left' => '1 plaats over om te registreren.',
+	'Reg_Slots_Left' => '%s plaatsen over.',
+	'Reg_Self_Unregister' => 'Ongeregistreerd',
+	'Reg_Own_Confirmation' => 'Bevestigen',
+	'Reg_Own_Confirmed' => 'bevestigd',
+	'Reg_Green_Option' => 'Groene optie',
+	'Reg_Blue_Option' => 'Blauwe optie',
+	'Reg_Red_Option' => 'Rode optie',
+	'Reg_Value_Max_Registrations' => 'Plaats',
+	'Reg_Do' => 'Opgeven',
+	'Reg_Maybe' => 'Niet zeker',
+	'Reg_Dont' => 'Niet deze keer',
+	'Reg_Head_Username' => 'Gebruiker:',
+	'Reg_Head_Time' => 'Datum:',
+	'Reg_for' => 'Registratie loopt tot',
+	'Reg_for_explain' => '[ Vul een 0 in of laat het leeg voor een oneindige lopende registratie ]',
+	'Reg_no_options_specified' => 'Je moet tenminste een optie specificeren om te registreren voor.',
+	'Reg_event_date' => '<b>Evenementdatum: </b>',
+	// Event Registration - END
+
+	'REPLY_PREFIX_OLD' => 'Re: ',
+	'REPLY_PREFIX' => 'Re: ',
 	)
 );
 

@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin_cback_ctracker.php 80 2009-02-19 13:45:54Z Mighty Gorgon $
+* @version $Id: lang_admin_cback_ctracker.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'ctracker_module_4' => 'Algemene Nieuws',
 	'ctracker_module_5' => 'IP&Agent Blokker',
 	'ctracker_module_6' => 'Logbeheer',
-	'ctracker_module_7' => 'Onderhoud & Tests',
+	'ctracker_module_7' => 'Onderhoud &amp; Tests',
 	'ctracker_module_8' => 'Akelige Gebruiker',
 	'ctracker_module_9' => 'Instellingen',
 	'ctracker_module_10' => 'Herstellen',
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
  */
 	'ctracker_wrong_module' => 'Onbekende Modulenummer',
 	'ctracker_img_descriptions' => 'Afbeelding',
-	'ctracker_set_catname1' => 'IP, Proxy & Gebruikeragent Blokker',
+	'ctracker_set_catname1' => 'IP, Proxy &amp; Gebruikeragent Blokker',
 	'ctracker_set_catname2' => 'Zoekschild-Systeem',
 	'ctracker_set_catname3' => 'Loginschild-Systeem',
 	'ctracker_set_catname4' => 'Automatische Spamherkenning',
@@ -156,7 +156,7 @@ $lang = array_merge($lang, array(
 	'ctracker_credits_donate' => 'Doneren',
 	'ctracker_credits_donate_expl' => 'Bevalt jouw <b>CBACK CrackerTracker Professional</b>? Dan is het zeer netjes van je, wanneer je het CBACK Project met een kleine PayPal donatie te ondersteunen. Verder ontwikkeling en serverhuur kosten van onze non-profit project kost veel geld. Met een kleine ondersteuning help je, dat we onze service bijvoorbeeld de CrackerTracker verder kostenloos kunnen aanbieden. <br /><br />Hartelijk dank voor je ondersteuning!',
 	'ctracker_credits_credits' => 'Credits',
-	'ctracker_credits_credits_1' => 'Idee & Omzetting',
+	'ctracker_credits_credits_1' => 'Idee &amp; Omzetting',
 	'ctracker_credits_credits_2' => 'Auteur en Ondersteuning',
 	'ctracker_credits_credits_3' => 'Iconen',
 	'ctracker_credits_credits_4' => 'Officiële Downloadwebsite',
@@ -229,7 +229,7 @@ $lang = array_merge($lang, array(
  */
 	'ctracker_ipb_delete' => 'Verwijder ingang',
 	'ctracker_ipb_blocklist' => 'Bloklijst ingangen',
-	'ctracker_ipb_head' => 'Proxy, IP & Gebruikeragent Blokker',
+	'ctracker_ipb_head' => 'Proxy, IP &amp; Gebruikeragent Blokker',
 	'ctracker_ipb_description' => 'Hier kun je de bloklijst van CrackerTracker Proxy, IP en GebruikerAgent Blokker beheren. Je kan bestaande ingangen verwijderen of nieuwe toevoegen. Met een nieuwe ingang heb je de optie om gebruik te maken van (*) om een combinatie eruit te filteren uit de lijst. Voorbeeld: lwp* staat voor lwp-1 alsmede lwp-simple enz. of 100.*.*.* vertegenwoordigt alle IP-adressen dat begint met 100. .<br /><br /><b>WAARSCHUWING</b> Let erop dat je je eigen e-mailadres of GebruikerAgent niet blokkeert. Anders wordt je van het forum geband en geblokkeerd!',
 
 
@@ -244,8 +244,8 @@ $lang = array_merge($lang, array(
 	'ctracker_log_manager_head1' => 'Lognaaam',
 	'ctracker_log_manager_head2' => 'Aantal ingangen',
 	'ctracker_log_manager_head3' => 'Functies',
-	'ctracker_log_manager_name2' => 'Worm & exploitbescherming',
-	'ctracker_log_manager_name3' => 'IP, Proxy & GebruikerAgent Blokker',
+	'ctracker_log_manager_name2' => 'Worm &amp; exploitbescherming',
+	'ctracker_log_manager_name3' => 'IP, Proxy &amp; GebruikerAgent Blokker',
 	'ctracker_log_manager_name4' => 'Incorrecte logins',
 	'ctracker_log_manager_name5' => 'Geblokkeerde spammers',
 	'ctracker_log_manager_name6' => 'Debugingangen',
@@ -290,9 +290,9 @@ $lang = array_merge($lang, array(
 	'ctracker_ma_systest' => 'Automatische systeemtest',
 	'ctracker_ma_sectest' => 'Veiligheidstest',
 	'ctracker_ma_maint' => 'Servicefunctie',
-	'ctracker_ma_name_1' => 'Worm- & Exploitprotectiesysteem',
+	'ctracker_ma_name_1' => 'Worm- &amp; Exploitprotectiesysteem',
 	'ctracker_ma_name_2' => 'Variabelecontroleunit',
-	'ctracker_ma_name_3' => 'IP, Proxy & GebruikerAgent Protectie Unit',
+	'ctracker_ma_name_3' => 'IP, Proxy amp; Gebruikeragent Protectie Unit',
 	'ctracker_ma_name_4' => 'Worm Heuristics Definitions Batch - Aantal definities: <b>%s</b>',
 	'ctracker_ma_syshead_1' => 'Veiligheidsmodule',
 	'ctracker_ma_syshead_2' => 'Status',
@@ -309,8 +309,8 @@ $lang = array_merge($lang, array(
 	'ctracker_ma_scheck_5' => 'CBACK CrackerTracker (<a href="http://www.cback.de" target="_blank">Bezoek website</a>)',
 	'ctracker_ma_chmod' => '<b>CHMOD777 Status:</b> ',
 	'ctracker_ma_desc_link' => 'NU UITVOEREN',
-	'ctracker_ma_desc1' => '<b>Wis IP, Proxy & GebruikerAgent Tabel</b><br />Hier kun je <u>alle</u> ingangen van IP, Proxy & GebruikerAgent Tabel verwijderen.',
-	'ctracker_ma_desc2' => '<b>Fabrieksinstelling: IP, Proxy & GebruikerAgent Blokker</b><br />Hier kun je de status herstellen van de IP, Proxy & GebruikerAgent databasetabel voor aanvang van deze mod. Je filters worden bovendien ook verwijderd!',
+	'ctracker_ma_desc1' => '<b>Wis IP, Proxy & GebruikerAgent Tabel</b><br />Hier kun je <u>alle</u> ingangen van IP, Proxy &amp; GebruikerAgent Tabel verwijderen.',
+	'ctracker_ma_desc2' => '<b>Fabrieksinstelling: IP, Proxy &amp; GebruikerAgent Blokker</b><br />Hier kun je de status herstellen van de IP, Proxy & GebruikerAgent databasetabel voor aanvang van deze mod. Je filters worden bovendien ook verwijderd!',
 	'ctracker_ma_desc3' => '<b>Verwijder inloggeschiedenis</b><br />Hier kun je alle ingangen van inloggeschiedenis verwijderen, ongeacht de gebruiker en ongeacht de opgegeven hoeveelheid per gebruiker.',
 	'ctracker_ma_desc4' => '<b>Wis bestandhashcontroletabel</b><br />Verwijder alle opgeslagen ingangen van het bestandhashcontroletabel.',
 	'ctracker_ma_desc5' => '<b>Wis veiligheidsscannertabel</b><br />Verwijderd alle resultaten die zijn opgeslagen in de database tijdens het scannen.',

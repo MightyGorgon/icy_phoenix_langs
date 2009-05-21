@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main_upi2db.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
+* @version $Id: lang_main_upi2db.php 101 2009-05-16 16:03:40Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'upi2db_mark_post_unread_cant' => 'Dit bericht kan niet als ongelezen gemarkeerd worden.',
 	'upi2db_mark_post_is_unread' => 'Bericht wordt als ongelezen gemarkeerd.',
 	
-	'upi2db_first_use_txt' => 'Je bent nu in staat om gebruik te maken van het UPI2DB-systeem en alle functies binnen het systeem. Je kan meer details vinden in onze FAQ.',
+	'upi2db_first_use_txt' => 'Je bent nu in staat om gebruik te maken van het UPI2DB-systeem en alle functies binnen het systeem. Je kan meer details vinden op de FAQ- pagina.',
 	
 	'upi2db_u' => 'U',
 	'upi2db_m' => 'M',

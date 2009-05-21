@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main_settings.php 80 2009-02-19 13:45:54Z Mighty Gorgon $
+* @version $Id: lang_main_settings.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -59,9 +59,9 @@ $lang['OwnerServer'] = 'Icy Phoenix';
 
 $lang['PrivacyDisclaimer'] = 'Je verklaart dat je het volkomen eens bent, dat jouw persoonlijke bestanden vertrouwelijk volgens de actuele wetgeving worden opgeslagen en verwerkt.<br />';
 
-$lang['ENCODING'] = 'iso-8859-1';
-//$lang['ENCODING'] = 'utf8';
-$lang['ENCODING_ALT'] = 'utf8';
+$lang['ENCODING'] = 'ISO-8859-1';
+//$lang['ENCODING'] = 'UTF-8';
+$lang['ENCODING_ALT'] = 'UTF-8';
 $lang['DIRECTION'] = 'ltr';
 $lang['HEADER_LANG'] = 'nl-nl';
 $lang['HEADER_XML_LANG'] = 'nl-nl';
