@@ -2195,6 +2195,8 @@ $lang = array_merge($lang, array(
 	'Reg_event_date' => '<b>Event Datum: </b>',
 	// Event Registration - END
 
+	'REPLY_PREFIX_OLD' => 'Re: ',
+	'REPLY_PREFIX' => 'Re: ',
 	)
 );
 
