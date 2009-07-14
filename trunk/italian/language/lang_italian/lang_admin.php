@@ -576,7 +576,7 @@ $lang['Click_return_massemail'] = 'Clicca %sQUI%s per tornare a Email Generali';
 $lang['Ranks_title'] = 'Amministrazione Livelli';
 $lang['Ranks_explain'] = 'Con questo modulo puoi aggiungere, cancellare, modificare e guardare il livello degli utenti. Puoi anche creare dei livelli personali che possono essere applicati ad un utente attraverso la Gestione Utenti';
 
-$lang['Add_new_rank'] = 'Aggiungi un novo livello';
+$lang['Add_new_rank'] = 'Aggiungi un nuovo livello';
 
 $lang['Rank_title'] = 'Titolo Livello';
 $lang['Rank_special'] = 'Imposta un Livello Speciale';
@@ -632,7 +632,7 @@ $lang['Edit_theme'] = 'Modifica Tema';
 $lang['Edit_theme_explain'] = 'Nel modulo qui sotto puoi modificare le impostazioni per il tema selezionato';
 
 $lang['Create_theme'] = 'Crea Tema';
-$lang['Create_theme_explain'] = 'Utilizza il modulo qui sotto per creare un unovo tema per il modello selezionato. Quando inserisci i colori (devi usare la notazione esadecimale) non  devi includere all\'inizio #, es. CCCCCC &egrave; valido, #CCCCCC non valido.';
+$lang['Create_theme_explain'] = 'Utilizza il modulo qui sotto per creare un nuovo tema per il modello selezionato. Quando inserisci i colori (devi usare la notazione esadecimale) non  devi includere all\'inizio #, es. CCCCCC &egrave; valido, #CCCCCC non valido.';
 
 $lang['Export_themes'] = 'Esporta Temi';
 $lang['Export_explain'] = 'In questo pannello puoi esportare i dati del tema per il modello selezionato. Seleziona un modello dalla lista qui sotto e lo script creer&agrave; il file di configurazione del tema e tenter&agrave; di salvarlo nella directory dei modelli (template). Se non pu&ograve; salvare il file, il programma ti dar&agrave; la possibilit&agrave; di scaricarlo. Per permettere allo script di salvare il file devi dare il permesso di scrittura alla directory dei modelli sul server. Per ulteriori informazioni consulta il sito di supporto di Icy Phoenix.';
@@ -799,7 +799,7 @@ $lang['Bluecard_limit_explain'] = 'Notifica il moderatore ogni x blue card attri
 $lang['Bluecard_limit_2'] = 'Notifica Blue Card ';
 $lang['Bluecard_limit_2_explain'] = 'Invia la prima notifica al moderatore quando un messaggio raggiunge un numero di blue cards pari a ';
 $lang['Report_forum']= 'Forum segnalazioni';
-$lang['Report_forum_explain'] = 'Indicare il valore  ID relativo al forum in cui i report degli utenti verra\' immesso. Impostare a 0 per disattivare questa opzione. Gli utenti <b> devono avere almeno</b> il permesso di scrittura e risposta in questo forum';
+$lang['Report_forum_explain'] = 'Selezionare il forum in cui verranno inseriti i report degli utenti. Gli utenti <b> devono avere almeno</b> il permesso di scrittura e risposta in questo forum';
 
 // Start add - Last visit MOD
 $lang['Hidde_last_logon'] = 'Nascondi ultima connessione';
@@ -863,7 +863,7 @@ $lang['User_allow_ag'] = 'Attiva AutoGroup';
 $lang['group_count_explain'] = 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno aggiunti automaticamente a questo gruppo<br /> Questo si applica solo se "Utenti aggiunti automaticamente quando postano" &egrave; abilitato';
 // Start add - Bin Mod
 $lang['Bin_forum'] = 'Cestino';
-$lang['Bin_forum_explain'] = 'Immetti l\'ID del Forum che vuoi utilizzare come Cestino; impostando il valore a 0 (zero) la caratteristica sar&agrave; disabilitata. Dovresti inoltre modificare i permessi di questo forum per permettere oppure no l\'accesso agli utenti.';
+$lang['Bin_forum_explain'] = 'Seleziona il forum che vuoi utilizzare come Cestino. Dovresti inoltre modificare i permessi di questo forum per consentire o meno l\'accesso agli utenti.';
 // End add - Bin Mod
 
 // Begin quick Title Edition Mod 1.0.0 by Xavier Olive.
@@ -1026,7 +1026,7 @@ $lang['Gravatar_default_image_explain'] = 'Se non viene trovato nessun gravatar,
 
 // Admin Account Actions
 $lang['Account_actions'] = 'Azioni Accounts';
-$lang['Account_inactive_explain'] = 'Da qui puoi vedere tutti gli Utenti che non sono attivi e che aspettano di essere attivai. Puoi attivare o eliminare i loro accounts.<br />Inoltre potrai impostare i loro permessi o modificare il loro profilo.';
+$lang['Account_inactive_explain'] = 'Da qui puoi vedere tutti gli Utenti che non sono attivi e che aspettano di essere attivati. Puoi attivare o eliminare i loro accounts.<br />Inoltre potrai impostare i loro permessi o modificare il loro profilo.';
 $lang['Account_active_explain'] = 'Da qui puoi vedere tutti gli utenti che sono membri attivi. Puoi disattivare o eliminare i loro accounts.<br />Inoltre potrai impostare i loro permessi o modificare il loro profilo.';
 $lang['Account_active'] = 'Utenti Attivi';
 $lang['Account_inactive'] = 'Utenti Inattivi';
@@ -1545,8 +1545,8 @@ $lang['foreground_lattice'] = 'Griglia di Sfondo';
 $lang['foreground_lattice_explain'] = '(larghezza x altezza)<br />Genera una griglia sul CAPTCHA';
 $lang['foreground_lattice_color'] = 'Colore Griglia';
 $lang['foreground_lattice_color_explain'] = $lang['background_color_explain'];
-$lang['gammacorrect'] = 'Correzzione Contrasto';
-$lang['gammacorrect_explain'] = '(0 = off)<br />NOTA!!! Cambi di questo valore hanno un effetto diretto sulla leggibilit&agrve; del CAPTCHA!';
+$lang['gammacorrect'] = 'Correzione Contrasto';
+$lang['gammacorrect_explain'] = '(0 = off)<br />NOTA!!! Cambi di questo valore hanno un effetto diretto sulla leggibilit&agrave; del CAPTCHA!';
 $lang['generate_jpeg'] = 'Tipo Immaigine';
 $lang['generate_jpeg_explain'] = 'Il formato JPEG ha una maggiore compressione rispetto al PNG: la modifica della qualit&agrave;, (max 95%), avr&agrave; un\'influenza diretta sulla leggibilit&agrave; del CAPTCHA.';
 $lang['generate_jpeg_quality'] = 'Qualit&agrave;';

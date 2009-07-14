@@ -43,7 +43,7 @@ $lang['group_allow_upi2db'] = 'Abilita Gruppi Utenti ad usare UPI2DB?';
 $lang['user_allow_upi2db'] = 'Abilita Utenti ad usare UPI2DB?';
 $lang['user_disable_upi2db'] = 'Disabilita UPI2DB';
 $lang['group_user'] = 'Utente';
-$lang['user_without_group'] = 'Untente non appartenente ad alcun gruppo';
+$lang['user_without_group'] = 'Utente non appartenente ad alcun gruppo';
 
 $lang['max_new_posts'] = 'Massimo numero di messaggi nuovi o modificati per la sincronizzazione';
 $lang['max_new_posts_explain'] = 'Inserisci il numero massimo di messaggi che verranno copiati per la sincronizzazione. Inserire "0" per impostare il numero di messaggi ad infinito.';

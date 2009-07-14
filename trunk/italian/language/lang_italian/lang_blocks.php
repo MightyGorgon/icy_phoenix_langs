@@ -150,7 +150,6 @@ $lang['Register_new_account'] = 'Non ti sei ancora registrato?<br />Cosa aspetti
 $lang['Registered_users'] = 'Utenti registrati:';
 $lang['Remember_me'] = 'Login Automatico';
 $lang['Save_Topic'] = 'Salva argomento come file';
-$lang['Shout_censor'] = 'Messaggio rimosso !';
 $lang['Shout_refresh'] = 'Aggiorna';
 $lang['Shout_text'] = 'Il tuo messaggio';
 $lang['Shoutbox_date'] = 'D G:i \\w\r\o\t\e ';

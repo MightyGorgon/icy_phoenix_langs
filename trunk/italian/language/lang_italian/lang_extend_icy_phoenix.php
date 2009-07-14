@@ -185,6 +185,9 @@ if ($lang_extend_admin)
 	$lang['IP_posts_precompiled'] = 'Disattiva messaggi precompilati';
 	$lang['IP_posts_precompiled_explain'] = 'Attivando questa opzione non verranno pi&ugrave; caricati i messaggi precompilati, per cui il caricamento sar&agrave; pi&ugrave; lento, ma rispetter&agrave; sempre le preferenze degli utenti su BBCode ed HTML (pu&ograve; essere utile in alcuni casi).';
 
+	$lang['IP_read_only_forum'] = 'Blocco scrittura nei forum (Modalit&agrave; Sola Lettura)';
+	$lang['IP_read_only_forum_explain'] = 'Questa opzione consente di disattivare temporaneamente la scrittura nei forum senza dover intervenire nei permessi. Potrebbe risultare utile in alcuni casi in cui si voglia impedire che gli utenti scrivano senza dover bloccare il sito o modificare i permessi in tutti i forum. Gli amministratori potranno continuare a scrivere.';
+
 	$lang['IP_allow_drafts'] = 'Abilita Bozze';
 	$lang['IP_allow_drafts_explain'] = 'Consenti agli utenti di salvare i messaggi come bozze';
 

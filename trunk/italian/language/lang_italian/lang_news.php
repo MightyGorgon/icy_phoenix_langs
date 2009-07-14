@@ -70,8 +70,8 @@ $lang['News_item_num'] = 'Numero di voci da visualizzare';
 $lang['News_item_num_explain'] = 'Il numero di news da visualizzare in news_viewnews.php.';
 
 $lang['RSS_Configuration'] = 'Configurazione RSS News Feed ';
-$lang['Enable_RSS'] = 'Abilita  RSS Sydication';
-$lang['Enable_RSS_explain'] = 'RSS Sydications permette ad altri siti di utilizzare le vostre news e visualizzarle nei loro siti';
+$lang['Enable_RSS'] = 'Abilita  RSS Syndication';
+$lang['Enable_RSS_explain'] = 'RSS Syndications permette ad altri siti di utilizzare le vostre news e visualizzarle nei loro siti';
 
 $lang['Feed_Description'] = 'Descrizione Feed ';
 $lang['Feed_Description_Explain'] = 'Frase che descrive il feed.';

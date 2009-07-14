@@ -27,33 +27,32 @@ Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
 Location: Homer\'s Head<br />
 <br />
 <br />
-<span style="color: #dd2222;"><b>hpl</b></span><br />
-<i>(Alessandro Drago)</i><br />
-<b><i>Developer</i></b><br />
-Interests: CMS, little animals<br />
-Location: Global Header<br />
-<br />
-<br />
 <span style="color: #dd2222;"><b>Bicet</b></span><br />
 <b><i>phpBB XS Developer</i></b><br />
+<br />
+<br />
+<span style="color: #dd2222;"><b>hpl</b></span><br />
+<b><i>Some Special Contributions</i></b><br />
 <br />
 <br />
 <b><i>Valued Contributors</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
+<span style="color: #0000bb;"><b>brandsrus</b></span><br />
 <span style="color: #228822;"><b>buldo</b></span><br />
 <span style="color: #228822;"><b>casimedicos</b></span><br />
 <span style="color: #228822;"><b>Chaotic</b></span><br />
 <span style="color: #dd2222;"><b>CyberAlien</b></span><br />
 <span style="color: #228822;"><b>difus</b></span><br />
+<span style="color: #228822;"><b>DWho</b></span><br />
 <span style="color: #228822;"><b>fracs</b></span><br />
-<span style="color: #800080;"><b>ganesh</b></span><br />
+<span style="color: #880088;"><b>ganesh</b></span><br />
 <span style="color: #228822;"><b>JANU1535</b></span><br />
-<span style="color: #800080;"><b>jz</b></span><br />
+<span style="color: #880088;"><b>jz</b></span><br />
 <span style="color: #228822;"><b>KasLimon</b></span><br />
 <span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
 <span style="color: #0000bb;"><b>Limun</b></span><br />
-<span style="color: #228822;"><b>Lopalong</b></span><br />
+<span style="color: #880088;"><b>Lopalong</b></span><br />
 <span style="color: #228822;"><b>moreteavicar</b></span><br />
 <span style="color: #228822;"><b>novice programmer</b></span><br />
 <span style="color: #228822;"><b>ThE KuKa</b></span><br />
@@ -1655,7 +1654,7 @@ $lang['Always_swear'] = 'Consenti parole censurate';
 
 $lang['Shoutbox'] = 'Shoutbox';
 $lang['Shoutbox_date'] = ' d m Y h:i:s';
-$lang['Shout_censor'] = 'Shout Rimosso!';
+$lang['Shout_censor'] = '<b>Messaggio Rimosso!</b>';
 $lang['Shout_refresh'] = 'Aggiorna';
 $lang['Shout_text'] = 'Testo';
 $lang['Viewing_Shoutbox']= 'Shoutbox';
@@ -2430,6 +2429,8 @@ $lang['Reg_event_date'] = '<b>Data evento: </b>';
 
 $lang['REPLY_PREFIX_OLD'] = 'Re: ';
 $lang['REPLY_PREFIX'] = 'Re: ';
+
+$lang['READ_ONLY_FORUM'] = 'Ci dispiace, ma il forum &egrave; impostato in modalit&agrave; <b>SOLA LETTURA</b> per cui al momento non puoi inviare messaggi. Per favore riprova pi&ugrave; tardi.';
 //$lang[''] = '';
 
 //====================================================
