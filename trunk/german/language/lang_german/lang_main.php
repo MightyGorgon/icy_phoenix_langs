@@ -41,33 +41,32 @@ Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
 Location: Homer\'s Head<br />
 <br />
 <br />
-<span style="color: #dd2222;"><b>hpl</b></span><br />
-<i>(Alessandro Drago)</i><br />
-<b><i>Developer</i></b><br />
-Interests: CMS, little animals<br />
-Location: Global Header<br />
-<br />
-<br />
 <span style="color: #dd2222;"><b>Bicet</b></span><br />
 <b><i>phpBB XS Developer</i></b><br />
+<br />
+<br />
+<span style="color: #dd2222;"><b>hpl</b></span><br />
+<b><i>Some Special Contributions</i></b><br />
 <br />
 <br />
 <b><i>Valued Contributors</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
+<span style="color: #0000bb;"><b>brandsrus</b></span><br />
 <span style="color: #228822;"><b>buldo</b></span><br />
 <span style="color: #228822;"><b>casimedicos</b></span><br />
 <span style="color: #228822;"><b>Chaotic</b></span><br />
 <span style="color: #dd2222;"><b>CyberAlien</b></span><br />
 <span style="color: #228822;"><b>difus</b></span><br />
+<span style="color: #228822;"><b>DWho</b></span><br />
 <span style="color: #228822;"><b>fracs</b></span><br />
-<span style="color: #800080;"><b>ganesh</b></span><br />
+<span style="color: #880088;"><b>ganesh</b></span><br />
 <span style="color: #228822;"><b>JANU1535</b></span><br />
-<span style="color: #800080;"><b>jz</b></span><br />
+<span style="color: #880088;"><b>jz</b></span><br />
 <span style="color: #228822;"><b>KasLimon</b></span><br />
 <span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
 <span style="color: #0000bb;"><b>Limun</b></span><br />
-<span style="color: #228822;"><b>Lopalong</b></span><br />
+<span style="color: #880088;"><b>Lopalong</b></span><br />
 <span style="color: #228822;"><b>moreteavicar</b></span><br />
 <span style="color: #228822;"><b>novice programmer</b></span><br />
 <span style="color: #228822;"><b>ThE KuKa</b></span><br />
@@ -88,7 +87,6 @@ $lang = array_merge($lang, array(
 	'Category' => 'Kategorie',
 	'Topic' => 'Thema',
 	'Topics' => 'Themen',
-	'RE' => 'Re',
 	'Replies' => 'Antworten',
 	'Views' => 'Aufrufe',
 	'Post' => 'Beitrag',
@@ -1472,7 +1470,7 @@ $lang = array_merge($lang, array(
 
 	'Shoutbox' => 'Shoutbox',
 	'Shoutbox_date' => ' d m Y h:i:s',
-	'Shout_censor' => 'Shout entfernt!',
+	'Shout_censor' => '<b>Shout entfernt!</b>',
 	'Shout_refresh' => 'Aktualisieren',
 	'Shout_text' => 'Dein Text',
 	'Viewing_Shoutbox' => 'Shoutbox ansehen',
@@ -2197,6 +2195,9 @@ $lang = array_merge($lang, array(
 
 	'REPLY_PREFIX_OLD' => 'Re: ',
 	'REPLY_PREFIX' => 'Re: ',
+
+	'READ_ONLY_FORUM' => 'Es tut uns leid, aber z.Z. hat dieses Forum den <b>NUR LESEN</b> Status. Das bedeutet, dass du nichts posten kannst, auch wenn du sonst die Rechte dafür hast. Bitte versuch es später noch einmal.',
+
 	)
 );
 

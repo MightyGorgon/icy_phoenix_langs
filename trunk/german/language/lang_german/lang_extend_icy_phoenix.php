@@ -193,6 +193,9 @@ if ($lang_extend_admin)
 		'IP_posts_precompiled' => 'Deaktiviere precompiled Beiträge',
 		'IP_posts_precompiled_explain' => 'Bei Aktivierung dieser Option, kompiliert die viewtopic.php den Beitrags Text, ohne den precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).',
 
+		'IP_read_only_forum' => 'Deaktiviere das Schreiben in allen Foren (NUR LESEN Modus)',
+		'IP_read_only_forum_explain' => 'This options allows to lock posting in all forums without having to change permissions. This may be useful for limited periods of time when admins would like to disallow users posting without having to lock the site or change all forum authorizations. Admins will still be able to post.',
+
 		'IP_allow_drafts' => 'Erlaube Entwürfe',
 		'IP_allow_drafts_explain' => 'Erlaubt den Benutzern ihre Beiträge als Entwürfe zu speichern',
 
@@ -273,6 +276,7 @@ if ($lang_extend_admin)
 
 		'IP_thumbnail_lightbox' => 'Benutze Lightbox JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
 		'IP_thumbnail_lightbox_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!<br />Wenn du HighSlide aktiviert hast, wird diese Einstellung ignoriert.',
+
 		'IP_thumbnail_cache' => 'Thumbnails Cache',
 
 		'IP_thumbnail_quality' => 'Thumbnails Qualität (1-100)',

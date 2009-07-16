@@ -33,7 +33,6 @@ $lang = array_merge($lang, array(
 	'BP_Position' => 'Position Charakter',
 	'BP_Key' => 'Position Tag Key',
 	'BP_Layout' => 'Site Page',
-	'B_Layout' => 'Bearbeite Page Einstellungen',
 	'BP_Add_Position' => 'Neue Position hinzufügen',
 	'No_bp_selected' => 'Keine Position zum bearbeiten ausgewählt',
 	'BP_Edit_Position' => 'Bearbeite Block Position',
@@ -98,6 +97,7 @@ $lang = array_merge($lang, array(
 	'B_Admin' => 'Administratoren',
 	'B_None' => 'Keiner',
 	'B_Layout' => 'Site Page',
+	'B_Layout_Edit' => 'Bearbeite Page Einstellungen',
 	'B_Page' => 'Page ID',
 	'B_Add' => 'Block hinzufügen',
 	'B_Duplicate' => 'Blöcke duplizieren',
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'cms_pos_ghbottom' => 'Header Unten',
 	'cms_pos_ghleft' => 'Header Mitte (Links)',
 	'cms_pos_ghright' => 'Header Mitte (Rechts)',
-//  'cms_pos_' => '',
+//	'cms_pos_' => '',
 
 	'cms_block_ads' => 'Werbung',
 	'cms_block_ajax_shoutbox' => 'AJAX Chat',
@@ -241,7 +241,7 @@ $lang = array_merge($lang, array(
 	'cms_block_welcome' => 'Willkommen',
 	'cms_block_wordgraph' => 'Tags',
 	'cms_block_xs_news' => 'News',
-//  'cms_block_' => '',
+//	'cms_block_' => '',
 
 	'cms_var_cms_style' => 'CMS Moderner Style',
 	'cms_var_cms_style_explain' => 'Der Moderne Style für das CMS besteht aus einem modernem Layout mit oberem transparentem Navigations-Menü, das über der CMS Verwaltung angebracht ist, während der klassische Style ein seitliches Menü hat.',
@@ -261,7 +261,7 @@ $lang = array_merge($lang, array(
 	'cms_var_md_cache_filename_protect_explain' => 'Verschlüsselt Cache Datei Namen für höhere Sicherheit',
 	'cms_var_md_cache_serialize' => 'Cache Automatische Anordnung',
 	'cms_var_md_cache_serialize_explain' => 'Aktiviert / Deaktiviert automatische Anordnung',
-//  'cms_var_' => '',
+//	'cms_var_' => '',
 
 	'CMS_Config_updated' => 'Konfigurations-Update erfolgreich',
 	'CMS_Click_return_config' => 'Klicke %shier%s, um zu den Einstellungen zurückzukehren.',
@@ -283,6 +283,9 @@ $lang = array_merge($lang, array(
 	'CMS_Blocks' => 'Blöcke',
 	'CMS_Name' => 'Name',
 	'CMS_Description' => 'Beschreibung',
+	'CMS_LAYOUT_PAGE_ID' => 'Page ID',
+	'CMS_LAYOUT_PAGE_ID_EXPLAIN' => 'This is the Page ID used by the auth system. Chars allowed: lowercase alpha, numbers, underscore, no spaces.',
+	'CMS_MUST_FILL_ALL_FIELDS' => 'Du musst alle Felder ausfüllen',
 	'CMS_Filename' => 'Dateiname',
 	'CMS_Filename_Explain' => '<i>(Um eine neue Datei zu erstellen, muss dein Server richtig konfiguriert sein. Sonst wird dieses Feature nicht unterstützt.)</i>',
 	'CMS_Filename_Explain_OK' => '<i>Nach einem schnellen Test scheint es, dass dein Server die automatische Datei-Erstellung erlaubt. Darum sollte die Datei automatisch erstellt werden.</i>',
@@ -307,7 +310,7 @@ $lang = array_merge($lang, array(
 	'CMS_OWNER' => 'Owner',
 	'CMS_SAVE_CHANGES' => 'Änderungen sichern',
 	'CMS_CHANGES_SAVED' => 'Änderungen gesichert',
-//  'CMS_' => '',
+//	'CMS_' => '',
 // MG CMS - END
 
 // MG CMS MENU - BEGIN
