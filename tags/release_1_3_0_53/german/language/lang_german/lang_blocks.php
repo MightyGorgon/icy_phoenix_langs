@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_blocks.php 33 2009-05-02 16:34:07Z TheSteffen $
+* @version $Id: lang_blocks.php 43 2009-07-16 10:33:26Z TheSteffen $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'Title_rss' => 'RSS',
 	'Title_search' => 'Suche',
 	'Title_sec_menu' => 'Extra-Menü',
-	'Title_shoutbox' => '<a href="shoutbox_max.' . $phpEx . '?sid=' . $userdata['session_id'] . '">Shoutbox</a>',
+	'Title_shoutbox' => '<a href="shoutbox_max.' . PHP_EXT . '?sid=' . $userdata['session_id'] . '">Shoutbox</a>',
 	'Title_staff' => 'Team',
 	'Title_statistics' => 'Statistik',
 	'Title_style' => 'Style',

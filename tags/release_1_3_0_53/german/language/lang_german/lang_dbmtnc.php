@@ -481,7 +481,7 @@ $lang = array_merge($lang, array(
 	'DB_Username' => 'Benutzername der Datenbank',
 	'DB_Password' => 'Passwort der Datenbank',
 	'Table_Prefix' => 'Vorspann der Tabelle',
-	'New_config_php' => "Das ist deine neue config.$phpEx",
+	'New_config_php' => 'Das ist deine neue config.' . PHP_EXT,
 // Options
 	'cls' => 'Lösche alle Sitzungen',
 	'ecf' => 'Leere Cache',
@@ -519,7 +519,7 @@ $lang = array_merge($lang, array(
 	'cct_success' => 'Die Konfigurations-Tabelle wurde erfolgreich repariert.',
 	'rcd_success' => 'Die Cookie-Daten wurden erfolgreich aktualisiert.',
 	'rld_success' => 'Die Spracheinstellungen wurden erfolgreich aktualisiert.',
-	'rld_failed' => 'Die erforderlichen Sprach-Dateien (lang_main.' . $phpEx . ' und lang_admin.' . $phpEx . ') existieren nicht.',
+	'rld_failed' => 'Die erforderlichen Sprach-Dateien (lang_main.' . PHP_EXT . ' und lang_admin.' . PHP_EXT . ') existieren nicht.',
 	'rtd_restore_success' => 'Der Standard-Style wurde erfolgreich wiederhergestellt.',
 	'rtd_success' => 'Die Style-Einstellungen wurden erfolgreich aktualisiert.',
 	'dgc_success' => 'Die GZip-Komprimierung wurde erfolgreich deaktiviert.',
@@ -528,7 +528,7 @@ $lang = array_merge($lang, array(
 	'raa_success' => 'Alle Administratoren wurden erfolgreich zu normalen Benutzern umgewandelt.',
 	'mua_success' => 'Der ausgewählte Benutzer hat nun Admin-Rechte.',
 	'mua_failed' => '<b>Fehler:</b> Der ausgewählte Benutzer existiert nicht oder hat schon Admin-Rechte.',
-	'rcp_success' => "Kopiere diesen Text in eine Textdatei, benenne sie in <b>config.$phpEx</b> um und lade sie in das Hauptverzeichnis des Forums hoch. Stelle dabei sicher, dass sich vor dem <b>&lt;?php</b> und nach dem <b>?&gt;</b> kein Zeichen wie ein Leerzeichen oder ein Zeilenwechsel befindet.<br />Du kannst die Datei auch auf deinen Computer %sherunterladen%s.",
+	'rcp_success' => "Kopiere diesen Text in eine Textdatei, benenne sie in <b>config.php</b> um und lade sie in das Hauptverzeichnis des Forums hoch. Stelle dabei sicher, dass sich vor dem <b>&lt;?php</b> und nach dem <b>?&gt;</b> kein Zeichen wie ein Leerzeichen oder ein Zeilenwechsel befindet.<br />Du kannst die Datei auch auf deinen Computer %sherunterladen%s.",
 // Text for success messages
 	'Removing_admins' => 'Entferne Administratoren',
 // Help Text

@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'Title_rss' => 'RSS',
 	'Title_search' => 'Suche',
 	'Title_sec_menu' => 'Extra-Menü',
-	'Title_shoutbox' => '<a href="shoutbox_max.' . $phpEx . '?sid=' . $userdata['session_id'] . '">Shoutbox</a>',
+	'Title_shoutbox' => '<a href="shoutbox_max.' . PHP_EXT . '?sid=' . $userdata['session_id'] . '">Shoutbox</a>',
 	'Title_staff' => 'Team',
 	'Title_statistics' => 'Statistik',
 	'Title_style' => 'Style',
