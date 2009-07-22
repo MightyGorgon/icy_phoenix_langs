@@ -32,7 +32,7 @@ $lang = array_merge($lang, array(
 
 	'Languages' => 'Lenguajes',
 	'Lang_management' => 'Administrar',
-	'Lang_extend' => 'Administracón amplia de lenguaje',
+	'Lang_extend' => 'Administración del lenguaje',
 	'Lang_extend_explain' => 'Aquí usted puede añadir o modificar las entradas de lenguaje',
 	'Lang_extend_pack' => 'Paquete de lenguaje',
 //	'Lang_extend_pack_explain' => 'This is the name of the pack, usualy the name of the MOD refering to',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'Lang_extend_duplicate_entry' => 'Está entrada ya existe (ver paquete %)',
 
 	'Lang_extend_update_done' => 'La entrada ha sido actualizada correctamente.<br /><br />Pulse %saquí%s para volver a la entrada.<br /><br />Pulse %saquí%s para volver a la lista de entradas',
-	'Lang_extend_delete_done' => 'La entrada ha sido borrada correctamente.<br />Tenga en cuenta, que sólo se borran las entradas o claves personalizadas, no las entradas basicas si existen.<br /><br />Pulse %saquí%s para volver a la lista de entradas',
+	'Lang_extend_delete_done' => 'La entrada ha sido borrada correctamente.<br />Tenga en cuenta, que sólo se borran las entradas o claves personalizadas, no las entradas básicas si existen.<br /><br />Pulse %saquí%s para volver a la lista de entradas',
 
 	'Lang_extend_search' => 'Buscar en entradas de lenguaje',
 	'Lang_extend_search_words' => 'Palabras a encontrar',

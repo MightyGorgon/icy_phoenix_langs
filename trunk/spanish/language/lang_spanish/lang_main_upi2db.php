@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'upi2db_always_read_no_more' => 'No tiene permitido marcar temas adicionales como leído permanentemente.',
 	'upi2db_always_read_is_set' => 'Este tema está marcado como leído permanentemente',
 	'upi2db_always_read_is_unset' => 'Este tema no está marcado como leído permanentemente',
-	'no_always_read' => 'No hay temas marcados como leidos permanentemente',
+	'no_always_read' => 'No hay temas marcados como leídos permanentemente',
 	'x_always_read' => 'Ver como temas marcados leídos permanentemente ',
 	'upi2db_which_system' => '¿Qué sistema desea utilizar para manejar los mensajes nuevos?',
 	'upi2db_which_system_explain' => 'Información detallada acerca de los diferentes sistemas la puede encontrar en las <a href="faq.' . PHP_EXT . '">FAQ\'s</a>.',

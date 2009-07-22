@@ -41,11 +41,8 @@ Intereses: Heroes Of Might and Magic III, 69, #FF5522<br />
 Localitzación: Homer\'s Head<br />
 <br />
 <br />
-<span style="color: #dd2222;"><b>hpl</b></span><br />
-<i>(Alessandro Drago)</i><br />
-<b><i>Programador</i></b><br />
-Intereses: CMS, little animals<br />
-Localitzación: Global Header<br />
+<span style="color: #dd2222;"><b>Bicet</b></span><br />
+<b><i>Programador phpBB XS</i></b><br />
 <br />
 <br />
 <span style="color: #dd2222;"><b>Bicet</b></span><br />
@@ -55,19 +52,21 @@ Localitzación: Global Header<br />
 <b><i>Contribuciones valiosas</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
+<span style="color: #0000bb;"><b>brandsrus</b></span><br />
 <span style="color: #228822;"><b>buldo</b></span><br />
 <span style="color: #228822;"><b>casimedicos</b></span><br />
 <span style="color: #228822;"><b>Chaotic</b></span><br />
 <span style="color: #dd2222;"><b>CyberAlien</b></span><br />
 <span style="color: #228822;"><b>difus</b></span><br />
+<span style="color: #228822;"><b>DWho</b></span><br />
 <span style="color: #228822;"><b>fracs</b></span><br />
-<span style="color: #800080;"><b>ganesh</b></span><br />
+<span style="color: #880088;"><b>ganesh</b></span><br />
 <span style="color: #228822;"><b>JANU1535</b></span><br />
-<span style="color: #800080;"><b>jz</b></span><br />
+<span style="color: #880088;"><b>jz</b></span><br />
 <span style="color: #228822;"><b>KasLimon</b></span><br />
 <span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
 <span style="color: #0000bb;"><b>Limun</b></span><br />
-<span style="color: #228822;"><b>Lopalong</b></span><br />
+<span style="color: #880088;"><b>Lopalong</b></span><br />
 <span style="color: #228822;"><b>moreteavicar</b></span><br />
 <span style="color: #228822;"><b>novice programmer</b></span><br />
 <span style="color: #228822;"><b>ThE KuKa</b></span><br />
@@ -88,7 +87,6 @@ $lang = array_merge($lang, array(
 	'Category' => 'Categoría',
 	'Topic' => 'Tema',
 	'Topics' => 'Temas',
-	'RE' => 'Re',
 	'Replies' => 'Respuestas',
 	'Views' => 'Lecturas',
 	'Post' => 'Mensaje',
@@ -169,7 +167,7 @@ $lang = array_merge($lang, array(
 
 	'Admin_panel' => 'Ir al ACP',
 
-	'Board_disabled' => 'Lo sentimos, pero este foro está momentaneamente deshabilitado. Por favor, intente ingresar de nuevo pasados unos minutos.',
+	'Board_disabled' => 'Lo sentimos, pero este foro está momentáneamente deshabilitado. Por favor, intente ingresar de nuevo pasados unos minutos.',
 
 // Global Header strings
 	'Registered_users' => 'Usuarios registrados conectados:',
@@ -279,10 +277,12 @@ $lang = array_merge($lang, array(
 	'Topic_Sticky_nb' => 'Nota',
 	'Topic_Moved_nb' => 'Movido',
 	'Topic_Poll_nb' => 'Encuesta',
+	'Topic_Event_nb' => 'Evento',
 	'Topic_Announcement' => '<b>Anuncio:</b>',
 	'Topic_Sticky' => '<b>Nota:</b>',
 	'Topic_Moved' => '<b>Movido:</b>',
 	'Topic_Poll' => '<b>Encuesta:</b>',
+	'Topic_Event' => '<b>Evento:</b>',
 	'Topic_global_announcement' => '<b>Anuncio global:</b>',
 	'Post_global_announcement' => 'Anuncio global',
 
@@ -382,7 +382,7 @@ $lang = array_merge($lang, array(
 	'Edit_Post' => 'Editar mensaje',
 	'Options' => 'Opciones',
 
-	'PM_Read' => 'MP leido',
+	'PM_Read' => 'MP leído',
 	'PM_Unread' => 'MP sin leer',
 	'PM_Replied' => 'MP respondido',
 
@@ -549,7 +549,7 @@ $lang = array_merge($lang, array(
 	'Viewing_user_profile' => 'Viendo perfil :: %s', // %s is username
 	'About_user' => 'Todo sobre %s', // %s is username
 //Start Quick Administrator User Options and Information MOD
-	'Quick_admin_options' => 'Administración rapida de opciones de usuario e información',
+	'Quick_admin_options' => 'Administración rápida de opciones de usuario e información',
 	'Admin_edit_profile' => 'Editar perfil del usuario',
 	'Admin_edit_permissions' => 'Editar permisos de usuarios',
 	'User_active' => 'El usuario <b>está</b> activo',
@@ -861,13 +861,13 @@ $lang = array_merge($lang, array(
 // These replace the %s in the above strings
 	'Auth_Anonymous_Users' => '<b>Usuarios invitados</b>',
 	'Auth_Registered_Users' => '<b>Usuarios registrados</b>',
-	'Auth_Self_Users' => '<b>usuarios específicos</b>',
+	'Auth_Self_Users' => '<b>Usuarios específicos</b>',
 	'Auth_Users_granted_access' => '<b>Usuarios con permisos especiales</b>',
 	'Auth_Moderators' => '<b>Moderadores</b>',
 	'Auth_Administrators' => '<b>Administradores</b>',
 
 	'Not_Moderator' => 'Usted no es moderador de este foro.',
-	'Not_Authorised' => 'No autorizado',
+	'Not_Authorized' => 'No autorizado',
 
 	'You_been_banned' => 'Se le ha denegado el acceso a este foro.<br />Por favor, contacte con el administrador o un moderador para más información.',
 
@@ -1117,7 +1117,7 @@ $lang = array_merge($lang, array(
 	'Enter_SQL' => 'Introduzca la consulta SQL',
 	'Enter_SQL_explain' => 'MySQL es una popular base de datos reconocida mundialmente',
 	'Output_SQL' => 'Salida SQL',
-	'Output_SQL_explain' => 'Copie y pege el texto en el área de texto. Guarde el archivo resultante como <u>db_update.php</u> y súbalo a au servidor. Ejecute el archivo desde su navegador.<br /><br />O, si lo prefiere, pulse el botón de descarga para descargar el archivo directamente a su ordenador (recomendado).',
+	'Output_SQL_explain' => 'Copie y pegue el texto en el área de texto. Guarde el archivo resultante como <u>db_update.php</u> y súbalo a au servidor. Ejecute el archivo desde su navegador.<br /><br />O, si lo prefiere, pulse el botón de descarga para descargar el archivo directamente a su ordenador (recomendado).',
 	'Download' => 'Descargar consulta',
 
 	'TOP_POSTERS' => 'Los que mas escriben',
@@ -1211,7 +1211,7 @@ $lang = array_merge($lang, array(
 	'Whois' => 'Whois',
 	'Browser' => 'Navegador',
 	'No_other_registered_ips' => 'No hay otros usuarios registrados con esta dirección IP.',
-	'No_other_posted_ips' => 'Este usuario no ha escrito ningun mensaje.',
+	'No_other_posted_ips' => 'Este usuario no ha escrito ningún mensaje.',
 	'Not_recorded' => 'No guardada',
 	'Logins' => 'Identificaciones',
 	'No_logins' => 'No hay identificaciones guardadas de este usuario.',
@@ -1224,9 +1224,9 @@ $lang = array_merge($lang, array(
 	'Personal_Gallery' => 'Galería personal',
 	'Personal_Gallery_Of_User' => 'Galería personal de %s',
 	'Personal_Gallery_Of_User_Profile' => 'Galería personal de %s (%d imagenes)',
-	'Show_All_Pic_View_Mode_Profile' => 'Mostrar todas las imágenes de la galería personal de %s (sin subcategorias)',
+	'Show_All_Pic_View_Mode_Profile' => 'Mostrar todas las imágenes de la galería personal de %s (sin subcategorías)',
 	'Not_allowed_to_view_album' => 'Perdón, usted no tiene permitido ver el álbum.',
-	'Not_allowed_to_upload_album' => 'Perdón, usted no tiene permitido subir imágenes al álbum. Por favor, contacte con el administrador para mas información.',
+	'Not_allowed_to_upload_album' => 'Perdón, usted no tiene permitido subir imágenes al álbum. Por favor, contacte con el administrador para más información.',
 	'Album_empty' => 'No hay imágenes en el álbum<br />Pulse en el enlace <b>Subir nueva imagen</b> de esta página para subir una.',
 	'Album_empty2' => 'No hay imágenes en el álbum.',
 	'Upload_New_Pic' => 'Subir nueva imagen.',
@@ -1234,13 +1234,13 @@ $lang = array_merge($lang, array(
 	'Pic_Title_Explain' => 'Es muy importante para su imagen elegir un buen título. Podria ser un nombre, o un asunto que haga que otros quieran ver la imagen.',
 	'Pic_Upload' => 'Subir imagen',
 	'Pic_Upload_Explain' => 'Los tipos permitidos son JPG, GIF y PNG. El tamaño máximo del archivo es %s bytes. Las dimensiones máximas de la imagen son %sx%s pixels.',
-	'Album_full' => 'Perdón, el álbum ya tiene el numero maximo de imágenes permitidas. Por favor, contacte con el administrador para mas información.',
+	'Album_full' => 'Perdón, el álbum ya tiene el número máximo de imágenes permitidas. Por favor, contacte con el administrador para más información.',
 	'Album_upload_successful' => 'Gracias, su imagen ha sido subida correctamente.',
 	'Click_return_album' => 'Pulse %saquí%s para volver al álbum.',
-	'Invalid_upload' => 'Subida invalida<br /><br />Su imagen es muy grande o ese tipo no está permitido.',
+	'Invalid_upload' => 'Subida inválida<br /><br />Su imagen es muy grande o ese tipo no está permitido.',
 	'Image_too_big' => 'Perdón, las dimensiones de su imagen son demasiado grandes.',
 	'Uploaded_by' => 'Subida por',
-	'Category_locked' => 'Perdone, usted no puede subir imágenes, porque la categoria está cerrada por el administrador. Por favor, contacte con él para mas información.',
+	'Category_locked' => 'Perdone, usted no puede subir imágenes, porque la categoría está cerrada por el administrador. Por favor, contacte con él para más información.',
 	'View_Album_Index' => 'Indice del álbum',
 	'View_Album_Personal' => 'Viendo galería personal de un usuario',
 	'View_Pictures' => 'Viendo imágenes o enviando/leyendo comentarios en el álbum',
@@ -1268,12 +1268,12 @@ $lang = array_merge($lang, array(
 	'birthdays' => 'Cumpleaños',
 
 //Battle of the Sexes
-	'male_zero_total' => '<b>0</b> usuarios mascuino', // # registered male users
-	'male_total' => '<b>%d</b> usuario masculino', // # registered male users
-	'male_one_total' => '<b>%d</b> usuarios masculinos', // # registered male users
+	'male_zero_total' => '<b>0</b> usuarios masculinos', // # registered male users
+	'male_total' => '<b>%d</b> usuarios masculinos', // # registered male users
+	'male_one_total' => '<b>%d</b> usuario masculino', // # registered male users
 	'female_zero_total' => '<b>0</b> usuarias femeninas', // # registered female users
 	'female_total' => '<b>%d</b> usuarias femeninas', // # registered female users
-	'female_one_total' => '<b>%d</b> usuarias femeninas', // # registered female users
+	'female_one_total' => '<b>%d</b> usuaria femenina', // # registered female users
 	'unknown_total' => 'y <b>%d</b> usuarios que no se sabe su sexo',
 	'unknown_one_total' => 'y <b>%d</b> usuario que no se sabe su sexo',
 	'unknown_zero_total' => '',
@@ -1294,7 +1294,7 @@ $lang = array_merge($lang, array(
 	'Staff_forums' => 'Foros',
 	'Staff_stats' => 'Estadísticas',
 	'Staff_user_topic_day_stats' => '%.2f temas por día', // %.2f = topics per day
-	'Staff_period' => 'desde %d dias', // %d = days
+	'Staff_period' => 'desde %d días', // %d = days
 	'Staff_contact' => 'Contactar',
 	'Staff_messenger' => 'Messenger',
 // Start Edit Notes MOD
@@ -1314,7 +1314,7 @@ $lang = array_merge($lang, array(
 	'Recent_yesterday' => 'Ayer',
 	'Recent_last24' => 'Últimas 24 horas',
 	'Recent_lastweek' => 'Última semana',
-	'Recent_lastXdays' => 'Últimos %s dias',
+	'Recent_lastXdays' => 'Últimos %s días',
 	'Recent_last' => 'Último',
 	'Recent_days' => 'Días',
 	'Recent_first' => 'creado %s',
@@ -1327,7 +1327,7 @@ $lang = array_merge($lang, array(
 	'Recent_title_yesterday' => ' de ayer',
 	'Recent_title_last24' => ' de las últimas 24 horas',
 	'Recent_title_lastweek' => ' de la última semana',
-	'Recent_title_lastXdays' => ' de los últimos %s dias', // %s = days
+	'Recent_title_lastXdays' => ' de los últimos %s días', // %s = days
 	'Recent_no_topics' => 'No se encontraron temas.',
 	'Recent_wrong_mode' => 'Usted ha seleccionado un modo incorrecto.',
 	'Recent_click_return' => 'Pulse %saquí%s para volver al sitio más reciente.',
@@ -1384,7 +1384,7 @@ $lang = array_merge($lang, array(
 	'Mod_CP_topic_moved' => 'El tema seleccionado ha sido movido desde <b>%s</b> a <b>%s</b>.', // %s = old/new forum
 	'Mod_CP_topics_moved' => 'Los temas seleccionados han sido movidos desde <b>%s</b> a <b>%s</b>.', // %s = old/new forum
 	'Mod_CP_topic_locked' => 'El tema seleccionado ha sido cerrado.',
-	'Mod_CP_topic_unlocked' => 'El tema seleccionado ha sido cbierto.',
+	'Mod_CP_topic_unlocked' => 'El tema seleccionado ha sido abierto.',
 	'Mod_CP_topics_sticked' => 'Los temas seleccionados han sido pasados a notas.',
 	'Mod_CP_topic_sticked' => 'El tema seleccionado ha pasado a nota.',
 	'Mod_CP_topics_announced' => 'Los temas seleccionados han sido anunciados.',
@@ -1397,7 +1397,7 @@ $lang = array_merge($lang, array(
 
 	't_starter' => 'No puede darse las gracias a usted mismo...',
 	'Watched_Topics' => 'Temas observados',
-	'No_Watched_Topics' => 'No está observando ningun tema',
+	'No_Watched_Topics' => 'No está observando ningún tema',
 	'Watched_Topics_Started' => 'Inicio del tema',
 	'Watched_Topics_Stop' => 'Parar de observar',
 
@@ -1407,7 +1407,7 @@ $lang = array_merge($lang, array(
 	'You_are_watching_forum' => 'Está observando este foro.',
 
 	'UCP_SubscForums' => 'Lista de foros suscritos',
-	'UCP_NoSubscForums' => 'No está suscrito a ningun foro',
+	'UCP_NoSubscForums' => 'No está suscrito a ningún foro',
 	'UCP_SubscForums_Flag' => 'Bandera',
 	'UCP_SubscForums_Forum' => 'Foro',
 	'UCP_SubscForums_Forum_subscribed' => 'Foro suscrito',
@@ -1452,8 +1452,8 @@ $lang = array_merge($lang, array(
 	'Version_info' => 'Información de versión',
 	'Thereof_deactivated_users' => 'Número de usuarios no activados',
 	'Thereof_Moderators' => 'Número de moderadores',
-	'Thereof_Junior_Administrators' => 'Numero de administradores junior',
-	'Thereof_Administrators' => 'Numero de administradores',
+	'Thereof_Junior_Administrators' => 'Número de administradores junior',
+	'Thereof_Administrators' => 'Número de administradores',
 	'Deactivated_Users' => 'Usuarios que necesitan activación',
 	'Users_with_Mod_Privileges' => 'Usuarios con privilegios de moderador',
 	'Users_with_Junior_Admin_Privileges' => 'Usuarios con privilegios de administrador junior',
@@ -1498,7 +1498,7 @@ $lang = array_merge($lang, array(
 	'View_avatar_generator' => 'Generar avatar',
 	'Adv_Search' => 'Búsqueda avanzada',
 	'Search_Explain' => 'Buscar dentro de este sitio',
-	'Login_attempts_exceeded' => 'El numero máximo %s de intentos de conexion ha sido sobrepasado. No se le permite conectarse durante los próximos %s minutos.',
+	'Login_attempts_exceeded' => 'El número máximo %s de intentos de conexión ha sido sobrepasado. No se le permite conectarse durante los próximos %s minutos.',
 	'Please_remove_install_contrib' => 'Por favor, asegúrese de que los directorios install/ y contrib/ han sido borrados',
 	'Search_Engines' => 'Robots de motores de búsqueda:',
 	'Bots_browsing_forum' => 'Robots de motores de búsqueda navegando en este foro:',
@@ -1513,7 +1513,7 @@ $lang = array_merge($lang, array(
 	'Not_Auth_View' => 'No está autorizado a ver esta página.',
 	'Site_Hist' => 'Historial del sitio',
 	'Links' => 'Enlaces',
-	'Print_View' => 'Version imprimible',
+	'Print_View' => 'Versión imprimible',
 	'Browsing_topic' => 'Usuarios navegando en este tema:',
 	'Sudoku' => 'Sudoku',
 	'Bookmarks' => 'Marcadores',
@@ -1530,7 +1530,7 @@ $lang = array_merge($lang, array(
 	'Rss_news_help' => '¿Qué es esto?',
 	'Rss_news_help_title' => 'Ayuda del lector RSS',
 	'Rss_news_help_header' => '¿Qué son los feeds y cómo puedo usarlos?',
-	'Rss_news_help_explain' => 'Un feed es un sistema de resumen, que se va actualizando para, así, estar al día de las noticias de una web.<br /><br /><b>Atencion:</b> Para subcribirse a un feed es necesario <a href="http://www.rssowl.org/" target="new">Un lector de feed</a> . Al hacer clic en un feed sin el lector de feeds RSS o ATOM, aparecerá en el navegador texto sin formato.',
+	'Rss_news_help_explain' => 'Un feed es un sistema de resumen, que se va actualizando para, así, estar al día de las noticias de una web.<br /><br /><b>Atención:</b> Para suscribirse a un feed es necesario <a href="http://www.rssowl.org/" target="new">Un lector de feed</a> . Al hacer clic en un feed sin el lector de feeds RSS o ATOM, aparecerá en el navegador texto sin formato.',
 	'Rss_news_help_header_2' => '<b>¿Qué son RSS y Atom?</b>',
 	'Rss_news_help_explain_2' => 'Son dos formatos de los feeds. Muchos lectores de feed soportan ambos formatos. Actualmente soportamos Atom 0.3 y RSS 2.0.',
 	'Rss_news_help_header_3' => '<b>¿Cómo uso el lector de RSS?</b>',
@@ -1550,7 +1550,7 @@ $lang = array_merge($lang, array(
 	'Search_Flood_Error' => 'No puede hacer otra búsqueda tan pronto tras la última realizada. Por favor, inténtelo de nuevo tras unos segundos.',
 
 // Custom Profile Fields MOD
-	'custom_field_notice' => 'Estos campos han sido creados por un administrador. Pueden o no pueden ser visibles al publico. Los campos marcados con un * son campos obligatorios.',
+	'custom_field_notice' => 'Estos campos han sido creados por un administrador. Pueden o no pueden ser visibles al público. Los campos marcados con un * son campos obligatorios.',
 	'and' => ' y ',
 // END Custom Profile Fields MOD
 
@@ -1563,7 +1563,7 @@ $lang = array_merge($lang, array(
 	'New_Label' => 'Nuevos',
 	'New_Messages_Label' => 'Nuevos mensajes',
 	'Show_Personal_Gallery' => 'Ver la galería personal del usuario',
-	'Login_Status' => 'Estado de conexion',
+	'Login_Status' => 'Estado de conexión',
 	'Login_Hidden' => 'Oculto',
 	'Login_Visible' => 'Visible',
 	'Login_Default' => 'Por defecto',
@@ -1571,7 +1571,7 @@ $lang = array_merge($lang, array(
 	'Errors_000' => 'Error desconocido',
 	'Errors_000_Full' => 'La dirección solicitada devuelve un código de error desconocido.<br />Los errores se han copiado al log y comprobaremos el problema lo antes posible.',
 	'Errors_400' => 'Error 400',
-	'Errors_400_Full' => 'La dirección solicitada no es una dirección valida.',
+	'Errors_400_Full' => 'La dirección solicitada no es una dirección válida.',
 	'Errors_401' => 'Error 401 - Error de autorización',
 	'Errors_401_Full' => 'Está recibiendo este mensaje porque no le autorizan a tener acceso a esta dirección.',
 	'Errors_403' => 'Error 403',
@@ -1584,7 +1584,7 @@ $lang = array_merge($lang, array(
 	'Errors_Email_Addrress_Prefix' => 'xs_errors',
 	'Errors_Email_Body' => 'Un error ha ocurrido en su sitio. Por favor, revise el archivo log.',
 	'Remote_avatar_no_image' => 'La imagen %s no existe',
-	'Remote_avatar_error_filesize' => 'La imagen pesa más del limite permitido (%d bytes)',
+	'Remote_avatar_error_filesize' => 'La imagen pesa más del límite permitido (%d bytes)',
 	'Remote_avatar_error_dimension' => 'La imagen es más grande de lo permitido (%d x %d pixels)',
 	'How_Many_Chatters' => 'Hay <b>%d</b> usuario(s) en el chat',
 	'Who_Are_Chatting' => '<b>%s</b>',
@@ -1777,7 +1777,7 @@ $lang = array_merge($lang, array(
 	'Ajax_Chat' => 'Chat',
 	'Ajax_Archive' => 'Archivo',
 	'Shoutbox_flooderror' => 'No se puede enviar un mensaje tan pronto después de publicar el último. Por favor, inténtelo de nuevo tras unos momentos.',
-	'Shoutbox_no_auth' => 'Lo sentimos, sólo los usuarios registrados puden utilizar el chat del foro',
+	'Shoutbox_no_auth' => 'Lo sentimos, sólo los usuarios registrados pueden utilizar el chat del foro',
 	'Shoutbox_loading' => 'Cargando chat del foro',
 // Errors
 	'Shoutbox_unable' => 'Lo sentimos, esta acción no se ha podido realizar. Por favor, inténtelo de nuevo.',
@@ -1850,7 +1850,7 @@ $lang = array_merge($lang, array(
 	'New_topics' => 'Nuevos temas', 
 	'New_posts_reply' => 'Mensajes/respuestas', 
 	'Most_online' => 'La mayoría de usuarios conectados fue %s', 
-	'Most_online_week' => 'La mayoría de usuarios conectados en los ultimos 7 días', 
+	'Most_online_week' => 'La mayoría de usuarios conectados en los últimos 7 días', 
 	'Last_24' => 'La mayoría de usuarios conectados en las últimas %s horas', 
 	'Top_Posting_Users' => 'Top usuarios escribiendo',
 	'Top_Posting_Users_week' => 'Top usuarios escribiendo esta semana [%s]',
@@ -1942,7 +1942,7 @@ $lang = array_merge($lang, array(
 // Resend Activation - BEGIN
 	'Resend_activation_email' => 'Reenviar el correo de activación',
 	'Invalid_activation' => 'Las cuentas de usuarios solo pueden ser activadas por los administradores.',
-	'No_actkey' => 'Esta no es la clave de activación para su cuenta. Por favor, contacte con el administrador del foro para mas información.',
+	'No_actkey' => 'Esta no es la clave de activación para su cuenta. Por favor, contacte con el administrador del foro para más información.',
 	'Send_actmail_flood_error' => 'Usted no puede hacer otra petición respecto a la última tan seguido; por favor, intentelo de nuevo en unos momentos.',
 	'Resend_activation_email_done' => 'El correo de activación ha sido enviado. Por favor, revise su correo para mayor información.',
 // Resend Activation - END
@@ -1955,7 +1955,7 @@ $lang = array_merge($lang, array(
 	'Group_Default_Membership_Explain' => 'Seleccione un grupo por defecto para el usuario, para asignarle rango y color.',
 	'User_Color' => 'Color de usuario',
 	'User_Color_Explain' => 'Si ha especificado un color para este usuario, este será sobreescrito por el grupo por defecto si especifica un grupo en la casilla de arriba. Utilize el código hexacedimal con <b>#</b> ejemplo: ff0000 es el color ROJO.',
-	'No_Groups_Membership' => 'No pertenece a ningun grupo',
+	'No_Groups_Membership' => 'No pertenece a ningún grupo',
 	'No_Default_Group' => 'Sin grupo por defecto',
 	'Group_members_updated' => 'Usuario del grupo actualizados correctamente.',
 	'Colorize_All' => 'Colorear todos los usuarios',
@@ -1969,9 +1969,9 @@ $lang = array_merge($lang, array(
 	'ShareThisTopic' => 'Compartir este tema',
 
 	'Remove_cookies' => 'Borrar cookies de esta web',
-	'Cookies_deleted' => 'Todas las cookis han sido borradas. Ahora no está identificado.<br />Para finalizar, debe cerrar su navegador ahora.',
+	'Cookies_deleted' => 'Todas las cookies han sido borradas. Ahora no está identificado.<br />Para finalizar, debe cerrar su navegador ahora.',
 	'Delete_cookies' => 'Borrar cookies',
-	'cookies_confirm' => 'Está seguro que desea borrar todas las cookies de esta web?<br /><br />Esta acción también cerrará la sessión de su usuario.',
+	'cookies_confirm' => 'Está seguro que desea borrar todas las cookies de esta web?<br /><br />Esta acción también cerrará la sesión de su usuario.',
 
 	'CustomIcy' => 'Personalización Icy',
 
@@ -1983,7 +1983,7 @@ $lang = array_merge($lang, array(
 	'Drafts_Loaded' => 'Borrador cargado',
 	'Drafts_No_Drafts' => 'No hay borradores guardados',
 	'Drafts_Delete_Sel' => 'Borrar seleccionado',
-	'Drafts_Save_Question' => '<br /><br />¿Esta seguro que quiere guardar este mensaje como borrador?<br /><br />Please note that only message body will be saved while all other settings will be discarded.',
+	'Drafts_Save_Question' => '<br /><br />¿Esta seguro que quiere guardar este mensaje como borrador?<br /><br />Tenga en cuenta que solo se guardará el cuerpo del mensaje, todas las demás configuraciones se perderán.',
 	'Drafts_Delete_Question' => '<br /><br />¿Esta seguro que quiere borrar los borradores seleccionados?',
 	'Drafts_Type' => 'Tipo de borrador',
 	'Drafts_Subject' => 'Título del borrador',
@@ -1992,7 +1992,7 @@ $lang = array_merge($lang, array(
 	'Drafts_NPM' => 'Mensaje privado',
 
 	'CannotEditAdminsPosts' => 'No puede editar los mensajes de administradores',
-	'Random_Number' => 'Numero aleatorio',
+	'Random_Number' => 'Número aleatorio',
 
 	'New_download' => 'La nueva descarga se ha actualizado o subido.<br />Pulse %saquí%s para verla.',
 	'Dl_bug_tracker' => 'Bug tracker',
@@ -2096,6 +2096,7 @@ $lang = array_merge($lang, array(
 
 	'HAPPY_BIRTHDAY' => 'Feliz cumpleaños',
 
+	'DOWNLOAD' => 'Descargar',
 	'DOWNLOADED' => 'Descargado',
 	'FILESIZE' => 'Tamaño del archivo',
 	'FILENAME' => 'Nombre del archivo',
@@ -2131,7 +2132,7 @@ $lang = array_merge($lang, array(
 
 	'RATINGS' => 'Valoraciones',
 
-	'ERROR_TABLE' => 'No se ha posido consultar la tabla %s',
+	'ERROR_TABLE' => 'No se ha podido consultar la tabla %s',
 
 	'SMILEYS' => 'Emoticonos',
 	'SMILEYS_NO_CATEGORIES' => 'No hay categorías definidas',
@@ -2149,6 +2150,54 @@ $lang = array_merge($lang, array(
 	'MANAGEMENT' => 'Gestión',
 	'SORT_ORDER' => 'Ordenar por',
 	'SORT_DIR' => 'Dirección de ordenación',
+
+	'TIME_YEAR' => 'Año',
+	'TIME_MONTH' => 'Mes',
+	'TIME_DAY' => 'Día',
+	'TIME_HOUR' => 'Hora',
+	'TIME_MINUTE' => 'Minuto',
+	'TIME_SECOND' => 'Segundo',
+
+	'CONTACTS' => 'Contactos',
+
+	// Event Registration - BEGIN
+	'Reg_Title' => 'Registro de eventos',
+	'Post_Registration' => 'Registro de eventos',
+	'Add_registration' => 'Añadir nuevo evento',
+	'Add_reg_explain' => '&nbsp;&bull; Marque <i>activar</i> para mostrar el formulario de registro para este mensaje. Desmarcar para ocultarlo.<br />&nbsp;&bull; Marque <i>reset</i> para eliminar todos los registros actuales del formulario.<br />&nbsp;&bull; Introduzca un número en <i>registros</i> para limitarlos. "0" o en blanco = ilimitado.',
+	'reg_activate' => 'Activar',
+	'reg_reset' => 'Borrar',
+	'Reg_Insert' => 'Se ha registrado en este evento.',
+	'Reg_Change' => 'Registro cambiado.',
+	'Reg_Confirm' => 'Registro confirmado.',
+	'Reg_Unregister' => 'Registro cancelado.',
+	'Reg_Max_Registrations' => 'Se ha superado el máximo de registros para esta opción. No se acceptan mas registros.',
+	'Reg_No_Slots_Left' => 'Registros completos.',
+	'Reg_One_Slot_Left' => 'Solo se permite un registro mas.',
+	'Reg_Slots_Left' => 'Aún se permiten %s registros.',
+	'Reg_Self_Unregister' => 'No registrado',
+	'Reg_Own_Confirmation' => 'Confirmación',
+	'Reg_Own_Confirmed' => 'confirmado',
+	'Reg_Green_Option' => 'Opción verde',
+	'Reg_Blue_Option' => 'Opción azul',
+	'Reg_Red_Option' => 'Opción roja',
+	'Reg_Value_Max_Registrations' => 'Registros',
+	'Reg_Do' => 'Registrarse',
+	'Reg_Maybe' => 'No estoy seguro',
+	'Reg_Dont' => 'No en este momento',
+	'Reg_Head_Username' => 'Usuario:',
+	'Reg_Head_Time' => 'Fecha:',
+	'Reg_for' => 'Ejecutar el registro para',
+	'Reg_for_explain' => '[ Introduzca 0 o deje en blanco para no poner fecha final de registro ]',
+	'Reg_no_options_specified' => 'Debe especificar al menos una opción para registrarse.',
+	'Reg_event_date' => '<b>Fecha del evento: </b>',
+	// Event Registration - END
+
+	'REPLY_PREFIX_OLD' => 'Re: ',
+	'REPLY_PREFIX' => 'Re: ',
+
+	'READ_ONLY_FORUM' => 'Lo sentimos, pero actualmente el foro solo funciona en <b>MODO DE LECTURA</b>, esto significa que no puede publicar nuevos mensajes. Inténtelo mas tarde.',
+
 	)
 );
 
@@ -2167,7 +2216,7 @@ $lang['Prune_explain'][1] = 'De quienes nunca se han logueado, <b>Excluir</b> nu
 $lang['Prune_commands'][2] = 'Borrar usuarios/as que no han activado su cuenta';
 $lang['Prune_explain'][2] = 'De quienes nunca han activado su cuenta, <b>Excluir</b> nuevos usuarios a partir de %d días';
 $lang['Prune_commands'][3] = 'Borrar usuarios/as que no nos visitan'; 
-$lang['Prune_explain'][3] = 'De quienes no nos visitan desde hace 60 dias, <b>Excluir</b> nuevos usuarios a partir de %d días'; 
+$lang['Prune_explain'][3] = 'De quienes no nos visitan desde hace 60 días, <b>Excluir</b> nuevos usuarios a partir de %d días'; 
 $lang['Prune_commands'][4] = 'Borrar usuarios/as que no escriben regularmente'; 
 $lang['Prune_explain'][4] = 'De quienes tienen menos de un 1 envío por cada 10 días de registro, <b>Excluir</b> nuevos usuarios a partir de %d días';
 $lang['Prune_commands'][5] = 'Borrar usuarios que no escriben y no visitan el foro';

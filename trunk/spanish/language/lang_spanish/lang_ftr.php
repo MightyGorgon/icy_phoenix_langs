@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'Ftr_deactivate_n' => 'No',
 	'Ftr_effected_1' => 'Solamente los nuevos usuarios están obligados a leerlo.',
 	'Ftr_effected_2' => 'Todos los usuarios están obligados a leer el mensaje.',
-	'Ftr_active_1' => 'Ha desactivado este MOD. Nadie está obligado a leer ningun mensaje.',
+	'Ftr_active_1' => 'Ha desactivado este MOD. Nadie está obligado a leer ningún mensaje.',
 	'Ftr_active_2' => 'Ha activado este MOD',
 	)
 );

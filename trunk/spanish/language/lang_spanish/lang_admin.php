@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'DB_Maintenance' => 'Base de datos',
 	'News_Admin' => 'Noticias',
 	'News_Cats' => 'Categorías de noticias',
-	'News_Config' => 'Configuracion de noticias',
+	'News_Config' => 'Configuración de noticias',
 	'Security' => 'Seguridad',
 	'Member_Tries' => 'Intentos del usuario',
 	'Quick_Search' => 'Búsqueda rápida',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'Not_admin' => 'No está autorizado para administrar este foro',
 	'Welcome_phpBB' => 'Bienvenido a Icy Phoenix',
 	'Admin_intro' => 'Gracias por elegir Icy Phoenix como la solución para su foro. Esta pantalla le dará una síntesis de las estadísticas del mismo. Puede volver a esta pantalla pulsando en el enlace <u>índice de administración</u> en la parte superior. Para volver al índice del foro, tiene un enlace en la parte superior también. El resto de los enlaces del panel izquierdo de esta pantalla le permitirán controlar todos los aspectos de su foro. Cada pantalla tendrá instrucciones de cómo usar cada herramienta.',
-	'PayPalInfo' => 'Icy Phoenix és un proyecto de código libre, si está interesado en contribuir a su desarrollo puede utilizar el enlace de abajo.',
+	'PayPalInfo' => 'Icy Phoenix es un proyecto de código libre, si está interesado en contribuir a su desarrollo puede utilizar el enlace de abajo.',
 	'Forum_stats' => 'Estadísticas del foro',
 	'Admin_Index' => 'Índice de administración',
 	'Preview_forum' => 'Vista previa del foro',
@@ -286,7 +286,7 @@ $lang = array_merge($lang, array(
 	'Enable_gzip' => 'Habilitar compresión gzip',
 // Start Gzip Compression Level MOD
 	'Gzip_level' => 'Nivel de compresión gzip',
-	'Gzip_level_explain' => 'Aquí puede cambiar el nivel de compresion gzip con un numero entre 0 y 9. 0 es equivalente a apagado, 1 es muy bajo, y 9 es el maximo. 9 es el recomendado.',
+	'Gzip_level_explain' => 'Aquí puede cambiar el nivel de compresión gzip con un número entre 0 y 9. 0 es equivalente a apagado, 1 es muy bajo, y 9 es el máximo. 9 es el recomendado.',
 // End Gzip Compression Level MOD
 	'Enable_prune' => 'Habilitar limpieza (Pruning) de los foros',
 	'Allow_HTML' => 'Permitir HTML',
@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
 	'FORUM_SIMILAR_TOPICS' => 'Temas similares',
 	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'Si activa esta opción verá un cuadro de temas similares en la parte inferior del foro (tenga en cuenta que también necesita tener activada la opción global de esta característica en la configuración Icy Phoenix => SEO)',
 	'FORUM_TOPIC_VIEWS' => 'Visor de temas',
-	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Si activa esta opción todos los usuarios que vean mensajes en este foro seran alamcenados en la BD (tenga en cuenta que también necesita tener activada la opción global de esta característica en la configuración Icy Phoenix => SQL)',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Si activa esta opción todos los usuarios que vean mensajes en este foro serán almacenados en la BD (tenga en cuenta que también necesita tener activada la opción global de esta característica en la configuración Icy Phoenix => SQL)',
 	'FORUM_TAGS' => 'Palabras del foro',
 	'FORUM_TAGS_EXPLAIN' => 'Si activa esta opción verá un cuadro con las palabras mas usadas en este foro (tenga en cuenta que también necesita tener activada la opción global de esta característica en la configuración Icy Phoenix => SEO)',
 	'FORUM_SORT_BOX' => 'Orden de mensajes',
@@ -525,7 +525,7 @@ $lang = array_merge($lang, array(
 
 	'Word_updated' => 'La censura de palabra fue actualizada correctamente',
 	'Word_added' => 'La censura de palabra fue agregada correctamente',
-	'Word_removed' => 'La censura de palabra fue eliminada ccorrectamente',
+	'Word_removed' => 'La censura de palabra fue eliminada correctamente',
 
 	'Click_return_wordadmin' => 'Pulse %saquí%s para volver a administración de palabras censuradas',
 
@@ -549,7 +549,7 @@ $lang = array_merge($lang, array(
 	'Rank_special' => 'Marcar como rango especial',
 	'Rank_minimum' => 'Cantidad mínima de mensajes',
 	'Rank_maximum' => 'Cantidad máxima de mensajes',
-	'Rank_image' => 'Imagen del rango (tenga en cuenta la ruta raiz del foro)',
+	'Rank_image' => 'Imagen del rango (tenga en cuenta la ruta raíz del foro)',
 	'Rank_image_explain' => 'Use esto para definir una pequeña imagen asociada al rango',
 
 	'Must_select_rank' => 'Debe elegir un rango',
@@ -636,9 +636,9 @@ $lang = array_merge($lang, array(
 	'Tr_color1' => 'Color de fila de tabla 1',
 	'Tr_color2' => 'Color de fila de tabla 2',
 	'Tr_color3' => 'Color de fila de tabla 3',
-	'Tr_class1' => 'Classe de fila de tabla 1',
-	'Tr_class2' => 'Classe de fila de tabla 2',
-	'Tr_class3' => 'Classe de fila de tabla 3',
+	'Tr_class1' => 'Clase de fila de tabla 1',
+	'Tr_class2' => 'Clase de fila de tabla 2',
+	'Tr_class3' => 'Clase de fila de tabla 3',
 	'Th_color1' => 'Color de encabezado de tabla 1',
 	'Th_color2' => 'Color de encabezado de tabla 2',
 	'Th_color3' => 'Color de encabezado de tabla 3',
@@ -698,11 +698,11 @@ $lang = array_merge($lang, array(
 	'Version_up_to_date' => 'Su versión de phpBB es la más actual. No hay actualizaciones de phpBB disponibles para su versión.',
 	'Version_up_to_date_ip' => 'No hay actualizaciones disponibles para su versión de Icy Phoenix',
 	'Version_not_up_to_date' => 'Su versión de phpBB parece <b>no</b> ser la más actual. Hay actualizaciones disponibles para su versión de phpBB, visite <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a> para obtener la última versión.',
-	'Version_not_up_to_date_ip' => 'Actualizacion disponible para su versión de Icy Phoenix, visite <a href="http://www.icyphoenix.com" target="_new">Icy Phoenix</a> para más información.',
+	'Version_not_up_to_date_ip' => 'Actualización disponible para su versión de Icy Phoenix, visite <a href="http://www.icyphoenix.com" target="_new">Icy Phoenix</a> para más información.',
 	'Latest_version_info' => 'La última versión disponible es la <b>phpBB %s</b>.',
 	'Current_version_info' => 'Usted está utilizando <b>phpBB %s</b>.',
 	'Connect_socket_error' => 'No se puede abrir una conexión al servidor de phpBB. El mensaje de error remitido es:<br />%s',
-	'Connect_socket_error_ip' => 'No ha sido posible abrir una conexion con el servidor de Icy Phoenix',
+	'Connect_socket_error_ip' => 'No ha sido posible abrir una conexión con el servidor de Icy Phoenix',
 	'Socket_functions_disabled' => 'No se pueden usar funciones de socket.',
 	'Mailing_list_subscribe_reminder' => 'Para ser informado de las últimas actualizaciones de phpBB, ¿por qué no se dirige a <a href="http://www.phpbb.com/support/" target="_new">esta dirección</a> para suscribirse a nuestra lista de correo?',
 	'Version_information' => 'Información de versión',
@@ -746,9 +746,9 @@ $lang = array_merge($lang, array(
 // End add - Last visit MOD
 //
 // Start add - Online/Offline/Hidden Mod
-	'Online_time' => 'Tiempo de estado de conexion',
-	'Online_time_explain' => 'Numero de segundos que el usuario debe ser mostrado como conectado (no utilice un valor más bajo que 60).',
-	'Online_setting' => 'Ajuste de estado de conexion',
+	'Online_time' => 'Tiempo de estado de conexión',
+	'Online_time_explain' => 'Número de segundos que el usuario debe ser mostrado como conectado (no utilice un valor más bajo que 60).',
+	'Online_setting' => 'Ajuste de estado de conexión',
 	'Online_color' => 'Color del texto conectado',
 	'Offline_color' => 'Color del texto desconectado',
 	'Hidden_color' => 'Color del texto oculto',
@@ -772,7 +772,7 @@ $lang = array_merge($lang, array(
 
 // Start Optimize Database
 	'Optimize' => 'Optimizar',
-	'Optimize_explain' => 'Aquí es posible optimizar los datos de las tablas de la base de datos. Puede eliminar las partes de datos que contienen espacios vacios.<br />Esta operación hace que su base de datos tenga un mejor tiempo de ejecucion.',
+	'Optimize_explain' => 'Aquí es posible optimizar los datos de las tablas de la base de datos. Puede eliminar las partes de datos que contienen espacios vacíos.<br />Esta operación hace que su base de datos tenga un mejor tiempo de ejecución.',
 	'Optimize_DB' => 'Optimizar base de datos',
 	'Optimize_Enable_cron' => 'Habilitar cron',
 	'Optimize_Cron_every' => 'Cron cada',
@@ -817,18 +817,18 @@ $lang = array_merge($lang, array(
 	'Detector_Url' => 'URL',
 	'Detector_Clear' => 'Limpiar todo',
 	'Detector_No_Bot' => 'No se detectó robot',
-	'Detector_Cleared' => 'Información limpiada con exito',
+	'Detector_Cleared' => 'Información limpiada con éxito',
 	'Click_Return_Detector' => 'Pulse %saquí%s para volver al detector',
 
 // added to Auto group mod
-	'group_count' => 'Numero de mensajes requeridos',
-	'group_count_max' => 'Numero máximo de mensajes',
+	'group_count' => 'Número de mensajes requeridos',
+	'group_count_max' => 'Número máximo de mensajes',
 	'group_count_updated' => 'Hay %d usuario(s) en este grupo',
-	'Group_count_enable' => 'Añadir usuarios automáticamente segun sus envios',
+	'Group_count_enable' => 'Añadir usuarios automáticamente según sus envíos',
 	'Group_count_update' => 'Añadir/actualizar nuevos usuarios',
 	'Group_count_delete' => 'Borrar/actualizar otros usuarios',
 	'User_allow_ag' => 'Activar autogrupo',
-	'group_count_explain' => 'Cuando los usuarios han enviado más mensajes que este número, <i>en cualquier foro</i>, serán añadidos a este grupo de usuarios.<br />Pero sólo si "' . $lang['Group_count_enable'] . '" esta habilitado',
+	'group_count_explain' => 'Cuando los usuarios han enviado más mensajes que este número, <i>en cualquier foro</i>, serán añadidos a este grupo de usuarios.<br />Pero sólo si "' . $lang['Group_count_enable'] . '" está habilitado',
 
 // Start add - Bin Mod
 	'Bin_forum' => 'Foro de papelera',
@@ -857,7 +857,7 @@ $lang = array_merge($lang, array(
 	'Available' => 'Disponible',
 	'Unavailable' => 'No disponible',
 	'LIW_title' => 'MOD de límite de achura de imagen',
-	'LIW_admin_explain' => 'Esta página permitirá que cambie el MOD de límite de anchura de imagen. Encenderlo (On) o apagarlo (Off), así como poner la anchura máxima para cada imagen enviada a su foro. Si ve que la tabla SQL que tiene guardadas las dimensiones de las imágenes y de todas las imágenes enviadas al foro y aún así éstas se siguen viendo demasiado grandes, puede vaciar el caché pulsando en el boton \'Vaciar tabla de caché\'<br /><br />También puede comprobar si es posible cambiar en su servidor este MOD del límite del ancho de imagen en el botón \'Comprobar compatibilidad\'',
+	'LIW_admin_explain' => 'Esta página permitirá que cambie el MOD de límite de anchura de imagen. Encenderlo (On) o apagarlo (Off), así como poner la anchura máxima para cada imagen enviada a su foro. Si ve que la tabla SQL que tiene guardadas las dimensiones de las imágenes y de todas las imágenes enviadas al foro y aún así éstas se siguen viendo demasiado grandes, puede vaciar el caché pulsando en el botón \'Vaciar tabla de caché\'<br /><br />También puede comprobar si es posible cambiar en su servidor este MOD del límite del ancho de imagen en el botón \'Comprobar compatibilidad\'',
 	'LIW_compatibility_checks' => 'Comprobar compatibilidad',
 	'LIW_mod_config' => 'Configuración del MOD',
 
@@ -887,7 +887,7 @@ $lang = array_merge($lang, array(
 	'LIW_attach_enable' => 'Ajustar tamaño de las imágenes en las imágenes adjuntas',
 	'LIW_attach_enable_explain' => 'Fijar en %s para permitir que el MOD reajuste las imágenes adjuntadas con el MOD de adjuntos (Attachment MOD)',
 	'LIW_max_width' => 'Anchura máxima de la imagen',
-	'LIW_max_width_explain' => 'Especifique la anchura máxima (pixels) de una imagen enviada usando las etiquetas [img]',
+	'LIW_max_width_explain' => 'Especifique la anchura máxima (píxels) de una imagen enviada usando las etiquetas [img]',
 	'LIW_empty_cache' => 'Caché de dimensiones de imagen vacio',
 	'LIW_empty_cache_explain' => 'Su tabla de caché actualmente contiene <b>%s</b> guardadas', // Your cache table currently contains <b>312</b> records
 	'LIW_empty_cache_note' => 'Observe: esto vaciará la tabla de caché y hará que el MOD tenga que crear todas las dimensiones de la imagen otra vez, lo que podría dar lugar a una retardo temporal al cargar un tema',
@@ -929,12 +929,12 @@ $lang = array_merge($lang, array(
 
 	'BM_Public_reason' => 'Razón pública',
 	'BM_Public_reason_explain' => 'Esta razón de baneo incorpora nombres de usuario, e-mails, y/o dirección IP. Se muestra al usuario(s) baneado(s) cuando intenta acceder al foro.',
-	'BM_Generic_reason' => 'Razón generica',
+	'BM_Generic_reason' => 'Razón genérica',
 	'BM_Mirror_private_reason' => 'Razón privada de espejo',
 	'BM_Other' => 'Otra',
 
 	'BM_Expire_time' => 'Tiempo de finalización',
-	'BM_Expire_time_explain' => 'Especificando una fecha, en lo referente a la fecha actual o a una fecha absoluta, el baneo sera desactivado después de ese tiempo.',
+	'BM_Expire_time_explain' => 'Especificando una fecha, en lo referente a la fecha actual o a una fecha absoluta, el baneo será desactivado después de ese tiempo.',
 	'BM_Never' => 'Nunca',
 	'BM_After_specified_length_of_time' => 'Después de que pase el tiempo especificado',
 	'BM_Minutes' => 'Minuto(s)',
@@ -958,7 +958,7 @@ $lang = array_merge($lang, array(
 	'Edit_notes_settings' => 'Valores de notas de edición',
 	'Edit_notes_enable' => 'Habilitar notas de edición',
 	'Edit_notes_enable_explain' => 'Habilitar/deshabilitar notas de edición en el foro.',
-	'Max_edit_notes' => 'Notas de edición maximas',
+	'Max_edit_notes' => 'Notas de edición máximas',
 	'Max_edit_notes_explain' => 'Fija el número máximo de notas de edición por mensaje.',
 	'Edit_notes_permissions' => 'Permisos de notas de edición',
 	'Edit_notes_permissions_explain' => 'Fija qué tipo de usuarios podrán usar las notas de edición.',
@@ -983,7 +983,7 @@ $lang = array_merge($lang, array(
 	'Admin_Users_List_Mail_Explain' => 'Aquí esta la lista de e-mails de sus usuarios',
 
 // Start add - Forum notification MOD
-	'Forum_notify' => 'Permitir notificacion de foro',
+	'Forum_notify' => 'Permitir notificación de foro',
 	'Forum_notify_enabled' => 'Permitir',
 	'Forum_notify_disabled' => 'No permitir',
 // End add - Forum notification MOD
@@ -992,13 +992,13 @@ $lang = array_merge($lang, array(
 	'Smilie_table_rows' => 'Filas en la tabla de emoticonos',
 	'Smilie_window_columns' => 'Columnas en la ventana de emoticonos',
 	'Smilie_window_rows' => 'Filas de la ventana de emoticonos',
-	'Smilie_single_row' => 'Numero de emoticonos en línea (Ex.: numero de emoticonos en respuesta rápida)',
+	'Smilie_single_row' => 'Número de emoticonos en línea (Ex.: número de emoticonos en respuesta rápida)',
 
 	'Auth_Rating' => 'Valoraciones',
 
 // Gravatars
 	'Enable_gravatars' => 'Habilitar gravatars',
-	'Gravatar_rating' => 'Valoracion maxima de gravatar',
+	'Gravatar_rating' => 'Valoración máxima de gravatar',
 	'Gravatar_rating_explain' => '<a href="http://www.gravatar.com/rating.php" target="_blank">Leer las líneas de guía de valoración</a> para mas información. Fijar en \'Ninguno\' para no tener restricciones.',
 	'Gravatar_default_image' => 'Imagen por defecto de gravatar',
 	'Gravatar_default_image_explain' => 'Si no se encuentra gravatar, el servidor cuando vuelve muestra esta imagen. La ruta a la imagen es relativa al directorio raíz de phpBB. Dejar en blanco si no se quiere mostrar ninguna imagen.',
@@ -1045,7 +1045,7 @@ $lang = array_merge($lang, array(
 	'Account_notification' => 'Notificación enviada por correo.',
 
 // Acronyms
-	'Acronyms_title' => 'Administracion de siglas (Acronym)',
+	'Acronyms_title' => 'Administración de siglas (Acronym)',
 	'Acronyms_explain' => 'Desde este panel de control puede añadir, editar, y quitar las siglas que se mostrarán automáticamente en los mensajes de su foro.',
 	'Acronym' => 'Sigla',
 	'Acronyms' => 'Siglas',
@@ -1063,7 +1063,7 @@ $lang = array_merge($lang, array(
 
 	'Click_return_acronymadmin' => 'Pulse %saquí%s para volver a administración de siglas',
 	'Prune_shouts' => 'Limpiar automáticamente cuadro de charla',
-	'Prune_shouts_explain' => 'Numero de días antes de borrar los mensajes del cuadro de charla. Si el valor es 0, la limpieza será deshabilitada',
+	'Prune_shouts_explain' => 'Número de días antes de borrar los mensajes del cuadro de charla. Si el valor es 0, la limpieza será deshabilitada',
 
 	'MOD_OS_ForumRules' => 'Normas del foro con estilo Olympus',
 	'Forum_rules' => 'Normas del foro',
@@ -1134,7 +1134,7 @@ $lang = array_merge($lang, array(
 
 // Login attempts configuration
 	'Max_login_attempts' => 'Intentos de identificación permitidos',
-	'Max_login_attempts_explain' => 'El numero de intentos de identificación permitido en su foro.',
+	'Max_login_attempts_explain' => 'El número de intentos de identificación permitido en su foro.',
 	'Login_reset_time' => 'Tiempo de identificación cerrado',
 	'Login_reset_time_explain' => 'Tiempo en minutos que el usuario tiene que esperar hasta que se le permita de nuevo la identificación después de exceder el número de intentos permitidos de conexión o identificación.',
 
@@ -1152,11 +1152,11 @@ $lang = array_merge($lang, array(
 	'auth_view_title' => 'Autorización para ver páginas',
 	'auth_view_portal' => 'Página de inicio',
 	'auth_view_forum' => 'Foro',
-	'auth_view_viewf' => 'Ver foro',
-	'auth_view_viewt' => 'Ver tema',
+	'auth_view_viewforum' => 'Ver foro',
+	'auth_view_viewtopic' => 'Ver tema',
 	'auth_view_faq' => 'FAQ',
 	'auth_view_memberlist' => 'Lista de usuarios',
-	'auth_view_group_cp' => 'Grupos de usuarios',
+	'auth_view_groupcp' => 'Grupos de usuarios',
 	'auth_view_profile' => 'Perfil',
 	'auth_view_search' => 'Buscar',
 	'auth_view_album' => 'Álbum',
@@ -1184,7 +1184,7 @@ $lang = array_merge($lang, array(
 	'Yahoo_search_settings' => 'Ajustes de búsqueda en Yahoo',
 	'Yahoo_search_settings_explain' => 'Aquí puede configurar ajustes para el MOD de enviar su sitio a Yahoo. Para mas información, por favor vea el <a href="http://submit.search.yahoo.com/free/request" target="_blank">Sitio web de Yahoo para enviar su sitio</a>.',
 	'Yahoo_search_select_forums' => 'Seleccionar foros',
-	'Yahoo_search_select_forums_explain' => 'Seleccione los foros a incluir en la lista. Puede seleccionar tantos foros como quiera, cpulsando en cada nombre de foro mientras, a la vez, mantiene pulsada la tecla CTRL (Windows) o comando (Macintosh). Por defecto, todos los foros públicos visibles serán seleccionados.',
+	'Yahoo_search_select_forums_explain' => 'Seleccione los foros a incluir en la lista. Puede seleccionar tantos foros como quiera, pulsando en cada nombre de foro mientras, a la vez, mantiene pulsada la tecla CTRL (Windows) o comando (Macintosh). Por defecto, todos los foros públicos visibles serán seleccionados.',
 	'Yahoo_search_savepath' => 'Guardar ruta de la lista de URL',
 	'Yahoo_search_savepath_explain' => 'Introduzca la ubicación donde quiere guardar la lista de URL. Introduzca la ruta relativa a la ruta de phpBB -- Por ejemplo, si quiere guardar el archivo en el directorio caché <b>www.tusitio.com/phpBB/cache/</b>, debe introducir <b>cache</b>. Recuerde que necesita el directorio CHMOD 777.',
 	'Yahoo_search_additional_urls' => 'Introducir URLs adicionales',
@@ -1195,7 +1195,7 @@ $lang = array_merge($lang, array(
 	'Yahoo_search_compression_level_explain' => 'Elija el nivel de compresión del archivo. 9 es el ajuste recomendado, a menos que encuentre problemas; en ese caso, debe bajar el valor.',
 	'Yahoo_search_generate_file' => 'Generar archivo',
 	'Yahoo_search_error_no_forums' => 'Error: no ha seleccionado foros. Vuelva atras y al menos seleccione un foro.',
-	'Yahoo_search_error_no_gzip' => 'Error: está utilizando una version de PHP antigua o su servidor no soporta gzip. Por favor, vuelva atrás y elija <b>No</b> en la opción <b>Comprimir la lista de URLs</b>.',
+	'Yahoo_search_error_no_gzip' => 'Error: está utilizando una versión de PHP antigua o su servidor no soporta gzip. Por favor, vuelva atrás y elija <b>No</b> en la opción <b>Comprimir la lista de URLs</b>.',
 	'Yahoo_search_error_unopenable_file' => 'Error: no se puede abrir el archivo %s.',
 	'Yahoo_search_error_unwritable_file' => 'Error: no se puede escribir en el archivo %s.',
 	'Yahoo_search_error_unclosable_file' => 'Error: no se puede cerrar el archivo %s.',
@@ -1260,7 +1260,7 @@ $lang = array_merge($lang, array(
 
 	'default_value' => 'Valores por defecto',
 	'default_value_explain' => 'Este valor el es que quedará por defecto para este campo. Si un nuevo usuario no cambia este valor, es el que se mostrará. Si esto es un campo requerido, este es el valor que se fijará a todos los usuarios existentes.',
-	'default_value_radio_explain' => 'Introduzca el nombre identico al escrito en el campo de valores disponibles.',
+	'default_value_radio_explain' => 'Introduzca el nombre idéntico al escrito en el campo de valores disponibles.',
 	'default_value_checkbox_explain' => 'Introduzca los valores por defecto seleccionados. Estos valores tienen marcados valores en los campos disponibles',
 	'max_length' => 'Longitud máxima',
 	'max_length_explain' => 'Esta es la longitud máxima para este campo.',
@@ -1276,7 +1276,7 @@ $lang = array_merge($lang, array(
 	'add_field_description_explain' => 'Introduzca la descripción que desea asociar a este campo. Será mostrado en pequeño debajo del nombre del campo, justo como está este texto.',
 	'add_field_type' => 'Tipo de campo',
 	'add_field_type_explain' => 'Seleccione el tipo de campos del perfil que desea añadir. Los ejemplos de cada tipo de campo se muestran en el extremo derecho.',
-	'edit_field_type_explain' => 'Seleccione el tipo de campos del perfil que desea cambiar a este campo. Los ejempos de cada tipo de campo se muestran en el extremo derecho.',
+	'edit_field_type_explain' => 'Seleccione el tipo de campos del perfil que desea cambiar a este campo. Los ejemplos de cada tipo de campo se muestran en el extremo derecho.',
 	'add_field_required' => 'Poner como obligatorio',
 	'add_field_required_explain' => 'Si los campos están puestos como "Obligatorios", cualquier usuario que se registre luego <strong>debe</strong> marcarlo, y a todos los usuarios registrados les aparecerá el campo por defecto.', 
 	'add_field_user_can_view' => 'Permitir a los usuario ver',
@@ -1320,11 +1320,11 @@ $lang = array_merge($lang, array(
 	'Split_settings' => 'Ajustes de separación',
 	'Server_Cookies' => 'Configuraciones servidor',
 	'Disable_Registration_IP_Check' => 'Desactivar el rastreo de la lista negra pública de IP durante el registro.',
-	'Disable_Registration_IP_Check_Explain' => 'Comprueba cada dirección IP durente el registro si no esta desactivado. Si la IP encontrada está en la lista negra, el registro será bloqueado. Esto puede dar lugar al bloqueo accidental de usuarios correctos.',
-	'Config_explain2' => 'El formulario de abajo permitirá modificar opciones del calendario y de los subforos. Puede cambiar la aparencia y ajustes.',
+	'Disable_Registration_IP_Check_Explain' => 'Comprueba cada dirección IP durante el registro si no esta desactivado. Si la IP encontrada está en la lista negra, el registro será bloqueado. Esto puede dar lugar al bloqueo accidental de usuarios correctos.',
+	'Config_explain2' => 'El formulario de abajo permitirá modificar opciones del calendario y de los subforos. Puede cambiar la apariencia y ajustes.',
 	'Forum_postcount' => 'Cantidad de mensajes de usuarios',
 	'Use_Captcha' => 'Usar CAPTCHA',
-	'Use_Captcha_Explain' => 'Si lo fija como SÍ, el código de confirmacion avanzado se generará. Si lo fija como NO, se genera el código de activación estándar de phpBB.',
+	'Use_Captcha_Explain' => 'Si lo fija como SÍ, el código de confirmación avanzado se generará. Si lo fija como NO, se genera el código de activación estándar de phpBB.',
 	'Sync_Pics_Count' => 'Pulsando en <b>SÍ</b>, el contador de imágenes de todos los usuarios será sincronizado.',    
 	'Pics_Count_Synchronized' => 'Cantidad de imágenes de los usuarios sincronizada correctamente',    
 	'Pics_Count_Not_Synchronized' => 'Cantidad de imágenes de los usuarios no sincronizada correctamente',   
@@ -1332,7 +1332,7 @@ $lang = array_merge($lang, array(
 // IP - BUILD 001
 	'Enable_Digests' => 'Activar resúmenes',
 	'Enable_Digests_PHPCron' => 'Activar resúmenes PHP cron',
-	'Enable_Digests_PHPCron_Explain' => 'Esta característica activará un emulador de PHP cron que enviarà e-mails una vez cada hora. Pero como está basado en el emulador de PHP es posible que no se ejecute correctamente, por lo que puede ser que a veces no se envien los correos. Si puede activar el cron en su servidor, utilize el cron en lugar de esta opción.',
+	'Enable_Digests_PHPCron_Explain' => 'Esta característica activará un emulador de PHP cron que enviará e-mails una vez cada hora. Pero como está basado en el emulador de PHP es posible que no se ejecute correctamente, por lo que puede ser que a veces no se envíen los correos. Si puede activar el cron en su servidor, utilice el cron en lugar de esta opción.',
 
 // Ajax Shoutbox - BEGIN
 	'Shoutbox_config' => 'Configuración chat ajax',
@@ -1340,7 +1340,7 @@ $lang = array_merge($lang, array(
 	'Displayed_shouts' => 'Comentarios visibles',
 	'Displayed_shouts_explain' => 'El número de comentarios que se verán en el chat ajax cuando este se cargue.<br /><i>0 para cargar todos los comentarios.</i>',
 	'Stored_shouts' => 'Comentarios guardados',
-	'Stored_shouts_explain' => 'El número de comentarios que se guardarán en la base de datos.<br />Este valor ha de ser igual o mayor que el numero de comentarios visibles.<br /><i>0 para guardar todos los comentarios.</i>',
+	'Stored_shouts_explain' => 'El número de comentarios que se guardarán en la base de datos.<br />Este valor ha de ser igual o mayor que el número de comentarios visibles.<br /><i>0 para guardar todos los comentarios.</i>',
 	'Shout_guest_allowed' => 'Permiso para invitados',
 	'Shoutbox_flood' => 'Intervalo de flood',
 	'Shoutbox_flood_explain' => 'Número de segundos que el usuario ha de esperar para enviar otro comentario.',
@@ -1372,10 +1372,10 @@ $lang = array_merge($lang, array(
 	'megamail_status' => 'Estado',
 	'megamail_proceed' => '%sProceder%s',
 	'megamail_done' => 'HECHO',
-	'megamail_none' => 'No se encontró ningun proceso.',
+	'megamail_none' => 'No se encontró ningún proceso.',
 	'megamail_delete_confirm' => '¿Esta seguro que quieres eliminar este correo?',
 	'megamail_deleted' => 'Correo eliminado correctamente',
-	'megamail_click_return' => 'Pulse %saquí%s para volver al e-mail massivo/MP',
+	'megamail_click_return' => 'Pulse %saquí%s para volver al e-mail masivo/MP',
 /* lang_megamail.php - END */
 
 /* lang_admin_voting.php - BEGIN */
@@ -1397,7 +1397,7 @@ $lang = array_merge($lang, array(
 /* lang_admin_gd_info.php - BEGIN */
 	'GD_Title' => 'Información GD',
 	'NO_GD' => 'No GD',
-	'GD_Description' => 'Especificaciones de su libreria GD',
+	'GD_Description' => 'Especificaciones de su librería GD',
 	'GD_Freetype_Support' => 'Soporte fuentes freetype:',
 	'GD_Freetype_Linkage' => 'Enlace tipo freetype:',
 	'GD_T1lib_Support' => 'Soporte t1lib:',
@@ -1438,7 +1438,7 @@ $lang = array_merge($lang, array(
 	'back_arcs' => 'Líneas curvas',
 	'back_lines' => 'Líneas',
 	'back_image' => 'Imagen de fondo',
-	'back_image_explain' => '(Esta funcion no está integrada)',
+	'back_image_explain' => '(Esta función no está integrada)',
 
 	'foreground_lattice' => 'Rejas de primer plano',
 	'foreground_lattice_explain' => '(ancho x alto)<br />Genera unas rejas en CAPTCHA',
@@ -1459,7 +1459,7 @@ $lang = array_merge($lang, array(
 	'Delete_Before_Date_Button' => 'Eliminar todos los anteriores a la fecha',
 	'No_Shadow_Topics' => 'No se encontraron temas sombreados.',
 	'Topic_Shadow' => 'Tema sombreado',
-	'TS_Desc' => 'Permite la eliminación de temas sombreados sin eliminar el mensaje actual. Los temas sombreados se crean cuando mueve un tema a otro foro y elige dejar atrás en el foro original un emnlace al foro donde semovió el tema.',
+	'TS_Desc' => 'Permite la eliminación de temas sombreados sin eliminar el mensaje actual. Los temas sombreados se crean cuando mueve un tema a otro foro y elige dejar atrás en el foro original un enlace al foro donde se movió el tema.',
 	'Month' => 'Mes',
 	'Day' => 'Día',
 	'Year' => 'Año',
@@ -1573,7 +1573,7 @@ $lang = array_merge($lang, array(
 	'Rows_Minus_5' => 'Quitar 5 filas',
 	'Enable' => 'Habilitar',
 	'Disable' => 'Deshabilitar',
-	'Inserted_Default_Value' => 'El artículo de configuración %s no existia, se ha insertado un valor por defecto<br />', // %s = config name
+	'Inserted_Default_Value' => 'El artículo de configuración %s no existía, se ha insertado un valor por defecto<br />', // %s = config name
 	'Updated_Config' => 'Artículo de configuración %s actualizado<br />', // %s = config item
 	'Archive_Table_Inserted' => 'La tabla de archivo no existía, se ha creado<br />',
 	'Switch_Normal' => 'Cambiar a modo normal',
@@ -1582,7 +1582,7 @@ $lang = array_merge($lang, array(
 /* General */
 	'Deleted_Message' => 'Mensaje privado borrado - %s <br />', // %s = PM title
 	'Archived_Message' => 'Mensaje privado archivado - %s <br />', // %s = PM title
-	'Archived_Message_No_Delete' => 'No puede suprimir %s. Fue marcado tambien para el archivo de MPs<br />', // %s = PM title
+	'Archived_Message_No_Delete' => 'No puede suprimir %s. Fue marcado también para el archivo de MPs<br />', // %s = PM title
 	'Private_Messages' => 'Mensajes privados',
 	'Private_Messages_Archive' => 'Archivo de los mensajes privados',
 	'Archive' => 'Archivo',
@@ -1594,7 +1594,7 @@ $lang = array_merge($lang, array(
 	'Filter_By' => 'Filtrar por',
 	'PM_Type' => 'Tipo MP',
 	'Status' => 'Estado',
-	'No_PMS' => 'No se han encontrado mensajes privados a mostrar segun el criterio',
+	'No_PMS' => 'No se han encontrado mensajes privados a mostrar según el criterio',
 	'Archive_Desc' => 'Los mensajes privados que ha elegido archivar se enumeran aquí. Los usuarios (quien envía y quien recibe) pueden acceder a ellos, pero usted puede verlos o suprimirlos en cualquier momento.',
 	'Normal_Desc' => 'Todos los mensajes privados de su foro se pueden manejar aquí. Puede leer cualquiera, y suprimir o archivar los mensajes.',
 	'Remove_Old' => 'MPs huérfanos:</a> <span class="gensmall">Los usuarios que ya no existen podrían tener MPs. Esto los quitará.</span>',
@@ -1627,7 +1627,7 @@ $lang = array_merge($lang, array(
 	'Link_Categories_Explain' => 'En esta pantalla  puede administrar sus categorías: crear, cambiar, borrar, mover, etc.',
 	'Category_Permissions' => 'Permisos de la categoría',
 	'Category_Title' => 'Título de la categoría',
-	'Category_Desc' => 'Descripción de la categoria',
+	'Category_Desc' => 'Descripción de la categoría',
 	'View_level' => 'Nivel de vista',
 	'Upload_level' => 'Nivel de carga',
 	'Rate_level' => 'Nivel de puntuación',
@@ -1658,7 +1658,7 @@ $lang = array_merge($lang, array(
 	'Link_display_links_logo' => 'Mostrar los logotipos de las webs enlazadas',
 	'Link_email_notify' => 'Cuando se agregue un enlace, enviar un correo a todos los administradores de la web',
 	'Link_pm_notify' => 'Cuando se agregue un enlace, enviar un mensaje privado a todos los administradores de la web',
-	'Link_config_updated' => 'La configuracion de los enlaces se ha actualizado correctamente',
+	'Link_config_updated' => 'La configuración de los enlaces se ha actualizado correctamente',
 	'Click_return_link_config' => 'Pulse %saquí%s para volver a configurar los enlaces.',
 
 // Link_MOD
@@ -1687,7 +1687,7 @@ $lang = array_merge($lang, array(
 	'Link_admin_update_success' => 'Enlace actualizado correctamente.',
 	'Link_admin_update_fail' => 'Imposible actualizar el enlace; por favor, inténtelo de nuevo más tarde.',
 	'Link_admin_delete_success' => 'Enlace eliminado con éxito.',
-	'Link_admin_delete_fail' => 'Imposible eliminar el enlace; por favor, intentelo de nuevo más tarde.',
+	'Link_admin_delete_fail' => 'Imposible eliminar el enlace; por favor, inténtelo de nuevo más tarde.',
 	'Click_return_lastpage' => 'Pulse %saquí%s para volver a la página anterior.',
 	'Click_return_admin_links' => 'Pulse %saquí%s para volver a administrar enlaces',
 	'Preview' => 'Vista previa',
@@ -1700,11 +1700,11 @@ $lang = array_merge($lang, array(
 
 // Icy Phoenix - BUILD 009
 	'Replace_title' => 'Sustituir en mensajes',
-	'Replace_text' => 'En esta página puede sustituir palabras o lineas por lo que quiera. Esto no podrá ser deshecho.',
+	'Replace_text' => 'En esta página puede sustituir palabras o líneas por lo que quiera. Esto no podrá ser deshecho.',
 	'Link' => 'Enlace',
 	'Str_old' => 'Texto actual',
 	'Str_new' => 'Sustituir por',
-	'No_results' => 'No se ha encontrado ningun resultado',
+	'No_results' => 'No se ha encontrado ningún resultado',
 	'Replaced_count' => 'Mensajes totales actualizados: %s',
 
 // Icy Phoenix - BUILD 016
@@ -1765,7 +1765,7 @@ $lang = array_merge($lang, array(
 //New for 1.2.0
 	'Users_List' => 'Lista de usuarios',
 	'Groups_List' => 'Lista de grupos de usuarios',
-	'List_Info' => '<b>Notas</b>: <ul><li>Pulse CTRL mientras va pulsando para seleccionar múltiples nombres.  <li>Si un usuario pertenece a un grupo de usuario, y se agrega a un grupo específico de color, se utilizará el grupo de color que contiene al usuario, no el grupo de usuario al que pertenece.<li>Los nombres de la lista usan como formato NOMBRE (CURRENT_COLOR_GROUP). Si no hay ningún (CURRENT_COLOR_GROUP) la entrada no pertenece a nada.<li>Si un usuario es usuario de dos o más grupos de usuarios, se asignará la graduacion al grupo de color más alto (usted ordene su aspecto en la página principal).</ul>',
+	'List_Info' => '<b>Notas</b>: <ul><li>Pulse CTRL mientras va pulsando para seleccionar múltiples nombres. <li>Si un usuario pertenece a un grupo de usuario, y se agrega a un grupo específico de color, se utilizará el grupo de color que contiene al usuario, no el grupo de usuario al que pertenece.<li>Los nombres de la lista usan como formato NOMBRE (CURRENT_COLOR_GROUP). Si no hay ningún (CURRENT_COLOR_GROUP) la entrada no pertenece a nada.<li>Si un usuario es usuario de dos o más grupos de usuarios, se asignará la graduación al grupo de color más alto (usted ordene su aspecto en la página principal).</ul>',
 /* lang_color_groups.php - END */
 
 // Icy Phoenix - BUILD 023
@@ -1831,7 +1831,7 @@ $lang = array_merge($lang, array(
 
 // Errors
 	'No_Backup_Selected' => 'No ha seleccionado ninguna copia de seguridad, no se puede restaurar.',
-	'Backup_Invalid' => 'El archivo seleccionado de copia es invalido.',
+	'Backup_Invalid' => 'El archivo seleccionado de copia es inválido.',
 	'RESTORE_FAILURE' => 'El archivo de copia está corrupto.',
 /* lang_admin_db_backup.php - END */
 
@@ -1897,7 +1897,7 @@ $lang = array_merge($lang, array(
 
 /* ADS - BEGIN */
 	'ADS_TITLE' => 'Publicidad &amp; patrocinadores',
-	'ADS_TITLE_EXPLAIN' => 'Esta sección le permite configurar banners de publicidad y patrocinadores para mostrar en su foro. Puede añadir diferentes formatos de banners y decidir donde quiere mostrar o que nivel de usuario podrá o no podrá verlo. Si especifica mas de un banner para una posición especifica, ambos banners se mostrarán de forma aleatória con las configuraciones especificadas en la misma posición.',
+	'ADS_TITLE_EXPLAIN' => 'Esta sección le permite configurar banners de publicidad y patrocinadores para mostrar en su foro. Puede añadir diferentes formatos de banners y decidir donde quiere mostrar o que nivel de usuario podrá o no podrá verlo. Si especifica mas de un banner para una posición especifica, ambos banners se mostrarán de forma aleatoria con las configuraciones especificadas en la misma posición.',
 	'AD_DES' => 'Descripción',
 	'AD_TEXT' => 'Contenido',
 	'AD_ENABLED' => 'Activado',
@@ -1986,7 +1986,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_CENSOR' => 'Deshabilitar palabras censuradas',
 	'MG_SW_CENSOR_Explain' => 'Esta opción deshabilita la función de palabras censuradas',
 
-	'MG_SW_No_Right_Click' => 'Bloquear botón secundário del ratón',
+	'MG_SW_No_Right_Click' => 'Bloquear botón secundario del ratón',
 
 	'Click_return_config_mg' => 'Pulse %saquí%s para volver a los ajustes de Icy Phoenix',
 	)
@@ -2019,7 +2019,7 @@ $lang['140_MG_Configuration_Headers_Banners'] = 'Encabezados y banners'; // admi
 $lang['145_Captcha_Config'] = 'Confirmación visual'; // admin_captcha_config.php
 $lang['150_Similar_topics'] = 'Temas parecidos'; // admin_similar_topics.php
 $lang['160_Title_infos'] = 'Administrar título rápido'; // admin_quick_title.php
-$lang['170_LIW'] = 'Limite de anchura de imagen'; // admin_liw.php
+$lang['170_LIW'] = 'Límite de anchura de imagen'; // admin_liw.php
 $lang['180_MG_Configuration_Permissions'] = 'Permisos de página'; // admin_board_permissions.php
 $lang['190_Spider_Bots'] = 'Arañas/robots'; // admin_bots.php
 $lang['192_Google_BOT'] = 'Detector GoogleBot'; // admin_google_bot_detector.php
@@ -2139,7 +2139,7 @@ $lang['140_Sync_attachments'] = 'Sincronizar adjuntos'; // admin_attachments.php
 $lang['150_Extension_control'] = 'Control de extensión'; // admin_extensions.php
 $lang['160_Extension_group_manage'] = 'Administrar grupos de extensión'; // admin_extensions.php
 $lang['170_Forbidden_extensions'] = 'Extensiones prohibidas'; // admin_extensions.php
-$lang['180_Special_categories'] = 'Categorias especiales'; // admin_attachments.php
+$lang['180_Special_categories'] = 'Categorías especiales'; // admin_attachments.php
 
 // Downloads
 $lang['2000_Downloads'] = 'Descargas'; // admin_pa_catauth.php, admin_pa_category.php, admin_pa_custom.php, admin_pa_fchecker.php, admin_pa_file.php, admin_pa_license.php, admin_pa_settings.php

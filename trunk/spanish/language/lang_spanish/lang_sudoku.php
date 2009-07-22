@@ -30,7 +30,7 @@ $lang = array_merge($lang, array(
 	'Sudoku_Version' => 'Versión sudoku MOD %s &copy Majorflam 2005 - Último paquete de juego instalado: %s',
 	'suduko_blank_tile' => 'Pulse para introducir número',
 	'suduko_user_tile' => 'Pulse para editar',
-	'sudoku_no_tile' => 'No se especificó titulo',
+	'sudoku_no_tile' => 'No se especificó título',
 	'sudoku_input_num' => 'Seleccione el número que desea insertar en la casilla.',
 	'sudoku_no_number' => '¡Debe seleccionar un número para colocar en la casilla!',
 	'sudoku_instructions' => 'Ponga un número del 1 al 9 en cada casilla vacía, de modo que cada fila, cada columna y cada bloque 3 x 3 contenga todos los números de 1 a 9. Inicialmente, se le dan ya algunos números para ayudarle: aparecen subrayados. Pulsee encima de una casilla para insertar un número. Si comete un error, simplemente pulse en el número e inserte uno nuevo.',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'sudoku_place' => '¡Sitio!',
 	'sudoku_reset_grid' => 'Limpiar tabla',
 	'sudoku_who_is_online' => 'Quién esta jugando a sudoku',
-	'sudoku_total_online' => 'En tootal, <b>%s</b> usuarios han jugado a sudoku en las últimas 24 horas:',
+	'sudoku_total_online' => 'En total, <b>%s</b> usuarios han jugado a sudoku en las últimas 24 horas:',
 	'sudoku_logged_in_list' => 'Usuarios jugando en este momento a sudoku:',
 	'sudoku_online_explain' => 'Datos basados en usuarios jugando a sudoku en los últimos 5 minutos.',
 	'sudoku_game_stats' => 'En total, <b>%s</b> usuarios han jugado a sudoku en este sitio. Han jugado <b>%s</b> juegos completos',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'sudoku_resynch' => 'Sincronizar',
 // for ver 1.0.5
 	'sudoku_reset_game' => 'Actualizar juego sudoku',
-	'sudoku_reset_game_text' => '¿Está seguro de que quiere actualizar el juego sudoku? Esto borrará todos los datos del jugador de la base de datos, y empezará el juego de nuevo como si se acabara de instalar. Por favor, observe que su paquete de juegos permanecerá sin tocar, así no habra ninguna necesidad de reinstalarlo. Esta acción no puede ser deshecha.',
+	'sudoku_reset_game_text' => '¿Está seguro de que quiere actualizar el juego sudoku? Esto borrará todos los datos del jugador de la base de datos, y empezará el juego de nuevo como si se acabara de instalar. Por favor, observe que su paquete de juegos permanecerá sin tocar, así no habrá ninguna necesidad de reinstalarlo. Esta acción no puede ser deshecha.',
 	'sudoku_reset_game_cancelled' => 'Actualización del juego cancelada. No se ha efectuado ningún cambio.',
 	'sudoku_rest_game_success' => 'El juego sudoku se actualizará ahora.',
 	)

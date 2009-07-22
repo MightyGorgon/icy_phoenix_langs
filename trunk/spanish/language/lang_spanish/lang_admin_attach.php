@@ -47,16 +47,16 @@ $lang = array_merge($lang, array(
 	'Upload_directory' => 'Directorio para los adjuntos',
 	'Upload_directory_explain' => 'Escriba la dirección para guardar los archivos subidos. La dirección es relativa a la de la instalación del Icy Phoenix. Por ejemplo, escriba \'files\' si la instalación fue en http://www.sudominio.com/ip/ y su directorio de subida está en http://www.sudominio.com/ip/files/.',
 	'Attach_img_path' => 'Icono de los adjuntos',
-	'Attach_img_path_explain' => 'Esta imagen se muestra al lado de los enlaces de los adjuntos en los mensajes. Deje este campo en blanco si no quiere ningun imagen. Esta opción es sobrescrita por la que se encuentra en la administracion de grupos de extensiones.',
+	'Attach_img_path_explain' => 'Esta imagen se muestra al lado de los enlaces de los adjuntos en los mensajes. Deje este campo en blanco si no quiere ninguna imagen. Esta opción es sobrescrita por la que se encuentra en la administración de grupos de extensiones.',
 	'Attach_topic_icon' => 'Icono de adjunto en tema',
-	'Attach_topic_icon_explain' => 'Esta imagen se muestra en los foros antes del título de aquellos que contienen adjuntos. Deje este diálogo en blanco si no quiere ningun icono.',
+	'Attach_topic_icon_explain' => 'Esta imagen se muestra en los foros antes del título de aquellos que contienen adjuntos. Deje este diálogo en blanco si no quiere ningún ícono.',
 	'Attach_display_order' => 'Orden de muestra de los adjuntos',
 	'Attach_display_order_explain' => 'Aquí puede elegir cómo mostrar los adjuntos en mensajes/MPs con orden descendente (adjuntos más nuevos primero) u orden ascendente (adjuntos más antiguos primero).',
 	'Show_apcp' => 'Mostrar el nuevo sistema de publicación de adjuntos',
-	'Show_apcp_explain' => 'Elija qué sistema de publicación de adjuntos quiere mostrar (sí) o el metodo viejo con dos cuadros para publicar adjuntos y editar adjuntos publicados (no) en la ventana de publicación. La apariencia es muy difícil de explicar, pero vale la pena probarlo.',
+	'Show_apcp_explain' => 'Elija qué sistema de publicación de adjuntos quiere mostrar (sí) o el método viejo con dos cuadros para publicar adjuntos y editar adjuntos publicados (no) en la ventana de publicación. La apariencia es muy difícil de explicar, pero vale la pena probarlo.',
 
 	'Max_filesize_attach' => 'Tamaño del archivo',
-	'Max_filesize_attach_explain' => 'Tamaño máximo de los adjuntos. 0 es ilimitado \'ilimitado\'. Esta opcion está restringida por el servidor. Por ejemplo, si la configuración de su PHP no soporta mas de 2MB, el attachment MOD no puede hacer nada para superarla.',
+	'Max_filesize_attach_explain' => 'Tamaño máximo de los adjuntos. 0 es ilimitado \'ilimitado\'. Esta opción está restringida por el servidor. Por ejemplo, si la configuración de su PHP no soporta mas de 2MB, el attachment MOD no puede hacer nada para superarla.',
 	'Attach_quota' => 'Couta total de adjuntos',
 	'Attach_quota_explain' => 'Espacio máximo para guardar todos los adjuntos de su foro. 0 equivale a \'ilimitado\'.',
 	'Max_filesize_pm' => 'Tamaño máximo en la carpeta de los mensajes privados.',
@@ -85,9 +85,9 @@ $lang = array_merge($lang, array(
 	'ftp_password' => 'Su contraseña FTP',
 
 	'Attach_ftp_path' => 'Camino del FTP para el directorio de subida',
-	'Attach_ftp_path_explain' => 'El directorio donde seran alojados los archivos subidos por FTP. Este directorio no debe tener los permisos CHMOD cambiados. No escriba acá la IP o el nombre del servidor, sólo el camino del directorio.<br />Por ejemplo: /home/web/uploads',
+	'Attach_ftp_path_explain' => 'El directorio donde serán alojados los archivos subidos por FTP. Este directorio no debe tener los permisos CHMOD cambiados. No escriba acá la IP o el nombre del servidor, sólo el camino del directorio.<br />Por ejemplo: /home/web/uploads',
 	'Ftp_download_path' => 'Link de baja al FTP',
-	'Ftp_download_path_explain' => 'Escriba la url de su servidor FTP, donde los archivos están guardados.<br />Si está usando un FTP remoto ponga la ruta completa, por ejemplo, http://www.mystorage.com/phpBB2/upload.<br />Si está usando un servidor local para los archivos, puede ingresar una ruta relativa, por ejemplo \'upload\'.<br />La barra inicial será removida. Deje este campo en blanco si la ruta no es accesible desde internet. Con este campo en blanco no podrá habilitar el modo de baja fisico.',
+	'Ftp_download_path_explain' => 'Escriba la url de su servidor FTP, donde los archivos están guardados.<br />Si está usando un FTP remoto ponga la ruta completa, por ejemplo, http://www.mystorage.com/phpBB2/upload.<br />Si está usando un servidor local para los archivos, puede ingresar una ruta relativa, por ejemplo \'upload\'.<br />La barra inicial será removida. Deje este campo en blanco si la ruta no es accesible desde internet. Con este campo en blanco no podrá habilitar el modo de baja físico.',
 	'Ftp_passive_mode' => 'Habilitar FTP pasivo',
 	'Ftp_passive_mode_explain' => 'El comando PASV pide al servidor remoto abrir una conexión para los datos y devolver la dirección de este puerto. El servidor remoto se queda escuchando en ese puerto esperando una conexión por parte del cliente.',
 
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 // Extensions -> Special Categories
 	'Manage_categories' => 'Administrar categorías especiales',
 	'Manage_categories_explain' => 'Aquí puede configurar categorías especiales. Puede elegir parámetros especiales y asignaciones para las categorías especiales de un grupo de extensiones',
-	'Settings_cat_images' => 'Configuraciones para la categoria: imágenes',
+	'Settings_cat_images' => 'Configuraciones para la categoría: imágenes',
 	'Settings_cat_streams' => 'Configuraciones para la categoría: archivos de audio',
 	'Settings_cat_flash' => 'Configuraciones para la categoría: archivos en flash',
 	'Display_inlined' => 'Mostrar imágenes en línea',
@@ -157,18 +157,18 @@ $lang = array_merge($lang, array(
 	'Image_search_imagick' => 'Buscar imagick',
 
 	'Use_gd2' => 'Crear usando la extensión GD2',
-	'Use_gd2_explain' => 'PHP puede compilar con la extension GD1 o GD2 para manipular la imagen. Para crear correctamente las miniaturas sin imagemagick, el MOD de adjuntos utiliza dos métodos basados en lo que selecciones aquí. Si sus miniaturas aparecen con mala calidad o se descuadran para arriba, intente cambiar este ajuste.',
+	'Use_gd2_explain' => 'PHP puede compilar con la extensión GD1 o GD2 para manipular la imagen. Para crear correctamente las miniaturas sin imagemagick, el MOD de adjuntos utiliza dos métodos basados en lo que selecciones aquí. Si sus miniaturas aparecen con mala calidad o se descuadran para arriba, intente cambiar este ajuste.',
 	'Attachment_version' => 'Version de MOD de adjuntos (Attachment MOD) %s', // %s is the version number
 
 // Extensions -> Forbidden Extensions
 	'Manage_forbidden_extensions' => 'Administrar extensiones prohibidas',
-	'Manage_forbidden_extensions_explain' => 'Aquí puede agregar extensiones prohibidas. Las extensiones php, php3 and php4 estan prohibidas por seguridad, no puede habilitarlas.',
+	'Manage_forbidden_extensions_explain' => 'Aquí puede agregar extensiones prohibidas. Las extensiones php, php3 and php4 están prohibidas por seguridad, no puede habilitarlas.',
 	'Forbidden_extension_exist' => 'La extensión %s ya está prohibida', // replace %s with the extension
 	'Extension_exist_forbidden' => 'La extensión %s está en las extensiones permitidas. Antes de prohibirla, deshabilítela.',  // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
 	'Group_permissions_title' => 'Permisos de grupos de extensiones -> \'%s\'', // Replace %s with the Groups Name
-	'Group_permissions_explain' => 'Aquí puede restringir extensiones del foro que quiera (definido en el cuadro de foros permitidos). La opción predeterminada es TODOS los grupos de extensiones en todos los foros (como hacía el attachmente MOD desde su primera version). Sólo agregue los foros a los grupos permitidos para habilitarlos. La opción predeterminada TODOS desaparecerá cuando agregue foros a la lista. En todo caso, puede volver a TODOS en cualquier momento. Si agrega un foro nuevo a su sitio y los permisos están en TODOS, nada cambiará. Pero si ya había restringido el uso de las extensiones en los foros, deberá aplicarlo otra vez a todos los foros nuevos. Es fácil hacer eso automáticamente, pero forzaría el tener que editar muchos archivos',
+	'Group_permissions_explain' => 'Aquí puede restringir extensiones del foro que quiera (definido en el cuadro de foros permitidos). La opción predeterminada es TODOS los grupos de extensiones en todos los foros (como hacía el attachmente MOD desde su primera versión). Sólo agregue los foros a los grupos permitidos para habilitarlos. La opción predeterminada TODOS desaparecerá cuando agregue foros a la lista. En todo caso, puede volver a TODOS en cualquier momento. Si agrega un foro nuevo a su sitio y los permisos están en TODOS, nada cambiará. Pero si ya había restringido el uso de las extensiones en los foros, deberá aplicarlo otra vez a todos los foros nuevos. Es fácil hacer eso automáticamente, pero forzaría el tener que editar muchos archivos',
 	'Note_admin_empty_group_permissions' => 'NOTA:<br />Dentro de los foros, en la parte inferior se permite a sus usuarios adjuntar archivos. Pero puesto que no se permite a ningun grupo de usuarios adjuntar archivos, sus usuarios no pueden adjuntar archivos. Si lo intentan, recibirán mensajes de error. Quizá quiera fijar los permisos del ADMIN en \'Archivos en mensajes\' de estos foros.<br /><br />',
 	'Add_forums' => 'Agregar foros',
 	'Add_selected' => 'Agregar seleccionados',
@@ -192,8 +192,8 @@ $lang = array_merge($lang, array(
 	'Size_greater_than' => 'Tamaño mayor que (bytes)',
 	'Count_smaller_than' => 'Contador de bajadas menor a',
 	'Count_greater_than' => 'Contador de bajadas mayor a',
-	'More_days_old' => 'Que tenga más de esta cantidad de dias de antigüedad',
-	'No_attach_search_match' => 'No se ha encontrado ningun adjunto con las características que buscó',
+	'More_days_old' => 'Que tenga más de esta cantidad de días de antigüedad',
+	'No_attach_search_match' => 'No se ha encontrado ningún adjunto con las características que buscó',
 
 // Control Panel -> Statistics
 	'Number_of_attachments' => 'Cantidad de archivos adjuntos',

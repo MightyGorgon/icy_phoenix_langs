@@ -61,6 +61,8 @@ $lang = array_merge($lang, array(
 	'Album_delete_can' => '<b>Puede</b> borrar sus imágenes y comentarios en esta categoría',
 	'Album_delete_cannot' => '<b>No puede</b> borrar sus imágenes y comentarios en esta categoría',
 */
+	'Album_view_can' => '<b>Puede</b> ver imágenes',
+	'Album_view_cannot' => '<b>No puede</b> ver imágenes',
 	'Album_upload_can' => '<b>Puede</b> subir nuevas imágenes',
 	'Album_upload_cannot' => '<b>No puede</b> subir nuevas imágenes',
 	'Album_rate_can' => '<b>Puede</b> valorar imágenes',
@@ -110,7 +112,7 @@ $lang = array_merge($lang, array(
 	'Album_reached_quota' => 'Esta categoría ha sobrepasado el límite de la cuota de imágenes. Ahora no puede subir más imágenes. Por favor, contacte con los administradores para más información',
 	'User_reached_pics_quota' => 'Ha sobrepasado su cuota de imágenes. Ahora no puede subir más imágenes. Por favor, contacte con los administradores para más información',
 
-	'No_valid_category_selected' => 'Categoria seleccionada no válida',
+	'No_valid_category_selected' => 'Categoría seleccionada no válida',
 	'No_category_to_upload' => 'Desafortunadamente, en este momento no hay categorías donde pueda subir imágenes.',
 	'Not_allowed_file_type' => 'Su tipo de imagen no está permitido',
 	'Upload_image_size_too_big' => 'La dimensión de su imagen es muy grande',
@@ -133,7 +135,7 @@ $lang = array_merge($lang, array(
 	'Skipping_uploaded_picture_and_thumbnail_file' => 'Imagen: %s | Vista previa: %s<br/>',
 	'Album_upload_not_successful' => 'Ninguna de sus imágenes se ha subido correctamente.<br/><br/>',
 	'Album_upload_partially_successful' => 'Sólo parte de las imágenes se han subido correctamente.<br/><br/>',
-	'No_pictures_selected_for_upload' => 'No se ha selecionado ninguna imagen o ha habido un error desconocido.',
+	'No_pictures_selected_for_upload' => 'No se ha seleccionado ninguna imagen o ha habido un error desconocido.',
 
 // 'Bad_upload_file_size' => 'Your uploaded file is too large or corrupted',
 // 'Album_upload_successful' => 'Your pic has been uploaded successfully',
@@ -230,7 +232,7 @@ $lang = array_merge($lang, array(
 // Personal Gallery
 	'Personal_Gallery_Explain' => 'Puede ver las galerías personales de otros usuarios pinchando en el enlace de sus perfiles',
 	'Personal_gallery_not_created' => 'La galería personal de %s está vacía o no ha sido creada',
-	'Not_allowed_to_create_personal_gallery' => 'Lo sentimos, los admiministradores de este foro no le permiten crear su galería personal',
+	'Not_allowed_to_create_personal_gallery' => 'Lo sentimos, los administradores de este foro no le permiten crear su galería personal',
 	'Click_return_personal_gallery' => 'Pulse %saquí%s para volver a su galería personal',
 
 // Download Archive
@@ -240,7 +242,7 @@ $lang = array_merge($lang, array(
 
 // Email Notification
 	'Email_Notification' => 'Notificación por correo de álbum',
-	'Email_Notification_Explain' => 'Este ajuste permite a los administradores recibir una notificacion cuando se envia una nueva imagen al álbum',
+	'Email_Notification_Explain' => 'Este ajuste permite a los administradores recibir una notificación cuando se envía una nueva imagen al álbum',
 	'Approvation_OK' => 'Aprobada',
 	'Approvation_NO' => 'No aprobada',
 
@@ -248,13 +250,13 @@ $lang = array_merge($lang, array(
 	'Last_Comment' => 'Último comentario',
 	'Last_Comments' => 'Últimos comentarios',
 	'No_Comment_Info' => 'Sin comentarios',
-	'No_Pictures_In_Cat' => 'No hay imágenes en esta categoria',
+	'No_Pictures_In_Cat' => 'No hay imágenes en esta categoría',
 	'Total_Pics' => 'Imágenes en total',
 	'Total_Comments' => 'Comentarios en total',
 	'Last_Index_Thumbnail' => 'Última imagen',
 	'One_Sub_Total_Pics' => '%d imagen',
 	'Multiple_Sub_Total_Pics' => '%d imágenes',
-	'Album_sub_categories' => 'Sub categorias',
+	'Album_sub_categories' => 'Sub categorías',
 	'No_Public_Galleries' => 'No hay galerías públicas',
 	'One_new_picture' => '%d nueva imagen',
 	'Multiple_new_pictures' => '%d nuevas imágenes',
@@ -262,7 +264,7 @@ $lang = array_merge($lang, array(
 // Personal Album Hierarchy Index Table
 	'Personal_Categories' => 'Galería personal',
 	'Create_Personal_Categories' => 'Crear galería personal',
-	'Personal_Cat_Admin' => 'Administrar la categoria de galería personal',
+	'Personal_Cat_Admin' => 'Administrar la categoría de galería personal',
 	'Recent_Personal_Pics' => 'Imágenes recientes en la galería personal de %s',
 
 // Album Moderator Control Panel
@@ -278,7 +280,7 @@ $lang = array_merge($lang, array(
 	'No_Personal_Category_admin' => 'No tiene permitido administrar las categorías de su galería personal',
 
 // The picture list of a member (album_mod/album_memberlist.php)
-	'Pic_Cat' => 'Categoria',
+	'Pic_Cat' => 'Categoría',
 	'Picture_List_Of_User' => 'Todas las imágenes son de %s',
 	'Member_Picture_List_Explain' => 'Puede ver la lista completa de las imágenes de otros usuarios pinchando en el enlace de su perfil',
 	'Comment_List_Of_User' => 'Todos los comentarios de %s',
@@ -301,7 +303,7 @@ $lang = array_merge($lang, array(
 	'Nuff_Click' => 'Pinche aquí para aplicar efectos especiales',
 	'Nuff_UnClick' => 'Pinche aquí para una visualización normal',
 	'Nuff_Title' => 'Efectos especiales',
-	'Nuff_Explain' =>'Usando esta página puede aplicar múltiples efectos especiales a las imágenes.<br />Recuerde que esta es una<i><b>operación muy pesada para el servidor</b></i>, por lo que no debe abusar de ella. Algunos efectos serán automaticamente ajustados para no sobrecargar demasiado el servidor.',
+	'Nuff_Explain' =>'Usando esta página puede aplicar múltiples efectos especiales a las imágenes.<br />Recuerde que esta es una<i><b>operación muy pesada para el servidor</b></i>, por lo que no debe abusar de ella. Algunos efectos serán automáticamente ajustados para no sobrecargar demasiado el servidor.',
 	'Nuff_Normal' => 'Imagen normal',
 	'Nuff_Normal_Explain' => 'Ningún efecto se aplicó',
 	'Nuff_BW' => 'Blanco y negro',
@@ -340,13 +342,13 @@ $lang = array_merge($lang, array(
 	'Nuff_Interlace' => 'Entrelazado (Líneas horizontales)',
 	'Nuff_Interlace_Explain' => 'Este efecto recubrirá de un canal de entrelazado a la imagen',
 	'Nuff_Screen' => 'Pantalla (Linea horizontal vertical)',
-	'Nuff_Screen_Explain' => 'Este efecto cubrira de un canal de pantalla a la imagen',
+	'Nuff_Screen_Explain' => 'Este efecto cubrirá de un canal de pantalla a la imagen',
 	'Nuff_Stereogram' => 'Estereograma',
 	'Nuff_Stereogram_Explain' => 'Este efecto convertirá la imagen en un estereograma (se requiere BW 16 bit)',
 
 	'Pic_Gallery' => 'Galería al vuelo',
 	'Select_Pic' => 'Seleccionar imagen',
-	'Select_Category' => 'Seleccionar categoria',
+	'Select_Category' => 'Seleccionar categoría',
 	'Title_Description' => 'Título &amp; descripción',
 
 // Pic watch

@@ -161,9 +161,9 @@ $lang = array_merge($lang, array(
 
 	'Incomplete_configuration' => 'El ajuste para <b>%s</b> no fue encontrado en la configuración del foro.  El mantenimiento de la BD no puede funcionar sin este ajuste.<br />Usted se olvidó quizá de ejecutar la consulta SQL según lo descrito en las instrucciones de instalación.',
 	'dbtype_not_supported' => 'Perdone, esta función no es soportada por su base de datos',
-	'no_function_specified' => 'No se especificó ninguna funcion',
+	'no_function_specified' => 'No se especificó ninguna función',
 	'function_unknown' => 'La función especificada es desconocida',
-	'Old_MySQL_Version' => 'Perdone, su version de MySQL no soporta esta función. Por favor, use la version 3.23.17 o posterior.',
+	'Old_MySQL_Version' => 'Perdone, su version de MySQL no soporta esta función. Por favor, use la versión 3.23.17 o posterior.',
 
 	'Back_to_DB_Maintenance' => 'Volver a mantenimiento de base de datos',
 	'Processing_time' => 'Mantenimiento de BD tardó %f segundos en hacer las operaciones',
@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'Sync_topics_subjects' => 'Sincronizar títulos de temas',
 	'Sync_topics_subjects_progress' => 'Sincronización en progreso',
 // rebuild_search_index
-	'Rebuilding_search_index' => 'Reconstruír el índice de búsqueda',
+	'Rebuilding_search_index' => 'Reconstruir el índice de búsqueda',
 	'Deleting_search_tables' => 'Vaciar tablas de búsqueda',
 	'Reset_search_autoincrement' => 'Actualizar el contador de las tablas de búsqueda',
 	'Preparing_config_data' => 'Fijar datos de configuración',
@@ -502,12 +502,12 @@ $lang = array_merge($lang, array(
 	'rdb_info' => 'Cuando proceda, las tablas de la base de datos serán reparadas.',
 	'cct_info' => 'Cuando proceda, la tabla de la configuración será comprobada y las entradas que falten serán restauradas.',
 	'rpd_info' => 'Cuando proceda, los datos de la configuración serán actualizados si se selecciona el ajuste recomendado.',
-	'rcd_info' => 'Cuando proced,a los datos de las cookies serán actualizados. La opción de si hay que poner una cookie segura o no se puede encontrar bajo \'Reset path data\'.',
+	'rcd_info' => 'Cuando proceda, los datos de las cookies serán actualizados. La opción de si hay que poner una cookie segura o no se puede encontrar bajo \'Reset path data\'.',
 	'rld_info' => 'Cuando proceda, el lenguaje seleccionado será usado tanto para el foro como para el usuario usado para autentificar.',
 	'rtd_info' => 'Cuando proceda, cualquier estilo seleccionado será usado tanto para el foro como para el usuario usado para autentificar, o el tema por defecto (ca_aphrodite) será restaurado y usado para el foro y el usuario.',
 	'rtd_info_no_theme' => 'Cuando proceda, el tema por defecto (ca_aphrodite) será reconstruido y utilizado tanto para el foro como para el usuario usado para autentificar.',
 	'dgc_info' => 'Cuando proceda, la compresión gzip será desactivada.',
-	'cbl_info' => 'Cuando proceda, la lista de BAN y los usuarios excluidos seran limpiados.',
+	'cbl_info' => 'Cuando proceda, la lista de BAN y los usuarios excluidos serán limpiados.',
 	'raa_info' => 'Cuando proceda, todos los administradores serán fijados como usuarios normales. Si utiliza una cuenta de administrador para autentificarse, la cuenta usada para autentificación mantendrá su nivel de administrador.',
 	'mua_info' => 'Cuando proceda, se le concederán al usuario permisos de administrador. El usuario también será activado.',
 	'rcp_info' => 'Cuando proceda, un nuevo config.php será creado con la información entregada.',
@@ -519,7 +519,7 @@ $lang = array_merge($lang, array(
 	'cct_success' => 'La tabla de configuración fue comprobada.',
 	'rcd_success' => 'Los datos de la cookie fueron actualizados.',
 	'rld_success' => 'Los datos del lenguaje fueron actualizados.',
-	'rld_failed' => 'Los achivos requeridos del lenguaje (lang_main.' . PHP_EXT . ' and lang_admin.' . PHP_EXT . ') no existen.',
+	'rld_failed' => 'Los archivos requeridos del lenguaje (lang_main.' . PHP_EXT . ' and lang_admin.' . PHP_EXT . ') no existen.',
 	'rtd_restore_success' => 'El estilo por defecto fue restaurado.',
 	'rtd_success' => 'Los datos del estilo fueron actualizados.',
 	'dgc_success' => 'La compresión gzip fue desactivada.',
@@ -528,11 +528,11 @@ $lang = array_merge($lang, array(
 	'raa_success' => 'Todos los administradores fueron removidos.',
 	'mua_success' => 'El usuario seleccionado ahora tiene privilegios de administrador.',
 	'mua_failed' => '<b>Error:</b> El usuario seleccionado no existe o ya tiene los permisos de administrador.',
-	'rcp_success' => "Copie el texto a un archivo de texto, renómbrelo a <b>config.php</b> y súbalo al directorio raíz de su foro. Por favor, asegúrese de que no haya carácteres (incluyendo los espacios y saltos de línea) antes del <b>&lt;?php</b> y despues de <b>?&gt;</b>.<br /> También puede %sdescargar%s el archivo a su ordenador.",
+	'rcp_success' => "Copie el texto a un archivo de texto, renómbrelo a <b>config.php</b> y súbalo al directorio raíz de su foro. Por favor, asegúrese de que no haya caracteres (incluyendo los espacios y saltos de línea) antes del <b>&lt;?php</b> y después de <b>?&gt;</b>.<br /> También puede %sdescargar%s el archivo a su ordenador.",
 // Text for success messages
 	'Removing_admins' => 'Borrando administradores',
 // Help Text
-	'Option_Help_Text' => '<p>Si se le avisa de que hubo un error al crear una sesión o tal, puede limpiar los datos de la sesión seleccionando <b>Limpiar todas las sesiones</b>. Si tiene problemas con el acceso a las tablas de la base de datos, puede repararlas seleccionando <b>Reparar las tablas de la base de datos</b>. <b>Comprobar tabla de configuración</b> comprobará la tabla de configuración para saber si hay entradas que faltan, lo que 	puede ser provechoso para varios tipos de errores.</p><p>Si no puede loguearse o entrar al panel de administración, puede haber un fallo en la ruta de su cookie. Puede resetearla con <b>Actualizar información de la ruta</b> o <b>Actualizar datos de la cookie</b>. También puede actualizar los ajustes del lenguaje con <b>Actualizar datos del lenguaje</b>, o los datos de la plantilla con <b>Actualizar datos de plantilla</b>.</p><p>Si ocurren problemas tras activar la compresión gzip, puede desactivarla seleccionando <b>Desactivar compressión gzip</b>.</p><p>Si perdió la contraseña de su cuenta, puede conceder privilegios de administración a un usuario seleccionando <b>Conceder a un usuario privilegios de admin</b>. Esto también activará al usuario, así que puede utilizar a un usuario creado justo antes. Si no puede agregar a un nuevo usuario, puede limpiar la lista de baneos con <b>Limpiar lista de BAN</b> (esto también restaurará al usuario anónimo).</p><p>Si su foro fue hackeado, se recomienda que quite todas las cuentas de administrador, seleccionando <b>Remover a todos los administradores</b>. (La cuenta en sí no será eliminada, pero los permisos serán removidos.)</p><p>Si necesita restaurar su config.php, puede hacerlo seleccionando <b>Reconstruir config.php</b>.</p>',
+	'Option_Help_Text' => '<p>Si se le avisa de que hubo un error al crear una sesión o tal, puede limpiar los datos de la sesión seleccionando <b>Limpiar todas las sesiones</b>. Si tiene problemas con el acceso a las tablas de la base de datos, puede repararlas seleccionando <b>Reparar las tablas de la base de datos</b>. <b>Comprobar tabla de configuración</b> comprobará la tabla de configuración para saber si hay entradas que faltan, lo que 	puede ser provechoso para varios tipos de errores.</p><p>Si no puede loguearse o entrar al panel de administración, puede haber un fallo en la ruta de su cookie. Puede resetearla con <b>Actualizar información de la ruta</b> o <b>Actualizar datos de la cookie</b>. También puede actualizar los ajustes del lenguaje con <b>Actualizar datos del lenguaje</b>, o los datos de la plantilla con <b>Actualizar datos de plantilla</b>.</p><p>Si ocurren problemas tras activar la compresión gzip, puede desactivarla seleccionando <b>Desactivar compresión gzip</b>.</p><p>Si perdió la contraseña de su cuenta, puede conceder privilegios de administración a un usuario seleccionando <b>Conceder a un usuario privilegios de admin</b>. Esto también activará al usuario, así que puede utilizar a un usuario creado justo antes. Si no puede agregar a un nuevo usuario, puede limpiar la lista de baneos con <b>Limpiar lista de BAN</b> (esto también restaurará al usuario anónimo).</p><p>Si su foro fue hackeado, se recomienda que quite todas las cuentas de administrador, seleccionando <b>Remover a todos los administradores</b>. (La cuenta en sí no será eliminada, pero los permisos serán removidos.)</p><p>Si necesita restaurar su config.php, puede hacerlo seleccionando <b>Reconstruir config.php</b>.</p>',
 
 	'dbmntc_Invalid_Option' => 'Opción inválida',
 	)

@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 		'Editar plantillas',
 		'Editar estilos',
 		'Exportar base de datos',
-		'Comprobar actualizaciónes',
+		'Comprobar actualizaciones',
 	),
 
 /*
@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 
 	'xs_ftp_comment1' => 'Para utilizar esta característica, debe seleccionar el método para subir el archivo. Si selecciona FTP, la contraseña no será almacenada y eXtreme Styles le pedirá la contraseña cada vez que seleccione funciones que requieran el acceso al FTP. Si selecciona el sistema de ficheros local, debe asegurarse de que todos los directorios requeridos pueden ser escritos.',
 	'xs_ftp_comment2' => 'Para utilizar esta característica, debe fijar los ajustes del FTP. La contraseña no será almacenada y eXtreme Styles le pedirá la contraseña cada vez que seleccione funciones que requieran el acceso al FTP.',
-	'xs_ftp_comment3' => 'Advertencia:  Las funciones del FTP están desactivadas en este servidor. No podrá utilizar las funciones de eXtreme Styles que requieran el acceso al FTP.',
+	'xs_ftp_comment3' => 'Advertencia: Las funciones del FTP están desactivadas en este servidor. No podrá utilizar las funciones de eXtreme Styles que requieran el acceso al FTP.',
 
 	'xs_ftp_title' => 'Configuración FTP',
 
@@ -163,7 +163,7 @@ $lang = array_merge($lang, array(
 	'xs_ftp_log_chdir' => 'Directorio cambiado a {DIR}',
 	'xs_ftp_log_noupload' => 'Error: No se pudo subir el archivo {FILE}',
 	'xs_ftp_log_upload' => 'Archivo {FILE} subido ',
-	'xs_ftp_log_nochmod' => 'Advertencia:  No se permite cambiar el CHMOD del archivo {FILE}',
+	'xs_ftp_log_nochmod' => 'Advertencia: No se permite cambiar el CHMOD del archivo {FILE}',
 	'xs_ftp_log_chmod' => 'CHMOD del archivo {FILE} a {MODE}',
 	'xs_ftp_log_invalidcommand' => 'Error. Comando desconocido: {COMMAND}',
 	'xs_ftp_log_chdir2' => 'Cambiando directorio actual a {DIR}',
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 */
 	'xs_config_updated' => 'Configuración actualizada.',
 	'xs_config_updated_explain' => 'Debe actualizar esta página para que la nueva configuración tenga efecto. <a href="{URL}">Pulse aquí</a > para actualizar la página.',
-	'xs_config_warning' => 'Advertencia:  el caché no pudo ser escrito.',
+	'xs_config_warning' => 'Advertencia: el caché no pudo ser escrito.',
 	'xs_config_warning_explain' => 'No se puede escribir en el directorio caché.  eXtreme Styles puede intentar arreglar este problema.<br/> <a href="{URL}">Pulse aquí</a > para intentar cambiar el modo de acceso al directorio caché .<br/> <br/> Si el caché no funciona en su servidor, no se preocupe - eXtreme Styles<br /> muchas veces aumenta la velocidad del foro, incluso sin caché.',
 
 	'xs_config_maintitle' => 'Configuración de eXtreme Styles MOD',
@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 	'xs_config_tpl_comments_explain' => 'Agrega comentarios al código HTML que permiten que los diseñadores del estilo detecten qué archivo TPL se está mostrando.',
 
 	'xs_config_use_cache' => 'Usar caché',
-	'xs_config_use_cache_explain' => 'El caché se guarda en el disco y acelera el sistema de plantillas al no haber necesidad de compilar la plantilla cada vez que se muestra .',
+	'xs_config_use_cache_explain' => 'El caché se guarda en el disco y acelera el sistema de plantillas al no haber necesidad de compilar la plantilla cada vez que se muestra.',
 
 	'xs_config_auto_compile' => 'Guardar caché automáticamente',
 	'xs_config_auto_compile_explain' => 'Esto compilará automáticamente las plantillas que no se depositen y no se guarden en el directorio caché.',
@@ -322,7 +322,7 @@ $lang = array_merge($lang, array(
 	'xs_add_styles_upload_get' => 'Subir',
 
 	'xs_export_style' => 'Exportar estilo',
-	'xs_export_style_explain' => 'Le permite exportar un estilo como un solo archivo. Este archivo es muy pequeño, más pequeño que un archivo .zip (porque está compromido con gzip, que trabaja mejor que zip), y todos los estilos de su interior son un solo archivo. Así, es muy fácil transferir estilos de un foro a otro.<br /><br />Esta característica también le permite subir estilos exportados usando el FTP a un servidor. Este sistema permite transferir un estilo a otro foro rápidamente sin copiarlo manualmente.',
+	'xs_export_style_explain' => 'Le permite exportar un estilo como un solo archivo. Este archivo es muy pequeño, más pequeño que un archivo .zip (porque está comprimido con gzip, que trabaja mejor que zip), y todos los estilos de su interior son un solo archivo. Así, es muy fácil transferir estilos de un foro a otro.<br /><br />Esta característica también le permite subir estilos exportados usando el FTP a un servidor. Este sistema permite transferir un estilo a otro foro rápidamente sin copiarlo manualmente.',
 
 	'xs_export_style_title' => 'Exportar plantilla "{TPL}"',
 	'xs_export_tpl_name' => 'Exportar como (nombre de plantilla)',
@@ -591,7 +591,7 @@ $lang = array_merge($lang, array(
 	'xs_update_noupdate' => 'Está usando la ultima versión.',
 
 	'xs_update_error_url' => 'Error: no se puede recuperar el URL %s',
-	'xs_update_error_noitem' => 'Error: no hay información disponible sobre la actualizacion',
+	'xs_update_error_noitem' => 'Error: no hay información disponible sobre la actualización',
 	'xs_update_error_noconnect' => 'Error: no se puede conectar al servidor de actualizaciones',
 
 	'xs_update_download' => 'Descargar',

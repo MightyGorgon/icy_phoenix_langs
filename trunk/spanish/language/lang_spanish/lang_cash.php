@@ -139,7 +139,7 @@ $lang['User_updated'] = '%s actualizado<br />';
 $lang['Cash_exchange'] = 'Intercambios de Cash MOD';
 $lang['Cash_exchange_explain'] = 'El siguiente formulario permite establecer valores relativos de tus monedas, y permitir a los usuarios intercambiarlas.';
 
-$lang['Exchange_insufficient_currencies'] = 'No tienes suficientes monedas creadas para establecer valores dr intercambio<br />Al menso necesitas 2';
+$lang['Exchange_insufficient_currencies'] = 'No tienes suficientes monedas creadas para establecer valores de intercambio<br />Al menso necesitas 2';
 
 // Forums
 $lang['Forum_cm_settings'] = 'Preferencias de Cash MOD';
@@ -166,12 +166,12 @@ $lang['Cmh_translations'] = 'Traducciones';
 $lang['Cmh_features'] = 'Caracteristicas';
 
 $lang['Cmhe_support'] = 'Información general';
-$lang['Cmhe_troubleshooting'] = 'Si tienes problemas con Cash MOD, mira aqui los parches';
+$lang['Cmhe_troubleshooting'] = 'Si tienes problemas con Cash MOD, mira aquí los parches';
 $lang['Cmhe_upgrading'] = 'Actualmente posees la versión %s, las actualizaciones serán puestas aquí';
-$lang['Cmhe_addons'] = 'Lista de MODs que aprovechan las caracteristicas de Cash MOD';
+$lang['Cmhe_addons'] = 'Lista de MODs que aprovechan las características de Cash MOD';
 $lang['Cmhe_demo_boards'] = 'Lista de foros de ejemplo que utilizan Cash MOD';
 $lang['Cmhe_translations'] = 'Lista de traducciones para Cash MOD';
-$lang['Cmhe_features'] = 'Lista de caracteristicas de Cash MOD, y desarrollo de proximas versiones';
+$lang['Cmhe_features'] = 'Lista de características de Cash MOD, y desarrollo de próximas versiones';
 
 // Logs
 $lang['Logs'] = 'Logs de Cash MOD';
@@ -192,7 +192,7 @@ $lang['Cash_settings_updated'] = 'Preferencias de Cash MOD actualizadas correcta
 $lang['Cash_enabled'] = 'Activar moneda';
 $lang['Cash_custom_currency'] = 'Moneda personalizada';
 $lang['Cash_image'] = 'Mostrar moneda como imagen';
-$lang['Cash_imageurl'] = 'Imagen (Relativa a la raiz del sitio phpBB2):';
+$lang['Cash_imageurl'] = 'Imagen (Relativa a la raíz del sitio phpBB2):';
 $lang['Cash_imageurl_explain'] = 'Usa esto para definir una pequeña imagen relativa a la moneda';
 $lang['Prefix'] = 'Prefijo';
 $lang['Postfix'] = 'Sufijo';
@@ -216,13 +216,13 @@ $lang['Cash_allow_mod_edit'] = 'Permite a los moderadores modificar el dinero de
 $lang['Cash_allow_negative'] = 'Permite a los usuarios tener cantidades de dinero negativas';
 
 $lang['Cash_allowance_enabled'] = 'Activar subenciones';
-$lang['Cash_allowance_amount'] = 'Cantidad de dinero ahorrado en subenciones';
-$lang['Cash_allownace_frequency'] = 'Cada cuanto son ofrecidas las subenciones';
+$lang['Cash_allowance_amount'] = 'Cantidad de dinero ahorrado en subvenciones';
+$lang['Cash_allownace_frequency'] = 'Cada cuanto son ofrecidas las subvenciones';
 $lang['Cash_allownace_frequencies'][CASH_ALLOW_DAY] = 'Día';
 $lang['Cash_allownace_frequencies'][CASH_ALLOW_WEEK] = 'Semana';
 $lang['Cash_allownace_frequencies'][CASH_ALLOW_MONTH] = 'Mes';
 $lang['Cash_allownace_frequencies'][CASH_ALLOW_YEAR] = 'Año';
-$lang['Cash_allowance_next'] = 'Tiempo hasta la próxima subención';
+$lang['Cash_allowance_next'] = 'Tiempo hasta la próxima subvención';
 
 // Groups
 $lang['Cash_status_type'][CASH_GROUPS_DEFAULT] = 'Defecto';

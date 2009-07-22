@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'Del_topic_explain' => 'Cuando borre un artículo, ¿quiere que se borren también los comentarios del tema?',
 
 	'Use_comments' => 'Comentarios',
-	'Use_comments_explain' => 'Permitir comentarios en artículos. Seran insertados en el foro phpBB.',
+	'Use_comments_explain' => 'Permitir comentarios en artículos. Serán insertados en el foro phpBB.',
 	'Use_ratings' => 'Valoración',
 	'Use_ratings_explain' => 'Permitir votos en artículos',
 
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'KB_Auth_Title' => 'Permisos biblioteca',
 	'KB_Auth_Explain' => 'Aquí puede elegir qué grupo de usuarios pueden ser los moderadores para cada categoría de la biblioteca, o si tiene acceso privado',
 	'Select_a_Category' => 'Seleccionar la categoría',
-	'Look_up_Category' => 'Ver categoria',
+	'Look_up_Category' => 'Ver categoría',
 	'KB_Auth_successfully' => 'Permisos actualizados correctamente',
 	'Click_return_KB_auth' => 'Pulsar %saquí%s para volver a permisos de biblioteca',
 
@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 	'Allow_rating_explain' => 'Permitir a usuarios votar artículos.',
 
 	'Allow_anonymos_rating' => 'Permitir votar a anónimos',
-	'Allow_anonymos_rating_explain' => 'Si las valoraciones o votos estan activados, permite a los usuarios invitados añadir valoraciones a sus articulos',
+	'Allow_anonymos_rating_explain' => 'Si las valoraciones o votos están activados, permite a los usuarios invitados añadir valoraciones a sus artículos',
 
 	'KB_config_updated' => 'Biblioteca actualizada con éxito.',
 
@@ -239,7 +239,7 @@ $lang = array_merge($lang, array(
 
 	'Type_delete_title' => 'Borrar tipo de artículo',
 	'Type_delete_desc' => 'Aquí puede cambiar a otro tipo los artículos que tienen este tipo que está borrando.',
-	'Change_type' => 'Cambiar articulos a tipo:',
+	'Change_type' => 'Cambiar artículos a tipo:',
 	'Change_and_Delete' => 'Cambiar y borrar',
 	'Type_deleted' => 'Tipo de articulo borrado correctamente.',
 
@@ -271,9 +271,9 @@ $lang = array_merge($lang, array(
 // added
 
 	'Edited_Article_info' => 'Artículo actualizado...',
-	'No_Articles' => '¡Esta categoría está vacia!',
+	'No_Articles' => '¡Esta categoría está vacía!',
 	'Not_authorized' => 'Usted no tiene autorización...',
-	'TOC' => 'Contentarios',
+	'TOC' => 'Contenidos',
 
 // Rate
 	'Votes_label' => 'Valoración ',
@@ -414,8 +414,8 @@ $lang = array_merge($lang, array(
 	'Quick_nav' => 'Navegación biblioteca',
 	'Quick_jump' => 'Ir',
 
-	'Categories' => 'Categorias',
-	'Subcategory' => 'SubCategoria',
+	'Categories' => 'Categorías',
+	'Subcategory' => 'SubCategoría',
 	)
 );
 

@@ -28,7 +28,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang['Mini_Cal_calendar'] = 'Calendario';
 $lang['Mini_Cal_add_event'] = 'Añadir eventos';
-$lang['Mini_Cal_events'] = 'Proximos eventos';
+$lang['Mini_Cal_events'] = 'Próximos eventos';
 $lang['Mini_Cal_no_events'] = 'Ninguno';
 
 // uses MySQL DATE_FORMAT - %c  long_month, numeric (1..12) - %e  Day of the long_month, numeric (0..31)

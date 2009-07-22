@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	'BBUS_Col_Descriptions_Caption' => 'Descripción de la columna',
 
-	'BBUS_Msg_NoPosts' => 'El usuario no tiene mensajes en ningun foro.',
+	'BBUS_Msg_NoPosts' => 'El usuario no tiene mensajes en ningún foro.',
 	'BBUS_Unpruned_Posts' => 'Total mensajes borrados',
 	'BBUS_Scale_By' => 'Ratio por:',
 

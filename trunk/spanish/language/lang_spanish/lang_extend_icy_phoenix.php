@@ -46,7 +46,7 @@ if ($lang_extend_admin)
 
 // TAB - Icy Phoenix
 		'IP_enable_xs_version_check' => 'Activar comprobación de versión Icy Phoenix',
-		'IP_enable_xs_version_check_explain' => 'Activando esta opción cada vez que acceda a la ACP se comprobará si posee la última versión disponible de Icy Phoenix para descargar. Desactivando esta opción puede accelerar un poco la carga de la ACP. No obastante, la comprobación se hará una vez al día y luego permanecerá en el cache.',
+		'IP_enable_xs_version_check_explain' => 'Activando esta opción cada vez que acceda a la ACP se comprobará si posee la última versión disponible de Icy Phoenix para descargar. Desactivando esta opción puede accelerar un poco la carga de la ACP. No obstante, la comprobación se hará una vez al día y luego permanecerá en el cache.',
 
 		'IP_disable_email_error' => 'Deshabilitar errores al enviar correos',
 
@@ -76,7 +76,7 @@ if ($lang_extend_admin)
 		'IP_switch_header_dropdown_explain' => 'Esto activará un menú desplegable en la cabecera del foro para la búsqueda y los mensajes',
 
 		'IP_show_alpha_bar' => 'Mostrar barra de orden alfabético en la vista de foros (Configuración global)',
-		'IP_show_alpha_bar_explain' => 'Esta característica mostrará una barra de orden alfabetico de los títulos de los temas al inicio de la página de vista de foros. Necesitarás tambien activar esto en cada foro en particular, en la sección de administración de foros.',
+		'IP_show_alpha_bar_explain' => 'Esta característica mostrará una barra de orden alfabético de los títulos de los temas al inicio de la página de vista de foros. Necesitarás también activar esto en cada foro en particular, en la sección de administración de foros.',
 
 		'IP_show_rss_forum_icon' => 'Iconos del índice del foro',
 		'IP_show_rss_forum_icon_explain' => 'Esta opción mostrará iconos a la derecha de cada título de foro (en el índice del foro): RSS, tema nuevo...',
@@ -127,7 +127,7 @@ if ($lang_extend_admin)
 		'IP_enable_own_icons_explain' => 'Habilitando esta opción, los íconos de temas que contengan mensajes propios serán marcados.',
 
 		'IP_show_forums_online_users' => 'Mostrar usuarios en línea en Foros',
-		'IP_show_forums_online_users_explain' => 'Esta característica activa el contador de usuarios en linea para cada foro en el índice.',
+		'IP_show_forums_online_users_explain' => 'Esta característica activa el contador de usuarios en línea para cada foro en el índice.',
 
 		'IP_google_bot_detector' => 'Habilitar detector de robots de Google',
 
@@ -135,13 +135,13 @@ if ($lang_extend_admin)
 
 		'IP_visit_counter_switch' => 'Habilitar contador de visitas',
 
-		'IP_enable_new_messages_number' => 'Mostrar numero de nuevos mensajes desde la última visita',
+		'IP_enable_new_messages_number' => 'Mostrar número de nuevos mensajes desde la última visita',
 
 		'IP_disable_thanks_topics' => 'Deshabilitar botón de gracias viendo temas',
 
 		'IP_show_thanks_profile' => 'Mostrar las Gracias recibidas al ver perfil',
 
-		'IP_show_thanks_viewtopic' => 'Mostras las Graccias recibidas al leer temas',
+		'IP_show_thanks_viewtopic' => 'Mostrar las Gracias recibidas al leer temas',
 
 		'IP_disable_topic_view' => 'Deshabilitar "Quién ha leído este tema"',
 		'IP_disable_topic_view_explain' => 'Esta opción permite deshabilitar la característica "Quién ha leído este tema" (esto ahorrará espacio SQL).',
@@ -163,13 +163,13 @@ if ($lang_extend_admin)
 		'IP_online_last_msgs' => 'Últimos mensajes :: Quién está en conectado',
 		'IP_online_last_msgs_explain' => 'Habilitando esta opción se mostrarán los últimos mensajes en <b>Quién está conectado</b>.',
 
-		'IP_last_msgs_n' => 'Numero de últimos mensajes a mostrar.',
+		'IP_last_msgs_n' => 'Número de últimos mensajes a mostrar.',
 
 		'IP_last_msgs_x' => 'Excluir foros',
 		'IP_last_msgs_x_explain' => 'Por favor, introduzca los IDs de los foros que desea excluir de los marcos de últimos mensajes (debe separar cada ID por comas).',
 
 		'IP_show_chat_online' => 'Conectados en el chat ajax :: Índice de foros',
-		'IP_show_chat_online_explain' => 'Habilitando esta opción se mostará en el <b>Índice de foros</b> los usuarios conectados en el chat ajax.',
+		'IP_show_chat_online_explain' => 'Habilitando esta opción se mostrará en el <b>Índice de foros</b> los usuarios conectados en el chat ajax.',
 
 		'IP_index_shoutbox' => 'Cuadro de charla :: Índice de foros',
 		'IP_index_shoutbox_explain' => 'Habilitando esta opción activará un cuadro de charla en el <b>Índice de foros</b>.',
@@ -192,6 +192,9 @@ if ($lang_extend_admin)
 // TAB - Posting
 		'IP_posts_precompiled' => 'Deshabilitar mensajes precompilados',
 		'IP_posts_precompiled_explain' => 'Habilitando esta opción en la vista de temas, siempre se compilarán los mensajes de texto, sin utilizar los mensajes de texto precompilados (	esto es más lento, pero puede ser útil en algunos casos).',
+
+		'IP_read_only_forum' => 'Deshabilitar envío de mensajes en todos los foros (solo lectura)',
+		'IP_read_only_forum_explain' => 'Permite bloquear el envió de mensajes en todos los foros sin cambiar sus permisos. Es útil para periodos de tiempo limitados y que el administrador no tenga que cerrar el foro para modificar los permisos. Los administradores si podrán enviar mensajes.',
 
 		'IP_allow_drafts' => 'Permitir borradores',
 		'IP_allow_drafts_explain' => 'Permite a los usuarios guardar sus mensajes como borradores',
@@ -231,7 +234,7 @@ if ($lang_extend_admin)
 
 		'IP_enable_colorpicker' => 'Habilitar selector de color en la página de escribir mensajes',
 
-		'IP_quote_iterations' => 'Numero máximo de citas anidadas',
+		'IP_quote_iterations' => 'Número máximo de citas anidadas',
 
 		'IP_disable_ftr' => 'Deshabilitar completamente la lectura obligada de tema',
 		'IP_disable_ftr_explain' => 'Habilitando esta opción se desactivará completamente la lectura obligada de tema',
@@ -278,7 +281,7 @@ if ($lang_extend_admin)
 
 		'IP_thumbnail_quality' => 'Calidad de miniaturas (1-100)',
 
-		'IP_thumbnail_size' => 'Tamaño de miniaturas (en pixels)',
+		'IP_thumbnail_size' => 'Tamaño de miniaturas (en píxels)',
 
 // TAB - Forum
 		'Lang_extend_categories_hierarchy' => 'Jerarquía de categorías',
@@ -346,16 +349,16 @@ if ($lang_extend_admin)
 		'Sitemap_settings' => 'Configuracion del sitemap',
 
 		'IP_sitemap_topic_limit' => 'Google sitemap :: Límite de temas',
-		'IP_sitemap_topic_limit_explain' => 'Numero máximo de temas para ir a buscar con una sola consulta a la base de datos',
+		'IP_sitemap_topic_limit_explain' => 'Número máximo de temas para ir a buscar con una sola consulta a la base de datos',
 
 		'IP_sitemap_announce_priority' => 'Google sitemap :: Prioridad para anuncios',
-		'IP_sitemap_announce_priority_explain' => 'Prioridad para los temas fijados como anuncios (debe ser un numero entre 0.0 &amp; 1.0 incluidos)',
+		'IP_sitemap_announce_priority_explain' => 'Prioridad para los temas fijados como anuncios (debe ser un número entre 0.0 &amp; 1.0 incluidos)',
 
 		'IP_sitemap_sticky_priority' => 'Google sitemap :: Prioridad para notas',
-		'IP_sitemap_sticky_priority_explain' => 'Prioridad para los temas fijados como notas (debe ser un numero entre 0.0 y 1.0 incluidos)',
+		'IP_sitemap_sticky_priority_explain' => 'Prioridad para los temas fijados como notas (debe ser un número entre 0.0 y 1.0 incluidos)',
 
 		'IP_sitemap_default_priority' => 'Google sitemap :: Prioridad por defecto',
-		'IP_sitemap_default_priority_explain' => 'Prioridad para temas normales (debe ser un numero entre 0.0 y 1.0 incluidos)',
+		'IP_sitemap_default_priority_explain' => 'Prioridad para temas normales (debe ser un número entre 0.0 y 1.0 incluidos)',
 
 		'IP_sitemap_sort' => 'Google sitemap :: Ordenación',
 		'IP_sitemap_new_first' => 'Mensajes nuevos primero',
@@ -364,10 +367,10 @@ if ($lang_extend_admin)
 		'Word_graph' => 'TAGS',
 
 		'IP_word_graph_max_words' => 'TAGS :: Máximo de palabras',
-		'IP_word_graph_max_words_explain' => 'Seleccione el numero máximo de palabras a mostrar. Un numero muy elevado afectará a la carga del servidor. Lo recomendado es 250.',
+		'IP_word_graph_max_words_explain' => 'Seleccione el número máximo de palabras a mostrar. Un número muy elevado afectará a la carga del servidor. Lo recomendado es 250.',
 
 		'IP_word_graph_word_counts' => 'TAGS :: Habilitar contador de palabras',
-		'IP_word_graph_word_counts_explain' => 'Mostrará al lado de cada palabra el numero de veces que sale en el foro. Por ejemplo <b>Icy Phoenix (365)</b>?',
+		'IP_word_graph_word_counts_explain' => 'Mostrará al lado de cada palabra el número de veces que sale en el foro. Por ejemplo <b>Icy Phoenix (365)</b>?',
 
 		'IP_forum_wordgraph' => 'TAGS :: Tags en foros',
 		'IP_forum_wordgraph_explain' => 'Esta característica activará una tabla con las palabras mas usadas en el inferior de cada foro',
@@ -382,7 +385,7 @@ if ($lang_extend_admin)
 
 		'IP_similar_stopwords' => 'Temas parecidos :: Excluir stop-words',
 
-		'IP_similar_max_topics' => 'Temas parecidos :: Numero máximo de temas parecidos a mostrar',
+		'IP_similar_max_topics' => 'Temas parecidos :: Número máximo de temas parecidos a mostrar',
 
 		'IP_similar_sort_type' => 'Temas parecidos :: Ordenado por',
 		'IP_similar_sort_type_explain' => 'Seleccione el método de ordenación para los temas parecidos',
@@ -394,16 +397,16 @@ if ($lang_extend_admin)
 
 // TAB - Logging And Security
 		'IP_admin_protect' => 'Proteger cuenta del administrador principal',
-		'IP_admin_protect_explain' => 'Habilitando esta opción se añadirá mayor seguridad a la cuenta del administrador principal, otros administradores o usuarios no podran quitarle su rango o calidad de administrador.',
+		'IP_admin_protect_explain' => 'Habilitando esta opción se añadirá mayor seguridad a la cuenta del administrador principal, otros administradores o usuarios no podrán quitarle su rango o calidad de administrador.',
 
 		'IP_db_log_actions' => 'Habilitar log de acciones de la BD',
 		'IP_db_log_actions_explain' => 'Habilitando esta opción, cualquier acción que modifique la BD será almacenada en un log en la BD. Si esta opción ha sido marcada como true en el archivo constants.php, entonces no se podrá deshabilitar esta opción desde el ACP. Si se selecciona obtener reportes, entonces se guardaran archivos extra con todos los errores registrados.',
 
 		'IP_mg_log_actions' => 'Habilitar log de acciones TXT',
-		'IP_mg_log_actions_explain' => 'Habilitando esta opción, cualquier acción que modifique la BD será almacenada en el servidor en un archivo de texto (el archivo será almacenado en la carpeta de LOGS). Este archivo no es fácil de leer, pero puede ser útil bajo ciertas condiciones. Activalo solo si sabes lo que estas haciendo (el sitio puede ir mas lento si activas esta opción).',
+		'IP_mg_log_actions_explain' => 'Habilitando esta opción, cualquier acción que modifique la BD será almacenada en el servidor en un archivo de texto (el archivo será almacenado en la carpeta de LOGS). Este archivo no es fácil de leer, pero puede ser útil bajo ciertas condiciones. Actívalo solo si sabes lo que estas haciendo (el sitio puede ir mas lento si activas esta opción).',
 
 		'IP_write_errors_log' => 'Habilitar log de errores del sitio',
-		'IP_write_errors_log_explain' => 'Habilitando esta opción, todos los errores del sitio (por ejemplo errores 404 de archivos no existentes, peticiones erróneas, etc) serán guardadas en un archivo TXT diario. Recuerda que necesitas habilitar la redirección de los errores hacia errors.php en el .htaccess para usar esta característica (un ejemplo de ello esta incluído en el .htaccess, tan solo inserta tu dominio y quitale los caracteres que dejan estas lineas comentadas).',
+		'IP_write_errors_log_explain' => 'Habilitando esta opción, todos los errores del sitio (por ejemplo errores 404 de archivos no existentes, peticiones erróneas, etc) serán guardadas en un archivo TXT diario. Recuerda que necesitas habilitar la redirección de los errores hacia errors.php en el .htaccess para usar esta característica (un ejemplo de ello esta incluido en el .htaccess, tan solo inserta tu dominio y quítale los caracteres que dejan estas líneas comentadas).',
 
 		'IP_write_digests_log' => 'Habilitar log de resúmenes',
 		'IP_write_digests_log_explain' => 'Habilitando esta opción todos los resúmenes enviados serán almacenados en un archivo TXT diario.',
@@ -422,7 +425,7 @@ if ($lang_extend_admin)
 		'IP_cron_database_interval_explain' => 'Esta característica optimizará la base de datos del sitio en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_database_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'IP_cron_cache_interval' => 'Ordenar el caché de plantillas con intervalo cron',
-		'IP_cron_cache_interval_explain' => 'El caché de plantillas sera limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_cache_interval_explain' => 'El caché de plantillas será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'IP_cron_sql_interval' => 'Ordenar el caché SQL con intervalo cron',
 		'IP_cron_sql_interval_explain' => 'El caché SQL será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_sql_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>',
@@ -430,7 +433,7 @@ if ($lang_extend_admin)
 		'IP_cron_users_interval' => 'Ordenar el caché de usuarios con intervalo cron',
 		'IP_cron_users_interval_explain' => 'El caché de usuarios será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_users_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>',
 
-		'IP_cron_topics_interval' => 'Ordenar el Cache de temas con Intervalo Cron',
+		'IP_cron_topics_interval' => 'Ordenar el cache de temas con Intervalo Cron',
 		'IP_cron_topics_interval_explain' => 'El cache de temas será limpiado en cada intervalo dado.<br /><br /><b>Última ejecución: ' . (($board_config['cron_topics_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>',
 
 		'Cron_Disabled' => 'Deshabilitado',

@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 // Posting/PM -> Initial Display
 	'Attach_posting_cp' => 'Panel de control de publicación de adjuntos',
-	'Attach_posting_cp_explain' => 'Si pulsa en agregar un adjunto, verá el cuadro para agregar adjuntos.<br />Si pulsa en adjuntos publicados, verá una lista de archivos adjuntados, y podrá editarlos.<br />Si quiere remplazar (subir una nueva version) un adjunto, tendrá que pulsar dos enlaces: agregue el adjunto como lo haria normalmente; luego, no pulse en agregar adjunto, sino en actualizar versión junto al adjunto que quiere actualizar.',
+	'Attach_posting_cp_explain' => 'Si pulsa en agregar un adjunto, verá el cuadro para agregar adjuntos.<br />Si pulsa en adjuntos publicados, verá una lista de archivos adjuntados, y podrá editarlos.<br />Si quiere remplazar (subir una nueva versión) un adjunto, tendrá que pulsar dos enlaces: agregue el adjunto como lo haría normalmente; luego, no pulse en agregar adjunto, sino en actualizar versión junto al adjunto que quiere actualizar.',
 
 // Posting/PM -> Posting Attachments
 	'Add_attachment' => 'Agregar un adjunto',
@@ -71,8 +71,8 @@ $lang = array_merge($lang, array(
 
 // Errors -> Posting Attachments
 	'Invalid_filename' => '%s no es un nombre válido', // replace %s with given filename
-	'Attachment_php_size_na' => 'El adjunto es muy grande.<br />No se pudo determinar cuánto es el maximo soportado por php.<br />El File Attachment mod no pudo determinar el tamaño máximo en el php.ini',
-	'Attachment_php_size_overrun' => 'El adjunto es muy grande.<br />El tamaño maximo de subida son %d MB.<br />Este tamalo lo define el php.ini, por lo que el Attachment MOD no pueda pasar ese tamaño', // replace %d with ini_get('upload_max_filesize')
+	'Attachment_php_size_na' => 'El adjunto es muy grande.<br />No se pudo determinar cuánto es el máximo soportado por php.<br />El File Attachment mod no pudo determinar el tamaño máximo en el php.ini',
+	'Attachment_php_size_overrun' => 'El adjunto es muy grande.<br />El tamaño máximo de subida son %d MB.<br />Este tamalo lo define el php.ini, por lo que el Attachment MOD no pueda pasar ese tamaño', // replace %d with ini_get('upload_max_filesize')
 	'FileType_Mismatch' => 'Tipo de archivo mismatch',
 	'Disallowed_extension' => 'La extensión %s no está permitida', // replace %s with extension (e.g. .php) 
 	'Disallowed_extension_within_forum' => 'No puede publicar mensajes con adjuntos con la extensión %s en este foro', // replace %s with the Extension
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 
 // Errors -> Download
 	'No_attachment_selected' => 'No ha seleccionado un archivo para ver o bajar',
-	'Error_no_attachment' => 'El adjunto selccionado no existe',
+	'Error_no_attachment' => 'El adjunto seleccionado no existe',
 
 // Delete Attachments
 	'Confirm_delete_attachments' => '¿Está seguro de que desea borrar los archivos adjuntos?',

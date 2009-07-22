@@ -306,7 +306,7 @@ $lang = array_merge($lang, array(
 	'item_manage_attach_setting' => 'Configuración y gestión de archivos adjuntos',
 	'item_manage_user_attachment' => 'Gestión de archivos adjuntos de usuario',
 	'item_user_editing' => 'Edición de usuarios',
-	'item_list_group_index' => 'Lista de grupos en el indice',
+	'item_list_group_index' => 'Lista de grupos en el índice',
 	'item_topic_icons' => 'Icono de tema',
 	'item_mass_e_mail' => 'Mass e-mail',
 	'item_manage_report_reasons' => 'Informe de gestión de / Motivos de denegación',
@@ -317,8 +317,8 @@ $lang = array_merge($lang, array(
 	'item_custom_profile_data_types' => 'Opciones de tipo de campos personalizados',
 	'item_manage_bans' => 'Gestión de las prohibiciones',
 	'item_ban_by_username' => 'Prohibición de usuario',
-	'item_ban_by_email' => 'Prohibición de direccion E-mail',
-	'item_ban_by_ip' => 'Prohibición de direccion IP',
+	'item_ban_by_email' => 'Prohibición de dirección E-mail',
+	'item_ban_by_ip' => 'Prohibición de dirección IP',
 
 /*********/
 	'cat_styles' => 'Estilos',
@@ -341,7 +341,7 @@ $lang = array_merge($lang, array(
 	'item_u_b_a_p' => 'Permisos de administradores',
 	'item_u_b_f_p' => 'Permisos de foros',
 	'item_admin_perm_roles' => 'Roles de administradores',
-	'item_user_perm_roles' => 'Roles de usarios',
+	'item_user_perm_roles' => 'Roles de usuarios',
 	'item_mod_perm_roles' => 'Roles de moderadores',
 	'item_forum_perm_roles' => 'Roles de foros',
 	'item_mask_perm_multi' => 'Máscaras de permisos multi-nivel',
@@ -407,7 +407,7 @@ $lang = array_merge($lang, array(
 /*********/
 	'cat_features_acp' => 'Características adicionales ACP',
 
-	'item_feat_info' => 'Informacion del servidor en ACP',
+	'item_feat_info' => 'Información del servidor en ACP',
 	'item_feat_db_mntnc' => 'Mantenimiento de la base de datos',
 	'item_feat_mysqladmin' => 'Admin MySQL',
 	'item_feat_editable_f_r' => 'Multilenguage editable de FAQs y normas',

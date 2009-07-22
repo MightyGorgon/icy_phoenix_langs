@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'bbcb_mg_i' => 'Cursiva',
 	'bbcb_mg_u' => 'Subrayado',
 	'bbcb_mg_s' => 'Tachado',
-	'bbcb_mg_f' => 'Descolorar (Fade)',
+	'bbcb_mg_f' => 'Decolorar (Fade)',
 	'bbcb_mg_g' => 'Multicolor',
 	'bbcb_mg_tab' => 'Tabla',
 	'bbcb_mg_td' => 'Cell',
@@ -197,8 +197,8 @@ $lang = array_merge($lang, array(
 	'bbcode_help' => 'Ayuda BBCode',
 
 	'xs_bbc_hide_message' => 'Ocultar mensaje',
-	'xs_bbc_hide_quote_message' => 'Citar mensaje ocultado, si todavia está oculto.',
-	'xs_bbc_hide_message_explain' => 'Perdone, pero debe estar registrado y tambien enviar una respuesta para ver este mensaje.',
+	'xs_bbc_hide_quote_message' => 'Citar mensaje ocultado, si todavía está oculto.',
+	'xs_bbc_hide_message_explain' => 'Perdone, pero debe estar registrado y también enviar una respuesta para ver este mensaje.',
 
 	'bbcode_url' => 'Introduzca la URL (ej. http://www.phpbb.com)',
 	'bbcode_url_title' => 'Introduzca el título del enlace',
