@@ -52,12 +52,12 @@ $lang['bb3_programming'] = 'PHP';
 
 $lang['item_latest'] = 'Latest Version';
 $lang['bb2_latest'] = '2.0.22';
-$lang['ip_latest'] = '1.2.0.27';
+$lang['ip_latest'] = '1.3.0.53';
 $lang['bb3_latest'] = '3.0.2';
 
 $lang['item_release'] = 'Release Date';
 $lang['bb2_release'] = '2008/02/17';
-$lang['ip_release'] = '2008/03/03';
+$lang['ip_release'] = '2009/07/18';
 $lang['bb3_release'] = '2008/07/10';
 
 /*********/

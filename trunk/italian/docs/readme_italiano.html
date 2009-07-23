@@ -327,7 +327,6 @@
 						<li>Controllare che effettivamente il backup sia stato fatto e tenerlo in un luogo sicuro. <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Rules!" /></li>
 						<li>Decomprimere il pacchetto di Icy Phoenix in una cartella del vostro HD.</li>
 						<li>Caricare la cartella <b>install</b> nella root del vostro Icy Phoenix e lanciare il file <b>database_update.php</b> (esempio: http://www.mysite.com/ip/database_update.php).</li>
-						<li>Eliminare la cartella <b>install</b>.</li>
 						<li>Spostare le seguenti cartelle:
 							<ul>
 								<li><b>pafiledb/uploads/*.*</b> ==> <b>downloads/*.*</b></li>
@@ -344,7 +343,16 @@
 						<li>Rimuovere <b>tutti i files</b>, tranne il file <b>config.php</b>, all'interno della root del vostro forum Icy Phoenix (assicurarsi che non vi siano, in questi files, parti di MOD eventualmente installati, ma in ogni caso dovreste avere un backup <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Rules!" />).</li>
 						<li>Caricare tutti i files di Icy Phoenix, (tranne il file <b>config.php</b>), nella stessa cartella dove Icy Phoenix &egrave; installato e funzionante. Prestare attenzione che tutti i file rimasti siano sostituiti dagli eventuali nuovi.</li>
 						<li>Applicare i permessi CHMOD richiesti per una <a class="post-url" href="#fresh_installation">nuova installazione</a>.</li>
-						<li>Personalizzate ci&ograve; che ritenete opportuno in files e db (alcuni files necessitano di modifiche manuali, mentre la maggior parte delle opzioni possono essere configurate da ACP e CMS).</li>
+						<li>Personalizzate ci&ograve; che ritenete opportuno in files e db (alcuni files necessitano di modifiche manuali, mentre la maggior parte delle opzioni possono essere configurate da ACP e CMS). Ecco una lista di alcuni files che potresti avere bisogno di modificare manualmente:
+							<ul>
+								<li><b>common.php</b></li>
+								<li><b>config.php</b></li>
+								<li><b>includes/constants.php</b></li>
+								<li><b>language/lang_***/lang_main_settings.php</b></li>
+							</ul>
+						</li>
+						<li>Esegui <b>install/install.php</b> e completa l'aggiornamento eseguendo lo spostamento delle immagini caricate e rimpiazzando tutti i vecchi link nei messaggi: la procedura automatizzata dovrebbe essere in grado di fare tutto automaticamente, devi soltanto seguire le istruzioni sullo schermo.</li>
+						<li>Eliminare la cartella <b>install</b>.</li>
 						<li>Sboccare il sito.</li>
 						<li>Usare il nuovo <b>Icy Phoenix</b> <img src="../images/smiles/icon_mrgreen.gif" alt="Enjoy!" title="Enjoy!" />.</li>
 					</ol>

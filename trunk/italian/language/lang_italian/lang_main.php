@@ -1110,6 +1110,18 @@ $lang['datetime']['SEP'] = 'Set';
 $lang['datetime']['OCT'] = 'Ott';
 $lang['datetime']['NOV'] = 'Nov';
 $lang['datetime']['DEC'] = 'Dic';
+$lang['datetime']['Jan'] = $lang['datetime']['JAN'];
+$lang['datetime']['Feb'] = $lang['datetime']['FEB'];
+$lang['datetime']['Mar'] = $lang['datetime']['MAR'];
+$lang['datetime']['Apr'] = $lang['datetime']['APR'];
+$lang['datetime']['May'] = $lang['datetime']['MAY'];
+$lang['datetime']['Jun'] = $lang['datetime']['JUN'];
+$lang['datetime']['Jul'] = $lang['datetime']['JUL'];
+$lang['datetime']['Aug'] = $lang['datetime']['AUG'];
+$lang['datetime']['Sep'] = $lang['datetime']['SEP'];
+$lang['datetime']['Oct'] = $lang['datetime']['OCT'];
+$lang['datetime']['Nov'] = $lang['datetime']['NOV'];
+$lang['datetime']['Dec'] = $lang['datetime']['DEC'];
 // Timezones - END
 
 //
