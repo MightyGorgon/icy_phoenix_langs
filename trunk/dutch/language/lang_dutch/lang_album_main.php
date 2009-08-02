@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_album_main.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
+* @version $Id: lang_album_main.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -61,8 +61,6 @@ $lang = array_merge($lang, array(
 	'Album_delete_can' => 'Je <b>mag</b> jouw afbeeldingen en opmerkingen in deze categorie verwijderen.',
 	'Album_delete_cannot' => 'Je <b>mag geen</b> jouw afbeeldingen en opmerkingen in deze categorie verwijderen.',
 */
-	'Album_view_can' => 'Je <b>mag</b> afbeeldingen bekijken',
-	'Album_view_cannot' => 'Je <b>mag geen</b> afbeeldingen bekijken',
 	'Album_upload_can' => 'Je <b>mag</b> nieuwe afbeeldingen uploaden.',
 	'Album_upload_cannot' => 'Je <b>mag geen</b> nieuwe afbeeldingen uploaden.',
 	'Album_rate_can' => 'Je <b>mag</b> afbeeldingen beoordelen.',

@@ -11,7 +11,7 @@
 /**
 *
 * @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group (r. 391 tot 402 nog vertalen)
+* @copyright (c) 2008 phpBB Group
 *
 */
 
@@ -389,17 +389,17 @@ $lang = array_merge($lang, array(
 	'Set_prune_data' => 'Je hebt de automatische opruiming aangezet voor dit forum, maar je hebt geen frequentie of aantal dagen ingegeven. ga alstublieft terug en doe dit alsnog',
 	
 	'FORUM_SIMILAR_TOPICS' => 'Vergelijkbare onderwerpen',
-	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'If you enable this option you will see a box with similar topics at the bottom of each topic in this forum (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
-	'FORUM_TOPIC_VIEWS' => 'Topics Viewer',
-	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'If you enable this option all users that views topics in this forum will be stored in the DB (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SQL TAB)',
-	'FORUM_TAGS' => 'Forum Tags',
-	'FORUM_TAGS_EXPLAIN' => 'If you enable this option you will see a box with all the most used words in this forum (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings => SEO TAB)',
-	'FORUM_SORT_BOX' => 'Topic Sort Box',
-	'FORUM_SORT_BOX_EXPLAIN' => 'If you enable this option you will see a box wich allows you to alphabetically sort topics in this forum (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
-	'FORUM_KB_MODE' => 'KB Mode',
-	'FORUM_KB_MODE_EXPLAIN' => 'If you enable this option this forum will be shown in KB Mode (topics listed like Knowledge Base)',
-	'FORUM_INDEX_ICONS' => 'Index Icons',
-	'FORUM_INDEX_ICONS_EXPLAIN' => 'If you enable this option you will see icons for RSS and New Topic in Forum Index (please note that you need also to enable the global switch for this feature in Icy Phoenix Settings)',
+	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'Als je deze optie inschakelt wordt er een veld weergegeven met vergelijkbare onderwerpen onderaan elke onderwerp in dit forum (hou wel rekening mee dat je ook de algemene instelling voor deze functie in Icy Phoenix Instellingen => SEO TAB aanzet)',
+	'FORUM_TOPIC_VIEWS' => 'Onderwerpbekijker',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Als je deze optie inschakelt wordt er voor alle gebruikers dat een onderwerp bekijkt in dit forum opgeslagen in de database (hou wel rekening mee dat je ook de algemene instelling voor deze functie in Icy Phoenix Instellingen => SQL TAB aanzet)',
+	'FORUM_TAGS' => 'Forumtags',
+	'FORUM_TAGS_EXPLAIN' => 'Als je deze optie inschakelt wordt er een veld weergegeven met alle woorden die het meest gebruikt worden in dit forum (hou wel rekening mee dat je ook de algemene instelling voor deze functie in Icy Phoenix => SEO TAB aanzet)',
+	'FORUM_SORT_BOX' => 'Onderwerpsorteerveld',
+	'FORUM_SORT_BOX_EXPLAIN' => 'Als je deze optie inschakelt wordt er een onderwerpsorteerveld weergegeven dat je toestaat om onderwerpen in dit forum alfabetisch te sorteren (hou wel rekening mee dat je ook de algemene instelling voor deze functie in Icy Phoenix Instellingen aanzet)',
+	'FORUM_KB_MODE' => 'Kennisbankmethode',
+	'FORUM_KB_MODE_EXPLAIN' => 'Als je deze optie inschakelt wordt dit forum weergegeven als in de Kennisbank (onderwerpen worden dan weergegeven als artikelen uit de Kennisbank)',
+	'FORUM_INDEX_ICONS' => 'Indexiconen',
+	'FORUM_INDEX_ICONS_EXPLAIN' => 'Als je deze optie inschakelt worden de iconen voor RSS en Nieuw onderwerp op de Forumindex weergegeven (hou wel rekening mee dat je ook de algemene instelling voor deze functie in Icy Phoenix Instellingen aanzet)',
 
 	'Move_and_Delete' => 'Verplaatsen en verwijderen',
 	
@@ -1152,11 +1152,11 @@ $lang = array_merge($lang, array(
 	'auth_view_title' => 'Paginabekijkbevoegdheid',
 	'auth_view_portal' => 'Startpagina',
 	'auth_view_forum' => 'Forum',
-	'auth_view_viewforum' => 'Forum weergeven',
-	'auth_view_viewtopic' => 'Onderwerp weergeven',
+	'auth_view_viewf' => 'Forum weergeven',
+	'auth_view_viewt' => 'Onderwerp weergeven',
 	'auth_view_faq' => 'FAQ',
 	'auth_view_memberlist' => 'Gebruikerslijst',
-	'auth_view_group cp' => 'Gebruikersgroepen',
+	'auth_view_group_cp' => 'Gebruikersgroepen',
 	'auth_view_profile' => 'Profiel',
 	'auth_view_search' => 'Zoeken',
 	'auth_view_album' => 'Album',
@@ -1925,7 +1925,7 @@ $lang = array_merge($lang, array(
 	'AD_POS_VTT' => 'Viewtopic Top',
 	'AD_POS_VTB' => 'Viewtopic Bottom',
 	'AD_POS_NMT' => 'Nav Menu Top',
-	'AD_POS_NMB' => 'Nav Benu Bottom',
+	'AD_POS_NMB' => 'Nav Menu Bottom',
 	'AD_ADD' => 'Voeg Ad toe',
 	'AD_EDIT' => 'Bewerk Ad',
 	'AD_ADDED' => 'Ad succesvol toegevoegd',
@@ -2170,7 +2170,7 @@ $lang['130_Album_Permissions'] = 'Permissies'; // admin_album_auth.php
 $lang['140_Personal_Galleries'] = 'Persoonlijke albums'; // admin_album_personal.php
 
 // FAQ
-$lang['2300_FAQ'] = 'FAQ &amp; Regels'; // admin_faq_editor.php
+$lang['2300_FAQ'] = 'FAQ & Regels'; // admin_faq_editor.php
 $lang['110_FAQ_BBCode'] = 'BBCode FAQ'; // admin_faq_editor.php
 $lang['120_FAQ_Board'] = 'Website FAQ'; // admin_faq_editor.php
 $lang['130_FAQ_Rules'] = 'Websiteregels'; // admin_faq_editor.php

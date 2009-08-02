@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_cms.php 101 2009-05-16 16:03:40Z Mighty Gorgon $
+* @version $Id: lang_cms.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 	'B_Admin' => 'Beheerders',
 	'B_None' => 'Geen',
 	'B_Layout' => 'Pagina',
-	'B_Layout' => 'Bewerk paginainstellingen',
+	'B_Layout_Edit' => 'Bewerk paginainstellingen',
 	'B_Page' => 'Pagina ID',
 	'B_Add' => 'Voeg blok toe',
 	'B_Duplicate' => 'Kopieer blok',
@@ -283,9 +283,6 @@ $lang = array_merge($lang, array(
 	'CMS_Blocks' => 'Blokken',
 	'CMS_Name' => 'Naam',
 	'CMS_Description' => 'Omschrijving',
-	'CMS_LAYOUT_PAGE_ID' => 'Pagina ID',
-	'CMS_LAYOUT_PAGE_ID_EXPLAIN' => 'Dit is de pagina ID welke wordt gebruikt in het authorisatiesysteem. Tekens toegestaan: kleine letters, nummers, underscore en geen spaties.',
-	'CMS_MUST_FILL_ALL_FIELDS' => 'Je moet alle velden invullen',
 	'CMS_Filename' => 'Bestandsnaam',
 	'CMS_Filename_Explain' => '<i>(Om een nieuwe bestand te maken, moet jouw server goed geconfigureerd zijn. Anders wordt deze functie niet ondersteund.)</i>',
 	'CMS_Filename_Explain_OK' => '<i>Na een snelle test schijnt het, dat jouw server automatisch bestanden kan maken. Daarom worden je bestanden dan ook automatisch gemaakt.</i>',
@@ -298,18 +295,15 @@ $lang = array_merge($lang, array(
 	'CMS_Permissions' => 'Permissies',
 	'CMS_Global_Header' => 'Algemene header',
 	'CMS_GLOBAL_BLOCKS' => 'Algemene blokken',
-	'CMS_BREADCRUMBS' => 'Broodkruimels',
 	'CMS_Edit' => 'Bewerken',
 	'CMS_Delete' => 'Verwijderen',
 	'CMS_Preview' => 'Voorbeeld',
 	'CMS_Configure_Blocks' => 'Blokken maken',
-	'CMS_PAGES_PERMISSIONS' => 'Extra permissies',
+	'CMS_PAGES_PERMISSIONS' => 'Paginapermissies',
 	'CMS_PAGES_PERMISSIONS_EXPLAIN' => 'Op deze pagina kun je de gebruikerniveau voor het bekijken van de standaardpagina\'s configureren. Voor elke pagina kun je ook kiezen of de algemen blokken moeten worden weergegeven of niet (de functie algemene blokken moet ingeschakeld zijn in <b>CMS-configuratie</b>).',
 	'CMS_Page' => 'Pagina',
 	'CMS_ADS' => 'Ads &amp; Sponsors',
 	'CMS_OWNER' => 'Eigenaar',
-	'CMS_SAVE_CHANGES' => 'Wijzigingen opslaan',
-	'CMS_CHANGES_SAVED' => 'Wijzigingen opgeslagen',
 //'CMS_' => '',
 // MG CMS - END
 

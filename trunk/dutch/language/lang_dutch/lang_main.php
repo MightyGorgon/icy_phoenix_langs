@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main.php 101 2009-05-16 16:03:40Z Mighty Gorgon $
+* @version $Id: lang_main.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -41,33 +41,32 @@ Interesse: Heroes Of Might And Magic III, 69, #FF5522<br />
 Locatie: Homer\'s Head<br />
 <br />
 <br />
-<span style="color: #DD2222;"><b>hpl</b></span><br />
-<i>(Alessandro Drago)</i><br />
-<b><i>Developer</i></b><br />
-Interesse: CMS, little animals<br />
-Locatie: Global Header<br />
-<br />
-<br />
 <span style="color: #DD2222;"><b>Bicet</b></span><br />
 <b><i>phpBB XS Ontwikkelaar</i></b><br />
+<br />
+<br />
+<span style="color: #dd2222;"><b>hpl</b></span><br />
+<b><i>Enkele Speciale Contributies</i></b><br />
 <br />
 <br />
 <b><i>Overige ontwikkelaars</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
+<span style="color: #0000bb;"><b>brandsrus</b></span><br />
 <span style="color: #228822;"><b>buldo</b></span><br />
 <span style="color: #228822;"><b>casimedicos</b></span><br />
 <span style="color: #228822;"><b>Chaotic</b></span><br />
 <span style="color: #dd2222;"><b>CyberAlien</b></span><br />
 <span style="color: #228822;"><b>difus</b></span><br />
+<span style="color: #228822;"><b>DWho</b></span><br />
 <span style="color: #228822;"><b>fracs</b></span><br />
-<span style="color: #800080;"><b>ganesh</b></span><br />
+<span style="color: #880088;"><b>ganesh</b></span><br />
 <span style="color: #228822;"><b>JANU1535</b></span><br />
-<span style="color: #800080;"><b>jz</b></span><br />
+<span style="color: #880088;"><b>jz</b></span><br />
 <span style="color: #228822;"><b>KasLimon</b></span><br />
 <span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
 <span style="color: #0000bb;"><b>Limun</b></span><br />
-<span style="color: #228822;"><b>Lopalong</b></span><br />
+<span style="color: #880088;"><b>Lopalong</b></span><br />
 <span style="color: #228822;"><b>moreteavicar</b></span><br />
 <span style="color: #228822;"><b>novice programmer</b></span><br />
 <span style="color: #228822;"><b>ThE KuKa</b></span><br />
@@ -1471,7 +1470,7 @@ $lang = array_merge($lang, array(
 	
 	'Shoutbox' => 'Babbelbox',
 	'Shoutbox_date' => ' d m Y h:i:s',
-	'Shout_censor' => 'Bericht verwijderd!',
+	'Shout_censor' => '<b>babbel gecensureerd!</b>',
 	'Shout_refresh' => 'Vernieuwen',
 	'Shout_text' => 'Je tekst',
 	'Viewing_Shoutbox' => 'Bekijk babbelbox',
@@ -2165,37 +2164,40 @@ $lang = array_merge($lang, array(
 	'Reg_Title' => 'Evenementregistratie',
 	'Post_Registration' => 'Evenementregistratie',
 	'Add_registration' => 'Voeg evenementregistratie toe',
-	'Add_reg_explain' => '&nbsp;&bull; Vink <i>activeren</i> aan om de registratieformulier weer te geven in dit bericht. Vink het uit om het te verbergen.<br />&nbsp;&bull; Vink <i>resetten</i> aan om alle huidige registraties te verwijderen in dit forumulier.<br />&nbsp;&bull; Geef een aantal <i>plaatsen</i> in om een maximum te stellen aan de aantal registraties per optie.  "0" of leeg = oneindig.',
+	'Add_reg_explain' => '&nbsp;&bull; Vink <i>Activeren</i> aan om een registratieformulier te laten weergeven met dit bericht. Vink uit om het te verbergen.<br />&nbsp;&bull; Vink <i>Resetten</i> aan om alle huidige registraties te verwijderen van dit formulier.<br />&nbsp;&bull; Geef de aantal <i>pLaatsen</i> in die beschikbaar zijn voor een optie. "0" of leeg = oneindig.',
 	'reg_activate' => 'Activeren',
 	'reg_reset' => 'Resetten',
-	'Reg_Insert' => 'Je hebt je geregistreerd voor de evenement.',
-	'Reg_Change' => 'Registratie gewijzigd.',
+	'Reg_Insert' => 'Je bent geregistreerd voor de evenement.',
+	'Reg_Change' => 'Registratie aangepast.',
 	'Reg_Confirm' => 'Registratie bevestigd.',
 	'Reg_Unregister' => 'Registratie geannuleerd.',
 	'Reg_Max_Registrations' => 'De maximum aantal registraties voor deze optie is bereikt. Er worden geen registraties meer geaccepteerd.',
 	'Reg_No_Slots_Left' => 'Geen plaatsen over om te registreren.',
 	'Reg_One_Slot_Left' => '1 plaats over om te registreren.',
-	'Reg_Slots_Left' => '%s plaatsen over.',
-	'Reg_Self_Unregister' => 'Ongeregistreerd',
-	'Reg_Own_Confirmation' => 'Bevestigen',
+	'Reg_Slots_Left' => '%s platsen over om te registreren.',
+	'Reg_Self_Unregister' => 'Registratie ongedaan maken',
+	'Reg_Own_Confirmation' => 'Bevestiging',
 	'Reg_Own_Confirmed' => 'bevestigd',
 	'Reg_Green_Option' => 'Groene optie',
 	'Reg_Blue_Option' => 'Blauwe optie',
 	'Reg_Red_Option' => 'Rode optie',
-	'Reg_Value_Max_Registrations' => 'Plaats',
+	'Reg_Value_Max_Registrations' => 'Plaatsen',
 	'Reg_Do' => 'Opgeven',
 	'Reg_Maybe' => 'Niet zeker',
-	'Reg_Dont' => 'Niet deze keer',
+	'Reg_Dont' => 'Niet dit keer',
 	'Reg_Head_Username' => 'Gebruiker:',
 	'Reg_Head_Time' => 'Datum:',
-	'Reg_for' => 'Registratie loopt tot',
-	'Reg_for_explain' => '[ Vul een 0 in of laat het leeg voor een oneindige lopende registratie ]',
-	'Reg_no_options_specified' => 'Je moet tenminste een optie specificeren om te registreren voor.',
+	'Reg_for' => 'Laat de registratie lopen voor',
+	'Reg_for_explain' => '[ Geef een 0 in of laat het veld leeg voor een oneindige registratie ]',
+	'Reg_no_options_specified' => 'Je moet tenminste een optie selecteren om je te registreren.',
 	'Reg_event_date' => '<b>Evenementdatum: </b>',
 	// Event Registration - END
 
 	'REPLY_PREFIX_OLD' => 'Re: ',
 	'REPLY_PREFIX' => 'Re: ',
+
+	'READ_ONLY_FORUM' => 'We excuseren ons, maar op dit moment is het forum ingesteld op <b>ALLEEN LEZEN</b>, wat betekent dat je nu geen berichten kunt plaatsen omdat je daar de rechten niet voor hebt. Probeer het later nog eens.',
+
 	)
 );
 

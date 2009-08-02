@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_extend_icy_phoenix.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
+* @version $Id: lang_extend_icy_phoenix.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -192,7 +192,10 @@ if ( $lang_extend_admin )
 // TAB - Posting
 		'IP_posts_precompiled' => 'Vooropgebouwde berichten uitschakelen',
 		'IP_posts_precompiled_explain' => 'Bij inschakelen van deze optie, viewtopic moet alle berichten opnieuw opbouwen zonder vooropgebouwde tekst, (dit is langzamer, maar kan nuttig zijn in sommige gevallen).',
-	
+		
+		'IP_read_only_forum' => 'Schakel het plaatsen van berichten in alle forums uit (Alleen-lezen)',
+		'IP_read_only_forum_explain' => 'Deze opties staat toe om het plaatsen van berichten in alle forums zonder dat je de permissies wijzigd te verhinderen. Dit is bruikbaar voor kleine periodes wanneer beheerders willen dat gebruikers geen berichten plaatsen zonder de website te hoeven sluiten of om forumauthorisatie te wijzigen. Beheerders kunnen altijd berichten plaatsen.',
+
 		'IP_allow_drafts' => 'Sta concept toe',
 		'IP_allow_drafts_explain' => 'Sta gebruikers toe om berichten op te slaan als concept',
 	

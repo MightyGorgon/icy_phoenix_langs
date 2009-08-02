@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_blocks.php 80 2009-02-19 13:45:54Z Mighty Gorgon $
+* @version $Id: lang_blocks.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -154,7 +154,6 @@ $lang = array_merge($lang, array(
 	'Registered_users' => 'Geregistreerde gebruikers:',
 	'Remember_me' => 'Automatisch inloggen',
 	'Save_Topic' => 'Onderwerp als bestand opslaan',
-	'Shout_censor' => 'babbel verwijderd!',
 	'Shout_refresh' => 'Vernieuwen',
 	'Shout_text' => 'Jouw babbel',
 	'Shoutbox_date' => 'D G:i \\s\c\h\r\e\e\f ',
