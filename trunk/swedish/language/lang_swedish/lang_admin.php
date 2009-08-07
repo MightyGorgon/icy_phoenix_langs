@@ -1789,7 +1789,7 @@ $lang = array_merge($lang, array(
 
 // Backup
 	'ACP_BACKUP' => 'Backup Databas',
-	'ACP_BACKUP_EXPLAIN' => 'Backup all webbplatsinriktad data. Du kan lagra de i ett arkiv i din <samp>backup/</samp> mapp eller ladda ner den direkt. Beroende på din server-konfiguration kan du också spara filen i komprimerat gzip format.',
+	'ACP_BACKUP_EXPLAIN' =>  'Backup alla webbplatsinriktade uppgifter. Backup kommer att lagras <b><samp>backup/</samp></b> (se till att denna mapp är <b>skrivbar</b>) mappen så att kan du ladda ner eller återställa den från<b>Återställ</b> sidan. Din server konfiguration kan också ge dig möjlighet att spara filen i komprimerad gzip-format.<br /><br /><span class="text_red">Backup kommer att utföras på flera åtgärder för att undvika timeout: skriptet bör kunna utföra en fullständig process alla automatiskt, så du har bara att vänta att slutföra automatiserad uppgifter.</span><br /><br />',
 
 	'BACKUP_OPTIONS' => 'Backup Alternativ',
 	'BACKUP_TYPE' => 'Backup typ',
@@ -1824,7 +1824,7 @@ $lang = array_merge($lang, array(
 
 // Restore
 	'ACP_RESTORE' => 'Återställ Databas',
-	'ACP_RESTORE_EXPLAIN' => 'Återställning av alla webbplatsinriktade tabeller från en sparad backup fil. Om din server stöder det kan du använda en GZip eller BZip2 komprimerad textfil och den kommer automatiskt att expanderas. <strong>VARNING</strong> Detta kommer överskriva befintlig data. Återställningen kan ta lång tid att bearbeta och du får inte flytta från denna sida tills den är klar. Backups lagras i <samp>backup/</samp> mappen och antas vara från denna webbplats backupfunktioner. Återställnings backups som inte har skapats av den inbyggda system kommer inte att fungera korrekt.',
+	'ACP_RESTORE_EXPLAIN' => 'Återställning av alla webbplatsinriktade tabeller från en sparad backup fil. Om din server stöder det kan du använda en GZip eller BZip2 komprimerad textfil och den kommer automatiskt att expanderas. <strong>VARNING</strong> Detta kommer överskriva befintlig data. Återställningen kan ta lång tid att bearbeta och du får inte flytta från denna sida tills den är klar. Backups lagras i <samp>backup/</samp> mappen och antas vara från denna webbplats backupfunktioner. Återställnings backups som inte har skapats av den inbyggda system kommer inte att fungera korrekt.<br /><br /><strong class="text_red">Observera att om BF som skall återställas är för stor kommer detta skriptet att ta time out och du skulle inte kunna använda webbplatsen igen. Om detta händer kan du prova att ladda ner säkerhetskopian från FTP och sedan återställa den med en annan metod som phpMyAdmin eller MySQLDumper.</strong><br /><br />',
 	'RESTORE_OPTIONS' => 'Återställnings Alternativ',
 
 	'Restore_Success' => 'Databasen har återställts successfullt.<br />Din webbplats bör vara tillbaka till det skick som det var när Backup gjordes.',

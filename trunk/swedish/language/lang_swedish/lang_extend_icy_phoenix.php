@@ -192,6 +192,9 @@ if ($lang_extend_admin)
 // TAB - Posting
 		'IP_posts_precompiled' => 'Avaktivera förkompilerade inlägg',
 		'IP_posts_precompiled_explain' => 'Genom att aktivera detta alternativ kommer visaämne alltid att sammanställa inläggs texten utan att använda förkompilerad text, (detta är långsammare, men det kan vara användbart i vissa fall).',
+		
+		'IP_read_only_forum' => 'Avaktivera meddelanden i alla forum (Läs läge en annan metod som phpMyAdmin eller MySQLDumper)',
+		'IP_read_only_forum_explain' => 'Detta alternativ gör det möjligt att låsa meddelanden i alla forum utan att ändra behörigheter. Detta kan vara användbart för begränsad tid när admins vill hindra användare meddelanden utan att behöva låsa webbplats eller ändra alla forum tillstånd. Administratörer kan fortfarande posta.',
 
 		'IP_allow_drafts' => 'Tillåt Utkast',
 		'IP_allow_drafts_explain' => 'Tillåt användare att spara inlägg som utkast',

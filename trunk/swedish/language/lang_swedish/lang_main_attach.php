@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'Downloaded' => 'Nerladdad',
 	'Download' => 'Ladda ner', // this Language Variable is defined in lang_admin.php too, but we are unable to access it from the main Language File
 	'Filesize' => 'Filstorlek',
-	'Viewed' => 'Sedd',
+	'Viewed' => 'Granskad',
 	'Download_number' => '%d Gånger', // replace %d with count
 	'Extension_disabled_after_posting' => 'Tillägget \'%s\' var inaktiverad av en forums admin därför kan detta Tillbehör inte visas.', // used in Posts and PM's, replace %s with mime type
 

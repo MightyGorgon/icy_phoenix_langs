@@ -2196,6 +2196,8 @@ $lang = array_merge($lang, array(
 	
 	'REPLY_PREFIX_OLD' => 'Re: ',
 	'REPLY_PREFIX' => 'Re: ',
+	
+	'READ_ONLY_FORUM' => 'Vi beklagar, men nu är forumet inställt på <b> LÄS BARA </ b> mode vilket innebär att du kan inte skicka även om du har rätt till det. Försök igen senare. ',
 
 	)
 );

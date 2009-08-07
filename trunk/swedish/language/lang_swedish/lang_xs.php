@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 		'Exportera Stilar',
 		'Klona Stilar',
 		'Ladda Ner Stilar',
-		'Redigera Malla',
+		'Redigera Mallar',
 		'Redigera Stilar',
 		'Exportera Databas',
 		'Kontrollera Uppdateringar',
