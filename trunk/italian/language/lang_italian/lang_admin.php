@@ -1980,7 +1980,7 @@ $lang['LOGS_TOPIC_ATTACK'] = 'c\'&egrave; stato un attacco esterno ad un messagg
 $lang['LOGS_CARD_BAN'] = 'ha bannato';
 $lang['LOGS_CARD_WARN'] = 'ha ammonito';
 $lang['LOGS_CARD_UNBAN'] = 'ha riabilitato';
-$lang['LOGS_ADMIN_CAT_ADD'] = 'ha aggiunto una categoria nel forum';
+$lang['LOGS_ADMIN_CAT_ADD'] = 'ha aggiunto un forum';
 $lang['LOGS_ADMIN_DB_UTILITIES_BACKUP'] = 'ha effettuato un backup %s del DB';
 $lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_full'] = 'completo';
 $lang['LOGS_ADMIN_DB_UTILITIES_BACKUP_structure'] = 'della struttura';
@@ -2058,6 +2058,27 @@ $lang['ACTIONS'] = 'Azioni';
 $lang['EDIT'] = 'Modifica';
 $lang['DELETE'] = 'Elimina';
 
+// Tickets Submission - BEGIN
+$lang['TICKETS_EMAILS'] = 'Tickets';
+$lang['TICKETS_EMAILS_EXPLAIN'] = 'In questa sezione puoi creare delle categorie che verranno utilizzate nella pagina "Contattaci" come argomenti per l\'invio di email. A ciascuna categoria possono essere assegnati uno o pi&ugrave; indirizzi email di modo che l\'email venga inviata a tutti.';
+$lang['TICKET_CAT'] = 'Categoria';
+$lang['TICKET_CAT_TITLE'] = 'Titolo';
+$lang['TICKET_CAT_DES'] = 'Descrizione';
+$lang['TICKET_CAT_EMAILS'] = 'Indirizzi Email';
+$lang['TICKET_CAT_EMAILS_EXPLAIN'] = 'Inserisci tutti gli indirizzi destinatari dell\'email.<br />Separa i diversi indirizzi con punto e virgola (a@a.com;b@b.com;c@c.com).';
+$lang['TICKETS_NO_TICKETS'] = 'Nessun Elemento';
+$lang['TICKETS_NO_TICKET_SEL'] = 'Nessun elemento selezionato';
+$lang['TICKETS_NO_TICKET_TITLE'] = 'Devi inserire almeno il titolo';
+$lang['TICKETS_DB_ADD'] = 'Aggiungi Categoria';
+$lang['TICKETS_DB_ADDED'] = 'Categoria aggiunta correttamente';
+$lang['TICKETS_DB_UPDATED'] = 'Categoria aggiornata correttamente';
+$lang['TICKETS_DB_DELETED'] = 'Categoria rimossa correttamente';
+$lang['TICKETS_DB_CLICK'] = 'Clicca %sQUI%s per tornare alle Categorie Email';
+// Tickets Submission - END
+
+$lang['FORUM_LIMIT_EDIT_TIME'] = 'Limitazione Temporale Modifica Messaggi';
+$lang['FORUM_LIMIT_EDIT_TIME_EXPLAIN'] = 'Abilitando questa opzione gli utenti potranno modificare i propri messaggi solo entro il numero di minuti stabilito nella configurazione messaggi di Icy Phoenix (ACP &raquo; Configurazione &raquo; Icy Phoenix &raquo; Messaggi)';
+
 /*
 $lang['MG_SW_'] = '';
 */
@@ -2087,45 +2108,46 @@ $lang['200_Language'] = 'Gestione Lingue';																// admin_lang_extend.p
 $lang['210_MG_Quick_Settings'] = 'Impostazioni Veloci';										// admin_board_quick_settings.php
 
 // General
-$lang['1100_General'] = 'Generale'; 												// admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php
-$lang['100_Acronyms'] = 'Acronimi';													// admin_acronyms.php
-$lang['110_Autolinks'] = 'Autolinks';												// admin_autolinks.php
-$lang['120_Ads'] = 'Sponsor &amp; Pubblicit&agrave;';				// admin_ads.php
-$lang['130_Mass_Email'] = 'Email Di Gruppo';								// admin_mass_email.php
-$lang['140_Mega_Mail'] = 'Email / PM Di Gruppo';						// admin_megamail.php
-$lang['150_FTR_Config'] = 'Configurazione FTR';							// admin_force_read.php
-$lang['160_FTR_Users'] = 'Utenti FTR';											// admin_force_read.php
-$lang['170_Smilies'] = 'Smileys';														// admin_smilies.php
-$lang['180_Word_Censor'] = 'Censura';												// admin_words.php
-$lang['200_Notepad'] = 'Blocco Note';												// admin_notepad.php
-$lang['210_Help_Desk'] = 'Help Desk';												// admin_helpdesk.php
-$lang['240_Replace_title'] = 'Sostituisci In Posts';				// admin_replace.php
+$lang['1100_General'] = 'Generale'; 													// admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php
+$lang['100_Acronyms'] = 'Acronimi';														// admin_acronyms.php
+$lang['110_Autolinks'] = 'Autolinks';													// admin_autolinks.php
+$lang['120_Ads'] = 'Sponsor &amp; Pubblicit&agrave;';					// admin_ads.php
+$lang['130_Mass_Email'] = 'Email Di Gruppo';									// admin_mass_email.php
+$lang['140_Mega_Mail'] = 'Email / PM Di Gruppo';							// admin_megamail.php
+$lang['150_FTR_Config'] = 'Obbligo Lettura (FTR)';						// admin_force_read.php
+$lang['160_FTR_Users'] = 'Utenti FTR';												// admin_force_read.php
+$lang['170_Smilies'] = 'Smileys';															// admin_smilies.php
+$lang['180_Word_Censor'] = 'Censura';													// admin_words.php
+$lang['200_Notepad'] = 'Blocco Note';													// admin_notepad.php
+$lang['210_Help_Desk'] = 'Help Desk';													// admin_helpdesk.php
+$lang['220_Tickets_Emails'] = 'Categorie Email';							// admin_tickets.php
+$lang['240_Replace_title'] = 'Sostituisci In Posts';					// admin_replace.php
 
 // Forum
-$lang['1200_Forums'] = 'Forum';															// admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
-$lang['100_Manage'] = 'Gestione';														// admin_forums.php
-$lang['110_Manage_extend'] = 'Gestione Avanzata';						// admin_forums_extend.php
-$lang['120_Permissions_List'] = 'Lista Permessi';						// admin_forumauth_list.php
-$lang['122_Permissions_Adv'] = 'Permessi Multipli';					// admin_forumauth_adv.php
-$lang['125_Permissions_Forum'] = 'Permessi';								// admin_forumauth.php
-$lang['130_Prune'] = 'Eliminazione';												// admin_forum_prune.php
-$lang['140_Prune_Overview'] = 'Gestione Eliminazione';			// admin_prune_overview.php
-$lang['150_Topic_Shadow'] = 'Argomenti Ombra';							// admin_topic_shadow.php
+$lang['1200_Forums'] = 'Forum';																// admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
+$lang['100_Manage'] = 'Gestione';															// admin_forums.php
+$lang['110_Manage_extend'] = 'Gestione Avanzata';							// admin_forums_extend.php
+$lang['120_Permissions_List'] = 'Lista Permessi';							// admin_forumauth_list.php
+$lang['122_Permissions_Adv'] = 'Permessi Multipli';						// admin_forumauth_adv.php
+$lang['125_Permissions_Forum'] = 'Permessi';									// admin_forumauth.php
+$lang['130_Prune'] = 'Eliminazione';													// admin_forum_prune.php
+$lang['140_Prune_Overview'] = 'Gestione Eliminazione';				// admin_prune_overview.php
+$lang['150_Topic_Shadow'] = 'Argomenti Ombra';								// admin_topic_shadow.php
 
 // eXtreme Styles
-$lang['1300_Extreme_Styles'] = 'Stile &amp; Templates';										// xs_include.php -> $module_name
+$lang['1300_Extreme_Styles'] = 'Stile &amp; Templates';				// xs_include.php -> $module_name
 
 // DB Maintenance & Security
-$lang['1400_DB_Maintenance'] = 'DB E Sicurezza';						// admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php, admin_logs.php
-$lang['100_Actions_LOG'] = 'Log Azioni';										// admin_logs.php
-$lang['110_DB_Admin'] = 'IP MySQLAdmin';										// admin_bb_db.php
-$lang['120_Backup_DB'] = 'Backup DB';												// admin_db_utilities.php, admin_db_backup
-$lang['130_Restore_DB'] = 'Ripristina DB';									// admin_db_utilities.php, admin_db_backup
-$lang['135_Restore_DB'] = 'Ripristina DB Da File';					// admin_db_utilities.php
-$lang['140_Optimize_DB'] = 'Ottimizzazione DB';							// admin_db_utilities.php
-$lang['150_DB_Maintenance'] = 'Manutenzione DB';						// admin_db_maintenance.php
-$lang['170_db_update_generator'] = 'Generatore DB PHP';			// admin_db_generator.php
-$lang['180_msqd'] = 'MySQLDumper';													// admin_msqd.php
+$lang['1400_DB_Maintenance'] = 'DB E Sicurezza';							// admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php, admin_logs.php
+$lang['100_Actions_LOG'] = 'Log Azioni';											// admin_logs.php
+$lang['110_DB_Admin'] = 'IP MySQLAdmin';											// admin_bb_db.php
+$lang['120_Backup_DB'] = 'Backup DB';													// admin_db_utilities.php, admin_db_backup
+$lang['130_Restore_DB'] = 'Ripristina DB';										// admin_db_utilities.php, admin_db_backup
+$lang['135_Restore_DB'] = 'Ripristina DB Da File';						// admin_db_utilities.php
+$lang['140_Optimize_DB'] = 'Ottimizzazione DB';								// admin_db_utilities.php
+$lang['150_DB_Maintenance'] = 'Manutenzione DB';							// admin_db_maintenance.php
+$lang['170_db_update_generator'] = 'Generatore DB PHP';				// admin_db_generator.php
+$lang['180_msqd'] = 'MySQLDumper';														// admin_msqd.php
 
 // IM Portal
 $lang['1500_IM_Portal'] = 'Home Page';														// admin_blocks.php, admin_blocks_pos.php, admin_blocks_var.php, admin_clear_cache.php, admin_layout.php, admin_portal.php
@@ -2211,8 +2233,8 @@ $lang['150_License_title'] = 'Gestione Licenze';						// admin_pa_license.php
 $lang['160_Permissions'] = 'Permessi';											// admin_pa_catauth.php
 
 // Downloads
-$lang['2050_Downloads'] = 'Downloads ADV';											// admin_pa_catauth.php, admin_pa_category.php, admin_pa_custom.php, admin_pa_fchecker.php, admin_pa_file.php, admin_pa_license.php, admin_pa_settings.php
-$lang['100_DL_Settings'] = 'Configurazione';										// admin_pa_settings.php
+$lang['2050_Downloads'] = 'Downloads ADV';									// admin_pa_catauth.php, admin_pa_category.php, admin_pa_custom.php, admin_pa_fchecker.php, admin_pa_file.php, admin_pa_license.php, admin_pa_settings.php
+$lang['100_DL_Settings'] = 'Configurazione';								// admin_pa_settings.php
 
 // Links
 $lang['2100_Links'] = 'Links';															// admin_links.php, admin_links_cat.php, admin_links_config.php
@@ -2241,6 +2263,27 @@ $lang['120_PHP_INFO'] = 'PHP Info';													// admin_phpinfo.php
 $lang['130_GD_Info'] = 'GD Info';														// admin_gd_info.php
 $lang['140_HTTP_REF'] = 'HTTP Referrers';										// admin_referrers.php
 $lang['150_Google_BOT'] = 'Google Bot';											// admin_google_bot_detector.php
+
+// Activity
+$lang['3000_ACTIVITY'] = 'Activity / Giochi';								// admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
+$lang['110_Configuration'] = 'Configurazione';							// admin_activity.php
+$lang['120_Add_Game'] = 'Aggiunta Gioco';										// admin_activity.php
+$lang['130_Edit_Games'] = 'Modifica Giochi';								// admin_activity.php
+$lang['140_User_Ban'] = 'Espelli Utenti';										// admin_ina_ban.php
+$lang['150_Bulk_Add_Games'] = 'Aggiunta Giochi Di Massa';		// admin_ina_bulk_add.php
+$lang['160_Category'] = 'Gestione Categorie';								// admin_ina_category.php
+$lang['170_Char_Settings'] = 'Impostazioni Personaggi';			// admin_ina_char.php
+$lang['180_Hide_Show_Games'] = 'Visualizzazione Giochi';		// admin_ina_disable.php
+$lang['190_DB_Adjustments'] = 'Manutenzione DB';						// admin_ina_in_un.php
+$lang['200_Mass_Change'] = 'Configurazioni Di Massa';				// admin_ina_mass.php
+$lang['210_Scores_Editor'] = 'Modifica Records';						// admin_ina_scores.php
+$lang['220_Xtras'] = 'Impostazioni Extra';									// admin_ina_xtras.php
+$lang['230_Check_Games'] = 'Lista Giochi';									// admin_ina_xtras.php
+
+// Cash
+$lang['3100_CASH'] = 'Cash / Punti'; // admin_cash.php
+$lang['110_Cash_Admin'] = 'Gestione Divise'; // admin_cash.php
+$lang['120_Cash_Help'] = 'Aiuto'; // admin_cash.php
 
 // ####################### [ ACP Navigation END ] #######################
 

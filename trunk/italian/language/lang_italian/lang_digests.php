@@ -19,12 +19,12 @@ if (empty($lang) || !is_array($lang))
 }
 
 // This block goes as default text in the emailed digest (mail_digests.php)
-$lang['digest_introduction'] = 'Come richesto, ecco qui il Digest dei messaggi inviati su ' . $board_config['sitename'] . '. Vieni a visitare il sito per partecipare alle discussioni!';
-$lang['digest_from_text_name'] = $board_config['sitename'] . ' Robot Digest';
-$lang['digest_from_email_address'] = $board_config['board_email'];
-$lang['digest_subject_line'] = $board_config['sitename'] . ' Digests';
-$lang['digest_disclaimer_html'] = "\r\n" . 'Questo Digest viene inviato agli utenti registrati su <a href = "' . DIGEST_SITE_URL. '">' . $board_config['sitename'] . '</a> che ne hanno fatto richiesta. ' . $board_config['sitename'] . ' non &egrave; un sito con contenuto commerciale ed il tuo indirizzo email non viene fornito a terzi. Consulta le <a href = "' . DIGEST_SITE_URL . 'faq.' . PHP_EXT . '">FAQ</a> per avere ulteriori informazioni sulle nostre politiche di rispetto della Privacy. Puoi modificare la tua iscrizione al Digest accedendo a ' . $board_config['sitename'] . ' ed entrando nella <a href = "' . DIGEST_SITE_URL . 'digests.' . PHP_EXT . '">Pagina Digest</a> (devi aver effettuato l\'accesso con i tuoi dati per poter modificare le impostazioni del Digest). Se hai domande o suggerimenti riguardo questo Digest puoi contattare il <a href = "mailto:' . $board_config['board_email'] . '">Webmaster di ' . $board_config['sitename'] . '</a>.';
-$lang['digest_disclaimer_text'] = "\r\n" . 'Questo Digest viene inviato agli utenti registrati su ' . $board_config['sitename'] . ' che ne hanno fatto richiesta. ' . $board_config['sitename'] . ' non &egrave; un sito con contenuto commerciale ed il tuo indirizzo email non viene fornito a terzi. Consulta le FAQ per avere ulteriori informazioni sulle nostre politiche di rispetto della Privacy. Puoi modificare la tua iscrizione al Digest accedendo a ' . $board_config['sitename'] . ' ed entrando nella Pagina Digest (devi aver effettuato l\'accesso con i tuoi dati per poter modificare le impostazioni del Digest). Se hai domande o suggerimenti riguardo questo Digest puoi contattare il Webmaster di ' . $board_config['sitename'] . ' a questo indirizzo: ' . $board_config['board_email'] . '.';
+$lang['digest_introduction'] = 'Come richesto, ecco qui il Digest dei messaggi inviati su ' . $config['sitename'] . '. Vieni a visitare il sito per partecipare alle discussioni!';
+$lang['digest_from_text_name'] = $config['sitename'] . ' Robot Digest';
+$lang['digest_from_email_address'] = $config['board_email'];
+$lang['digest_subject_line'] = $config['sitename'] . ' Digests';
+$lang['digest_disclaimer_html'] = "\r\n" . 'Questo Digest viene inviato agli utenti registrati su <a href = "' . DIGEST_SITE_URL. '">' . $config['sitename'] . '</a> che ne hanno fatto richiesta. ' . $config['sitename'] . ' non &egrave; un sito con contenuto commerciale ed il tuo indirizzo email non viene fornito a terzi. Consulta le <a href = "' . DIGEST_SITE_URL . 'faq.' . PHP_EXT . '">FAQ</a> per avere ulteriori informazioni sulle nostre politiche di rispetto della Privacy. Puoi modificare la tua iscrizione al Digest accedendo a ' . $config['sitename'] . ' ed entrando nella <a href = "' . DIGEST_SITE_URL . 'digests.' . PHP_EXT . '">Pagina Digest</a> (devi aver effettuato l\'accesso con i tuoi dati per poter modificare le impostazioni del Digest). Se hai domande o suggerimenti riguardo questo Digest puoi contattare il <a href = "mailto:' . $config['board_email'] . '">Webmaster di ' . $config['sitename'] . '</a>.';
+$lang['digest_disclaimer_text'] = "\r\n" . 'Questo Digest viene inviato agli utenti registrati su ' . $config['sitename'] . ' che ne hanno fatto richiesta. ' . $config['sitename'] . ' non &egrave; un sito con contenuto commerciale ed il tuo indirizzo email non viene fornito a terzi. Consulta le FAQ per avere ulteriori informazioni sulle nostre politiche di rispetto della Privacy. Puoi modificare la tua iscrizione al Digest accedendo a ' . $config['sitename'] . ' ed entrando nella Pagina Digest (devi aver effettuato l\'accesso con i tuoi dati per poter modificare le impostazioni del Digest). Se hai domande o suggerimenti riguardo questo Digest puoi contattare il Webmaster di ' . $config['sitename'] . ' a questo indirizzo: ' . $config['board_email'] . '.';
 $lang['digest_forum'] = 'Forum: ';
 $lang['digest_topic'] = 'Argomenti: ';
 $lang['digest_link'] = 'Link';
@@ -99,6 +99,7 @@ $lang['digest_8pm'] = '20';
 $lang['digest_9pm'] = '21';
 $lang['digest_10pm'] = '22';
 $lang['digest_11pm'] = '23';
+$lang['digest_click_return'] = 'Clicca %sQUI%s per tornare alle impostazioni del Digest';
 $lang['digest_select_forums'] = '<b>Attiva il Digest per i seguenti forums:</b>';
 $lang['digest_create'] = 'Impostazioni Digest Create';
 $lang['digest_modify'] = 'Impostazioni Digest Aggiornate';

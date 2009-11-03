@@ -176,6 +176,8 @@ $lang = array_merge($lang, array(
 	'cms_pos_column1' => 'Column 1 (Left)',
 	'cms_pos_column2' => 'Column 2 (Right)',
 	'cms_pos_bottomrow' => 'Bottom',
+	'cms_pos_gheader' => 'Global Header',
+	'cms_pos_gfooter' => 'Global Footer',
 	'cms_pos_ghtop' => 'Header Top',
 	'cms_pos_ghbottom' => 'Header Bottom',
 	'cms_pos_ghleft' => 'Header Centre (Left)',
@@ -215,6 +217,7 @@ $lang = array_merge($lang, array(
 	'cms_block_online_users' => 'Who is Online',
 	'cms_block_online_users2' => 'Who is Online',
 	'cms_block_paypal' => 'PayPal',
+	'cms_block_paypal_donate' => 'Donations',
 	'cms_block_poll' => 'Poll',
 	'cms_block_random_attach' => 'Random Attach',
 	'cms_block_random_quote' => 'Random Quote',
@@ -345,7 +348,7 @@ $lang = array_merge($lang, array(
 	'CMS_Menu_New_cat_link_url' => 'URL of the category (if no URL is entered, clicking on category link you can expand/collapse category items)',
 	'CMS_Menu_Update' => 'Update Menu',
 
-	'Click_Return_CMS_Menu' => 'Click %shere%s to return to the menu administration',
+	'Click_Return_CMS_Menu' => 'Click %sHere%s to return to the menu administration',
 
 	'Menu_created' => 'Menu successfully created.',
 	'Cat_created' => 'Category successfully created.',
@@ -380,7 +383,7 @@ $lang = array_merge($lang, array(
 	'TURN_LOCAL' => 'Enable/Disable Location Title',
 	'TURN_BACKGROUND' => 'Enable/Disable Background',
 
-	'BLOCKS_POSITION_SAVE' => 'Save blocks position',
+	'BLOCKS_POSITION_SAVE' => 'Save Blocks Positions',
 	'BLOCKS_POSITION_UPDATED' => 'Blocks location successfully updated',
 
 	'INVALID_BLOCKS' => 'Invalid blocks position',

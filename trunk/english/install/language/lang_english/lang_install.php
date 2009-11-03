@@ -152,8 +152,8 @@ $lang = array_merge($lang, array(
 	'IcyPhoenix_Version_NotInstalled' => 'Icy Phoenix is not installed',
 	'phpBB_Version_UpToDate' => 'Your phpBB is version is up-to-date',
 	'phpBB_Version_NotUpToDate' => 'Your phpBB is version is not up-to-date',
-	'ClickUpdate' => 'Please click %shere%s to update!',
-	'ClickReturn' => 'Please click %shere%s to return to menu!',
+	'ClickUpdate' => 'Please click %sHere%s to update!',
+	'ClickReturn' => 'Please click %sHere%s to return to menu!',
 
 	'Clean_OldFiles_Explain' => 'Remove all unused Icy Phoenix (files still on your server from older versions)',
 	'ActionUndone' => 'Please note that this action cannot be undone. Make sure you have a backup!!!',
@@ -215,6 +215,11 @@ $lang = array_merge($lang, array(
 	'Fixed' => 'Fixed',
 	'NotFixed' => 'Not Fixed',
 	'FilesProcessed' => 'Files processed',
+
+	'FixForums' => 'Convert Forums',
+	'FixForumsExplain' => 'This feature will convert forums and categories into the new format.',
+	'FixingForumsInProgress' => 'Conversion in progress...',
+	'FixingForumsComplete' => 'Work complete!',
 
 	'FixPosts' => 'Fix Posts',
 	'FixPostsExplain' => 'This feature will allow you to fix all posts in your forums. You can use this feature to: find and replace any text in your posts, remove all BBCode UID, automatically adjust the address of posted images.',

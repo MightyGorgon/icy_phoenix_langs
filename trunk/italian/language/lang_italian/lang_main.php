@@ -1344,7 +1344,7 @@ $lang['TELL_FRIEND_BODY'] = "Ciao,\nho letto questa discussione sull'argomento &
 $lang['Lofi'] = 'Visualizzazione Lo-Fi';
 //$lang['Full_Version'] = 'Visualizzazione Integrale';
 $lang['Full_Version'] = 'Questa visualizzazione "Lo-Fi" &egrave; semplificata. Per avere la versione completa di formattazioni ed immagini clicca su questo link.';
-$lang['quote_lofi'] = 'Quota';
+$lang['quote_lofi'] = 'Cita';
 $lang['edit_lofi'] = 'Modifica';
 $lang['ip_lofi'] = 'IP';
 $lang['del_lofi'] = 'Elimina';
@@ -1703,7 +1703,7 @@ $lang['Search_Explain'] = 'Ricerca interna al sito';
 
 //030
 $lang['Login_attempts_exceeded'] = 'Il numero massimo di %s tentativi di login consentiti sono stati superati. Potrai riprovare tra %s minuti.';
-$lang['Please_remove_install_contrib'] = 'Elimina le cartelle install/ e contrib/ dal tuo server';
+$lang['Please_remove_install_contrib'] = 'Elimina la cartella <b>install/</b>s dal tuo server';
 
 //033
 $lang['Search_Engines'] = 'Bots Motori di Ricerca:';
@@ -1911,20 +1911,62 @@ $lang['Rank3_title'] = 'Titolo Livello 3';
 $lang['Rank4_title'] = 'Titolo Livello 4';
 $lang['Rank5_title'] = 'Titolo Livello 5';
 // Mighty Gorgon - Multiple Ranks - END
+
 // Mighty Gorgon - Nav Links - BEGIN
 $lang['QUICK_LINKS'] = 'Menu';
 $lang['MAIN_LINKS'] = 'Link Principali';
-$lang['TOOLS_LINKS'] = 'Utilit&agrave;';
 $lang['NEWS_LINKS'] = 'News';
-$lang['USERS_LINKS'] = 'Utenti &amp; Gruppi';
 $lang['INFO_LINKS'] = 'Info';
+$lang['USERS_LINKS'] = 'Utenti &amp; Gruppi';
+$lang['SELECT_STYLE'] = 'Stile';
+$lang['SELECT_LANG'] = 'Lingua';
+$lang['RSS_FEEDS'] = 'Feeds RSS';
 $lang['SPONSORS_LINKS'] = 'Sponsors';
+$lang['TOOLS_LINKS'] = 'Utilit&agrave;';
 $lang['HelpDesk'] = 'Help Desk';
 $lang['AvatarGenerator'] = 'Generatore Avatar';
 $lang['DBGenerator'] = 'Conversione SQL/PHP';
-$lang['NEWS_CAT'] = 'Categorie News';
-$lang['NEWS_ARC'] = 'Archivio News';
+
+$lang['LINK_ACP'] = 'ACP';
+$lang['LINK_CMS'] = 'CMS';
+$lang['LINK_HOME'] = 'Home';
+$lang['LINK_PROFILE'] = 'Profilo';
+$lang['LINK_FORUM'] = 'Forum';
+$lang['LINK_BOARDRULES'] = 'Regolamento';
+$lang['LINK_FAQ'] = 'FAQ';
+$lang['LINK_SEARCH'] = 'Cerca';
+$lang['LINK_SITEMAP'] = 'Sitemap';
+$lang['LINK_ALBUM'] = 'Album';
+$lang['LINK_CALENDAR'] = 'Calendario';
+$lang['LINK_DOWNLOADS'] = 'Downloads';
+$lang['LINK_BOOKMARKS'] = 'Bookmarks';
+$lang['LINK_DRAFTS'] = 'Bozze';
+$lang['LINK_UPLOADED_IMAGES'] = 'Immagini Caricate';
+$lang['LINK_AJAX_SHOUTBOX'] = 'Chat';
+$lang['LINK_LINKS'] = 'Links';
+$lang['LINK_CONTACT_US'] = 'Contattaci';
+$lang['LINK_SUDOKU'] = 'Sudoku';
+
+$lang['LINK_NEWS_CAT'] = 'Categorie News';
+$lang['LINK_NEWS_ARC'] = 'Archivio News';
+$lang['LINK_NEW_MESSAGES'] = 'Nuovi Messaggi';
+$lang['LINK_DISPLAY_UNREAD_S'] = 'Non Letti';
+$lang['LINK_DISPLAY_MARKED_S'] = 'Contrassegnati';
+$lang['LINK_DISPLAY_PERMANENT_S'] = 'Permanenti';
+$lang['LINK_DIGESTS'] = 'Digests';
+
+$lang['LINK_CREDITS'] = 'Crediti';
+$lang['LINK_REFERRERS'] = 'HTTP Referrers';
+$lang['LINK_VIEWONLINE'] = 'Utenti Online';
+$lang['LINK_STATISTICS'] = 'Statistiche';
+$lang['LINK_DELETE_COOKIES'] = 'Elimina Cookies';
+
+$lang['LINK_MEMBERLIST'] = 'Lista Utenti';
+$lang['LINK_USERGROUPS'] = 'Gruppi Utenti';
+$lang['LINK_RANKS'] = 'Livelli';
+$lang['LINK_STAFF'] = 'Staff';
 // Mighty Gorgon - Nav Links - END
+
 $lang['Activity'] = 'Giochi';
 $lang['Games'] = 'Giochi';
 $lang['Trohpy'] = 'Trofei';
@@ -2443,10 +2485,29 @@ $lang['REPLY_PREFIX_OLD'] = 'Re: ';
 $lang['REPLY_PREFIX'] = 'Re: ';
 
 $lang['READ_ONLY_FORUM'] = 'Ci dispiace, ma il forum &egrave; impostato in modalit&agrave; <b>SOLA LETTURA</b> per cui al momento non puoi inviare messaggi. Per favore riprova pi&ugrave; tardi.';
+
+// Tickets Submission - BEGIN
+$lang['TICKET_CAT'] = 'Categoria';
+// Tickets Submission - END
+
+$lang['LIMIT_EDIT_TIME_WARN'] = 'Attenzione, purtroppo in questo forum puoi modificare i messaggi solo entro <b>%d</b> minuti dall\'invio.';
+$lang['CLEAN_NAME'] = 'Nome Regolare';
+$lang['CLEAN_NAME_EXPLAIN'] = 'Consentiti solo caratteri alfanumerici e trattini';
+$lang['TOPIC_TAGS'] = 'Tags E Parole Chiave';
+$lang['TOPIC_TAGS_EXPLAIN'] = 'Inserire ogni tag separato da virgola';
+$lang['TAG_COUNT'] = 'Contatore';
+$lang['TAG_TEXT'] = 'Tag';
+$lang['TAGS_NO_TAGS'] = 'Nessun tag creato';
+$lang['TAGS_NO_TAG'] = 'Il tag richiesto non esiste';
+
+$lang['SQL_ERROR_OCCURRED'] = 'Questa pagina contiene degli errori SQL. Per cortesia contatta l\'amministratore del sito se il problema persiste.';
+
+$lang['PLUGIN_DISABLED'] = 'Questa funzionalit&agrave; &egrave; disattivata.';
+
 //$lang[''] = '';
 
 //====================================================
-// Non inserite niente sotto questa riga, per favore.
+// Non inserire niente sotto questa riga, per favore.
 //====================================================
 
 ?>

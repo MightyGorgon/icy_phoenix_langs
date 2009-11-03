@@ -20,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang['RandomQuote'] = 'La frase del momento';
 
-//$randomquote[rand(0,count($randomquote)-1)]);
+//$randomquote[rand(0,sizeof($randomquote)-1)]);
 
 $randomquote = array(
 // Aforismi

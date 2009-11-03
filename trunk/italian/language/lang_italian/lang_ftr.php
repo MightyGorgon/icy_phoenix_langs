@@ -59,7 +59,7 @@ $lang['Ftr_default2'] = 'Seleziona un argomento';
 /* Added in 1.0.2 */
 
 $lang['Ftr_user_deleted'] = 'Utente rimosso!';
-$lang['Ftr_deactivate'] = 'Disattivazione del Mod?<br /><span class="gensmall"> Se si seleziona <b>SI</b> il mod sar&agrave; disattivato</span>';
+$lang['Ftr_deactivate'] = 'Disattivazione del Mod?<br /><span class="gensmall">Selezionando <b>SI</b> la funzione verr&agrave; disattivata</span>';
 $lang['Ftr_whos_effected'] = 'Chi volete sia obbligato a leggere questo messaggio?<br /><span class="gensmall">Selezionando <b>Nuovi Iscritti</b> soltanto coloro che si iscriveranno dopo l\'installazione di questo mod saranno obbligati a leggere questo messaggio.</span>';
 $lang['Ftr_whos_effected_a'] = 'Tutti';
 $lang['Ftr_whos_effected_n'] = 'Nuovi Iscritti';

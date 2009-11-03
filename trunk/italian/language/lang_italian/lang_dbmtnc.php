@@ -147,7 +147,7 @@ $mtnc[] = array('rebuild_search_index',
 	7);
 $mtnc[] = array('proceed_rebuilding',
 	'Riprendi Ricostruzione',
-	'Usa questa funzione se la ricostruzione dell\indice di ricerca fosse stata interrotta.',
+	'Usa questa funzione se la ricostruzione dell\'indice di ricerca fosse stata interrotta.',
 	'',
 	4);
 $mtnc[] = array('--', '', '', '', 1);
@@ -318,6 +318,8 @@ $lang['Updating_invalid_prune_settings'] = 'Aggiornamento in corso impostazione 
 $lang['Checking_topic_watch_data'] = 'Verifica in corso per Discussioni lette';
 $lang['Checking_auth_access_data'] = 'Verifica in corso per autorizzazioni gruppi non valide';
 $lang['Must_synchronize'] = 'Devi sincronizzare i dati dei post prima di usare la board. Clicca per procedere.';
+// rebuild last poster details
+$lang['Rebuild_Last_Poster_Details'] = 'Ricostruzione mittenti messaggi';
 // check_vote
 $lang['Checking_vote_tables'] = 'Verifica tabella vote';
 $lang['Checking_votes_wo_topic'] = 'Verifica in corso per voti non appartenenti ad una discussione';

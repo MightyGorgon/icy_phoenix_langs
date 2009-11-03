@@ -169,6 +169,8 @@ $lang['cms_pos_toprow'] = 'Cima';
 $lang['cms_pos_column1'] = 'Colonna 1 (Sinistra)';
 $lang['cms_pos_column2'] = 'Colonna 2 (Destra)';
 $lang['cms_pos_bottomrow'] = 'Fondo';
+$lang['cms_pos_gheader'] = 'Header Globale';
+$lang['cms_pos_gfooter'] = 'Footer Globale';
 $lang['cms_pos_ghtop'] = 'Header Alto';
 $lang['cms_pos_ghbottom'] = 'Header Basso';
 $lang['cms_pos_ghleft'] = 'Header Centro (Sinistra)';
@@ -209,6 +211,7 @@ $lang['cms_block_news_posters'] = 'Autori News';
 $lang['cms_block_online_users'] = 'In Linea';
 $lang['cms_block_online_users2'] = 'In Linea';
 $lang['cms_block_paypal'] = 'PayPal';
+$lang['cms_block_paypal_donate'] = 'Donazioni';
 $lang['cms_block_poll'] = 'Sondaggio';
 $lang['cms_block_random_attach'] = 'Allegato Casuale';
 $lang['cms_block_random_quote'] = 'Citazione Casuale';
@@ -372,7 +375,7 @@ $lang['TURN_TITLEBAR'] = 'Attiva/Disattiva Barra del Titolo';
 $lang['TURN_LOCAL'] = 'Attiva/Disattiva Localizzazione Titolo';
 $lang['TURN_BACKGROUND'] = 'Attiva/Disattiva Sfondo';
 
-$lang['BLOCKS_POSITION_SAVE'] = 'Salva posizione blocchi';
+$lang['BLOCKS_POSITION_SAVE'] = 'Salva Posizione Blocchi';
 $lang['BLOCKS_POSITION_UPDATED'] = 'Posizione blocchi salvata con successo';
 
 $lang['INVALID_BLOCKS'] = 'Posizione blocchi non valida';

@@ -241,7 +241,7 @@ $lang['Cash_status'] = 'Stato';
 eg.
 Joe donated 14 gold, $10, 3 points to Peter
 */
-$lang['Cash_clause'][CASH_LOG_DONATE] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> regala <b>%s</b> a <a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>';
+$lang['Cash_clause'][CASH_LOG_DONATE] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> regala <b>%s</b> a <a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>';
 
 /* argument order: [admin/mod id][admin/mod name][editee id][editee name][Added list][removed list][Set list]
 
@@ -251,35 +251,35 @@ Added 14 gold
 Removed $10
 Set 3 points
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_MODEDIT] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new">%s</a> ha modificato la Cassa di <a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>\:<br />Aggiunti <b>%s</b><br />Cancellati <b>%s</b><br />Impostato a <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_MODEDIT] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new">%s</a> ha modificato la Cassa di <a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>\:<br />Aggiunti <b>%s</b><br />Cancellati <b>%s</b><br />Impostato a <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][currency name]
 
 eg.
 Joe created points
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_CREATE_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha creato <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_CREATE_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha creato <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][currency name]
 
 eg.
 Joe deleted $
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_DELETE_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha cancellato <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_DELETE_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha cancellato <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][old currency name][new currency name]
 
 eg.
 Joe renamed silver to gold
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_RENAME_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha rinominato <b>%s</b> in <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_RENAME_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha rinominato <b>%s</b> in <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][copied currency name][copied over currency name]
 
 eg.
 Joe copied users' gold to points
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_COPY_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha copiato i <b>%s</b> dell\'utente in <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_COPY_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha copiato i <b>%s</b> dell\'utente in <b>%s</b>';
 
 $lang['Log'] = 'Log';
 $lang['Action'] = 'Azione';

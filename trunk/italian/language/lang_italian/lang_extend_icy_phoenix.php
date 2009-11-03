@@ -106,11 +106,8 @@ if ($lang_extend_admin)
 	$lang['IP_db_cron_explain'] = 'Attivando questa opzione verr&agrave; attivata l\'ottimizzazione automatica del Database';
 	*/
 
-	$lang['IP_site_history'] = 'Storico Sito';
-	$lang['IP_site_history_explain'] = 'Attivando questa opzione verr&agrave; attivato lo Storico Sito';
-
-	$lang['IP_site_history'] = 'Storico Sito';
-	$lang['IP_site_history_explain'] = 'Attivando questa opzione verr&agrave; attivato lo Storico Sito';
+	$lang['IP_site_history'] = 'Statistiche Visite Sito';
+	$lang['IP_site_history_explain'] = 'Attivando questa opzione verranno memorizzate delle statistiche sulle visite del sito';
 
 	$lang['IP_global_disable_upi2db'] = 'Disabilita completamente UPI2DB';
 	$lang['IP_global_disable_upi2db_explain'] = 'Questa opzione consente di disattivare completamente il sistema UPI2DB permettendo di risparmiare in termini di memoria.';
@@ -194,6 +191,9 @@ if ($lang_extend_admin)
 	$lang['IP_allow_mods_edit_admin_posts'] = 'Consenti Modifica Messaggi Admin';
 	$lang['IP_allow_mods_edit_admin_posts_explain'] = 'Consenti ai moderatori di modificare i messaggi degli amministratori';
 
+	$lang['IP_forum_limit_edit_time_interval'] = 'Intervallo Modifica Messaggi (Minuti)';
+	$lang['IP_forum_limit_edit_time_interval_explain'] = 'Questa impostazione consente di fissare un intervallo massimo in cui gli utenti possono modificare i propri messaggi. Impostando a zero nessun limite verr&agrave;  impostato. Questa impostazione va abilitata a livello di singolo forum dalla Gestione Forum.';
+
 	$lang['IP_force_large_caps_mods'] = 'Forza Iniziali Maiuscole';
 	$lang['IP_force_large_caps_mods_explain'] = 'Forza iniziali maiuscole nei titoli degli argomenti anche ai moderatori (gli amministratori non hanno comunque vincoli)';
 
@@ -228,8 +228,8 @@ if ($lang_extend_admin)
 
 	$lang['IP_quote_iterations'] = 'Numero massimo di citazioni concatenate';
 
-	$lang['IP_disable_ftr'] = 'Disabilita Force Topic Read';
-	$lang['IP_disable_ftr_explain'] = 'Attivando questa opzione Force Topic Read sar&agrave; disabilitato completamente';
+	$lang['IP_ftr_disable'] = 'Disabilita Force Topic Read';
+	$lang['IP_ftr_disable_explain'] = 'Attivando questa opzione Force Topic Read sar&agrave; disabilitato';
 
 	$lang['IP_disable_html_guests'] = 'Disabilita i link HTML per gli ospiti';
 
@@ -239,6 +239,9 @@ if ($lang_extend_admin)
 
 	$lang['IP_enable_quick_quote'] = 'Abilita Quick Quote e Off Topic';
 	$lang['IP_enable_quick_quote_explain'] = 'Quick Quote consente agli utenti di citare qualunque messaggio con un semplice click. Questa funzione utilizza JavaScript, per cui abilitandola, la dimensione delle pagine potrebbe crescere a dismisura.';
+
+	$lang['IP_allow_html_only_for_admins'] = 'Abilita codici HTML per gli Amministratori';
+	$lang['IP_allow_html_only_for_admins_explain'] = 'Abilitando questa opzione gli amministratori saranno in grado di utilizzare codici HTML nei messaggi del forum. <b>Attenzione</b>: questa funzione (ove non utilizzata correttamente) pu&ograve; causare problemi di sicurezza o errata visualizzazione di pagine.';
 
 	$lang['IP_allow_all_bbcode'] = 'Abilita tutti i BBCode';
 	$lang['IP_allow_all_bbcode_explain'] = 'Abilitando questa opzione verranno processati tutti i BBCode nelle firme ed in altre pagine in cui normalmente alcuni BBCode sono disattivati. I BBCode che normalmente rientrano in questa categoria sono quelli relativi alle immagini e alle formattazioni che possono gravare maggiormente sul server. Ricorda che abilitando questa opzione alcune firme potrebbero risultare eccessivamente grandi.';
@@ -412,22 +415,22 @@ if ($lang_extend_admin)
 	$lang['IP_cron_global_switch_explain'] = 'Attivando questa opzione verr&agrave; abilitato un CRON basato su PHP: il CRON consente l\'esecuzione automatica (ad intervalli regolari) di particolari operazioni sul sito. L\'intervallo ottimale per ciascuna operazione dipende dal traffico del sito e dalle tue preferenze: se non comprendi bene l\'impatto di tali funzioni &egrave; consigliabile lasciare questa funzione disattivata, perch&eacute; probabilmente non ne hai bisogno.';
 
 	$lang['IP_cron_files_interval'] = 'Intervallo Esecuzione Automatica Di Files';
-	$lang['IP_cron_files_interval_explain'] = 'Attivando questa opzione potrai eseguire ad intervalli regolari dei files. Per selezionare i files da eseguire devi modificare manualmente il file <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\'; \'\');</b>. Puoi aggiungere anche pi&ugrave; files separati da virgola.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_files_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>';
+	$lang['IP_cron_files_interval_explain'] = 'Attivando questa opzione potrai eseguire ad intervalli regolari dei files. Per selezionare i files da eseguire devi modificare manualmente il file <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\'; \'\');</b>. Puoi aggiungere anche pi&ugrave; files separati da virgola.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_files_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>';
 
 	$lang['IP_cron_database_interval'] = 'Intervallo Ottimizzazione DB';
-	$lang['IP_cron_database_interval_explain'] = 'Ottimizzazione del DB ad intervalli regolari.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_database_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>';
+	$lang['IP_cron_database_interval_explain'] = 'Ottimizzazione del DB ad intervalli regolari.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_database_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($config['cron_database_last_run']), $config['board_timezone'])) . '</b>';
 
 	$lang['IP_cron_cache_interval'] = 'Intervallo Pulizia Cache Templates';
-	$lang['IP_cron_cache_interval_explain'] = 'Pulizia della cache dei templates.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_cache_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>';
+	$lang['IP_cron_cache_interval_explain'] = 'Pulizia della cache dei templates.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_cache_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($config['cron_cache_last_run']), $config['board_timezone'])) . '</b>';
 
 	$lang['IP_cron_sql_interval'] = 'Intervallo Pulizia Cache SQL';
-	$lang['IP_cron_sql_interval_explain'] = 'Pulizia della cache SQL.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_sql_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>';
+	$lang['IP_cron_sql_interval_explain'] = 'Pulizia della cache SQL.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_sql_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($config['cron_sql_last_run']), $config['board_timezone'])) . '</b>';
 
 	$lang['IP_cron_users_interval'] = 'Intervallo Pulizia Cache Utenti';
-	$lang['IP_cron_users_interval_explain'] = 'Pulizia della cache utenti.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_users_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>';
+	$lang['IP_cron_users_interval_explain'] = 'Pulizia della cache utenti.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_users_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($config['cron_users_last_run']), $config['board_timezone'])) . '</b>';
 
 	$lang['IP_cron_topics_interval'] = 'Intervallo Pulizia Cache Argomenti';
-	$lang['IP_cron_topics_interval_explain'] = 'Pulizia della cache argomenti.<br /><br /><b>Ultima esecuzione: ' . (($board_config['cron_topics_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>';
+	$lang['IP_cron_topics_interval_explain'] = 'Pulizia della cache argomenti.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_topics_last_run'] == 0) ? 'NEVER' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>';
 
 	$lang['Cron_Disabled'] = 'Disabled';
 	$lang['15M'] = '15 Minuti';

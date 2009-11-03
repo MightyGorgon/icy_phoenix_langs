@@ -228,6 +228,11 @@ $lang = array_merge($lang, array(
 	'NotFixed' => 'Non corretto',
 	'FilesProcessed' => 'Files processati',
 
+	'FixForums' => 'Converti Forum',
+	'FixForumsExplain' => 'Questa funzione convertir&agrave; forum e categorie nel nuovo formato.',
+	'FixingForumsInProgress' => 'Conversione in corso...',
+	'FixingForumsComplete' => 'Conversione completata!',
+
 	'FixPosts' => 'Correggi Messaggi',
 	'FixPostsExplain' => 'Questa funzione serve per correggere i messaggi del forum. Si pu&ograve; utilizzare per: sostituire del testo all\'interno dei messaggi, eliminare il BBCode UID, modificare l\'indirizzo delle immagini inviate.',
 	'FixingPostsInProgress' => 'Correzione messaggi in corso',

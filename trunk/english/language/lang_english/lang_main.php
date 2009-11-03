@@ -1236,7 +1236,7 @@ $lang = array_merge($lang, array(
 	'Pic_Upload_Explain' => 'Allowed types are JPG, GIF and PNG. Maximum file size is %s bytes. Maximum image dimensions are %sx%s pixels.',
 	'Album_full' => 'Sorry, the album has reached the maximum number of uploaded pics. Please contact the album administrator for more information.',
 	'Album_upload_successful' => 'Thank you, your pic has been uploaded successfully.',
-	'Click_return_album' => 'Click %shere%s to return to the Album.',
+	'Click_return_album' => 'Click %sHere%s to return to the Album.',
 	'Invalid_upload' => 'Invalid Upload<br /><br />Your pic is too big or its type is not allowed.',
 	'Image_too_big' => 'Sorry, your image dimensions are too large.',
 	'Uploaded_by' => 'Uploaded by',
@@ -1330,7 +1330,7 @@ $lang = array_merge($lang, array(
 	'Recent_title_lastXdays' => ' from the last %s days', // %s = days
 	'Recent_no_topics' => 'No topics were found.',
 	'Recent_wrong_mode' => 'You have selected a wrong mode.',
-	'Recent_click_return' => 'Click %shere%s to return to recent site.',
+	'Recent_click_return' => 'Click %sHere%s to return to recent site.',
 
 	'Profile_view_option' => 'Pop up window on Profile View',
 	'Profile_viewed' => 'My Profile Views',
@@ -1393,7 +1393,7 @@ $lang = array_merge($lang, array(
 	'Mod_CP_topic_globalized' => 'The selected topic has been globalized.',
 	'Mod_CP_topics_normalized' => 'The selected topics have been normalized.',
 	'Mod_CP_topic_normalized' => 'The selected topic has been normalized.',
-	'Mod_CP_click_return_topic' => 'Click %shere%s to return to the old topic or %shere%s to return to the new one.',
+	'Mod_CP_click_return_topic' => 'Click %sHere%s to return to the old topic or %sHere%s to return to the new one.',
 
 	't_starter' => 'You cannot thank yourself',
 	'Watched_Topics' => 'Watched Topics',
@@ -1499,7 +1499,7 @@ $lang = array_merge($lang, array(
 	'Adv_Search' => 'Advanced Search',
 	'Search_Explain' => 'Search inside the Site',
 	'Login_attempts_exceeded' => 'The maximum number of %s login attempts has been exceeded. You are not allowed to login for the next %s minutes.',
-	'Please_remove_install_contrib' => 'Please ensure both the install/ and contrib/ directories are deleted',
+	'Please_remove_install_contrib' => 'Please ensure the <b>install/</b> folder is deleted',
 	'Search_Engines' => 'Search Engine Bots:',
 	'Bots_browsing_forum' => 'Search Engine Bots browsing this forum:',
 	'Debug_On' => 'Debug On',
@@ -1678,20 +1678,62 @@ $lang = array_merge($lang, array(
 	'Rank4_title' => 'Rank 4 Title',
 	'Rank5_title' => 'Rank 5 Title',
 // Mighty Gorgon - Multiple Ranks - END
+
 // Mighty Gorgon - Nav Links - BEGIN
 	'QUICK_LINKS' => 'Menu',
 	'MAIN_LINKS' => 'Main Links',
-	'TOOLS_LINKS' => 'Tools',
 	'NEWS_LINKS' => 'News',
-	'USERS_LINKS' => 'Users &amp; Groups',
 	'INFO_LINKS' => 'Info',
+	'USERS_LINKS' => 'Users &amp; Groups',
+	'SELECT_STYLE' => 'Style',
+	'SELECT_LANG' => 'Language',
+	'RSS_FEEDS' => 'RSS Feeds',
 	'SPONSORS_LINKS' => 'Sponsors',
+	'TOOLS_LINKS' => 'Tools',
 	'HelpDesk' => 'Help Desk',
 	'AvatarGenerator' => 'Avatar Generator',
 	'DBGenerator' => 'SQL to PHP Generator ',
-	'NEWS_CAT' => 'News Categories',
-	'NEWS_ARC' => 'News Archive',
+
+	'LINK_ACP' => 'ACP',
+	'LINK_CMS' => 'CMS',
+	'LINK_HOME' => 'Home',
+	'LINK_PROFILE' => 'Profile',
+	'LINK_FORUM' => 'Forum',
+	'LINK_BOARDRULES' => 'Rules',
+	'LINK_FAQ' => 'FAQ',
+	'LINK_SEARCH' => 'Search',
+	'LINK_SITEMAP' => 'Sitemap',
+	'LINK_ALBUM' => 'Album',
+	'LINK_CALENDAR' => 'Calendar',
+	'LINK_DOWNLOADS' => 'Downloads',
+	'LINK_BOOKMARKS' => 'Bookmarks',
+	'LINK_DRAFTS' => 'Drafts',
+	'LINK_UPLOADED_IMAGES' => 'Uploaded Images',
+	'LINK_AJAX_SHOUTBOX' => 'Chat',
+	'LINK_LINKS' => 'Links',
+	'LINK_CONTACT_US' => 'Contact Us',
+	'LINK_SUDOKU' => 'Sudoku',
+
+	'LINK_NEWS_CAT' => 'News Categories',
+	'LINK_NEWS_ARC' => 'News Archive',
+	'LINK_NEW_MESSAGES' => 'New Posts',
+	'LINK_DISPLAY_UNREAD_S' => 'Unread',
+	'LINK_DISPLAY_MARKED_S' => 'Marked',
+	'LINK_DISPLAY_PERMANENT_S' => 'Permanent',
+	'LINK_DIGESTS' => 'Digests',
+
+	'LINK_CREDITS' => 'Credits',
+	'LINK_REFERRERS' => 'HTTP Referrers',
+	'LINK_VIEWONLINE' => 'Online Users',
+	'LINK_STATISTICS' => 'Statistics',
+	'LINK_DELETE_COOKIES' => 'Delete Cookies',
+
+	'LINK_MEMBERLIST' => 'Memberlist',
+	'LINK_USERGROUPS' => 'Usergroups',
+	'LINK_RANKS' => 'Ranks',
+	'LINK_STAFF' => 'Staff',
 // Mighty Gorgon - Nav Links - END
+
 	'Activity' => 'Games',
 	'Games' => 'Games',
 	'Trohpy' => 'Game Trophies',
@@ -1994,7 +2036,7 @@ $lang = array_merge($lang, array(
 	'CannotEditAdminsPosts' => 'You cannot edit admins posts',
 	'Random_Number' => 'Random Number',
 
-	'New_download' => 'A new download was uploaded or updated.<br />Click %shere%s to view it.',
+	'New_download' => 'A new download was uploaded or updated.<br />Click %sHere%s to view it.',
 	'Dl_bug_tracker' => 'Bug Tracker',
 	'Downloads_ADV' => 'Downloads ADV',
 
@@ -2198,6 +2240,23 @@ $lang = array_merge($lang, array(
 
 	'READ_ONLY_FORUM' => 'We are sorry, but currently the forum is set in <b>READ ONLY</b> mode which means that you cannot post even if you have the right to. Please try again later.',
 
+	// Tickets Submission - BEGIN
+	'TICKET_CAT' => 'Category',
+	// Tickets Submission - END
+
+	'LIMIT_EDIT_TIME_WARN' => 'We are sorry, but you are only allowed to edit posts within the first <b>%d</b> minute(s) after submission.',
+	'CLEAN_NAME' => 'Clean Name',
+	'CLEAN_NAME_EXPLAIN' => 'Only alpha-numeric chars and dashes allowed',
+	'TOPIC_TAGS' => 'Tags And Keywords',
+	'TOPIC_TAGS_EXPLAIN' => 'Separate each tag using comma',
+	'TAG_COUNT' => 'Counter',
+	'TAG_TEXT' => 'Tag',
+	'TAGS_NO_TAGS' => 'No tags have been defined',
+	'TAGS_NO_TAG' => 'Specified tag doesn\'t exist',
+
+	'SQL_ERROR_OCCURRED' => 'An SQL error occurred while fetching this page. Please contact the Site Administrator if this problem persists.',
+
+	'PLUGIN_DISABLED' => 'This plugin is currently disabled.',
 	)
 );
 
