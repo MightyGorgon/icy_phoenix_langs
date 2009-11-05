@@ -2016,6 +2016,7 @@ $lang['Last_Seen'] = 'Ultimi Online';
 $lang['CMS_TITLE'] = 'CMS';
 $lang['CMS_MANAGEMENT'] = 'Gestione CMS';
 $lang['CMS_CONFIG'] = 'Configurazione CMS';
+$lang['CMS_SETTINGS'] = 'Impostazioni CMS';
 $lang['CMS_ACP'] = 'Modifica Questa Pagina';
 $lang['CUSTOM_PAGE'] = 'Pagina Personalizzata';
 //$lang['CMS_'] = '';
