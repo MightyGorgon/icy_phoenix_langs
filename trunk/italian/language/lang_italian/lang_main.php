@@ -829,8 +829,8 @@ $lang['Confirm_unsub_pending'] = 'La tua iscrizione a questo Gruppo non &egrave;
 
 $lang['Unsub_success'] = 'Sei stato cancellato da questo Gruppo.';
 
-$lang['Approve_selected'] = 'Approvazione Selezionata';
-$lang['Deny_selected'] = 'Rifiuto Selezionato';
+$lang['Approve_selected'] = 'Approva Selezionati';
+$lang['Deny_selected'] = 'Rifiuta Selezionati';
 $lang['Not_logged_in'] = 'Per iscriverti ad un Gruppo devi essere Registrato.';
 $lang['Remove_selected'] = 'Rimuovi Selezionati';
 $lang['Add_member'] = 'Aggiungi Utente';
