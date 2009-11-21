@@ -2,23 +2,9 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_main_ads.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
-
-/**
-*
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
-* @Extra credits for this file
-* Lopalong
 *
 */
 
@@ -27,11 +13,47 @@ if (!defined('IN_ICYPHOENIX'))
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
-}
+// Banners array setup
+$banner_h_s_all = array();
+$banner_h_m_all = array();
+$banner_h_l_all = array();
+$banner_v_s_all = array();
+$banner_v_m_all = array();
+$banner_v_l_all = array();
+$banner_b_s_all = array();
+$banner_b_m_all = array();
+$banner_b_l_all = array();
 
-$lang = array_merge($lang, array (
-))
+$banner_h_s_guests = array();
+$banner_h_m_guests = array();
+$banner_h_l_guests = array();
+$banner_v_s_guests = array();
+$banner_v_m_guests = array();
+$banner_v_l_guests = array();
+$banner_b_s_guests = array();
+$banner_b_m_guests = array();
+$banner_b_l_guests = array();
+
+// Banners for all
+$banner_h_s_all[] = 'Insert here your banner code... edit <b>$banner_h_s_all</b> in <b>lang_main_ads.php</b>';
+$banner_h_m_all[] = 'Insert here your banner code... edit <b>$banner_h_m_all</b> in <b>lang_main_ads.php</b>';
+$banner_h_l_all[] = 'Insert here your banner code... edit <b>$banner_h_l_all</b> in <b>lang_main_ads.php</b>';
+$banner_v_s_all[] = 'Insert here your banner code... edit <b>$banner_v_s_all</b> in <b>lang_main_ads.php</b>';
+$banner_v_m_all[] = 'Insert here your banner code... edit <b>$banner_v_m_all</b> in <b>lang_main_ads.php</b>';
+$banner_v_l_all[] = 'Insert here your banner code... edit <b>$banner_v_l_all</b> in <b>lang_main_ads.php</b>';
+$banner_b_s_all[] = 'Insert here your banner code... edit <b>$banner_b_s_all</b> in <b>lang_main_ads.php</b>';
+$banner_b_m_all[] = 'Insert here your banner code... edit <b>$banner_b_m_all</b> in <b>lang_main_ads.php</b>';
+$banner_b_l_all[] = 'Insert here your banner code... edit <b>$banner_b_l_all</b> in <b>lang_main_ads.php</b>';
+
+// Banners for guests only
+$banner_h_s_guests[] = 'Insert here your banner code... edit <b>$banner_h_s_guests</b> in <b>lang_main_ads.php</b>';
+$banner_h_m_guests[] = 'Insert here your banner code... edit <b>$banner_h_m_guests</b> in <b>lang_main_ads.php</b>';
+$banner_h_l_guests[] = 'Insert here your banner code... edit <b>$banner_h_l_guests</b> in <b>lang_main_ads.php</b>';
+$banner_v_s_guests[] = 'Insert here your banner code... edit <b>$banner_v_s_guests</b> in <b>lang_main_ads.php</b>';
+$banner_v_m_guests[] = 'Insert here your banner code... edit <b>$banner_v_m_guests</b> in <b>lang_main_ads.php</b>';
+$banner_v_l_guests[] = 'Insert here your banner code... edit <b>$banner_v_l_guests</b> in <b>lang_main_ads.php</b>';
+$banner_b_s_guests[] = 'Insert here your banner code... edit <b>$banner_b_s_guests</b> in <b>lang_main_ads.php</b>';
+$banner_b_m_guests[] = 'Insert here your banner code... edit <b>$banner_b_m_guests</b> in <b>lang_main_ads.php</b>';
+$banner_b_l_guests[] = 'Insert here your banner code... edit <b>$banner_b_l_guests</b> in <b>lang_main_ads.php</b>';
+
 ?>

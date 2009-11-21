@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_main_upi2db.php 101 2009-05-16 16:03:40Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,14 +10,8 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
+* BigRib (bigrib@gmx.de)
 * Lopalong
 *
 */
@@ -55,7 +49,7 @@ $lang = array_merge($lang, array (
   'no_always_read' => 'Nics végleg olvasottként megjelölt téma',
   'x_always_read' => 'Végleg olvasottként megjelölt témák ',
   'upi2db_which_system' => 'Milyen rendszert használhatok az új hozzászólások kezelésére?',
-  'upi2db_which_system_explain' => 'Részletes információkat találsz az elérhetõ rendszerekrõl a <a href="faq.">GYIK-ban</a>.',
+  'upi2db_which_system_explain' => 'Részletes információkat találsz az elérhetõ rendszerekrõl a <a href="faq.' . PHP_EXT . '">GYIK-ban</a>.',
   'cookie_system' => 'Sütirendszer',
   'upi2db_system' => 'UPI2DB rendszer',
   'upi2db_mark_post' => 'Hozzászólás megjelölése',
@@ -87,15 +81,20 @@ $lang = array_merge($lang, array (
   'upi2db_search_mark_read' => 'OLV',
   'upi2db_submit_mark_read' => 'Olvasottként megjelöl',
   'upi2db_submit_topic_mark_read' => 'Kijelölt témák megjelölése mint olvasott',
+  
   'upi2db_mark_post_unread' => 'Ezen hozzászólások megjelölése mint olvasatlan',
   'upi2db_mark_post_unread_cant' => 'Ezeket a hozzászólásokat nem lehet olvasatlannak megjelölni.',
   'upi2db_mark_post_is_unread' => 'Hozzászólás olvasatlanként megjelölve.',
+  
   'upi2db_first_use_txt' => 'Az UPI2DB minden funkciója engedélyezve van. A használatáról szóló információkat a GYIK-ban találod.',
+  
   'upi2db_u' => 'O',
   'upi2db_m' => 'J',
   'upi2db_p' => 'V',
   'upi2db_unread' => 'Olvasatlan hozzászólások',
   'upi2db_marked' => 'Jelölt hozzászólások',
   'upi2db_perm_read' => 'Végleg olvasott',
-))
+  )
+);
+
 ?>

@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,20 +37,20 @@ $lang = array_merge($lang, array (
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
 <span style="color: #ff5500;"><b>Mighty Gorgon</b></span><br />
 <i>(Luca Libralato)</i><br />
-<b><i>Developer</i></b><br />
-Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
-Location: Homer\'s Head<br />
+<b><i>Fejlesztõ</i></b><br />
+Érdeklõdés: Heroes Of Might And Magic III, 69, #FF5522<br />
+Hely: Homer\'s Head<br />
 <br />
 <br />
 <span style="color: #dd2222;"><b>Bicet</b></span><br />
-<b><i>phpBB XS Developer</i></b><br />
+<b><i>phpBB XS fejlesztõ</i></b><br />
 <br />
 <br />
 <span style="color: #dd2222;"><b>hpl</b></span><br />
-<b><i>Some Special Contributions</i></b><br />
+<b><i>Külön köszönet minden közremûködõnek</i></b><br />
 <br />
 <br />
-<b><i>Valued Contributors</i></b><br />
+<b><i>Közremûködtek</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
 <span style="color: #0000bb;"><b>brandsrus</b></span><br />
@@ -76,55 +76,12 @@ Location: Homer\'s Head<br />
 <span style="color: #228822;"><b>z3d0</b></span><br />
 <span style="color: #228822;"><b>Zuker</b></span><br />
 <br />
-Interests: Icy Phoenix<br />
-Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
+Érdeklõdés: Icy Phoenix<br />
+Hely: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
 ',
-  'BBC_IP_CREDITS' => '<div class="center-block"><marquee behavior="scroll" direction="up" scrolldelay="120">
-<a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
-<span style="color: #ff5500;"><b>Mighty Gorgon</b></span><br />
-<i>(Luca Libralato)</i><br />
-<b><i>Developer</i></b><br />
-Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
-Location: Homer\'s Head<br />
-<br />
-<br />
-<span style="color: #dd2222;"><b>Bicet</b></span><br />
-<b><i>phpBB XS Developer</i></b><br />
-<br />
-<br />
-<span style="color: #dd2222;"><b>hpl</b></span><br />
-<b><i>Some Special Contributions</i></b><br />
-<br />
-<br />
-<b><i>Valued Contributors</i></b><br />
-<span style="color: #228822;"><b>Andrea75</b></span><br />
-<span style="color: #dd2222;"><b>Artie</b></span><br />
-<span style="color: #0000bb;"><b>brandsrus</b></span><br />
-<span style="color: #228822;"><b>buldo</b></span><br />
-<span style="color: #228822;"><b>casimedicos</b></span><br />
-<span style="color: #228822;"><b>Chaotic</b></span><br />
-<span style="color: #dd2222;"><b>CyberAlien</b></span><br />
-<span style="color: #228822;"><b>difus</b></span><br />
-<span style="color: #228822;"><b>DWho</b></span><br />
-<span style="color: #228822;"><b>fracs</b></span><br />
-<span style="color: #880088;"><b>ganesh</b></span><br />
-<span style="color: #228822;"><b>JANU1535</b></span><br />
-<span style="color: #880088;"><b>jz</b></span><br />
-<span style="color: #228822;"><b>KasLimon</b></span><br />
-<span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
-<span style="color: #0000bb;"><b>Limun</b></span><br />
-<span style="color: #880088;"><b>Lopalong</b></span><br />
-<span style="color: #228822;"><b>moreteavicar</b></span><br />
-<span style="color: #228822;"><b>novice programmer</b></span><br />
-<span style="color: #228822;"><b>ThE KuKa</b></span><br />
-<span style="color: #ff7700;"><b>TheSteffen</b></span><br />
-<span style="color: #0000bb;"><b>Tom</b></span><br />
-<span style="color: #228822;"><b>z3d0</b></span><br />
-<span style="color: #228822;"><b>Zuker</b></span><br />
-<br />
-Interests: Icy Phoenix<br />
-Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
-</marquee></div>',
+
+  'BBC_IP_CREDITS' => '<div class="center-block"><marquee behavior="scroll" direction="up" scrolldelay="120">' . $lang['BBC_IP_CREDITS_STATIC'] . '</marquee></div>',  
+  
   'Home' => 'Home',
   'Forum' => 'Fórum',
   'Category' => 'Témakör',
@@ -143,6 +100,7 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Time' => 'Idõ',
   'Hours' => 'Óra',
   'Message' => 'Üzenet',
+  
   '1_Day' => '1 nap',
   '7_Days' => '7 nap',
   '2_Weeks' => '2 hét',
@@ -150,6 +108,7 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   '3_Months' => '3 hónap',
   '6_Months' => '6 hónap',
   '1_Year' => '1 év',
+  
   'Go' => 'Mehet',
   'Jump_to' => 'Ugrás',
   'Submit' => 'Elküld',
@@ -163,44 +122,54 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Enabled' => 'Bekapcsolva',
   'Disabled' => 'Kikapcsolva',
   'Error' => 'Hiba',
-  'GO' => 'Go',
-  'JUMP_TO' => 'Jump to',
-  'SUBMIT' => 'Submit',
+  
+  'GO' => 'Mehet',
+  'JUMP_TO' => 'Ugrás ide: ',
+  'SUBMIT' => 'Elküld',
   'RESET' => 'Reset',
-  'CANCEL' => 'Cancel',
-  'PREVIEW' => 'Preview',
-  'CONFIRM' => 'Confirm',
+  'CANCEL' => 'Mégsem',
+  'PREVIEW' => 'Elõnézet',
+  'CONFIRM' => 'Elfogad',
   'YES' => 'Igen',
   'NO' => 'Nem',
-  'ENABLED' => 'Enabled',
-  'DISABLED' => 'Disabled',
-  'ERROR' => 'Error',
+  'ENABLED' => 'Elgedélyez',
+  'DISABLED' => 'Letilt',
+  'ERROR' => 'Hiba',
+  
   'Next' => 'Következõ',
   'Previous' => 'Elõzõ',
   'Goto_page' => 'Ugrás a köv. oldalra:',
   'Joined' => 'Csatlakozott',
   'IP_Address' => 'IP-cím',
+  
   'Select_forum' => 'Fórum kiválasztása',
   'View_latest_post' => 'Legutóbbi hozzászólások',
   'View_newest_post' => 'Legújabb hozzászólások',
-  'Page_of' => '<b>%d</b> / <b>%d</b> oldal',
-  'ICQ' => 'ICQ',
-  'AIM' => 'AIM',
-  'MSNM' => 'MSN Messenger',
+  'Page_of' => '<b>%d</b> / <b>%d</b> oldal', // Replaces with: Page 1 of 2 for example
+
+  'ICQ' => 'ICQ szám',
+  'AIM' => 'AIM cím',
+  'MSNM' => 'MSN Live',
   'YIM' => 'Yahoo Messenger',
   'SKYPE' => 'Skype',
-  'Forum_Index' => 'Tartalomjegyzék',
+  'Forum_Index' => 'Fórum',  // eg. sitename Forum Index, %s can be removed if you prefer
+  
   'Post_new_topic' => 'Új téma nyitása',
   'Reply_to_topic' => 'Hozzászólás a témához',
   'Reply_with_quote' => 'Hozzászólás az elõzmény idézésével',
-  'Click_return_topic' => '%sVisszatérés%s a témához.',
+  
+  'Click_return_topic' => '%sVisszatérés%s a témához.', // %s's here are for uris, do not remove!
   'Click_return_login' => 'Kattints %side%s, hogy ismét megpróbáld.',
   'Click_return_forum' => 'Kattints %side%s, hogy visszatérj a fórumba.',
   'Click_view_message' => 'Kattints %side%s a hozzászólásod megtekintéséhez.',
   'Click_return_modcp' => '%sVisszatérés%s a Moderátor vezérlõpulthoz.',
   'Click_return_group' => '%sVisszatérés%s a csoporthoz.',
+  
   'Admin_panel' => 'Fórum adminisztráció',
+  
   'Board_disabled' => 'Elnézést, de az oldal jelenleg nem elérhetõ. Kérlek nézz vissza késõbb.',
+  
+// Global Header strings
   'Registered_users' => 'Regisztrált felhasználók:',
   'Browsing_forum' => 'Jelenlévõ fórumozók:',
   'Online_users_zero_total' => 'Összesen <b>0</b> felhasználó van jelen :: ',
@@ -218,14 +187,18 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Guest_users_zero_total' => '0 vendég',
   'Guest_users_total' => '%d vendég',
   'Guest_user_total' => '%d vendég',
-  'Record_online_users' => 'A legtöbb felhasználó (<b>%s</b> fõ) %s-kor volt itt.',
+  'Record_online_users' => 'A legtöbb felhasználó (<b>%s</b> fõ) %s-kor volt.', // first %s = number of users, second %s is the date.
+
   'Admin_online_color' => '%sAdminisztrátor%s',
   'Mod_online_color' => '%sModerátor%s',
-  'You_last_visit' => 'Legutolsó látogatásod dátuma: %s',
-  'Current_time' => 'Pontos idõ: %s',
-  'Search_new' => 'Hozzászólások a legutolsó látogatás óta',
+  
+  'You_last_visit' => 'Legutolsó látogatásod dátuma: %s', // %s replaced by date/time
+  'Current_time' => 'Pontos idõ: %s', // %s replaced by time
+  
+  'Search_new' => 'Friss hozzászólások',
   'Search_your_posts' => 'Üzeneteid megtekintése',
   'Search_unanswered' => 'Megválaszolatlan üzenetek megtekintése',
+  
   'Register' => 'Regisztráció',
   'Profile' => 'Profil',
   'Edit_profile' => 'Profil szerkesztése',
@@ -238,66 +211,86 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Last_Post' => 'Legutolsó üzenet',
   'Moderator' => 'Moderátor',
   'Moderators' => 'Moderátorok',
-  'Posted_articles_zero_total' => 'Jelenleg összesen <b>0</b> hozzászólás olvasható.',
-  'Posted_articles_total' => 'Jelenleg összesen <b>%d</b> hozzászólás olvasható.',
-  'Posted_article_total' => 'Eddig összesen <b>%d</b> hozzászólás olvasható.',
-  'Registered_users_zero_total' => 'Összesen <b>0</b> regisztrált felhasználónk van.',
-  'Registered_users_total' => 'Összesen <b>%d</b> regisztrált felhasználónk van.',
-  'Registered_user_total' => 'Összesen <b>%d</b> regisztrált felhasználónk van.',
-  'Newest_user' => 'Legújabb regisztrált tagunk: <b>%s%s%s</b>',
+  
+// Stats block text
+  'Posted_articles_zero_total' => 'Még nem küldtek be hozzászólást.', // Number of posts
+  'Posted_articles_total' => '<b>%d</b> hozzászólás olvasható.', // Number of posts
+  'Posted_article_total' => '<b>%d</b> hozzászólás olvasható.', // Number of posts
+  'Registered_users_zero_total' => 'Még nincs regisztrált felhasználó.', // # registered users
+  'Registered_users_total' => '<b>%d</b> regisztrált felhasználónk van.', // # registered users
+  'Registered_user_total' => '<b>%d</b> regisztrált felhasználónk van.', // # registered users
+  'Newest_user' => 'Legújabb regisztrált tagunk: <b>%s%s%s</b>', // a href, username, /a
+  
   'No_new_posts_last_visit' => 'Nincsen új hozzászólás a legutolsó látogatásod óta.',
-  'No_new_posts_global_announcement' => 'Nincs új hozzászólás [ Gl. esemény ]',
-  'New_posts_global_announcement' => 'Új hozzászólások [ Gl. esemény ]',
-  'No_new_posts_announcement' => 'Nincs új hozzászólás [ Esemény ]',
-  'New_posts_announcement' => 'Új hozzászólások [ Esemény ]',
-  'No_new_posts_sticky' => 'Nincs új hozzászólás [ Fontos ]',
-  'New_posts_sticky' => 'Új hozzászólások [ Fontos ]',
-  'No_new_posts_locked' => 'Nincsenek új hozzászólások [ Lezárt ]',
-  'New_posts_locked' => 'Új hozzászólások [ Lezárt ]',
+  
+  'No_new_posts_global_announcement' => 'Nincs új [ Gl. esemény ]',
+  'New_posts_global_announcement' => 'Új [ Gl. esemény ]',
+  'No_new_posts_announcement' => 'Nincs új [ Esemény ]',
+  'New_posts_announcement' => 'Új [ Esemény ]',
+  'No_new_posts_sticky' => 'Nincs új [ Fontos ] hozzászólás',
+  'New_posts_sticky' => 'Új [ Fontos ] hozzászólások',
+  'No_new_posts_locked' => 'Nincsenek új [ Lezárt ] hozzászólás',
+  'New_posts_locked' => 'Új [ Lezárt ] hozzászólások',
   'No_new_posts' => 'Nincsenek új hozzászólások',
   'New_posts' => 'Új hozzászólások',
   'New_post' => 'Új hozzászólás',
-  'No_new_posts_hot' => 'Nincsenek új hozzászólások [ Népszerû ]',
-  'New_posts_hot' => 'Új hozzászólások [ Népszerû ]',
-  'Forum_no_new_posts' => 'Nincs új hozzászólás [Forum]',
-  'Forum_new_posts' => 'Új hozzászólás [Forum]',
-  'Cat_no_new_posts' => 'Nincs új hozzászólás [Kategória]',
-  'Cat_new_posts' => 'Új hozzászólás [Kategória]',
+  'No_new_posts_hot' => 'Nincs új [ Népszerû ] hozzászólás',
+  'New_posts_hot' => 'Új [ Népszerû ] hozzászólások',
+  
+  'Forum_no_new_posts' => 'Nincs új [Forum] hozzászólás',
+  'Forum_new_posts' => 'Új [Forum] hozzászólás',
+  'Cat_no_new_posts' => 'Nincs új [Kategória] hozzászólás',
+  'Cat_new_posts' => 'Új [Kategória] hozzászólás',
   'Forum_is_locked' => 'Lezárt fórum',
+  
+// Login
   'Enter_password' => 'A belépéshez add meg a felhasználóneved és jelszavad.',
   'Login' => 'Belépés',
   'Logout' => 'Kilépés',
   'Forgotten_password' => 'Elfelejtettem a jelszót!',
   'AUTOLOGIN' => 'Log me on automatically each visit',
   'Error_login' => 'Hibás, vagy inaktív felhasználónevet és/vagy hibás jelszót adtál meg!',
+
+// Index page
   'No_Posts' => 'Nincs hozzászólás.',
   'No_forums' => 'Nincsenek fórumok.',
+  
   'Private_Message' => 'Privát üzenet',
   'Private_Messages' => 'Privát üzenetek',
-  'Who_is_Online' => 'Ki van itt?',
+  'Who_is_Online' => 'Ki online?',
+  
   'Mark_all_forums' => 'Összes fórum megjelölése olvasottként',
   'Forums_marked_read' => 'Összes fórum megjelölve olvasottként.',
+  
+// Viewforum
   'View_forum' => 'Fórum megtekintése',
+  
   'Forum_not_exist' => 'A kiválasztott fórum nem létezik.',
-  'Reached_on_error' => 'Hiba.',
+  'Reached_on_error' => 'Hiba az kért oldal elérésében.',
+  
   'Display_topics' => 'Összes téma mutatása',
   'All_Topics' => 'Összes téma',
+  
   'Topic_News_nb' => 'Hírek',
   'Topic_global_announcement_nb' => 'Globális esemény',
   'Topic_Announcement_nb' => 'Esemény',
   'Topic_Sticky_nb' => 'Fontos',
   'Topic_Moved_nb' => 'Áthozott',
   'Topic_Poll_nb' => 'Szavazat',
-  'Topic_Event_nb' => 'Event',
-  'Topic_Announcement' => '<b>Közlemény:</b>',
-  'Topic_Sticky' => '<b>Kiemelt:</b>',
+  'Topic_Event_nb' => 'Esemény',
+  'Topic_Announcement' => '<b>Esemény:</b>',
+  'Topic_Sticky' => '<b>Fontos:</b>',
   'Topic_Moved' => '<b>Árnyék:</b>',
   'Topic_Poll' => '<b>[ Szavazás ]</b>',
-  'Topic_Event' => '<b>Event:</b>',
+  'Topic_Event' => '<b>Esemény:</b>',
   'Topic_global_announcement' => '<b>Globális esemény:</b>',
   'Post_global_announcement' => 'Globális esemény',
+  
+  
   'Mark_all_topics' => 'Összes téma megjelölése olvasottként',
   'Topics_marked_read' => 'Összes téma megjelölve olvasottként.',
+
+/*
   'Rules_post_can' => '<b>Készíthetsz</b> új témákat ebben a fórumban.',
   'Rules_post_cannot' => '<b>Nem</b> készíthetsz új témákat ebben a fórumban.',
   'Rules_reply_can' => '<b>Válaszolhatsz</b> egy témára ebben a fórumban.',
@@ -309,25 +302,46 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Rules_delete_cannot' => '<b>Nem</b> törölheted a hozzászólásaidat a fórumban.',
   'Rules_vote_can' => '<b>Szavazhatsz</b> ebben a fórumban.',
   'Rules_vote_cannot' => '<b>Nem</b> szavazhatsz ebben fórumban.',
-  'Rules_moderate' => '<b>%sModerálhatod%s</b> ezt a fórumot.',
-  'No_topics_post_one' => 'Nincsenek témák a fórumban.<br />Kattints az <b>Új téma készítésére</b>.',
+*/
+  'Rules_post_can' => '<b>Nyithatsz</b> új témákat',
+  'Rules_post_cannot' => '<b>Nem nyithatsz</b> új témát',
+  'Rules_reply_can' => '<b>Válaszolhatsz</b> a témára.',
+  'Rules_reply_can_own' => '<b>Tudsz válaszolni</b> a saját témádban.',
+  'Rules_reply_cannot' => '<b>Nem válaszolhatsz</b> a témára.',
+  'Rules_edit_can' => '<b>Módosíthatod</b> a hozzászólásaidat.',
+  'Rules_edit_cannot' => '<b>Nem módosíthatod</b> a hozzászólásaidat.',
+  'Rules_delete_can' => '<b>Törölheted</b> a hozzászólásaidat.',
+  'Rules_delete_cannot' => '<b>Nem törölheted</b> a hozzászólásaidat.',
+  'Rules_vote_can' => '<b>Szavazhatsz</b>.',
+  'Rules_vote_cannot' => '<b>Nem szavazhatsz</b>.',
+  'Rules_moderate' => '<b>%sModerálhatod%s</b> ezt a fórumot.', // %s replaced by a href links, do not remove!
+  
+//  'No_topics_post_one' => 'Nincsenek témák a fórumban.<br />Kattints az <b>Új téma készítésére</b>.',
+  'No_topics_post_one' => 'Nincsenek témák a fórumban vagy a megadott feltételeknek nem felel meg egyik téma sem.<br />Kattints az <b>Új téma készítésére</b> vagy adj meg más feltételt.',
+
+// Viewtopic
   'View_topic' => 'Téma megtekintése',
+  
   'Guest' => 'Vendég',
   'Post_subject' => 'Hozzászólás témája',
   'View_next_topic' => 'Következõ téma megtekintése',
   'View_previous_topic' => 'Elõzõ téma megtekintése',
   'Submit_vote' => 'Szavazás küldése',
   'View_results' => 'Eredmény megtekintése',
+  
   'No_newer_topics' => 'Nincsenek újabb témák a fórumban.',
   'No_older_topics' => 'Nincsenek régbbi témák a fórumban.',
   'Topic_post_not_exist' => 'A téma vagy hozzászólás nem létezik.',
   'No_posts_topic' => 'Nincs hozzászólás a témában.',
+  
   'Display_posts' => 'Hozzászólások megtekintése',
   'All_Posts' => 'Összes',
   'Newest_First' => 'Újak elõre',
   'Oldest_First' => 'Régebbiek elõre',
+  
   'Back_to_top' => 'Vissza az elejére',
-  'Back_to_bottom' => 'Aljára',
+  'Back_to_bottom' => 'Lap aljára',
+  
   'Read_profile' => 'Felhasználó profiljának megtekintése',
   'Send_email' => 'Email küldése',
   'Visit_website' => 'Felhasználó weblapjának megtekintése',
@@ -335,39 +349,52 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Edit_delete_post' => 'Hozzászólás szerkesztése/törlése',
   'View_IP' => 'Felhasználó IP-címe',
   'Delete_post' => 'Hozzászólás törlése',
-  'wrote' => 'írta',
-  'Quote' => 'Idézet',
-  'Code' => 'Kód',
-  'Edited_time_total' => 'A hozzászólást %1$s összesen %3$d alkalommal szerkesztette, legutóbb %2$s-kor.',
-  'Edited_times_total' => 'A hozzászólást %1$s összesen %3$d alkalommal szerkesztette, legutóbb %2$s-kor.',
+  
+  'wrote' => 'írta', // proceeds the username and is followed by the quoted text
+  'Quote' => 'Idézet', // comes before bbcode quote output.
+  'Code' => 'Kód', // comes before bbcode code output.
+  
+  'Edited_time_total' => 'A hozzászólást %s szerkesztette %s-kor; eddig %d alkalommal', // Last edited by me on 12 Oct 2001; edited 1 time in total
+  'Edited_times_total' => 'A hozzászólást %s szerkesztette %s-kor; eddig %d alkalommal', // Last edited by me on 12 Oct 2001; edited 2 times in total
+  
   'Lock_topic' => 'Téma lezárása',
   'Unlock_topic' => 'Téma megnyitása',
   'Move_topic' => 'Téma áthelyezése',
   'Delete_topic' => 'Téma törlése',
   'Split_topic' => 'Téma szétválasztása',
+  
   'Stop_watching_topic' => 'Leiratkozás a témáról',
   'Start_watching_topic' => 'Feliratkozás a témára',
   'No_longer_watching' => 'Téma figyelése megszüntetve!',
   'You_are_watching' => 'Feliratkoztál a témára.',
+  
   'Total_votes' => 'Összes szavazat',
+  
+// Posting/Replying (Not private messaging!)
   'Message_body' => 'Üzenet tartalma',
   'Topic_review' => 'Téma elõnézet',
-  'No_post_mode' => 'Nincs hozzászólás-típus kiválasztva.',
+  
+  'No_post_mode' => 'Nincs hozzászólás-típus kiválasztva.', // If posting.php is called without a mode (newtopic/reply/delete/etc, shouldn't be shown normally)
+  
   'Post_a_new_topic' => 'Új téma küldése',
   'Post_a_reply' => 'Új válasz küldése',
   'Post_topic_as' => 'Téma küldése, mint',
   'Edit_Post' => 'Hozzászólás szerkesztése',
   'Options' => 'Beállítások',
+  
   'PM_Read' => 'Olvasott PM',
   'PM_Unread' => 'Olvasatlan PM',
   'PM_Replied' => 'Megválaszolt PM',
-  'Post_Announcement' => 'Közlemény',
+  
+  'Post_Announcement' => 'Esemény',
   'New_post_Announcement' => 'Új esemény',
-  'Post_Sticky' => 'Kiemelt',
+  'Post_Sticky' => 'Fontos',
   'New_post_Sticky' => 'Új fontos',
-  'Post_Normal' => 'Sima',
+  'Post_Normal' => 'Normál',
+  
   'Confirm_delete' => 'Biztosan törölni akarod a hozzászólást?',
   'Confirm_delete_poll' => 'Biztosan törölni akarod a szavazást?',
+  
   'Flood_Error' => 'Nem küldhetsz rövid idõn belül több hozzászólást, várj egy kicsit.',
   'Empty_subject' => 'Új téma indításakor add meg a címét.',
   'Empty_message' => 'Nem küldhetsz üres hozzászólást.',
@@ -387,6 +414,7 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Post_has_no_poll' => 'A hozzászóláshoz nem tartozik szavazás.',
   'Already_voted' => 'Egyszer már szavaztál.',
   'No_vote_option' => 'Válassz egy lehetõséget a szavazásnál.',
+  
   'Add_poll' => 'Szavazás hozzáadása',
   'Add_poll_explain' => 'Ha nem akarsz szavazást adni a témához, hagyd üresen a mezõket.',
   'Poll_question' => 'A szavazás kérdése',
@@ -395,46 +423,59 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Update' => 'Frissítés',
   'Delete' => 'Töröl',
   'Poll_for' => 'A szavazás érvényes',
-  'Days' => 'nap',
-  'Poll_for_explain' => '[ Hagyd üresen, ha soha sem jár le a szavazás. ]',
+  'Days' => 'nap', // This is used for the Run poll for ... Days + in admin_forums for pruning
+  'Poll_for_explain' => '[ Hagyd üresen (vagy 0), ha soha sem jár le a szavazás. ]',
   'Delete_poll' => 'Szavazás törlése',
+  
   'Disable_HTML_post' => 'HTML kikapcsolása a hozzászólásban',
   'Disable_ACRO_AUTO_post' => 'Akronizmusok és Autolinkek tiltása ebben a hozzászólásban',
   'Disable_BBCode_post' => 'BBCode kikapcsolása a hozzászólásban',
   'Disable_Smilies_post' => 'Emotikonok kikapcsolása a hozzászólásban',
-  'HTML_is_ON' => 'HTML <u>bekapcsolva</u>',
-  'HTML_is_OFF' => 'HTML <u>kikapcsolva</u>',
-  'BBCode_is_ON' => '%sBBCode%s <u>bekapcsolva</u>',
-  'BBCode_is_OFF' => '%sBBCode%s <u>kikapcsolva</u>',
-  'Smilies_are_ON' => 'Emotikonok <u>bekapcsolva</u>',
-  'Smilies_are_OFF' => 'Emotikonok <u>kikapcsolva</u>',
+  
+  'HTML_is_ON' => 'HTML <u>BE</u>',
+  'HTML_is_OFF' => 'HTML <u>KI</u>',
+  'BBCode_is_ON' => '%sBBCode%s <u>BE</u>',
+  'BBCode_is_OFF' => '%sBBCode%s <u>KI</u>',
+  'Smilies_are_ON' => 'Emotikonok <u>BE</u>',
+  'Smilies_are_OFF' => 'Emotikonok <u>KI</u>',
+  
   'Attach_signature' => 'Aláírás hozzáadása (az aláírás megváltoztatható a profilban)',
   'Notify' => 'Értesítés, ha válasz érkezik',
+  'Delete_post' => 'Hozzászólás törlése',
+  
   'Stored' => 'A hozzászólás sikeresen bekerült a fórumba!',
   'Deleted' => 'A hozzászólás törlése sikerült.',
   'Poll_delete' => 'A szavazás törlése sikerült.',
   'Vote_cast' => 'Szavazás elfogadva.',
+  
   'Topic_reply_notification' => 'Téma emlékeztetõ',
+  
   'Emoticons' => 'Emotikonok',
   'More_emoticons' => 'A többi emotikon megtekintése',
+  
+// Private Messaging
   'Private_Messaging' => 'Privát üzenetek',
+  
   'Login_check_pm' => 'Privát üzeneteid olvasásához be kell jelentkezned',
   'New_pms' => '%d új privát üzeneted van',
   'New_pm' => '%d új privát üzeneted van',
   'No_new_pm' => 'Nincsen új privát üzeneted',
-  'Unread_pms' => '%d olvasatlan privát üzeneted van.',
-  'Unread_pm' => '%d olvasatlan privát üzeneted van.',
+  'Unread_pms' => '%d olvasatlan privát üzeneted van.', // You have 2 new messages
+  'Unread_pm' => '%d olvasatlan privát üzeneted van.', // You have 1 new message
   'No_unread_pm' => 'Nincsen olvasatlan privát üzeneted.',
   'You_new_pm' => 'Új privát üzenet érkezett!',
   'You_new_pms' => 'Új privát üzenetek érkeztek!',
   'You_no_new_pm' => 'Nincs új privát üzenet.',
+  
   'Unread_message' => 'Olvasatlan üzenetek',
   'Read_message' => 'Olvasott üzenetek',
+  
   'Read_pm' => 'Üzenet olvasása',
   'Post_new_pm' => 'Üzenet küldése',
   'Post_reply_pm' => 'Válasz az üzenetre',
   'Post_quote_pm' => 'Üzenet idézése',
   'Edit_pm' => 'Üzenet szerkesztése',
+  
   'Inbox' => 'Érkezett fiók',
   'Outbox' => 'Kimenõ fiók',
   'Savebox' => 'Mentés fiók',
@@ -448,7 +489,7 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Sent' => 'Elküldött',
   'Saved' => 'Elmentett',
   'Delete_marked' => 'Kijelöltek törlése',
-  'Delete_all' => 'Összes törlése',
+  'Delete_all' => 'Mindegyik törlése',
   'Save_marked' => 'Kijelöltek mentése',
   'Download_marked' => 'Kijelölt letöltése',
   'Mailbox' => 'Levelezés',
@@ -459,38 +500,55 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'No_newer_pm' => 'Nincs újabb privát üzenet.',
   'No_older_pm' => 'Nincs régebbi privát üzenet.',
   'Display_messages' => 'Üzenetek megjelenítése',
-  'All_Messages' => 'Összes üzenet',
+  'All_Messages' => 'Minden üzenet',
+  
   'No_messages_folder' => 'Nincs üzeneted ebben a fiókban.',
+  
   'PM_disabled' => 'Nincs lehetõség privát üzenet küldésére.',
   'Cannot_send_privmsg' => 'Sajnos nem küldhetsz privát üzeneteket. Lépj kapcsolatba az Adminisztrátorral.',
   'No_to_user' => 'Az üzenet küldéséhez meg kell adnod a címzettet.',
   'No_such_user' => 'Ilyen nevû felhasználó nem létezik.',
+  
   'Disable_HTML_pm' => 'HTML kikapcsolása az üzenetben',
   'Disable_ACRO_AUTO_pm' => 'Letiltva az Akronizmusok és az Autolinkek ebben az üzenetben',
   'Disable_BBCode_pm' => 'BBCode kikapcsolása az üzenetben',
   'Disable_Smilies_pm' => 'Emotikonok kikapcsolása az üzenetben',
+  
   'Message_sent' => 'Üzenet elküldve.',
+  
   'Click_return_inbox' => 'Kattints %side%s, hogy visszatérj az Érkezett üzenetekhez.',
   'Click_return_index' => 'Kattints %side%s, hogy visszatérj a Tartalomjegyzékhez.',
+  
   'Send_a_new_message' => 'Új privát üzenet küldése',
   'Send_a_reply' => 'Válasz a privát üzenetre',
   'Edit_message' => 'Privát üzenet szerkesztése',
+  
   'Notification_subject' => 'Új privát üzenet érkezett!',
+  
   'Find_username' => 'Felhasználónév keresése',
   'Find' => 'Találat',
   'No_match' => 'Nincs találat.',
+  
+  'No_post_id' => 'Nincs üzenet ID megadva',
   'No_such_folder' => 'Nem létezik ilyen fiók.',
   'No_folder' => 'Nincs fiók meghatározva.',
-  'Mark_all' => 'Összes kijelölése',
-  'Unmark_all' => 'Összes kijelölésének megszüntetése',
+  
+  'Mark_all' => 'Mind',
+  'Unmark_all' => 'Semelyik',
+  
   'Confirm_delete_pm' => 'Biztosan törölni akarod az üzenetet?',
   'Confirm_delete_pms' => 'Biztosan törölni akarod az üzeneteket?',
-  'Inbox_size' => 'Az Érkezett fiók %d%%-a telt meg.',
+  
+  'Inbox_size' => 'Az Érkezett fiók %d%%-a telt meg.', // eg. Your Inbox is 50% full
   'Sentbox_size' => 'Az Elküldött fiók %d%%-a telt meg.',
   'Savebox_size' => 'A Mentés fiók %d%%-a telt meg.',
+  
   'Click_view_privmsg' => 'Kattints %side%s az Érkezett fiókod megtekintéséhez.',
-  'Viewing_user_profile' => 'Profil megtekintése :: %s',
-  'About_user' => '%s adatlapja',
+
+// Profiles/Registration
+  'Viewing_user_profile' => 'Profil megtekintése :: %s', // %s is username
+  'About_user' => '%s adatlapja', // %s is username
+//Start Quick Administrator User Options and Information MOD
   'Quick_admin_options' => 'Gyors adminisztrátori felhasználó-információ és opciók',
   'Admin_edit_profile' => 'Felhasználói profil szerkesztése',
   'Admin_edit_permissions' => 'Felhasználói jogosultságok szerkesztése',
@@ -500,6 +558,7 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Username_not_banned' => '<b>Nem banolt</b> felhasználó',
   'User_email_banned' => '<b>Banolt</b> email cím [ %s ]',
   'User_email_not_banned' => '<b>Nem banolt</b> email cím [ %s ]',
+//End Quick Administrator User Options and Information MOD
   'Preferences' => 'Beállítások',
   'Items_required' => 'A csillaggal megjelölt mezõk kitöltése kötelezõ.',
   'Registration_info' => 'Regisztráció információ',
@@ -507,22 +566,29 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Profile_info_warn' => 'Ezek az információk mindenki számára láthatóak lesznek.',
   'Avatar_panel' => 'Avatar beállítás',
   'Avatar_gallery' => 'Avatar galéria',
+  
   'Website' => 'Honlap',
   'Location' => 'Tartózkodási hely',
   'Contact' => 'Kapcsolat: ',
   'Email_address' => 'Email cím',
+  'Email' => 'Email',
   'Send_private_message' => 'Privát üzenet küldése',
   'Hidden_email' => '[ Rejtett ]',
   'Search_user_posts' => '%s hozzászólásainak keresése',
   'Interests' => 'Érdeklõdési kör',
   'Occupation' => 'Foglalkozás',
-  'Poster_rank' => 'Rang',
+  'Poster_rank' => 'Hozzászóló Rang',
+  
   'Total_posts' => 'Összes hozzászólása',
-  'User_post_pct_stats' => 'Az összes %.2f%%-ka',
-  'User_post_day_stats' => 'Naponta %.2f hozzászólás',
-  'Search_user_topics_started' => 'Find all topics started by %s',
+  'User_post_pct_stats' => 'Az összes %.2f%%-ka', // 1.25% of total
+  'User_post_day_stats' => 'Naponta %.2f hozzászólás', // 1.5 posts per day
+  'Search_user_posts' => '%s minden hozzászólásának megtekintése', // Find all posts by username
+  'Search_user_topics_started' => 'Minden %s által indított téma megtekintése', // Find all topics started by username
+  
   'No_user_id_specified' => 'A felhasználó nem létezik.',
   'Wrong_Profile' => 'Nem módosíthatod más profilját.',
+  
+// Invision View Profile - BEGIN
   'Invision_Active_Stats' => 'Aktivitási statisztika',
   'Invision_Communicate' => 'Elérhetõség',
   'Invision_Info' => 'Információ',
@@ -539,18 +605,22 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Invision_User_post_day_stats' => '%.2f hozzászólás per nap',
   'Invision_Search_user_posts' => 'Tagnak az összes hozzászólásának megkeresése',
   'Invision_Posting_details' => 'Hozzászólás részletezés',
+// Invision View Profile - END
+
   'Only_one_avatar' => 'Csak egy avatart válassz ki.',
   'File_no_data' => 'A megadott webcím nem tartalmaz adatot!',
   'No_connection_URL' => 'A megadott webcímhez nem lehet csatlakozni!',
   'Incomplete_URL' => 'A megadott webcím hiányos.',
   'Wrong_remote_avatar_format' => 'A távoli avatar webcíme nem érvényes.',
   'No_send_account_inactive' => 'A jelszó sajnos nem kérhetõ le, mivel a felhasználónév jelenleg inaktív. Lépj kapcsolatba az Adminisztrátorral.',
+  
   'Always_smile' => 'Mindig engedélyezze a emotikonokat',
   'Always_html' => 'Mindig engedélyezze a HTML-t',
   'Always_bbcode' => 'Mindig engedélyezze a BBCode-ot',
   'Always_add_sig' => 'Mindig csatolja az aláírásomat',
   'Always_notify' => 'Mindig értesítsen, ha válasz érkezik',
   'Always_notify_explain' => 'Küld egy emailt, ha hozzászólás érkezik az adott témában. Ez bármikor megváltoztatható, ha egy újabb hozzászólást küldesz.',
+  
   'Board_style' => 'Sablon',
   'Board_lang' => 'Nyelv',
   'No_themes' => 'Nincsenek sablonok az adatbázisban.',
@@ -560,40 +630,47 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Signature' => 'Aláírás',
   'Signature_explain' => 'A hozzászólások végére kerülõ szöveg. Legfeljebb %d karakter lehet.',
   'Public_view_email' => 'Email-cím megjelenítése',
+  
   'Current_password' => 'Jelenlegi jelszó',
   'New_password' => 'Új jelszó',
   'Confirm_password' => 'Jelszó megerõsítése',
   'Confirm_password_explain' => 'Ha meg szeretnéd változtatni a jelszavad, vagy az email címed, meg kell adnod a jelenlegi jelszavad.',
   'password_if_changed' => 'Csak akkor kell megadnod a jelszót, ha meg akarod változtatni.',
   'password_confirm_if_changed' => 'A fenti jelszó érvényesítéséhez szükséges.',
+  
   'Avatar' => 'Avatar',
   'Avatar_explain' => 'Egy kép, mely a hozzászólásokban a nevednél lesz látható.<br />Az avatar nem lehet szélesebb, mint %d pixel, és nem lehet magasabb, mint %d pixel. A mérete nem lehet nagyobb, mint %d KByte.',
   'Upload_Avatar_file' => 'Avatar feltöltése a számítógéprõl',
   'Upload_Avatar_URL' => 'Avatar feltöltése webcímrõl',
   'Upload_Avatar_URL_explain' => 'Írd be az avatar képének webcímét (a kép át lesz másolva erre az oldalra).',
   'Pick_local_Avatar' => 'Avatar kiválasztása a galériából',
-  'Link_remote_Avatar' => 'Avatar kép belinkelése',
+  'Link_remote_Avatar' => 'Avatar képének belinkelése',
   'Link_remote_Avatar_explain' => 'Írd be az Avatar képének webcímét, amelyet be szeretnél linkelni (a kép nem lesz átmásolva erre az oldalra).',
   'Avatar_URL' => 'Avatar képének webcíme',
   'Select_from_gallery' => 'Avatar kiválasztása a galériából',
   'View_avatar_gallery' => 'Galéria megtekintése',
+  
   'Select_avatar' => 'Avatar kiválasztása',
   'Return_profile' => 'Mégsem',
   'Select_category' => 'Kategória kiválasztása',
+  
   'Delete_Image' => 'Kép törlése',
   'Current_Image' => 'Jelenlegi kép',
+  
   'Notify_on_privmsg' => 'Értesítés új privát üzenet érkezésekor',
   'Popup_on_privmsg' => 'Felugró ablak új privát üzenet érkezésekor',
   'Popup_on_privmsg_explain' => 'Néhány sablon új ablakot nyit, ha új üzeneted érkezik.',
-  'Hide_user' => 'Jelenlét elrejtése',
+  'Hide_user' => 'Online jelenlét elrejtése',
+  
   'Profile_updated' => 'A profil megváltozott!',
   'Profile_updated_inactive' => 'A profil megváltozott, de mivel néhány alapvetõ információn változtattál, így a hozzáférésed inaktívra változott. Ellenõrizd az email-címedet, melyben megtalálod az újraaktiváláshoz szükséges információkat, vagy ha ehhez adminisztrátori jóváhagyás szükséges, várj míg õ reaktiválja a hozzáférésedet.',
+  
   'Password_mismatch' => 'A beírt jelszavak nem egyeznek meg.',
   'Current_password_mismatch' => 'A jelenlegi jelszó nem egyezik meg az adatbázisban találhatóval.',
   'Password_long' => 'A jelszó nem lehet több mint 32 karakter.',
   'Too_many_registers' => 'Egyszerre túl sok regisztrációval próbálkoztál. Próbáld késõbb.',
   'Username_taken' => 'Ez a felhasználónév már foglalt.',
-  'Username_invalid' => 'A felhasználónév érvénytelen karaktert tartalmaz.',
+  'Username_invalid' => 'A felhasználónév olyan érvénytelen karaktert tartalmaz, mint például a \'.',
   'Username_disallowed' => 'Ez a felhasználónév nem engedélyezett.',
   'Email_taken' => 'Ezt az email-címet már regisztrálta egy másik felhasználó.',
   'Email_banned' => 'Ez az email-cím le van tiltva.',
@@ -601,11 +678,13 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Signature_too_long' => 'Túl hosszú aláírás.',
   'Fields_empty' => 'A csillaggal jelölt mezõk kitöltése kötelezõ.',
   'Avatar_filetype' => 'Az avatar kép típusa csak JPG, GIF vagy PNG lehet.',
-  'Avatar_filesize' => 'Az avatar kép nem lehet nagyobb mint %d KByte.',
+  'Avatar_filesize' => 'Az avatar kép nem lehet nagyobb mint %d KByte.', // The avatar image file size must be less than 6 KB
   'Avatar_imagesize' => 'Az avatar nem lehet nagyobb mint %d pixel széles és %d pixel magas.',
-  'Welcome_subject' => 'Üdvözlünk a fórumban!',
+  
+  'Welcome_subject' => 'Üdvözlünk a %s fórumban!', // Welcome to my.com forums
   'New_account_subject' => 'Új felhasználó',
   'Account_activated_subject' => 'Felhasználó aktiválva.',
+  
   'Account_added' => 'Köszönjük a regisztrációdat, mely sikeresen befejezõdött. Most már bejelentkezhetsz a neveddel, és a hozzá tartozó jelszóval.',
   'Account_inactive' => 'A regisztráció sikeres volt, de a belépés elõtt még aktiválnod kell az azonosítódat.<br />Az ezzel kapcsolatos információkért nézd meg a regisztrációnál megadott email-címet.',
   'Account_inactive_admin' => 'A regisztráció sikeres volt, de a fórum használatához az Adminisztrátor jóváhagyása szükséges.<br />Rövidesen értesít a regisztrációd befejezésérõl, a felhasználóneved aktiválásáról.',
@@ -613,28 +692,25 @@ Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Account_active_admin' => 'A felhasználó aktiválva van.',
   'Reactivate' => 'Felhasználónév újraaktiválása!',
   'Already_activated' => 'Már aktiváltad a felhasználónevedet.',
-  'COPPA' => 'A felhasználónév elkészült, de ellenõrzés ügyében elõbb nézd meg az email-címedet.',
+  'COPPA' => 'A felhasználónév elkészült, de bõvebb információért olvasd el az emailt.',
+  
   'Registration' => 'Felhasználói szabályzat',
-  'Reg_agreement' => 'Noha az Adminisztrátor, és a moderátorok mindent megtesznek, hogy minél hamarabb eltávolítsák a Fórumból az általánosan kifogásolható anyagokat, lehetetlen, hogy minden egyes hozzászólást átnézzenek. Ebbõl adódóan elfogadom, hogy a Fórumon található összes hozzászólás a szerzõ nézeteit tükrözi, és nem az Adminisztrátorok, Moderátorok, vagy a Webmester álláspontját - így õk nem vállalnak felelõsséget a hozzászólások tartalmáért.<br /><br
-/>Beleegyezek, hogy nem küldök sértegetõ, obszcén, vulgáris, rágalmazó, gyûlöletkeltõ, támadó,
-vagy bármely más olyan tartalmat, illetve anyagot, mely törvényt sért. Mivel ez egy nyilvános fórum, ezért olyan anyagot sem küldök, mely ellentétes az általános közízléssel. A fentiek megsértése azonnali és végleges törlést von maga után.<br
-/>Elfogadom, hogy a Fórum webmesterének, az Adminisztrátornak és bármely Moderátornak jogában áll
-eltávolítani, szerkeszteni a hozzászólásaimat, vagy lezárni az általam nyitott témákat,
-amennyiben úgy ítélik meg hogy ez szükséges. Mint felhasználó, elfogadom, hogy néhány, általam
-megadott adat tárolásra kerül a Fórum adatbázisában. Ezek az információk semmilyen módon nem kerülnek ki egy
-harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõsséget vállalni az adatokért egy esetleges "hacker-támadás" esetén.<br /><br />A Fórum "cookie"-kat (sütiket) használ, hogy adatokat tároljon a felhasználó számítógépén, de egyik sem tartalmaz személyes adatokat, melyek a regisztrációnál kerültek megadásra: a cookie-k pusztán technikai szempontból szükségesek.<br />A megadott email-cím csak a regisztráció (és az új jelszó) érvényesítéséhez szükségeltetik, semmilyen más felhasználásra nem kerül, és a hozzátartozó személyes adatok sem.<br /><br />',
+  'Reg_agreement' => 'Noha az Adminisztrátor, és a moderátorok mindent megtesznek, hogy minél hamarabb eltávolítsák a Fórumból az általánosan kifogásolható anyagokat, lehetetlen, hogy minden egyes hozzászólást átnézzenek. Ebbõl adódóan elfogadom, hogy a Fórumon található összes hozzászólás a szerzõ nézeteit tükrözi, és nem az Adminisztrátorok, Moderátorok, vagy a Webmester álláspontját - így õk nem vállalnak felelõsséget a hozzászólások tartalmáért.<br /><br/>Beleegyezek, hogy nem küldök sértegetõ, obszcén, vulgáris, rágalmazó, gyûlöletkeltõ, támadó, vagy bármely más olyan tartalmat, illetve anyagot, mely törvényt sért. Mivel ez egy nyilvános fórum, ezért olyan anyagot sem küldök, mely ellentétes az általános közízléssel. A fentiek megsértése azonnali és végleges törlést von maga után.<br/>Elfogadom, hogy a Fórum webmesterének, az Adminisztrátornak és bármely Moderátornak jogában áll eltávolítani, szerkeszteni a hozzászólásaimat, vagy lezárni az általam nyitott témákat, amennyiben úgy ítélik meg hogy ez szükséges. Mint felhasználó, elfogadom, hogy néhány, általam megadott adat tárolásra kerül a Fórum adatbázisában. Ezek az információk semmilyen módon nem kerülnek ki egy harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõsséget vállalni az adatokért egy esetleges "hacker-támadás" esetén.<br /><br />A Fórum "cookie"-kat (sütiket) használ, hogy adatokat tároljon a felhasználó számítógépén, de egyik sem tartalmaz személyes adatokat, melyek a regisztrációnál kerültek megadásra: a cookie-k pusztán technikai szempontból szükségesek.<br />A megadott email-cím csak a regisztráció (és az új jelszó) érvényesítéséhez szükségeltetik, semmilyen más felhasználásra nem kerül, és a hozzátartozó személyes adatok sem.<br /><br />',
+  
   'Agreement' => 'Megállapodás',
   'Agree_under_13' => '<b>Elfogadom</b> a feltételeket, és 13 évesnél <i>fiatalabb</i> vagyok.',
   'Agree_over_13' => '<b>Elfogadom</b> a feltételeket.',
   'Agree_not' => '<b>Nem fogadom el</b> a feltételeket.',
   'Agree_checkbox' => 'Tudom és akarom teljesíteni ezeket a feltételeket',
-  'Agree_checkbox_Error' => 'Az "ELFOGADOM" rubrikát meg kell jelölni!',
+  'Agree_checkbox_Error' => 'Az "ELFOGADOM" rubrikát meg kell jelölni a regisztrációs lap alján!',
+  
   'Wrong_activation' => 'Az aktivációs kulcs nem egyezik meg az adatbázisban lévõvel.',
   'Send_password' => 'Új jelszó küldése',
   'Password_updated' => 'Az új jelszó elkészült, ellenõrizd az email-címedet a további információkért.',
   'No_email_match' => 'A megadott email-cím nem tartozik ehhez a felhasználónévhez.',
   'New_password_activation' => 'Új jelszó aktiváció',
   'Password_activated' => 'A hozzáférésedet újraaktiváltuk. A bejelentkezéshez írd be az emailben megadott jelszót.',
+  
   'Send_email_msg' => 'Email üzenet küldése',
   'No_user_specified' => 'Nem adtál meg felhasználónevet.',
   'User_prevent_email' => 'A felhasználó nem kíván emaileket fogadni. Próbálj privát üzenetet küldeni.',
@@ -647,11 +723,19 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Send_Email' => 'Send e-mail',
   'Empty_sender_email' => 'A feladó címét meg kell adnod.',
   'Empty_subject_email' => 'Kötelezõ a téma megadása.',
-  'Empty_message_email' => 'Az üzenet üres.',
+  'Empty_message_email' => 'Az üzenet üres. Írj egy üzenetet, mielõtt elküldöd a levelet.',
+
+
+// Visual confirmation system strings
   'Confirm_code_wrong' => 'Az érvényesítõ kód hibás.',
+//  'Too_many_registers' => 'You have exceeded the number of attempts for this session. Please try again later.',
   'Confirm_code_impaired' => 'Ha látási (vagy egyéb) problémák folytán nem tudnád elolvasni a kódot, vedd fel a kapcsolatot az %sAdminisztrátorral%s.',
   'Confirm_code' => 'Érvényesítõ kód',
   'Confirm_code_explain' => 'A kódot úgy kell begépelni, ahogy itt látod. Ügyelj a kis- és nagybetûkre, a 0 egy átlós vonallal van áthúzva.',
+
+
+
+// Members list
   'Select_sort_method' => 'Rendezési mód kiválasztása',
   'Sort' => 'Rendezés',
   'Sort_Top_Ten' => 'A legtöbb hozzászólást küldõ 10 felhasználó',
@@ -664,9 +748,13 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Sort_Ascending' => 'Növekvõ',
   'Sort_Descending' => 'Csökkenõ',
   'Order' => 'Sorrend',
+
+
+// Group control panel
   'Group_Control_Panel' => 'Csoport vezérlõpult',
   'Group_member_details' => 'Csoporttagság részletek',
   'Group_member_join' => 'Csatlakozás egy csoporthoz',
+  
   'Group_Information' => 'Csoport információ',
   'Group_name' => 'A csoport neve',
   'Group_description' => 'A csoport leírása',
@@ -674,15 +762,19 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Group_Members' => 'Csoporttagok',
   'Group_Moderator' => 'Csoport moderátor',
   'Pending_members' => 'Kérelmezett tagságok',
+  
   'Group_type' => 'A csoport típusa',
   'Group_open' => 'Nyílt csoport',
   'Group_closed' => 'Zárt csoport',
   'Group_hidden' => 'Rejtett csoport',
+  
   'Current_memberships' => 'Aktuális tagságok',
   'Non_member_groups' => 'Csoportok',
   'Memberships_pending' => 'Tagsági kérelmek',
+  
   'No_groups_exist' => 'Jelenleg még nincsen csoport a Fórumon.',
   'Group_not_exist' => 'A megadott csoport nem létezik.',
+  
   'Join_group' => 'Csatlakozás a csoporthoz',
   'No_group_members' => 'A csoportnak nincsenek tagjai.',
   'Group_hidden_members' => 'A csoport rejtett, nem tudod megnézni a tagjait.',
@@ -712,69 +804,91 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Member_this_group' => 'A csoport tagja vagy.',
   'Pending_this_group' => 'A csoport moderátora még nem döntött a felvételedrõl.',
   'Are_group_moderator' => 'A csoport moderátora vagy.',
-  'None' => 'nincsen',
+  'None' => 'Nincs',
   'Subscribe' => 'Jelentkezés',
   'Unsubscribe' => 'Lemondás',
   'View_Information' => 'Információk a csoportról',
+
+// Search
   'Search_query' => 'Keresési feltételek',
   'Search_options' => 'Keresési beállítások',
+  
   'Search_keywords' => 'Keresés kulcsszóra',
   'Search_keywords_explain' => 'Használhatod az <u>AND</u> (és) szót, hogy a keresésben megadott összes szó benne legyen a találatban, az <u>OR</u> (vagy) szót mellyel a "benne lehet" szavakat választhatod el, és a <u>NO</u> (nem) szót, mellyel kizárhatsz szavakat.<br />Használj *-ot a részleges szavakhoz.',
   'Search_author' => 'Szerzõ keresése',
   'Search_author_explain' => 'Használj *-ot a részleges szavakhoz.',
   'Search_author_topic_starter' => 'Search only topics started by this author',
+  
   'Search_for_any' => 'Keresés bármely kifejezésre',
   'Search_for_all' => 'Keresés az összes kifejezésre',
   'Search_title_msg' => 'Keresés téma címre, és szövegre',
   'Search_title_only' => 'Csak a témacímekben keres',
   'Search_msg_only' => 'Csak szövegben keresse',
-  'Return_first' => 'A talált témák elsõ',
+  
+  'Return_first' => 'A talált témák elsõ', // followed by xxx characters in a select box
   'characters_posts' => 'karakterének megjelenítése.',
-  'Search_previous' => 'Keresés az elõzõ x idõtartamban',
+  
+  'Search_previous' => 'Keresés az elõzõ x idõtartamban', // followed by days, weeks, months, year, all in a select box
+  
   'Sort_by' => 'Rendezési feltétel',
   'Sort_Time' => 'Beküldés ideje',
   'Sort_Post_Subject' => 'Téma',
   'Sort_Topic_Title' => 'Téma címe',
   'Sort_Author' => 'Szerzõ',
   'Sort_Forum' => 'Fórum',
+  
   'Display_results' => 'Találatok megjelenítése',
   'All_available' => 'Összes találat',
-  'No_searchable_forums' => 'Nincs jogod keresni a fórumban.',
+  'No_searchable_forums' => 'Nincs jogod keresni az oldalon lévõ fórumban.',
+  
   'No_search_match' => 'A keresési feltételeknek egy fórum, és egy téma sem felelt meg.',
-  'Found_search_match' => '%d találat',
-  'Found_search_matches' => '%d találat',
+  'Found_search_match' => 'Keresési találat: %d', // eg. Search found 1 match
+  'Found_search_matches' => 'Keresési találatok: %d',
+  
   'Close_window' => 'Ablak bezárása',
+
+// Auth related entries
+// Note the %s will be replaced with one of the following 'user' arrays
   'Sorry_auth_announce' => 'Csak a %s küldhetnek közleményt ebbe a fórumba.',
   'Sorry_auth_sticky' => 'Csak a %s küldhetnek kiemelt témát ebbe a fórumba.',
   'Sorry_auth_read' => 'Csak a %s olvashatják a fórum témáit.',
-  'Sorry_auth_post' => 'Csak a %s nyithatnak új témát ebben a fórumban.',
-  'Sorry_auth_reply' => 'Csak a %s válaszolhatnak egy hozzászólásra ebben a fórumban.',
+  'Sorry_auth_post' => 'Csak a %s nyithatnek új témát ebben a fórumban.',
+  'Sorry_auth_reply' => 'Csak a %s válaszolhatnek egy hozzászólásra ebben a fórumban.',
   'Sorry_auth_edit' => 'Csak a %s szerkeszthetnek hozzászólásokat ebben a fórumban.',
   'Sorry_auth_delete' => 'Csak a %s törölhetnek hozzászólásokat ebben a fórumban.',
-  'Sorry_auth_vote' => 'Csak a %s szavazhatnak ebben a fórumban.',
+  'Sorry_auth_vote' => 'Csak a %s szavazhatnek ebben a fórumban.',
+
+// These replace the %s in the above strings
   'Auth_Anonymous_Users' => '<b>vendégek</b>',
   'Auth_Registered_Users' => '<b>regisztrált felhasználók</b>',
   'Auth_Self_Users' => '<b>a speciális felhasználók</b>',
   'Auth_Users_granted_access' => '<b>privát engedéllyel rendelkezõ felhasználók</b>',
   'Auth_Moderators' => '<b>moderátorok</b>',
   'Auth_Administrators' => '<b>adminisztrátorok</b>',
-  'Not_Moderator' => 'Nem vagy a fórum moderátora!',
-  'Not_Authorized' => 'Not Authorized',
-  'You_been_banned' => 'Ki lettél tiltva a Fórumról!<br />A további tudnivalókért vedd fel a kapcsolatot a Webmesterrel, vagy az Adminisztrátorral.',
-  'Reg_users_zero_online' => '0 regisztrált felhasználó és  ',
-  'Reg_users_online' => '%d regisztrált felhasználó és ',
-  'Reg_user_online' => '%d regisztrált felhasználó és ',
-  'Hidden_users_zero_online' => '0 rejtett felhasználó van jelen',
-  'Hidden_users_online' => '%d rejtett felhasználó van jelen.',
-  'Hidden_user_online' => '%d rejtett felhasználó van jelen',
-  'Guest_users_online' => '%d vendég van jelen',
-  'Guest_users_zero_online' => '0 vendég van jelen',
-  'Guest_user_online' => '%d vendég van jelen',
+  
+  'Not_Moderator' => 'Nem vagy a moderátor ezen a fórumon.',
+  'Not_Authorized' => 'Nem azonosított',
+  
+  'You_been_banned' => 'Ki lettél tiltva errõl a fórumról!<br />A további tudnivalókért vedd fel a kapcsolatot a Webmesterrel, vagy az Adminisztrátorral.',
+
+// Viewonline
+  'Reg_users_zero_online' => '0 regisztrált felhasználó és ', // There are 5 Registered and
+  'Reg_users_online' => '%d regisztrált felhasználó és ', // There are 5 Registered and
+  'Reg_user_online' => '%d regisztrált felhasználó és ', // There are 1 Registered and
+  'Hidden_users_zero_online' => '0 rejtett felhasználó online', // 6 Hidden users online
+  'Hidden_users_online' => '%d rejtett felhasználó online', // 6 Hidden users online
+  'Hidden_user_online' => '%d rejtett felhasználó online', // 6 Hidden users online
+  'Guest_users_online' => '%d vendég online', // There are 10 Guest users online
+  'Guest_users_zero_online' => '0 vendég online', // There are 10 Guest users online
+  'Guest_user_online' => '%d vendég online', // There are 1 Guest users online
   'No_users_browsing' => 'Jelenleg egy felhasználó sem böngészi a fórum oldalait',
-  'Online_explain' => 'A fenti adat az elmúlt 5 perc alapján készült.',
+  
+  'Online_explain' => 'A fenti adat az elmúlt ' . intval(ONLINE_REFRESH / 60) . ' perc alapján készült.',
   'Online_today' => 'Ez az adat a ma aktív felhasználókat mutatja',
+  
   'Forum_Location' => 'Fórum helye',
-  'Last_updated' => 'Legutóbb frissített',
+  'Last_updated' => 'Utolsó frissítés',
+  
   'Forum_index' => 'Fórum index',
   'Portal' => 'Home Page',
   'Logging_on' => 'Bejelentkezés',
@@ -788,24 +902,33 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Viewing_FAQ' => 'Gy.I.K. megtekintése',
   'Viewing_KB' => 'TB megnézése',
   'Viewing_RSS' => 'RSS Feed',
+  
+  
+// Moderator Control Panel
   'Mod_CP' => 'Moderátor vezérlõpult',
-  'Mod_CP_explain' => 'Az alábbi ûrlap segítségével kezelheted a fórumot, pld. lezárás, megnyitás, áthelyezés, törlés.',
+  'Mod_CP_explain' => 'Az alábbi ûrlap segítségével tömeges mûveleteket is végezhetsz a fórumon. Például: egyszerre bármennyi témát lezárhatsz, megnyithatsz, áthelyezhetsz vagy törölhetsz.',
+  
   'Select' => 'Kiválaszt',
+  'Delete' => 'Töröl',
   'Move' => 'Áthelyez',
   'Copy' => 'Másol',
   'Lock' => 'Lezár',
   'Unlock' => 'Megnyit',
+  
   'Topics_Removed' => 'A kiválaszott témák sikeresen törölve lettek az adatbázisból!',
   'Topics_Locked' => 'A kiválaszott témák le lettek zárva!',
   'Topics_Moved' => 'A kiválaszott témák sikeresen átkerültek az új helyre!',
   'Topics_Unlocked' => 'A kiválaszott témák sikeresen meg lettek nyitva!',
-  'No_Topics_Moved' => 'Nem lett áthelyezve téma!',
+  'No_Topics_Moved' => 'Nem lett téma áthelyezve!',
+  
   'Confirm_delete_topic' => 'Biztosan el akarod távolítani a kiválaszott témá(ka)t?',
   'Confirm_lock_topic' => 'Biztosan le akarod zárni a kiválasztott témá(ka)t?',
   'Confirm_unlock_topic' => 'Biztosan meg akarod nyitni a kiválasztott témá(ka)t?',
   'Confirm_move_topic' => 'Biztosan át akarod helyezni a kiválasztott témá(ka)t?',
-  'Move_to_forum' => 'Áthelyezés a következõ fórumba:',
-  'Leave_shadow_topic' => 'Árnyék-téma hagyása a régi fórumban.',
+  
+  'Move_to_forum' => 'Áthelyezés más fórumba:',
+  'Leave_shadow_topic' => 'Maradjon árnyéktéma a régi fórumban.',
+  
   'Split_Topic' => 'Téma-szétválasztó',
   'Split_Topic_explain' => 'Az alábbi mezõk használatával egy témát kétféleképpen választhatsz szét: vagy az adott hozzászólások kiemelésével, vagy egy adott hozzászólástól számítva',
   'Split_title' => 'A téma új címe',
@@ -813,57 +936,80 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Split_posts' => 'Megjelölt hozzászólások szétválasztása',
   'Split_after' => 'Szétválasztás a bejelölt hozzászólástól',
   'Topic_split' => 'A téma szétválasztása sikerült!',
+  
   'Too_many_error' => 'Túl sok hozzászólást választottál ki. Csak egy hozzászólást válassz ki, az utána következõk is kiemelõdnek!',
+  
   'None_selected' => 'A mûvelet végrahajtásához témát is ki kell választani. Lépj vissza, és válassz ki legalább egyet.',
   'New_forum' => 'Új fórum',
+  
   'This_posts_IP' => 'A hozzászólás IP-je',
   'Other_IP_this_user' => 'A felhasználóhoz tartozó egyéb IP-címek',
   'Users_this_IP' => 'Az IP-hez tartozó felhasználók',
   'IP_info' => 'IP információ',
   'Lookup_IP' => 'IP keresése',
+  
+// Errors (not related to a specific failure on a page)
   'Information' => 'Információ',
   'Critical_Information' => 'Kritikus információ',
+  
   'General_Error' => 'Általános hiba',
   'Critical_Error' => 'Kritikus hiba',
   'An_error_occured' => 'Hiba adódott',
   'A_critical_error' => 'Kritikus hiba adódott',
   'Admin_reauthenticate' => 'A fórum adminisztrációjához újra azonosítanod kell magad.',
+  
   'Topic_description' => 'A témád meghatározása',
+// 'Description' => 'Topic Description',
+
   'Guestbook' => 'Vendégkönyv',
   'Viewing_guestbook' => 'Vendégkönyv elolvasása',
+  
   'Click_return_preferences' => 'Kattints %side%s Tulajdonságokhoz való visszatéréshez',
+  
   'Warn_new_post' => 'Érkezett egy új válasz ehhez a szálhoz. Kérlek nézd meg a választ, annak fényében fogalmazd át és küld el a válaszod.',
+  
   'Today_at' => '<b class="date-today">Ma</b> történt ',
   'Yesterday_at' => '<b class="date-yesterday">Tegnap</b> történt ',
   'TODAY' => '<b class="date-today">Today</b>',
   'YESTERDAY' => '<b class="date-yesterday">Yesterday</b>',
+
+// Birthday - BEGIN
   'Birthday' => 'Születésnap',
   'No_birthday_specify' => 'Nem meghatározott',
-  'Age' => 'Age',
+  'Age' => 'Kor',
   'Wrong_birthday_format' => 'The birthday format was entered incorrectly.',
   'Birthday_to_high' => 'Sorry, this site, does not accept user older than %d years old',
   'Birthday_require' => 'Your Birthday is required on this site',
   'Birthday_to_low' => 'Sorry, this site, does not accept user younger than %d years old',
-  'Submit_date_format' => 'Y-m-d',
-  'Birthday_greeting_today' => 'We would like to wish you congratulations on reaching %s years old today.<br /><br />&nbsp;',
-  'Birthday_greeting_prev' => 'We would like to give you belated congratulations for becoming %s years old on the %s.<br /><br />&nbsp;',
+  'Submit_date_format' => 'Y-m-d', //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different separators are accepted)
+  'Birthday_greeting_today' => 'We would like to wish you congratulations on reaching %s years old today.<br /><br />&nbsp;',//%s is substituted with the users age
+  'Birthday_greeting_prev' => 'We would like to give you belated congratulations for becoming %s years old on the %s.<br /><br />&nbsp;',//%s is substituted with the users age, and birthday
   'Greeting_Messaging' => 'Congratulations',
   'Birthday_today' => 'Users with a birthday today:',
   'Birthday_week' => 'Users with a birthday within the next %d days:',
-  'Nobirthday_week' => 'No users are having a birthday in the upcoming %d days',
+  'Nobirthday_week' => 'No users are having a birthday in the upcoming %d days', // %d is substituted with the number of days
   'Nobirthday_today' => 'No users have a birthday today',
-  'Year' => 'Year',
+  'Year' => 'Év',
   'Month' => 'Hónap',
-  'Day' => 'Day',
-  'Gender' => 'Nem',
+  'Day' => 'Nap',
+// Birthday - END
+
+// Start add - Gender MOD
+  'Gender' => 'Nem',//used in users profile to display which gender he/she is
   'Male' => 'Férfi',
   'Female' => 'Nõ',
   'No_gender_specify' => 'Nem meghatározott',
   'Gender_require' => 'A nemed meghatározása kötelezõ ezen az oldalon.',
+// End add - Gender MOD
+
+// Start add - Who viewed a topic MOD
   'Topic_view_users' => 'A témát meglátogató felhasználók listája',
   'Topic_time' => 'Utoljára látta',
   'Topic_count' => 'Témaszámláló',
-  'Topic_view_count' => 'A témát látogatókat számolja',
+  'Topic_view_count' => 'A témát látogatók száma',
+// End add - Who viewed a topic MOD
+
+// Start add - Yellow card admin MOD
   'Give_G_card' => 'Felhasználó újraaktiválása',
   'Give_Y_card' => 'Felhasználó #%d figyelmeztetése',
   'Give_R_card' => 'Felhasználó azonnali banolása',
@@ -875,18 +1021,23 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Ban_warning' => 'Egy figyelmeztetést kaptál',
   'Ban_blocked' => 'A hozzáférésedet blokkolták',
   'Click_return_viewtopic' => 'Kattints %side%s a témához való visszatéréshez',
+/*
+  'Rules_ban_can' => 'You <b>can</b> ban other users in this forum',
+  'Rules_greencard_can' => 'You <b>can</b> un-ban users in this forum',
+  'Rules_bluecard_can' => 'You <b>can</b> report post to moderators in this forum',
+*/
   'Rules_ban_can' => '<b>Tudsz</b> banolni más felhasználókat ebben a fórumban',
   'Rules_greencard_can' => 'Vissza <b>tudod</b> vonni egy felhasználó banját',
   'Rules_bluecard_can' => '<b>Tudsz</b> jelentést küldeni egy moderátornak ebben a fórumban',
   'user_no_email' => 'Ez a felhasználó nem engedi meg, hogy levelet küldjél neki, de privát üzenetet küldhetsz neki',
   'user_already_banned' => 'A kijelölt felhasználó már banolva van',
-  'Ban_no_admin' => 'Ez a felhasználó egy ADMIN és nem banolhatod vagy figyelmeztetheted',
+  'Ban_no_admin' => 'Ez a felhasználó egy ADMIN, ezért nem banolhatod, nem figyelmeztetheted',
   'Give_b_card' => 'Jelented ezt a hozzászólást a fórum egyik moderátorának',
   'Clear_b_card' => 'Ennek a hozzászólásnak már van %d kék kártyája. Ha megnyomod ezt a gombot, akkor lenullázódik',
   'No_moderators' => 'Ennek a fórumnak nincsen moderátora, nem tudsz senkinek sem jelenteni!',
   'Post_repported' => 'Ezt a hozzászólást jelentetted %d moderátornak',
   'Post_repported_1' => 'Ezt a hozzászólást jelentetted egy moderátornak',
-  'Post_repport' => 'Hozzászólás jelentése',
+  'Post_repport' => 'Hozzászólás jelentése', //Subject in email notification
   'Post_reset' => 'A hozzászólás kék kártyáinak a számlálása újra lett indítva',
   'Search_only_bluecards' => 'Keresés csak kék kártyás hozzászólásokban',
   'Send_message' => 'Kattints %side%s, ha írsz egy üzenetet a moderátoroknak, vagy<br />',
@@ -895,38 +1046,52 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
 --------------------------------
 
 ',
-  'Post_a_report' => 'Post a report',
-  'Report_stored' => 'Your report has been entered successfully',
-  'Send_report' => 'Kattints %side%s to go back to the original message',
-  'Red_card_warning' => 'You are about to give the user:%s a red card, this will ban the user, are you sure?',
-  'Yellow_card_warning' => 'You are about to give the user:%s a yellow card, this will issue a warning to the user, are you sure?',
-  'Green_card_warning' => 'You are about to give the user:%s a green card, this will unban the user, are you sure?',
-  'Blue_card_warning' => 'You are about to give the post a blue card, this will alert the moderators about this post, Are you sure you want to Alert the moderators about this post?',
-  'Clear_blue_card_warning' => 'You are about to reset the blue card counter for this post, Do you want to continue?',
-  'Warnings' => 'Warnings: %d',
-  'Banned' => 'Currently banned',
-  'Last_logon' => 'Last Visit',
-  'Hidde_last_logon' => 'Hidden',
-  'Never_last_logon' => 'Never',
+  'Post_a_report' => 'Jelentés küldése',
+  'Report_stored' => 'A jelentésed sikeresen kézbesítve lett',
+  'Send_report' => 'Kattints %side%s ide az eredeti üzenethez való visszatéréshez',
+  'Red_card_warning' => 'A(z) %s felhasználónak piros lapot akarsz adni. Ezzel banolod a felhasználót az oldalról. Biztos ezt akarod tenni?',
+  'Yellow_card_warning' => 'A(z) %s felhasználónak sárga lapot akarsz adni. Ezzel figyelmeztetésben részesíted a felhasználót. Biztos ezt akarod tenni?',
+  'Green_card_warning' => 'A(z) %s felhasználónak zöld lapot akarsz adni. Ezzel megszünteted a felhasználó banját. Biztos ezt akarod tenni?',
+  'Blue_card_warning' => 'A(z) %s felhasználónak kék lapot akarsz adni. Ezzel felhívod a moderátorok figyelmét erre a hozzászólásra. Biztos, hogy figyelmeztetni akarod a moderátorokat ezen hozzászólás kapcsán?',
+  'Clear_blue_card_warning' => 'Ezzel reseteled a hozzászólás kék lap számlálóját. Biztos ezt akarod tenni?',
+  'Warnings' => 'Figyelmeztetés: %d', //shown beside users post, if any warnings given to the user
+  'Banned' => 'Jelenleg banolva',//shown beside users post, if user are banned
+
+// Last visit - BEGIN
+  'Last_logon' => 'Utolsó látogató',
+  'Hidde_last_logon' => 'Rejtett',
+  'Never_last_logon' => 'Soha',
   'Users_today_zero_total' => 'Összesen <b>0</b> felhasználó látta ezt az oldalt ma: ',
   'Users_today_total' => 'Összesen <b>%d</b> felhasználó látta ezt az oldalt ma: ',
   'User_today_total' => 'Összesen <b>%d</b> felhasználó látta ezt az oldalt ma: ',
   'Users_lasthour_explain' => ', %d of them within the last hour.',
-  'Users_lasthour_none_explain' => '',
-  'Years' => 'Years',
-  'Weeks' => 'Weeks',
-  'Week' => 'Week',
-  'Total_online_time' => 'Total Online Duration',
-  'Last_online_time' => 'Last Online Duration',
-  'Number_of_visit' => 'Number of visits',
-  'Number_of_pages' => 'Number of page hits',
-  'total_site_hits_key' => '%V% Pages views since %D%.',
+  'Users_lasthour_none_explain' => '', //shown if no one has visited in the last hour, fill if you like
+  
+  'Years' => 'Év',
+  'Year' => 'Év',
+  'Weeks' => 'Hét',
+  'Week' => 'Hét',
+  'Day' => 'Nap',
+  'Total_online_time' => 'Összes online idõ',
+  'Last_online_time' => 'Utolsó online idõ',
+  'Number_of_visit' => 'Látogatások száma',
+  'Number_of_pages' => 'Megtekintett lapok száma',
+// Last visit - END
+
+  'total_site_hits_key' => '%V% oldalt látott %D% óta.',
+  
   'Message_too_short' => 'Az üzenet túl rövid',
+  
+// Start add - Online/Offline/Hidden Mod
   'Online' => 'Online',
   'Offline' => 'Offline',
   'Hidden' => 'Rejtett',
+  
   'Online_status' => 'Státusz',
-  'Download' => 'Download',
+// End add - Online/Offline/Hidden Mod
+  'Download' => 'Letöltés',
+
+//signature editor
   'sig_edit_link' => 'Aláírás',
   'sig_description' => 'Aláírás szerkesztése (<b>Elõnézettel</b>)',
   'sig_edit' => 'Aláírás szerkesztése',
@@ -934,12 +1099,18 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'sig_none' => 'Nincs elérhetõ aláírás',
   'sig_save' => 'Ment',
   'sig_save_message' => 'Az aláírás sikeresen mentve!',
+  
   'Statistics' => 'Statisztikák',
+  
+// Start add - Global announcement MOD
+  'Globalannounce' => 'Globális esemény',
   'Globalannounce' => 'Új Globális esemény',
+// End add - Global announcement MOD
   'Global_Announcements' => 'Globális események',
   'Announcements' => 'Események',
   'Sticky_Topics' => 'Fontos témák',
   'Announcements_and_Sticky' => 'Események és fontos témák',
+// db_update generator
   'Db_update_generator' => 'DB Update Generator',
   'Instructions' => 'Instructions',
   'SQL_instructions' => '<p>This piece of software will create PHP files that will allow you to update your database using your browser. There are a few things you must look after when you insert an SQL in the box below.<br />First of all, make sure that every SQL query is ending with a semicolon (;). If not, the file created will be faulty. Next, ensure that the tables have the "phpbb_" prefix. This will automatically be replaced with a little piece of code that enables you to use the db_update.php file on any forum regardless of what the table prefix is set to.</p>',
@@ -947,21 +1118,22 @@ harmadik félhez, de sem az Adminisztrátor sem a Moderátorok nem tudnak felelõssé
   'Enter_SQL_explain' => '<strong>MySQL</strong> is the world\'s most popular open source database, recognized for its speed and reliability.',
   'Output_SQL' => '<strong>SQL Output</strong>',
   'Output_SQL_explain' => 'Copy and paste the text from the text area on the right into a blank file. Save the file as <u>db_update.php</u> and upload it to your server. Run it once by accessing with your browser.<br /><br />Alternatively, click the download button to download the file directly to your computer <strong>(recommended)</strong>.',
-  'TOP_POSTERS' => 'Top Posters',
-  'TELL_FRIEND' => 'Email to a Friend',
-  'TELL_FRIEND_SENDER_USER' => 'Your Name',
-  'TELL_FRIEND_SENDER_EMAIL' => 'Your Email Address',
-  'TELL_FRIEND_RECEIVER_USER' => 'Your Friend\'s Name',
-  'TELL_FRIEND_RECEIVER_EMAIL' => 'Your Friend\'s Email Address',
-  'TELL_FRIEND_WRONG_EMAIL' => 'You have not entered a valid email address.',
-  'TELL_FRIEND_MSG' => 'Your message:',
+  'Download' => 'Letöltés',
+
+  'TOP_POSTERS' => 'Legtöbbet hozzászólók',
+  
+// TELL A FRIEND
+  'TELL_FRIEND' => 'Email egy barátnak',
+  'TELL_FRIEND_SENDER_USER' => 'A neved',
+  'TELL_FRIEND_SENDER_EMAIL' => 'Az email címed',
+  'TELL_FRIEND_RECEIVER_USER' => 'A barátod neve',
+  'TELL_FRIEND_RECEIVER_EMAIL' => 'A barátod email címe',
+  'TELL_FRIEND_WRONG_EMAIL' => 'Nem érvényes a megadott email cím.',
+  'TELL_FRIEND_MSG' => 'Az üzeneted:',
   'TELL_FRIEND_TITLE' => 'Tell A Friend',
-  'TELL_FRIEND_BODY' => 'Hi,
-I just read the topic &raquo;{TOPIC}&laquo; at {SITENAME} and thought you might be interested.
+  'TELL_FRIEND_BODY' => 'Szia!\nA {SITENAME} fórumán jártam, és olvastam egy témát, ami szerintem téged érdekelni fog: &raquo;{TOPIC}&laquo;.\n\nTessék a link: {LINK}\n\nMenj, és olvasd el. Ha szeretnél rá válaszolni tudsz regisztrálni egy saját felhasználót pár perc alatt.',
 
-Here is the link: {LINK}
-
-Go and read it and if you want to reply you can register for your own account if you have not done so already.',
+// Begin Thanks Mod
   'thankful' => 'Köszönöm emberek',
   'thanks_to' => 'Köszönöm a témát',
   'thanks_end' => ':',
@@ -971,7 +1143,11 @@ Go and read it and if you want to reply you can register for your own account if
   'thanks_add' => 'A köszönetedet átadtuk',
   'thanks_not_logged' => 'Be kell jelentkezned mielõtt megköszönsz egy témát',
   'thanks2' => 'Nagyon szépen köszönöm!<br />',
+// End Thanks Mod
+
+//Begin Lo-Fi Mod
   'Lofi' => 'Lo-Fi Verzió',
+// 'Full_Version' => 'Teljes verzió',
   'Full_Version' => 'Ez a "Lo-Fi" verziójú tartalom. A teljes minõségû verzió több információt tartalmaz, mert képeket és szembarát formázásokat tartalmaz. Kérlek kattints ide.',
   'quote_lofi' => 'Idézet',
   'edit_lofi' => 'Szerkeszt',
@@ -987,32 +1163,47 @@ Go and read it and if you want to reply you can register for your own account if
   'msnm_lofi' => 'MSN',
   'quick_lofi' => 'Gyors válasz',
   'new_pm_lofi' => 'Egy PÜ küldése',
+//End Lo-Fi Mod
+
+// Retroactive Signature MOD
   'Retro_sig' => 'A régebbi válaszaim alá is tegye oda az aláírásom',
   'Retro_sig_explain' => 'Ha hozzáadsz/lecserélsz egy aláírást, akkor az normális esetben csak az ezek után beküldött hozzászólásaid alatt lesz látható',
-  'Retro_sig_checkbox' => 'Jelöld be, ha szeretnéd a régebbi hozzászólásaid alá is odatenni az aláírásodat',
+  'Retro_sig_checkbox' => 'Jelöld be, ha szeretnéd, hogy a régebbi hozzászólásaid alatt is megjelenjen az aláírásod',
+// End Retro Sig MOD
+
   'legend' => 'Történet',
   'users' => 'Felhasználók',
+//added to autogroup mod
   'No_more' => 'nincs több elfogadott felhasználó',
   'No_add_allowed' => 'automatikus felhasználófelvétel nincs engedélyezve',
   'Join_auto' => 'Csatlakozhatsz a csoporthoz, mert a minimális hozzászólásszámot teljesítetted',
+
+// merge topics
   'Merge' => 'Összevon',
   'Merge_topic' => 'Téma összevonása',
   'Topics_Merged' => 'A téma be lett emelve a témába.',
   'No_Topics_Merged' => 'A témák nem beemelhetõek.',
   'Confirm_merge_topic' => 'Tényleg szeretnéd beemelni a kijelölt témát?',
+  
   'Downloads' => 'Letöltések',
+  
+// Start add - Bin Mod
   'Move_bin' => 'Téma szemetesbe helyezése',
   'Topics_Moved_bin' => 'A kijelölt témák a szemetesbe lettek mozgatva.',
   'Bin_disabled' => 'A szemetes le van tiltva',
   'Bin_recycle' => 'Szemetes',
-  'Recent_topics' => 'Friss témák',
+// End add - Bin Mod
+  'Recent_topics' => 'Friss témák', // Recent Topics
+
   'Topics_Title_Edited' => 'A kijelölt téma címe sikeresen szerkesztve.',
   'Edit_title' => 'Cím szerkesztése',
   'PM' => 'PÜ',
+  
+// Start Advanced IP Tools Pack MOD
   'Moderator_ip_information' => 'Az IP információkat csak moderátorok láthatják',
   'Registered_ip_address' => 'Regisztrált IP cím',
   'Registered_hostname' => 'Regisztrált gépnév',
-  'Other_registered_ips' => 'A %s címrõl regisztráló más felhasználók',
+  'Other_registered_ips' => 'A %s címrõl regisztrált más felhasználók', //%s is the IP address
   'Other_posted_ips' => 'IP címek, ahonnan ez a felhasználó hozzászólt',
   'Search_ip' => 'Hozzászólások errõl az IP címrõl',
   'Search_ip_explain' => 'Az IP cím <u>127.0.0.1</u>-hez hasonló formátumú -- használhatod a *-ot jolly karakternek, hogy egy tartományt lefedjél. Pl.: <u>127.*.*.1</u>',
@@ -1024,8 +1215,11 @@ Go and read it and if you want to reply you can register for your own account if
   'Not_recorded' => 'Nem rögzített',
   'Logins' => 'Belépések',
   'No_logins' => 'Ennek a felhasználónak nincsen rögzített belépése.',
+// End Advanced IP Tools Pack MOD
+
   'LIW_click_image' => 'Kattints ide, hogy a képet eredeti méretben megnézd',
   'LIW_click_image_explain' => 'Ide kattintva megnézheted a képet eredeti méretében',
+// Mighty Gorgon - Full Album Pack - BEGIN
   'Album' => 'Album',
   'Personal_Gallery' => 'Személyes galéria',
   'Personal_Gallery_Of_User' => '%s személyes galériája',
@@ -1056,6 +1250,9 @@ Go and read it and if you want to reply you can register for your own account if
   'Search_Contents' => ' ami tartalmazza: ',
   'Search_Found' => 'Keresési eredmény: ',
   'Search_Matches' => 'Illeszkedik:',
+// Mighty Gorgon - Full Album Pack - END
+
+// News
   'xs_latest_news' => 'Legfrissebb hírek',
   'xs_no_news' => 'Nincsenek hírek megadva.',
   'xs_news_version' => 'XS News Verzió: %s',
@@ -1068,44 +1265,51 @@ Go and read it and if you want to reply you can register for your own account if
   'hide' => 'Elrejt',
   'show' => 'Mutat',
   'Welcome' => 'Üdvözöllek',
-  'birthdays' => 'Birthdays',
-  'male_zero_total' => '<b>0</b> férfi tagunk',
-  'male_total' => '<b>%d</b> férfi tagunk',
-  'male_one_total' => '<b>%d</b> férfi tagunk',
-  'female_zero_total' => 'Van <b>0</b> nõi tagunk',
-  'female_total' => 'Van <b>%d</b> nõi tagunk',
-  'female_one_total' => 'Van <b>%d</b> nõi tag',
-  'unknown_total' => '& <b>%d</b> nem tudjuk milyen nemû tagunk',
-  'unknown_one_total' => '& <b>%d</b> nem tudjuk milyen nemû tagunk',
+  'birthdays' => 'Születésnapok',
+
+//Battle of the Sexes
+  'male_zero_total' => '<b>0</b> férfi tagunk', // # registered male users
+  'male_total' => '<b>%d</b> férfi tagunk', // # registered male users
+  'male_one_total' => '<b>%d</b> férfi tagunk', // # registered male users
+  'female_zero_total' => 'Van <b>0</b> nõi tagunk', // # registered female users
+  'female_total' => 'Van <b>%d</b> nõi tagunk', // # registered female users
+  'female_one_total' => 'Van <b>%d</b> nõi tag', // # registered female users
+  'unknown_total' => '& <b>%d</b> tagról nem tudni milyen nemû',
+  'unknown_one_total' => '& <b>%d</b> tagról nem tudni milyen nemû',
   'unknown_zero_total' => '',
   'battle_of_sexes' => 'Nemek harca: ',
-  'who_viewed' => 'Téma nézete',
+  
+  'who_viewed' => 'A témát nézik',
   'BoardRules' => 'Szabályok',
+  
   'View_post' => 'Hozzászólás megnézése',
   'Post_review' => 'Hozzászólás átnézése',
   'View_next_post' => 'Következõ hozzászólás megnézése',
   'View_previous_post' => 'Elõzõ hozzászólás megnézése',
   'No_newer_posts' => 'Nincs újabb hozzászólás a fórumban',
   'No_older_posts' => 'Nincs régebbi hozzászóláûs a fórumban',
+  
   'StaffSite' => 'Staff oldal',
-  'Staff_level' => 
-  array (
-    0 => 'Administrator',
-    1 => 'Moderator',
-  ),
+  'Staff_level' => array ('Administrator', 'Moderator'),
   'Staff_forums' => 'Fórumok',
   'Staff_stats' => 'Statisztikák',
-  'Staff_user_topic_day_stats' => '%.2f téma per nap',
-  'Staff_period' => '%d napja',
+  'Staff_user_topic_day_stats' => '%.2f téma per nap', // %.2f = topics per day
+  'Staff_period' => '%d napja', // %d = days
   'Staff_contact' => 'Kapcsolat',
   'Staff_messenger' => 'Üzenõ',
+// Start Edit Notes MOD
   'Edit_notes' => 'Feljegyzések szerkesztése',
   'Delete_note' => 'Feljegyzés törlése',
   'Edited_by' => 'Szerkesztette:',
   'Confirm_delete_edit_note' => 'Tényleg törölni szeretnéd ezt a feljegyzést?',
   'Edit_note_deleted' => 'A feljegyzés sikeresen törölve.',
+// End Edit Notes MOD
+//Referrers Mod
   'Referrers' => 'Http hivatkozók',
   'Viewing_Referrers' => 'Idelátogató hivatkozók',
+//Referrers Mod End
+
+  'Recent_topics' => 'Legújabb téma',
   'Recent_today' => 'Ma',
   'Recent_yesterday' => 'Tegnap',
   'Recent_last24' => '24 órán belül',
@@ -1115,35 +1319,46 @@ Go and read it and if you want to reply you can register for your own account if
   'Recent_days' => 'Nap',
   'Recent_first' => '%s-tól',
   'Recent_first_poster' => '%s',
-  'Recent_select_mode' => 'Kijelölés módja:',
+  'Recent_select_mode' => 'Kiválasztás módja:',
   'Recent_showing_posts' => 'Hozzászólások mutatása:',
-  'Recent_title_one' => '%s téma %s',
-  'Recent_title_more' => '%s témák %s',
+  'Recent_title_one' => '%s téma %s', // %s = topics; %s = sort method
+  'Recent_title_more' => '%s témák %s', // %s = topics; %s = sort method
   'Recent_title_today' => ' mától',
   'Recent_title_yesterday' => ' tegnaptól',
   'Recent_title_last24' => ' az utolsó 24 órától',
   'Recent_title_lastweek' => ' utolsó héttõl',
-  'Recent_title_lastXdays' => ' utolsó %s naptól',
+  'Recent_title_lastXdays' => ' utolsó %s naptól', // %s = days
   'Recent_no_topics' => 'Nem találtam egy témát sem.',
   'Recent_wrong_mode' => 'Rossz módot választottál.',
   'Recent_click_return' => 'Kattints %side%s, hogy visszatérj a legutolsó oldalra.',
+  
   'Profile_view_option' => 'Pop up window on Profile View',
   'Profile_viewed' => 'A Profilom látták',
+
+// BEGIN Disable Registration MOD
   'registration_status' => 'Bocsi, de a fórumra jelenleg nem lehet regisztrálni, ez egy zárt közösség. Kérlek nézz vissza máskor.',
+// END Disable Registration MOD
+
   'PostHighlight' => 'Kijelöl',
   'QuickQuote' => 'Gyors idézés',
   'Randomquote' => 'Véletlen idézés',
+
+// Mod User CP Organize
   'Cpl_Navigation' => 'Vezérlõpanel',
-  'Cpl_Settings_Options' => 'Beállítások és opciók',
+// 'Cpl_Settings_Options' => 'Settings And Options',
+  'Cpl_Settings_Options' => 'Beállítások',
   'Cpl_Board_Settings' => 'Oldal beállítása',
   'Cpl_NewMSG' => 'Új üzenet küldése',
   'Cpl_Click_Return_Cpl' => 'Vagy kattints %side%s, hogy visszajuss a Vezérlõpanelhez',
   'Cpl_Personal_Profile' => 'Személyes profil',
   'Cpl_More_info' => 'Feliratkozások',
-  'Forbidden_characters' => 'Felhasználónévbe elfogadott karakterek: a-z, 0-9, -, _ és a szünet.',
+  
+  'Forbidden_characters' => 'Felhasználónévben engedélyezet karakterek: a-z, 0-9, -, _ és a szünet.',
+  
   'Topics_per_page' => 'Téma per oldal',
   'Posts_per_page' => 'Hozzászólás per oldal',
   'Hot_threshold' => 'Népszerû hozzászólás küszöbe',
+  
   'Mod_CP_first_post' => 'Elsõ hozzászólás',
   'Mod_CP_topic_count' => '<b>%s</b> témát találtam.',
   'Mod_CP_topics_count' => '<b>%s</b> témát találtam.',
@@ -1166,8 +1381,8 @@ Go and read it and if you want to reply you can register for your own account if
   'Mod_CP_poll_removed' => 'A kijelölt szavazás sikeresen el lett távolítva a témából.',
   'Mod_CP_polls_removed' => 'A kijelölt szavazások sikeresen el lett távolítva a témákból.',
   'Mod_CP_topic_removed' => 'A kijelölt téma sikeresen el lett távolítva az adatbázisból.',
-  'Mod_CP_topic_moved' => 'A kijelölt téma átmozgatva <b>%s</b>-bõl <b>%s</b>-be.',
-  'Mod_CP_topics_moved' => 'A kijelölt téma átmozgatva <b>%s</b>-bõl <b>%s</b>-be.',
+  'Mod_CP_topic_moved' => 'A kijelölt téma átmozgatva <b>%s</b>-bõl <b>%s</b>-be.', // %s = old/new forum
+  'Mod_CP_topics_moved' => 'A kijelölt téma átmozgatva <b>%s</b>-bõl <b>%s</b>-be.', // %s = old/new forum
   'Mod_CP_topic_locked' => 'A kijelölt téma lezárva.',
   'Mod_CP_topic_unlocked' => 'A kijelölt téma kinyitva.',
   'Mod_CP_topics_sticked' => 'A kijelölt témák fontosaknak megjelölve.',
@@ -1179,15 +1394,18 @@ Go and read it and if you want to reply you can register for your own account if
   'Mod_CP_topics_normalized' => 'A kijelölt témák normálisnak megjelölve.',
   'Mod_CP_topic_normalized' => 'A kijelölt téma normálisnak megjelölve.',
   'Mod_CP_click_return_topic' => 'Kattints %side%s ha a régi témához, és %side%s ha az új témához akarsz visszatérni.',
+  
   't_starter' => 'Magadnak nem köszönheted meg',
   'Watched_Topics' => 'Figyelt téma',
   'No_Watched_Topics' => 'Nem figyelsz egy témát sem',
   'Watched_Topics_Started' => 'Téma elindítva',
   'Watched_Topics_Stop' => 'Figyelés leállítva',
+  
   'Stop_watching_forum' => 'Fórum figyelésének abbahagyása',
   'Start_watching_forum' => 'A fórum a hozzászólásainak figyelése',
   'No_longer_watching_forum' => 'Nem figyeled többé ezt a fórumot.',
   'You_are_watching_forum' => 'Mostantól figyeled ezt a fórumot.',
+  
   'UCP_SubscForums' => 'Feliratkozások',
   'UCP_NoSubscForums' => 'Nem vagy feliratkozva egy fórumra sem',
   'UCP_SubscForums_Flag' => 'Zászló',
@@ -1200,30 +1418,35 @@ Go and read it and if you want to reply you can register for your own account if
   'UCP_SubscForums_LastPost' => 'Utolsó hozzászólás',
   'UCP_SubscForums_UnSubscribe' => 'Leiratkozás',
   'UCP_SubscForums_NewTopic' => 'Új téma',
+  
   'profile_main' => 'Általános információ',
   'profile_explain' => 'Üdvözlünk a Felhasználói Vezérlõpanelben. Itt tudod figyelni, megnézni és frissíteni a profilodat, egyes mûködési tulajdonságokat, felírt fórumokat és témákat. Illetve tudsz más felhasználóknak üzenetet küldeni (ha engedélyezve van).',
   'your_activity' => 'A profilod',
+  
   'Gravatar' => 'Gravatar',
   'Gravatar_explain' => 'Ha van egy <a href="http://www.gravatar.com" target="_blank">gravatarod</a>, add meg az ott regisztrált email címedet.',
+  
   'private_msg_review_title' => 'Válaszüzenet: ',
   'private_msg_review_error' => 'Hiba a Privát Üzenetek keresése közben!',
-  'BSH_Viewing_Topic' => 'Téma megnézése: %t%',
-  'BSH_Viewing_Post' => '%sEgy hozzászólás megnézése%s',
-  'BSH_Viewing_Profile' => '%u% profiljának megnézése',
+  
+  'BSH_Viewing_Topic' => 'Téma megtekintése: %t%',
+  'BSH_Viewing_Post' => '%sEgy hozzászólás megtekintése%s',
+  'BSH_Viewing_Profile' => '%u% profiljának megtekintése',
   'BSH_Viewing_Groups' => '%sCsoportok megnézése%s',
-  'BSH_Viewing_Forums' => 'Fórummegnézése: %f%',
-  'BSH_Index' => '%sIndex megnézése%s',
+  'BSH_Viewing_Forums' => 'Fórum megtekintése: %f%',
+  'BSH_Index' => '%sIndex megtekintése%s',
   'BSH_Searching_Forums' => '%sKeresés a fórumokban%s',
   'BSH_Viewing_Onlinelist' => '%sOnline felhasználók listája%s',
   'BSH_Viewing_Messages' => '%sPrivát Üzenetek megnézése%s',
   'BSH_Viewing_Memberlist' => '%sTaglista megnézése%s',
-  'BSH_Login' => '%sBejelentkeve%s',
-  'BSH_Logout' => '%sKijelentkezve%s',
+  'BSH_Login' => '%sBejelentkezés%s',
+  'BSH_Logout' => '%sKijelentkezés%s',
   'BSH_Editing_Profile' => '%sProfil szerkesztése%s',
   'BSH_Viewing_ACP' => '%sACP megnézése%s',
   'BSH_Moderating_Forum' => '%sFórumok moderálása%s',
-  'BSH_Viewing_FAQ' => '%sGYIK megnézése%s',
-  'BSH_Viewing_Category' => 'Kategóri megnézése: %c%',
+  'BSH_Viewing_FAQ' => '%sGYIK megtekintése%s',
+  'BSH_Viewing_Category' => 'Kategória megtekintése: %c%',
+  
   'Board_statistic' => 'Oldalstatisztikák',
   'Database_statistic' => 'Adadtbázisstatisztikák',
   'Version_info' => 'Verzióinformáció',
@@ -1241,21 +1464,26 @@ Go and read it and if you want to reply you can register for your own account if
   'Version_of_PHP' => '<a href="http://www.php.net/">PHP</a> verzió',
   'Version_of_MySQL' => '<a href="http://www.mysql.com/">MySQL</a> verzió',
   'Download_post' => 'Hozzászólás letöltése',
+  
   'Download_topic' => 'Téma letöltése',
   'Always_swear' => 'Csúnya szavak elfogadása',
+  
   'Shoutbox' => 'Üzenõfal',
   'Shoutbox_date' => ' Y m d h:i:s',
   'Shout_censor' => 'Sor eltávolítva!',
   'Shout_refresh' => 'Frissítés',
-  'Shout_text' => 'Szöveged',
+  'Shout_text' => 'Szöveg',
   'Viewing_Shoutbox' => 'Üzenõfal megnézése',
   'Censor' => 'Cenzor',
+  
   'Edit_post_time' => 'Hozzászólás idejének szerkesztése',
   'Edit_post_time_xs' => 'Szerkeszt',
   'Topic_time_xs' => 'Téma ideje',
   'Post_time' => 'Beküldés ideje',
   'Post_time_successfull_edited' => '<b>Az idõ sikeresen frissítve.</b></span><br /><span class="postdetails">Ez az ablak 3 mp múlva bezáródik.',
-  'staff_message' => 'Üzenet a Stafftól',
+  
+  'staff_message' => 'Üzenet a Fõnökségtõl',
+  
   'Board_Rules' => 'Fórumszabályok',
   'Forum_Rules' => 'Fórumszabályok',
   'Show_avatars' => 'Avatarok megjelenítése a témában',
@@ -1265,7 +1493,7 @@ Go and read it and if you want to reply you can register for your own account if
   'User_Number' => 'Felhasználó #',
   'Member_Count' => 'Tagok',
   'Reply_message' => 'Megválaszolt üzenet',
-  'Click_read_topic' => 'Kattints %side%s az elolvasáshoz',
+  'Click_read_topic' => 'Kattints %side%s az elolvasáshoz', // %s's here are for uris, do not remove!
   'Create_with_generator' => 'Avatar létrehozása az Avatar Generátorral',
   'View_avatar_generator' => 'Avatar Generátor',
   'Adv_Search' => 'Részletes keresés',
@@ -1293,9 +1521,11 @@ Go and read it and if you want to reply you can register for your own account if
   'Remove_Bookmark' => 'Ennek a témának a könyvjelzõjének eltávolítása',
   'No_Bookmarks' => 'Nem állítottál be egy könyvjelzõt sem',
   'Always_set_bm' => 'Könyvjelzõ beállítása minden hozzászólásodhoz',
-  'Found_bookmark' => '%d könyvjelzõt állítottál be.',
-  'Found_bookmarks' => '%d könyvjelzõt állítottál be.',
-  'More_bookmarks' => 'További könyvjelzõk...',
+  'Found_bookmark' => '%d könyvjelzõt állítottál be.', // eg. Search found 1 match
+  'Found_bookmarks' => '%d könyvjelzõt állítottál be.', // eg. Search found 24 matches
+  'More_bookmarks' => 'További könyvjelzõk...', // For mozilla navigation bar
+
+//RSS Reader Help
   'RSS' => 'RSS',
   'Rss_news_help' => 'Mi is ez?',
   'Rss_news_help_title' => 'Segítség az RSS hírolvasóhoz',
@@ -1310,14 +1540,20 @@ Go and read it and if you want to reply you can register for your own account if
   'L_url_rss_atom_explain' => 'URL egy bizonyos RSS Feed-hez.',
   'Rss_news_help_rights' => 'Kérlek wedd figyelembe, hogy ez a szolgáltatás nem egyenértékû a weboldallal, és használatát bármikor megszüntetheted, illetve nem biztos, hogy minden esetben rendelkezésre áll.',
   'Rss_news_feeds' => 'RSS hírek Feed-ként',
+  
   'Quick_Reply' => 'Gyors válasz',
   'Mod_CP_sticky2' => 'Fontos',
   'Mod_CP_announce2' => 'Esemény',
   'Mod_CP_global2' => 'Globális',
   'Mod_CP_normal2' => 'Normális',
-  'Search_Flood_Error' => 'Két keresés között el kell telnie egy meghatározott idõtartamnak, várj egy kicsit és próbálkozz újra.',
+  
+  'Search_Flood_Error' => 'Két keresés között el kell telnie egy kis idõnek. Kérlek várj egy kicsit és próbálkozz újra.',
+  
+// Custom Profile Fields MOD
   'custom_field_notice' => 'Ezt a mezõt egy adminisztrátor hozta létre. Megjelölhetõ publikusnak is, meg nem is. A mezõ meg lesz *-gal jelölve, és kötelezõ lesz kitölteni.',
   'and' => ' és ',
+// END Custom Profile Fields MOD
+
   'dsbl' => 'Az IP címed egy <a href="%url%">DNS alapú fekete lyuk listán</a> szerepel. <br />A regisztrációd blokkolva van.',
   'Emails_Only_To_Admins_Error' => 'A levelezõrendszert csak adminisztrátornak címzett levelek küldésére használhatod.',
   'Wordgraph' => 'Szófelhõ',
@@ -1357,6 +1593,9 @@ Go and read it and if you want to reply you can register for your own account if
   'log_out_chat' => 'Sikeresen kijelentkeztél a chat-bõl ',
   'Send' => 'Küld',
   'Login_to_join_chat' => 'Bejelentkezés a chat-be',
+
+// Hacks List
+/* General */
   'Hacks_List' => 'Készítõk',
   'Page_Desc' => 'Ez a modul hozzáférhetõvé teszi a készítõk listájának a módosítását, így tudsz a listához hozzáadni, a listát szerkeszteni vagy a listából törölni attól függõen, hogy mit módosítottál/variáltál a motoron. Minden változtatás a credits.php lapon látható lesz.',
   'Deleted_Hack' => 'A %s mod készítõje törölve a listáról.<br />',
@@ -1368,26 +1607,39 @@ Go and read it and if you want to reply you can register for your own account if
   'Add_New_Hack' => 'Egy új készítõ hozzáadása',
   'User_Viewable' => 'Elrejt a felhasználói listán?',
   'Hack_Name' => 'Mod neve',
+//  'Description' => 'Description',
   'Required' => 'Kötelezõ',
   'Author_Email' => 'Szerzõ email címe',
   'Version' => 'Verzió',
   'Download_URL' => 'Letöltési hely',
+
+/* Errors */
   'Error_Hacks_List_Table' => 'Hiba a hackerek táblájának letkérése közben.',
   'Required_Field_Missing' => 'Nem adtál meg egy kötelezõen megadandó adatot.',
   'Error_File_Opening' => 'Nem lehet megnyitni a fájlt: %s',
-  'Newest_pic' => 'Utolsó kép',
-  'Random_pic' => 'Véletlen kép',
+
+//====================================================
+// Mighty Gorgon - LANG - BEGIN
+// Mighty Gorgon - Full Album Pack - BEGIN
+  'Newest_pic' => 'Utolsó kép', // Album Addon
+  'Random_pic' => 'Véletlen kép', // Album Addon
   'Click_enlarge_pic' => 'Click on image to enlarge it',
+// Mighty Gorgon - Full Album Pack - END
+// Mighty Gorgon - HTTP AGENTS - BEGIN
   'Last_Used_IP' => 'Utoljára használt IP',
   'Last_Used_OS' => 'OS',
   'Last_Used_Browser' => 'Böngészõ',
   'Last_Used_Referer' => 'Hivatkozó',
+// Mighty Gorgon - HTTP AGENTS - END
+// Mighty Gorgon - Enhanced Online - BEGIN
   'Users_Admins' => 'Adminisztrátorok',
   'Users_Mods' => 'Moderátorok',
   'Users_Global_Mods' => 'Globális Moderátorok',
   'Users_Regs' => 'Felhasználók',
   'Users_Guests' => 'Vendégek',
   'Users_Hidden' => 'Rejtve',
+// Mighty Gorgon - Enhanced Online - END
+// Mighty Gorgon - Power Memberlist - BEGIN
   'Fast' => 'Gyors',
   'Standard' => 'Általános',
   'Style' => 'Stílus',
@@ -1395,7 +1647,9 @@ Go and read it and if you want to reply you can register for your own account if
   'Memberlist_Users_Display' => 'Felhasználó per oldal:',
   'Sort_LastLogon' => 'Utolsó bejelentkezés',
   'Sort_Birthday' => 'Születésnap',
-  'Staff' => 'Staff',
+// Mighty Gorgon - Power Memberlist - END
+// Mighty Gorgon - Multiple Ranks - BEGIN
+  'Staff' => 'Fõnökség',
   'Rank' => 'Rang',
   'Rank_Header' => 'Rangok',
   'Rank_Image' => 'Rangkép',
@@ -1423,28 +1677,37 @@ Go and read it and if you want to reply you can register for your own account if
   'Rank3_title' => 'Rang 3 cím',
   'Rank4_title' => 'Rang 4 cím',
   'Rank5_title' => 'Rang 5 cím',
-  'QUICK_LINKS' => 'Menu',
-  'MAIN_LINKS' => 'Main Links',
-  'TOOLS_LINKS' => 'Tools',
-  'NEWS_LINKS' => 'News',
-  'USERS_LINKS' => 'Users &amp; Groups',
-  'INFO_LINKS' => 'Info',
-  'SPONSORS_LINKS' => 'Sponsors',
+// Mighty Gorgon - Multiple Ranks - END
+// Mighty Gorgon - Nav Links - BEGIN
+  'QUICK_LINKS' => 'Menü',
+  'MAIN_LINKS' => 'Saját linkek',
+  'TOOLS_LINKS' => 'Eszközök',
+  'NEWS_LINKS' => 'Hírek',
+  'USERS_LINKS' => 'Felhasználók &amp; Csoportok',
+  'INFO_LINKS' => 'Infó',
+  'SPONSORS_LINKS' => 'Támogatók',
   'HelpDesk' => 'Segítség',
   'AvatarGenerator' => 'Avatar Generátor',
   'DBGenerator' => 'SQL-bõl-PHP Generátor ',
-  'NEWS_CAT' => 'News Categories',
-  'NEWS_ARC' => 'News Archive',
+  'NEWS_CAT' => 'Hírkategóriák',
+  'NEWS_ARC' => 'Hírarchívum',
+// Mighty Gorgon - Nav Links - END
   'Activity' => 'Játékok',
   'Games' => 'Játékok',
   'Trohpy' => 'Játéksziget',
   'quick_links_games' => 'Játékok menü',
+  
   'By' => 'By',
   'No_Icon_Image' => 'Nincs ikon',
   'Change_Style' => 'Stílus',
   'Change_Lang' => 'Nyelv',
   'Permissions_List' => 'Jogosultságlista',
-  'IP_TEAM' => 'Icy Phoenix Team',
+  'IP_TEAM' => 'Icy Phoenix Csapat',
+  
+//	'' => '',
+// Mighty Gorgon - LANG - END
+
+// New MG - BEGIN
   'Nav_Separator' => '&nbsp;&raquo;&nbsp;',
   'WeatherForecast' => 'Idõjárás elõrejelzés',
   'ErrorNotFound' => 'Fájl nem található!',
@@ -1455,9 +1718,11 @@ Go and read it and if you want to reply you can register for your own account if
   'MGC_User_IP' => 'IP',
   'MGC_User_ID' => 'ID',
   'MGC_User_Client_Version' => 'MGC Verzió',
+  
   'Country_Flag' => 'Ország',
   'Select_Country' => 'Válassz országot',
   'Extra_profile_info' => 'Extra Profil információ',
+//  'Extra_profile_info_explain' => 'Itt extra információt adhatsz meg magadról, vagy írhatsz a hobbidról is. Sõt, képeket is hozzáadhatsz. A bbcode-okat ugyanúgy használhatod, mint a hozzászólásoknál, vagy az aláírásodban.',
   'Extra_profile_info_explain' => 'Itt extra információt adhatsz meg magadról, vagy írhatsz a hobbidról is. Sõt, képeket is hozzáadhatsz. A bbcode-okat ugyanúgy használhatod, mint a hozzászólásoknál, vagy az aláírásodban.',
   'Extra_window' => 'Külön ablakban nyitja meg',
   'Extra_too_long' => 'Az extra mezõ túl hosszú (max. <b>%d</b> karakter engedett)',
@@ -1470,14 +1735,21 @@ Go and read it and if you want to reply you can register for your own account if
   'UserMusic' => 'Zene/Együttes',
   'UserNoInfo' => 'Nincs elérhetõ információ',
   'Last_Seen' => 'Utoljára Online',
+// New MG - END
+
+// MG CMS - BEGIN
   'CMS_TITLE' => 'CMS',
-  'CMS_MANAGEMENT' => 'CMS Management',
-  'CMS_CONFIG' => 'CMS Configuration',
+  'CMS_MANAGEMENT' => 'CMS Menedzsment',
+  'CMS_CONFIG' => 'CMS Beállítás',
   'CMS_ACP' => 'Ennek a lapnak a szerkesztése',
-  'CUSTOM_PAGE' => 'Customized Page',
+  'CUSTOM_PAGE' => 'Egyéni oldalak',
+// MG CMS - END
+
+// Icy Phoenix - BUILD 001
   'SimilarTopics' => 'Hasonló témák',
   'Chat' => 'Chat',
   'Digests' => 'Kivonat',
+  
   'CPL_REG_INFO_EXPLAIN' => 'Felhasználónév, email címek és jelszó',
   'CPL_PROFILE_INFO_EXPLAIN' => 'Általános kapcsolati információk, üzenõ lehetõségek, születésnap, érdeklõdési kör és még sok minden',
   'CPL_PROFILE_VIEWED_EXPLAIN' => 'Felhasználók, akik megnézték a profilodat',
@@ -1499,29 +1771,39 @@ Go and read it and if you want to reply you can register for your own account if
   'CPL_SUBSCFORUMS_EXPLAIN' => 'A feliratkozott fórumok új témái',
   'DIGESTS_EXPLAIN' => 'A kivonat egy rendszeres email, ami az általad megjelölt témák új üzeneteinek a tartalmáról értesít',
   'DRAFTS_EXPLAIN' => 'Vázlataid kezelése',
+
+// Ajax Shoutbox - BEGIN
   'Ajax_Shoutbox' => 'Üzenõfal',
   'Ajax_Chat' => 'Chat',
   'Ajax_Archive' => 'Chat archívum',
   'Shoutbox_flooderror' => 'Nem küldhetsz gyorsan egymás után több üzenetet, mert ez a többieket nagyon zavarná. Mire ezt a szöveget végigolvasod nagy eséllyel megint tudsz üzenni. Ha mégsem, akkor megint kapsz olvasnivalót.',
   'Shoutbox_no_auth' => 'Bocsi, de csak regisztrált felhasználók használhatják az üzenõfalat',
   'Shoutbox_loading' => 'Üzenõfal töltése...',
+// Errors
   'Shoutbox_unable' => 'Bocsi, de az akció nem tudott véget érni. Kérlek próbáld meg ismét.',
   'Shoutbox_empty' => 'Az adatbázis nem tartalmaz üzenetet',
   'Shoutbox_no_mode' => 'Nem érvényes a meghatározott mód',
+// Archive
   'Shouts' => 'Üzenetek',
+  'Statistics' => 'Statisztikák',
   'Total_shouts' => 'Összes üzenet',
   'Stored_shouts' => 'Eltárolt üzenetek',
   'My_shouts' => 'Az üzeneteim',
   'Today_shouts' => 'Az utolsó 24 óra üzenetei',
   'Top_Ten_Shouters' => 'A tíz legtöbbet üzenõ',
+// Online list
   'Online_total' => 'Összes',
   'Online_registered' => 'Felhasználók',
   'Online_guests' => 'Vendégek',
   'Who_is_Chatting' => 'Chat-elõk:',
   'Shoutbox_online_explain' => 'Ez az adat az utolsó harminc másodperc hozzászólásai alapján készült',
+// Ajax Shoutbox - END
+
   'Contact_us' => 'Kapcsolat',
   'Contact_us_explain' => 'Használd ezt a lapot, ha szeretnél nekünk üzenetet küldeni',
   'Session_invalid' => 'Érvénytelen munkamenet. Kérjük küldd el újra az ûrlapot.',
+
+// Icy Phoenix - BUILD 007
   'Reg_Username_Short' => ' felhasználónév túl rövid',
   'Reg_Username_Long' => ' felhasználónév túl hosszú',
   'Reg_Username_Taken' => ' felhasználónév nem elérhetõ',
@@ -1531,10 +1813,12 @@ Go and read it and if you want to reply you can register for your own account if
   'Reg_PWD_OK' => 'Ez a jelszó elfogadható',
   'Reg_Email_Invalid' => ' email cím nem érvényes, vagy már szerepel az adatbázisban',
   'Reg_Email_OK' => ' email cím helyes',
+
+// Moved here from lang_adv_time.php
   'time_mode' => 'Idõ kezelése',
   'time_mode_text' => 'A tél-nyár különbsége a normál idõ és a nyári idõszámítás közötti különbség. Ez 0 és 120 perc közé esõ érték, általában 60 perc.<br /><br /><strong> * A csilaggal megjelölt opció az alapértelmezett beállítás ezen az oldalon, és az adminisztrátor ajánlata, hogy erre állítsd be. </strong>',
   'time_mode_auto' => 'Automatikus mód...',
-  'time_mode_full_pc' => 'A számítógép ideje',
+  'time_mode_full_pc' => 'A kiszolgáló ideje',
   'time_mode_server_pc' => 'Univerzális kiszolgálóidõ, Idõzóna/Nyári idõszámítás<br /><span STYLE="margin-left: 25">a számítógépedrõl</span>',
   'time_mode_full_server' => 'Kiszolgáló ideje',
   'time_mode_manual' => 'Kézi beállítás...',
@@ -1543,13 +1827,19 @@ Go and read it and if you want to reply you can register for your own account if
   'time_mode_dst_time_lag' => 'Tél-nyár különbség',
   'time_mode_dst_mn' => 'perc',
   'time_mode_timezone' => 'Idõzóna',
+  
   'dst_time_lag_error' => 'Hiba a tél-nyár különbségben. A megadott számnak 0 és 120 között kell lennie.',
-  'dst_enabled_mode' => ' [DST enabled]',
-  'full_server_mode' => 'Time synchronized with the forum server time',
-  'server_pc_mode' => 'Time synchro. with the server - Timezone/DST with your computer',
-  'full_pc_mode' => 'Time synchronized with your computer time',
+  
+  'dst_enabled_mode' => ' [DST engedélyezve]',
+  'full_server_mode' => 'Az idõ szinkronizálva a fórum kiszolgáló idejével',
+  'server_pc_mode' => 'Az idõ szinkronizálva a kiszolgáló idejével - Idõzóna/DST információk a te számítógépedrõl lettek használva',
+  'full_pc_mode' => 'Az idõ szinkronizálva a számítógéped idejével',
+  
   'Smileys_Per_Page' => 'Smiley egy oldalon',
+
+/* lang_site_hist.php - BEGIN */
   'Site_history' => 'Oldaltörténet',
+  'Month' => 'Hónap',
   'Week_day' => 'Hét napjai',
   'Not_availble' => 'Nem elérhetõ',
   'Total_users' => 'Maximális felhasználó',
@@ -1564,30 +1854,45 @@ Go and read it and if you want to reply you can register for your own account if
   'Last_24' => 'Legtöbb online felhasználó az utolsó %s órában',
   'Top_Posting_Users' => 'Legtöbbet hozzászóló felhasználók',
   'Top_Posting_Users_week' => 'Legtöbbet hozzászóló felhasználók a héten [%s]',
+  'Rank' => 'Rang',
   'Percent' => 'Százalék',
   'Graph' => 'Grafikon',
   'Top_Visiting_Users' => 'Legtöbb idõt itt töltõ felhasználók',
+/* lang_site_hist.php - END */
+
+/* lang_referrers.php - BEGIN */
   'Referrers_Title' => 'Http hivatkozók kezelése',
   'Referrers_Cleared' => 'Hivatkozók tisztítása',
   'Referrers_Clear' => 'Mindet töröl',
   'Click_Return_Referrers' => 'Kattints %side%s, hogy visszatérj a Hivatkozókra',
+  'Referrers' => 'Http hivatkozók',
   'Referrer_host' => 'Hivatkozók gépneve',
   'Referrer_url' => 'Hivatkozók Url-je',
   'Referrer_ip' => 'Hivatkozók IP-je',
   'Referrer_hits' => 'Találat',
   'Referrer_first' => 'Elsõ látogatás',
   'Referrer_last' => 'Utolsó látogatás',
+  'Viewing_Referrers' => 'Hivatkozók megtekintése',
+/* lang_referrers.php - END */
+
+/* lang_prune_users.php - BEGIN */
+// add to prune inactive
   'X_Days' => '%d napja',
   'X_Weeks' => '%d hete',
   'X_Months' => '%d hónapja',
   'X_Years' => '%d éve',
+  
   'Confirm_delete_user' => 'Tényleg törölni akarod ezt a felhasználót?',
   'Prune_no_users' => 'Nincs törölt felhasználó',
   'Prune_users_number' => 'Az alábbi %d felhasználó törölve lett:',
+  
   'Prune_user_list' => 'Users who will be deleted',
   'Prune_on_click' => 'You are about to delete %d users. Are you sure?',
   'Prune_Action' => 'Click link below to execute',
   'Prune_users_explain' => 'From this page you can prune users. You can choose one of three links: delete old users who have never posted, delete old users who have never logged in, delete users who have never activated their account.<p/><b>Note:</b> There is no undo function.',
+/* lang_prune_users.php - END */
+
+/* lang_avatar_generator.php - BEGIN */
   'Avatar_Generator' => 'Avatar Generátor',
   'Available' => 'Elérhetõ avatarok',
   'Random' => 'Véletlen',
@@ -1595,6 +1900,11 @@ Go and read it and if you want to reply you can register for your own account if
   'Avatar_Preview' => 'Avatar elõnézet',
   'Your_Avatar' => 'Avatarod',
   'Submit_Avatar' => 'Avatar beküldése',
+/* lang_avatar_generator.php - END */
+
+/* lang_.php - BEGIN */
+/* lang_.php - END */
+
   'Upload_Image_Local' => 'Kép feltöltése',
   'Uploaded_Images_Local' => 'Feltöltött képek',
   'Upload_Image_Local_Explain' => 'Kijelölt fájl feltöltése',
@@ -1607,9 +1917,12 @@ Go and read it and if you want to reply you can register for your own account if
   'Upload_Close' => 'Bezár',
   'BBCode' => 'BBCode',
   'HTML' => 'HTML',
+  
   'No_News' => 'Nincsenek hírek',
+  
   'Email_confirm' => 'Email cím jóváhagyása',
   'Email_mismatch' => 'Az általad megadott email címek nem egyeznek.',
+  
   'View_ballot' => 'Szavazatok megnézése',
   'Full_edit' => 'Teljes szerkesztõ módba váltás',
   'Save_changes' => 'Ment',
@@ -1621,36 +1934,47 @@ Go and read it and if you want to reply you can register for your own account if
   'No_username' => 'Muszáj megadnod egy felhasználónevet.',
   'AJAX_quick_search_results' => 'A gyorskeresõ %s hasonló témát talált a megadott kulcszavak alapján.<br />Jobb oldalon az elsõ találatot láthatod.<br />Kattints a KERESÉSRE a teljes lista megtekintéséhez.',
   'AJAX_quick_search_result' => 'A gyorskeresõ egy hasonló témát talált a megadott kulcszavak alapján.<br />Jobb oldalon láthatod az eredményt.',
+  
   'Icon_Description' => 'Ikon meghatározása',
+  
   'Feature_Disabled' => 'Ez a képesség ki van kapcsolva.',
+  
+// Resend Activation - BEGIN
   'Resend_activation_email' => 'Aktiváló email újraküldése',
   'Invalid_activation' => 'Felhasználó hozzáférést csak adminisztrátorok aktiválhatnak.',
   'No_actkey' => 'A hozzáférésednek nincs aktiváló kulcsa. Kérlek lépj kapcsolatba az oldal adminisztrátoraival további információért.',
   'Send_actmail_flood_error' => 'Nem indíthatsz új kérést, amíg nem ért véget az elõzõ; kérlek késõbb próbálkozz vele ismét.',
   'Resend_activation_email_done' => 'Az aktiváló email el lett küldve. Kérlek ellenõrizd le az emailjeidet további információért.',
+// Resend Activation - END
+
   'Bots_Group' => 'Botok',
   'Bots_Color' => 'Botok színe',
   'Active_Users_Group' => 'Aktív felhasználók',
   'Active_Users_Color' => 'Aktív felhasználók színe',
-  'Group_Default_Membership' => 'Default Group',
-  'Group_Default_Membership_Explain' => 'Choose the default group for user, to assign rank and color.',
-  'User_Color' => 'User Color',
-  'User_Color_Explain' => 'If you specify a color for this user this will be overwritten by the default group color if you specify one group in the box above. Use the hex code without <b>#</b> example: ff0000 is the code for RED.',
-  'No_Groups_Membership' => 'No Membership',
-  'No_Default_Group' => 'No Default Group',
-  'Group_members_updated' => 'Successfully updated group members.',
-  'Colorize_All' => 'Colorize All Members',
-  'Colorize_Selected' => 'Colorize Selected',
-  'CompanyWho' => 'The Company',
-  'CompanyWhere' => 'How To Reach Us',
-  'CompanyServices' => 'Services',
-  'CompanyProducts' => 'Products',
-  'ShareThisTopic' => 'Share this topic',
-  'Remove_cookies' => 'Remove Cookies set by this site',
-  'Cookies_deleted' => 'All cookies have been deleted. You are now logged out.<br />To finalize deletion, you must close your browser now.',
-  'Delete_cookies' => 'Delete Cookies',
-  'cookies_confirm' => 'Are you sure you want to delete all cookies set by this site?<br /><br />This action will also log you out.',
+  'Group_Default_Membership' => 'Alapértelmezett csoport',
+  'Group_Default_Membership_Explain' => 'Válassz egy alapértelmezett csoportot a felhaszálónak, hogy hozzá lehessen rendelni e rangot és egy színt.',
+  'User_Color' => 'Felhasználó színe',
+  'User_Color_Explain' => 'Ha meghatározol egy színt ennek a felhasználónak, akkor az felül fogja bírálni az alapértelmezett csoport által meghatározott színt. Használ hexa kódot a szín meghatározására <b>#</b> nélkül. Például: ff0000 A PIROS kódja.',
+  'No_Groups_Membership' => 'Nincs csoporttagsága',
+  'No_Default_Group' => 'Nincs alapértelmezett csoport',
+  'Group_members_updated' => 'A csoporttagok sikeresen frissítve.',
+  'Colorize_All' => 'Minden tag kiszínezése',
+  'Colorize_Selected' => 'A kiválasztottak kiszínezése',
+  
+  'CompanyWho' => 'A Társaság',
+  'CompanyWhere' => 'Elérhetõség',
+  'CompanyServices' => 'Szolgáltatások',
+  'CompanyProducts' => 'Termékek',
+  
+  'ShareThisTopic' => 'Téma megosztása',
+  
+  'Remove_cookies' => 'Az oldal összes sütijének eltávolítása',
+  'Cookies_deleted' => 'Minden süti le lett törölve. Ki lettél jelentkeztetve.<br />A törlés akkor lesz teljes, ha a böngészõt azonnal bezárod.',
+  'Delete_cookies' => 'Sütik törlése',
+  'cookies_confirm' => 'Tényleg törölni szeretnéd minden az oldalhoz kapcsolódó sütiket?<br /><br />Ez az akció ki fog jelentkeztetni.',
+  
   'CustomIcy' => 'CustomIcy',
+  
   'Drafts' => 'Vázlatok',
   'Drafts_Action' => 'Akció',
   'Drafts_Save' => 'Ment',
@@ -1666,27 +1990,38 @@ Go and read it and if you want to reply you can register for your own account if
   'Drafts_NT' => 'Új téma',
   'Drafts_NM' => 'Válasz',
   'Drafts_NPM' => 'Privát Üzenet',
+  
   'CannotEditAdminsPosts' => 'Nem szerkesztheted az adminisztrátor hozzászólásait',
   'Random_Number' => 'Véletlenszám',
+  
   'New_download' => 'Az új letöltés fel lett töltve, vagy frissítve lett.<br />Kattints %side%s, hogy megnézd.',
   'Dl_bug_tracker' => 'Hibakezelõ',
   'Downloads_ADV' => 'Letöltések+',
+  
   'TopicUseful' => 'Mennyire találtad hasznosnak a témát?',
   'Article' => 'Cikk',
   'Comments' => 'Kommentárok',
+  
   'Sitemap' => 'Oldaltérkép',
+  
   'Delete_My_Account' => 'Hozzáférés törlése',
   'Delete_My_Account_Explain' => 'A törölni szeretnéd a hozzáférésed errõl az oldalról, akkor küld el a kérésed ezzel az ûrlappal, és letiltjuk amint lehet.<br />Kérünk tárgynak "Hozzáférés törlése" legyen megadva, és (ha akarod) pár szóban írd le, hogy miért kéred ezt.',
+  
   'KB_MODE_ON' => 'TB mod engedélyezése',
   'KB_MODE_OFF' => 'TB mod tiltása',
+  
   'Go_To_Page_Number' => 'Irány az oldalra',
+  
   'Admin_Emails' => 'Adminisztrátorok küldhetnek információt számomra emailben',
   'Allow_PM_IN' => 'Engedem, hogy a felhasználók Privát Üzenetek küldhessenek nekem',
   'Allow_PM_IN_Explain' => 'A rendszer adminisztrátorai, moderátorai és a barátaid ettõl függetlenül küldhetnek neked üzenetet.',
   'Allow_PM_IN_SEND_ERROR' => 'A felhasználó letiltotta a normál felhasználóktól való üzenetek fogadását, így nem kapta meg a te Privát Üzenetedet sem.',
+
+// 'UCP_ZEBRA' => 'Friends &amp; Foes',
   'UCP_ZEBRA' => 'Barátkezelõ',
   'UCP_ZEBRA_FOES' => 'Ellenség kezelése',
   'UCP_ZEBRA_FRIENDS' => 'Barátok kezelése',
+  
   'ADD_FOES' => 'Új ellenség hozzáadása',
   'ADD_FOES_EXPLAIN' => 'Több felhasználót is megadhatsz, ha mindet külön sorba írod.',
   'YOUR_FOES' => 'Ellenségeid',
@@ -1696,6 +2031,7 @@ Go and read it and if you want to reply you can register for your own account if
   'FOES_UPDATED' => 'Az ellenségeid listája sikeresen frissítve.',
   'FOES_UPDATE_ERROR' => 'Az ellenségeid listája nem lett frissítve.',
   'NO_FOES' => 'Jelenleg nincs ellenséged',
+  
   'ADD_FRIENDS' => 'Új barát hozzáadása',
   'ADD_FRIENDS_EXPLAIN' => 'Több felhasználót is megadhatsz, ha mindet külön sorba írod.',
   'YOUR_FRIENDS' => 'Barátaid',
@@ -1711,180 +2047,223 @@ Go and read it and if you want to reply you can register for your own account if
   'NO_FRIENDS' => 'Jelenleg nincs barátod',
   'NO_FRIENDS_OFFLINE' => 'Egy barátod sem offline',
   'NO_FRIENDS_ONLINE' => 'Egy barátod sem online',
+  
   'Default' => 'Alapértelmezett',
+  
   'Reserved_Author' => '[ REJTETT ]',
   'Reserved_Topic' => '[ ELZÁRT TÉMA ]',
-  'Reserved_Post' => '[ ELZÁRT HOZZÁSZÓLÁS POST ]',
-  'THANKS_RECEIVED' => 'Thanks received',
-  'RECENT_USER_ACTIVITY' => 'Recent user activity',
-  'USER_TOPICS_STARTED' => 'Topics started',
-  'USER_POSTS' => 'Posts written',
-  'USER_TOPICS_VIEWS' => 'Topics viewed',
-  'RECENT_USER_STARTED_TITLE' => 'started by %s',
-  'RECENT_USER_STARTED_NAV' => 'Topics started by %s',
-  'RECENT_USER_POSTS_TITLE' => 'which %s posted in',
-  'RECENT_USER_POSTS_NAV' => 'Topics which %s posted in',
-  'RECENT_USER_VIEWS_TITLE' => 'viewed by %s',
-  'RECENT_USER_VIEWS_NAV' => 'Topics viewed by %s',
-  'WARN_NO_BUMP' => 'You are the last poster in this topic: you cannot write new posts within 24 hours from your last post unless someone else answers in the meantime.',
-  'LINK_THIS_TOPIC' => 'Link this topic',
+  'Reserved_Post' => '[ ELZÁRT HOZZÁSZÓLÁS ]',
+  
+  'THANKS_RECEIVED' => 'Köszönet érkezett',
+  
+  'RECENT_USER_ACTIVITY' => 'Legfrissebb felhasználó-aktivitás',
+  'USER_TOPICS_STARTED' => 'Elindított témák',
+  'USER_POSTS' => 'Beküldött hozzászólások',
+  'USER_TOPICS_VIEWS' => 'Megtekintett hozzászólások',
+  'RECENT_USER_STARTED_TITLE' => 'indítota: %s',
+  'RECENT_USER_STARTED_NAV' => 'A téma indítója: %s',
+  'RECENT_USER_POSTS_TITLE' => 'amire %s hozzászólás érkezett',
+  'RECENT_USER_POSTS_NAV' => 'Témák, amiket %s indított el',
+  'RECENT_USER_VIEWS_TITLE' => 'megtekintették: %s',
+  'RECENT_USER_VIEWS_NAV' => '%s által megtekintett témák',
+  
+  'WARN_NO_BUMP' => 'Te vagy az utolsó hozzászóló ebben a témában: te nem tudsz új hozzászólást beküldeni 24 órán belül, kivéve hogyha valaki más válaszol idõközben.',
+  
+  'LINK_THIS_TOPIC' => 'Téma linkje',
   'LINK_URL' => 'URL',
   'LINK_BBCODE' => 'BBCode',
   'LINK_HTML' => 'HTML',
-  'NEWS_POSTED' => 'Browse news posted',
-  'TOPICS_POSTED' => 'Search topics started',
-  'POSTS_POSTED' => 'Search all user posts',
-  'ACCOUNT_DELETION_REQUEST' => 'User %s requested to delete the account.',
-  'SORT_TOPICS' => 'Sort topics',
-  'SORT_TOPICS_NEWEST' => 'Newest',
-  'SORT_TOPICS_OLDEST' => 'Oldest',
-  'EDIT_POST_DETAILS' => 'Edit Post Details',
-  'CURRENT_POSTER' => 'Current Poster',
-  'NEW_POSTER' => 'New Poster',
-  'DETAILS_CHANGED' => '<b>Post details successfully changed.</b></span><br /><span class="postdetails">This window will be closed after 3 seconds.',
-  'Redirect' => 'Redirect',
-  'Redirect_to' => 'If your browser does not support meta redirection please click %sHere%s to be redirected',
-  'InProgress' => 'In progress',
+  
+  'NEWS_POSTED' => 'Keresés az új hozzászólásokban',
+  'TOPICS_POSTED' => 'Keresés a témaindításokban',
+  'POSTS_POSTED' => 'Keresés minden hozzászólásban',
+  
+  'ACCOUNT_DELETION_REQUEST' => '%s felhasználó kérte, hogy töröljük a hozzáférését.',
+  
+  'SORT_TOPICS' => 'Témák rendezése',
+  'SORT_TOPICS_NEWEST' => 'Újabbak',
+  'SORT_TOPICS_OLDEST' => 'Régebbiek',
+  
+  'EDIT_POST_DETAILS' => 'Hozzászólás részleteinek szerkesztése',
+  'CURRENT_POSTER' => 'Aktuális hozzászóló',
+  'NEW_POSTER' => 'Új hozzászóló',
+  'DETAILS_CHANGED' => '<b>A hozzászólás részletei sikeresen meg lettek változtatva.</b></span><br /><span class="postdetails">Ez az ablak bezáródik 3 másodperc múlva.',
+  
+  'Redirect' => 'Átirányítás',
+  'Redirect_to' => 'Ha a böngészõd nem támogatja az átirányítást, akkor kattints %side%s, hogy az új oldalra kerülj',
+  
+  'InProgress' => 'Folyamatban',
+  
   'HAPPY_BIRTHDAY' => 'Happy Birthday',
-  'DOWNLOAD' => 'Download',
-  'DOWNLOADED' => 'Downloaded',
-  'FILESIZE' => 'Filesize',
-  'FILENAME' => 'Filename',
-  'FILE_NOT_AUTH' => 'You are not authorized to download this file',
-  'SHOW_POSTS_FROM' => 'Show posts from',
-  'SHOW_POSTS_TO' => 'to',
-  'SEE_MORE_DETAILS' => 'See more details...',
-  'UNKNOWN' => 'Unknown',
-  'MASS_PM' => 'Mass PM',
-  'TEXT_FORMAT' => 'Format',
-  'SENDER' => 'Sender',
-  'PM_NOTIFICATION' => 'Hello,<br /><br />You have received a new private message to your account on "{SITENAME}".<br /><br />You can view your new message by clicking on the following link:<br /><br />{U_INBOX}<br /><br />',
-  'GSEARCH' => 'Google Search',
-  'GSEARCH_ENGINE' => 'Use Google Search Engine',
-  'SEARCH_WHAT' => 'Search what',
-  'SEARCH_WHERE' => 'Search where',
-  'SEARCH_THIS_FORUM' => 'Search this forum...',
-  'SEARCH_THIS_TOPIC' => 'Search this topic...',
-  'VF_ALL_TOPICS' => 'All Topics',
-  'WHITE_LIST_MESSAGE' => 'This site require account confirmation via email. Please check that this domains in the white-list of your antispam system or you could never receive the activation message.',
-  'CLICK_RETURN_HOME' => 'Click %sHere%s to return to Home Page',
-  'WEEK_DAY_SUNDAY' => 'Sunday',
-  'WEEK_DAY_MONDAY' => 'Monday',
-  'WEEK_DAY_TUESDAY' => 'Tuesday',
-  'WEEK_DAY_WEDNESDAY' => 'Wednesday',
-  'WEEK_DAY_THURSDAY' => 'Thursday',
-  'WEEK_DAY_FRIDAY' => 'Friday',
-  'WEEK_DAY_SATURDAY' => 'Saturday',
-  'RATINGS' => 'Ratings',
-  'ERROR_TABLE' => 'Could not query %s table',
-  'SMILEYS' => 'Smileys',
-  'SMILEYS_NO_CATEGORIES' => 'No categories defined',
-  'SMILEYS_CATEGORY' => 'Category',
-  'SMILEYS_GALLERY' => 'Smileys Gallery',
-  'SMILEYS_STANDARD' => 'Standard Smileys',
-  'QUICK_LIST' => 'Full List',
-  'NORMAL_LIST' => 'Normal List',
-  'RETURN_PAGE' => '%sReturn to the previous page%s',
-  'FILE_NOT_FOUND' => 'File not found',
-  'FSOCK_DISABLED' => 'FSOCK Disabled',
-  'MANAGEMENT' => 'Management',
-  'SORT_ORDER' => 'Sort by',
-  'SORT_DIR' => 'Sort direction',
-  'TIME_YEAR' => 'Year',
-  'TIME_MONTH' => 'Month',
-  'TIME_DAY' => 'Day',
-  'TIME_HOUR' => 'Hour',
-  'TIME_MINUTE' => 'Minute',
-  'TIME_SECOND' => 'Second',
-  'CONTACTS' => 'Contacts',
-  'Reg_Title' => 'Event Registration',
-  'Post_Registration' => 'Event Registration',
-  'Add_registration' => 'Add Event Registration',
-  'Add_reg_explain' => '&nbsp;&bull; Check <i>Activate</i> to show a registration form with this post. Uncheck to hide it.<br />&nbsp;&bull; Check <i>Reset</i> to delete all current registrations for this form.<br />&nbsp;&bull; Enter a number in <i>Slots</i> to limit registrations for an option. "0" or empty = unlimited.',
-  'reg_activate' => 'Activate',
+  
+  'DOWNLOAD' => 'Letöltés',
+  'DOWNLOADED' => 'Letöltve',
+  'FILESIZE' => 'Fájlméret',
+  'FILENAME' => 'Fájl neve',
+  'FILE_NOT_AUTH' => 'Nem vagy azonosítva, nem töltheted le ezt a fájlt',
+  'SHOW_POSTS_FROM' => 'Mutasd a hozzászólásokat ettõl',
+  'SHOW_POSTS_TO' => 'eddig',
+  
+  'SEE_MORE_DETAILS' => 'További részletek...',
+  'UNKNOWN' => 'Ismeretlen',
+  'MASS_PM' => 'Tömeges PM',
+  'TEXT_FORMAT' => 'Formátum',
+  'SENDER' => 'Küldõ',
+  'PM_NOTIFICATION' => 'Helló!<br /><br />Érkezett a nevedre egy új Privát Üzenet a "{SITENAME}" oldalán.<br /><br />Meg tudod nézni az üzenetet, ha az alábbi linkre kattintassz:<br /><br />{U_INBOX}<br /><br />',
+  
+  'GSEARCH' => 'Google Keresõ',
+  'GSEARCH_ENGINE' => 'Használj Google Keresõ Motort',
+  'SEARCH_WHAT' => 'Mit keresel',
+  'SEARCH_WHERE' => 'Hol keresed',
+  'SEARCH_THIS_FORUM' => 'Keresés ebben a fórumban...',
+  'SEARCH_THIS_TOPIC' => 'Keresés ebben a témában...',
+  'VF_ALL_TOPICS' => 'Minden téma',
+  
+  'WHITE_LIST_MESSAGE' => 'Ezen az oldalon kötelezõ a felhasználói hozzáférés aktiválása. További információkat az aktiváló emailban találhatsz. Kérlek ellenõrizd le, hogy a levél nincs e a spam-ek között.',
+  'CLICK_RETURN_HOME' => 'Kattints %side%s, hogy visszatérj a Home oldalra',
+  
+  'WEEK_DAY_SUNDAY' => 'Vasárnap',
+  'WEEK_DAY_MONDAY' => 'Hétfõ',
+  'WEEK_DAY_TUESDAY' => 'Kedd',
+  'WEEK_DAY_WEDNESDAY' => 'Szerda',
+  'WEEK_DAY_THURSDAY' => 'Csütörtök',
+  'WEEK_DAY_FRIDAY' => 'Péntek',
+  'WEEK_DAY_SATURDAY' => 'Szombat',
+  
+  'RATINGS' => 'Értékelések',
+  
+  'ERROR_TABLE' => 'Nem lehet lekérdezni a %s táblából',
+  
+  'SMILEYS' => 'Smiley-k',
+  'SMILEYS_NO_CATEGORIES' => 'Nincs kategória meghatározva',
+  'SMILEYS_CATEGORY' => 'Kategoria',
+  'SMILEYS_GALLERY' => 'Smileygaléria',
+  'SMILEYS_STANDARD' => 'Alap Smiley-k',
+  
+  'QUICK_LIST' => 'Teljes lista',
+  'NORMAL_LIST' => 'Normál lista',
+  
+  'RETURN_PAGE' => '%sVissza az elõzõ oldalra%s',
+  'FILE_NOT_FOUND' => 'Fájl nem található',
+  'FSOCK_DISABLED' => 'FSOCK letiltva',
+  
+  'MANAGEMENT' => 'Menedzsment',
+  'SORT_ORDER' => 'Rendezve',
+  'SORT_DIR' => 'Rendezés iránya',
+  
+  'TIME_YEAR' => 'Év',
+  'TIME_MONTH' => 'Hónap',
+  'TIME_DAY' => 'Nap',
+  'TIME_HOUR' => 'Óra',
+  'TIME_MINUTE' => 'Perc',
+  'TIME_SECOND' => 'Másodperc',
+  
+  'CONTACTS' => 'Kapcsolatok',
+  
+// Event Registration - BEGIN
+  'Reg_Title' => 'Rendezvény regisztráció',
+  'Post_Registration' => 'Rendezvény regisztráció',
+  'Add_registration' => 'Rendezvény regisztráció hozzáadása',
+  'Add_reg_explain' => '&nbsp;&bull; Jelöld <i>Aktívnak</i>, ha szeretnél egy regisztrációs ûrlapot megjeleníteni a hozzászólásnál. Illetve ha nem szeretnél, akkor ne jelöld be.<br />&nbsp;&bull; Jelöld be a <i>Resetet</i> ha az aktuális regisztrációkat törölni szeretnéd.<br />&nbsp;&bull; Add meg a regisztrálható <i>Helyek</i> számát, ha korlátozni szeretnéd a jelentkezõk számát. "0" vagy üres = korlátlan.',
+  'reg_activate' => 'Aktivál',
   'reg_reset' => 'Reset',
-  'Reg_Insert' => 'You registered for the event.',
-  'Reg_Change' => 'Registration changed.',
-  'Reg_Confirm' => 'Registration confirmed.',
-  'Reg_Unregister' => 'Registration cancelled.',
-  'Reg_Max_Registrations' => 'The maximum of registrations for this option is reached. No more registrations will be accepted.',
-  'Reg_No_Slots_Left' => 'No slots left to register.',
-  'Reg_One_Slot_Left' => 'One slot left to register.',
-  'Reg_Slots_Left' => '%s slots left to register.',
-  'Reg_Self_Unregister' => 'Unregister',
-  'Reg_Own_Confirmation' => 'Confirmation',
-  'Reg_Own_Confirmed' => 'confirmed',
-  'Reg_Green_Option' => 'Green Option',
-  'Reg_Blue_Option' => 'Blue Option',
-  'Reg_Red_Option' => 'Red Option',
-  'Reg_Value_Max_Registrations' => 'Slots',
-  'Reg_Do' => 'Sign Up',
+  'Reg_Insert' => 'Regisztráltál a rendezvényre.',
+  'Reg_Change' => 'Regisztráció megváltoztatva.',
+  'Reg_Confirm' => 'Regisztráció elfogadva.',
+  'Reg_Unregister' => 'Regisztráció visszavonva.',
+  'Reg_Max_Registrations' => 'Minden regisztrálható hely elkelt. Nem tudunk több regisztrációt elfogadni.',
+  'Reg_No_Slots_Left' => 'Nem maradt több regisztrálható hely.',
+  'Reg_One_Slot_Left' => 'Egy üres hely van még.',
+  'Reg_Slots_Left' => '%s üres hely van még.',
+  'Reg_Self_Unregister' => 'Regisztráció visszavonása',
+  'Reg_Own_Confirmation' => 'Elfogadás',
+  'Reg_Own_Confirmed' => 'elfogadva',
+  'Reg_Green_Option' => 'Zöld opció',
+  'Reg_Blue_Option' => 'Kék opció',
+  'Reg_Red_Option' => 'Piros opció',
+  'Reg_Value_Max_Registrations' => 'Helyek',
+  'Reg_Do' => 'Jelentkezés',
   'Reg_Maybe' => 'Not Sure',
   'Reg_Dont' => 'Not This Time',
-  'Reg_Head_Username' => 'User:',
-  'Reg_Head_Time' => 'Date:',
-  'Reg_for' => 'Run registration for',
-  'Reg_for_explain' => '[ Enter 0 or leave blank for a never-ending registration ]',
-  'Reg_no_options_specified' => 'You have to specify at least one option to register for.',
-  'Reg_event_date' => '<b>Event date: </b>',
+  'Reg_Head_Username' => 'Felhasználó:',
+  'Reg_Head_Time' => 'Dátum:',
+  'Reg_for' => 'Regisztrációs idõ: ',
+  'Reg_for_explain' => '[ Addj meg 0-t vagy hagyd üresen, ha nem akarod, hogy lejárjon a regisztráció ]',
+  'Reg_no_options_specified' => 'Megjelölhetsz egy opciót a regisztráláskor.',
+  'Reg_event_date' => '<b>A rendezvény idõpontja: </b>',
+// Event Registration - END
+
   'REPLY_PREFIX_OLD' => 'Re: ',
   'REPLY_PREFIX' => 'Re: ',
-  'READ_ONLY_FORUM' => 'We are sorry, but currently the forum is set in <b>READ ONLY</b> mode which means that you cannot post even if you have the right to. Please try again later.',
-  'HL_File_Error' => 'Nem lehet megnyitni a fájlt: %s',
+  
+  'READ_ONLY_FORUM' => 'Bocsi, de a fórum <b>CSAK OLVASHATÓ</b> módba van kapcsolva. Nem lehet a fórumba üzenetet beküldeni. Kérlek próbálkozz késõbb.',
+
+// Tickets Submission - BEGIN
+  'TICKET_CAT' => 'Category',
+// Tickets Submission - END
+
+
+
+
+/*Special Cases, Do not bother to change for another language */
+  'YES' => 'Igen',
+  'NO' => 'Nem',
+  'HL_File_Error' => $lang['Error_File_Opening'],
+  
   'Prune_commands' => 
   array (
-    0 => 'Prune non-posting users',
-    1 => 'Prune inactive users',
-    2 => 'Prune non-activated users',
-    3 => 'Prune long-time-since users',
-    4 => 'Prune not posting so often users',
+// here you can make more entries if needed
+    0 => 'Nem-hozzászóló felhasználók tisztítása',
+    1 => 'Inaktív felhasználók tisztítása',
+    2 => 'Nem-aktivált felhasználók tisztítása',
+    3 => 'Hosszú-ideje-csendben-lévõ felhasználók tisztítása',
+    4 => 'Szótlanok tisztítása',
   ),
   'Prune_explain' => 
   array (
-    0 => 'Who have never posted, <b>excluding</b> new users from the past %d days',
-    1 => 'Who have never logged in, <b>excluding</b> new users from the past %d days',
-    2 => 'Who have never been activated, <b>excluding</b> new users from the past %d days',
-    3 => 'Who have not visited for 60 days, <b>excluding</b> new users from the past %d days',
-    4 => 'Who have less than an average of 1 post for every 10 days while registered, <b>excluding</b> new users from the past %d days',
-  ),
-  'All_times' => 'Idõzóna: %s',
-  'tzs' => 
-  array (
-    -12 => 'GMT - 12 Hours',
-    -11 => 'GMT - 11 Hours',
-    -10 => 'GMT - 10 Hours',
-    -9 => 'GMT - 9 Hours',
-    -8 => 'GMT - 8 Hours',
-    -7 => 'GMT - 7 Hours',
-    -6 => 'GMT - 6 Hours',
-    -5 => 'GMT - 5 Hours',
-    -4 => 'GMT - 4 Hours',
-    '-3.5' => 'GMT - 3.5 Hours',
-    -3 => 'GMT - 3 Hours',
-    -2 => 'GMT - 2 Hours',
-    -1 => 'GMT - 1 Hours',
+    0 => 'Azok, akik még sose szóltak hozzá, <b>kivéve</b> az útóbbi %d napban regisztrált új felhasználók',
+    1 => 'Akik még sohasem jelentkeztek be, <b>kivéve</b> az útóbbi %d napban regisztrált új felhasználók',
+    2 => 'Akik soha sem aktiválták felhasználójukat, <b>kivéve</b> az útóbbi %d napban regisztrált új felhasználók',
+    3 => 'Akik 60 napja nem látogatták meg az oldalt, <b>kivéve</b> az útóbbi %d napban regisztrált új felhasználók',
+    4 => 'Akik a regisztrációjuktól számított elsõ 10 napban 1-nél kevesebbszer szóltak hozzá, <b>kivéve</b> az útóbbi %d napban regisztrált új felhasználók'),
+// Timezones - BEGIN
+  'All_times' => 'Minden idõ: %s',
+  'tzs' => array (
+// Time zones short
+    -12 => 'GMT - 12 óra',
+    -11 => 'GMT - 11 óra',
+    -10 => 'GMT - 10 óra',
+    -9 => 'GMT - 9 óra',
+    -8 => 'GMT - 8 óra',
+    -7 => 'GMT - 7 óra',
+    -6 => 'GMT - 6 óra',
+    -5 => 'GMT - 5 óra',
+    -4 => 'GMT - 4 óra',
+    '-3.5' => 'GMT - 3.5 óra',
+    -3 => 'GMT - 3 óra',
+    -2 => 'GMT - 2 óra',
+    -1 => 'GMT - 1 óra',
     0 => 'GMT',
-    1 => 'GMT + 1 Hour',
-    2 => 'GMT + 2 Hours',
-    3 => 'GMT + 3 Hours',
-    '3.5' => 'GMT + 3.5 Hours',
-    4 => 'GMT + 4 Hours',
-    '4.5' => 'GMT + 4.5 Hours',
-    5 => 'GMT + 5 Hours',
-    '5.5' => 'GMT + 5.5 Hours',
-    6 => 'GMT + 6 Hours',
-    '6.5' => 'GMT + 6.5 Hours',
-    7 => 'GMT + 7 Hours',
-    8 => 'GMT + 8 Hours',
-    9 => 'GMT + 9 Hours',
-    '9.5' => 'GMT + 9.5 Hours',
-    10 => 'GMT + 10 Hours',
-    11 => 'GMT + 11 Hours',
-    12 => 'GMT + 12 Hours',
-    13 => 'GMT + 13 Hours',
-  ),
-  'tz' => 
-  array (
+    1 => 'GMT + 1 óra',
+    2 => 'GMT + 2 óra',
+    3 => 'GMT + 3 óra',
+    '3.5' => 'GMT + 3.5 óra',
+    4 => 'GMT + 4 óra',
+    '4.5' => 'GMT + 4.5 óra',
+    5 => 'GMT + 5 óra',
+    '5.5' => 'GMT + 5.5 óra',
+    6 => 'GMT + 6 óra',
+    '6.5' => 'GMT + 6.5 óra',
+    7 => 'GMT + 7 óra',
+    8 => 'GMT + 8 óra',
+    9 => 'GMT + 9 óra',
+    '9.5' => 'GMT + 9.5 óra',
+    10 => 'GMT + 10 óra',
+    11 => 'GMT + 11 óra',
+    12 => 'GMT + 12 óra',
+    13 => 'GMT + 13 óra',
+  ), 'tz' => array (
+// These are displayed in the timezone select box
     -12 => '(GMT -12 óra) Eniwetok, Kwajalein',
     -11 => '(GMT -11 óra) Midway-sziget, Szamoa',
     -10 => '(GMT -10 óra) Hawaii',
@@ -1916,16 +2295,18 @@ Go and read it and if you want to reply you can register for your own account if
     10 => '(GMT +10 óra) Brisbane, Canberra, Melbourne, Sydney, Guam',
     11 => '(GMT +11 óra) Magadán, Salamon-szigetek, Új Kaledónia',
     12 => '(GMT +12 óra) Auckland, Wellington, Fidzsi-szigetek, Kamcsatka',
+    13 => '(GMT +13 óra) Nuku\'alofa'
   ),
+// Timezones - END
   'datetime' => 
   array (
-    'Sunday' => 'Vasárnap',
-    'Monday' => 'Hétfõ',
-    'Tuesday' => 'Kedd',
-    'Wednesday' => 'Szerda',
-    'Thursday' => 'Csütörtök',
-    'Friday' => 'Péntek',
-    'Saturday' => 'Szombat',
+    'Sunday' => $lang['WEEK_DAY_SUNDAY'],
+    'Monday' => $lang['WEEK_DAY_MONDAY'],
+    'Tuesday' => $lang['WEEK_DAY_TUESDAY'],
+    'Wednesday' => $lang['WEEK_DAY_WEDNESDAY'],
+    'Thursday' => $lang['WEEK_DAY_THURSDAY'],
+    'Friday' => $lang['WEEK_DAY_FRIDAY'],
+    'Saturday' => $lang['WEEK_DAY_SATURDAY'],
     'Sun' => 'Vas.',
     'Mon' => 'Hétf.',
     'Tue' => 'Kedd.',
@@ -1937,7 +2318,7 @@ Go and read it and if you want to reply you can register for your own account if
     'February' => 'Február',
     'March' => 'Március',
     'April' => 'Április',
-    'May' => 'Máj.',
+    'May' => 'Május',
     'June' => 'Június',
     'July' => 'Július',
     'August' => 'Augusztus',
@@ -1945,185 +2326,32 @@ Go and read it and if you want to reply you can register for your own account if
     'October' => 'Október',
     'November' => 'November',
     'December' => 'December',
-    'Jan' => 'Jan.',
-    'Feb' => 'Feb.',
-    'Mar' => 'Márc.',
-    'Apr' => 'Ápr.',
-    'Jun' => 'Jún.',
-    'Jul' => 'Júl.',
-    'Aug' => 'Aug.',
-    'Sep' => 'Szept.',
-    'Oct' => 'Okt.',
-    'Nov' => 'Nov.',
-    'Dec' => 'Dec.',
+    'Jan' => $lang['datetime']['JAN'],
+    'Feb' => $lang['datetime']['FEB'],
+    'Mar' => $lang['datetime']['MAR'],
+    'Apr' => $lang['datetime']['APR'],
+    'May' => $lang['datetime']['MAY'],
+    'Jun' => $lang['datetime']['JUN'],
+    'Jul' => $lang['datetime']['JUL'],
+    'Aug' => $lang['datetime']['AUG'],
+    'Sep' => $lang['datetime']['SEP'],
+    'Oct' => $lang['datetime']['OCT'],
+    'Nov' => $lang['datetime']['NOV'],
+    'Dec' => $lang['datetime']['DEC'],
   ),
-  'day_short' => 
-  array (
-    0 => 'Vas',
-    1 => 'Hét',
-    2 => 'Ked',
-    3 => 'Sze',
-    4 => 'Csü',
-    5 => 'Pén',
-    6 => 'Szo',
-  ),
-  'day_long' => 
-  array (
-    0 => 'Vasárnap',
-    1 => 'Hétfõ',
-    2 => 'Kedd',
-    3 => 'Szerda',
-    4 => 'Csütörtök',
-    5 => 'Péntek',
-    6 => 'Szombat',
-  ),
-  'month_short' => 
-  array (
-    0 => 'Jan',
-    1 => 'Feb',
-    2 => 'Már',
-    3 => 'Ápr',
-    4 => 'Máj',
-    5 => 'Jún',
-    6 => 'Júl',
-    7 => 'Aug',
-    8 => 'Sze',
-    9 => 'Okt',
-    10 => 'Nov',
-    11 => 'Dec',
-  ),
-  'month_long' => 
-  array (
-    0 => 'Január',
-    1 => 'Február',
-    2 => 'Március',
-    3 => 'Április',
-    4 => 'Május',
-    5 => 'Június',
-    6 => 'Július',
-    7 => 'Augusztus',
-    8 => 'Szeptember',
-    9 => 'Október',
-    10 => 'November',
-    11 => 'December',
-  ),
-  'Posts2' => 'Hozzászólások',
-  'Log_me_in' => 'Automatikus bejelentkezés',
-  'bbcode_b_help' => 'Félkövér: [b]szöveg[/b]  (alt+b)',
-  'bbcode_i_help' => 'Dõlt: [i]szöveg[/i]  (alt+i)',
-  'bbcode_u_help' => 'Aláhúzás: [u]szöveg[/u]  (alt+u)',
-  'bbcode_q_help' => 'Idézet: [quote]szöveg[/quote]  (alt+q)',
-  'bbcode_c_help' => 'Kód: [code]kód[/code]  (alt+c)',
-  'bbcode_l_help' => 'Lista: [list]szöveg[/list] (alt+l)',
-  'bbcode_o_help' => 'Rendezett lista: [list=]szöveg[/list]  (alt+o)',
-  'bbcode_p_help' => 'Kép beillesztése: [img]http://kép_url[/img]  (alt+p)',
-  'bbcode_w_help' => 'Link beillesztése: [url]http://link[/url]vagy[url=http://url]link szöveg[/url]  (alt+w)',
-  'bbcode_a_help' => 'Nyitott BBCode tag-ek lezárása',
-  'bbcode_s_help' => 'Betûszín: [color=red]szöveg[/color] \\(a \\"color=#FF0000 is használható\\)',
-  'bbcode_f_help' => 'Betûméret: [size=x-small]kis szöveg[/size]',
-  'Font_color' => 'Betûszín',
-  'color_default' => 'Alap',
-  'color_dark_red' => 'Sötétpiros',
-  'color_red' => 'Piros',
-  'color_orange' => 'Narancs',
-  'color_brown' => 'Barna',
-  'color_yellow' => 'Sárga',
-  'color_green' => 'Zöld',
-  'color_olive' => 'Olíva',
-  'color_cyan' => 'Cián',
-  'color_blue' => 'Kék',
-  'color_dark_blue' => 'Sötétkék',
-  'color_indigo' => 'Indigó',
-  'color_violet' => 'Ibolya',
-  'color_white' => 'Fehér',
-  'color_black' => 'Fekete',
-  'Font_size' => 'Betûméret',
-  'font_tiny' => 'Apró',
-  'font_small' => 'Kicsi',
-  'font_normal' => 'Normál',
-  'font_large' => 'Nagy',
-  'font_huge' => 'Óriási',
-  'Close_Tags' => 'Tag-ek lezárása',
-  'Styles_tip' => 'Tipp: stílusok gyors alkalmazása az adott szövegen.',
-  'Not_Authorised' => 'Nem vagy jogosult erre a mûveletre!',
-  -12 => '(GMT -12 óra)',
-  -11 => '(GMT -11 óra)',
-  -10 => '(GMT -10 óra)',
-  -9 => '(GMT -9 óra)',
-  -8 => '(GMT -8 óra)',
-  -7 => '(GMT -7 óra)',
-  -6 => '(GMT -6 óra)',
-  -5 => '(GMT -5 óra)',
-  -4 => '(GMT -4 óra)',
-  '-3.5' => '(GMT -3.5 óra)',
-  -3 => '(GMT -3 óra)',
-  -2 => '(GMT -2 óra)',
-  -1 => '(GMT -1 óra)',
-  0 => '(GMT 0) ',
-  1 => '(GMT +1 óra)',
-  2 => '(GMT +2 óra)',
-  3 => '(GMT +3 óra)',
-  '3.5' => '(GMT +3.5 óra)',
-  4 => '(GMT +4 óra)',
-  '4.5' => '(GMT +4.5 óra)',
-  5 => '(GMT +5 óra)',
-  '5.5' => '(GMT +5.5 óra)',
-  6 => '(GMT +6 óra)',
-  '6.5' => '(GMT +6.5 óra)',
-  7 => '(GMT +7 óra)',
-  8 => '(GMT +8 óra)',
-  9 => '(GMT +9 óra)',
-  '9.5' => '(GMT +9.5 óra)',
-  10 => '(GMT +10 óra)',
-  11 => '(GMT +11 óra)',
-  12 => '(GMT +12 óra)',
-  13 => 'GMT + 13 óra',
-  'bbcode_url' => 'Add meg az URL-t (pl. http://www.phpbb.com)',
-  'bbcode_url_title' => 'Add meg a link címét',
-  'bbcode_url_empty' => 'Nem adtál meg semmilyen URL-t',
-  'bbcode_url_errors' => 'Hiba!',
-  'Top_posters' => 'Top hozzászólók',
-  'Tell_Friend' => 'Email egy barátodnak',
-  'Tell_Friend_Sender_User' => 'Neved',
-  'Tell_Friend_Sender_Email' => 'Email címed',
-  'Tell_Friend_Reciever_User' => 'Barátod neve',
-  'Tell_Friend_Reciever_Email' => 'Barátod email címe',
-  'Tell_Friend_Wrong_Email' => 'Nem érvényes email címet adtál meg.',
-  'Tell_Friend_Msg' => 'Az üzeneted:',
-  'Tell_Friend_Title' => 'Egy barátomnak',
-  'Tell_Friend_Body' => 'Szia!
-Figyelmedbe ajánlom a(z) {SITENAME} oldal fórumján a(z) &raquo;{TOPIC}&laquo; témát. Szerintem nagyon érdekelne.
+));
 
-Itt van a linkje: {LINK}
+// NOTE: Please do not translate the following 4 lines!
+// They are automatically translated into your language
+$lang['day_short'] = array($lang['datetime']['Sun'], $lang['datetime']['Mon'], $lang['datetime']['Tue'], $lang['datetime']['Wed'], $lang['datetime']['Thu'], $lang['datetime']['Fri'], $lang['datetime']['Sat']);
+$lang['day_long'] = array($lang['datetime']['Sunday'], $lang['datetime']['Monday'], $lang['datetime']['Tuesday'], $lang['datetime']['Wednesday'], $lang['datetime']['Thursday'], $lang['datetime']['Friday'], $lang['datetime']['Saturday']);
+$lang['month_short'] = array($lang['datetime']['JAN'], $lang['datetime']['FEB'], $lang['datetime']['MAR'], $lang['datetime']['APR'], $lang['datetime']['MAY'], $lang['datetime']['JUN'], $lang['datetime']['JUL'], $lang['datetime']['AUG'], $lang['datetime']['SEP'], $lang['datetime']['OCT'], $lang['datetime']['NOV'], $lang['datetime']['DEC']);
+$lang['month_long'] = array($lang['datetime']['January'], $lang['datetime']['February'], $lang['datetime']['March'], $lang['datetime']['April'], $lang['datetime']['May'], $lang['datetime']['June'], $lang['datetime']['July'], $lang['datetime']['August'], $lang['datetime']['September'], $lang['datetime']['October'], $lang['datetime']['November'], $lang['datetime']['December']);
 
-Menj, olvasd el, és regisztrálj egy saját felhasználót erre az oldalra. Ezek után tudsz válaszolni rá, és ha akarsz új témát is nyithatsz.',
-  'Today_thanks' => '<b class="date-today">Ma</b>',
-  'Yesterday_thanks' => '<b class="date-yesterday">Tegnap</b>',
-  'RE' => 'Válasz',
-  'Mod_CP_enhanced' => '(bõvített verzió)',
-  'users_links' => 'Tagok &amp; Csoportok',
-  'info_links' => 'Infó',
-  'sponsors_links' => 'Szponzorok',
-  'quick_links' => 'Menü',
-  'main_links' => 'Menü',
-  'tools_links' => 'Eszközök',
-  'news_links' => 'Hírek',
-  'NewsCat' => 'Hírkategóriák',
-  'NewsArc' => 'Hír archívum',
-  'IP_Team' => 'Icy Phoenix csapat',
-  'CMS_Title' => 'CMS',
-  'CMS_Management' => 'CMS Kezelés',
-  'CMS_Config' => 'CMS Beállítás',
-  'Custom_Page' => 'Egyedi lap',
-  'shops' => 'Boltok',
-  'items' => 'Áruk',
-  'ENCODING' => 'ISO-8859-2',
-  'DIRECTION' => 'ltr',
-  'LEFT' => 'left',
-  'RIGHT' => 'right',
-  'DATE_FORMAT' => 'Y.m.d. l G:i',
-  'TRANSLATION_INFO' => 'Magyar fordítás &copy; <a class="copyright" href="http://iranon.ezustkep.hu">Andai Szilárd</a> - Frissítette: <a class="copyright" href="http://phpbb.hu" title="Fordítás frissítése és javítása: Fodor Bertalan">Magyar phpBB közösség</a>',
-  'Board_disable' => 'A fórum ideiglenesen szünetel, kérlek próbálkozz késõbb.',
-  'Index' => 'Index',
-))
+//$lang[''] = '';
+
+//====================================================
+// Do not insert anything below this line
+//====================================================
+
 ?>

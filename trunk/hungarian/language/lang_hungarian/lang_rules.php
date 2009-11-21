@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_rules.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,14 +10,8 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
+* Dimitri Seitz (dwing@weingarten-net.de)
 * Lopalong
 *
 */
@@ -27,11 +21,32 @@ if (!defined('IN_ICYPHOENIX'))
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
-}
+//
+// To add an entry to your rules simply add a line to this file in this format:
+// $faq[] = array("question", "answer");
+// If you want to separate a section enter $faq[] = array("--","Block heading goes here if wanted");
+// Links will be created automatically
+//
+// DO NOT forget the ; at the end of the line.
+// Do NOT put double quotes (") in your rules entries, if you absolutely must then escape them ie. \"something\"
+// The rules items will appear on the rules page in the same order they are listed in this file
 
-$lang = array_merge($lang, array (
-))
+$faq[] = array('--', 'Az Icy Phoenix saját szabályzata:');
+$faq[] = array('Kérünk olvasd el az alábbi szabályokat és felhasználási feltételeket', '
+A fórum használatával az alábbi szabályok foglalkoznak és használatukat magadra kötelezõnek kell tekintened. Az útmutató célja, hogy könnyen meg lehessen az Icy Phoenix-xel valósítani egy könnyed, kellemes légkört, amiben a fórumtagok szabadon cserélhetnek információt és  segíthetnek egymásnak a problémák megoldásában. Igényünk, hogy minden hozzászólás témához illõ, pozitív szemléletû és építõ jellegû legyen. Az üzemeltetõknek éppen ezért joguk van minden olyan tartalmat eltávolítani, ami számukra nem megfelelõ attól függetlenül, hogy a hozzászólásodat máshol hogyan értékelnék. Ne támadj meg/le egyetlen személyt sem a fórumban vagy üzenetben, illetve az bárminemû üzleti tevékenységet és reklámot lehetõleg ne folytass az oldalon. Fenntartjuk a lehetõségét annak, hogy bármilyen ellenszenv esetén azonnal töröljük bármely hozzászólásod, témád vagy akár magát a felhasználódat. Mi próbálunk korrektek lenni, és ha csak lehet elõre figyelmeztetünk, ha ilyen cselekedetet tapasztalunk (példa erre például ez a szabályzat). Ha bárminemû problémád vagy kérdésed van, akkor használhatsz bármilyen kapcsolati módszert (email, privát üzenet, fórumtaggal üzenhetsz...) a megkeresésünkre. Kérünk rá, hogy legyél türelmes, megértõ, így a mi szívünket is meghatja a problémád, és meglátjuk mit tehetünk a megoldására.');
+$faq[] = array('Vulgáris megnyilvánulás', '1. A profán vagy vulgáris kifejezések a hozzászólásokkal együtt törlésre kerülnek, súlyosabb esetben adminisztrátori eljárást vonnak maguk után.');
+$faq[] = array('Személyes megkülönböztetés', '2. Sem faji, sem etnikai, sem nemi megkülönböztetést nem tûrünk meg, és minden ilyen megnyilvánulás súlyos következményekkel jár.');
+$faq[] = array('Letámadás vagy elnyomás', '3. Minden olyan tevékenység, amely a másik hozzászólását akarja megakadályozni, háttérbe szorítani vagy nehezíteni - beleértve a lelki terror fogalmát is, - tilos.');
+$faq[] = array('Spamelés', '4. A spammelés nincs megtûrve; kérünk minden hozzászólásod legyen építõ jellegû.');
+$faq[] = array('Pornográfia', '5. Pornográf képek, lopott szoftverek és minden illegális tevékenység az oldalon - beleértve a belinkelést is, - tilos.');
+$faq[] = array('Hozzászólás tulajdonosa', '6. Minden hozzászólás a hozzászóló tulajdonát képezi. Ezen a fórum és minden érintett weboldal tulajdonosa egyetértett azzal, hogy a felhasználási szabályokat sértõ hozzászólásokat töröljük. A hozzászólások törlésével kapcsolatos panaszokat a fórum adminisztrátorai kezelik.');
+$faq[] = array('Képek', '7. Bárki bármilyen tartalmú képet feltölthet (amennyiben nem szexuális vagy erõszakot bemutató tartalommal rendelkezik). Ha több képet is szeretnél egy hozzászólásban felhasználni, vagy a téma kép alapú, akkor a kliens gépek véges terhelhetõsége miatt a képeket linkelve mutasd be.');
+$faq[] = array('Aláírás', '8. Az aláírás tartalmazhat képet, de nem lehet nagyobb, mint 300x100 vagy 468x60 pixel (vedd figyelembe, hogy nem engedjük más cég termékének a reklámozását). Ha az aláírásodhoz csatolt kép nagyobb az engedett méreteknél, akkor az aláírásodat törölhetik az oldal üzemeltetõi. Kérheted a csatolt kép átméretezését bármely moderátortól, illetve megváltoztathatod bármikor az aláírásodat. Kérünk, hogy az aláírásod ne legyen 5 sor magasságánál nagyobb. Amennyiben úgy veszed észre, hogy az aláírásod el lett távolítva, fordulj a részletekért bármely moderátorhoz.');
+$faq[] = array('Reklám', '9. Reklámnak minõsül minden üzleti érdekû termék népszerûsítése. Ezen tevékenység a hozzászólás, a téma vagy a felhasználó törlésével járhat.');
+$faq[] = array('Témának megfelelõ hozzászólás', '10. Emlékeztetünk, hogy a hozzászólásnak a témához kell illeszkednie. Amennyiben témába nem vágó hozzászólást küldesz be, akkor az egy másik témába át lesz mozgatva. Amennyiben fórumhoz nem illeszkedõ témát nyitsz, akkor az a moderátorok által át lesz helyezve. Ha olyan témát, hozzászólást találsz, amely nem témába illõ, vagy sérti a fórum felhasználási szabályait, akkor arról a moderátorokat jogod van a Privát Üzenetek rendszerén keresztül vagy a "hozzászólás jelentése egy moderátornak" funkcióval értesíteni. Kérünk, hogy ilyen hozzászólásra ne válaszolj, és ne intézkedj a moderátorok helyett.');
+$faq[] = array('Hamis személyazonosság', '11. Minden olyan személy, aki hamisan a fórum egyik tagjának adja ki magát, és bármilyen kommunikációt folytat, banoljuk.');
+$faq[] = array('Külsõ tartalom', '12. Ha külsõ tartalmat linkelsz be, akkor az lehetõleg közvetlenül a célzott tartalomra mutasson. Ha a külsõ rendszer nem engedi a közvetlen belinkelést, és a megadott linkhez nem adsz használati útmutatót, vagy reklám célzatú a belinkelés, a hozzászólás törölve vagy szerkesztve lesz.');
+$faq[] = array('Szabályok megsértése', '13. Minden szabály megsértése konzekvenciákkal jár.');
+$faq[] = array('Köszönjük', 'Az Icy Phoenix csapata');
+
 ?>

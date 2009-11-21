@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,14 +10,8 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
+* aUsTiN-Inc - (austin_inc@hotmail.com) - (phpbb-amod.com)
 * Lopalong
 *
 */
@@ -32,13 +26,18 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
+$lang = array_merge($lang, array(
+// Commonly Used
   'Ftr_msg_error' => 'Hiba',
   'Ftr_msg_success' => 'Siker',
+
+// Buttons
   'Ftr_select_button' => ' Kiválaszt ',
   'Ftr_change_button' => ' Változtat ',
   'Ftr_delete_button' => ' Töröl ',
   'Ftr_save_button' => ' Ment ',
+
+// Admin Panel
   'Ftr_admin_users' => 'Force Topic Read Admin: Users Who Have Viewed The Topic',
   'Ftr_total_user_error' => 'Error Getting Total Users.',
   'Ftr_username' => 'Felhasználónév',
@@ -58,6 +57,8 @@ $lang = array_merge($lang, array (
   'Ftr_current_message' => 'Jelenlegi üzenet:',
   'Ftr_default' => 'Válassz egy fórumot',
   'Ftr_default2' => 'Válassz egy témát',
+
+// Added in 1.0.2
   'Ftr_user_deleted' => 'Felhasználó törölve!',
   'Ftr_deactivate' => 'Letiltod ezt a modot?<br /><span class="gensmall"><b>Igen</b> maradjon csendben ez a mod!</span>',
   'Ftr_whos_effected' => 'Kikkel szeretnéd ezt kötelezõen elolvastatni?<span class="gensmall">Új tagoknak számítanak azok, akik a mod telepítése és aktiválása után regisztrálna a fórumra.</span>',
@@ -69,5 +70,7 @@ $lang = array_merge($lang, array (
   'Ftr_effected_2' => 'Minden tagnak kötelezõ ezt elolvasni.',
   'Ftr_active_1' => 'Letiltottad ezt a modot azzal, hogy nincs senki, aki meg lenne jelölve a kötelezõ elolvasáshoz.',
   'Ftr_active_2' => 'Aktiváltad ezt a modot!',
-))
+)
+);
+
 ?>

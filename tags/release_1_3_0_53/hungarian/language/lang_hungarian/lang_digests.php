@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,14 +10,8 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
+* Mark D. Hamill (mhamill@computer.org)
 * Lopalong
 *
 */
@@ -32,24 +26,23 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
-  'digest_introduction' => 'Kérésedre elküldtük a  fórum legfrissebb hozzászólásainak aktuális kivonatát. Kérünk gyere és csatlakozz a beszélgetésünkhöz!',
-  'digest_from_text_name' => ' Kivonatoló Robot',
-  'digest_from_email_address' => NULL,
-  'digest_subject_line' => ' kivonata',
-  'digest_disclaimer_html' => '
-Ezt az üzenetet a <a href="DIGEST_SITE_URL"></a> fórumra regisztrált felhasználónak küldtük a saját és személyes kérésére. A  oldalon vigyázunk arra, hogy az email címed, és más személyes adatod, harmadik személy részére ne legyen hozzáférhetõ, és ezen információk ne jussanak tudomására. Lásd a <a href="DIGEST_SITE_URLfaq.">GYIK</a>-ot további információért és a személyes adataid védelmérõl szóló nyilatkozatunkért. Megváltoztathatod vagy törölheted ezen levélre történõ feliratkozásod, amennyiben bejelentkezel a  oldalra, és elmész a <a href="DIGEST_SITE_URLdigests.">Kivonat lapjára</a>. (Muszáj bejelentkezned, hogy hozzáférj a beállításaidhoz.) Ha bármilyen kérdésed vagy visszajelzésed lenne a kivonatokkal kapcsolatban, akkor kérjük küldj egy levelet a <a href="mailto:"> Webmesternek</a>.',
-  'digest_disclaimer_text' => '
-Ezt az üzenetet a  fórumra regisztrált felhasználónak küldtük a saját és személyes kérésére. A  teljesen üzletmentes. Az email címed nem adjuk át harmadik személy részére. Lásd a GYIK-ot további információért és a személyes adataid védelmérõl szóló nyilatkozatunkért. Megváltoztathatod vagy törölheted ezen levélre történõ feliratkozásod, amennyiben bejelentkezel a  oldalra, és elmész a Kivonat lapjára (Muszáj bejelentkezned, hogy hozzáférj a beállításaidhoz.) Ha bármilyen kérdésed vagy visszajelzésed lenne a kivonatokkal kapcsolatban, akkor kérjük küldj egy levelet a  email címre.',
+$lang = array_merge($lang, array(
+// This block goes as default text in the emailed digest (mail_digests.php)
+  'digest_introduction' => 'Kérésedre elküldtük a ' . $board_config['sitename'] . ' fórum legfrissebb hozzászólásainak aktuális kivonatát. Kérünk gyere és csatlakozz a beszélgetésünkhöz!',
+  'digest_from_text_name' => '' . $board_config['sitename'] . ' Kivonatoló Robot',
+  'digest_from_email_address' => '' . $board_config['board_email'] . '',
+  'digest_subject_line' => '' . $board_config['sitename'] . ' kivonata',
+  'digest_disclaimer_html' => '\n'. 'Ezt az üzenetet a <a href="' . DIGEST_SITE_URL . '">' . $board_config['sitename'] . '</a> fórumra regisztrált felhasználónak küldtük a saját és személyes kérésére. A ' . $board_config['sitename'] . ' oldalon vigyázunk arra, hogy az email címed, és más személyes adatod, harmadik személy részére ne legyen hozzáférhetõ, és ezen információk ne jussanak tudomására. Lásd a <a href="' . DIGEST_SITE_URL . 'faq.' . PHP_EXT . '">GYIK</a>-ot további információért és a személyes adataid védelmérõl szóló nyilatkozatunkért. Megváltoztathatod vagy törölheted ezen levélre történõ feliratkozásod, amennyiben bejelentkezel a ' . $board_config['sitename'] . ' oldalra, és elmész a <a href="' . DIGEST_SITE_URL . 'digests.' . PHP_EXT . '">Kivonat lapjára</a>. (Muszáj bejelentkezned, hogy hozzáférj a beállításaidhoz.) Ha bármilyen kérdésed vagy visszajelzésed lenne a kivonatokkal kapcsolatban, akkor kérjük küldj egy levelet a <a href="mailto:' . $board_config['board_email'] . '">' . $board_config['sitename'] . ' Webmesternek</a>.',
+  'digest_disclaimer_text' => '\n' . 'Ezt az üzenetet a ' . $board_config['sitename'] . ' fórumra regisztrált felhasználónak küldtük a saját és személyes kérésére. A ' . $board_config['sitename'] . ' teljesen üzletmentes. Az email címed nem adjuk át harmadik személy részére. Lásd a GYIK-ot további információért és a személyes adataid védelmérõl szóló nyilatkozatunkért. Megváltoztathatod vagy törölheted ezen levélre történõ feliratkozásod, amennyiben bejelentkezel a ' . $board_config['sitename'] . ' oldalra, és elmész a Kivonat lapjára (Muszáj bejelentkezned, hogy hozzáférj a beállításaidhoz.) Ha bármilyen kérdésed vagy visszajelzésed lenne a kivonatokkal kapcsolatban, akkor kérjük küldj egy levelet a ' . $board_config['board_email'] . ' email címre.',
   'digest_forum' => 'Fórum: ',
   'digest_topic' => 'Téma: ',
-  'digest_link' => 'Link',
-  'digest_post_time' => 'Beküldés ideje',
+  'digest_link' => 'Link:',
+  'digest_post_time' => 'Beküldés ideje:',
   'digest_author' => 'Szerzõ',
   'digest_message_excerpt' => 'Üzenet kivonata',
   'digest_posted_by' => 'Beküldte ',
   'digest_posted_at' => ' at ',
-  'digest_forums_message_digest' => 'Fórumkivonat',
+  'digest_forums_message_digest' => 'Fórumkivonat', // used in <head> tag
   'digest_salutation' => 'Kedves ',
   'digest_your_digest_options' => 'A kivonatod beállításai:',
   'digest_format' => '<b>Kivonat formátuma:</b><br />(A HTML formátum nem ajánlott, ha az email kliensed nem tudja megjeleníteni a HTML-t)',
@@ -71,6 +64,8 @@ Ezt az üzenetet a  fórumra regisztrált felhasználónak küldtük a saját és személy
   'digest_or' => 'vagy',
   'digest_a_digest_containing' => 'A kivonat összesen',
   'digest_posts_was_sent_to' => 'üzenetet tartalmaz. Elküldve: ',
+
+// This block goes on the digest settings user interface page (digests.php)
   'digest_page_title' => 'Kivonatok',
   'digest_explanation' => 'A kivonat egy olyan email üzenet, ami a beküldött hozzászólásokról tartalmaz egy összesítõt. A kivonatot kérheted napi, heti rendszerességgel vagy egy általad kiválasztott órában. Meghatározhatod azt is, hogy mely fórumokról szeretnél üzenetösszesítõt kapni, de természetesen az összes fórum összes üzenetérõl is kérhetsz kivonatot (persze csak akkor, ha jogod van azokat el is olvasni).<br /><br />
 A személyes adataid védelmérõl szóló állásfoglalásunkkal összhangban a kivonat nem "spam", és az email címedet nem használjuk fel semmilyen reklámhoz köthetõ célokra. Amennyiben szeretnél a kivonatokról leiratkozni, csak vissza kell ide jönnöd. A legtöbb felhasználó hasznosnak találta a kivonatokat. Javasoljuk tegyél egy próbát!
@@ -114,6 +109,7 @@ A személyes adataid védelmérõl szóló állásfoglalásunkkal összhangban a kivonat n
   'digest_9pm' => 'Este 9',
   'digest_10pm' => 'Késõ este 10',
   'digest_11pm' => 'Éjjel 11',
+  'digest_click_return' => 'Click %sHere%s to return to Digests settings', // %s's here are for uris, do not remove!
   'digest_select_forums' => '<b>Kivonat küldése ezen fórumokról:</b>',
   'digest_create' => 'A kivonatod beállítása sikeresen létrejött',
   'digest_modify' => 'A kivonatod beállítása sikeresen frissült',

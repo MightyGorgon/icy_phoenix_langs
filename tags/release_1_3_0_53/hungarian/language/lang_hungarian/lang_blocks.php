@@ -2,16 +2,9 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_blocks.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
-
-/**
-*
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
 *
 */
 
@@ -72,7 +65,7 @@ $lang = array_merge($lang, array (
   'Title_rss' => 'RSS',
   'Title_search' => 'Keresés',
   'Title_sec_menu' => 'Extra Menü',
-  'Title_shoutbox' => '<a href="shoutbox_max.?sid=">Üzenõfal</a>',
+  'Title_shoutbox' => '<a href="shoutbox_max.' . PHP_EXT . '?sid=' . $userdata['session_id'] . '">Üzenõfal</a>',
   'Title_staff' => 'Staff',
   'Title_statistics' => 'Statisztikák',
   'Title_style' => 'Stílus',
@@ -83,7 +76,8 @@ $lang = array_merge($lang, array (
   'Title_visit_counter' => 'Látogatás számláló',
   'Title_welcome' => 'Üdvözlünk',
   'Title_wordgraph' => 'Tagok',
-  'Advanced_GSearch' => 'Részletes Google keresés',
+  
+  'Advanced_GSearch' => 'Részletes Google Keresõ',
   'Advanced_search' => 'Részletes keresés',
   'Album' => 'Album',
   'All_News_Archives' => 'Minden új archívum',
@@ -161,7 +155,7 @@ $lang = array_merge($lang, array (
   'Remember_me' => 'Automatikus bejelentkezés',
   'Save_Topic' => 'Téma elmentése egy fájlba',
   'Shout_refresh' => 'Frissítés',
-  'Shout_text' => 'Te szöveged',
+  'Shout_text' => 'A te szöveged',
   'Shoutbox_date' => 'D G:i \\í\\r\\t\\a ',
   'SH_Visit_counter_statement' => 'Ezt az oldalt <b>%d</b> látogató látta %s óta',
   'Tell_Friend' => 'E-mail-ben elküldöm egy barátomnak',
@@ -175,11 +169,21 @@ $lang = array_merge($lang, array (
   'Visit_counter' => 'Látogatószámláló',
   'Visit_counter_statement' => 'Ezen a weboldalon <b>%d</b> lapot néztek meg %s óta',
   'Vote' => 'Szavazás',
+  
   'donated_by' => 'adományozta:',
   'search' => 'Keresés',
   'search2' => 'Keresés:',
   'search_at' => 'Keresés itt:',
   'total_topics' => ' <b>%s</b> témából',
+
+
+// Blocks Config
+/*
+	'cms_var_' => '',
+	'cms_option_' => '',
+	'cms_value_' => '',
+*/
+
   'cms_var_kb_cat_id' => 'Kategória ID',
   'cms_var_kb_cat_id_explain' => 'Válassz egy kategória ID-t a TB-ból (dinamikus menü ID)',
   'cms_var_md_ads_type' => 'Ads type',
@@ -196,7 +200,7 @@ $lang = array_merge($lang, array (
   'cms_var_md_display_not_visit_explain' => 'Azon felhasználók megjelenítése, akik nem látogatták meg ezt az oldalt',
   'cms_var_md_full_search_option_text' => 'Teljes keresés opciójának szövege',
   'cms_var_md_full_search_option_text_explain' => 'Alapértelmezett opcióként megjelenített szöveg',
-  'cms_var_md_gsearch_banner' => 'Search site banner',
+  'cms_var_md_gsearch_banner' => 'Keresõoldali banner',
   'cms_var_md_gsearch_banner_explain' => 'Banner of the site (the url without http://)',
   'cms_var_md_gsearch_site' => 'Search site',
   'cms_var_md_gsearch_site_explain' => 'Site where the search should be performed (the url without http://)',
@@ -234,6 +238,8 @@ $lang = array_merge($lang, array (
   'cms_var_md_news_images_width_explain' => 'Choose image width in pixels or percentage',
   'cms_var_md_news_forum_id' => 'News Forum ID(s)',
   'cms_var_md_news_forum_id_explain' => 'Comma delimited',
+  'cms_var_md_news_length' => 'Length of news',
+  'cms_var_md_news_length_explain' => 'Number of characters displayed (enter 0 for all)',
   'cms_var_md_news_posters_page_link' => 'Page Link',
   'cms_var_md_news_posters_page_link_explain' => 'The link to the page which contains news archive (i.e. <b>index.php</b>)',
   'cms_var_md_news_posters_sort' => 'Sort',
@@ -342,6 +348,7 @@ $lang = array_merge($lang, array (
   'cms_var_md_wordgraph_count_explain' => 'Display the total number of tags next to each word',
   'cms_var_md_wordgraph_words' => 'Maximum Tags',
   'cms_var_md_wordgraph_words_explain' => 'Select the maximum number of tags to display',
+  
   'cms_option_All_Topics' => 'All Topics',
   'cms_option_Alphabetical' => 'Alphabetical',
   'cms_option_Archive' => 'Archív',
@@ -362,6 +369,7 @@ $lang = array_merge($lang, array (
   'cms_option_Left' => 'Balra',
   'cms_option_Center' => 'Középre',
   'cms_option_Right' => 'Jobbra',
+  
   'cms_value_All_Topics' => '0',
   'cms_value_Archive' => '0',
   'cms_value_Categories' => '1',
@@ -371,7 +379,7 @@ $lang = array_merge($lang, array (
   'cms_value_Random' => '1',
   'cms_value_Recent' => '0',
   'cms_value_Show_In_Portal' => '1',
-  'ON' => 'Be',
-  'Shout_censor' => 'sor eltávolítva!',
-))
+  )
+);
+
 ?>

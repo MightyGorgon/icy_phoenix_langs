@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_sudoku.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,14 +10,8 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
+* Majorflam - (majorflam@majormod.com) - (http://majormod.com)
 * Lopalong
 *
 */
@@ -83,9 +77,12 @@ $lang = array_merge($lang, array (
   'sudoku_ran_success' => 'Véletlenszerûen ki lett választva egy szám, és el lett helyezve a táblán. Az új információ ki lett emelve',
   'sudoku_resynch_success' => 'A statisztika szinkronizációja teljes. Átirányítás...',
   'sudoku_resynch' => 'Szinkronizál',
-  'sudoku_reset_game' => 'Sudoku játék törlése',
+// for ver 1.0.5
+  'sudoku_reset_game' => 'Sudoku játék újraindítása',
   'sudoku_reset_game_text' => 'Tényleg újra szeretnéd indítani a sudoku játékot? Ez a mûvelet eltávolít minden játékinfót és sikeresen kirakott játékot, és friss játékot tudsz kezdeni. SZeretnélek figyelmeztetni, hogy a játékcsomagok érintetlenek, és nem kell azokat újratelepíteni. Ez a mûvelet nem visszavonható.',
-  'sudoku_reset_game_cancelled' => 'Játék reset visszavonása. Nem történt semmi változtatás.',
+  'sudoku_reset_game_cancelled' => 'Játék újraindításának visszavonása. Nem történt semmi változtatás.',
   'sudoku_rest_game_success' => 'A sudoku játék újra lett indítva.',
-))
+  )
+);
+
 ?>

@@ -2,16 +2,9 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_bbcb_mg.php 92 2009-04-01 13:58:18Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
-
-/**
-*
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
 *
 */
 
@@ -34,21 +27,25 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array (
   'bbcb_mg_lang' => 'lang_hungarian',
+  
   'wrote' => 'írta',
   'Quote' => 'Idézet',
   'Code' => 'Kód',
-  'Hide' => 'Elrejt',
+  'Hide' => 'Rejt',
   'Show' => 'Mutat',
   'Download' => 'Letöltés',
   'Syntax' => 'Szintaxis',
-  'Select' => 'Kijelöl',
+  'Select' => 'Kiválaszt',
   'ReviewPost' => 'Hozzászóláshoz ugrás',
   'OffTopic' => 'Témán kívüli',
   'OpenNewWindow' => 'Klikk: új ablakban megnézed a képet',
   'C++' => 'C++',
-  'PhpCode' => 'Php kód',
+  'PhpCode' => 'Php',
+  
   'Close_Tags' => 'Tagok bezárása',
   'Styles_tip' => 'Tipp: a stílusokkal gyorsan kinézetet adhatsz egy kijelölt szövegnek.',
+
+// Smiley Creator
   'bbcode_sc_help' => 'Smiley-gyár: [schild=1]szöveg[/schild] Egy szöveges táblát tartó Smiley készítése',
   'Smiley_creator' => 'Smiley-gyár',
   'SC_shieldtext' => 'Smiley szövege',
@@ -65,18 +62,20 @@ $lang = array_merge($lang, array (
   'SC_error' => 'Emeld fel a pajzsod - nesze a szöveged...',
   'SC_another_shield' => 'Akarsz egy másik Smiley-t készíteni?',
   'SC_notext_error' => 'Szöveg nélkül nem tudsz Smiley-t készíteni',
+  
   'bbcode_b_help' => 'Kövér szöveg: [b][/b] (alt+b)',
   'bbcode_i_help' => 'Dõlt szöveg: [i]szöveg[/i] (alt+i)',
   'bbcode_u_help' => 'Aláhúzott szöveg: [u]szöveg[/u] (alt+u)',
   'bbcode_q_help' => 'Idézett szöveg: [quote]szöveg[/quote] (alt+q)',
   'bbcode_c_help' => 'Kód megjelenítése: [code]kód[/code] (alt+c)',
   'bbcode_l_help' => 'Lista: [list]szöveg[/list] (alt+l)',
-  'bbcode_o_help' => 'Számozott lista: [list=]szöveg[/list] (alt+o)',
+  'bbcode_o_help' => 'Számozott lista: [list=1]szöveg[/list] (alt+o)',
   'bbcode_p_help' => 'Kép beszúrása: [img]http://kép_url[/img] (alt+p)',
   'bbcode_w_help' => 'URL beszúrása: [url]http://url[/url] vagy [url=http://url]URL szövege[/url] (alt+w)',
   'bbcode_a_help' => 'Minden nyitott BBCode bezárása',
   'bbcode_s_help' => 'Betû színe: [color=red]szöveg[/color] Tipp: változtathatod a színt a color=#FF0000 változtatásával',
   'bbcode_f_help' => 'Betûméret: [size=x-small]kicsi szöveg[/size]',
+  
   'Font_color' => 'Betû színe',
   'color_default' => 'Alapértelmezett',
   'color_dark_red' => 'Sötétvörös',
@@ -93,6 +92,7 @@ $lang = array_merge($lang, array (
   'color_violet' => 'Viola',
   'color_white' => 'Fehér',
   'color_black' => 'Fekete',
+  
   'color_cadet_blue' => 'Kadétkék',
   'color_coral' => 'Korál',
   'color_crimson' => 'Karmazsin',
@@ -115,6 +115,7 @@ $lang = array_merge($lang, array (
   'color_deepskyblue' => 'Égkék',
   'color_midnightblue' => 'Középkék',
   'color_darkgreen' => 'Sötétzöld',
+  
   'Font_size' => 'Betûméret',
   'font_tiny' => 'Apró',
   'font_small' => 'Kicsi',
@@ -123,6 +124,8 @@ $lang = array_merge($lang, array (
   'font_large' => 'Nagy',
   'font_huge' => 'Óriás',
   'font_xl' => 'XL',
+
+// Font Type
   'Font_Type' => 'Betû',
   'Font_Arial' => 'Arial',
   'Font_Arial_black' => 'Arial Black',
@@ -140,6 +143,8 @@ $lang = array_merge($lang, array (
   'Font_Verdana' => 'Verdana',
   'Font_Webdings' => 'Webdings',
   'Font_Wingdings' => 'Wingdings',
+
+// Alt Buttons
   'bbcb_mg_colorpicker' => 'Színpipetta',
   'bbcb_mg_j' => 'Sorkizárt',
   'bbcb_mg_r' => 'Jobbra',
@@ -190,23 +195,32 @@ $lang = array_merge($lang, array (
   'bbcb_mg_albumimgl' => 'Kép albumból balra',
   'bbcb_mg_albumimgr' => 'Kép albumból jobbra',
   'bbcode_help' => 'BBCode súgó',
+  
   'xs_bbc_hide_message' => 'Rejtett üzenet',
   'xs_bbc_hide_quote_message' => 'Rejtett üzenet idézése is rejtve történik.',
   'xs_bbc_hide_message_explain' => 'Bocsi, de mielõtt válaszolsz egy hozzászólásra regisztrálnod kell magadat.',
+  
   'bbcode_url' => 'Enter the URL (eg. http://www.phpbb.com)',
   'bbcode_url_title' => 'Enter the title of the link',
   'bbcode_url_empty' => 'You didn\'t enter a url',
   'bbcode_url_errors' => 'Error!',
+	)
+);
+
+// JavaScript Text - BEGIN
+// Forms
+$js_lang = array();
+$js_lang = array_merge($js_lang, array (
   's_formerrors' => 'Be kell írnod valamilyen szöveget, mielõtt beküldöd az üzenetet',
   's_gen_error' => ':: Hiba ::\\n\\n',
-  's_url_insert' => 'URL beszúrása (pl. http://www.phpbb.com/)',
+  's_url_insert' => 'URL beszúrása (pl. http://www.icyphoenix.com/)',
   's_url_insert_tip' => 'http://',
   's_url_error' => 'Nem adtál meg semmilyen URL-t',
   's_url_title_insert' => 'Add meg a link címét',
   's_url_title_insert_tip' => 'Link',
   's_url_title_error' => 'Nem adtál meg semmit sem lapcímnek',
   's_email_insert' => 'Add meg az email címet',
-  's_email_insert_tip' => 'neved@valahol.hu',
+  's_email_insert_tip' => 'neved@valami.hu',
   's_email_error' => 'Nem adtál meg semmilyen email címet',
   's_img_insert' => 'Add meg a kép URL-jét',
   's_img_error' => 'Nem adtál meg semmilyen kép URL-t',
@@ -229,14 +243,16 @@ $lang = array_merge($lang, array (
   's_flash_h_insert' => 'Add meg a Flash magasságát',
   's_flash_h_error' => 'Nem adtál meg semmit sem Flash magasságnak',
   's_id_insert_tip' => 'ID',
-  's_id_insert_error' => 'You didn\'t specify an ID',
+  's_id_insert_error' => 'Nem adtál meg semmilyen ID-t',
   's_file_insert_error' => 'Nem adtál meg semmit sem fájl URL-nek',
-  's_grad_select' => 'Please select the text first',
-  's_grad_error' => 'This only works for less than 120 letters',
+  's_grad_select' => 'Elõsször válaszd ki a szöveget',
+  's_grad_error' => 'Csak kevesemm, mint 120 levéllel mûködik',
   's_grad_path' => 'includes/grad.htm',
   's_view_more_code' => 'További kód megnézése',
-  's_image_upload' => 'Upload image to PostImage.org and add it to the message',
-  's_posticyimage' => 'Upload image and add it to the message',
+  's_image_upload' => 'Töltsd fel a képet a PostImage.org-ra, és add meg itt az üzenetedben',
+  's_posticyimage' => 'Töltsd fel a képed, és add meg itt az üzenetedben',
+
+// Helpline messages
   's_a_help' => 'Zárd be az összes nyitott tagot',
   's_b_help' => 'Félkövér szöveg: [b]szöveg[/b]',
   's_i_help' => 'Dõlt szöveg: [i]szöveg[/i]',
@@ -284,103 +300,26 @@ $lang = array_merge($lang, array (
   's_spoiler_help' => 'Keret: [spoiler]szöveg[/spoiler]',
   's_cell_help' => 'Cella: [cell]szöveg[/cell]',
   's_list_help' => 'Számozott lista: [list|=1|a]szöveg[/list] (Tipp: a használj listaelválaszót [*] a lista elemei között)',
-  's_listo_help' => 'Ordered list: [list=1|a]text[/list] (Tip: you can use [*] to insert bullet)',
-  's_help_help' => 'Open BBCode Help',
-  's_image_upload_help' => 'Upload image to PostImage.org and add it to the message',
-  's_posticyimage_help' => 'Upload image and add it to the message',
-  's_smiley_creator' => 'Smiley Creator: [smiley=1]Text[/smiley] insert a smiley with text',
-  'JAVASCRIPT_LANG_VARS' => 'var s_formerrors = \'You must insert some text to send a message\';
-var s_gen_error = \':: Error ::\\n\\n\';
-var s_url_insert = \'Insert the URL (eg. http://www.icyphoenix.com/)\';
-var s_url_insert_tip = \'http://\';
-var s_url_error = \'You didn\\\'t enter any URL\';
-var s_url_title_insert = \'Enter the title of the link\';
-var s_url_title_insert_tip = \'Link\';
-var s_url_title_error = \'You didn\\\'t write the page name\';
-var s_email_insert = \'Enter the Email Address\';
-var s_email_insert_tip = \'yourname@yourdomain.com\';
-var s_email_error = \'You didn\\\'t write the Email Address\';
-var s_img_insert = \'Enter the image URL\';
-var s_img_error = \'You didn\\\'t write the image URL\';
-var s_albumimg_insert = \'Enter the Album Image ID\';
-var s_albumimg_insert_tip = \'ID\';
-var s_albumimg_error = \'You didn\\\'t write the Album Image ID\';
-var s_ram_insert = \'Please write Real Media file URL\';
-var s_stream_insert = \'Please write audio file URL\';
-var s_video_insert = \'Please write video file URL\';
-var s_video_w_insert = \'Please specify video file width\';
-var s_video_w_error = \'You didn\\\'t specify video file width\';
-var s_video_h_insert = \'Please specify video file height\';
-var s_video_h_error = \'You didn\\\'t specify video file height\';
-var s_googlevideo_insert = \'Please write Google Video file ID\';
-var s_youtube_insert = \'Please write YouTube file ID\';
-var s_emff_insert = \'Please write mp3 file URL\';
-var s_flash_insert = \'Please write Flash file URL\';
-var s_flash_w_insert = \'Please specify Flash file width\';
-var s_flash_w_error = \'You didn\\\'t specify Flash file width\';
-var s_flash_h_insert = \'Please specify Flash file height\';
-var s_flash_h_error = \'You didn\\\'t specify Flash file height\';
-var s_id_insert_tip = \'ID\';
-var s_id_insert_error = \'You didn\\\'t specify an ID\';
-var s_file_insert_error = \'You didn\\\'t specify file URL\';
-var s_grad_select = \'Please select the text first\';
-var s_grad_error = \'This only works for less than 120 letters\';
-var s_grad_path = \'includes/grad.htm\';
-var s_view_more_code = \'View more code\';
-var s_image_upload = \'Upload image to PostImage.org and add it to the message\';
-var s_posticyimage = \'Upload image and add it to the message\';
-var s_a_help = \'Close all open tags\';
-var s_b_help = \'Bold text: [b]text[/b]\';
-var s_i_help = \'Italic text: [i]text[/i]\';
-var s_u_help = \'Underline text: [u]text[/u]\';
-var s_strike_help = \'Strike text: [strike]text[/strike]\';
-var s_quote_help = \'Quote text: [quote]text[/quote]\';
-var s_code_help = \'Code display: [code]code[/code]\';
-var s_phpbbmod_help = \'phpBB Mod Template\';
-var s_highlight_help = \'Highlight: [highlight=#FFFFAA]text[/highlight]\';
-var s_img_help = \'Insert image: [img]http://image_url[/img]\';
-var s_imgl_help = \'Insert image with left alignment: [img align=left]http://image_url[/img]\';
-var s_imgr_help = \'Insert image with right alignment: [img align=right]http://image_url[/img]\';
-var s_albumimg_help = \'Insert image from album: [albumimg]Album Pic ID[/albumimg]\';
-var s_albumimgl_help = \'Insert image from album with left alignment: [albumimg align=left]Album Pic ID[/albumimg]\';
-var s_albumimgr_help = \'Insert image from album with right alignment: [albumimg align=right]Album Pic ID[/albumimg]\';
-var s_url_help = \'Insert URL: [url]http://url[/url] or [url=http://url]URL text[/url]\';
-var s_fc_help = \'Font color: [color=red]text[/color] (Tip: you can also use color=#FF0000)\';
-var s_fs_help = \'Font size: [size=9]small text[/size]\';
-var s_ft_help = \'Font type: [font=Andalus]text[/font]\';
-var s_table_help = \'Insert Table: [table]text[/table]\';
-var s_td_help = \'Insert Table Column: [td]text[/td]\';
-var s_mail_help = \'Insert Email: [email]Email Here[/email]\';
-var s_grad_help = \'Insert gradient text\';
-var s_right_help = \'Set text align to right: [align=right]text[/align]\';
-var s_left_help = \'Set text align to left: [align=left]text[/align]\';
-var s_center_help = \'Set text align to center: [align=center]text[/align]\';
-var s_justify_help = \'Justify text: [align=justify]text[/align]\';
-var s_marqr_help = \'Marque text to Right: [marquee direction=right]text[/marquee]\';
-var s_marql_help = \'Marque text to Left: [marquee direction=left]text[/marquee]\';
-var s_marqu_help = \'Marque text to up: [marquee direction=up]text[/marquee]\';
-var s_marqd_help = \'Marque text to down: [marquee direction=down]text[/marquee]\';
-var s_sup_help = \'Superscript: [sup]text[/sup]\';
-var s_sub_help = \'Subscript: [sub]text[/sub]\';
-var s_hr_help = \'Insert H-Line [hr]\';
-var s_bullet_help = \'Insert bullet point [*]\';
-var s_video_help = \'Insert video file: [video width=# height=#]file URL[/video]\';
-var s_googlevideo_help = \'Insert Google Video file: [googlevideo]Google Video ID[/googlevideo]\';
-var s_youtube_help = \'Insert YouTube video file: [youtube]YouTube ID[/youtube]\';
-var s_quick_help = \'Quicktime video: [quick]http://quicktime_video_url/[/quick]\';
-var s_flash_help = \'Insert flash file: [flash width=# height=#]flash URL[/flash]\';
-var s_ram_help = \'Insert Real Media file: [ram]File URL[/ram]\';
-var s_stream_help = \'Insert stream file: [stream]File URL[/stream]\';
-var s_emff_help = \'Insert mp3 file: [emff]File URL[/emff]\';
-var s_fade_help = \'Fade: [opacity]text[/opacity] or [opacity][img]http://image_url/[/img][/opacity]\';
-var s_spoiler_help = \'Spoiler: [spoiler]text[/spoiler]\';
-var s_cell_help = \'Cell: [cell]text[/cell]\';
-var s_list_help = \'List: [list]text[/list] (Tip: you can use [*] to insert bullet)\';
-var s_listo_help = \'Ordered list: [list=1|a]text[/list] (Tip: you can use [*] to insert bullet)\';
-var s_help_help = \'Open BBCode Help\';
-var s_image_upload_help = \'Upload image to PostImage.org and add it to the message\';
-var s_posticyimage_help = \'Upload image and add it to the message\';
-var s_smiley_creator = \'Smiley Creator: [smiley=1]Text[/smiley] insert a smiley with text\';
-',
-))
+  's_listo_help' => 'Rendezett lista: [list=1|a]szöveg[/list] (Tipp: a használj listaelválaszót [*] a lista elemei között)',
+  's_help_help' => 'BBCode segítség megnyitása',
+  's_image_upload_help' => 'Kép feltöltése a PostImage.org-ra, és ezen szöveg hozzáadása',
+  's_posticyimage_help' => 'Kép feltöltése, és ezen szöveg hozzáadása',
+  's_smiley_creator' => 'Smiley-gyár: [smiley=1]szöveg[/smiley] Egy szöveges táblát tartó Smiley készítése',
+));
+// Please do not remove this!!!
+foreach ($js_lang as $k => $v)
+{
+	$lang[$k] = $v;
+}
+
+$javascript_lang_vars = '';
+foreach ($js_lang as $k => $v)
+{
+	$javascript_lang_vars .= 'var ' . $k . ' = \'' . str_replace("'", "\'", $v) . '\';' . "\n";
+}
+
+$lang['JAVASCRIPT_LANG_VARS'] = $javascript_lang_vars;
+unset($js_lang);
+// JavaScript Text - END
+
 ?>

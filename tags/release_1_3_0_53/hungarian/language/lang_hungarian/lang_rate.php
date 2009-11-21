@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_rate.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,14 +10,8 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
+* Nivisec.com (support@nivisec.com)
 * Lopalong
 *
 */
@@ -33,34 +27,37 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array (
-  'Already_Rated' => 'Értékelésed: <b>%d</b>',
-  'Rate_Stats' => '<b>%.2f</b>',
+  'Already_Rated' => 'Értékelésed: <b>%d</b>', //%d = their rate
+  'Rate_Stats' => '<b>%.2f</b>', //%.2f = average, %d = min, %d = max, %d # of ratings
   'Rate' => 'Értékelés',
   'Choose_Rating' => 'Válassz értéket',
   'Topic_Rated' => 'A témát értékelted.',
   'Anon_Rate_Disabled' => 'Anonymous felhasználó nem értékelhet',
   'Not_Authorized_To_Rate' => 'Nincs jogod ezt a témát rtékelni',
   'Change_Rating' => 'Érték megváltoztatva',
-  'View_Details' => '<a href="%s" title="Részletek">Részletes információ megnézése</a>',
-  'View_Details_2' => '<a href="%s" title="Részletek">Részletes információ megnézése</a>',
-  'Username_Gave_Rate_of_Max' => '<b>%s</b> <b>%d</b>-re értékelte ezt a témát a lehetséges <b>%d</b>-bõl %s-én.',
+  'View_Details' => '<a href="%s" title="Részletek">Részletes információ megnézése</a>', //%s = detailed URL
+  'View_Details_2' => '<a href="%s" title="Részletek">Részletes információ megnézése</a>', //%s = detailed URL
+  'Username_Gave_Rate_of_Max' => '<b>%s</b> <b>%d</b>-re értékelte ezt a témát a lehetséges <b>%d</b>-bõl %s-én.', //%s = username, %d = user rate, %d = max rate, %s = date with create_date()
   'Detailed_Rating' => 'Értékelések részletezése',
-  'Details_For_Topic' => '<b>%s</b>',
-  'Or_Someone_From_IP' => '(logolás IP-je)',
+  'Details_For_Topic' => '<b>%s</b> téma értékelésének részletei', //%s = topic title
+  'Or_Someone_From_IP' => '(logolás IP-je)', // makes it smaller for smaller res screens
   'Disable_Rating_ON' => 'Értékelés letiltva ebben a témában',
   'Summary' => 'Összesített értékelés',
   'Topic_Rating_Details' => 'Témaértékelés részletei',
+  
   'Anonymous' => 'Anonymous',
   'All_Forums' => 'Minden fórum',
+  
   'Max_Rate' => 'Max érték',
   'User_Rate' => 'Értékelõ felhasználó',
   'Rate_Date' => 'Értékelés dátuma',
   'Rate_Time' => 'Értékelés ideje',
   'Rate_Order' => 'Érték száma',
+  
   'No_Topics_Rated' => 'Nincs értékelt téma',
-  'Top_Topics' => 'Top %d értékû témák',
-  'Top_Topics_For_Forum' => 'Top %d értékû témák a %s fórumban',
-  'For_Forum' => 'Csak %s',
+  'Top_Topics' => 'A legértékesebb %d téma', //%d = number of topics
+  'Top_Topics_For_Forum' => 'A legértékesebb %d téma a %s fórumban', //%d = number of topics, %s is forum name
+  'For_Forum' => 'Csak %s', //%s = forum name
   'Last_Rated' => 'Utolsó értékelés',
   'Number_of_Rates' => 'Number Of Rates',
   'Rating' => 'Rating',
@@ -68,8 +65,11 @@ $lang = array_merge($lang, array (
   'Max' => 'Max',
   'Min_Rating' => 'Min értékelés',
   'By_Forum' => 'Lista a fórumból',
-  'Status' => 'Status',
-  'Auth_Description' => 'Descriptions',
+  'Details_For_Topic' => '<b>%s</b>', //%s = topic title
+
+//admin
+  'Status' => 'Státusz',
+  'Auth_Description' => 'Meghatározások',
   'NONE' => 'Rating is totally disabled and no rating bar will display above topics',
   'ALL' => 'All users may rate and view the bar, which includes anonymous and registered',
   'REG' => 'Only registered users can rate, but everyone can view the bar',
@@ -98,11 +98,17 @@ $lang = array_merge($lang, array (
   'rate_average' => 'Average Rate',
   'rate_minimum' => 'Minimum Rate',
   'rate_maximum' => 'Maximum Rate',
+  'Number_of_Rates' => 'Number Of Rates',
   'Rank2' => '#',
+  'Rating' => 'Rating',
+
+//Error Messages
   'Database_Error' => 'Adatbázis hiba',
   'Error_Dbase_Config' => 'Hiba a konfigurációs adat megszerzése vagy frissítése közben.',
   'Error_Dbase_Ratings' => 'Hiba az értékelés adatainak megszerzése vagy frissítése közben.',
   'Error_Dbase_Auth' => 'Hiba az értékeléshez való jog adatainak megszerzése vagy frissítése közben.',
   'No_Topic_ID' => 'Nincs meg az a téma, amely meg lett adva.',
-))
+  )
+);
+
 ?>

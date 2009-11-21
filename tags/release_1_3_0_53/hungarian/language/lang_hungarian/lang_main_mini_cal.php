@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,14 +10,8 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
+* netclectic - Adrian Cockburn - phpbb@netclectic.com
 * Lopalong
 *
 */
@@ -31,12 +25,15 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-
 $lang = array_merge($lang, array (
   'Mini_Cal_calendar' => 'Kalendárium',
   'Mini_Cal_add_event' => 'Esemény hozzáadása',
   'Mini_Cal_events' => 'Következõ események',
   'Mini_Cal_no_events' => 'Nincs',
+
+// uses MySQL DATE_FORMAT - %c  long_month, numeric (1..12) - %e  Day of the long_month, numeric (0..31)
+// see http://www.mysql.com/doc/D/a/Date_and_time_functions.html for more details
+// currently supports: %a, %b, %c, %d, %e, %m, %y, %Y, %H, %k, %h, %l, %i, %s, %p
   'Mini_Cal_date_format' => '%b %e',
   'Mini_Cal_date_format_Time' => '%H:%i',
   'mini_cal' => 
@@ -82,5 +79,5 @@ $lang = array_merge($lang, array (
       12 => 'December',
     ),
   ),
-))
+));
 ?>

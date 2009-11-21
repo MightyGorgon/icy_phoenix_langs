@@ -2,23 +2,9 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_profile_fields.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
-
-/**
-*
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
-* @Extra credits for this file
-* Lopalong
 *
 */
 
@@ -32,6 +18,33 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
-))
+/***************************************************************************
+ *
+ *   Use this field to rename your custom profile fields.
+ *   You should use the following syntax:
+ *   $lang['ID_Field_Name'] = 'Your Field Name';
+ *   $lang['ID_Description'] = 'Your Field Description';
+ *
+ *   Example: you have a field with ID=1 which is named Phone
+ *   $lang['1_Phone'] = 'Phone';
+ *   $lang['1_Description'] = 'Phone Number';
+ *
+ ***************************************************************************/
+
+/*
+$lang['_'] = '';
+$lang['_Description'] = '';
+*/
+
+/*
+//An Australian Example for Profile Fields
+$lang['1_Phone'] = 'Phone';
+$lang['1_Description'] = 'Phone Number';
+$lang['2_Team'] = 'Team';
+$lang['2_Description'] = 'Australian Team';
+$lang['2_Juve'] = 'Wallabies';
+$lang['2_Milan'] = 'Kangaroos';
+$lang['2_Altro'] = 'Other';
+*/
+
 ?>

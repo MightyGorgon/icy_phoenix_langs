@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id: lang_main_cback_ctracker.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -10,17 +10,24 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
+* @Extra credits for this file
+* Christian Knerr (cback) - (www.cback.de)
+* Lopalong
 *
 */
 
 /**
+* English Language File for the CBACK Cracker Tracker
 *
-* @Extra credits for this file
-* Lopalong
+* @author Christian Knerr (cback)
+* @translator Marc Renninger (mc-dragon)
+* @package ctracker
+* @version 5.0.0
+* @since 21.07.2006 - 17:26:28
+* @copyright (c) 2006 www.cback.de
 *
 */
+
 
 if (!defined('IN_ICYPHOENIX'))
 {
@@ -62,10 +69,20 @@ $lang = array_merge($lang, array (
   'ctracker_error_updating_userdata' => 'CrackerTracker couldn\'t run the database operation in the Usertable.',
   'ctracker_error_database_op' => 'CrackerTracker couldn\'t run the database operation correctly.',
   'ctracker_message_dialog_title' => 'CBACK CrackerTracker Professional',
+
+
+/*
+* Language Strings used for the footer itself
+*/
   'ctracker_fdisplay_imgdesc' => 'Biztonságos oldal',
   'ctracker_fdisplay_n' => '<a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a> <a href="http://www.cback.de" target="_blank">Biztonság</a>.',
   'ctracker_fdisplay_c' => 'A <a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a><br /><b>%s</b> támadást kivédett.',
   'ctracker_fdisplay_g' => '<b>%s</b> támadás kivédve',
+
+
+/*
+* Language Strings for the class_ct_database.php
+*/
   'ctracker_error_loading_config' => 'The CrackerTracker Configuration couldn\'t be loaded from the database. Have you run the installation script and edited the file "includes/constants.php" correctly?',
   'ctracker_error_updating_config' => 'The CrackerTracker Configuration couldn\'t be updated. Have you run the installation script and edited the file "includes/constants.php" correctly?',
   'ctracker_error_loading_blocklist' => 'The CrackerTracker Blocklist couldn\'t be loaded from the Database. Have you run the installation script and edited the file "includes/constants.php" correctly?',
@@ -73,10 +90,13 @@ $lang = array_merge($lang, array (
   'ctracker_error_delete_blocklist' => 'The data couldn\'t be removed from the CrackerTracker Blocklist. Have you run the installation script and edited the file "includes/constants.php" correctly?',
   'ctracker_error_login_history' => 'There has been an error with the database operations inside CrackerTracker Login History. Have you run the installation script and edited the file "includes/constants.php" correctly?',
   'ctracker_error_del_login_history' => 'The CrackerTracker Login History Table couldn\'t be emptied.',
-  'ctracker_info_search_time' => 'For safety reasons the search is only possible %s times within %s seconds. If this number was exceeded, you must now wait <span id="waittime">%s</span> seconds, until you can implement the next search. <script type="text/javascript"><!-- 
- var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout("newoutput(" + i + ")", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById("waittime").innerHTML = "0"; } else { document.getElementById("waittime").innerHTML = (waitt/1000) - waitcounter; } } //--></script>',
-  'ctracker_info_regist_time' => 'For safety reasons, registration is only possible every %s seconds. If this number was exceeded, you must now wait <span id="waittime">%s</span> seconds, before you can submit a new registration. <script type="text/javascript"><!-- 
- var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout("newoutput(" + i + ")", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById("waittime").innerHTML = "0"; } else { document.getElementById("waittime").innerHTML = (waitt/1000) - waitcounter; } } //--></script>',
+
+
+/*
+* Language Strings used in class_ct_userfunctions.php
+*/
+  'ctracker_info_search_time' => 'For safety reasons the search is only possible %s times within %s seconds. If this number was exceeded, you must now wait <span id=\"waittime\">%s</span> seconds, until you can implement the next search. <script type=\"text/javascript\"><!-- \n var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } } //--></script>',
+  'ctracker_info_regist_time' => 'For safety reasons, registration is only possible every %s seconds. If this number was exceeded, you must now wait <span id=\"waittime\">%s</span> seconds, before you can submit a new registration. <script type=\"text/javascript\"><!-- \n var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } } //--></script>',
   'ctracker_info_regip_double' => 'There has already been a registration from this IP-Address. From security reasons only one registration from the same IP address is possible.',
   'ctracker_info_profile_spammer' => 'This registration was identified as a spam account! If you think that this was in error, please contact the Administrator of this forum.',
   'ctracker_info_password_minlng' => 'The Administrator requires that the password must contain at minimum <b>%s</b> characters. Your chosen password has only <b>%s</b> characters. Please go back and enter a new password.',
@@ -85,21 +105,37 @@ $lang = array_merge($lang, array (
   'ctracker_info_password_cmplx_2' => 'Kisbetûk',
   'ctracker_info_password_cmplx_3' => 'Nagybetûk',
   'ctracker_info_password_cmplx_4' => 'Speciális karakterek',
-  'ctracker_info_pw_expired' => 'Az adminisztrátor elrendezése szerint egy jelszó élettartama <b>%s na</b>. Biztonsági okokból ajánlott, hogy azonnal változtasd meg a jelszavad. (<a href="PROFILE_MG?mode=editprofile&amp;POST_USERS_URL=%d">Profile</a>)',
+  'ctracker_info_pw_expired' => 'Az adminisztrátor elrendezése szerint egy jelszó élettartama <b>%s na</b>. Biztonsági okokból ajánlott, hogy azonnal változtasd meg a jelszavad. (<a href="' . PROFILE_MG . '?mode=editprofile&amp;' . POST_USERS_URL . '=%d">Profile</a>)',
+
+/*
+* Language Strings used in ct_visual_confirm.php
+*/
   'ctracker_login_wrong' => 'A visszakapott képi megerõsítõ kód helytelen volt!',
   'ctracker_code_dbconn' => 'Couldn\'t load the Visual Confirmation Code from the database! If you have phpBB-Plus you must install the phpBB international modules for the Visual Confirmation. Please read the references to phpBB-Plus in the "add_ons" folder of the CrackerTracker MOD Package!',
   'ctracker_login_success' => 'A hozzáférésed ismét aktív.<br /><br />Kattints <a href="%s">IDE</a> az ismételt bejelentkezéshez.',
   'ctracker_code_count' => 'Elérted a Képi megerõsítés korlátját ebben a munkafolyamatban.',
+
+/*
+* Language Strings used in ctracker_login.php
+*/
   'ctracker_login_title' => 'CrackerTracker hozzáférés aktiválása',
   'ctracker_login_logged' => 'Bejelentkezett felhasználók nem férhetnek hozzá ehez az oldalhoz.',
   'ctracker_login_confim' => 'A hozzáféréseddel elérted a megengedett hibás bejelentkezések határát. Ezért a hozzáférésedet letiltottuk és aktiválnod kell képi megerõsítéssel.<br /><br />Kérlek add meg azt, amit a képen olvasol, és kattints az "Aktiválás" gombra. Ha helyes karaktereket adsz meg, akkor ismét próbálkozhatsz a bejelentkezéssel.',
   'ctracker_login_button' => 'Aktiválás',
+
+/*
+* Language Strings for IP Warning Engine
+*/
   'ctracker_ipwarn_info' => 'IP Range Scanning for your Account is <b>%s</b>',
   'ctracker_ipwarn_prof' => 'IP Range Scanner',
   'ctracker_ipwarn_pdes' => 'If activated, the IP Range Scanner checks the so-called IP Range for changes. If someone has logged into your account from another location you will get a short message (also if you are logged on from different locations).<br /> Please check the footer to see if the warning feature is still activated, as an aggressor could have deactivated this. Your Login remains active however, thus you still have the ability to make changes after the activation.',
   'ctracker_ipwarn_chng' => '<b>&raquo; ADVICE &laquo;</b><br />The IP Range for your account has changed. The actual Login took place from <b>%s</b>, the previous from <b>%s</b>. If you didn\'t log on from another location, then maybe an aggressor has used your account without authorisation!',
   'ctracker_ipwarn_welc' => '<b>&raquo; ADVICE &laquo;</b><br />The IP Range Scanner for your Account has not been initialised yet. This happens after two Logins. If you would like to initialise the Scanner now, then log in and out twice.',
-  'ctracker_ipwarn_send' => 'Beállítások elfogadása',
+  'ctracker_ipwarn_send' => 'beállítások elfogadása',
+
+/*
+* Language Strings for Login History
+*/
   'ctracker_lhistory_h' => 'Bejelentkezés története',
   'ctracker_lhistory_i' => 'Itt az utolsó <b>%s</b> bejelentkezésed IP címét láthatod, és ha feljegyezted te is a bejelentkezésedkor aktuális IP címedet, akkor tudod ellenõrizni, hogy rajtad kívül ki más használja a hozzáférésedet. Ha ismeretlen IP címet vagy idõt találsz ebben a listában, akkor nagy az esélye, hogy valaki megtudta a jelszavad, és azt a tudtodon kívül használja. Ilyenkor egyszerûen változtasd meg a jelszavad, és küldünk neked egy aktiváló email-t.',
   'ctracker_lhistory_h1' => 'Bejelentkezés dátuma és ideje',
@@ -107,6 +143,10 @@ $lang = array_merge($lang, array (
   'ctracker_lhistory_nav' => 'CrackerTracker bejelentkezés története',
   'ctracker_lhistory_err' => 'Muszáj bejelentkezned, hogy lásd a CrackerTracker adatait.',
   'ctracker_lhistory_off' => 'A bejelentkezés naplózását leállította az adminisztrátor',
+
+/*
+* Other Language Strings used in the Board itself
+*/
   'ctracker_gmb_link' => 'The Admin has written an important note to all users. This note can be seen here:<br /><br /><a href="%s">%s</a><br />',
   'ctracker_gmb_mark' => 'Mark Post Read',
   'ctracker_gmb_markip' => 'Remove tip',
@@ -123,5 +163,7 @@ $lang = array_merge($lang, array (
   'ctracker_vc_guest_post' => 'Visual Confirmation for Guests',
   'ctracker_vc_guest_expl' => 'Anti-Spam Security: Please enter the following code before submitting your post.',
   'ctracker_dbg_mode' => '<b>CrackerTracker runs on DEBUG MODE. This should not be a permanent condition.<br />Please set back to normal mode as soon as possible.<br /><br /><u>This message cannot be deleted!</u></b>',
-))
+  )
+);
+
 ?>
