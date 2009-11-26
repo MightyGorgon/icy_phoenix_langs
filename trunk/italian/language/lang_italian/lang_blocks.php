@@ -19,6 +19,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang['Title_ads'] = 'Annunci';
+$lang['Title_ads_tla'] = 'Annunci';
 $lang['Title_album'] = 'Album';
 $lang['Title_birthdays'] = 'Compleanni';
 $lang['Title_center_downloads'] = 'Download';
@@ -345,6 +346,10 @@ $lang['cms_var_md_search_option_text'] = 'Descrizione Campo Ricerca';
 $lang['cms_var_md_search_option_text_explain'] = 'Descrizione campo ricerca';
 $lang['cms_var_md_show_avatars'] = 'Mostra Avatars';
 $lang['cms_var_md_show_avatars_explain'] = '';
+$lang['cms_var_md_tla_inventory_key'] = 'Text Link Ads Inventory Key';
+$lang['cms_var_md_tla_inventory_key_explain'] = 'Inserisci la &quot;Inventory Key&quot; per questa pagina';
+$lang['cms_var_md_tla_xml_filename'] = 'Text Link Ads File XML';
+$lang['cms_var_md_tla_xml_filename_explain'] = 'Inserisci il nome del file XML che hai creato nella cartella <b>files/</b> (esempio: <i>local_XXXXXX.xml</i>)';
 $lang['cms_var_md_total_articles'] = 'Numero di articoli recenti';
 $lang['cms_var_md_total_articles_explain'] = 'Inserisci il numero di articoli da mostrare';
 $lang['cms_var_md_total_poster'] = 'Numero Top Posters';

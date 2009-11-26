@@ -204,6 +204,12 @@ if ($lang_extend_admin)
 	$lang['IP_no_bump_explain'] = 'Abilitando questa opzione gli utenti che hanno inviato l\'ultimo messaggio in un argomento non saranno in grado di inviare nuovi messaggi a meno che non siano passate 24 ore dal loro ultimo messaggio o finch&eacute; qualcun altro non risponda (non si applica agli amministratori)';
 	$lang['MODS_ALLOWED'] = 'Consenti Moderatori';
 
+	$lang['IP_display_tags_box'] = 'Abilita Tags Per Gli Argomenti';
+	$lang['IP_display_tags_box_explain'] = 'Attivando questa opzione sar&agrave; possibile inserire e visualizzare Tags per gli argomenti del forum. I Tags possono essere molto utili per l\'indicizzazione, ma possono essere anche molto dannosi se non utilizzati correttamente: per questo l\'immissione dei Tags &egrave; riservata agli amministratori o ai moderatori (se viene attivatata l\'opzione sottostante).';
+
+	$lang['IP_allow_moderators_edit_tags'] = 'Consenti Inserimento / Modifica Tags Ai Moderatori';
+	$lang['IP_allow_moderators_edit_tags_explain'] = 'Attivando questa opzione anche i moderatori saranno in grado di inserire / modificare i Tags per gli argomenti';
+
 	$lang['IP_show_topic_description'] = 'Mostra Descrizione Argomento';
 	$lang['IP_show_topic_description_explain'] = 'Attivando questa opzione sar&agrave; possibile inserire e visualizzare la descrizione degli argomenti';
 
@@ -242,6 +248,9 @@ if ($lang_extend_admin)
 
 	$lang['IP_allow_html_only_for_admins'] = 'Abilita codici HTML per gli Amministratori';
 	$lang['IP_allow_html_only_for_admins_explain'] = 'Abilitando questa opzione gli amministratori saranno in grado di utilizzare codici HTML nei messaggi del forum. <b>Attenzione</b>: questa funzione (ove non utilizzata correttamente) pu&ograve; causare problemi di sicurezza o errata visualizzazione di pagine.';
+
+	$lang['IP_enable_custom_bbcodes'] = 'Abilita i BBCode personalizzati';
+	$lang['IP_enable_custom_bbcodes_explain'] = 'Abilitando questa opzione verranno processati anche i BBCode personalizzati creati in ACP.';
 
 	$lang['IP_allow_all_bbcode'] = 'Abilita tutti i BBCode';
 	$lang['IP_allow_all_bbcode_explain'] = 'Abilitando questa opzione verranno processati tutti i BBCode nelle firme ed in altre pagine in cui normalmente alcuni BBCode sono disattivati. I BBCode che normalmente rientrano in questa categoria sono quelli relativi alle immagini e alle formattazioni che possono gravare maggiormente sul server. Ricorda che abilitando questa opzione alcune firme potrebbero risultare eccessivamente grandi.';

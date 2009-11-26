@@ -397,6 +397,10 @@ $lang['Move_down'] = 'Sposta gi&ugrave;';
 $lang['Resync'] = 'Sincronizza';
 $lang['No_mode'] = 'Nessun mode impostato';
 $lang['Forum_edit_delete_explain'] = 'Il modulo qui sotto ti permette di personalizzare tutte le opzioni generali del Forum. Per la Configurazione degli Utenti e dei Forum usa i collegamenti appropriati nel pannello di sinistra';
+$lang['Forum_Expand'] = 'Espandi';
+$lang['Forum_Collapse'] = 'Comprimi';
+$lang['Forum_Expand_all'] = 'Espandi Tutti';
+$lang['Forum_Collapse_all'] = 'Comprimi Tutti';
 
 $lang['Move_contents'] = 'Sposta tutti i contenuti';
 $lang['Forum_delete'] = 'Cancella Forum';
@@ -2079,6 +2083,63 @@ $lang['TICKETS_DB_CLICK'] = 'Clicca %sQUI%s per tornare alle Categorie Email';
 $lang['FORUM_LIMIT_EDIT_TIME'] = 'Limitazione Temporale Modifica Messaggi';
 $lang['FORUM_LIMIT_EDIT_TIME_EXPLAIN'] = 'Abilitando questa opzione gli utenti potranno modificare i propri messaggi solo entro il numero di minuti stabilito nella configurazione messaggi di Icy Phoenix (ACP &raquo; Configurazione &raquo; Icy Phoenix &raquo; Messaggi)';
 
+$lang['BACK_TO_TOP'] = 'Torna Su';
+$lang['BACK_TO_PREV'] = 'Torna alla pagina precedente';
+
+// Custom BBCodes - BEGIN
+$lang['BBCODES_CUSTOM_BBCODES' = 'BBCode Personalizzati';
+$lang['BBCODES_CUSTOM_BBCODES_EXPLAIN' = 'In questa sezione puoi creare dei BBCodes personalizzati.';
+$lang['BBCODES_NO_BBCODES' = 'Nessun BBCode';
+$lang['BBCODES_NO_BBCODES_SEL' = 'Nessun BBCode selezionato';
+$lang['BBCODES_NO_BBCODES_INPUT' = 'Devi compilare almeno il Tag BBCode';
+$lang['BBCODES_DB_ADD' = 'Aggiungi BBCode';
+$lang['BBCODES_DB_ADDED' = 'BBCode aggiunto correttamente';
+$lang['BBCODES_DB_UPDATED' = 'BBCode aggiornato correttamente';
+$lang['BBCODES_DB_DELETED' = 'BBCode eliminato correttamente';
+$lang['BBCODES_DB_CLICK'] = 'Clicca %sQUI%s per tornare ai BBCode Personalizzati';
+
+$lang['BBCODE_ADDED'] = 'BBCode aggiunto correttamente.';
+$lang['BBCODE_EDITED'] = 'BBCode aggiornato correttamente.';
+$lang['BBCODE_NOT_EXIST'] = 'Il BBCode selezionato non esiste.';
+$lang['BBCODE_HELPLINE'] = 'Suggerimento';
+$lang['BBCODE_HELPLINE_EXPLAIN'] = 'Questo campo contiene il suggerimento che si attiva quando si punta il mouse sul pulsante.';
+$lang['BBCODE_HELPLINE_TEXT'] = 'Testo suggerimento';
+$lang['BBCODE_HELPLINE_TOO_LONG'] = 'Il testo del suggerimento &egrave; troppo lungo.';
+
+$lang['BBCODE_INVALID_TAG_NAME'] = 'Il nome utilizzato per il BBCode esiste gi&agrave;.';
+$lang['BBCODE_INVALID'] = 'Il BBCode &egrave; stato costruito in maniera non valida.';
+$lang['BBCODE_OPEN_ENDED_TAG'] = 'Il BBCode deve contenere sia il tag di apertura che di chiusura.';
+$lang['BBCODE_TAG'] = 'Tag';
+$lang['BBCODE_TAG_TOO_LONG'] = 'Il nome scelto per il tag &egrave; troppo lungo.';
+$lang['BBCODE_TAG_DEF_TOO_LONG'] = 'La definizione del tag &egrave; troppo lunga, per favore utilizzare un numero inferiore di caratteri.';
+$lang['BBCODE_USAGE'] = 'Utilizzo BBCode';
+$lang['BBCODE_USAGE_EXAMPLE'] = '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]';
+$lang['BBCODE_USAGE_EXPLAIN'] = 'Utilizzo BBCode. Sostituisci le variabili di input con il token corrispondente (%sleggi sotto%s).';
+
+$lang['EXAMPLE'] = 'Esempio:';
+$lang['EXAMPLES'] = 'Esempi:';
+
+$lang['HTML_REPLACEMENT'] = 'Sostituzione HTML';
+$lang['HTML_REPLACEMENT_EXAMPLE'] = '&lt;span style=&quot;background-color: {COLOR};&quot;&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style=&quot;font-family: {SIMPLETEXT1};&quot;&gt;{SIMPLETEXT2}&lt;/span&gt;';
+$lang['HTML_REPLACEMENT_EXPLAIN'] = 'Sostituzione HTML. Non dimenticare di reinserire tutti i token specificati in alto!';
+
+$lang['TOKEN'] = 'Token';
+$lang['TOKENS'] = 'Tokens';
+$lang['TOKENS_EXPLAIN'] = 'I Token sono dei segnaposto per le variabili di input. L\'input verr&agrave; convalidato con le definizioni corrispondenti. Se necessario, puoi inserire un numero per identificare diversi token dello stesso tipo, esempio {TEXT1}, {TEXT2}.<br /><br />Puoi anche utilizzare le variabili di lingua come token: {L_<em>&lt;STRINGA&gt;</em>} dove <em>&lt;STRINGA&gt;</em> &egrave; il nome della variabile di lingua che vuoi aggiungere. Per esempio, {L_WROTE} verr&agrave; visualizzato come &quot;ha scritto&quot; o verr&agrave; tradotto in base alla lingua dell\'utente.<br /><br /><strong>Soltanto i token indicati qui in basso possono essere utilizzati all\'interno dei BBCode personalizzati.</strong>';
+$lang['TOKEN_DEFINITION'] = 'Definizione token';
+$lang['TOO_MANY_BBCODES'] = 'Non puoi creare altri BBCode. Per favore rimuovi uno o pi&ugrave; BBCode e riprova.';
+
+$lang['BBCODES_TOKENS_DESCRIPTION'] = '
+<b>TEXT</b> &raquo; Qualunque carattere di testo. Non &egrave; consigliato utilizzare questo token in tag HTML (utilizza IDENTIFIER o SIMPLETEXT piuttosto)<br />
+<b>SIMPLETEXT</b> &raquo; Caratteri (A-Z), numeri, spazio, virgola, punto, segno meno, segno pi&ugrave;, trattino ed underscore<br />
+<b>IDENTIFIER</b> &raquo; Caratteri (A-Z), numeri, trattino ed underscore<br />
+<b>NUMBER</b> &raquo; Numeri<br />
+<b>EMAIL</b> &raquo; Un valido indirizzo e-mail<br />
+<b>URL</b> &raquo; Un URL valido (http, ftp, etc... non pu&ograve; essere utilizzato per exploits javascript): se non viene specificato il protocollo verr&agrave; inserito in automatico &quot;http://&quot;<br />
+<b>LOCAL_URL</b> &raquo; Un URL locale: l\'URL deve essere relativo al percorso principale del sito e non pu&ograve; contenere nome server o protocollo<br />
+<b>COLOR</b> &raquo; Colore in codice HTML, si pu&ograve; utlizzare sia la forma numerica <samp>#ff1234</samp> che <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">parola chiave dei colori CSS</a> (ad esempio <samp>fuchsia</samp> o <samp>InactiveBorder</samp>)';
+// Custom BBCodes - END
+
 /*
 $lang['MG_SW_'] = '';
 */
@@ -2121,6 +2182,7 @@ $lang['180_Word_Censor'] = 'Censura';													// admin_words.php
 $lang['200_Notepad'] = 'Blocco Note';													// admin_notepad.php
 $lang['210_Help_Desk'] = 'Help Desk';													// admin_helpdesk.php
 $lang['220_Tickets_Emails'] = 'Categorie Email';							// admin_tickets.php
+$lang['230_Custom_BBCodes'] = 'BBCodes Personalizzati';				// admin_bbcodes.php
 $lang['240_Replace_title'] = 'Sostituisci In Posts';					// admin_replace.php
 
 // Forum

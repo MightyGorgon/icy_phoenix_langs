@@ -2498,6 +2498,7 @@ $lang['TOPIC_TAGS'] = 'Tags E Parole Chiave';
 $lang['TOPIC_TAGS_EXPLAIN'] = 'Inserire ogni tag separato da virgola';
 $lang['TAG_COUNT'] = 'Contatore';
 $lang['TAG_TEXT'] = 'Tag';
+$lang['TAG_RESULTS'] = 'Tag selezionato: <b>%s</b>';
 $lang['TAGS_NO_TAGS'] = 'Nessun tag creato';
 $lang['TAGS_NO_TAG'] = 'Il tag richiesto non esiste';
 

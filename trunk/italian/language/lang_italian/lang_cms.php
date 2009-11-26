@@ -177,6 +177,7 @@ $lang['cms_pos_ghleft'] = 'Header Centro (Sinistra)';
 $lang['cms_pos_ghright'] = 'Header Centro (Destra)';
 
 $lang['cms_block_ads'] = 'Annunci';
+$lang['cms_block_ads_tla'] = 'Annunci TLA';
 $lang['cms_block_ajax_shoutbox'] = 'Chat AJAX';
 $lang['cms_block_album'] = 'Album';
 $lang['cms_block_birthdays'] = 'Compleanni';
@@ -365,20 +366,24 @@ $lang['CMS_LINKS'] = 'Links';
 $lang['CMS_SETTINGS'] = 'Impostazioni';
 $lang['CMS_ADV_USERSLIST'] = 'CMS Utenti';
 $lang['CMS_ADV_CUSTOM_PAGES'] = 'Pagine Light';
-$lang['CMS_ADV_DEFAULT_TEMPLATE'] = 'Default';
-$lang['CMS_ADV_DEFAULT_TEMPLATE_OPTION'] = '-- Template di default --';
+$lang['CMS_ADV_DEFAULT_TEMPLATE'] = 'Predefinito';
+$lang['CMS_ADV_DEFAULT_TEMPLATE_OPTION'] = '-- Template predefinito --';
 
 $lang['BLOCK_MOVE'] = 'Sposta Blocco';
-$lang['TURN_ACTIVE'] = 'Attiva/Disattiva Blocco';
-$lang['TURN_BORDER'] = 'Attiva/Disattiva Bordi';
-$lang['TURN_TITLEBAR'] = 'Attiva/Disattiva Barra del Titolo';
-$lang['TURN_LOCAL'] = 'Attiva/Disattiva Localizzazione Titolo';
-$lang['TURN_BACKGROUND'] = 'Attiva/Disattiva Sfondo';
+$lang['TURN_ACTIVE'] = 'Attiva / Disattiva Blocco';
+$lang['TURN_BORDER'] = 'Attiva / Disattiva Bordi';
+$lang['TURN_TITLEBAR'] = 'Attiva / Disattiva Barra del Titolo';
+$lang['TURN_LOCAL'] = 'Attiva / Disattiva Localizzazione Titolo';
+$lang['TURN_BACKGROUND'] = 'Attiva / Disattiva Sfondo';
 
 $lang['BLOCKS_POSITION_SAVE'] = 'Salva Posizione Blocchi';
 $lang['BLOCKS_POSITION_UPDATED'] = 'Posizione blocchi salvata con successo';
 
 $lang['INVALID_BLOCKS'] = 'Posizione blocchi non valida';
+
+$lang['CMS_BLOCK_CONFIG'] = 'Configurazione Blocco';
+$lang['CMS_BLOCK_CONFIG_EDIT'] = 'Modifica Configurazione';
+$lang['CMS_BLOCK_CONFIG_NO_VARS'] = 'Nessuna variabile blocco da configurare';
 // CMS - ADV - END
 
 ?>
