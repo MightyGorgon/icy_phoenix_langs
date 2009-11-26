@@ -2088,7 +2088,7 @@ $lang['BACK_TO_PREV'] = 'Torna alla pagina precedente';
 
 // Custom BBCodes - BEGIN
 $lang['BBCODES_CUSTOM_BBCODES' = 'BBCode Personalizzati';
-$lang['BBCODES_CUSTOM_BBCODES_EXPLAIN' = 'In questa sezione puoi creare dei BBCodes personalizzati.';
+$lang['BBCODES_CUSTOM_BBCODES_EXPLAIN' = 'In questa sezione puoi creare dei BBCodes personalizzati. Per poter utilizzare questi BBCode devi attivare <b>Abilita i BBCode personalizzati</b> in <b>Configurazione &raquo; Icy Phoenix &raquo; Messaggi</b>.';
 $lang['BBCODES_NO_BBCODES' = 'Nessun BBCode';
 $lang['BBCODES_NO_BBCODES_SEL' = 'Nessun BBCode selezionato';
 $lang['BBCODES_NO_BBCODES_INPUT' = 'Devi compilare almeno il Tag BBCode';
