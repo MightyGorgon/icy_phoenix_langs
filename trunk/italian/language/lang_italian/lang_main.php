@@ -2506,6 +2506,10 @@ $lang['SQL_ERROR_OCCURRED'] = 'Questa pagina contiene degli errori SQL. Per cort
 
 $lang['PLUGIN_DISABLED'] = 'Questa funzionalit&agrave; &egrave; disattivata.';
 
+$lang['AJAX_SHOUTBOX'] = 'Chat';
+$lang['AJAX_SHOUTBOX_PVT'] = 'Chat Privata';
+$lang['AJAX_SHOUTBOX_PVT_LINK'] = 'Chat privata con questo utente';
+
 //$lang[''] = '';
 
 //====================================================
