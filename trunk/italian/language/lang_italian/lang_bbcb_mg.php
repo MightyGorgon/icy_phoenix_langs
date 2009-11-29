@@ -18,184 +18,188 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang['bbcb_mg_lang'] = 'lang_italian';
+$lang = array_merge($lang, array(
+	'bbcb_mg_lang' => 'lang_italian',
 
-$lang['wrote'] = 'ha scritto';
-$lang['Quote'] = 'Citazione';
-$lang['Code'] = 'Codice';
-$lang['Hide'] = 'Nascondi';
-$lang['Show'] = 'Mostra';
-$lang['Download'] = 'Scarica';
-$lang['Syntax'] = 'Sintassi';
-$lang['Select'] = 'Seleziona';
-$lang['ReviewPost'] = 'Visualizza Messaggio';
-$lang['OffTopic'] = 'Off Topic';
-$lang['OpenNewWindow'] = 'Clicca sull\'immagine per aprirla in una nuova finestra';
-$lang['C++'] = 'C++';
-$lang['PhpCode'] = 'Php';
+	'wrote' => 'ha scritto',
+	'Quote' => 'Citazione',
+	'Code' => 'Codice',
+	'Hide' => 'Nascondi',
+	'Show' => 'Mostra',
+	'Download' => 'Scarica',
+	'Syntax' => 'Sintassi',
+	'Select' => 'Seleziona',
+	'ReviewPost' => 'Visualizza Messaggio',
+	'OffTopic' => 'Off Topic',
+	'OpenNewWindow' => 'Clicca sull\'immagine per aprirla in una nuova finestra',
+	'C++' => 'C++',
+	'PhpCode' => 'Php',
 
-$lang['Close_Tags'] = 'Chiudi Tags';
-$lang['Styles_tip'] = 'Suggerimento: gli stili possono essere applicati anche al testo selezionato';
-// Smiley Creator
-$lang['bbcode_sc_help'] = 'Smiley Creator: [schild=1]Testo[/schild] Crea uno Smiley con il tuo testo';
-$lang['Smiley_creator'] = 'Smiley Creator';
-$lang['SC_shieldtext'] = 'Testo Smiley';
-$lang['SC_fontcolor'] = 'Colore Testo';
-$lang['SC_shadowcolor'] = 'Colore Ombreggiatura';
-$lang['SC_shieldshadow'] = 'Ombreggiatura';
-$lang['SC_shieldshadow_on'] = 'Attiva';
-$lang['SC_shieldshadow_off'] = 'Disattiva';
-$lang['SC_smiliechooser'] = 'Scelta Smiley';
-$lang['SC_random_smilie'] = 'Smiley Casuale';
-$lang['SC_default_smilie'] = 'Smiley Standard';
-$lang['SC_create_smilie'] = 'Crea';
-$lang['SC_stop_creating'] = 'Fine creazione';
-$lang['SC_error'] = 'Ecco il tuo Smiley - hai dimenticato di inserire il testo...';
-$lang['SC_another_shield'] = 'Vuoi creare un altro Smiley?';
-$lang['SC_notext_error'] = 'Non si possono creare Smileys senza testo';
+	'Close_Tags' => 'Chiudi Tags',
+	'Styles_tip' => 'Suggerimento: gli stili possono essere applicati anche al testo selezionato',
 
-$lang['bbcode_b_help'] = 'Grassetto: [b]testo[/b]  (alt+b)';
-$lang['bbcode_i_help'] = 'Corsivo: [i]testo[/i]  (alt+i)';
-$lang['bbcode_u_help'] = 'Sottolineato: [u]testo[/u]  (alt+u)';
-$lang['bbcode_q_help'] = 'Citazione: [quote]testo[/quote]  (alt+q)';
-$lang['bbcode_c_help'] = 'Codice: [code]codice[/code]  (alt+c)';
-$lang['bbcode_l_help'] = 'Lista: [list]testo[/list]  (alt+l)';
-$lang['bbcode_o_help'] = 'Lista ordinata: [list=]testo[/list]  (alt+o)';
-$lang['bbcode_p_help'] = 'Inserisci immagine: [img]http://image_url[/img]  (alt+p)';
-$lang['bbcode_w_help'] = 'Inserisci URL: [url]http://url[/url] o [url=http://url]testo URL[/url]  (alt+w)';
-$lang['bbcode_a_help'] = 'Chiudi tutti i BBCode tags aperti';
-$lang['bbcode_s_help'] = 'Colore font: [color=red]testo[/color] oppure [color=#FF0000]testo[/color]';
-$lang['bbcode_f_help'] = 'Dimensione font: [size=x-small]testo piccolo[/size]';
+	// Smiley Creator
+	'bbcode_sc_help' => 'Smiley Creator: [schild=1]Testo[/schild] Crea uno Smiley con il tuo testo',
+	'Smiley_creator' => 'Smiley Creator',
+	'SC_shieldtext' => 'Testo Smiley',
+	'SC_fontcolor' => 'Colore Testo',
+	'SC_shadowcolor' => 'Colore Ombreggiatura',
+	'SC_shieldshadow' => 'Ombreggiatura',
+	'SC_shieldshadow_on' => 'Attiva',
+	'SC_shieldshadow_off' => 'Disattiva',
+	'SC_smiliechooser' => 'Scelta Smiley',
+	'SC_random_smilie' => 'Smiley Casuale',
+	'SC_default_smilie' => 'Smiley Standard',
+	'SC_create_smilie' => 'Crea',
+	'SC_stop_creating' => 'Fine creazione',
+	'SC_error' => 'Ecco il tuo Smiley - hai dimenticato di inserire il testo...',
+	'SC_another_shield' => 'Vuoi creare un altro Smiley?',
+	'SC_notext_error' => 'Non si possono creare Smileys senza testo',
 
-$lang['Font_color'] = 'Colore Carattere';
+	'bbcode_b_help' => 'Grassetto: [b]testo[/b]  (alt+b)',
+	'bbcode_i_help' => 'Corsivo: [i]testo[/i]  (alt+i)',
+	'bbcode_u_help' => 'Sottolineato: [u]testo[/u]  (alt+u)',
+	'bbcode_q_help' => 'Citazione: [quote]testo[/quote]  (alt+q)',
+	'bbcode_c_help' => 'Codice: [code]codice[/code]  (alt+c)',
+	'bbcode_l_help' => 'Lista: [list]testo[/list]  (alt+l)',
+	'bbcode_o_help' => 'Lista ordinata: [list=]testo[/list]  (alt+o)',
+	'bbcode_p_help' => 'Inserisci immagine: [img]http://image_url[/img]  (alt+p)',
+	'bbcode_w_help' => 'Inserisci URL: [url]http://url[/url] o [url=http://url]testo URL[/url]  (alt+w)',
+	'bbcode_a_help' => 'Chiudi tutti i BBCode tags aperti',
+	'bbcode_s_help' => 'Colore font: [color=red]testo[/color] oppure [color=#FF0000]testo[/color]',
+	'bbcode_f_help' => 'Dimensione font: [size=x-small]testo piccolo[/size]',
 
-$lang['color_default'] = 'Default';
-$lang['color_dark_red'] = 'Rosso Scuro';
-$lang['color_red'] = 'Rosso';
-$lang['color_orange'] = 'Arancione';
-$lang['color_brown'] = 'Marrone';
-$lang['color_yellow'] = 'Giallo';
-$lang['color_green'] = 'Verde';
-$lang['color_olive'] = 'Oliva';
-$lang['color_cyan'] = 'Azzurro';
-$lang['color_blue'] = 'Blu';
-$lang['color_dark_blue'] = 'Blu Scuro';
-$lang['color_indigo'] = 'Violetto';
-$lang['color_violet'] = 'Viola';
-$lang['color_white'] = 'Bianco';
-$lang['color_black'] = 'Nero';
+	'Font_color' => 'Colore Carattere',
 
-$lang['color_cadet_blue'] = 'Blue Cadetto';
-$lang['color_coral'] = 'Corallo';
-$lang['color_crimson'] = 'Crimson';
-$lang['color_dark_grey'] = 'Grigio Scuro';
-$lang['color_dark_orchid'] = 'Orchid';
-$lang['color_gold'] = 'Oro';
-$lang['color_gray'] = 'Grigio';
-$lang['color_light_blue'] = 'Blue Chiaro';
-$lang['color_light_cyan'] = 'Azzurro Chiaro';
-$lang['color_light_green'] = 'Verde Chiaro';
-$lang['color_light_grey'] = 'Grigio Chiaro';
-$lang['color_light_orange'] = 'Arancione Chiaro';
-$lang['color_peach'] = 'Pesca';
-$lang['color_power_orange'] = 'Arancione Potente';
-$lang['color_sea_green'] = 'Verde Acqua';
-$lang['color_silver'] = 'Argento';
-$lang['color_tomato'] = 'Pomodoro';
-$lang['color_turquoise'] = 'Turchese';
-$lang['color_chocolate'] = 'Cioccolato';
-$lang['color_deepskyblue'] = 'Blu Cielo Profondo';
-$lang['color_midnightblue'] = 'Blu Mezzanotte';
-$lang['color_darkgreen'] = 'Verde Scuro';
+	'color_default' => 'Default',
+	'color_dark_red' => 'Rosso Scuro',
+	'color_red' => 'Rosso',
+	'color_orange' => 'Arancione',
+	'color_brown' => 'Marrone',
+	'color_yellow' => 'Giallo',
+	'color_green' => 'Verde',
+	'color_olive' => 'Oliva',
+	'color_cyan' => 'Azzurro',
+	'color_blue' => 'Blu',
+	'color_dark_blue' => 'Blu Scuro',
+	'color_indigo' => 'Violetto',
+	'color_violet' => 'Viola',
+	'color_white' => 'Bianco',
+	'color_black' => 'Nero',
 
-$lang['Font_size'] = 'Dimensione Font';
-$lang['font_tiny'] = 'Minuscolo';
-$lang['font_small'] = 'Piccolo';
-$lang['font_medium'] = 'Medio';
-$lang['font_normal'] = 'Normale';
-$lang['font_large'] = 'Grande';
-$lang['font_huge'] = 'Enorme';
-$lang['font_xl'] = 'Extra Large';
+	'color_cadet_blue' => 'Blue Cadetto',
+	'color_coral' => 'Corallo',
+	'color_crimson' => 'Crimson',
+	'color_dark_grey' => 'Grigio Scuro',
+	'color_dark_orchid' => 'Orchid',
+	'color_gold' => 'Oro',
+	'color_gray' => 'Grigio',
+	'color_light_blue' => 'Blue Chiaro',
+	'color_light_cyan' => 'Azzurro Chiaro',
+	'color_light_green' => 'Verde Chiaro',
+	'color_light_grey' => 'Grigio Chiaro',
+	'color_light_orange' => 'Arancione Chiaro',
+	'color_peach' => 'Pesca',
+	'color_power_orange' => 'Arancione Potente',
+	'color_sea_green' => 'Verde Acqua',
+	'color_silver' => 'Argento',
+	'color_tomato' => 'Pomodoro',
+	'color_turquoise' => 'Turchese',
+	'color_chocolate' => 'Cioccolato',
+	'color_deepskyblue' => 'Blu Cielo Profondo',
+	'color_midnightblue' => 'Blu Mezzanotte',
+	'color_darkgreen' => 'Verde Scuro',
 
-// Font Type
-$lang['Font_Type'] = 'Font';
-$lang['Font_Arial'] = 'Arial';
-$lang['Font_Arial_black'] = 'Arial Black';
-$lang['Font_Comic_sans_ms'] = 'Comic Sans MS';
-$lang['Font_Courier_new'] = 'Courier New';
-$lang['Font_Impact'] = 'Impact';
-$lang['Font_Lucida_console'] = 'Lucida Console';
-$lang['Font_Lucida_sans_unicode'] = 'Lucida Sans Unicode';
-$lang['Font_Microsoft_sans_serif'] = 'Microsoft Sans Serif';
-$lang['Font_Symbol'] = 'Symbol';
-$lang['Font_Tahoma'] = 'Tahoma';
-$lang['Font_Times_new_roman'] = 'Times New Roman';
-$lang['Font_Traditional_arabic'] = 'Traditional Arabic';
-$lang['Font_Trebuchet_ms'] = 'Trebuchet MS';
-$lang['Font_Verdana'] = 'Verdana';
-$lang['Font_Webdings'] = 'Webdings';
-$lang['Font_Wingdings'] = 'Wingdings';
+	'Font_size' => 'Dimensione Font',
+	'font_tiny' => 'Minuscolo',
+	'font_small' => 'Piccolo',
+	'font_medium' => 'Medio',
+	'font_normal' => 'Normale',
+	'font_large' => 'Grande',
+	'font_huge' => 'Enorme',
+	'font_xl' => 'Extra Large',
 
-// Alt Buttons
-$lang['bbcb_mg_colorpicker'] = 'Mappa Colori';
-$lang['bbcb_mg_j'] = 'Giustifica';
-$lang['bbcb_mg_r'] = 'Destra';
-$lang['bbcb_mg_c'] = 'Centro';
-$lang['bbcb_mg_l'] = 'Sinistra';
-$lang['bbcb_mg_b'] = 'Grassetto';
-$lang['bbcb_mg_i'] = 'Corsivo';
-$lang['bbcb_mg_u'] = 'Sottolineatura';
-$lang['bbcb_mg_s'] = 'Sbarratura';
-$lang['bbcb_mg_f'] = 'Dissolvenza';
-$lang['bbcb_mg_g'] = 'Gradiente';
-$lang['bbcb_mg_tab'] = 'Tabella';
-$lang['bbcb_mg_td'] = 'Cella';
-$lang['bbcb_mg_md'] = 'Scorrimento verso il basso';
-$lang['bbcb_mg_mu'] = 'Scorrimento verso l\'alto';
-$lang['bbcb_mg_ml'] = 'Scorrimento verso sinistra';
-$lang['bbcb_mg_mr'] = 'Scorrimento verso destra';
-$lang['bbcb_mg_code'] = 'Codice';
-$lang['bbcb_mg_phpbbmod'] = 'phpBB Mod Template';
-$lang['bbcb_mg_quote'] = 'Citazione';
-$lang['bbcb_mg_spoil'] = 'Spoiler';
-$lang['bbcb_mg_highlight'] = 'Evidenzia';
-$lang['bbcb_mg_url'] = 'Url';
-$lang['bbcb_mg_eml'] = 'Email';
-$lang['bbcb_mg_img'] = 'Immagine';
-$lang['bbcb_mg_imgl'] = 'Immagine SX';
-$lang['bbcb_mg_imgr'] = 'Immagine DX';
-$lang['bbcb_mg_albumimg'] = 'Immagine Album';
-$lang['bbcb_mg_flsh'] = 'Flash';
-$lang['bbcb_mg_vid'] = 'Video';
-$lang['bbcb_mg_gvid'] = 'Google Video';
-$lang['bbcb_mg_youtube'] = 'YouTube';
-$lang['bbcb_mg_ram'] = 'Real';
-$lang['bbcb_mg_strm'] = 'Stream audio';
-$lang['bbcb_mg_emff'] = 'EMFF (MP3)';
-$lang['bbcb_mg_lst'] = 'Lista';
-$lang['bbcb_mg_hr'] = 'Linea orizzontale';
-$lang['bbcb_mg_bullet'] = 'Punto Elenco';
-$lang['bbcb_mg_sup'] = 'Apice';
-$lang['bbcb_mg_sub'] = 'Pedice';
-$lang['bbcb_mg_lsto'] = 'Lista Ordinata';
-$lang['bbcb_mg_fade'] = 'Trasparenza';
-$lang['bbcb_mg_spoiler'] = 'Spoiler';
-$lang['bbcb_mg_cell'] = 'Cella';
-$lang['bbcb_mg_grad'] = 'Gradiente';
-$lang['bbcb_mg_upload_img'] = 'Carica un\'immagine su PostImage.org e l\'aggiunge al messaggio';
-$lang['bbcb_mg_posticyimage'] = 'Carica un\'immagine e l\'aggiunge al messaggio';
-$lang['bbcb_mg_albumimgl'] = 'Immagine Album SX';
-$lang['bbcb_mg_albumimgr'] = 'Immagine Album DX';
-$lang['bbcode_help'] = 'BBCode FAQ';
+	// Font Type
+	'Font_Type' => 'Font',
+	'Font_Arial' => 'Arial',
+	'Font_Arial_black' => 'Arial Black',
+	'Font_Comic_sans_ms' => 'Comic Sans MS',
+	'Font_Courier_new' => 'Courier New',
+	'Font_Impact' => 'Impact',
+	'Font_Lucida_console' => 'Lucida Console',
+	'Font_Lucida_sans_unicode' => 'Lucida Sans Unicode',
+	'Font_Microsoft_sans_serif' => 'Microsoft Sans Serif',
+	'Font_Symbol' => 'Symbol',
+	'Font_Tahoma' => 'Tahoma',
+	'Font_Times_new_roman' => 'Times New Roman',
+	'Font_Traditional_arabic' => 'Traditional Arabic',
+	'Font_Trebuchet_ms' => 'Trebuchet MS',
+	'Font_Verdana' => 'Verdana',
+	'Font_Webdings' => 'Webdings',
+	'Font_Wingdings' => 'Wingdings',
 
-$lang['xs_bbc_hide_message'] = 'Messaggio Nascosto';
-$lang['xs_bbc_hide_quote_message'] = 'Messaggio Nascosto Citato, rimane invisibile.';
-$lang['xs_bbc_hide_message_explain'] = 'Spiacenti, ma devi esere registrato e devi rispondere alla discussione per poter vedere questo messaggio.';
+	// Alt Buttons
+	'bbcb_mg_colorpicker' => 'Mappa Colori',
+	'bbcb_mg_j' => 'Giustifica',
+	'bbcb_mg_r' => 'Destra',
+	'bbcb_mg_c' => 'Centro',
+	'bbcb_mg_l' => 'Sinistra',
+	'bbcb_mg_b' => 'Grassetto',
+	'bbcb_mg_i' => 'Corsivo',
+	'bbcb_mg_u' => 'Sottolineatura',
+	'bbcb_mg_s' => 'Sbarratura',
+	'bbcb_mg_f' => 'Dissolvenza',
+	'bbcb_mg_g' => 'Gradiente',
+	'bbcb_mg_tab' => 'Tabella',
+	'bbcb_mg_td' => 'Cella',
+	'bbcb_mg_md' => 'Scorrimento verso il basso',
+	'bbcb_mg_mu' => 'Scorrimento verso l\'alto',
+	'bbcb_mg_ml' => 'Scorrimento verso sinistra',
+	'bbcb_mg_mr' => 'Scorrimento verso destra',
+	'bbcb_mg_code' => 'Codice',
+	'bbcb_mg_phpbbmod' => 'phpBB Mod Template',
+	'bbcb_mg_quote' => 'Citazione',
+	'bbcb_mg_spoil' => 'Spoiler',
+	'bbcb_mg_highlight' => 'Evidenzia',
+	'bbcb_mg_url' => 'Url',
+	'bbcb_mg_eml' => 'Email',
+	'bbcb_mg_img' => 'Immagine',
+	'bbcb_mg_imgl' => 'Immagine SX',
+	'bbcb_mg_imgr' => 'Immagine DX',
+	'bbcb_mg_albumimg' => 'Immagine Album',
+	'bbcb_mg_flsh' => 'Flash',
+	'bbcb_mg_vid' => 'Video',
+	'bbcb_mg_gvid' => 'Google Video',
+	'bbcb_mg_youtube' => 'YouTube',
+	'bbcb_mg_ram' => 'Real',
+	'bbcb_mg_strm' => 'Stream audio',
+	'bbcb_mg_emff' => 'EMFF (MP3)',
+	'bbcb_mg_lst' => 'Lista',
+	'bbcb_mg_hr' => 'Linea orizzontale',
+	'bbcb_mg_bullet' => 'Punto Elenco',
+	'bbcb_mg_sup' => 'Apice',
+	'bbcb_mg_sub' => 'Pedice',
+	'bbcb_mg_lsto' => 'Lista Ordinata',
+	'bbcb_mg_fade' => 'Trasparenza',
+	'bbcb_mg_spoiler' => 'Spoiler',
+	'bbcb_mg_cell' => 'Cella',
+	'bbcb_mg_grad' => 'Gradiente',
+	'bbcb_mg_upload_img' => 'Carica un\'immagine su PostImage.org e l\'aggiunge al messaggio',
+	'bbcb_mg_posticyimage' => 'Carica un\'immagine e l\'aggiunge al messaggio',
+	'bbcb_mg_albumimgl' => 'Immagine Album SX',
+	'bbcb_mg_albumimgr' => 'Immagine Album DX',
+	'bbcode_help' => 'BBCode FAQ',
 
-$lang['bbcode_url'] = 'Inserisci URL (es. http://www.icyphoenix.com)';
-$lang['bbcode_url_title'] = 'Inserisci il titolo del Link';
-$lang['bbcode_url_empty'] = 'Non hai inserito l\'URL';
-$lang['bbcode_url_errors'] = 'Errore!';
+	'xs_bbc_hide_message' => 'Messaggio Nascosto',
+	'xs_bbc_hide_quote_message' => 'Messaggio Nascosto Citato, rimane invisibile.',
+	'xs_bbc_hide_message_explain' => 'Spiacenti, ma devi esere registrato e devi rispondere alla discussione per poter vedere questo messaggio.',
+
+	'bbcode_url' => 'Inserisci URL (es. http://www.icyphoenix.com)',
+	'bbcode_url_title' => 'Inserisci il titolo del Link',
+	'bbcode_url_empty' => 'Non hai inserito l\'URL',
+	'bbcode_url_errors' => 'Errore!',
+	)
+);
 
 // JavaScript Text - BEGIN
 // Forms
