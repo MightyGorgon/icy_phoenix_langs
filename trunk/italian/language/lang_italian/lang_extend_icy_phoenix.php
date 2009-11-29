@@ -87,8 +87,8 @@ if ($lang_extend_admin)
 
 	$lang['IP_cms_dock'] = 'Mostra barra icone stile Apple Dock nel CMS';
 
-	$lang['IP_cms_style'] = 'CMS Stile Moderno';
-	$lang['IP_cms_style_explain'] = 'Lo stile moderno del CMS prevede dei menu in trasparenza in alto, mentre quello classico dei menu laterali';
+	$lang['IP_cms_style'] = 'Abilita AJAX nel CMS';
+	$lang['IP_cms_style_explain'] = 'Attivando questa opzione verranno attivate funzionalit&agrave; AJAX nel CMS';
 
 	$lang['IP_split_ga_ann_sticky'] = 'Divisione Discussioni per Tipo';
 	$lang['IP_split_ga_ann_sticky_explain'] = 'Da qui puoi scegliere come Dividere le Discussioni per tipo nella pagina viewforum';

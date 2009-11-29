@@ -381,6 +381,7 @@ $lang['BLOCKS_POSITION_UPDATED'] = 'Posizione blocchi salvata con successo';
 
 $lang['INVALID_BLOCKS'] = 'Posizione blocchi non valida';
 
+$lang['CMS_BLOCK_PAGE'] = 'Crea / Modifica Blocco';
 $lang['CMS_BLOCK_CONFIG'] = 'Configurazione Blocco';
 $lang['CMS_BLOCK_CONFIG_EDIT'] = 'Modifica Configurazione';
 $lang['CMS_BLOCK_CONFIG_NO_VARS'] = 'Nessuna variabile blocco da configurare';
