@@ -289,12 +289,12 @@ $lang = array_merge($lang, array(
 	'Acc_User' => 'Utente',
 	'Acc_Admin' => 'Amministratore',
 
-	'Abilities_settings' => 'Impostazioni base per Utenti e Forum',
+	'Abilities_settings' => 'Impostazioni base per Utenti e Sito',
 	'Max_poll_options' => 'Numero massimo di opzioni per sondaggio',
 	'Flood_Interval' => 'Intervallo del Flood',
 	'Flood_Interval_explain' => 'Numero di secondi di attesa tra ogni messaggio',
-	'Board_email_form' => 'Messaggistica email attraverso il forum',
-	'Board_email_form_explain' => 'Gli utenti possono inviarsi email utilizzando il forum',
+	'Board_email_form' => 'Messaggistica email attraverso il sito',
+	'Board_email_form_explain' => 'Gli utenti possono inviarsi email utilizzando il sito',
 	'Topics_per_page' => 'Argomenti per Pagina',
 	'Posts_per_page' => 'Messaggi per Pagina',
 	'Hot_threshold' => 'Numero di Messaggi per essere Popolare',
@@ -2055,6 +2055,18 @@ $lang = array_merge($lang, array(
 <b>COLOR</b> &raquo; Colore in codice HTML, si pu&ograve; utlizzare sia la forma numerica <samp>#ff1234</samp> che <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">parola chiave dei colori CSS</a> (ad esempio <samp>fuchsia</samp> o <samp>InactiveBorder</samp>)',
 // Custom BBCodes - END
 
+	// PLUGINS - BEGIN
+	'PLUGINS' => 'Plugins',
+	'PLUGINS_EXPLAIN' => 'In questa sezione &egrave; possibile attivare o disattivare plugin',
+	'PLUGINS_FOLDER' => 'Directory',
+	'PLUGINS_NAME' => 'Nome',
+	'PLUGINS_DESCRIPTION' => 'Descrizione',
+	'PLUGINS_UPDATE_CONFIG' => 'Aggiorna Configurazione',
+	'PLUGINS_CONFIG_UPDATED' => 'Configurazione plugins aggiornata correttamente. E\' necessario ricaricare l\'ACP (F5) per aggiornare i moduli.',
+	'PLUGINS_RETURN_CLICK' => 'Clicca %sQUI%s per tornare alla configurazione plugin',
+	'PLUGINS_NO_PLUGINS' => 'Nessun plugin da configurare',
+	// PLUGINS - END
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Impostazioni Icy Phoenix',
 	'MG_Configuration_Explain' => 'In questa sezione &egrave; possibile configurare alcune impostazioni avanzate di Icy Phoenix',
@@ -2183,15 +2195,9 @@ $lang['150_DB_Maintenance'] = 'Manutenzione DB';							// admin_db_maintenance.p
 $lang['170_db_update_generator'] = 'Generatore DB PHP';				// admin_db_generator.php
 $lang['180_msqd'] = 'MySQLDumper';														// admin_msqd.php
 
-// IM Portal
-$lang['1500_IM_Portal'] = 'Home Page';														// admin_blocks.php, admin_blocks_pos.php, admin_blocks_var.php, admin_clear_cache.php, admin_layout.php, admin_portal.php
-$lang['100_Portal_Configuration'] = 'Configurazione';							// admin_portal.php
-$lang['110_Page_Management'] = 'Gestione Pagine';									// admin_layout.php
-$lang['115_Page_Management'] = 'Gestione Pagine Personalizzate';	// admin_layout_cp.php
-$lang['120_Blocks_Management'] = 'Gestione Blocchi';							// admin_blocks.php
-$lang['130_Blocks_Position_Tag'] = 'Tag Posizione Blocchi';				// admin_blocks_pos.php
-$lang['140_Blocks_Variables'] = 'Variabili Blocchi';							// admin_blocks_var.php
-$lang['150_Delete_Cache_Files'] = 'Elimina Cache';								// admin_clear_cache.php
+// Plugins
+$lang['1500_Plugins'] = 'Plugins';														// admin_plugins.php
+$lang['100_Plugins_Modules'] = 'Moduli Plugins';							// admin_plugins.php
 
 // News
 $lang['1600_News_Admin'] = 'News';													// admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
