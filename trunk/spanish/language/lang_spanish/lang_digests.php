@@ -108,6 +108,7 @@ $lang = array_merge($lang, array(
 	'digest_9pm' => '9 PM',
 	'digest_10pm' => '10 PM',
 	'digest_11pm' => '11 PM',
+	'digest_click_return' => 'Pulse %saquí%s para volver a las configuraciones de resumenes', // %s's here are for uris, do not remove!
 	'digest_select_forums' => '<b>Enviar resumen de estos foros:</b>',
 	'digest_create' => 'Sus cambios de resumen han sido guardados',
 	'digest_modify' => 'Sus cambios de resumen han sido actualizados',

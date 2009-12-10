@@ -764,10 +764,10 @@ $lang = array_merge($lang, array(
 	'L_ADMINEDITMSG' => 'Usted no tiene permiso para editar datos del perfil y/o permisos del primer administrador de este foro.<br /><br />Este intento de mal acceso malo, ha sido bloqueado y anotado convenientemente.',
 	'use_thank' => 'Permitir el mensaje de gracias',
 	'Default_avatar' => 'Fijar como avatar por defecto',
-	'Default_avatar_explain' => 'Esto permite dar un avatar por defecto a usuarios que todavía no han seleccionado uno.  Fije el avatar por defecto para los invitados y los usuarios, y entonces seleccione el avatar que quiera mostrar para los usuarios registrados, los invitados, robots, o ninguno.',
+	'Default_avatar_explain' => 'Esto permite dar un avatar por defecto a usuarios que todavía no han seleccionado uno. Fije el avatar por defecto para los invitados y los usuarios, y entonces seleccione el avatar que quiera mostrar para los usuarios registrados, los invitados, ambos o ninguno.',
 	'Default_avatar_guests' => 'Invitados',
 	'Default_avatar_users' => 'Usuarios',
-	'Default_avatar_both' => 'Robots',
+	'Default_avatar_both' => 'Ambos',
 	'Default_avatar_none' => 'Ninguno',
 
 // Start Optimize Database
@@ -1065,7 +1065,7 @@ $lang = array_merge($lang, array(
 	'Prune_shouts' => 'Limpiar automáticamente cuadro de charla',
 	'Prune_shouts_explain' => 'Número de días antes de borrar los mensajes del cuadro de charla. Si el valor es 0, la limpieza será deshabilitada',
 
-	'MOD_OS_ForumRules' => 'Normas del foro con estilo Olympus',
+	'MOD_OS_ForumRules' => 'Cuadro de normas del foro',
 	'Forum_rules' => 'Normas del foro',
 	'Rules_display_title' => '¿Mostrar título en el cuadro de normas del foro?',
 	'Rules_custom_title' => 'Título actual',
@@ -1942,6 +1942,24 @@ $lang = array_merge($lang, array(
 	'EDIT' => 'Editar',
 	'DELETE' => 'Eliminar',
 
+	// Tickets Submission - BEGIN
+	'TICKETS_EMAILS' => 'Email Tickets',
+	'TICKETS_EMAILS_EXPLAIN' => 'Esta sección te deja especificar varias categorías que pueden ser elegidas en la página "Contacta con nosotros". Para cada categoría, uno o varias direcciones de correos pueden ser especificadas, así que el usuario elegirá un asunto especifico y el email será enviado a las direcciones previamente indicadas.',
+	'TICKET_CAT' => 'Categoría',
+	'TICKET_CAT_TITLE' => 'Título',
+	'TICKET_CAT_DES' => 'Descripción',
+	'TICKET_CAT_EMAILS' => 'Direcciones de email',
+	'TICKET_CAT_EMAILS_EXPLAIN' => 'Introduzca todos los emails a los que quieres que sea enviado.<br />Separalos con punto y coma (a@a.com;b@b.com;c@c.com).',
+	'TICKETS_NO_TICKETS' => 'No hay tickets',
+	'TICKETS_NO_TICKET_SEL' => 'No hay tickets seleccionados',
+	'TICKETS_NO_TICKET_TITLE' => 'Has de poner al menos un título',
+	'TICKETS_DB_ADD' => 'Añadir categoría',
+	'TICKETS_DB_ADDED' => 'Categoría añadida correctamente',
+	'TICKETS_DB_UPDATED' => 'Categoría actualizada correctamente',
+	'TICKETS_DB_DELETED' => 'Categoría eliminada correctamente',
+	'TICKETS_DB_CLICK' => 'Click %saquí%s para volver a Email Tickets',
+	// Tickets Submission - END
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Ajustes Icy Phoenix',
 	'MG_Configuration_Explain' => 'Aquí puede instalar los ajustes avanzados de Icy Phoenix',
@@ -2040,6 +2058,7 @@ $lang['170_Smilies'] = 'Emoticonos'; // admin_smilies.php
 $lang['180_Word_Censor'] = 'Censurar palabras'; // admin_words.php
 $lang['200_Notepad'] = 'Bloc de notas'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Ayuda'; // admin_helpdesk.php
+$lang['220_Tickets_Emails'] = 'Categorías de emails'; // admin_tickets.php
 $lang['240_Replace_title'] = 'Reemplazar en mensajes'; // admin_replace.php
 
 // Forum
