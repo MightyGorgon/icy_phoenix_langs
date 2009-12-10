@@ -327,7 +327,6 @@
 						<li>Compruebe de nuevo que su copia de seguridad es correcta y está guardada en un sitio seguro. <img src="../images/smiles/icon_mrgreen.gif" alt="&iexcl;Normas de Backup!" title="Normas de Backup!" /></li>
 						<li>Descomprima el paquete de Icy Phoenix en un directorio de su Disco Duro.</li>
 						<li>Suba la carpeta <b>install</b> a la raíz de su Icy Phoenix, y ejecute el <b>database_update.php</b> (ej: <a class="post-url" href="http://www.miweb.com/foro/install/database_update.php">http://www.miweb.com/foro/install/database_update.php</a>). Por favor recuerde que si la carpeta <b>install/</b> no está en la raíz de su foro, la actualización no funcionará correctamente.</li>
-						<li>Borre la carpeta <b>install</b>.</li>
 						<li>Mueva los siguientes directorios:
 							<ul>
 								<li><b>/pafiledb/uploads/*.*</b> ==> <b>/downloads/*.*</b></li>
@@ -345,6 +344,15 @@
 						<li>Suba todos los archivos de Icy Phoenix (todo menos <b>config.php</b>) en el mismo directorio donde tenia instalado y funcionando su Icy Phoenix. Compruebe que todos los archivos viejos son sobrescritos, en su caso,  por los nuevos.</li>
 						<li>Aplique todos los permisos CHMOD listados en la <a class="post-url" href="#fresh_installation">Instalación Nueva</a>.</li>
 						<li>Mofifique lo que necesite para personalizar los campos y la base de datos (algunos archivos necesitan ser editados manualmente, pero  la mayor parte de las opciones pueden ser configuradas a través del ACP y CMS).</li>
+							<ul>
+								<li><b>common.php</b></li>
+								<li><b>config.php</b></li>
+								<li><b>includes/constants.php</b></li>
+								<li><b>language/lang_***/lang_main_settings.php</b></li>
+							</ul>
+						</li>
+						<li>Ejecute <b>install/install.php</b> y complete la actualización renombrando y moviendo las imagenes (enviadas al Album) y reemplazando todos los enlaces de los mensajes: el procedimiento automatizado debe ser capaz de llevar a cabo todas estas acciones automáticamente, siga las instrucciones</li>
+						<li>Borre la carpeta <b>install</b>.</li>
 						<li>Abra su web.</li>
 						<li>Disfrute de su nueva web <b>Icy Phoenix</b> <img src="../images/smiles/icon_mrgreen.gif" alt="&iexcl;Disfrute!" title="Disfrute!" />.</li>
 					</ol>

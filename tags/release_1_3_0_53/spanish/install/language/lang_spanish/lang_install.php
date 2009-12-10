@@ -19,8 +19,8 @@ $lang = array_merge($lang, array(
 	'DIRECTION' => 'ltr',
 	'HEADER_LANG' => 'sp-es',
 	'HEADER_XML_LANG' => 'sp-es',
-	'LEFT' => 'left',
-	'RIGHT' => 'right',
+	'LEFT' => 'izquierda',
+	'RIGHT' => 'derecha',
 
 	'Welcome_install' => 'Instalación Icy Phoenix',
 	'Initial_config' => 'Configuración',
@@ -264,9 +264,9 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="./style/icy_phoenix_small.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
 <span style="color: #ff5500;"><b>Mighty Gorgon</b></span><br />
 <i>(Luca Libralato)</i><br />
-<b><i>Developer</i></b><br />
-Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
-Location: Homer\'s Head<br />
+<b><i>Programador</i></b><br />
+Intereses: Heroes Of Might And Magic III, 69, #FF5522<br />
+Localización: Homer\'s Head<br />
 <br />
 <br />
 <span style="color: #dd2222;"><b>Bicet</b></span><br />

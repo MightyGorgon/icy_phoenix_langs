@@ -28,7 +28,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 // Commonly Used
-	'Ftr_msg_error' => 'Atención!',
+	'Ftr_msg_error' => 'Error',
 	'Ftr_msg_success' => 'Suceso',
 
 // Buttons

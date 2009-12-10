@@ -30,7 +30,8 @@ $lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, ph
 $lang['Default_META_Description'] = 'Icy Phoenix is an highly customizable CMS based on phpBB which allows you to create a dynamic site with a lot of features for powering web communities.';
 $lang['Default_META_Title'] = 'Icy Phoenix';
 $lang['Default_META_Author'] = 'Mighty Gorgon and Icy Phoenix Staff :: http://www.icyphoenix.com/';
-$lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
+$lang['Default_META_Copyright'] = '(c) 2001-' . gmdate('Y') . ' Mighty Gorgon';
+$lang['Extra_Meta'] = '';
 
 $lang['REGISTER_MESSAGE'] = '';
 
@@ -59,9 +60,9 @@ $lang['OwnerServer'] = 'Icy Phoenix';
 
 $lang['PrivacyDisclaimer'] = 'Está de acuerdo con que sus datos personales sean tratados con la ley actual que hay en el país del propietario de la web.<br />';
 
-$lang['ENCODING'] = 'iso-8859-1';
-//$lang['ENCODING'] = 'utf8';
-$lang['ENCODING_ALT'] = 'utf8';
+$lang['ENCODING'] = 'ISO-8859-1';
+//$lang['ENCODING'] = 'UTF-8';
+$lang['ENCODING_ALT'] = 'UTF-8';
 $lang['DIRECTION'] = 'ltr';
 $lang['HEADER_LANG'] = 'sp-es';
 $lang['HEADER_XML_LANG'] = 'sp-es';

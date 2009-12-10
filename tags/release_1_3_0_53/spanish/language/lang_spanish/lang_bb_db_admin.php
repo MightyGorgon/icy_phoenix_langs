@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'db_no_query' => 'No añadió una consulta',
 	'db_sql_field_changed' => 'Nombre del campo cambiado.',
 	'db_sql_query_db' => 'Consulta a su base de datos: ',
-	'DB_Admin' => 'phpBBMyAdmin',
+	'DB_Admin' => 'IP MyAdmin',
 	)
 );
 

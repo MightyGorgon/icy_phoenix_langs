@@ -38,7 +38,7 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <i>(Luca Libralato)</i><br />
 <b><i>Programador</i></b><br />
 Intereses: Heroes Of Might and Magic III, 69, #FF5522<br />
-Localitzación: Homer\'s Head<br />
+Localización: Homer\'s Head<br />
 <br />
 <br />
 <span style="color: #dd2222;"><b>Bicet</b></span><br />
@@ -74,11 +74,11 @@ Localitzación: Homer\'s Head<br />
 <span style="color: #0000bb;"><b>Tom</b></span><br />
 <span style="color: #228822;"><b>z3d0</b></span><br />
 <span style="color: #228822;"><b>Zuker</b></span><br />
+<span style="color: #228822;"><b>Tiolalu</b></span><br />
 <br />
 Intereses: Icy Phoenix<br />
 Localización: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
 ';
-
 $lang['BBC_IP_CREDITS'] = '<div class="center-block"><marquee behavior="scroll" direction="up" scrolldelay="120">' . $lang['BBC_IP_CREDITS_STATIC'] . '</marquee></div>';
 
 $lang = array_merge($lang, array(
@@ -1103,10 +1103,10 @@ $lang = array_merge($lang, array(
 	'Statistics' => 'Estadísticas',
 
 // Start add - Global announcement MOD
-	'Globalannounce' =>'Anuncio global',
-	'Globalannounce' =>'Nuevo anuncio global',
+	'Globalannounce' => 'Anuncio global',
+	'Globalannounce' => 'Nuevo anuncio global',
 // End add - Global announcement MOD
-	'Global_Announcements' => 'anuncio global',
+	'Global_Announcements' => 'Anuncio global',
 	'Announcements' => 'Anuncios',
 	'Sticky_Topics' => 'Notas importantes',
 	'Announcements_and_Sticky' => 'Anuncios y notas importantes',
@@ -2198,6 +2198,10 @@ $lang = array_merge($lang, array(
 
 	'READ_ONLY_FORUM' => 'Lo sentimos, pero actualmente el foro solo funciona en <b>MODO DE LECTURA</b>, esto significa que no puede publicar nuevos mensajes. Inténtelo mas tarde.',
 
+	// Tickets Submission - BEGIN
+	'TICKET_CAT' => 'Categoría',
+	// Tickets Submission - END
+
 	)
 );
 
@@ -2333,6 +2337,18 @@ $lang['datetime']['SEP'] = 'Sep';
 $lang['datetime']['OCT'] = 'Oct';
 $lang['datetime']['NOV'] = 'Nov';
 $lang['datetime']['DEC'] = 'Dic';
+$lang['datetime']['Jan'] = $lang['datetime']['JAN'];
+$lang['datetime']['Feb'] = $lang['datetime']['FEB'];
+$lang['datetime']['Mar'] = $lang['datetime']['MAR'];
+$lang['datetime']['Apr'] = $lang['datetime']['APR'];
+$lang['datetime']['May'] = $lang['datetime']['MAY'];
+$lang['datetime']['Jun'] = $lang['datetime']['JUN'];
+$lang['datetime']['Jul'] = $lang['datetime']['JUL'];
+$lang['datetime']['Aug'] = $lang['datetime']['AUG'];
+$lang['datetime']['Sep'] = $lang['datetime']['SEP'];
+$lang['datetime']['Oct'] = $lang['datetime']['OCT'];
+$lang['datetime']['Nov'] = $lang['datetime']['NOV'];
+$lang['datetime']['Dec'] = $lang['datetime']['DEC'];
 
 // NOTE: Please do not translate the following 4 lines!
 // They are automatically translated into your language
