@@ -208,10 +208,10 @@ if ($lang_extend_admin)
 		'IP_no_bump_explain' => 'Abilitando questa opzione gli utenti che hanno inviato l\'ultimo messaggio in un argomento non saranno in grado di inviare nuovi messaggi a meno che non siano passate 24 ore dal loro ultimo messaggio o finch&eacute; qualcun altro non risponda (non si applica agli amministratori)',
 		'MODS_ALLOWED' => 'Consenti Moderatori',
 
-		'IP_display_tags_box' => 'Abilita Tags Per Gli Argomenti',
+		'IP_display_tags_box' => 'TAGS :: Abilita Tags Per Gli Argomenti',
 		'IP_display_tags_box_explain' => 'Attivando questa opzione sar&agrave; possibile inserire e visualizzare Tags per gli argomenti del forum. I Tags possono essere molto utili per l\'indicizzazione, ma possono essere anche molto dannosi se non utilizzati correttamente: per questo l\'immissione dei Tags &egrave; riservata agli amministratori o ai moderatori (se viene attivatata l\'opzione sottostante).',
 
-		'IP_allow_moderators_edit_tags' => 'Consenti Inserimento / Modifica Tags Ai Moderatori',
+		'IP_allow_moderators_edit_tags' => 'TAGS :: Consenti Inserimento / Modifica Tags Ai Moderatori',
 		'IP_allow_moderators_edit_tags_explain' => 'Attivando questa opzione anche i moderatori saranno in grado di inserire / modificare i Tags per gli argomenti',
 
 		'IP_show_topic_description' => 'Mostra Descrizione Argomento',
@@ -373,8 +373,7 @@ if ($lang_extend_admin)
 		'IP_sitemap_new_first' => 'Prima le Nuove Discussioni',
 		'IP_sitemap_old_first' => 'Prima le Vecchie Discussioni',
 
-		'Word_graph' => 'TAGS',
-
+//Tags
 		'IP_word_graph_max_words' => 'TAGS :: Numero Parole',
 		'IP_word_graph_max_words_explain' => 'Seleziona il numero massimo di parole da visualizzare. Un numero troppo alto potrebbe sovraccaricare il server. L\'impostazione raccomandata &egrave; 250.',
 
@@ -383,6 +382,11 @@ if ($lang_extend_admin)
 
 		'IP_forum_wordgraph' => 'TAGS :: Forum Tags (Globale)',
 		'IP_forum_wordgraph_explain' => 'Questa funzione abilita la visualizzazione dei tags pi&ugrave; usati per ogni forum. La visualizzazione deve comunque essere impostata per ciascun forum nella gestione dei forum.',
+
+		'IP_forum_tags_type' => 'TAGS :: Tipologia Forum Tags',
+		'IP_forum_tags_type_explain' => 'Scegli se visualizzare il Wordgraph (parole prese automaticamente dalle tabelle di ricerca) o i Tags (tags specificati nei topics)',
+		'IP_forum_tags_type_tags' => 'Tags',
+		'IP_forum_tags_type_wordgraph' => 'Wordgraph',
 
 		'Similar_topics' => 'Argomenti Simili',
 		'Similar_topics_explain' => 'In questa pagina puoi configurare la ricerca di argomenti simili.',
