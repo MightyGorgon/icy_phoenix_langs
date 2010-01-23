@@ -99,6 +99,7 @@ $lang['digest_8pm'] = '20';
 $lang['digest_9pm'] = '21';
 $lang['digest_10pm'] = '22';
 $lang['digest_11pm'] = '23';
+$lang['digest_click_return'] = 'Clicca %sQUI%s per tornare alle impostazioni del Digest';
 $lang['digest_select_forums'] = '<b>Attiva il Digest per i seguenti forums:</b>';
 $lang['digest_create'] = 'Impostazioni Digest Create';
 $lang['digest_modify'] = 'Impostazioni Digest Aggiornate';

@@ -2,16 +2,9 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
-
-/**
-*
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
 *
 */
 
@@ -59,6 +52,7 @@ $lang = array_merge($lang, array (
   'OwnerServer' => 'Icy Phoenix',
   'PrivacyDisclaimer' => 'El kell fogadnod, hogy a személyes adataid védelmérõl az oldal tulajdonosának orszának törvényei szerint fognak gondoskodni.<br />',
   'ENCODING' => 'ISO-8859-2',
+//'ENCODING' => 'UTF-8',
   'ENCODING_ALT' => 'UTF-8',
   'DIRECTION' => 'ltr',
   'HEADER_LANG' => 'hu-hu',
@@ -73,6 +67,6 @@ $lang = array_merge($lang, array (
   'JOINED_DATE_FORMAT' => 'Y F',  // Date format of Joined date, php date() format
   'TRANSLATION_INFO' => 'Fordította: <a href="http://mandrivalinux.hu">Gergely Lónyai</a>',
   'TRANSLATION' => 'A fordítás a <a href="http://mandrivalinux.hu" target="_blank" class="copyright">Mandriva Linux</a> gondozásában készült. Kérjük észrevételeidet küld el a fordító címére, vagy a a href="http://mandrivalinux.hu" target="_blank">közösségi oldalunkra</a>.'
-))
+));
 
 ?>

@@ -2443,6 +2443,8 @@ $lang['REPLY_PREFIX_OLD'] = 'Re: ';
 $lang['REPLY_PREFIX'] = 'Re: ';
 
 $lang['READ_ONLY_FORUM'] = 'Ci dispiace, ma il forum &egrave; impostato in modalit&agrave; <b>SOLA LETTURA</b> per cui al momento non puoi inviare messaggi. Per favore riprova pi&ugrave; tardi.';
+
+$lang['TICKET_CAT'] = 'Categoria';
 //$lang[''] = '';
 
 //====================================================

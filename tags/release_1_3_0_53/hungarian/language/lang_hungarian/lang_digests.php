@@ -67,9 +67,7 @@ $lang = array_merge($lang, array(
 
 // This block goes on the digest settings user interface page (digests.php)
   'digest_page_title' => 'Kivonatok',
-  'digest_explanation' => 'A kivonat egy olyan email üzenet, ami a beküldött hozzászólásokról tartalmaz egy összesítõt. A kivonatot kérheted napi, heti rendszerességgel vagy egy általad kiválasztott órában. Meghatározhatod azt is, hogy mely fórumokról szeretnél üzenetösszesítõt kapni, de természetesen az összes fórum összes üzenetérõl is kérhetsz kivonatot (persze csak akkor, ha jogod van azokat el is olvasni).<br /><br />
-A személyes adataid védelmérõl szóló állásfoglalásunkkal összhangban a kivonat nem "spam", és az email címedet nem használjuk fel semmilyen reklámhoz köthetõ célokra. Amennyiben szeretnél a kivonatokról leiratkozni, csak vissza kell ide jönnöd. A legtöbb felhasználó hasznosnak találta a kivonatokat. Javasoljuk tegyél egy próbát!
-',
+  'digest_explanation' => 'A kivonat egy olyan email üzenet, ami a beküldött hozzászólásokról tartalmaz egy összesítõt. A kivonatot kérheted napi, heti rendszerességgel vagy egy általad kiválasztott órában. Meghatározhatod azt is, hogy mely fórumokról szeretnél üzenetösszesítõt kapni, de természetesen az összes fórum összes üzenetérõl is kérhetsz kivonatot (persze csak akkor, ha jogod van azokat el is olvasni).<br /><br />A személyes adataid védelmérõl szóló állásfoglalásunkkal összhangban a kivonat nem "spam", és az email címedet nem használjuk fel semmilyen reklámhoz köthetõ célokra. Amennyiben szeretnél a kivonatokról leiratkozni, csak vissza kell ide jönnöd. A legtöbb felhasználó hasznosnak találta a kivonatokat. Javasoljuk tegyél egy próbát!',
   'digest_wanted' => '<b>Kivonat kézbesítésének típusa:</b><br />(A heti kivonatot vasárnap küldjük ki)',
   'digest_none' => 'Nincs (Leiratkozás)',
   'digest_daily' => 'Napi',
@@ -126,5 +124,7 @@ A személyes adataid védelmérõl szóló állásfoglalásunkkal összhangban a kivonat n
   'digest_size_600' => '600',
   'digest_size_max' => 'Maximum (32000)',
   'digest_version_text' => 'Verzió',
-))
+  )
+)
+
 ?>

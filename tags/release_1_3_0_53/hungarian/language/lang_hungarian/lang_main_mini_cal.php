@@ -26,7 +26,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 $lang = array_merge($lang, array (
-  'Mini_Cal_calendar' => 'Kalendárium',
+  'Mini_Cal_calendar' => 'Naptár',
   'Mini_Cal_add_event' => 'Esemény hozzáadása',
   'Mini_Cal_events' => 'Következõ események',
   'Mini_Cal_no_events' => 'Nincs',

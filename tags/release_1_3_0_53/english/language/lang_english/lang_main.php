@@ -2198,6 +2198,10 @@ $lang = array_merge($lang, array(
 
 	'READ_ONLY_FORUM' => 'We are sorry, but currently the forum is set in <b>READ ONLY</b> mode which means that you cannot post even if you have the right to. Please try again later.',
 
+	// Tickets Submission - BEGIN
+	'TICKET_CAT' => 'Category',
+	// Tickets Submission - END
+
 	)
 );
 

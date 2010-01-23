@@ -2058,6 +2058,28 @@ $lang['ACTIONS'] = 'Azioni';
 $lang['EDIT'] = 'Modifica';
 $lang['DELETE'] = 'Elimina';
 
+
+$lang = array_merge($lang, array(
+// Tickets Submission - BEGIN
+	'TICKETS_EMAILS' => 'Tickets',
+	'TICKETS_EMAILS_EXPLAIN' => 'In questa sezione puoi creare delle categorie che verranno utilizzate nella pagina "Contattaci" come argomenti per l\'invio di email. A ciascuna categoria possono essere assegnati uno o pi&ugrave; indirizzi email di modo che l\'email venga inviata a tutti.',
+	'TICKET_CAT' => 'Categoria',
+	'TICKET_CAT_TITLE' => 'Titolo',
+	'TICKET_CAT_DES' => 'Descrizione',
+	'TICKET_CAT_EMAILS' => 'Indirizzi Email',
+	'TICKET_CAT_EMAILS_EXPLAIN' => 'Inserisci tutti gli indirizzi destinatari dell\'email.<br />Separa i diversi indirizzi con punto e virgola (a@a.com;b@b.com;c@c.com).',
+	'TICKETS_NO_TICKETS' => 'Nessun Elemento',
+	'TICKETS_NO_TICKET_SEL' => 'Nessun elemento selezionato',
+	'TICKETS_NO_TICKET_TITLE' => 'Devi inserire almeno il titolo',
+	'TICKETS_DB_ADD' => 'Aggiungi Categoria',
+	'TICKETS_DB_ADDED' => 'Categoria aggiunta correttamente',
+	'TICKETS_DB_UPDATED' => 'Categoria aggiornata correttamente',
+	'TICKETS_DB_DELETED' => 'Categoria rimossa correttamente',
+	'TICKETS_DB_CLICK' => 'Clicca %sQUI%s per tornare alle Categorie Email',
+// Tickets Submission - END
+	)
+);
+
 /*
 $lang['MG_SW_'] = '';
 */
@@ -2099,6 +2121,7 @@ $lang['170_Smilies'] = 'Smileys';														// admin_smilies.php
 $lang['180_Word_Censor'] = 'Censura';												// admin_words.php
 $lang['200_Notepad'] = 'Blocco Note';												// admin_notepad.php
 $lang['210_Help_Desk'] = 'Help Desk';												// admin_helpdesk.php
+$lang['220_Tickets_Emails'] = 'Categorie Email';						// admin_tickets.php
 $lang['240_Replace_title'] = 'Sostituisci In Posts';				// admin_replace.php
 
 // Forum

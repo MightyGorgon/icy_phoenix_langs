@@ -108,6 +108,7 @@ $lang = array_merge($lang, array(
 	'digest_9pm' => '9 PM',
 	'digest_10pm' => '10 PM',
 	'digest_11pm' => '11 PM',
+	'digest_click_return' => 'Click %sHere%s to return to Digests settings', // %s's here are for uris, do not remove!
 	'digest_select_forums' => '<b>Send digests for these forums:</b>',
 	'digest_create' => 'Your digest settings were successfully created',
 	'digest_modify' => 'Your digest settings were successfully updated',

@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
   'Ftr_effected_2' => 'Minden tagnak kötelezõ ezt elolvasni.',
   'Ftr_active_1' => 'Letiltottad ezt a modot azzal, hogy nincs senki, aki meg lenne jelölve a kötelezõ elolvasáshoz.',
   'Ftr_active_2' => 'Aktiváltad ezt a modot!',
-)
+  )
 );
 
 ?>

@@ -31,7 +31,7 @@ $lang = array_merge($lang, array(
 	'30_Posting' => 'Hozzászólások és üzenetek',
 	'40_IMG_Posting' => 'Képek a hozzászólásokban',
 	'50_Hierarchy_setting' => 'Fórum',
-	'60_Calendar_settings' => 'Kalendárium',
+	'60_Calendar_settings' => 'Naptár',
 	'70_SEO' => 'SEO',
 	'80_Security' => 'Logs And Security',
 	'90_Cron' => 'Cron',
@@ -324,7 +324,7 @@ if ($lang_extend_admin)
 		'icon_explain' => 'This icon will be displayed in front of the forum title. You can set a direct URI or a $image[] key entry (see <i>your_template</i>/<i>your_template</i>.cfg).',
 
 // TAB - Calendar
-		'Lang_extend_topic_calendar' => 'Topic Calendar',
+		'Lang_extend_topic_calendar' => 'Naptár téma',
 
 // TAB - SEO
 		'IP_url_rw' => 'URL Rewrite',
@@ -491,11 +491,11 @@ $lang = array_merge($lang, array(
 // lang_extend_categories_hierarchy.php - END
 
 // lang_extend_topic_calendar.php - BEGIN
-	'Calendar_settings' => 'Kalendárium',
-	'Calendar' => 'Kalendárium',
+	'Calendar_settings' => 'Naptár',
+	'Calendar' => 'Naptár',
 	'Calendar_scheduler' => 'Ütemezõ',
-	'Calendar_event' => 'Calendar Event',
-	'Calendar_from_to' => 'From %s to %s (inclusive)',
+	'Calendar_event' => 'Naptári esemény',
+	'Calendar_from_to' => '%s-t¿l %s-ig',
 	'Calendar_time' => '%s',
 	'Calendar_duration' => 'Idõtartam',
 
@@ -506,30 +506,30 @@ $lang = array_merge($lang, array(
 	'Calendar_block_display' => 'A fórum fejlécében megjelenõ sorok száma',
 	'Calendar_display_open' => 'Display the calendar row on the board header opened (if calendar row enabled)',
 	'Calendar_nb_row' => 'A fórum fejlécében megjelenõ egy napra esõ sorok száma',
-	'Calendar_birthday' => 'Születésnapok megjelenítése a kalendáriumban',
+	'Calendar_birthday' => 'Születésnapok megjelenítése a naptárban',
 	'Calendar_forum' => 'A naptárban jelenjen meg a fórum neve alatt a téma címe is',
 
-	'Sorry_auth_cal' => 'Sorry, but only %s can post calendar events in this forum.',
-	'Date_error' => 'day %d, month %d, year %d is not a valid date',
+	'Sorry_auth_cal' => 'Bocsi, de csak %s hozhat létre naptári bejegyzést ebben a fórumban.',
+	'Date_error' => 'Nem érvényes dátum: nap: %d, hónap: %d, év: %d',
 
-	'Event_time' => 'Eset ideje',
+	'Event_time' => 'Az esemény ideje',
 	'Minutes' => 'Perc',
 	'Today' => 'Ma',
 	'Yesterday' => 'Tegnap',
-	'All_events' => 'Minden eset',
+	'All_events' => 'Minden esemény',
 
 /*
 	'Rules_calendar_can' => 'You <b>can</b> post calendar events in this forum',
 	'Rules_calendar_cannot' => 'You <b>cannot</b> post calendar events in this forum',
 */
-	'Rules_calendar_can' => '<b>Tudsz</b> beküldeni kalendáriumi eseményt',
-	'Rules_calendar_cannot' => '<b>Nem tudsz</b> beküldeni kalendáriumi eseményt',
+	'Rules_calendar_can' => '<b>Tudsz</b> beküldeni naptári eseményt',
+	'Rules_calendar_cannot' => '<b>Nem tudsz</b> beküldeni naptári eseményt',
 
 	'birthday_header' => 'Happy Birthday!',
 	'birthday' => '<b>%s</b> has a birthday today!',
 // lang_extend_topic_calendar.php - END
 
-	'DB_LOG_ALL' => 'Yes with error reports',
+	'DB_LOG_ALL' => 'Igen, hibajelentéssel',
 	)
 );
 

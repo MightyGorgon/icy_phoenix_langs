@@ -1942,6 +1942,24 @@ $lang = array_merge($lang, array(
 	'EDIT' => 'Edit',
 	'DELETE' => 'Delete',
 
+	// Tickets Submission - BEGIN
+	'TICKETS_EMAILS' => 'Email Tickets',
+	'TICKETS_EMAILS_EXPLAIN' => 'This section lets you specify several categories which could be chosen in "Contact Us" page when sending emails. For each category one or more email address can be specified, so the user will be allowed to choose a specific subject and the email will be sent to the linked email addresses.',
+	'TICKET_CAT' => 'Category',
+	'TICKET_CAT_TITLE' => 'Title',
+	'TICKET_CAT_DES' => 'Description',
+	'TICKET_CAT_EMAILS' => 'Email Addresses',
+	'TICKET_CAT_EMAILS_EXPLAIN' => 'Insert here all email addresses you want the email to be sent.<br />Separate all addresses by semicolon (a@a.com;b@b.com;c@c.com).',
+	'TICKETS_NO_TICKETS' => 'No Tickets',
+	'TICKETS_NO_TICKET_SEL' => 'No ticket selected',
+	'TICKETS_NO_TICKET_TITLE' => 'You have to enter at least title field',
+	'TICKETS_DB_ADD' => 'Add Category',
+	'TICKETS_DB_ADDED' => 'Category Added Successfully',
+	'TICKETS_DB_UPDATED' => 'Category Updated Successfully',
+	'TICKETS_DB_DELETED' => 'Category Deleted Successfully',
+	'TICKETS_DB_CLICK' => 'Click %sHere%s to return to Email Tickets',
+	// Tickets Submission - END
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Icy Phoenix Settings',
 	'MG_Configuration_Explain' => '<em><b>Advanced Icy Phoenix Settings</b></em>',
@@ -2034,12 +2052,13 @@ $lang['110_Autolinks'] = 'Autolinks'; // admin_autolinks.php
 $lang['120_Ads'] = 'Ads &amp; Sponsors'; // admin_ads.php
 $lang['130_Mass_Email'] = 'Mass Email'; // admin_mass_email.php
 $lang['140_Mega_Mail'] = 'Mass Email / PM'; // admin_megamail.php
-$lang['150_FTR_Config'] = 'FTR'; // admin_force_read.php
-$lang['160_FTR_Users'] = 'FTR User'; // admin_force_read.php
+$lang['150_FTR_Config'] = 'Force Topic Read'; // admin_force_read.php
+$lang['160_FTR_Users'] = 'Force Topic Read Users'; // admin_force_read.php
 $lang['170_Smilies'] = 'Smileys'; // admin_smilies.php
 $lang['180_Word_Censor'] = 'Word Censor'; // admin_words.php
 $lang['200_Notepad'] = 'Admin Notepad'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Help Desk'; // admin_helpdesk.php
+$lang['220_Tickets_Emails'] = 'Emails Categories'; // admin_tickets.php
 $lang['240_Replace_title'] = 'Replace In Posts'; // admin_replace.php
 
 // Forum

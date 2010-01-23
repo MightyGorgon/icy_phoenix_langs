@@ -1757,7 +1757,7 @@ Hely: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'CPL_SIG_EDIT_EXPLAIN' => 'Az aláírásod: meg tudsz adni bármilyen szöveget, amit csatolunk minden hozzászólásod alatt',
   'CPL_PREFERENCES_EXPLAIN' => 'A hozzászólások olvasásának és írásának általános beállításai',
   'CPL_BOARD_SETTINGS_EXPLAIN' => 'Globális beállítások (idõ, kinézet, nyelv...)',
-  'Calendar_settings_EXPLAIN' => 'A kalendárium beállításai',
+  'Calendar_settings_EXPLAIN' => 'A naptár beállításai',
   'Hierarchy_setting_EXPLAIN' => 'Alfórumok és témák csoportosításának beállításai',
   'LOGIN_SEC_EXPLAIN' => 'Ha engedélyezed ezt a beállítást, akkor minden ezzel a felhasználónévvel történõ bejelentkezés figyelve lesz',
   'CPL_OWN_POSTS_EXPLAIN' => 'Keresés a hozzászólásaid között',
@@ -2182,9 +2182,9 @@ Hely: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'Reg_Blue_Option' => 'Kék opció',
   'Reg_Red_Option' => 'Piros opció',
   'Reg_Value_Max_Registrations' => 'Helyek',
-  'Reg_Do' => 'Jelentkezés',
-  'Reg_Maybe' => 'Not Sure',
-  'Reg_Dont' => 'Not This Time',
+  'Reg_Do' => 'Jelentkezek',
+  'Reg_Maybe' => 'Nem biztos',
+  'Reg_Dont' => 'Most nem megyek',
   'Reg_Head_Username' => 'Felhasználó:',
   'Reg_Head_Time' => 'Dátum:',
   'Reg_for' => 'Regisztrációs idõ: ',
@@ -2199,7 +2199,7 @@ Hely: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
   'READ_ONLY_FORUM' => 'Bocsi, de a fórum <b>CSAK OLVASHATÓ</b> módba van kapcsolva. Nem lehet a fórumba üzenetet beküldeni. Kérlek próbálkozz késõbb.',
 
 // Tickets Submission - BEGIN
-  'TICKET_CAT' => 'Category',
+  'TICKET_CAT' => 'Categória',
 // Tickets Submission - END
 
 

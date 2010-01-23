@@ -23,7 +23,8 @@ $lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, ph
 $lang['Default_META_Description'] = 'Icy Phoenix &egrave; un Content Management System basato su phpBB che consente in modo semplice la creazione di siti dinamici in pochi passi e con molte funzionalit&agrave; utili per la gestione di comunit&agrave; virtuali.';
 $lang['Default_META_Title'] = 'Icy Phoenix';
 $lang['Default_META_Author'] = 'Mighty Gorgon And Icy Phoenix Staff :: http://www.icyphoenix.com/';
-$lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
+$lang['Default_META_Copyright'] = '(c) 2001-' . gmdate('Y') . ' Mighty Gorgon';
+$lang['Extra_Meta'] = '';
 
 $lang['REGISTER_MESSAGE'] = '';
 
