@@ -2329,6 +2329,30 @@ $lang = array_merge($lang, array(
 	'AJAX_SHOUTBOX_PVT_LINK' => 'Chat privata con questo utente',
 	'AJAX_SHOUTBOX_PVT_ALERT' => 'You have a chat request',
 
+	// COMMON DB - BEGIN
+	'SELECT_SORT_METHOD' => 'Ordina per',
+	'ORDER' => 'Ordinamento',
+	'SUBMIT' => 'Invia',
+	'DATE' => 'Data',
+	'USERID' => 'ID Utente',
+	'USERNAME' => 'Utente',
+	'EMAIL' => 'Email',
+	'WEBSITE' => 'Sito Web',
+	'EDIT' => 'Modifica',
+	'DELETE' => 'Elimina',
+	'YES' => 'Si',
+	'NO' => 'No',
+
+	'DB_ITEM_VIEW' => 'Mostra Elemento',
+	'DB_ITEM_UPDATED' => 'Elemento aggiornato correttamente',
+	'DB_ITEM_ADD' => 'Aggiungi Elemento',
+	'DB_ITEM_ADDED' => 'Elemento aggiunto correttamente',
+	'DB_ITEM_REMOVED' => 'Elemento rimosso correttamente',
+	'DB_ITEM_NO_ITEMS' => 'Nessun Elemento',
+	'DB_ITEM_CLICK_VIEW_ITEM' => 'Clicca %sQUI%s per visualizzare i dati inseriti',
+	'DB_ITEM_CLICK_RETURN_ITEMS' => 'Clicca %sQUI%s per tornare alla lista',
+	// COMMON DB - END
+
 	)
 );
 
