@@ -2197,6 +2197,10 @@ $lang = array_merge($lang, array(
 	'REPLY_PREFIX' => 'Re: ',
 
 	'READ_ONLY_FORUM' => 'We excuseren ons, maar op dit moment is het forum ingesteld op <b>ALLEEN LEZEN</b>, wat betekent dat je nu geen berichten kunt plaatsen omdat je daar de rechten niet voor hebt. Probeer het later nog eens.',
+	
+	// Tickets Submission - BEGIN
+	'TICKET_CAT' => 'Categorie',
+	// Tickets Submission - END
 
 	)
 );
@@ -2333,6 +2337,18 @@ $lang['datetime']['SEP'] = 'sep';
 $lang['datetime']['OCT'] = 'okt';
 $lang['datetime']['NOV'] = 'nov';
 $lang['datetime']['DEC'] = 'dec';
+$lang['datetime']['Jan'] = $lang['datetime']['JAN'];
+$lang['datetime']['Feb'] = $lang['datetime']['FEB'];
+$lang['datetime']['Mar'] = $lang['datetime']['MAR'];
+$lang['datetime']['Apr'] = $lang['datetime']['APR'];
+$lang['datetime']['May'] = $lang['datetime']['MAY'];
+$lang['datetime']['Jun'] = $lang['datetime']['JUN'];
+$lang['datetime']['Jul'] = $lang['datetime']['JUL'];
+$lang['datetime']['Aug'] = $lang['datetime']['AUG'];
+$lang['datetime']['Sep'] = $lang['datetime']['SEP'];
+$lang['datetime']['Oct'] = $lang['datetime']['OCT'];
+$lang['datetime']['Nov'] = $lang['datetime']['NOV'];
+$lang['datetime']['Dec'] = $lang['datetime']['DEC'];
 
 // NOTE: Please do not translate the following 4 lines!
 // They are automatically translated into your language

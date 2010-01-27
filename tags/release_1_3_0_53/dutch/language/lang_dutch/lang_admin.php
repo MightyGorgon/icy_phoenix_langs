@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 101 2009-05-16 16:03:40Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -1941,6 +1941,24 @@ $lang = array_merge($lang, array(
 	'ACTIONS' => 'Acties',
 	'EDIT' => 'Bewerk',
 	'DELETE' => 'Verwijder',
+	
+	// Tickets Submission - BEGIN
+	'TICKETS_EMAILS' => 'E-mailtickets',
+	'TICKETS_EMAILS_EXPLAIN' => 'Deze sectie staat je toe om verschillende categorieën toe te voegen aan de "Contact ons" pagina om e-mail te versturen naar de beheerders. Voor elke categorie kunnen een of meerdere e-mailadressen worden gespecificeerd, zodat de gebruiker de bijpassende categorie kan kiezen en de e-mail wordt dan verstuurd naar de e-mailadres die bij deze categorie is ingesteld.',
+	'TICKET_CAT' => 'Categorie',
+	'TICKET_CAT_TITLE' => 'Titel',
+	'TICKET_CAT_DES' => 'Omschrijving',
+	'TICKET_CAT_EMAILS' => 'E-mailadressen',
+	'TICKET_CAT_EMAILS_EXPLAIN' => 'Geef hier alle e-mailadressen in waar de e-mail naar verzonden moet worden.<br />Scheidt alle adressen met een puntkomma (a@a.com;b@b.com;c@c.com).',
+	'TICKETS_NO_TICKETS' => 'Er zijn geen tickets',
+	'TICKETS_NO_TICKET_SEL' => 'Er is geen ticket geselecteerd',
+	'TICKETS_NO_TICKET_TITLE' => 'Je moet op z\'n minst de titelveld invullen',
+	'TICKETS_DB_ADD' => 'Voeg categorie toe',
+	'TICKETS_DB_ADDED' => 'Categorie is succesvol toegevoegd',
+	'TICKETS_DB_UPDATED' => 'Categorie is succesvol bijgewerkt',
+	'TICKETS_DB_DELETED' => 'Categorie is succesvol verwijderd',
+	'TICKETS_DB_CLICK' => 'Klik %shier%s om terug te keren naar E-mailtickets',
+	// Tickets Submission - END
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Icy Phoenix Instellingen',
@@ -2034,12 +2052,13 @@ $lang['110_Autolinks'] = 'Autolinks'; // admin_autolinks.php
 $lang['120_Ads'] = 'Ads &amp; Sponsors'; // admin_ads.php
 $lang['130_Mass_Email'] = 'Massa e-mail'; // admin_mass_email.php
 $lang['140_Mega_Mail'] = 'Massa E-mail / PB'; // admin_megamail.php
-$lang['150_FTR_Config'] = 'FTR'; // admin_force_read.php
-$lang['160_FTR_Users'] = 'FTR gebruiker'; // admin_force_read.php
+$lang['150_FTR_Config'] = 'Forceer onderwerp lezen'; // admin_force_read.php
+$lang['160_FTR_Users'] = 'Forceer onderwerp lezen gebruiker'; // admin_force_read.php
 $lang['170_Smilies'] = 'Smilies'; // admin_smilies.php
 $lang['180_Word_Censor'] = 'Woordcensuur'; // admin_words.php
 $lang['200_Notepad'] = 'Beheerder kladblok'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Helpdesk'; // admin_helpdesk.php
+$lang['220_Tickets_Emails'] = 'E-mailcategorieën'; // admin_tickets.php
 $lang['240_Replace_title'] = 'Vervang in berichten'; // admin_replace.php
 
 // Forum

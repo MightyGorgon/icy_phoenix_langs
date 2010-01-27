@@ -30,7 +30,8 @@ $lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, ph
 $lang['Default_META_Description'] = 'Icy Phoenix is een goed aanpasbaar CMS systeem, welke op phpBB is gebaseerd wat je in staat stelt om een dynamische website te ontwikkelen met vele mogelijkheden voor webcommunity\'s.';
 $lang['Default_META_Title'] = 'Icy Phoenix';
 $lang['Default_META_Author'] = 'Mighty Gorgon en Icy Phoenix Team :: http://www.icyphoenix.com/';
-$lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
+$lang['Default_META_Copyright'] = '(c) 2001-' . date('Y') . ' Mighty Gorgon';
+$lang['Extra_Meta'] = '';
 
 $lang['REGISTER_MESSAGE'] = '';
 

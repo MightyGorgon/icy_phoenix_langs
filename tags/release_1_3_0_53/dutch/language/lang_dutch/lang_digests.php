@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_digests.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -108,6 +108,7 @@ $lang = array_merge($lang, array(
 	'digest_9pm' => '9 PM',
 	'digest_10pm' => '10 PM',
 	'digest_11pm' => '11 PM',
+	'digest_click_return' => 'Klik %shier%s om naar de digestsinstellingen terug te keren', // %s's here are for uris, do not remove!
 	'digest_select_forums' => '<b>Verstuur digests voor deze forums:</b>',
 	'digest_create' => 'Jouw digestinstellingen zijn succesvol aangemaakt',
 	'digest_modify' => 'Jouw digestinstellingen zijn succesvol bijgewerkt',
