@@ -2198,6 +2198,10 @@ $lang = array_merge($lang, array(
 
 	'READ_ONLY_FORUM' => 'Es tut uns leid, aber z.Z. hat dieses Forum den <b>NUR LESEN</b> Status. Das bedeutet, dass du nichts posten kannst, auch wenn du sonst die Rechte dafür hast. Bitte versuch es später noch einmal.',
 
+	// Tickets Submission - BEGIN
+	'TICKET_CAT' => 'Kategorie',
+	// Tickets Submission - END
+
 	)
 );
 
@@ -2333,6 +2337,18 @@ $lang['datetime']['SEP'] = 'Sep';
 $lang['datetime']['OCT'] = 'Okt';
 $lang['datetime']['NOV'] = 'Nov';
 $lang['datetime']['DEC'] = 'Dez';
+$lang['datetime']['Jan'] = $lang['datetime']['JAN'];
+$lang['datetime']['Feb'] = $lang['datetime']['FEB'];
+$lang['datetime']['Mar'] = $lang['datetime']['MAR'];
+$lang['datetime']['Apr'] = $lang['datetime']['APR'];
+$lang['datetime']['May'] = $lang['datetime']['MAY'];
+$lang['datetime']['Jun'] = $lang['datetime']['JUN'];
+$lang['datetime']['Jul'] = $lang['datetime']['JUL'];
+$lang['datetime']['Aug'] = $lang['datetime']['AUG'];
+$lang['datetime']['Sep'] = $lang['datetime']['SEP'];
+$lang['datetime']['Oct'] = $lang['datetime']['OCT'];
+$lang['datetime']['Nov'] = $lang['datetime']['NOV'];
+$lang['datetime']['Dec'] = $lang['datetime']['DEC'];
 
 // NOTE: Please do not translate the following 4 lines!
 // They are automatically translated into your language

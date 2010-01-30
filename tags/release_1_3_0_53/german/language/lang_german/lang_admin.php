@@ -1942,6 +1942,24 @@ $lang = array_merge($lang, array(
 	'EDIT' => 'Bearbeiten',
 	'DELETE' => 'Löschen',
 
+	// Tickets Submission - BEGIN
+	'TICKETS_EMAILS' => 'E-Mail Tickets',
+	'TICKETS_EMAILS_EXPLAIN' => 'This section lets you specify several categories which could be chosen in "Contact Us" page when sending emails. For each category one or more email address can be specified, so the user will be allowed to choose a specific subject and the email will be sent to the linked email addresses.',
+	'TICKET_CAT' => 'Kategorie',
+	'TICKET_CAT_TITLE' => 'Titel',
+	'TICKET_CAT_DES' => 'Beschreibung',
+	'TICKET_CAT_EMAILS' => 'E-Mail Adressen',
+	'TICKET_CAT_EMAILS_EXPLAIN' => 'Insert here all email addresses you want the email to be sent.<br />Separate all addresses by semicolon (a@a.com;b@b.com;c@c.com).',
+	'TICKETS_NO_TICKETS' => 'Keine Tickets',
+	'TICKETS_NO_TICKET_SEL' => 'Kein Ticket ausgewählt',
+	'TICKETS_NO_TICKET_TITLE' => 'You have to enter at least title field',
+	'TICKETS_DB_ADD' => 'Kategorie hinzufügen',
+	'TICKETS_DB_ADDED' => 'Kategorie erfolgreich hinzugefügen',
+	'TICKETS_DB_UPDATED' => 'Kategorie erfolgreich geändert',
+	'TICKETS_DB_DELETED' => 'Kategorie erfolgreich gelöscht',
+	'TICKETS_DB_CLICK' => 'Klicke %shier%s, um zu den E-Mail Tickets zurückzukehren',
+	// Tickets Submission - END
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Icy Phoenix Einstellungen',
 	'MG_Configuration_Explain' => 'Hier kannst du einige fortgeschrittene Icy Phoenix Einstellungen vornehmen',
@@ -1959,7 +1977,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_Header_Table' => 'Header Tabelle',
 	'MG_SW_Header_Table_Explain' => 'Bei Aktivierung dieser Option wird eine Tabelle auf jeder Seite Oben mit einer speziellen Nachricht angezeigt.',
 	'MG_SW_Header_Table_Text' => 'Füge deinen Text hier ein',
- 
+
 	'MG_SW_Empty_Precompiled_Posts' => 'Leere vorkompilierte Beiträge',
 	'MG_SW_Empty_Precompiled_Posts_Explain' => 'Diese Funktion leert alle vorkompilierten Beiträge.',
 	'MG_SW_Empty_Precompiled_Posts_Success' => 'Vorkompilierte Beiträge korrekt geleert.',
@@ -2040,6 +2058,7 @@ $lang['170_Smilies'] = 'Smilies'; // admin_smilies.php
 $lang['180_Word_Censor'] = 'Wortzensur'; // admin_words.php
 $lang['200_Notepad'] = 'Admin Notizblock'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Hilfestellung'; // admin_helpdesk.php
+$lang['220_Tickets_Emails'] = 'E-Mail Kategorien'; // admin_tickets.php
 $lang['240_Replace_title'] = 'Ersetzen in Beiträgen'; // admin_replace.php
 
 // Forum
