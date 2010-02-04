@@ -37,7 +37,7 @@ $lang['REGISTER_MESSAGE'] = '';
 
 $lang['Welcome_Message'] = 'Willkommen bei <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Willkommen bei %s';
-$lang['register_pm'] = 'Hallo!\n\nWillkommen bei %s.\n\nWir hoffen du genießt die Zeit hier auf unserer Seite!\n\nFühle dich frei um mitzumachen und mit anderen deine Erfahrungen auszutauschen oder deine eigene Diskussion zu starten!\n\n~Viel Spaß!\n%s';
+$lang['register_pm'] = "Hallo!\n\nHerzlich willkommen bei %s.\n\nWir wünschen dir viel Spaß auf dieser Seite und hoffen dich regelmäßig begrüßen zu können.\n\nDu kannst sehr gern aktiv mitmachen, indem du mit anderen deine Erfahrungen austauschst oder einfach deine eigene Diskussion startest!\n\nViel Spaß wünscht\n%s";
 
 $lang['Support_Us'] = 'Unterstützt uns';
 $lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '" title="' . $lang['Support_Us'] . '" />';
