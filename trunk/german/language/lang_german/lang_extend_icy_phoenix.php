@@ -96,10 +96,10 @@ if ($lang_extend_admin)
 		'IP_select_lang' => 'Sprach Wechsel',
 		'IP_select_lang_explain' => 'Bei Aktivierung dieser Option, wird eine Auswahl Box zum schnellen wechseln aller verfügbaren Sprachen angezeigt.',
 
-		'IP_cms_dock' => 'Zeige Apple Style Dock in CMS',
+		'IP_cms_dock' => 'Zeige Apple Style Dock im CMS',
 
-		'IP_cms_style' => 'CMS in einem moderneren Style anzeigen',
-		'IP_cms_style_explain' => 'Der Moderne Style für das CMS beinhaltet ein neues Layout und eine transparente Navigation die über der CMS Verwaltung angebracht ist, hingegen hat der klassische Style ein seitlich angebrachtes Menü.',
+		'IP_cms_style' => 'Aktiviere AJAX im CMS',
+		'IP_cms_style_explain' => 'Bei Aktivierung dieser Option, werden die AJAX Funktionen im CMS aktiviert',
 
 		'IP_split_ga_ann_sticky' => 'Spaltet Themen nach Typ auf',
 		'IP_split_ga_ann_sticky_explain' => 'Hier kannst du eine Variante auswählen um Themen in der Forum-Ansicht (viewforum.php) entsprechend aufzuteilen',
@@ -117,8 +117,8 @@ if ($lang_extend_admin)
 		'IP_db_cron_explain' => 'Bei Aktivierung dieser Option, wird die Datenbank Optimierung aktiviert',
 		*/
 
-		'IP_site_history' => 'Seiten Historie',
-		'IP_site_history_explain' => 'Bei Aktivierung dieser Option, wird die Seiten Historie aktiviert',
+		'IP_site_history' => 'Seiten Statistik',
+		'IP_site_history_explain' => 'Bei Aktivierung dieser Option, werden einige zusätzlichen Statistiken in der DB gespeichert (z.B. tägliche Besuche, Beiträge, usw.)',
 
 		'IP_global_disable_upi2db' => 'Deaktiviere UPI2DB komplett',
 		'IP_global_disable_upi2db_explain' => 'Mit dieser Option kannst du UPI2DB vollständig abschalten, dadurch sparst du extra Speicherplatz.',
@@ -202,6 +202,9 @@ if ($lang_extend_admin)
 		'IP_allow_mods_edit_admin_posts' => 'Erlaube Moderatoren die Bearbeitung von Administrator Beiträgen',
 		'IP_allow_mods_edit_admin_posts_explain' => 'Erlaubt Moderatoren die Beiträge von Administratoren zu bearbeiten',
 
+		'IP_forum_limit_edit_time_interval' => 'Limit Edit Time Interval (Minutes)',
+		'IP_forum_limit_edit_time_interval_explain' => 'This sets the time interval for users to be allowed to edit own messages. Set to ZERO for no limits (feature should be enabled on a per forum basis in Forums Management)',
+
 		'IP_force_large_caps_mods' => 'Themen-Betreff anpassen',
 		'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepaßt, indem der erste Buchstabe jedes Wortes groß geschrieben wird. (außer für Admins)',
 
@@ -211,6 +214,12 @@ if ($lang_extend_admin)
 		'IP_no_bump' => 'Verbiete doppelte Beiträge innerhalb von 24 Stunden',
 		'IP_no_bump_explain' => 'Bei Aktivierung dieser Option, ist der letzte Poster in einem Thema nicht mehr in der Lage innerhalb von 24 Stunden eine Antwort auf seinen Beitrag zu verfassen. Es sei denn ein anderer Benutzer hat bereits auf seinen Beitrag geantwortet.',
 		'MODS_ALLOWED' => 'Moderatoren können schreiben',
+
+		'IP_display_tags_box' => 'TAGS :: Display Topics Tags',
+		'IP_display_tags_box_explain' => 'Enabling this option will enable Topics Tags (tags could be used for indexing purpose): tags could be inserted / edited only by administrators (or moderators if you enable the switch below) to avoid spam',
+
+		'IP_allow_moderators_edit_tags' => 'TAGS :: Allow Moderators To Edit Tags',
+		'IP_allow_moderators_edit_tags_explain' => 'Enabling this option will allow Moderators to edit Topics Tags',
 
 		'IP_show_topic_description' => 'Aktiviere Beschreibung für Themen',
 		'IP_show_topic_description_explain' => 'Bei Aktivierung dieser Option wird die Themen-Beschreibung beim Schreiben eines neuen Themas und in der Forenansicht angezeigt.',
@@ -236,8 +245,8 @@ if ($lang_extend_admin)
 
 		'IP_quote_iterations' => 'Anzahl verschachtelter Zitate',
 
-		'IP_disable_ftr' => 'Komplette Deaktivierung des Force Topic Read',
-		'IP_disable_ftr_explain' => 'Bei Aktivierung dieser Option, wird der Force Topic Read komplett abgeschaltet',
+		'IP_ftr_disable' => 'Deaktivierung des Force Topic Read',
+		'IP_ftr_disable_explain' => 'Bei Aktivierung dieser Option, wird der Force Topic Read deaktiviert',
 
 		'IP_disable_html_guests' => 'Deaktiviere HTML Links für Gäste',
 
@@ -247,6 +256,12 @@ if ($lang_extend_admin)
 
 		'IP_enable_quick_quote' => 'Aktiviere Schnellzitat',
 		'IP_enable_quick_quote_explain' => 'Das Schnellzitat erlaubt den Benutzern mittels eines Klicks einen Beitrag zu zitieren. Diese Funktion verwendet Javascript. Die Aktivierung kann lange Beiträge zur Folge haben, wenn viele Beiträge mit langen Texten in den Themen vorhanden sind.',
+
+		'IP_allow_html_only_for_admins' => 'Aktiviere HTML nur für Administratoren',
+		'IP_allow_html_only_for_admins_explain' => 'Enabling this option will allow administrators to use HTML tags in posts. Please notice that this feature may lead to security issues or wrong page formatting if not used properly.',
+
+		'IP_enable_custom_bbcodes' => 'Aktiviere eigene BBCodes',
+		'IP_enable_custom_bbcodes_explain' => 'This option will enable customized BBCodes created in ACP.',
 
 		'IP_allow_all_bbcode' => 'Aktiviere alle BBCodes',
 		'IP_allow_all_bbcode_explain' => 'Bei Aktivierung dieser Option, werden alle BBCodes in der Signatur und anderen Teilen aktiviert, wo sie noch nicht aktiviert sind.',
@@ -364,8 +379,7 @@ if ($lang_extend_admin)
 		'IP_sitemap_new_first' => 'Neue Beiträge zuerst',
 		'IP_sitemap_old_first' => 'Alte Beiträge zuerst',
 
-		'Word_graph' => 'TAGS',
-
+//Tags
 		'IP_word_graph_max_words' => 'TAGS :: Maximale Wörter',
 		'IP_word_graph_max_words_explain' => 'Wähle die max. Anzahl an Wörtern die angezeigt werden. Eine hohe Zahl könnte den Server belasten. Der empfohlene Wert ist 250.',
 
@@ -374,6 +388,11 @@ if ($lang_extend_admin)
 
 		'IP_forum_wordgraph' => 'TAGS :: Forum Wortdiagramm',
 		'IP_forum_wordgraph_explain' => 'Dieses Feature aktiviert ein forumbasierendes Wortdiagramm am Ende jedes Forums',
+
+		'IP_forum_tags_type' => 'TAGS :: Forum Tags Type',
+		'IP_forum_tags_type_explain' => 'You can choose whether to display Wordgraph (word taken from search tables) or Tags (tags specified in topics)',
+		'IP_forum_tags_type_tags' => 'Tags',
+		'IP_forum_tags_type_wordgraph' => 'Wordgraph',
 
 		'Similar_topics' => 'Ähnliche Themen',
 		'Similar_topics_explain' => 'Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
@@ -400,7 +419,7 @@ if ($lang_extend_admin)
 		'IP_admin_protect_explain' => 'Bei Aktivierung dieser Option, wird mehr Sicherheit dem Haupt Admin Account hinzugefügt',
 
 		'IP_db_log_actions' => 'Aktiviere DB Aktionen Log',
-		'IP_db_log_actions_explain' => 'Bei Aktivierung dieser Option werden alle Aktionen, die die DB ändern, in der Datenbank gespeichert. Wurde diese Option in der constans.php als "true" gesetzt, so kann sie nicht durch das ACP abgeschaltet werden. Willst du noch zusätzlich alle Fehler gespeichert haben, werden diese in einer extra Datei gesichert.',
+		'IP_db_log_actions_explain' => 'Bei Aktivierung dieser Option werden alle Aktionen, die die DB ändern, in der Datenbank gespeichert. Wurde diese Option in der constans.php als &quot;true&quot; gesetzt, so kann sie nicht durch das ACP abgeschaltet werden. Willst du noch zusätzlich alle Fehler gespeichert haben, werden diese in einer extra Datei gesichert.',
 
 		'IP_mg_log_actions' => 'Aktiviere TXT Actions Log',
 		'IP_mg_log_actions_explain' => 'Aktiviere diese Option und es wird jede Aktion, die die DB ändert, in einer Textdatei auf unter dem Benutzer gespeichert (Datei wird im LOGS Ordner gespeichert). Diese Datei ist nicht einfach zu lesen, aber es kann unter bestimmten Bedingungen nützlich sein. Aktiviere es nur, wenn du weißt was du machst (die Seite kann nach der Aktivierung langsamer sein).',
@@ -419,22 +438,22 @@ if ($lang_extend_admin)
 		'IP_cron_global_switch_explain' => 'Bei Aktivierung dieser Option wird der PHP-basierende Cron aktiviert: einige automatische Arbeiten werden in bestimmten Intervallen ausgeführt. Der optimale Zeitabstand für jeden Cron hängt von der Auslastung und den Einstellungen der Seite ab: Wenn du nicht weißt was diese Einstellungen bedeuten, dann lass diese Funktion deaktiviert, denn du wirst sie wahrscheinlich nicht benötigen.',
 
 		'IP_cron_files_interval' => 'Dateiausführungs Cron Intervall',
-		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausführen in dem Intervall das du bestimmst. Die Dateien die ausgeführt werden sollen müssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien müssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_files_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausführen in dem Intervall das du bestimmst. Die Dateien die ausgeführt werden sollen müssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien müssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_database_interval' => 'DB Optimierungs Cron Intervall',
-		'IP_cron_database_interval_explain' => 'Diese Funktion wird deine Datenbank in dem von dir bestimmten Intervall optimieren.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_database_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_database_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_database_interval_explain' => 'Diese Funktion wird deine Datenbank in dem von dir bestimmten Intervall optimieren.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_database_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_database_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_cache_interval' => 'Templates Cache Cron Intervall',
-		'IP_cron_cache_interval_explain' => 'Der Template Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_cache_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_cache_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_cache_interval_explain' => 'Der Template Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_cache_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_cache_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_sql_interval' => 'SQL Cache Cron Intervall',
-		'IP_cron_sql_interval_explain' => 'Der SQL Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_sql_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_sql_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_sql_interval_explain' => 'Der SQL Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_sql_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_sql_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_users_interval' => 'Benutzer Cache Cron Intervall',
-		'IP_cron_users_interval_explain' => 'Der Benutzer Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_users_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_users_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_users_interval_explain' => 'Der Benutzer Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_users_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_users_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_topics_interval' => 'Themen Cache Cron Intervall',
-		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($board_config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($board_config['cron_topics_last_run']), $board_config['board_timezone'])) . '</b>',
+		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>',
 
 		'Cron_Disabled' => 'Deaktiviert',
 		'15M' => '15 Minuten',

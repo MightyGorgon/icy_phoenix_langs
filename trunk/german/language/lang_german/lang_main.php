@@ -34,24 +34,22 @@ if (empty($lang) || !is_array($lang))
 
 $lang['BBC_IP_CREDITS_STATIC'] = '
 <a href="http://www.icyphoenix.com" title="Icy Phoenix"><img src="http://www.icyphoenix.com/images/logo_ip.png" alt="Icy Phoenix" title="Icy Phoenix" /></a><br />
-<span style="color: #ff5500;"><b>Mighty Gorgon</b></span><br />
-<i>(Luca Libralato)</i><br />
+<span style="color: #dd2222;"><b>Mighty Gorgon</b></span>&nbsp;<i>(Luca Libralato)</i><br />
 <b><i>Developer</i></b><br />
-Interests: Heroes Of Might And Magic III, 69, #FF5522<br />
-Location: Homer\'s Head<br />
 <br />
 <br />
-<span style="color: #dd2222;"><b>Bicet</b></span><br />
-<b><i>phpBB XS Developer</i></b><br />
+<span style="color: #ff5500;"><b>hpl</b></span><br />
+<b><i>Junior Developer</i></b><br />
 <br />
 <br />
-<span style="color: #dd2222;"><b>hpl</b></span><br />
-<b><i>Some Special Contributions</i></b><br />
+<span style="color: #ff5500;"><b>KasLimon</b></span><br />
+<b><i>Junior Developer</i></b><br />
 <br />
 <br />
 <b><i>Valued Contributors</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
+<span style="color: #dd2222;"><b>Bicet</b></span>&nbsp;<i>(phpBB XS Developer)</i><br />
 <span style="color: #0000bb;"><b>brandsrus</b></span><br />
 <span style="color: #228822;"><b>buldo</b></span><br />
 <span style="color: #228822;"><b>casimedicos</b></span><br />
@@ -63,7 +61,6 @@ Location: Homer\'s Head<br />
 <span style="color: #880088;"><b>ganesh</b></span><br />
 <span style="color: #228822;"><b>JANU1535</b></span><br />
 <span style="color: #880088;"><b>jz</b></span><br />
-<span style="color: #228822;"><b>KasLimon</b></span><br />
 <span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
 <span style="color: #0000bb;"><b>Limun</b></span><br />
 <span style="color: #880088;"><b>Lopalong</b></span><br />
@@ -72,11 +69,10 @@ Location: Homer\'s Head<br />
 <span style="color: #228822;"><b>ThE KuKa</b></span><br />
 <span style="color: #ff7700;"><b>TheSteffen</b></span><br />
 <span style="color: #0000bb;"><b>Tom</b></span><br />
+<span style="color: #aaff00;"><b>TuningBEB2008</b></span><br />
 <span style="color: #228822;"><b>z3d0</b></span><br />
 <span style="color: #228822;"><b>Zuker</b></span><br />
 <br />
-Interests: Icy Phoenix<br />
-Location: <a href="http://www.icyphoenix.com/">http://www.icyphoenix.com</a>
 ';
 
 $lang['BBC_IP_CREDITS'] = '<div class="center-block"><marquee behavior="scroll" direction="up" scrolldelay="120">' . $lang['BBC_IP_CREDITS_STATIC'] . '</marquee></div>';
@@ -1035,9 +1031,9 @@ $lang = array_merge($lang, array(
 	'Give_b_card' => 'Diesen Beitrag einem Moderator melden.',
 	'Clear_b_card' => 'Dieser Beitrag hat bisher %d blaue Karten erhalten. Wenn du bestätigst wird der Counter zurückgesetzt.',
 	'No_moderators' => 'Dieses Forum hat keinen Moderator, deswegen wird kein Bericht versandt.',
-	'Post_repported' => '%d Moderatoren werden über die Beanstandung dieses Beitrags informiert.',
-	'Post_repported_1' => 'Der Moderator wird über die Beanstandung dieses Beitrags informiert.',
-	'Post_repport' => 'Die Beanstandung abschicken.',
+	'Post_reported' => '%d Moderatoren werden über die Beanstandung dieses Beitrags informiert.',
+	'Post_reported_1' => 'Der Moderator wird über die Beanstandung dieses Beitrags informiert.',
+	'Post_report' => 'Die Beanstandung abschicken.',
 	'Post_reset' => 'Die Anzahl der blauen Karten dieses Beitrags wurde zurückgesetzt.',
 	'Search_only_bluecards' => 'Alle Beiträge mit blauen Karten anzeigen.',
 	'Send_message' => 'Klicke %shier%s, um einen Beitrag zu beanstanden.<br />',
@@ -1442,7 +1438,7 @@ $lang = array_merge($lang, array(
 	'BSH_Login' => '%sEinloggen%s',
 	'BSH_Logout' => '%sAusloggen%s',
 	'BSH_Editing_Profile' => '%sProfil bearbeiten%s',
-	'BSH_Viewing_ACP' => '%sACP anzeigen%s',
+	'BSH_Viewing_ACP' => '%sAdmin-Bereich anzeigen%s',
 	'BSH_Moderating_Forum' => '%sForen moderieren%s',
 	'BSH_Viewing_FAQ' => '%sFAQ ansehen%s',
 	'BSH_Viewing_Category' => 'Kategorie ansehen: %c%',
@@ -1499,7 +1495,7 @@ $lang = array_merge($lang, array(
 	'Adv_Search' => 'Erweiterte Suche',
 	'Search_Explain' => 'Suche innerhalb dieser Seite',
 	'Login_attempts_exceeded' => 'Die maximale Anzahl von %s zulässigen Login-Versuchen wurde überschritten. Du kannst dich in den nächsten %s Minuten nicht einloggen.',
-	'Please_remove_install_contrib' => 'Bitte stelle sicher, dass du die Verzeichnisse install/ und contrib/ gelöscht hast.',
+	'Please_remove_install_contrib' => 'Bitte stelle sicher, dass du den Ordner <b>install</b> gelöscht hast.',
 	'Search_Engines' => 'Suchmaschinen-Bots:',
 	'Bots_browsing_forum' => 'Suchmaschinen-Bots in diesem Forum:',
 	'Debug_On' => 'Debug ein',
@@ -1678,20 +1674,62 @@ $lang = array_merge($lang, array(
 	'Rank4_title' => 'Rang 4 Titel',
 	'Rank5_title' => 'Rang 5 Titel',
 // Mighty Gorgon - Multiple Ranks - END
+
 // Mighty Gorgon - Nav Links - BEGIN
 	'QUICK_LINKS' => 'Links',
 	'MAIN_LINKS' => 'Hauptlinks',
-	'TOOLS_LINKS' => 'Werkzeuge',
 	'NEWS_LINKS' => 'News',
-	'USERS_LINKS' => 'Benutzer &amp; Gruppen',
 	'INFO_LINKS' => 'Info',
+	'USERS_LINKS' => 'Benutzer &amp; Gruppen',
+	'SELECT_STYLE' => 'Style',
+	'SELECT_LANG' => 'Sprache',
+	'RSS_FEEDS' => 'RSS Feeds',
 	'SPONSORS_LINKS' => 'Sponsoren',
+	'TOOLS_LINKS' => 'Werkzeuge',
 	'HelpDesk' => 'Help Desk',
 	'AvatarGenerator' => 'Avatar Generator',
 	'DBGenerator' => 'SQL zu PHP Generator ',
-	'NEWS_CAT' => 'News Kategorien',
-	'NEWS_ARC' => 'News Archiv',
+
+	'LINK_ACP' => 'Admin-Bereich',
+	'LINK_CMS' => 'CMS',
+	'LINK_HOME' => 'Startseite',
+	'LINK_PROFILE' => 'Profil',
+	'LINK_FORUM' => 'Forum',
+	'LINK_BOARDRULES' => 'Regeln',
+	'LINK_FAQ' => 'FAQ',
+	'LINK_SEARCH' => 'Suche',
+	'LINK_SITEMAP' => 'Sitemap',
+	'LINK_ALBUM' => 'Album',
+	'LINK_CALENDAR' => 'Kalender',
+	'LINK_DOWNLOADS' => 'Downloads',
+	'LINK_BOOKMARKS' => 'Bookmarks',
+	'LINK_DRAFTS' => 'Drafts',
+	'LINK_UPLOADED_IMAGES' => 'Hochgeladene Bilder',
+	'LINK_AJAX_SHOUTBOX' => 'Chat',
+	'LINK_LINKS' => 'Links',
+	'LINK_CONTACT_US' => 'Kontakt',
+	'LINK_SUDOKU' => 'Sudoku',
+
+	'LINK_NEWS_CAT' => 'News Kategorien',
+	'LINK_NEWS_ARC' => 'News Archiv',
+	'LINK_NEW_MESSAGES' => 'Neue Beiträge',
+	'LINK_DISPLAY_UNREAD_S' => 'Ungelesen',
+	'LINK_DISPLAY_MARKED_S' => 'Markiert',
+	'LINK_DISPLAY_PERMANENT_S' => 'Permanent',
+	'LINK_DIGESTS' => 'Digests',
+
+	'LINK_CREDITS' => 'Credits',
+	'LINK_REFERRERS' => 'HTTP Referrers',
+	'LINK_VIEWONLINE' => 'Benutzer online',
+	'LINK_STATISTICS' => 'Statistik',
+	'LINK_DELETE_COOKIES' => 'Cookies löschen',
+
+	'LINK_MEMBERLIST' => 'Mitgliederliste',
+	'LINK_USERGROUPS' => 'Benutzergruppen',
+	'LINK_RANKS' => 'Ränge',
+	'LINK_STAFF' => 'Staff',
 // Mighty Gorgon - Nav Links - END
+
 	'Activity' => 'Spiele',
 	'Games' => 'Spiele',
 	'Trohpy' => 'Spiel Pokale',
@@ -1713,7 +1751,7 @@ $lang = array_merge($lang, array(
 	'ErrorNotFound' => 'Datei nicht gefunden!',
 	'MGC_Users_Online' => 'MGC Benutzer Online',
 	'MGC_User_Servertime' => 'Datum',
-	'MGC_User_Nickname' => 'Nickname',
+	'MGC_User_Nickname' => 'Spitzname',
 	'MGC_User_Server' => 'Server',
 	'MGC_User_IP' => 'IP',
 	'MGC_User_ID' => 'ID',
@@ -1741,6 +1779,7 @@ $lang = array_merge($lang, array(
 	'CMS_TITLE' => 'CMS',
 	'CMS_MANAGEMENT' => 'CMS Verwaltung',
 	'CMS_CONFIG' => 'CMS Konfiguration',
+	'CMS_SETTINGS' => 'CMS Einstellungen',
 	'CMS_ACP' => 'Bearbeite diese Seite',
 	'CUSTOM_PAGE' => 'Individuelle Seitenanpassung',
 // MG CMS - END
@@ -2202,6 +2241,50 @@ $lang = array_merge($lang, array(
 	'TICKET_CAT' => 'Kategorie',
 	// Tickets Submission - END
 
+	'LIMIT_EDIT_TIME_WARN' => 'We are sorry, but you are only allowed to edit posts within the first <b>%d</b> minute(s) after submission.',
+	'CLEAN_NAME' => 'Clean Name',
+	'CLEAN_NAME_EXPLAIN' => 'Only alpha-numeric chars and dashes allowed',
+	'TOPIC_TAGS' => 'Tags und Schlüsselwörter',
+	'TOPIC_TAGS_EXPLAIN' => 'Trenne jeden Tag durch ein Komma',
+	'TAG_COUNT' => 'Counter',
+	'TAG_TEXT' => 'Tag',
+	'TAG_RESULTS' => 'Ausgewählter Tag: <b>%s</b>',
+	'TAGS_NO_TAGS' => 'Kein Tag bisher festgelegt',
+	'TAGS_NO_TAG' => 'Specified tag doesn\'t exist',
+
+	'SQL_ERROR_OCCURRED' => 'An SQL error occurred while fetching this page. Please contact the Site Administrator if this problem persists.',
+
+	'PLUGIN_DISABLED' => 'Dieses Plugin ist zurzeit deaktivert.',
+
+	'AJAX_SHOUTBOX' => 'Chat',
+	'AJAX_SHOUTBOX_PVT' => 'Privater Chat',
+	'AJAX_SHOUTBOX_PVT_LINK' => 'Direkter Chat mit diesem Benutzer',
+	'AJAX_SHOUTBOX_PVT_ALERT' => 'Du hast eine Chat-Anfrage.',
+
+	// COMMON DB - BEGIN
+	'SELECT_SORT_METHOD' => 'Sort by',
+	'ORDER' => 'Sort method',
+	'SUBMIT' => 'Submit',
+	'DATE' => 'Datum',
+	'USERID' => 'Benutzer-ID',
+	'USERNAME' => 'Benutzername',
+	'EMAIL' => 'E-Mail',
+	'WEBSITE' => 'Website',
+	'EDIT' => 'Bearbeiten',
+	'DELETE' => 'Löschen',
+	'YES' => 'Ja',
+	'NO' => 'Nein',
+
+	'DB_ITEM_VIEW' => 'View Item',
+	'DB_ITEM_UPDATED' => 'Item updated successfully',
+	'DB_ITEM_ADD' => 'Add Item',
+	'DB_ITEM_ADDED' => 'Item added successfully',
+	'DB_ITEM_REMOVED' => 'Item removed successfully',
+	'DB_ITEM_NO_ITEMS' => 'No Items',
+	'DB_ITEM_CLICK_VIEW_ITEM' => 'Click %sHere%s to view added data',
+	'DB_ITEM_CLICK_RETURN_ITEMS' => 'Click %sHere%s to return to list page',
+	// COMMON DB - END
+
 	)
 );
 
@@ -2211,7 +2294,6 @@ $lang['NO'] = $lang['No'];
 $lang['HL_File_Error'] = $lang['Error_File_Opening'];
 
 $lang['Prune_commands'] = array();
-
 // here you can make more entries if needed
 $lang['Prune_commands'][0] = 'Faule Benutzer löschen';
 $lang['Prune_explain'][0] = 'Löscht die Benutzer, die noch nichts geschrieben haben, <b>au&szlig;er</b> den neuen Benutzern der letzten %d Tage';
@@ -2356,8 +2438,6 @@ $lang['day_short'] = array($lang['datetime']['Sun'], $lang['datetime']['Mon'], $
 $lang['day_long'] = array($lang['datetime']['Sunday'], $lang['datetime']['Monday'], $lang['datetime']['Tuesday'], $lang['datetime']['Wednesday'], $lang['datetime']['Thursday'], $lang['datetime']['Friday'], $lang['datetime']['Saturday']);
 $lang['month_short'] = array($lang['datetime']['JAN'], $lang['datetime']['FEB'], $lang['datetime']['MAR'], $lang['datetime']['APR'], $lang['datetime']['MAY'], $lang['datetime']['JUN'], $lang['datetime']['JUL'], $lang['datetime']['AUG'], $lang['datetime']['SEP'], $lang['datetime']['OCT'], $lang['datetime']['NOV'], $lang['datetime']['DEC']);
 $lang['month_long'] = array($lang['datetime']['January'], $lang['datetime']['February'], $lang['datetime']['March'], $lang['datetime']['April'], $lang['datetime']['May'], $lang['datetime']['June'], $lang['datetime']['July'], $lang['datetime']['August'], $lang['datetime']['September'], $lang['datetime']['October'], $lang['datetime']['November'], $lang['datetime']['December']);
-
-//$lang[''] = '';
 
 //====================================================
 // Do not insert anything below this line

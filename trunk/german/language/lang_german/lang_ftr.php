@@ -60,8 +60,8 @@ $lang = array_merge($lang, array(
 
 // Added in 1.0.2
 	'Ftr_user_deleted' => 'Benutzer gelöscht!',
-	'Ftr_deactivate' => '<strong>Diesen MOD deaktivieren?</strong><br /><span class=\'gensmall\'><b>Ja</b> schaltet diesen MOD ab!</span>',
-	'Ftr_whos_effected' => 'Wer wird gezwungen dieses Thema zu lesen?<span class=\'gensmall\'>Neue Mitglieder zwingt nur Mitglieder, die sich nach Installation dieses Mods anmelden, das Thema zu lesen.</span>',
+	'Ftr_deactivate' => '<strong>Diesen MOD deaktivieren?</strong><br /><span class="gensmall"><b>Ja</b> schaltet diesen MOD ab!</span>',
+	'Ftr_whos_effected' => 'Wer wird gezwungen dieses Thema zu lesen?<span class="gensmall">Neue Mitglieder zwingt nur Mitglieder, die sich nach Installation dieses Mods anmelden, das Thema zu lesen.</span>',
 	'Ftr_whos_effected_a' => 'Alle Mitglieder',
 	'Ftr_whos_effected_n' => 'Neue Mitglieder',
 	'Ftr_deactivate_y' => 'Ja',

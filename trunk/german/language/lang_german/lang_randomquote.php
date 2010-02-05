@@ -27,7 +27,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang['RandomQuote'] = 'Zufälliges Zitat';
 
-//$randomquote[rand(0,count($randomquote)-1)]);
+//$randomquote[rand(0,sizeof($randomquote)-1)]);
 
 $randomquote = array(
 	'Nie darfst du so tief sinken, von dem Kakao, durch den man dich zieht, auch noch zu trinken. (Erich Kästner)',

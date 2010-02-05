@@ -320,6 +320,8 @@ $lang = array_merge($lang, array(
 	'Checking_topic_watch_data' => 'Prüfe auf ungültige beobachtete Themen',
 	'Checking_auth_access_data' => 'Prüfe auf ungültige Gruppenberechtigungs-Daten',
 	'Must_synchronize' => 'Du musst die Beitragsdaten synchronisieren, bevor du das Board nutzen kannst. Klicke hier, um fortzusetzen.',
+// rebuild last poster details
+	'Rebuild_Last_Poster_Details' => 'Details des letzten Beitragsschreiber wiederherstellen',
 // check_vote
 	'Checking_vote_tables' => 'Prüfe Umfrage-Tabellen',
 	'Checking_votes_wo_topic' => 'Prüfe auf Umfragen ohne zugehöriges Thema',

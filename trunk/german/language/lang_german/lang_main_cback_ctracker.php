@@ -72,8 +72,8 @@ $lang = array_merge($lang, array(
 
 
 /*
- * Language Strings used for the footer itself
- */
+* Language Strings used for the footer itself
+*/
 	'ctracker_fdisplay_imgdesc' => 'Forensicherheit',
 	'ctracker_fdisplay_n' => '<a href="http://www.cback.de" target="_blank">Sicherheit</a> durch <a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a>.',
 	'ctracker_fdisplay_c' => 'Geschützt durch <a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a><br /><b>%s</b> abgewehrte Angriffe.',
@@ -81,8 +81,8 @@ $lang = array_merge($lang, array(
 
 
 /*
- * Language Strings for the class_ct_database.php
- */
+* Language Strings for the class_ct_database.php
+*/
 	'ctracker_error_loading_config' => 'Die CrackerTracker Konfiguration konnte nicht von der Datenbank geladen werden. Hast Du das Installationsskript ausgeführt und die Datei "includes/constants.php" korrekt editiert?',
 	'ctracker_error_updating_config' => 'Die CrackerTracker Konfiguration konnte nicht aktualisiert werden. Hast Du das Installationsskript ausgeführt und die Datei "includes/constants.php" korrekt editiert?',
 	'ctracker_error_loading_blocklist' => 'Die CrackerTracker Blockliste konnte nicht von der Datenbank geladen werden. Hast Du das Installationsskript ausgeführt und die Datei "includes/constants.php" korrekt editiert?',
@@ -93,8 +93,8 @@ $lang = array_merge($lang, array(
 
 
 /*
- * Language Strings used in class_ct_userfunctions.php
- */
+* Language Strings used in class_ct_userfunctions.php
+*/
 	'ctracker_info_search_time' => "Aus Sicherheitsgründen ist die Suche nur %s mal innerhalb %s Sekunden möglich. Diese Anzahl wurde überschritten. Daher musst du nun <span id=\"waittime\">%s</span> Sekunden warten, bis Du den nächsten Suchvorgang ausführen kannst. <script type=\"text/javascript\"><!-- \n var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } } //--></script>",
 	'ctracker_info_regist_time' => "Aus Sicherheitsgründen ist eine Registrierung nur alle %s Sekunden möglich. Diese Anzahl wurde überschritten. Daher musst du nun <span id=\"waittime\">%s</span> Sekunden warten, bis Du eine weitere Registrierung vornehmen kannst. <script type=\"text/javascript\"><!-- \n var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } } //--></script>",
 	'ctracker_info_regip_double' => 'Es fand bereits eine Registrierung von dieser IP Adresse statt. Aus Sicherheitsgründen darf man sich nacheinander lediglich einmal von der gleichen IP Adresse registrieren!',
@@ -105,37 +105,37 @@ $lang = array_merge($lang, array(
 	'ctracker_info_password_cmplx_2' => 'Kleinbuchstaben',
 	'ctracker_info_password_cmplx_3' => 'Großbuchstaben',
 	'ctracker_info_password_cmplx_4' => 'Sonderzeichen',
-	'ctracker_info_pw_expired' => 'Der Administrator hat eingestellt, dass ein Passwort nur für <b>%s Tage</b> gültig sein darf. Wir empfehlen aus Sicherheitsgründen, dass du dein Passwort jetzt änderst. Klicke hierzu auf "Profil".',
+	'ctracker_info_pw_expired' => 'Der Administrator hat eingestellt, dass ein Passwort nur für <b>%s Tage</b> gültig sein darf. Wir empfehlen aus Sicherheitsgründen, dass du dein Passwort jetzt änderst. Klicke hierzu auf &quot;<a href="' . CMS_PAGE_PROFILE . '?mode=editprofile&amp;' . POST_USERS_URL . '=%d">Profil</a>&quot;.',
 
 /*
- * Language Strings used in ct_visual_confirm.php
- */
+* Language Strings used in ct_visual_confirm.php
+*/
 	'ctracker_login_wrong' => 'Der eingegebene visuelle Bestätigungscode war leider nicht korrekt!',
 	'ctracker_code_dbconn' => 'Konnte visuellen Bestätigungscode nicht von der Datenbank laden! Wenn du ein phpBB Plus hast musst du die phpBB-eigenen Module für die Visuelle Bestätigung nachinstallieren. Lies hierzu bitte im Ordner "add_ons" des CrackerTracker MODPaketes die Hinweise zu phpBB Plus!',
 	'ctracker_login_success' => 'Dein Benutzer-Konto wurde nun wieder freischaltet.<br /><br />Klicke <a href="%s">hier</a>, um zur Loginseite zu gelangen.',
 	'ctracker_code_count' => 'Die maximale Anzahl der Eingabeversuche für die Visuelle Bestätigung wurde für diese Session überschritten.',
 
 /*
- * Language Strings used in ctracker_login.php
- */
+* Language Strings used in ctracker_login.php
+*/
 	'ctracker_login_title' => 'CrackerTracker Benutzer-Konto-Freischaltung',
 	'ctracker_login_logged' => 'Eingeloggte Benutzer können diese Seite nicht aufrufen.',
 	'ctracker_login_confim' => 'Die eingestellte Anzahl fehlerhafter Loginversuche für dein Benutzer-Konto wurde erreicht. Zum Schutz deines Benutzer-Kontos wurde dieser nun für den Login gesperrt und muss von Dir über die visuelle Bestätigung wieder freigeschaltet werden.<br /><br />Bitte trage dazu nun den folgenden Buchstaben- und Zahlencode in das Eingabefeld ein und drücke auf den Button "Freischalten", um dein Benutzer-Konto wieder freizuschalten. Wenn dies getan ist, kannst du Dich wie gewohnt über die Loginseite einloggen.',
 	'ctracker_login_button' => 'Freischalten',
 
 /*
- * Language Strings for IP Warning Engine
- */
+* Language Strings for IP Warning Engine
+*/
 	'ctracker_ipwarn_info' => 'IP Range Scanning für dein Benutzer-Konto ist <b>%s</b>',
 	'ctracker_ipwarn_prof' => 'IP Range Scanner',
 	'ctracker_ipwarn_pdes' => 'Der IP Range Scanner prüft, wenn aktiviert, die sogenannte IP Range auf Veränderungen. Wenn sich jemand mit deinem Benutzer-Konto von einer anderen Position aus eingeloggt hat, wirst Du darüber mit einer kurzen Nachricht informiert (Natürlich auch, wenn du Dich selbst von verschiedenen Positionen aus einloggst. ;-)). Bitte schaue im Footer nach, ob die Warnfunktion noch aktiviert ist, falls ein Angreifer diese deaktiviert hat. Die Protokollierung bleibt jedoch bestehen, damit Du nach der Aktivierung noch die Möglichkeit hast Veränderungen zu prüfen.',
 	'ctracker_ipwarn_chng' => '<b>&raquo; HINWEIS &laquo;</b><br />Die IP Range für dein Benutzer-Konto hat sich verändert. Der aktuelle Login fand von <b>%s</b> statt, der vorherige von <b>%s</b>. Wenn du Dich nicht selbst von einer anderen Position aus eingeloggt hast, dann besteht die Möglichkeit, dass jemand unberechtigt dein Benutzer-Konto benutzt hat!',
 	'ctracker_ipwarn_welc' => '<b>&raquo; HINWEIS &laquo;</b><br />Der IP Range Scanner für dein Benutzer-Konto ist noch nicht initialisiert. Dies ist nach 2 Logins der Fall. Wenn du den Scanner jetzt initialisieren möchtest, dann logge Dich bitte zweimal aus und wieder ein.',
-	'ctracker_ipwarn_send' => 'Einstellungen übernehmen',
+	'ctracker_ipwarn_send' => 'Einstellungen speichern',
 
 /*
- * Language Strings for Login History
- */
+* Language Strings for Login History
+*/
 	'ctracker_lhistory_h' => 'Login History',
 	'ctracker_lhistory_i' => 'Hier kannst du das Protokoll Deiner letzten <b>%s</b> Logins ansehen und anhand der IP Adressen und Zeiten überprüfen, ob auch wirklich nur Du derjenige bist, der dieses Benutzer-Konto nutzt. Sollten unbekannte Loginzeiten oder IP Adressen in der Login History auftreten, besteht die Möglichkeit, dass jemand dein Passwort ausgespäht hat. In diesem Fall solltest du das Passwort für dein Benutzer-Konto ändern und ggf. Deinen Mailkonto überprüfen.',
 	'ctracker_lhistory_h1' => 'Login Datum und Zeit',
@@ -145,8 +145,8 @@ $lang = array_merge($lang, array(
 	'ctracker_lhistory_off' => 'Login History wurde vom Admin deaktiviert.',
 
 /*
- * Other Language Strings used in the Board itself
- */
+* Other Language Strings used in the Board itself
+*/
 	'ctracker_gmb_link' => 'Der Administrator hat einen wichtigen Hinweis für alle Benutzer hinterlassen. Dieser kann nachfolgend abgerufen werden:<br /><br /><a href="%s">%s</a><br />',
 	'ctracker_gmb_mark' => 'Nachricht als gelesen markieren',
 	'ctracker_gmb_markip' => 'Hinweis ausblenden',

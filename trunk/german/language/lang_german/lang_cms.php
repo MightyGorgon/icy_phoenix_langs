@@ -68,8 +68,9 @@ $lang = array_merge($lang, array(
 	'Blocks_Title' => 'Blöcke Verwaltung',
 	'Blocks_Explain' => 'Von diesem Bedienpanel aus kannst du Blöcke für jede verfügbare Site Page hinzufügen, bearbeiten, löschen und verschieben. Für jede hinzugefügte Block Datei muss ein Block Template vorhanden sein.',
 	'Blocks_Duplicate_Explain' => 'Von diesem Bedienpanel aus kannst du Blöcke von anderen Layouts duplizieren. Nur Blöcke die mit dem ausgewählten Layout kompatibel sind werden angezeigt. Um Blöcke zu duplizieren musst du nur die Box, für jeden Block den du hinzufügen willst, ankreuzen und dann nur noch "Blöcke duplizieren" am Seitenende anklicken.',
-	'Blocks_Creation_01' => 'Hinzufügen/Bearbeiten Block Seite 1 von 2',
-	'Blocks_Creation_02' => 'Hinzufügen/Bearbeiten Block Seite 2 von 2',
+	'Blocks_Creation' => 'Hinzufügen / Bearbeiten Block',
+	'Blocks_Creation_01' => 'Hinzufügen / Bearbeiten Block Seite 1 von 2',
+	'Blocks_Creation_02' => 'Hinzufügen / Bearbeiten Block Seite 2 von 2',
 	'CMS_STANDARD_PAGES' => 'Standard Seiten',
 	'CMS_CUSTOM_PAGES' => 'Benutzerspezifische Seiten',
 	'CMS_CUSTOM_PAGES_ADV' => 'CMS Seiten ADV',
@@ -176,6 +177,8 @@ $lang = array_merge($lang, array(
 	'cms_pos_column1' => 'Column 1 (Links)',
 	'cms_pos_column2' => 'Column 2 (Rechts)',
 	'cms_pos_bottomrow' => 'Unten',
+	'cms_pos_gheader' => 'Global Header',
+	'cms_pos_gfooter' => 'Global Footer',
 	'cms_pos_ghtop' => 'Header Oben',
 	'cms_pos_ghbottom' => 'Header Unten',
 	'cms_pos_ghleft' => 'Header Mitte (Links)',
@@ -183,6 +186,7 @@ $lang = array_merge($lang, array(
 //	'cms_pos_' => '',
 
 	'cms_block_ads' => 'Werbung',
+	'cms_block_ads_tla' => 'Werbung TLA',
 	'cms_block_ajax_shoutbox' => 'AJAX Chat',
 	'cms_block_album' => 'Foto-Galerie',
 	'cms_block_birthdays' => 'Geburtstage',
@@ -215,6 +219,7 @@ $lang = array_merge($lang, array(
 	'cms_block_online_users' => 'Wer ist online',
 	'cms_block_online_users2' => 'Wer ist online',
 	'cms_block_paypal' => 'PayPal',
+	'cms_block_paypal_donate' => 'Spenden',
 	'cms_block_poll' => 'Umfrage',
 	'cms_block_random_attach' => 'Zufällige Anhänge',
 	'cms_block_random_quote' => 'Zufälliges Zitat',
@@ -361,7 +366,7 @@ $lang = array_merge($lang, array(
 	'CMS_Menu_Items_Not_Exist' => 'Dieses Menü hat keine Kategorie. Klicke auf hinzufügen, um eine zu erstellen.',
 	'CMS_Menu_No_Cats_Exist' => 'Dieser Menü-Block hat keine Kategorie. Bevor du einen Link erstellen kannst, mußt du eine Kategorie anlegen.',
 	'CMS_Menu_Item_Not_Exist' => 'Dieser Menü-Eintrag existiert nicht.',
-	'CMS_Menu_Item_Add_Edit' => 'Menü-Eintrag hinzufügen/bearbeiten.',
+	'CMS_Menu_Item_Add_Edit' => 'Menü-Eintrag hinzufügen / bearbeiten.',
 // MG CMS MENU - END
 
 // CMS - ADV - BEGIN
@@ -374,16 +379,23 @@ $lang = array_merge($lang, array(
 	'CMS_ADV_DEFAULT_TEMPLATE_OPTION' => '-- Template default --',
 
 	'BLOCK_MOVE' => 'Block verschieben',
-	'TURN_ACTIVE' => 'Block aktivieren/deaktivieren',
-	'TURN_BORDER' => 'Rahmen aktivieren/deaktivieren',
-	'TURN_TITLEBAR' => 'Titelleiste aktivieren/deaktivieren',
-	'TURN_LOCAL' => ' aktivieren/deaktivieren Location Titel',
-	'TURN_BACKGROUND' => 'Hintergrund aktivieren/deaktivieren',
+	'TURN_ACTIVE' => 'Block aktivieren / deaktivieren',
+	'TURN_BORDER' => 'Rahmen aktivieren / deaktivieren',
+	'TURN_TITLEBAR' => 'Titelleiste aktivieren / deaktivieren',
+	'TURN_LOCAL' => 'Location Titel aktivieren / deaktivieren',
+	'TURN_BACKGROUND' => 'Hintergrund aktivieren / deaktivieren',
 
 	'BLOCKS_POSITION_SAVE' => 'Blöcke Position sichern',
 	'BLOCKS_POSITION_UPDATED' => 'Blöcke Postition erfolgreich gesichert',
 
 	'INVALID_BLOCKS' => 'Ungültige Position der Blöcke',
+
+	'CMS_BLOCK_PAGE' => 'Block hinzufügen / bearbeiten',
+	'CMS_BLOCK_CONFIG' => 'Block Konfiguration',
+	'CMS_BLOCK_CONFIG_EDIT' => 'Edit Configuration',
+	'CMS_BLOCK_CONFIG_NO_VARS' => 'Keine Block-Variablen',
+	'CMS_AJAX_ENABLE' => 'Aktiviere AJAX',
+	'CMS_AJAX_DISABLE' => 'Deaktiviere AJAX',
 // CMS - ADV - END
 	)
 );

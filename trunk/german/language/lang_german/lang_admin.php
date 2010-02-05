@@ -268,12 +268,12 @@ $lang = array_merge($lang, array(
 	'Acc_User' => 'Per E-Mail',
 	'Acc_Admin' => 'Durch den Admin',
 
-	'Abilities_settings' => 'Standard Benutzer- und Foreneinstellungen',
+	'Abilities_settings' => 'Standard Benutzer- und Seiteneinstellungen',
 	'Max_poll_options' => 'Maximale Anzahl der Umfrageoptionen',
 	'Flood_Interval' => 'Flood-Intervall',
 	'Flood_Interval_explain' => 'Anzahl der Sekunden, die ein Benutzer warten muss, bevor er einen neuen Beitrag schreiben kann',
-	'Board_email_form' => 'Benutzer E-Mails per Board',
-	'Board_email_form_explain' => 'Deine Benutzer können sich über das Board E-Mails schreiben',
+	'Board_email_form' => 'Benutzer E-Mails über Seite',
+	'Board_email_form_explain' => 'Deine Benutzer können sich über die Seite E-Mails schreiben',
 	'Topics_per_page' => 'Themen pro Seite',
 	'Posts_per_page' => 'Beiträge pro Seite',
 	'Hot_threshold' => 'Beiträge, die ein Thema braucht, um ein \'Hot Topic\' zu werden',
@@ -292,7 +292,7 @@ $lang = array_merge($lang, array(
 	'Allow_HTML' => 'HTML erlauben',
 	'Allow_BBCode' => 'BBCode erlauben',
 	'Allowed_tags' => 'Erlaubte HTML-Tags',
-	'Allowed_tags_explain' => 'Trenne die Tags mit Kommata',
+	'Allowed_tags_explain' => 'Trenne jeden Tag durch ein Komma',
 	'Allow_smilies' => 'Smilies erlauben',
 	'Smilies_path' => 'Speicherort für Smilies',
 	'Smilies_path_explain' => 'Der Pfad in deinem Icy Phoenix Verzeichnis, in dem die Smilies liegen (z. B. images/smiles)',
@@ -371,6 +371,10 @@ $lang = array_merge($lang, array(
 	'Resync' => 'Resync',
 	'No_mode' => 'Kein Modus ausgewählt',
 	'Forum_edit_delete_explain' => 'Hier kannst du alle allgemeinen Boardeinstellungen anpassen. Zur Benutzer- und Forenkonfiguration benutze bitte die entsprechenden Links auf der linken Seite',
+	'Forum_Expand' => 'Aufklappen',
+	'Forum_Collapse' => 'Zuklappen',
+	'Forum_Expand_all' => 'Alle aufklappen',
+	'Forum_Collapse_all' => 'Alle zuklappen',
 
 	'Move_contents' => 'Alle Inhalte verschieben',
 	'Forum_delete' => 'Forum löschen',
@@ -418,7 +422,7 @@ $lang = array_merge($lang, array(
 // Smiley Management
 	'smiley_title' => 'Smilies-Bearbeitung',
 	'smile_desc' => 'Hier kannst du die Smilies, die die Benutzer in ihren Beiträgen und Privaten Nachrichten einfügen können, hinzufügen, löschen oder bearbeiten.',
- 
+
 	'smiley_config' => 'Smiley-Konfiguration',
 	'smiley_code' => 'Smiley Code',
 	'smiley_url' => 'Smiley Bilddatei',
@@ -445,7 +449,7 @@ $lang = array_merge($lang, array(
 	'smiley_import_success' => 'Das Smiley-Paket wurde installiert',
 	'smiley_del_success' => 'Der Smiley wurde gelöscht',
 	'Click_return_smileadmin' => 'Klicke %shier%s, um zur Smiley-Verwaltung zurückzukehren.',
-	
+
 // User Management
 	'User_admin' => 'Benutzer-Administration',
 	'User_admin_explain' => 'Hier kannst du die Daten und Optionen eines Nutzers ändern. Um die Befugnisse eines Benutzers zu ändern, benutze bitte die Benutzer- und Gruppenkontrolle.',
@@ -803,7 +807,7 @@ $lang = array_merge($lang, array(
 	'Optimize_return' => 'Klicke %shier%s, um zur Datenbankoptimierung zurückzukehren.',
 	'Optimize_success' => 'Die Datenbank wurde erfolgreich optimiert.',
 	'Optimize_NoTableChecked' => '<b>Keine</b> Tabellen ausgewählt',
-	
+
 // End Optimize Database
 // Start add - Global announcement MOD
 	'Globalannounce' => 'Globale Ankündigung',
@@ -1960,6 +1964,78 @@ $lang = array_merge($lang, array(
 	'TICKETS_DB_CLICK' => 'Klicke %shier%s, um zu den E-Mail Tickets zurückzukehren',
 	// Tickets Submission - END
 
+	'FORUM_LIMIT_EDIT_TIME' => 'Limit User Post Edit Time',
+	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'By enabling this option users will be allowed to edit own messages only within the limit set in Posts configuration of Icy Phoenix (ACP &raquo; Configuration &raquo; Icy Phoenix &raquo; Posting And Messages)',
+
+	'BACK_TO_TOP' => 'Top',
+	'BACK_TO_PREV' => 'Back to previous page',
+
+	// Custom BBCodes - BEGIN
+	'BBCODES_CUSTOM_BBCODES' => 'Custom BBCodes',
+	'BBCODES_CUSTOM_BBCODES_EXPLAIN' => 'BBCode is a special implementation of HTML offering greater control over what and how something is displayed. From this page you can add, remove and edit custom BBCodes. To be able to use these Custom BBCodes you need to enable <b>Enable Custom BBCodes</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Posting And Messages</b> section.',
+	'BBCODES_NO_BBCODES' => 'No BBCodes',
+	'BBCODES_NO_BBCODES_SEL' => 'No BBCode selected',
+	'BBCODES_NO_BBCODES_INPUT' => 'You have to fill the BBCode tag',
+	'BBCODES_DB_ADD' => 'Add BBCode',
+	'BBCODES_DB_ADDED' => 'BBCode Added Successfully',
+	'BBCODES_DB_UPDATED' => 'BBCode Updated Successfully',
+	'BBCODES_DB_DELETED' => 'BBCode Deleted Successfully',
+	'BBCODES_DB_CLICK' => 'Click %sHere%s to return to Custom BBCodes',
+
+	'BBCODE_ADDED' => 'BBCode added successfully.',
+	'BBCODE_EDITED' => 'BBCode edited successfully.',
+	'BBCODE_NOT_EXIST' => 'The BBCode you selected does not exist.',
+	'BBCODE_HELPLINE' => 'Help line',
+	'BBCODE_HELPLINE_EXPLAIN' => 'This field contains the mouse over text of the BBCode.',
+	'BBCODE_HELPLINE_TEXT' => 'Help line text',
+	'BBCODE_HELPLINE_TOO_LONG' => 'The help line you entered is too long.',
+
+	'BBCODE_INVALID_TAG_NAME' => 'The BBCode tag name that you selected already exists.',
+	'BBCODE_INVALID' => 'Your BBCode is constructed in an invalid form.',
+	'BBCODE_OPEN_ENDED_TAG' => 'Your custom BBCode must contain both an opening and a closing tag.',
+	'BBCODE_TAG' => 'Tag',
+	'BBCODE_TAG_TOO_LONG' => 'The tag name you selected is too long.',
+	'BBCODE_TAG_DEF_TOO_LONG' => 'The tag definition that you have entered is too long, please shorten your tag definition.',
+	'BBCODE_USAGE' => 'BBCode usage',
+	'BBCODE_USAGE_EXAMPLE' => '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
+	'BBCODE_USAGE_EXPLAIN' => 'Here you define how to use the BBCode. Replace any variable input by the corresponding token (%ssee below%s).',
+
+	'EXAMPLE' => 'Beispiel:',
+	'EXAMPLES' => 'Beispiele:',
+
+	'HTML_REPLACEMENT' => 'HTML replacement',
+	'HTML_REPLACEMENT_EXAMPLE' => '&lt;span style=&quot;background-color: {COLOR};&quot;&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style=&quot;font-family: {SIMPLETEXT1};&quot;&gt;{SIMPLETEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXPLAIN' => 'Here you define the default HTML replacement. Do not forget to put back tokens you used above!',
+
+	'TOKEN' => 'Token',
+	'TOKENS' => 'Tokens',
+	'TOKENS_EXPLAIN' => 'Tokens are placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {TEXT1}, {TEXT2}.<br /><br />Within the HTML replacement you can also use any language string present in your language/ directory like this: {L_<em>&lt;STRINGNAME&gt;</em>} where <em>&lt;STRINGNAME&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as &quot;wrote&quot; or its translation according to userâ€™s locale.<br /><br /><strong>Please note that only tokens listed below are able to be used within custom BBCodes.</strong>',
+	'TOKEN_DEFINITION' => 'What can it be?',
+	'TOO_MANY_BBCODES' => 'You cannot create any more BBCodes. Please remove one or more BBCodes then try again.',
+
+	'BBCODES_TOKENS_DESCRIPTION' => '
+<b>TEXT</b> &raquo; Any text, including foreign characters, numbers, etc... You should not use this token in HTML tags. Instead try to use IDENTIFIER or SIMPLETEXT.<br />
+<b>SIMPLETEXT</b> &raquo; Characters from the latin alphabet (A-Z), numbers, spaces, commas, dots, minus, plus, hyphen and underscore<br />
+<b>IDENTIFIER</b> &raquo; Characters from the latin alphabet (A-Z), numbers, hyphen and underscore<br />
+<b>NUMBER</b> &raquo; Any series of digits<br />
+<b>EMAIL</b> &raquo; A valid e-mail address<br />
+<b>URL</b> &raquo; A valid URL using any protocol (http, ftp, etc... cannot be used for javascript exploits). If none is given, &quot;http://&quot; is prefixed to the string.<br />
+<b>LOCAL_URL</b> &raquo; A local URL. The URL must be relative to the topic page and cannot contain a server name or protocol.<br />
+<b>COLOR</b> &raquo; A HTML colour, can be either in the numeric form <samp>#ff1234</samp> or a <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> such as <samp>fuchsia</samp> or <samp>InactiveBorder</samp>',
+	// Custom BBCodes - END
+
+	// PLUGINS - BEGIN
+	'PLUGINS' => 'Plugins',
+	'PLUGINS_EXPLAIN' => 'In this section you can enable or disable Icy Phoenix Plugins',
+	'PLUGINS_FOLDER' => 'Ordner',
+	'PLUGINS_NAME' => 'Name',
+	'PLUGINS_DESCRIPTION' => 'Beschreibung',
+	'PLUGINS_UPDATE_CONFIG' => 'Update Configuration',
+	'PLUGINS_CONFIG_UPDATED' => 'Plugins configuration updated successfully. Please note that you need to reload ACP (F5) to update modules.',
+	'PLUGINS_RETURN_CLICK' => 'Click %sHere%s to return to Plugins',
+	'PLUGINS_NO_PLUGINS' => 'Keine Plugins to be configured',
+	// PLUGINS - END
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'MG_Configuration' => 'Icy Phoenix Einstellungen',
 	'MG_Configuration_Explain' => 'Hier kannst du einige fortgeschrittene Icy Phoenix Einstellungen vornehmen',
@@ -1973,7 +2049,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_Edit_Notes_Title' => 'Bearbeitungs Notizen',
 	'MG_Configuration_IMG_Posting' => 'Bilder in Beiträgen',
 
-	'MG_SW_Header_Footer' => 'Header und Footer Mitteilungen',
+	'MG_SW_Header_Footer' => 'Header &amp; Footer Mitteilungen',
 	'MG_SW_Header_Table' => 'Header Tabelle',
 	'MG_SW_Header_Table_Explain' => 'Bei Aktivierung dieser Option wird eine Tabelle auf jeder Seite Oben mit einer speziellen Nachricht angezeigt.',
 	'MG_SW_Header_Table_Text' => 'Füge deinen Text hier ein',
@@ -2007,6 +2083,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_No_Right_Click' => 'Blockiere Rechts Klick',
 
 	'Click_return_config_mg' => 'Klicke %shier%s, um zu den Icy Phoenix Einstellungen zurückzukehren.',
+// ####################### [ Icy Phoenix Options END ] #######################
 	)
 );
 
@@ -2018,8 +2095,6 @@ $lang['privmsgs_subject'] = $lang['Subject'];
 $lang['privmsgs_from_userid'] = $lang['From'];
 $lang['privmsgs_to_userid'] = $lang['To'];
 $lang['privmsgs_type'] = $lang['PM_Type'];
-
-// ####################### [ Icy Phoenix Options END ] #######################
 
 // ####################### [ Icy Phoenix Navigation BEGIN ] #######################
 // Use numbers to sort the ACP Navigation menu
@@ -2059,6 +2134,7 @@ $lang['180_Word_Censor'] = 'Wortzensur'; // admin_words.php
 $lang['200_Notepad'] = 'Admin Notizblock'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Hilfestellung'; // admin_helpdesk.php
 $lang['220_Tickets_Emails'] = 'E-Mail Kategorien'; // admin_tickets.php
+$lang['230_Custom_BBCodes'] = 'Custom BBCodes'; // admin_bbcodes.php
 $lang['240_Replace_title'] = 'Ersetzen in Beiträgen'; // admin_replace.php
 
 // Forum
@@ -2087,15 +2163,9 @@ $lang['150_DB_Maintenance'] = 'Datenbank-Wartung'; // admin_db_maintenance.php
 $lang['170_db_update_generator'] = 'DB Update Generator'; // admin_db_generator.php
 $lang['180_msqd'] = 'MySQLDumper'; // admin_msqd.php
 
-// IM Portal
-$lang['1500_IM_Portal'] = 'Portal'; // admin_blocks.php, admin_blocks_pos.php, admin_blocks_var.php, admin_clear_cache.php, admin_layout.php, admin_portal.php
-$lang['100_Portal_Configuration'] = 'Portal Konfiguration'; // admin_portal.php
-$lang['110_Page_Management'] = 'Seitenverwaltung'; // admin_layout.php
-$lang['115_Page_Management'] = 'Individuelle Seitenverwaltung'; // admin_layout_cp.php
-$lang['120_Blocks_Management'] = 'Block Verwaltung'; // admin_blocks.php
-$lang['130_Blocks_Position_Tag'] = 'Block Positions-Tag'; // admin_blocks_pos.php
-$lang['140_Blocks_Variables'] = 'Block Variablen'; // admin_blocks_var.php
-$lang['150_Delete_Cache_Files'] = 'Cachedateien löschen'; // admin_clear_cache.php
+// Plugins
+$lang['1500_Plugins'] = 'Plugins'; // admin_plugins.php
+$lang['100_Plugins_Modules'] = 'Plugins Modules'; // admin_plugins.php
 
 // News
 $lang['1600_News_Admin'] = 'News'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
@@ -2201,6 +2271,27 @@ $lang['120_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
 $lang['130_GD_Info'] = 'GD Info'; // admin_gd_info.php
 $lang['140_HTTP_REF'] = 'HTTP Referrers'; // admin_referrers.php
 $lang['150_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
+
+// Activity
+$lang['3000_ACTIVITY'] = 'Activity / Spiele'; // admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
+$lang['110_Configuration'] = 'Konfiguration'; // admin_activity.php
+$lang['120_Add_Game'] = 'Spiel hinzufügen'; // admin_activity.php
+$lang['130_Edit_Games'] = 'Spiel bearbeiten'; // admin_activity.php
+$lang['140_User_Ban'] = 'Benutzer bannen'; // admin_ina_ban.php
+$lang['150_Bulk_Add_Games'] = 'Bulk Add Games'; // admin_ina_bulk_add.php
+$lang['160_Category'] = 'Kategorien-Einstellungen'; // admin_ina_category.php
+$lang['170_Char_Settings'] = 'Chars Settings'; // admin_ina_char.php
+$lang['180_Hide_Show_Games'] = 'Zeige/Verstecke Spiel'; // admin_ina_disable.php
+$lang['190_DB_Adjustments'] = 'DB Adjustments'; // admin_ina_in_un.php
+$lang['200_Mass_Change'] = 'Mass Configuration'; // admin_ina_mass.php
+$lang['210_Scores_Editor'] = 'Edit Hi-Scores'; // admin_ina_scores.php
+$lang['220_Xtras'] = 'Extra Settings'; // admin_ina_xtras.php
+$lang['230_Check_Games'] = 'Spiele-Liste'; // admin_ina_xtras.php
+
+// Cash
+$lang['3100_CASH'] = 'Cash / Points'; // admin_cash.php
+$lang['110_Cash_Admin'] = 'Cash Management'; // admin_cash.php
+$lang['120_Cash_Help'] = 'Help'; // admin_cash.php
 
 // ####################### [ ACP Navigation END ] #######################
 
