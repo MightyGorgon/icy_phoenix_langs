@@ -1925,7 +1925,7 @@ $lang = array_merge($lang, array(
 	'Reg_Email_Invalid' => ' indirizzo email non valido',
 	'Reg_Email_OK' => ' indirizzo email corretto',
 
-	'time_mode' => 'Gestione orario:',
+	'time_mode' => 'Gestione orario',
 	'time_mode_text' => 'Il valore DST &egrave; la differenza tra l\'ora legale e quella normale (da 0 a 120 minuti).<br /><br />* La modalit&agrave; indicata dall\'asterisco indica quella utilizzata dal forum ed &egrave; quella raccomandata dall\'amministratore.',
 	'time_mode_auto' => 'Modalit&agrave; automatica...',
 	'time_mode_full_pc' => 'Orario del vostro computer',

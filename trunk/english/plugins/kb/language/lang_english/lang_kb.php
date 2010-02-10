@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'Empty_article_name' => 'You must fill out the article name',
 	'Empty_article_desc' => 'You must fill out the article description',
 
-	'Read_full_article' => '=> Read Full Article <=',
+	'Read_full_article' => '&#8226; Read Full Article',
 	'Comments' => 'Comments',
 
 	'No_add' => 'You can\'t add a new article',
