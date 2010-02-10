@@ -223,7 +223,7 @@ if ($lang_extend_admin)
 		'IP_edit_notes_n' => 'Numero massimo Note di Modifica',
 
 		'IP_always_show_edit_by' => 'Mostra Sempre Modifiche Ai Messaggi',
-		'IP_always_show_edit_by_explain' => 'Attivando questa opzione verr&agrave; sempre mostrata la dicitura "Ultima modifica di..." in fondo ai messaggi quando un utente applicher&agrave; qualche modifica. Le modifiche degli amministatori non vengono mostrate',
+		'IP_always_show_edit_by_explain' => 'Attivando questa opzione verr&agrave; sempre mostrata la dicitura "Ultima modifica di..." in fondo ai messaggi quando un utente applicher&agrave; qualche modifica (le modifiche degli amministatori non vengono mai mostrate, a meno che non inseriscano una nota)',
 
 		'IP_show_social_bookmarks' => 'Social Bookmarks',
 		'IP_show_social_bookmarks_explain' => 'Mostra la sezione "Condivisione Argomento" quando si visualizza un argomento',
