@@ -384,6 +384,7 @@ $lang = array_merge($lang, array(
 	'item_auth_plug' => 'Berechtigungs-Plugins',
 	'item_search_plug' => 'Such-Plugins',
 	'item_cache_plug' => 'Cache-Plugins',
+	'item_captcha_plug' => 'CAPTCHA-Plugins',
 	'item_hooks_sys' => 'Hooks-System',
 	'item_expand_module' => 'Erweiterbare Module',
 

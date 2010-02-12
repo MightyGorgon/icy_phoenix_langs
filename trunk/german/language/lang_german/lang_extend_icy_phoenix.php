@@ -67,8 +67,8 @@ if ($lang_extend_admin)
 		'IP_ajax_checks_register' => 'AJAX Überprüfung während der Registrierung',
 		'IP_ajax_checks_register_explain' => 'Bei Aktivierung dieser Option, werden einige Echtzeitüberprüfungen ausgeführt, wenn einige Felder auf der Registrierungs-Seite ausgefüllt werden (Achtung: Diese Option kann die Registrierungs-Seite etwas verlangsamen).',
 
-		'IP_inactive_users_memberlists' => 'Inaktive Benutzer in der Mitgliederliste und Geburtstags\' Block',
-		'IP_inactive_users_memberlists_explain' => 'Bei Aktivierung dieser Option, werden inaktive Benutzer in der Mitgliederliste und Geburtstags\' Block angezeigt.',
+		'IP_inactive_users_memberlists' => 'Inaktive Benutzer in der Mitgliederliste und Geburtstags-Block',
+		'IP_inactive_users_memberlists_explain' => 'Bei Aktivierung dieser Option, werden inaktive Benutzer in der Mitgliederliste und Geburtstags-Block angezeigt.',
 
 		'IP_page_gen' => 'Zeige Seiten Generierungs Zeit im Footer',
 
@@ -215,11 +215,11 @@ if ($lang_extend_admin)
 		'IP_no_bump_explain' => 'Bei Aktivierung dieser Option, ist der letzte Poster in einem Thema nicht mehr in der Lage innerhalb von 24 Stunden eine Antwort auf seinen Beitrag zu verfassen. Es sei denn ein anderer Benutzer hat bereits auf seinen Beitrag geantwortet.',
 		'MODS_ALLOWED' => 'Moderatoren können schreiben',
 
-		'IP_display_tags_box' => 'TAGS :: Display Topics Tags',
-		'IP_display_tags_box_explain' => 'Enabling this option will enable Topics Tags (tags could be used for indexing purpose): tags could be inserted / edited only by administrators (or moderators if you enable the switch below) to avoid spam',
+		'IP_display_tags_box' => 'TAGS :: Themen-Tags anzeigen',
+		'IP_display_tags_box_explain' => 'Bei Aktivierung dieser Option werden Themen-Tags aktiviert (Tags können zur Indexierung sinnvoll sein): Tags können nur durch Admins eingefügt / bearbeitet werden (oder Moderatoren, wenn du den Switch aktivierst) um Spam zu vermeiden',
 
-		'IP_allow_moderators_edit_tags' => 'TAGS :: Allow Moderators To Edit Tags',
-		'IP_allow_moderators_edit_tags_explain' => 'Enabling this option will allow Moderators to edit Topics Tags',
+		'IP_allow_moderators_edit_tags' => 'TAGS :: Erlaubt Moderatoren Tags zu bearbeiten',
+		'IP_allow_moderators_edit_tags_explain' => 'Bei Aktivierung dieser Option wird es den Moderatoren erlaubt, Themen-Tags zu bearbeiten',
 
 		'IP_show_topic_description' => 'Aktiviere Beschreibung für Themen',
 		'IP_show_topic_description_explain' => 'Bei Aktivierung dieser Option wird die Themen-Beschreibung beim Schreiben eines neuen Themas und in der Forenansicht angezeigt.',
@@ -227,10 +227,10 @@ if ($lang_extend_admin)
 		'IP_edit_notes' => 'Aktiviere Bearbeitungs Anmerkungen',
 		'IP_edit_notes_explain' => 'Bei Aktivierung dieser Option, werden die Bearbeitungs Anmerkungen aktiviert',
 
-		'IP_edit_notes_n' => 'maximale Bearbeitungs Anmerkungen',
+		'IP_edit_notes_n' => 'Maximale Bearbeitungs Anmerkungen',
 
-		'IP_always_show_edit_by' => 'Zeige in Einträgen editiert von',
-		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  "Zuletzt editiert von..." in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
+		'IP_always_show_edit_by' => 'Zeige in Einträgen "Zuletzt bearbeitet von"',
+		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Beiträgen "Zuletzt bearbeitet von..." in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
 
 		'IP_show_social_bookmarks' => 'Öffentliche Lesezeichen',
 		'IP_show_social_bookmarks_explain' => 'Zeige Öffentliche Lesezeichen bei den Themen',

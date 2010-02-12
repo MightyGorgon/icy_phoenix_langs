@@ -312,7 +312,7 @@ $lang = array_merge($lang, array(
 	'CMS_PAGES_PERMISSIONS_EXPLAIN' => 'Auf dieser Seite kannst du den Benutzer-Level einstellen, der für die Seite erforderlich ist. Außerdem kannst du für jede Seite auswählen, ob der Block global angezeigt wird oder nicht (um dieses Feature nutzen zu können, muss "Globale Blöcke" in der <b>CMS Konfiguration</b>) aktiviert sein.',
 	'CMS_Page' => 'Seite',
 	'CMS_ADS' => 'Banner &amp; Sponsoren',
-	'CMS_OWNER' => 'Owner',
+	'CMS_OWNER' => 'Inhaber',
 	'CMS_SAVE_CHANGES' => 'Änderungen sichern',
 	'CMS_CHANGES_SAVED' => 'Änderungen gesichert',
 //	'CMS_' => '',
@@ -364,7 +364,7 @@ $lang = array_merge($lang, array(
 
 	'CMS_Menu_Not_Exist' => 'Dieses Menü existiert nicht.',
 	'CMS_Menu_Items_Not_Exist' => 'Dieses Menü hat keine Kategorie. Klicke auf hinzufügen, um eine zu erstellen.',
-	'CMS_Menu_No_Cats_Exist' => 'Dieser Menü-Block hat keine Kategorie. Bevor du einen Link erstellen kannst, mußt du eine Kategorie anlegen.',
+	'CMS_Menu_No_Cats_Exist' => 'Dieser Menü-Block hat keine Kategorie. Bevor du einen Link erstellen kannst, musst du eine Kategorie anlegen.',
 	'CMS_Menu_Item_Not_Exist' => 'Dieser Menü-Eintrag existiert nicht.',
 	'CMS_Menu_Item_Add_Edit' => 'Menü-Eintrag hinzufügen / bearbeiten.',
 // MG CMS MENU - END
@@ -386,7 +386,7 @@ $lang = array_merge($lang, array(
 	'TURN_BACKGROUND' => 'Hintergrund aktivieren / deaktivieren',
 
 	'BLOCKS_POSITION_SAVE' => 'Blöcke Position sichern',
-	'BLOCKS_POSITION_UPDATED' => 'Blöcke Postition erfolgreich gesichert',
+	'BLOCKS_POSITION_UPDATED' => 'Blöcke Postition erfolgreich geändert',
 
 	'INVALID_BLOCKS' => 'Ungültige Position der Blöcke',
 

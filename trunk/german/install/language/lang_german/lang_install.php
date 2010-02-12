@@ -76,14 +76,14 @@ $lang = array_merge($lang, array(
 	'Admin_Password' => 'Administrator Passwort',
 	'Admin_Password_confirm' => 'Administrator Passwort [ Bestätigung ]',
 
-	'Inst_Step_2' => 'Dein Admin Benutzername und Passwort wurden erstellt.<br />Um deine Installation abzuschließen musst du den <span class="text_red"> <u>install</u> Ordner löschen</span>. Zum Schluss solltest du auf <b>Beende Installation</b> klicken und du wirst in den Admin-Bereich (ACP) und CMS (Content Management System) weitergeleitet, wo du alle Icy Phoenix Einstellungen verwalten kannst.<br />Im ACP kannst du alle Konfigurationen vornehmen z.B. Styles, Sprachen, Uhrzeit, Foren, Downloads, Benutzer, Album, etc. und im CMS Bereich kannst du neue Seiten erstellen und konfigurieren (Berechtigungen, Blöcke hinzufügen, neue Seiten erstellen, neue Menüs erstellen, etc.). Du solltest dir auch die <b>.htaccess</b> und <b>lang_main_settings.php</b> (für jede installierte Sprache extra vorhanden) ansehen um Feineinstellungen wie z.B. Fehlerreport, URL Rewrite, Schlüsselwörter, Begrüßungsnachricht, Charset usw. zu ändern.<br /><br />Danke das du dich für IcyPhoenix entschieden hast, aber bitte denke dran deine Datenbank von Zeit zu Zeit zu sichern.<br /><br />',
+	'Inst_Step_2' => 'Dein Admin Benutzername und Passwort wurden erstellt.<br />Um deine Installation abzuschließen musst du den <span class="text_red"> <u>install</u> Ordner löschen</span>. Zum Schluss solltest du auf <b>Beende Installation</b> klicken und du wirst in den Admin-Bereich (ACP) und CMS (Content Management System) weitergeleitet, wo du alle Icy Phoenix Einstellungen verwalten kannst.<br />Im ACP kannst du alle Konfigurationen vornehmen z.B. Styles, Sprachen, Uhrzeit, Foren, Downloads, Benutzer, Album, etc. und im CMS Bereich kannst du neue Seiten erstellen und konfigurieren (Berechtigungen, Blöcke hinzufügen, neue Seiten erstellen, neue Menüs erstellen, etc.). Du solltest dir auch die <b>.htaccess</b> und <b>lang_main_settings.php</b> (für jede installierte Sprache extra vorhanden) ansehen um Feineinstellungen wie z.B. Fehlerreport, URL Rewrite, Schlüsselwörter, Begrüßungsnachricht, Charset usw. zu ändern.<br /><br />Danke das du dich für Icy Phoenix entschieden hast, aber bitte denke dran deine Datenbank von Zeit zu Zeit zu sichern.<br /><br />',
 
 	'Unwriteable_config' => 'Momentan ist deine Konfigurationsdatei nicht beschreibbar. Du kannst dir eine Kopie der Datei herunterladen, wenn du auf den entsprechenden Link unten klickst. Du solltest diese Datei ins selbe Verzeichnis wie Icy Phoenix hochladen. Wenn dies getan ist, solltest du den install Ordner löschen und dich mit deinem Administrator-Benutzernamen und Passwort, die du auf der letzten Seite angegeben hast, einloggen und den Administrationsbereich betreten, um die allgemeinen Einstellungen zu prüfen. Einen entsprechenden Link findest du am Ende jeder Seite deines Forums. Danke, dass du dich für Icy Phoenix entschieden hast.',
 	'Download_config' => 'Konfigurationsdatei herunterladen',
 
 	'ftp_choose' => 'Wähle Downloadmethode',
 	'ftp_option' => '<br />Da FTP Erweiterungen in dieser Version von PHP aktiviert sind, könntest du die Möglichkeit haben, die Konfigurationsdatei automatisch per FTP vor Ort zu ändern.',
-	'ftp_instructs' => 'Du hast dich dazu entschieden, die Datei automatisch und vor Ort zu ändern. Bitte gib die unten geforderten Informationen an, um den Prozess zu starten. Beachte, dass der FTP-Pfad der exakte Pfad zu deinem IcyPhoenix-Ordner sein muss.',
+	'ftp_instructs' => 'Du hast dich dazu entschieden, die Datei automatisch und vor Ort zu ändern. Bitte gib die unten geforderten Informationen an, um den Prozess zu starten. Beachte, dass der FTP-Pfad der exakte Pfad zu deinem Icy Phoenix Ordner sein muss.',
 	'ftp_info' => 'Eingabe der FTP Informationen',
 	'Attempt_ftp' => 'Die Konfigurationsdatei vor Ort umschreiben',
 	'Send_file' => 'Ich möchte, dass mir die Datei geschickt wird. Ich werde sie manuell hochladen.',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 
 	'Install_Method' => 'Wähle eine Installations-Methode aus',
 	'Install_No_Ext' => 'Die PHP-Konfiguration auf deinem Server unterstützt nicht den gewählten Datenbank-Typ',
-	'Install_No_PCRE' => 'Icy Phoenix benötigt das Perl-kompatible Regular Expressions Module für PHP, was von deiner PHP-Konfiguration anscheinend nicht unterstützt wird.',
+	'Install_No_PCRE' => 'Icy Phoenix benötigt das Perl-kompatible Regular Expression Modul für PHP, was von deiner PHP-Konfiguration anscheinend nicht unterstützt wird.',
 
 	'Server_name' => 'Domainname',
 	'Script_path' => 'Scriptpfad',
@@ -146,7 +146,7 @@ $lang = array_merge($lang, array(
 	'FileWriting' => 'Beschreibbare Dateien',
 	'FileCreation_OK' => 'Es sieht so aus, als ob dein Server die Erstellung und Bearbeitung unterstützt.',
 	'FileCreation_OK_Explain' => 'Das Script versucht automatisch alle benötigten Dateien zu erstellen oder zu bearbeiten.',
-	'FileCreation_ERROR' => 'Dein Server unterstützt keine Dateierstellung / -bearbeitung.',
+	'FileCreation_ERROR' => 'Dein Server kann Dateien oder Ordner <b>nicht</b> automatisch Erstellen oder Bearbeiten.',
 	'FileCreation_ERROR_Explain' => 'Das Script kann die Dateien nicht automatisch erstellen / bearbeiten. Leider musst du dies manuell tun.',
 
 	'IcyPhoenix_Version_UpToDate' => 'Deine Icy Phoenix Version ist aktuell',
@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 	'StartFrom' => 'Starte vom Beitrag',
 	'RemoveBBCodeUID' => 'Entferne BBCode UID (hole sie von der Beitrags-Tabelle)',
 	'RemoveBBCodeUID_Guess' => 'Versuche die BBCode UID zu finden und zu löschen',
-	'FixPostedImagesPaths' => 'Reparieren aller verlinkten Bild-Pfade (Pfade werden Benutzerbezogen angepaßt)',
+	'FixPostedImagesPaths' => 'Reparieren aller verlinkten Bild-Pfade (Pfade werden Benutzerbezogen angepasst)',
 
 	'FixSignatures' => 'Signaturen reparieren',
 	'FixSignaturesExplain' => 'Diese Funktion erlaubt dir alle Signaturen der Benutzer zu reparieren. Du kannst diese Funktion benutzen um: Text in Signaturen zu finden und zu ersetzen, alle BBCode UID zu entfernen, die Bild-Pfad Adresse automatisch anzupassen.',
