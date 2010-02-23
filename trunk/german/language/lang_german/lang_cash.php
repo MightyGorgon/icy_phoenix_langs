@@ -333,4 +333,4 @@ $lang['Has_set'] = '[*]Gesetzt auf: [b]%s[/b]' . "\n";
 
 // That's all folks!
 
-?> 
+?>

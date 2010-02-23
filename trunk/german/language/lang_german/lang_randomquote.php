@@ -486,4 +486,4 @@ $randomquote = array(
 	'Aber für was ist das gut? (Ingenieur vom Advanced Computing Systems Division of IBM, 1968, zum Microchip)',
 );
 
-?> 
+?>

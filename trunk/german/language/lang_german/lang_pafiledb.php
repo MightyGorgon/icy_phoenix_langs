@@ -250,4 +250,4 @@ $lang['Stats_text'] .= "Die durchschnittliche Anzahl von Downloads pro Datei lie
 $lang['Stats_text'] .= "Die am meisten heruntergeladene Datei ist <a href={u_most_dl}>{most_dl}</a> mit {most_no} Downloads.<br />";
 $lang['Stats_text'] .= "Die am wenigsten heruntergeladene Datei ist <a href={u_least_dl}>{least_dl}</a> mit {least_no} Downloads.<br /><br />";
 
-?> 
+?>

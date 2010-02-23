@@ -273,4 +273,4 @@ $lang = array_merge($lang, array(
 	'image_quality' => 'Bildqualität',
 	)
 );
-?> 
+?>
