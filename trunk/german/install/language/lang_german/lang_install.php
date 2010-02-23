@@ -146,7 +146,7 @@ $lang = array_merge($lang, array(
 	'FileWriting' => 'Beschreibbare Dateien',
 	'FileCreation_OK' => 'Es sieht so aus, als ob dein Server die Erstellung und Bearbeitung unterstützt.',
 	'FileCreation_OK_Explain' => 'Das Script versucht automatisch alle benötigten Dateien zu erstellen oder zu bearbeiten.',
-	'FileCreation_ERROR' => 'Dein Server kann Dateien oder Ordner <b>nicht</b> automatisch Erstellen oder Bearbeiten.',
+	'FileCreation_ERROR' => 'Dein Server kann Dateien oder Ordner <b>nicht</b> automatisch erstellen oder bearbeiten.',
 	'FileCreation_ERROR_Explain' => 'Das Script kann die Dateien nicht automatisch erstellen / bearbeiten. Leider musst du dies manuell tun.',
 
 	'IcyPhoenix_Version_UpToDate' => 'Deine Icy Phoenix Version ist aktuell',

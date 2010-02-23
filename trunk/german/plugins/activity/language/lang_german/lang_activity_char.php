@@ -173,4 +173,4 @@ $lang['amp_char_save_shop'] = 'Einstellungen übernehmen';
 
 $lang['amp_char_settings_saved'] = 'Charakter-Einstellungen gespeichert.';
 $lang['amp_char_settings_back'] = 'Klicke %shier%s, um zum Menü zu gelangen.';
-?>
+?> 

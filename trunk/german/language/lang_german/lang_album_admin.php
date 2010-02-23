@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'No_Self_Refering_Cat' => 'Eine Überkategorie kann nicht sich selbst zugeordnet werden',
 	'Can_Not_Change_Main_Parent' => 'Im Grundverzeichnis kann nicht in eine Überkategorie gewechselt werden.',
 	'Watermark' => 'Wasserzeichen',
-	'Watermark_explain' => 'Lege die Wasserzeichen Datei fest, die in dieser Kategorie benutzt wird. Wähle den Pfad der Datei vom IcyPhoenix root aus (z.B.: <b>images/album/mark_fap.png</b>). Die Wasserzeichen-Datei wird nur angezeigt, wenn das Wasserzeichen aktiviert ist.',
+	'Watermark_explain' => 'Lege die Wasserzeichen Datei fest, die in dieser Kategorie benutzt wird. Wähle den Pfad der Datei vom Icy Phoenix root aus (z.B.: <b>images/album/mark_fap.png</b>). Die Wasserzeichen-Datei wird nur angezeigt, wenn das Wasserzeichen aktiviert ist.',
 	'Cat_Pics_Synchronize' => 'Sync Bild Zähler',
 	'Cat_Pics_Synchronized' => 'Alle Bild Zähler wurden synchronisiert.',
 
@@ -257,7 +257,7 @@ $lang = array_merge($lang, array(
 	'Enable_Nuffload_Explain' => 'Wird diese Option aktiviert, werden die Bilder mittels Nuffload anstelle des normalen Uploaders hochgeladen.',
 	'progress_bar_configuration' => 'Nuffload - Konfiguration der Fortschrittsanzeige',
 	'perl_uploader' => 'Aktiviere Perl uploader',
-	'path_to_bin' => 'Pfad vom IcyPhoenix Grundverzeichnis zum cgi-bin (z.B. <b>./cgi-bin/</b>, wenn IcyPhoenix in einem Unterverzeichnis liegt)',
+	'path_to_bin' => 'Pfad vom Icy Phoenix Grundverzeichnis zum cgi-bin (z.B. <b>./cgi-bin/</b>, wenn Icy Phoenix in einem Unterverzeichnis liegt)',
 	'show_progress_bar' => 'Zeige Fortschrittsanzeige beim Upload',
 	'close_progress_bar' => 'Schließe die Fortschrittsanzeige nach dem Upload',
 	'activity_timeout' => 'Aktivitäts-Timeout (Sek.)',
@@ -273,4 +273,4 @@ $lang = array_merge($lang, array(
 	'image_quality' => 'Bildqualität',
 	)
 );
-?>
+?> 

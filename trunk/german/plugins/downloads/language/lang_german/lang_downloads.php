@@ -545,4 +545,4 @@ $lang['Dl_bug_report_email_status'] = 'Diese Nachricht wurde für den neuen Statu
 %s
 --------------------';
 
-?>
+?> 

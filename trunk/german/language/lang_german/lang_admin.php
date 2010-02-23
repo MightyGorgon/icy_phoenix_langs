@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'Server_name' => 'Domainname',
 	'Server_name_explain' => 'Der Name der Domain, auf der das Board läuft',
 	'Script_path' => 'Scriptpfad',
-	'Script_path_explain' => 'Der Pfad zu IcyPhoenix, relativ zum Domainnamen',
+	'Script_path_explain' => 'Der Pfad zu Icy Phoenix, relativ zum Domainnamen',
 	'Server_port' => 'Server Port',
 	'Server_port_explain' => 'Der Port, unter dem dein Server läuft, normalerweise 80. Ändere dies nur, wenn es ein anderer Port ist',
 	'Site_name' => 'Name der Seite',
@@ -1879,7 +1879,7 @@ $lang = array_merge($lang, array(
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_download' => ', und hat sie heruntergeladen',
 	'LOGS_ADMIN_DB_UTILITIES_RESTORE' => 'DB wiederhergestellt von',
 	'LOGS_ADMIN_BOARD_CONFIG' => 'änderte die Board/Server Einstellungen',
-	'LOGS_ADMIN_BOARD_IP_CONFIG' => 'änderte die IcyPhoenix Einstellungen',
+	'LOGS_ADMIN_BOARD_IP_CONFIG' => 'änderte die Icy Phoenix Einstellungen',
 	'LOGS_ADMIN_GROUP_NEW' => 'erstellte Gruppe',
 	'LOGS_ADMIN_GROUP_DELETE' => 'löschte Gruppe',
 	'LOGS_ADMIN_GROUP_EDIT' => 'änderte Gruppe',
@@ -2026,14 +2026,14 @@ $lang = array_merge($lang, array(
 
 	// PLUGINS - BEGIN
 	'PLUGINS' => 'Plugins',
-	'PLUGINS_EXPLAIN' => 'In this section you can enable or disable Icy Phoenix Plugins',
+	'PLUGINS_EXPLAIN' => 'Hier kannst du Icy Phoenix Plugins aktivieren oder deaktivieren.',
 	'PLUGINS_FOLDER' => 'Ordner',
 	'PLUGINS_NAME' => 'Name',
 	'PLUGINS_DESCRIPTION' => 'Beschreibung',
-	'PLUGINS_UPDATE_CONFIG' => 'Update Configuration',
-	'PLUGINS_CONFIG_UPDATED' => 'Plugins configuration updated successfully. Please note that you need to reload ACP (F5) to update modules.',
-	'PLUGINS_RETURN_CLICK' => 'Click %sHere%s to return to Plugins',
-	'PLUGINS_NO_PLUGINS' => 'Keine Plugins to be configured',
+	'PLUGINS_UPDATE_CONFIG' => 'Update Konfiguration',
+	'PLUGINS_CONFIG_UPDATED' => 'Plugins Konfiguration erfolgreich geändert. Please note that you need to reload ACP (F5) to update modules.',
+	'PLUGINS_RETURN_CLICK' => 'Klicke %shier%s, um zu den Plugins zurückzukehren.',
+	'PLUGINS_NO_PLUGINS' => 'Keine Plugins zum Konfigurieren vorhanden.',
 	// PLUGINS - END
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
@@ -2151,7 +2151,7 @@ $lang['150_Topic_Shadow'] = 'Schatten Themen'; // admin_topic_shadow.php
 // eXtreme Styles
 $lang['1300_Extreme_Styles'] = 'Styles &amp; Templates'; // xs_include.php -> $module_name
 
-// DB Maintenance & Security
+// DB Maintenance &amp; Security
 $lang['1400_DB_Maintenance'] = 'Datenbank'; // admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php
 $lang['100_Actions_LOG'] = 'Aktionen Log'; // admin_logs.php
 $lang['110_DB_Admin'] = 'IP MySQLAdmin'; // admin_bb_db.php

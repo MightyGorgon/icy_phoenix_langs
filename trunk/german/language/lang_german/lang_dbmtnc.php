@@ -143,7 +143,7 @@ $mtnc[] = array('reset_auto_increment',
 	0);
 $mtnc[] = array('heap_convert',
 	'Konvertiere Sitzungs-Tabelle',
-	'Diese Funktion konvertiert die Sitzungs-Tabelle zum HEAP-Tabellen-Typ. Dies wird normalerweise automatisch während der Installation gemacht, um die Geschwindigkeit von IcyPhoenix etwas zu verbessern. Diese Funktion sollte nur ausgeführt werden, wenn die Sitzungs-Tabelle keine HEAP-Tabelle ist.',
+	'Diese Funktion konvertiert die Sitzungs-Tabelle zum HEAP-Tabellen-Typ. Dies wird normalerweise automatisch während der Installation gemacht, um die Geschwindigkeit von Icy Phoenix etwas zu verbessern. Diese Funktion sollte nur ausgeführt werden, wenn die Sitzungs-Tabelle keine HEAP-Tabelle ist.',
 	'Soll die Tabelle wirklich konvertiert werden?',
 	2);
 $mtnc[] = array('--', '', '', '', 3);
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 // Function specific vars
 // statistic
 	'Statistic_title' => 'Board- und Datenbank-Statistik',
-	'Database_table_info' => 'Die Datenbank-Statistik ermittelt drei verschiedene Werte: die aller Tabellen der Datenbank, die der Tabellen, die standardmäßig bei IcyPhoenix enthalten sind (Kerntabellen) sowie alle Tabellen, die mit dem Prefix der Board-Tabellen anfangen (erweiterte Tabellen).',
+	'Database_table_info' => 'Die Datenbank-Statistik ermittelt drei verschiedene Werte: die aller Tabellen der Datenbank, die der Tabellen, die standardmäßig bei Icy Phoenix enthalten sind (Kerntabellen) sowie alle Tabellen, die mit dem Prefix der Board-Tabellen anfangen (erweiterte Tabellen).',
 	'Board_statistic' => 'Board-Statistik',
 	'Database_statistic' => 'Datenbank-Statistik',
 	'Version_info' => 'Versions-Informationen',
@@ -202,8 +202,8 @@ $lang = array_merge($lang, array(
 	'Number_tables' => 'Anzahl der Tabellen',
 	'Number_records' => 'Anzahl der Datensätze',
 	'DB_size' => 'Größe der Datenbank',
-	'Thereof_phpbb_core' => 'davon IcyPhoenix-Kerntabellen',
-	'Thereof_phpbb_advanced' => 'davon erweiterte IcyPhoenix-Tabellen',
+	'Thereof_phpbb_core' => 'davon Icy Phoenix Haupttabellen',
+	'Thereof_phpbb_advanced' => 'davon erweiterte Icy Phoenix Tabellen',
 	'Version_of_board' => 'Version des Boards',
 	'Version_of_mod' => 'Version von DB Maintenance',
 	'Version_of_PHP' => 'Version von PHP',

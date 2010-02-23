@@ -756,7 +756,7 @@ $lang['rating_payout_message'] = 'Als kleines Dankeschön dafür, dass du dir Zeit
 $lang['favorites_none_error_1'] = 'Du hast noch keine Favoriten gespeichert.';
 $lang['favorites_none_error_2'] = 'Fehler';
 $lang['rating_text_line'] = 'Du hast dieses Spiel mit einer %R% bewertet.';
-$lang['hof_acp_title'] = 'Fülle die \'Hall Of Fame\'-Tabelle aus.<b>Warnung:</b>Dies wird alles löschen, was du bereits darin gespeichert hast & es durch die Daten der aktuellen Trophäen-Inhaber ersetzen.';
+$lang['hof_acp_title'] = 'Fülle die \'Hall Of Fame\'-Tabelle aus.<b>Warnung:</b>Dies wird alles löschen, was du bereits darin gespeichert hast &amp; es durch die Daten der aktuellen Trophäen-Inhaber ersetzen.';
 $lang['hof_acp_button'] = 'Ausfüllen';
 $lang['hof_finished'] = '<b>%X%</b> Zeilen wurden der Datenbank hinzugefügt.';
 $lang['jackpot_text'] = 'Jackpot: <b>%X%</b>';
@@ -931,7 +931,7 @@ $lang['game_info_sec'] = 'Sekunde ';
 $lang['game_info_secs'] = 'Sekunden ';
 $lang['game_info_min'] = 'Minute, ';
 $lang['game_info_mins'] = 'Minuten, ';
-$lang['game_info_display'] = 'Ich habe dies %s mal gespielt & verbrachte %s%s%s beim Spielen dieses Spiels.';
+$lang['game_info_display'] = 'Ich habe dies %s mal gespielt &amp; verbrachte %s%s%s beim Spielen dieses Spiels.';
 
 /* All the DB Adjustments Upgrade Headings */
 $lang['admin_db_7'] = 'Von Napoleons 2.0.0 auf Activity Mod Plus 1.1.0';

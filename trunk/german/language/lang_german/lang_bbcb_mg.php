@@ -300,7 +300,7 @@ $js_lang['s_fade_help'] = 'Fade: [fade]Text[/fade] oder [fade][img]http://bild_u
 $js_lang['s_spoiler_help'] = 'Spoiler: [spoiler]Text[/spoiler]';
 $js_lang['s_cell_help'] = 'Zelle: [cell]Text[/cell]';
 $js_lang['s_list_help'] = 'Sortierte Liste: [list|=1|a]Text[/list] (Verwende [*] um einen Listenpunkt einzufügen)';
-$js_lang['s_listo_help'] = 'Nummerierte Liste: [list=1|a]Text[/list] (Tipp: Du kannst [*] verwenden, um einen Listenpunkt hinzuzufügen)';
+$js_lang['s_listo_help'] = 'Nummerierte Liste: [list=1|a]Text[/list] (Verwende [*] um einen Listenpunkt hinzuzufügen)';
 $js_lang['s_help_help'] = 'BBCode Hilfe aufrufen';
 $js_lang['s_image_upload_help'] = 'Bild zu PostImage.org hochladen und zur Nachricht hinzufügen';
 $js_lang['s_posticyimage_help'] = 'Bild hochladen und zur Nachricht hinzufügen';
