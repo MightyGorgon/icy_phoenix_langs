@@ -19,8 +19,11 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'10_Main_Settings_Icy_Phoenix' => 'Icy Phoenix',
+	'05_Server_Settings' => 'Server',
+	'10_Site_Settings' => 'Sito',
+	'15_Various_Settings' => 'Impostazioni Varie',
 	'20_SQL_Charge' => 'Ottimizzazione SQL',
+	'25_Users' => 'Utenti',
 	'30_Posting' => 'Messaggi',
 	'40_IMG_Posting' => 'Invio Immagini',
 	'50_Hierarchy_setting' => 'Forum',
@@ -54,6 +57,8 @@ if ($lang_extend_admin)
 		'IP_emails_only_to_admins' => 'Emails Solo Agli Amministratori',
 		'IP_emails_only_to_admins_explain' => 'Consenti di utilizzare il sistema di emails solo per inviare emails agli amministratori.',
 
+		'IP_ajax_features_title' => 'Funzionalit&agrave; AJAX',
+
 		'IP_ajax_features' => 'Abilita AJAX',
 		'IP_ajax_features_explain' => 'Alcune funzionalit&agrave; AJAX integrate nel sito.',
 
@@ -81,7 +86,7 @@ if ($lang_extend_admin)
 		'IP_xmas_fx_explain' => 'Questa opzione abilita un JavaScript che simula l\'effetto neve.',
 
 		'IP_xmas_gfx' => 'Decorazioni Natalizie',
-		'IP_xmas_gfx_explain' => 'Attivando questa opzione verranno applicate le decorazioni natalizie sul sito.',
+		'IP_xmas_gfx_explain' => 'Attivando questa opzione verranno applicate le decorazioni natalizie sul sito (solo alcuni template supportano questa caratteristica).',
 
 		'IP_select_theme' => 'Cambio Stile',
 		'IP_select_theme_explain' => 'Abilitando questa opzione viene aggiunta una casella a discesa per cambiare velocemente stile.',
@@ -464,8 +469,8 @@ if ($lang_extend_admin)
 		'30D' => '1 Mese',
 
 
-// lang_extend_mods_settings.php
-		'Lang_extend_mods_settings' => 'Impostazioni Icy Phoenix',
+// lang_extend_settings.php
+		'Lang_extend_settings' => 'Impostazioni Icy Phoenix',
 		'Configuration_extend' => 'Icy Phoenix',
 		'Override_user_choices' => 'Sovrascrivi le scelte dell\'utente',
 		)

@@ -393,6 +393,10 @@ $lang = array_merge($lang, array(
 	'Poll_for_explain' => '[ Scrivi 0 o lascia vuoto per un Sondaggio senza fine ]',
 	'Delete_poll' => 'Cancella Sondaggio',
 
+	'POST_ENABLE_BBCODE' => 'Attiva BBCode in questo messaggio',
+	'POST_ENABLE_SMILEYS' => 'Attiva gli Smileys in questo messaggio',
+	'POST_ENABLE_HTML' => 'Attiva l\'HTML in questo messaggio',
+	'POST_ENABLE_ACRO_AUTO' => 'Attiva Acronimi e Autolinks in questo messaggio',
 	'Disable_HTML_post' => 'Disabilita l\'HTML in questo Messaggio',
 	'Disable_ACRO_AUTO_post' => 'Disabilita Acronimi ed Autolinks in questo Messaggio',
 	'Disable_BBCode_post' => 'Disabilita i BBCode in questo Messaggio',
@@ -1000,7 +1004,7 @@ $lang = array_merge($lang, array(
 	'Birthday_to_high' => 'Spiacente, questo sito, non accetta user oltre %d anni di et&agrave;',
 	'Birthday_require' => 'La tua data di nascita &egrave; richiesta in questo sito',
 	'Birthday_to_low' => 'Spiacente, questo sito, non accetta user con meno di %d anni di et&agrave;',
-	'Submit_date_format' => 'd-m-Y', //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different seperators are accepted)
+	'Submit_date_format' => 'd-m-Y', //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different separators are accepted)
 	'Birthday_greeting_today' => 'I nostri migliori auguri per i tuoi %s anni.', //%s is substituted with the users age
 	'Birthday_greeting_prev' => 'I nostri migliori auguri per aver compiuto %s anni il %s.', //%s is substituted with the users age, and birthday
 	'Greeting_Messaging' => 'Buon Compleanno!!!',
@@ -1542,7 +1546,6 @@ $lang = array_merge($lang, array(
 	'Search_Explain' => 'Ricerca interna al sito',
 
 //030
-	'Login_attempts_exceeded' => 'Il numero massimo di %s tentativi di login consentiti sono stati superati. Potrai riprovare tra %s minuti.',
 	'Please_remove_install_contrib' => 'Elimina la cartella <b>install/</b>s dal tuo server',
 
 //033
@@ -1926,7 +1929,7 @@ $lang = array_merge($lang, array(
 	'Reg_Email_OK' => ' indirizzo email corretto',
 
 	'time_mode' => 'Gestione orario',
-	'time_mode_text' => 'Il valore DST &egrave; la differenza tra l\'ora legale e quella normale (da 0 a 120 minuti).<br /><br />* La modalit&agrave; indicata dall\'asterisco indica quella utilizzata dal forum ed &egrave; quella raccomandata dall\'amministratore.',
+	'time_mode_text' => 'Il valore DST &egrave; la differenza tra l\'ora legale e quella normale (da 0 a 120 minuti)',
 	'time_mode_auto' => 'Modalit&agrave; automatica...',
 	'time_mode_full_pc' => 'Orario del vostro computer',
 	'time_mode_server_pc' => 'Orario universale del server <br /><span STYLE="margin-left: 25">Impostazioni ora legale del vostro computer</span>',
@@ -1936,6 +1939,7 @@ $lang = array_merge($lang, array(
 	'time_mode_dst_server' => 'Dal server',
 	'time_mode_dst_time_lag' => 'Differenza ora legale / seriale',
 	'time_mode_dst_mn' => ' mn ',
+	'time_mode_dst_mn_explain' => 'Tempo espresso in minuti',
 	'time_mode_timezone' => 'Timezone',
 
 	'dst_time_lag_error' => 'Valore Ora legale/solare errato. Inserire un valore tra 0 e 120.',
@@ -2352,6 +2356,21 @@ $lang = array_merge($lang, array(
 	'DB_ITEM_CLICK_VIEW_ITEM' => 'Clicca %sQUI%s per visualizzare i dati inseriti',
 	'DB_ITEM_CLICK_RETURN_ITEMS' => 'Clicca %sQUI%s per tornare alla lista',
 	// COMMON DB - END
+
+	'LOGIN_ATTEMPTS_EXCEEDED' => 'Il numero massimo di %s tentativi di login consentiti sono stati superati. Potrai riprovare tra %s minuti.',
+	'LOGIN_CONFIRM_EXPLAIN' => 'Dopo un numero massimo di tentativi di accesso falliti verr&agrave; richiesto l\'inserimento di un codice di conferma. Questo serve a prevenire accessi non autorizzati. Il codice &egrave; visualizzato nell\'immagine sottostante. Se l\'immmagine non compare o se hai problemi di visualizzazione, conttatta un %sAmministratore%s.',
+	'LOGIN_ERROR_ATTEMPTS' => 'Hai superato il numero massimo di tentativi di accesso. In aggiunta ai dati nome utente e password dovrai inserire anche il codice di conferma che leggi nell\'immagine sottostante.',
+	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE' => 'Non sei stato riconosciuto da Apache.',
+	'LOGIN_ERROR_PASSWORD' => 'La password inserita non &grave; corretta, fai un altro tentativo. Se il problema persiste contatta un %sAmministratore%s.',
+	'LOGIN_ERROR_PASSWORD_CONVERT' => 'Non &egrave; stato possibile convertire la tua password al momento dell\'aggiornamento del software di questo sito. %sRichiedi una nuova password%s. Se il problema persiste contatta un %samministratore%s.',
+	'LOGIN_ERROR_USERNAME' => 'Il nome utente inserito non &egrave; corretto, fai un\'altro tentativo. Se il problema persiste contatta un %sAmministratore%s.',
+	'NO_PASSWORD_SUPPLIED' => 'Non puoi accedere senza inserire una password.',
+	'ACTIVE_ERROR' => 'L\'username inserito risulta ancora inattivo. Se riscontri problemi nell\'attivazione dell\'account contatta un %sAmministratore%s.',
+
+	'Bytes' => 'Bytes',
+	'KB' => 'KB',
+	'MB' => 'MB',
+	'GB' => 'GB',
 
 	)
 );

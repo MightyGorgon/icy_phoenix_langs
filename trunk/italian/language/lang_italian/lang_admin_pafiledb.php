@@ -165,9 +165,6 @@ $lang = array_merge($lang, array(
 	'Auth_toplist_explain' => 'Permetti la classifica (Toplist) a specifici gruppi di utenti',
 	'Auth_viewall' => 'Permessi Elenco globale',
 	'Auth_viewall_explain' => 'Permetti la visualizzazione di tutti i file a specifici gruppi di utenti',
-	'Bytes' => 'Bytes',
-	'KB' => 'KB',
-	'MB' => 'MB',
 
 	// Custom Field
 	'Afield' => 'Campo personalizzato: Aggiungi',

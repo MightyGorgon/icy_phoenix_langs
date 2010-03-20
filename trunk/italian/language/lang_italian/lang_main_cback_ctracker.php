@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'ctracker_login_success' => 'Il tuo account &egrave; stato riattivato.<br /><br />Clicca <a href="%s">QUI</a> per ritornare al Login.',
 	'ctracker_code_count' => 'Il numero di tentavi per la conferma visuale ha superato il limite per questa sessione.',
 
-	// Language Strings used in ctracker_login.php
+	// Language Strings used in login_captcha.php
 	'ctracker_login_title' => 'CrackerTracker: Attivazione account',
 	'ctracker_login_logged' => 'Account bloccato. Rieffettuare il login per sbloccarlo.',
 	'ctracker_login_confim' => 'Il numero di tentativi errati di accesso per il tuo account &egrave; stato superato. Il tuo account &egrave; stato bloccato. Per poterlo riattivare devi utilizzare la conferma visuale.<br /><br />Inserisci il codice seguente e clicca su <strong>Sblocca</strong> per sbloccare il tuo account. Una volta completata l\'operazione e potrai effettuare la procedura di accesso.',

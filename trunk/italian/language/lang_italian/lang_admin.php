@@ -269,13 +269,13 @@ $lang = array_merge($lang, array(
 
 // Configuration
 	'General_Config' => 'Configurazione Generale',
-	'Config_explain' => 'Il modulo qui sotto ti permette di personalizzare tutte le opzioni generali del Forum. Per la configurazione dei Forum e degli Utenti utilizza i collegamenti appropriati nel pannello di sinistra.',
+	'Config_explain' => 'Il modulo qui sotto ti permette di personalizzare tutte le opzioni generali del Sito. Per la configurazione dei Forum e degli Utenti utilizza i collegamenti appropriati nel pannello di sinistra.',
 
 	'Click_return_config' => 'Clicca %sQUI%s per tornare a Configurazione Generale',
 
-	'General_settings' => 'Impostazioni Generali Forum',
+	'General_settings' => 'Impostazioni Generali Sito',
 	'Server_name' => 'Nome Dominio',
-	'Server_name_explain' => 'Il nome del dominio da cui lanci il forum',
+	'Server_name_explain' => 'Il nome del dominio in cui si trova il sito',
 	'Script_path' => 'Percorso Cartella Icy Phoenix',
 	'Script_path_explain' => 'Il percorso dove &egrave; situato Icy Phoenix relativo al nome di dominio',
 	'Server_port' => 'Porta del Server',
@@ -328,9 +328,12 @@ $lang = array_merge($lang, array(
 	'Allow_remote' => 'Abilita Avatar remoti',
 	'Allow_remote_explain' => 'Avatar linkati da un altro sito web',
 	'Allow_upload' => 'Abilita il caricamento degli Avatar',
-	'Max_filesize' => 'Dimensione massima File Avatar',
-	'Max_filesize_explain' => 'Per i file Avatar caricati',
+	'Max_avatar_filesize' => 'Dimensione massima File Avatar',
+	'Max_avatar_filesize_explain' => 'Per i file Avatar caricati (in bytes)',
 	'Max_avatar_size' => 'Dimensioni Massime Avatar',
+	'Max_avatar_size_width' => 'Larghezza Massima Avatar',
+	'Max_avatar_size_height' => 'Altezza Massima Avatar',
+	'Max_avatar_size_explain' => 'Dimensioni in pixels',
 	'Max_avatar_size_explain' => '(Altezza x Larghezza in pixels)',
 	'Avatar_storage_path' => 'Percorso Salvataggio Avatar',
 	'Avatar_storage_path_explain' => 'Percorso principale directory Icy Phoenix, es. images/avatars',
@@ -387,7 +390,7 @@ $lang = array_merge($lang, array(
 	'Remove' => 'Rimuovi',
 	'Action' => 'Azione',
 	'Update_order' => 'Aggiorna Ordine',
-	'Config_updated' => 'Configurazione Forum Aggiornata con Successo',
+	'Config_updated' => 'Configurazione Aggiornata Correttamente',
 	'Move_up' => 'Sposta su',
 	'Move_down' => 'Sposta gi&ugrave;',
 	'Resync' => 'Sincronizza',
@@ -443,7 +446,7 @@ $lang = array_merge($lang, array(
 
 // Smiley Management
 	'smiley_title' => 'Utility Modifica Smiley',
-	'smile_desc' => 'Da questa pagina puoi aggiungere, togliere e modificare le emoticons o gli smiley che i tuoi utenti possono utilizzare nei loro messaggi.',
+	'smile_desc' => 'Da questa pagina puoi aggiungere, togliere e modificare le emoticons o gli smiley che i tuoi utenti possono utilizzare nei loro messaggi. Se il tuo browser lo supporta, puoi anche utilizzare il Drag and Drop per l\'ordinamento.',
 
 	'smiley_config' => 'Configurazione Smiley',
 	'smiley_code' => 'Codice Smiley',
@@ -737,9 +740,9 @@ $lang = array_merge($lang, array(
 // Start add - Birthday MOD
 	'Birthday_required' => 'Imponi agli utenti di selezionare la data di nascita',
 	'Enable_birthday_greeting' => 'Abilita auguri di compleanno',
-	'Birthday_greeting_expain' => 'Agli utenti che hanno indicato la loro data di nascita, in occasione del loro compleanno il forum invier&agrave; gli auguri',
+	'Birthday_greeting_explain' => 'Agli utenti che hanno indicato la loro data di nascita, in occasione del loro compleanno il forum invier&agrave; gli auguri',
 	'Next_birthday_greeting' => 'Anno del prossimo compleanno',
-	'Next_birthday_greeting_expain' => 'Questo campo memorizza l\'anno in cui l\'utente avr&agrave; il prossimo compleanno',
+	'Next_birthday_greeting_explain' => 'Questo campo memorizza l\'anno in cui l\'utente avr&agrave; il prossimo compleanno',
 	'Wrong_next_birthday_greeting' => 'Anno del prossimo compleanno non valido! Riprovare grazie',
 	'Max_user_age' => 'Et&agrave; massima utente',
 	'Min_user_age' => 'Et&agrave; minima utente',
@@ -758,6 +761,8 @@ $lang = array_merge($lang, array(
 	'Default_avatar_users' => 'Utenti',
 	'Default_avatar_both' => 'Entrambi',
 	'Default_avatar_none' => 'Nessuno',
+	'Default_avatar_guests_url' => 'Percorso per l\'avatar predefinito per gli ospiti',
+	'Default_avatar_users_url' => 'Percorso per l\'avatar predefinito per gli utenti',
 // Default avatar MOD, By Manipe (End)
 
 // Start add - Global announcement MOD
@@ -794,7 +799,7 @@ $lang = array_merge($lang, array(
 
 // Start add - Last visit MOD
 	'Hidde_last_logon' => 'Nascondi ultima connessione',
-	'Hidde_last_logon_expain' => 'Se impostato a S&igrave; solo l\'amministratore del forum potr&agrave; visualizzare la data dell\'ultimo collegamento',
+	'Hidde_last_logon_explain' => 'Se impostato a S&igrave; solo l\'amministratore del forum potr&agrave; visualizzare la data dell\'ultimo collegamento',
 // End add - Last visit MOD
 
 	'Postcounts_Configuration' => 'Numero Post',
@@ -1004,7 +1009,8 @@ $lang = array_merge($lang, array(
 	'Smilie_table_rows' => 'Righe Tabella Smileys',
 	'Smilie_window_columns' => 'Colonne Finestra Smileys',
 	'Smilie_window_rows' => 'Righe Finestra Smileys',
-	'Smilie_single_row' => 'Numero Smileys Singola Riga (ES.: numero smileys in Quick Reply)',
+	'Smilie_single_row' => 'Numero Smileys Singola Riga',
+	'Smilie_single_row_explain' => 'ES.: numero smileys in Quick Reply',
 
 	'Auth_Rating' => 'Valutazioni',
 
@@ -2067,18 +2073,20 @@ $lang = array_merge($lang, array(
 	'PLUGINS_NO_PLUGINS' => 'Nessun plugin da configurare',
 	// PLUGINS - END
 
-// ####################### [ Icy Phoenix Options BEGIN ] #####################
-	'MG_Configuration' => 'Impostazioni Icy Phoenix',
-	'MG_Configuration_Explain' => 'In questa sezione &egrave; possibile configurare alcune impostazioni avanzate di Icy Phoenix',
+	'BBCODE_SETTINGS' => 'Impostazioni BBCode, HTML E Smileys',
+	'POSTING_SETTINGS' => 'Impostazioni Invio Messaggi',
 
-	'MG_Configuration_Headers_Banners' => 'Headers &amp; Banners',
-	'MG_Configuration_Queries' => 'Ottimizzazione SQL',
-	'MG_Configuration_Permissions' => 'Permessi Pagine',
-	'MG_Configuration_Posting' => 'Invio Messaggi',
+	'POLL_INFINITE' => 'Infinito...',
+	'POLL_ONGOING' => ' (in corso)',
+	'POLL_COMPLETED' => ' (completato))',
+
+// ####################### [ Icy Phoenix Options BEGIN ] #####################
+	'IP_CONFIGURATION' => 'Impostazioni Icy Phoenix',
+	'IP_CONFIGURATION_EXPLAIN' => 'In questa sezione &egrave; possibile configurare alcune impostazioni avanzate di Icy Phoenix',
+
 	'MG_SW_Precompiled_Posts_Title' => 'Messaggi Precompilati',
 	'MG_SW_Logins_Title' => 'Registrazione Logins',
 	'MG_SW_Edit_Notes_Title' => 'Note di Modifica',
-	'MG_Configuration_IMG_Posting' => 'Immagini nei messaggi',
 
 	'MG_SW_Header_Footer' => 'Messaggi Header',
 	'MG_SW_Header_Table' => 'Tabella Intestazione Pagina',
@@ -2133,19 +2141,17 @@ $lang['privmsgs_type'] = $lang['PM_Type'];
 // Numbers have to be changed in all /adm/*.php files too
 
 // Configuration
-$lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_board_extend.php, admin_board_headers_banners.php, admin_board_main.php, admin_board_permissions.php, admin_board_server.php, admin_board_posting.php, admin_board_queries.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_lang_user_created.php, admin_upi2db.php
-$lang['100_Server_Configuration'] = 'Server';															// admin_board_server.php
-$lang['110_Various_Configuration'] = 'Sito';															// admin_board.php
-$lang['120_MG_Configuration'] = 'Icy Phoenix';														// admin_board.php
+$lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_lang_user_created.php, admin_upi2db.php
+$lang['100_Main_Settings'] = 'Impostazioni Principali';										// admin_config_settings.php
+$lang['110_Various_Configuration'] = 'Impostazioni Varie';								// admin_board.php
 $lang['125_Language'] = 'Variabili Lingua';																// admin_lang_user_created.php
 $lang['127_Clear_Cache'] = 'Svuotamento Cache';														// admin_board_clearcache.php
 $lang['130_UPI2DB_Mod'] = 'Messaggi Non Letti';														// admin_upi2db.php
-$lang['140_MG_Configuration_Headers_Banners'] = 'Headers &amp; Banners';	// admin_board_headers_banners.php
+$lang['140_CAPTCHA'] = 'CAPTCHA';																					// admin_captcha.php
 $lang['145_Captcha_Config'] = 'Conferma Visuale';													// admin_captcha_config.php
 $lang['150_Similar_topics'] = 'Argomenti Simili';													// admin_similar_topics.php
 $lang['160_Title_infos'] = 'Gestione Titoli Veloci';											// admin_quick_title.php
 $lang['170_LIW'] = 'Larghezza Immagini';																	// admin_liw.php
-$lang['180_MG_Configuration_Permissions'] = 'Permessi Visualizzazione';		// admin_board_permissions.php
 $lang['190_Spider_Bots'] = 'Spider / Bots';																// admin_bots.php
 $lang['192_Google_BOT'] = 'Google Bot';																		// admin_google_bot_detector.php
 $lang['195_Yahoo_search'] = 'Yahoo Search';																// admin_yahoo_search.php
