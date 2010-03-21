@@ -690,7 +690,6 @@ $lang = array_merge($lang, array(
 	'Password_mismatch' => 'La password inserita non corrisponde.',
 	'Current_password_mismatch' => 'La password inserita non corrisponde a quella presente nel Database.',
 	'Password_long' => 'La password non deve essere pi&ugrave; lunga di 32 caratteri.',
-	'Too_many_registers' => 'Hai fatto troppi tentativi senza inserire il codice corretto. Prova pi&ugrave; tardi.',
 	'Username_taken' => 'Username in uso da un\'altro utente.',
 	'Username_invalid' => 'Errore, l\'Username contiene un carattere non valido come \'.',
 	'Username_disallowed' => 'Username disabilitato dall\'Amministratore.',
@@ -748,11 +747,11 @@ $lang = array_merge($lang, array(
 	'Empty_message_email' => 'Devi inserire un Messaggio da inviare.',
 
 // Visual confirmation system strings
-	'Confirm_code_wrong' => 'Il codice di conferma inserito non &egrave; corretto',
-	//'Too_many_registers' => 'Hai superato il numero massimo di tentativi per questa sessione. Ritenta pi&ugrave; tardi.',
-	'Confirm_code_impaired' => 'Se non riesci a visualizzare il codice di registrazione contatta l\'%sAmministratore%s.',
-	'Confirm_code' => 'Codice di conferma',
-	'Confirm_code_explain' => 'Inserisci il codice di conferma  visuale come indicato nell\'immagine. Il sistema riconosce la differenza tra maiuscole e minuscole, lo zero ha una barra diagonale per distinguerlo dalla lettera O.',
+	'CONFIRM_CODE_WRONG' => 'Il codice di conferma inserito non &egrave; corretto',
+	'TOO_MANY_ATTEMPTS' => 'Hai fatto troppi tentativi senza inserire il codice corretto. Riprova pi&ugrave; tardi.',
+	'CONFIRM_CODE_IMPAIRED' => 'Se non riesci a visualizzare il codice di registrazione contatta l\'%sAmministratore%s.',
+	'CONFIRM_CODE' => 'Codice di conferma',
+	'CONFIRM_CODE_EXPLAIN' => 'Inserisci il codice di conferma  visuale come indicato nell\'immagine. Il sistema riconosce la differenza tra maiuscole e minuscole, non ci sono ZERI (per difficolt&agrave; nel distinguerli dalla lettera O).',
 
 // Memberslist
 	'Select_sort_method' => 'Seleziona un ordine',
