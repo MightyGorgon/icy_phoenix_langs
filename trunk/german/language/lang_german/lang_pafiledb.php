@@ -28,9 +28,9 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 // Toplist
 	'Toplist' => 'Top-Liste',
-	'Select_list' => 'Wähle die Art der Liste aus, die angezeigt werden soll',
+	'Select_list' => 'WÃ¤hle die Art der Liste aus, die angezeigt werden soll',
 	'Latest_downloads' => 'Die neusten Dateien',
-	'Most_downloads' => 'Populäreste Dateien',
+	'Most_downloads' => 'PopulÃ¤reste Dateien',
 	'Rated_downloads' => 'Dateien mit bester Bewertung',
 	'Total_new_files' => 'Alle neuen Downloads',
 	'Show' => 'Zeigen',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'Files' => 'Dateien',
 	'Viewall' => 'Zeige alle Dateien',
 	'Vainfo' => 'Zeige alle Dateien in der Datenbank',
-	'Jump' => 'Wähle eine Kategorie',
+	'Jump' => 'WÃ¤hle eine Kategorie',
 	'Sub_category' => 'Unterkategorie',
 	'Last_file' => 'Letzte Datei',
 
@@ -66,9 +66,9 @@ $lang = array_merge($lang, array(
 // Category
 	'No_files' => 'Keine Dateien gefunden',
 	'No_files_cat' => 'Es sind keine Dateien in dieser Kategorie.',
-	'Cat_not_exist' => 'Die ausgewählte Kategorie existiert nicht.',
-	'File_not_exist' => 'Die ausgewählte Datei existiert nicht.',
-	'License_not_exist' => 'Die ausgewählte Lizenz existiert nicht.',
+	'Cat_not_exist' => 'Die ausgewÃ¤hlte Kategorie existiert nicht.',
+	'File_not_exist' => 'Die ausgewÃ¤hlte Datei existiert nicht.',
+	'License_not_exist' => 'Die ausgewÃ¤hlte Lizenz existiert nicht.',
 
 // File
 	'File' => 'Datei',
@@ -85,47 +85,44 @@ $lang = array_merge($lang, array(
 	'DlRating' => 'Bewertung',
 	'Dls' => ' Downloads',
 	'Downloadfile' => 'Datei herunterladen',
-	'File_size' => 'Dateigröße',
-	'Not_available' => 'Nicht verfügbar',
-	'Bytes' => 'Bytes',
-	'KB' => 'Kilo Byte',
-	'MB' => 'Mega Byte',
+	'File_size' => 'DateigrÃ¶ÃŸe',
+	'Not_available' => 'Nicht verfÃ¼gbar',
 
 	'Mirrors' => 'Mirrors',
-	'Mirrors_explain' => 'Hier kannst du Mirror für die Datei hinzufühen oder bearbeiten. Stelle sicher, dass du alle Informationen geprüft hast, denn die Datei wird zu unserer Datenbank hinzugefügt.',
-	'Click_here_mirrors' => 'Mirror hinzufügen',
+	'Mirrors_explain' => 'Hier kannst du Mirror fÃ¼r die Datei hinzufÃ¼hen oder bearbeiten. Stelle sicher, dass du alle Informationen geprÃ¼ft hast, denn die Datei wird zu unserer Datenbank hinzugefÃ¼gt.',
+	'Click_here_mirrors' => 'Mirror hinzufÃ¼gen',
 	'Mirror_location' => 'Mirror Location',
-	'Add_new_mirror' => 'Neuen Mirror hinzufügen',
+	'Add_new_mirror' => 'Neuen Mirror hinzufÃ¼gen',
 
 //User Upload
 	'User_upload' => 'Datei hochladen',
 
 // License
 	'License' => 'Lizenzvereinbarung',
-	'Licensewarn' => 'Du musst der Lizenz zustimmen, um die Datei herunterladen zu können.',
+	'Licensewarn' => 'Du musst der Lizenz zustimmen, um die Datei herunterladen zu kÃ¶nnen.',
 	'Iagree' => 'Ich stimme zu',
 	'Dontagree' => 'Ich stimme <i>nicht</i> zu',
 
 // Search
 	'Search' => 'Suche',
 	'Search_for' => 'Suche nach',
-	'Results' => 'Ergebnisse für',
-	'No_matches' => 'Es würden keine Übereinstimmungen gefunden',
-	'Matches' => 'Ähnliche wurden gefunden für',
+	'Results' => 'Ergebnisse fÃ¼r',
+	'No_matches' => 'Es wÃ¼rden keine Ãœbereinstimmungen gefunden',
+	'Matches' => 'Ã„hnliche wurden gefunden fÃ¼r',
 	'All' => 'Alle Kategorien',
-	'Choose_cat' => 'Kategorie auswählen:',
+	'Choose_cat' => 'Kategorie auswÃ¤hlen:',
 	'Include_comments' => 'Kommentare einbeziehen',
 	'Submiter' => 'Hochgeladen von',
 
 // Statistics
 	'Statistics' => 'Statistik',
-	'Select_chart_type' => 'Wähle den Tabellentyp',
+	'Select_chart_type' => 'WÃ¤hle den Tabellentyp',
 	'Bars' => 'Balken',
 	'Lines' => 'Linien',
-	'Area' => 'Fläche',
+	'Area' => 'FlÃ¤che',
 	'Linepoints' => 'Punktlinie',
 	'Points' => 'Punkte',
-	'Chart_header' => 'Datei-Statistik - Monatlich zur Datenbank hinzugefügte Dateien',
+	'Chart_header' => 'Datei-Statistik - Monatlich zur Datenbank hinzugefÃ¼gte Dateien',
 	'Chart_legend' => 'Dateien',
 	'X_label' => 'Monate',
 	'Y_label' => 'Anzahl von Dateien',
@@ -133,8 +130,8 @@ $lang = array_merge($lang, array(
 // Rate
 	'Rate' => 'Datei bewerten',
 	'Rerror' => 'Du hast diese Datei bereits bewertet.',
-	'Rateinfo' => 'Du bist dabei die Datei <b>{filename}</b> zu bewerten.<br />Bitte wähle eine Bewertung aus: 1 ist die schlechteste, 10 die beste Bewertung.',
-	'Rconf' => 'Du hast die Datei <b>{filename}</b> mit {rate} bewertet.<br />Dies ergibt eine neue Gesamtbewertung von {newrating} für diese Datei.',
+	'Rateinfo' => 'Du bist dabei die Datei <b>{filename}</b> zu bewerten.<br />Bitte wÃ¤hle eine Bewertung aus: 1 ist die schlechteste, 10 die beste Bewertung.',
+	'Rconf' => 'Du hast die Datei <b>{filename}</b> mit {rate} bewertet.<br />Dies ergibt eine neue Gesamtbewertung von {newrating} fÃ¼r diese Datei.',
 	'R1' => '1',
 	'R2' => '2',
 	'R3' => '3',
@@ -149,14 +146,14 @@ $lang = array_merge($lang, array(
 
 // Email
 	'Emailfile' => 'Datei an einen Freund schicken',
-	'Emailinfo' => 'Wenn du einen Freund auf diese Datei aufmerksam machen möchtest, kannst du das Formular ausfüllen und ihm eine E-Mail mit Informationen über die Datei senden.<br />Mit * markierte Felder müssen ausgefüllt werden, wenn nicht anders angegeben.',
+	'Emailinfo' => 'Wenn du einen Freund auf diese Datei aufmerksam machen mÃ¶chtest, kannst du das Formular ausfÃ¼llen und ihm eine E-Mail mit Informationen Ã¼ber die Datei senden.<br />Mit * markierte Felder mÃ¼ssen ausgefÃ¼llt werden, wenn nicht anders angegeben.',
 	'Yname' => 'Dein Name',
 	'Yemail' => 'Deine E-Mail Adresse',
 	'Fname' => 'Name deines Freundes',
 	'Femail' => 'E-Mail Adresse deines Freundes',
 	'Esub' => 'E-Mail Betreff',
 	'Etext' => 'E-Mail Text',
-	'Defaultmail' => 'Ich habe gerade diese Datei gefunden und dachte, du würdest sie gern herunterladen. Klicke auf den Link, um zur Datei zu gelangen:',
+	'Defaultmail' => 'Ich habe gerade diese Datei gefunden und dachte, du wÃ¼rdest sie gern herunterladen. Klicke auf den Link, um zur Datei zu gelangen:',
 	'Semail' => 'E-Mail senden',
 	'Econf' => 'Deine E-Mail wurde erfolgreich gesendet.',
 
@@ -165,55 +162,55 @@ $lang = array_merge($lang, array(
 	'Comments_title' => 'Kommentar-Titel', 
 	'Comment_subject' => 'Kommentar Betreff', 
 	'Comment' => 'Kommentar', 
-	'Comment_explain' => 'Verwende die Textbox oben, um uns deine Meinung über dieser Datei mitzuteilen.<br />', 
-	'Comment_add' => 'Kommentar hinzufügen', 
-	'Comment_delete' => 'Löschen', 
+	'Comment_explain' => 'Verwende die Textbox oben, um uns deine Meinung Ã¼ber dieser Datei mitzuteilen.<br />', 
+	'Comment_add' => 'Kommentar hinzufÃ¼gen', 
+	'Comment_delete' => 'LÃ¶schen', 
 	'Comment_posted' => 'Dein Kommentar wurde erfolgreich eingetragen.', 
-	'Comment_deleted' => 'Der ausgewählte Kommentar wurde erfolgreich gelöscht.', 
+	'Comment_deleted' => 'Der ausgewÃ¤hlte Kommentar wurde erfolgreich gelÃ¶scht.', 
 	'Comment_desc' => 'Titel', 
 	'No_comments' => 'Es wurden noch keine Kommentare geschrieben.',
 	'Links_are_ON' => 'Links sind <u>an</u>',
 	'Links_are_OFF' => 'Links sind <u>aus</u>',
 	'Images_are_ON' => 'Bilder sind <u>an</u>',
 	'Images_are_OFF' => 'Bilder sind <u>aus</u>',
-	'Check_message_length' => 'Kommentarlänge prüfen',
+	'Check_message_length' => 'KommentarlÃ¤nge prÃ¼fen',
 	'Msg_length_1' => 'Dein Kommentar ist ', 
 	'Msg_length_2' => ' Zeichen lang.', 
 	'Msg_length_3' => 'Du hast ', 
-	'Msg_length_4' => ' Zeichen zur Verfügung.', 
+	'Msg_length_4' => ' Zeichen zur VerfÃ¼gung.', 
 	'Msg_length_5' => 'Es sind noch ', 
-	'Msg_length_6' => ' Zeichen übrig.', 
+	'Msg_length_6' => ' Zeichen Ã¼brig.', 
 
 
 // Download
 	'Directly_linked' => 'Du kannst die Datei nicht direkt von einer anderen Seite herunterladen!',
 
 //Permission
-	'Sorry_auth_view' => 'Nur %s können Dateien und Unterkategorien in dieser Kategorie sehen.',
-	'Sorry_auth_file_view' => 'Nur %s können sich diese Datei in dieser Kategorie ansehen.',
-	'Sorry_auth_upload' => 'Nur %s können Dateien in dieser Kategorie hochladen.',
-	'Sorry_auth_download' => 'Nur %s können Dateien in dieser Kategorie herunterladen.',
-	'Sorry_auth_rate' => 'Nur %s können Dateien in dieser Kategorie bewerten.',
-	'Sorry_auth_view_comments' => 'Nur %s können sich Kommentare in dieser Kategorie ansehen.',
-	'Sorry_auth_post_comments' => 'Nur %s können Kommentare in dieser Kategorie schreiben.',
-	'Sorry_auth_edit_comments' => 'Nur %s können Kommentare in dieser Kategorie bearbeiten.',
-	'Sorry_auth_delete_comments' => 'Nur %s können Kommentare in dieser Kategorie löschen.',
+	'Sorry_auth_view' => 'Nur %s kÃ¶nnen Dateien und Unterkategorien in dieser Kategorie sehen.',
+	'Sorry_auth_file_view' => 'Nur %s kÃ¶nnen sich diese Datei in dieser Kategorie ansehen.',
+	'Sorry_auth_upload' => 'Nur %s kÃ¶nnen Dateien in dieser Kategorie hochladen.',
+	'Sorry_auth_download' => 'Nur %s kÃ¶nnen Dateien in dieser Kategorie herunterladen.',
+	'Sorry_auth_rate' => 'Nur %s kÃ¶nnen Dateien in dieser Kategorie bewerten.',
+	'Sorry_auth_view_comments' => 'Nur %s kÃ¶nnen sich Kommentare in dieser Kategorie ansehen.',
+	'Sorry_auth_post_comments' => 'Nur %s kÃ¶nnen Kommentare in dieser Kategorie schreiben.',
+	'Sorry_auth_edit_comments' => 'Nur %s kÃ¶nnen Kommentare in dieser Kategorie bearbeiten.',
+	'Sorry_auth_delete_comments' => 'Nur %s kÃ¶nnen Kommentare in dieser Kategorie lÃ¶schen.',
 // MX
 	'Sorry_auth_edit' => 'Du bist nicht berechtigt, Dateien in dieser Kategorie zu bearbeiten.',
-	'Sorry_auth_delete' => 'Du bist nicht berechtigt, Dateien in dieser Kategorie zu löschen.',
+	'Sorry_auth_delete' => 'Du bist nicht berechtigt, Dateien in dieser Kategorie zu lÃ¶schen.',
 	'Sorry_auth_mcp' => 'Du bist nicht berechtigt, diese Kategorie zu moderieren.',
 	'Sorry_auth_approve' => 'Du bist nicht berechtigt, Dateien in dieser Kategorie freizugeben.',
 
 
 // General
 	'Category' => 'Kategorie',
-	'Error_no_download' => 'Die ausgewählte Datei existiert nicht mehr.',
+	'Error_no_download' => 'Die ausgewÃ¤hlte Datei existiert nicht mehr.',
 	'Options' => 'Optionen',
-	'Click_return' => 'Klicke %shier%s, um zur vorhergehenden Seite zurückzukehren.',
+	'Click_return' => 'Klicke %shier%s, um zur vorhergehenden Seite zurÃ¼ckzukehren.',
 	'Click_here' => 'Klicke hier',
 	'never' => 'Keine',
 	'pafiledb_disable' => 'Die Download Datenbank ist deaktiviert.',
-	'jump' => 'Kategorie auswählen',
+	'jump' => 'Kategorie auswÃ¤hlen',
 	'viewall_disabled' => 'Diese Funktion wurde vom Administrator deaktiviert.',
 	'New_file' => 'Neue Datei',
 	'No_new_file' => 'Keine neue Datei',
@@ -223,7 +220,7 @@ $lang = array_merge($lang, array(
 
 // Toplists mx blocks
 	'Recent_Public_Files' => 'Neuste Downloads',
-	'Random_Public_Files' => 'Zufällige Downloads',
+	'Random_Public_Files' => 'ZufÃ¤llige Downloads',
 	'Toprated_Public_Files' => 'Bestbewertetste Downloads',
 	'Most_Public_Files' => 'Die meisten Downloads',
 	'File_Title' => 'Titel',
@@ -232,17 +229,17 @@ $lang = array_merge($lang, array(
 	'Dls' => 'Heruntergeladen',
 
 // MX Addon
-	'Deletefile' => 'Datei löschen',
+	'Deletefile' => 'Datei lÃ¶schen',
 	'Editfile' => 'Datei bearbeiten',
 	'pa_MCP' => 'ModeratorCP',
-	'Click_return_not_validated' => 'Klicke %shier%s, um zur vorhergehenden Seite zurückzukehren.',
+	'Click_return_not_validated' => 'Klicke %shier%s, um zur vorhergehenden Seite zurÃ¼ckzukehren.',
 	)
 );
 
 $lang['Stats_text'] = "Es sind {total_files} Dateien in {total_categories} Kategorien.<br />";
 $lang['Stats_text'] .= "Es gab insgesamt {total_downloads} Downloads.<br /><br />";
 $lang['Stats_text'] .= "Die neuste Datei ist <a href={u_newest_file}>{newest_file}</a>.<br />";
-$lang['Stats_text'] .= "Die älteste Datei ist <a href={u_oldest_file}>{oldest_file}</a>.<br /><br />";
+$lang['Stats_text'] .= "Die Ã¤lteste Datei ist <a href={u_oldest_file}>{oldest_file}</a>.<br /><br />";
 $lang['Stats_text'] .= "Die durchschnittliche Datei-Bewertung liegt bei {average}/10.<br />";
 $lang['Stats_text'] .= "Die Datei mit der besten Bewertung ist <a href={u_popular}>{popular}</a>, mit einer Bewertung von {most}/10.<br />";
 $lang['Stats_text'] .= "Die Datei mit der schlechtesten Bewertung ist <a href={u_lpopular}>{lpopular}</a>, mit einer Bewertung von {least}/10.<br /><br />";

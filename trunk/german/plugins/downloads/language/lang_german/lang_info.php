@@ -14,6 +14,6 @@ if (!defined('IN_ICYPHOENIX'))
 }
 
 $lang['PLUGIN_DOWNLOADS'] = 'Downloads';
-$lang['PLUGIN_DOWNLOADS_EXPLAIN'] = 'Download alternativer Versionen';
+$lang['PLUGIN_DOWNLOADS_EXPLAIN'] = 'Downloads alternative Version';
 
 ?>

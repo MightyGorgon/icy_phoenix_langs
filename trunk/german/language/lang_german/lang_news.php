@@ -28,7 +28,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 // Main Stuff.
 	'Regular_Post' => 'Normaler Beitrag (Nicht als Foren-News schreiben)',
-	'Current_Selection' => 'gegenwärtige Auswahl',
+	'Current_Selection' => 'gegenwÃ¤rtige Auswahl',
 	'Select_News_Category' => 'News Kategorie:',
 	'News' => 'News',
 	'News_Cmx' => '<b>News:</b>&nbsp;',
@@ -40,35 +40,35 @@ $lang = array_merge($lang, array(
 // Admin Stuff
 
 // News Config
-	'Add_news_categories' => 'News Kategorien hinzufügen',
+	'Add_news_categories' => 'News Kategorien hinzufÃ¼gen',
 	'News_Configuration' => 'News Konfiguration',
-	'News_Add_Description' => 'Hier kannst du neue News Kategorien hinzufügen.',
+	'News_Add_Description' => 'Hier kannst du neue News Kategorien hinzufÃ¼gen.',
 	'Icon' => 'News Icon',
-	'Add_new_category' => 'Neue News Kategorie hinzufügen',
+	'Add_new_category' => 'Neue News Kategorie hinzufÃ¼gen',
 
-	'Click_return_newsadmin' => 'Klicke %shier%s, um zur News-Konfiguration zurückzukehren.',
-	'Category_Deleted' => 'Die News Kategorie wurde erfolgreich gelöscht.',
-	'Category_Updated' => 'Die News Kategorie wurde erfolgreich geändert.',
-	'Category_Added' => 'Die News Kategorie wurde erfolgreich hinzugefügt.',
+	'Click_return_newsadmin' => 'Klicke %shier%s, um zur News-Konfiguration zurÃ¼ckzukehren.',
+	'Category_Deleted' => 'Die News Kategorie wurde erfolgreich gelÃ¶scht.',
+	'Category_Updated' => 'Die News Kategorie wurde erfolgreich geÃ¤ndert.',
+	'Category_Added' => 'Die News Kategorie wurde erfolgreich hinzugefÃ¼gt.',
 
-	'News_Editing_Utility' => 'News Kategorie ändern',
+	'News_Editing_Utility' => 'News Kategorie Ã¤ndern',
 	'News_Config' => 'News Kategorie Einstellung',
-	'News_Explain' => 'Hier kannst du News-Kategorien hinzufügen, editieren und löschen.',
+	'News_Explain' => 'Hier kannst du News-Kategorien hinzufÃ¼gen, editieren und lÃ¶schen.',
 
 	'Enable_News' => 'Newserstellung erlauben',
 	'News_Path' => 'News Icons-Pfad',
 	'News_Path_Explain' => 'Der Pfad in deinem Icy Phoenix Verzeichnis, in dem die Bilder liegen (z.B. images/news)',
 
-	'News_explain' => 'Hier kannst du die Einstellungen des <i>Slashdot News Mod by CMX</i> ändern.',
+	'News_explain' => 'Hier kannst du die Einstellungen des <i>Slashdot News Mod by CMX</i> Ã¤ndern.',
 	'News_settings' => 'News-Konfiguration',
 
-	'News_trim' => 'News Länge',
-	'News_trim_explain' => 'Die maximale Anzahl an Zeichen, für News-Beiträge, bevor sie gekürzt werden (0 = unbegrenzt).',
+	'News_trim' => 'News LÃ¤nge',
+	'News_trim_explain' => 'Die maximale Anzahl an Zeichen, fÃ¼r News-BeitrÃ¤ge, bevor sie gekÃ¼rzt werden (0 = unbegrenzt).',
 
-	'News_topic_trim' => 'News-Titellänge',
-	'News_topic_trim_explain' => 'Die maximale Anzahl an Zeichen, für News-Titel, bevor sie gekürzt werden (0 = unbegrenzt).',
+	'News_topic_trim' => 'News-TitellÃ¤nge',
+	'News_topic_trim_explain' => 'Die maximale Anzahl an Zeichen, fÃ¼r News-Titel, bevor sie gekÃ¼rzt werden (0 = unbegrenzt).',
 
-	'News_item_num' => 'Anzahl der anzuzeigenden News-Beiträge',
+	'News_item_num' => 'Anzahl der anzuzeigenden News-BeitrÃ¤ge',
 	'News_item_num_explain' => 'Die Anzahl News, die in news_viewnews.php angezeigt wird.',
 
 	'RSS_Configuration' => 'RSS News Feed Konfiguration',

@@ -30,16 +30,16 @@ $lang = array_merge($lang, array(
 	'Already_Rated' => 'Deine Bewertung: <b>%d</b>', //%d = their rate
 	'Rate_Stats' => '<b>%.2f</b>', //%.2f = average, %d = min, %d = max, %d # of ratings
 	'Rate' => 'Bewerten',
-	'Choose_Rating' => 'Wertung auswählen',
+	'Choose_Rating' => 'Wertung auswÃ¤hlen',
 	'Topic_Rated' => 'Das Thema wurde bewertet.',
-	'Anon_Rate_Disabled' => 'Gästen ist es nicht erlaubt, Themen zu bewerten.',
+	'Anon_Rate_Disabled' => 'GÃ¤sten ist es nicht erlaubt, Themen zu bewerten.',
 	'Not_Authorized_To_Rate' => 'Du bist nicht berechtigt, dieses Thema zu bewerten.',
-	'Change_Rating' => 'Bewertung ändern',
+	'Change_Rating' => 'Bewertung Ã¤ndern',
 	'View_Details' => '<a href="%s" title="Details anzeigen">Detalierte Informationen anzeigen</a>', //%s = detailed URL
 	'View_Details_2' => '<a href="%s" title="Details anzeigen">Detalierte Informationen anzeigen</a>', //%s = detailed URL
-	'Username_Gave_Rate_of_Max' => '<b>%s</b> bewertete dieses Thema <b>%d</b> von möglichen <b>%d</b> am %s.', //%s = username, %d = user rate, %d = max rate, %s = date with create_date()
+	'Username_Gave_Rate_of_Max' => '<b>%s</b> bewertete dieses Thema <b>%d</b> von mÃ¶glichen <b>%d</b> am %s.', //%s = username, %d = user rate, %d = max rate, %s = date with create_date()
 	'Detailed_Rating' => 'Detailierte Bewertung',
-	'Details_For_Topic' => 'Bewertungsdetails für&nbsp;&raquo;&nbsp;<b>%s</b>', //%s = topic title
+	'Details_For_Topic' => 'Bewertungsdetails fÃ¼r&nbsp;&raquo;&nbsp;<b>%s</b>', //%s = topic title
 	'Or_Someone_From_IP' => '(IP gespeichert)', // makes it smaller for smaller res screens
 	'Disable_Rating_ON' => 'Bewertungen in diesem Beitrag deaktivieren',
 	'Summary' => 'Bewertungen des Themas: ',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 	'No_Topics_Rated' => 'Es wurden noch keine Themen bewertet',
 	'Top_Topics' => 'Die %d besten Themen', //%d = number of topics
-	'Top_Topics_For_Forum' => 'Top %d Bewerteten Themen für %s', //%d = number of topics, %s is forum name
+	'Top_Topics_For_Forum' => 'Top %d Bewerteten Themen fÃ¼r %s', //%d = number of topics, %s is forum name
 	'For_Forum' => 'Nur %s', //%s = forum name
 	'Last_Rated' => 'Zuletzte bewertet',
 	'Number_of_Rates' => '# Bewertungen',
@@ -69,30 +69,30 @@ $lang = array_merge($lang, array(
 
 //admin
 	'Status' => 'Status',
-	'Auth_Description' => 'Berechtigungserklärung',
-	'NONE' => 'Bewertungen sind vollständig deaktiviert und es werden keine Bewertungsbalken zum Thema angezeigt.',
-	'ALL' => 'Alle Benutzer können bewerten und sich die Bewertungen ansehen.',
-	'REG' => 'Nur registrierte Benutzer können bewerten, aber jeder kann die Bewertungen sehen.',
-	'PRIVATE' => 'Nur registrierte Benutzer können bewerten und sich die Bewertungen sehen.',
-	'MOD' => 'Nur Moderatoren und Administratoren können bewerten, aber jeder kann die Bewertungen sehen.',
-	'ADMIN' => 'Nur Administratoren können bewerten, aber jeder kann die Bewertungen sehen.',
-	'Allow_Poster_To_Disable_Rating' => 'Erlaube dem Beitragserfasser die Bewertungsmöglichkeit zu deaktivieren',
+	'Auth_Description' => 'BerechtigungserklÃ¤rung',
+	'NONE' => 'Bewertungen sind vollstÃ¤ndig deaktiviert und es werden keine Bewertungsbalken zum Thema angezeigt.',
+	'ALL' => 'Alle Benutzer kÃ¶nnen bewerten und sich die Bewertungen ansehen.',
+	'REG' => 'Nur registrierte Benutzer kÃ¶nnen bewerten, aber jeder kann die Bewertungen sehen.',
+	'PRIVATE' => 'Nur registrierte Benutzer kÃ¶nnen bewerten und sich die Bewertungen sehen.',
+	'MOD' => 'Nur Moderatoren und Administratoren kÃ¶nnen bewerten, aber jeder kann die Bewertungen sehen.',
+	'ADMIN' => 'Nur Administratoren kÃ¶nnen bewerten, aber jeder kann die Bewertungen sehen.',
+	'Allow_Poster_To_Disable_Rating' => 'Erlaube dem Beitragserfasser die BewertungsmÃ¶glichkeit zu deaktivieren',
 	'Allow_Detailed_Ratings_Page' => 'Erlaube Benutzern, die detailierte Bewertungsseite anzuzeigen',
 	'Max_Rating' => 'Maximale erlaubte Bewertung (1 bis MAX)',
-	'Allow_Users_To_ReRate' => 'Erlaube Benutzern ihre Bewertung zu ändern',
-	'Check_Anon_IP' => 'Überprüfe die IP von Gästen beim Bewerten, um zu prüfen, ob sie bereits abgestimmt haben',
-	'Anon_Rate_ID' => 'Nächste Anonymer Benutzer Bewertungs IP.<br />Bitte ändere dies nicht, es sei denn du weiste genau was du tust und tuen musst.<br />Einen höheren Wert als gelistet zu setzen ist keine gute Idee',
+	'Allow_Users_To_ReRate' => 'Erlaube Benutzern ihre Bewertung zu Ã¤ndern',
+	'Check_Anon_IP' => 'ÃœberprÃ¼fe die IP von GÃ¤sten beim Bewerten, um zu prÃ¼fen, ob sie bereits abgestimmt haben',
+	'Anon_Rate_ID' => 'NÃ¤chste Anonymer Benutzer Bewertungs IP.<br />Bitte Ã¤ndere dies nicht, es sei denn du weiste genau was du tust und tuen musst.<br />Einen hÃ¶heren Wert als gelistet zu setzen ist keine gute Idee',
 	'Big_Page_Number' => 'Anzahl der Themen auf der separaten Bewertungsseite (wenn du sie verwendest)',
 	'Main_Page_Number' => 'Anzahl der Themen die auf der Hauptseite angezeigt werden sollen (wenn du sie verwendest)',
 	'Header_Page_Number' => 'Anzahl der Themen die im Header angezeigt werden sollen (wenn du sie verwendest)',
 	'Mass_Update' => 'Massenupdate',
 	'Purge_Old_Ratings' => 'Bereinigung alter Bewertungen',
 	'Min_Rates' => 'Minimale Anzahl von Bewertungen, die ein Beitrag haben muss, um in der Bestenliste angezeigt zu werden',
-	'Purge' => 'Säubern',
-	'Purged' => 'Gesäubert',
-	'Purge_Desc' => 'Entfernt Bewertungen von gelöschten Themen, die irgendwie nicht mit dem Thema gelöscht wurden.',
+	'Purge' => 'SÃ¤ubern',
+	'Purged' => 'GesÃ¤ubert',
+	'Purge_Desc' => 'Entfernt Bewertungen von gelÃ¶schten Themen, die irgendwie nicht mit dem Thema gelÃ¶scht wurden.',
 	'Clear' => 'Entfernen',
-	'Clear_Desc' => 'Entfernt <b>ALLE</b> Bewertungen. Nutze diese Funktion nur, wenn du ungewöhnlichen Ärger mit den Bewertungen hast oder <b>sämtliche Bewertungen löschen</b> möchtest. Setze das Häckchen und gib <b>YES</b> im Feld daneben ein.',
+	'Clear_Desc' => 'Entfernt <b>ALLE</b> Bewertungen. Nutze diese Funktion nur, wenn du ungewÃ¶hnlichen Ã„rger mit den Bewertungen hast oder <b>sÃ¤mtliche Bewertungen lÃ¶schen</b> mÃ¶chtest. Setze das HÃ¤ckchen und gib <b>YES</b> im Feld daneben ein.',
 	'Complete' => 'abgeschlossen',
 	'Authorization' => 'Berechtigung',
 	'rate_average' => 'Durchschnittliche Bewertung',

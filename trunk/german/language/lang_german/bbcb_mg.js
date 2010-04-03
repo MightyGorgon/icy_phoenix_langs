@@ -1,4 +1,4 @@
-s_formerrors = 'Du musst einen Text eingeben, um eine Nachricht absenden zu können.';
+s_formerrors = 'Du musst einen Text eingeben, um eine Nachricht absenden zu kÃ¶nnen.';
 s_gen_error = ':: Fehler ::\n\n';
 s_url_insert = 'URL eingeben: (eg. http://www.icyphoenix.com/)';
 s_url_insert_tip = 'http://';
@@ -19,28 +19,28 @@ s_stream_insert = 'Bitte Audio-Datei URL eingeben';
 s_video_insert = 'Bitte Video-Datei URL eingeben';
 s_video_w_insert = 'Bitte Videobreite eingeben';
 s_video_w_error = 'Du hast keine Videobreite eingegeben.';
-s_video_h_insert = 'Bitte Videohöhe eingeben';
-s_video_h_error = 'Du hast keine Videohöhe eingegeben.';
+s_video_h_insert = 'Bitte VideohÃ¶he eingeben';
+s_video_h_error = 'Du hast keine VideohÃ¶he eingegeben.';
 s_googlevideo_insert = 'Bitte Google Video Datei ID eingeben';
 s_youtube_insert = 'Bitte YouTube Datei ID eingeben';
 s_emff_insert = 'Bitte mp3 Datei URL eingeben';
 s_flash_insert = 'Bitte Flash-Datei URL eingeben';
 s_flash_w_insert = 'Bitte Flash-Breite eingeben';
 s_flash_w_error = 'Du hast keine Flash-Breite eingegeben.';
-s_flash_h_insert = 'Bitte Flash-Höhe eingeben';
-s_flash_h_error = 'Du hast keine Flash-Höhe eingegeben.';
+s_flash_h_insert = 'Bitte Flash-HÃ¶he eingeben';
+s_flash_h_error = 'Du hast keine Flash-HÃ¶he eingegeben.';
 s_id_insert_tip = 'ID';
 s_id_insert_error = 'Du hast keine ID eingegeben.';
 s_file_insert_error = 'Du hast keine Datei-URL eingegeben.';
-s_grad_select = 'Wähle zuerst den Text aus';
+s_grad_select = 'WÃ¤hle zuerst den Text aus';
 s_grad_error = 'Das funktioniert nur mit weniger als 120 Zeichen';
 s_grad_path = 'includes/grad.htm';
 s_view_more_code = 'Mehr Code anzeigen';
-s_image_upload = 'Bild zu PostImage.org hochladen und zum Text hinzufügen';
-s_posticyimage = 'Bild hochladen und zum Text hinzufügen';
+s_image_upload = 'Bild zu PostImage.org hochladen und zum Text hinzufÃ¼gen';
+s_posticyimage = 'Bild hochladen und zum Text hinzufÃ¼gen';
 
 // Helpline messages
-s_a_help = 'Alle offenen Tags schließen';
+s_a_help = 'Alle offenen Tags schlieÃŸen';
 s_b_help = 'Fett: [b]Text[/b]';
 s_i_help = 'Kursiv (Italic): [i]Text[/i]';
 s_u_help = 'Unterstrichen: [u]Text[/u]';
@@ -49,21 +49,21 @@ s_quote_help = 'Zitat (Quote): [quote]Text[/quote]';
 s_code_help = 'Code: [code]Programmcode[/code]';
 s_phpbbmod_help = 'phpBB Mod Template';
 s_highlight_help = 'Hervorheben: [highlight=#FFFFAA]Text[/highlight]';
-s_img_help = 'Bild einfügen: [img]http://webserver.com/bild.jpg[/img]';
+s_img_help = 'Bild einfÃ¼gen: [img]http://webserver.com/bild.jpg[/img]';
 s_imgl_help = 'Bild links ausgerichtet: [img align=left]http://image_url[/img]';
 s_imgr_help = 'Bild rechts ausgerichtet: [img align=right]http://image_url[/img]';
-s_albumimg_help = 'Galeriebild einfügen: [albumimg]<ID>[/albumimg]';
-s_albumimgl_help = 'Links ausgerichtetes Galeriebild einfügen: [albumimg align=left]Album Pic ID[/albumimg]';
-s_albumimgr_help = 'Rechts ausgerichtetes Galeriebild einfügen: [albumimg align=right]Album Pic ID[/albumimg]';
+s_albumimg_help = 'Galeriebild einfÃ¼gen: [albumimg]<ID>[/albumimg]';
+s_albumimgl_help = 'Links ausgerichtetes Galeriebild einfÃ¼gen: [albumimg align=left]Album Pic ID[/albumimg]';
+s_albumimgr_help = 'Rechts ausgerichtetes Galeriebild einfÃ¼gen: [albumimg align=right]Album Pic ID[/albumimg]';
 
-s_url_help = 'Link (URL) einfügen: [url]http://url[/url] oder [url=http://url]URL text[/url]';
+s_url_help = 'Link (URL) einfÃ¼gen: [url]http://url[/url] oder [url=http://url]URL text[/url]';
 s_fc_help = 'Schriftfarbe: [color=red]Text[/color] Du kannst HEX color=#FF0000 verwenden';
-s_fs_help = 'Schriftgröße: [size=10]kleiner Text[/size]';
+s_fs_help = 'SchriftgrÃ¶ÃŸe: [size=10]kleiner Text[/size]';
 s_ft_help = 'Schriftart: [font=Tahoma]Text[/font]';
-s_table_help = 'Tabelle einfügen: [table]Text[/table]';
-s_td_help = 'Tabllenspalte einfügen: [td]Text[/td]';
-s_mail_help = 'E-Mail einfügen: [email]E-Mail Hier[/email]';
-s_grad_help = 'Text mit Farbverlauf einfügen';
+s_table_help = 'Tabelle einfÃ¼gen: [table]Text[/table]';
+s_td_help = 'Tabllenspalte einfÃ¼gen: [td]Text[/td]';
+s_mail_help = 'E-Mail einfÃ¼gen: [email]E-Mail Hier[/email]';
+s_grad_help = 'Text mit Farbverlauf einfÃ¼gen';
 s_right_help = 'Text rechts ausrichten: [align=right]Text[/align]';
 s_left_help = 'Text links ausrichten: [align=left]Text[/align]';
 s_center_help = 'Text zentriert ausrichten: [align=center]Text[/align]';
@@ -74,25 +74,25 @@ s_marqu_help = 'Laufschrift nach oben: [marquee direction=up]Text[/marquee]';
 s_marqd_help = 'Laufschrift nach unten: [marquee direction=down]Text[/marquee]';
 s_sup_help = 'Hochgestellt: [sup]Text[/sup]';
 s_sub_help = 'Tiefgestellt: [sub]Text[/sub]';
-s_hr_help = 'Horizontale Linie einfügen: [hr]';
-s_bullet_help = 'Listenpunkt einfügen: [*]';
-s_video_help = 'Video-Datei einfügen: [video width=# height=#]Datei URL[/video]';
-s_googlevideo_help = 'Google Video-Datei einfügen: [googlevideo]Google Video ID[/googlevideo]';
-s_youtube_help = 'YouTube Video-Datei einfügen: [youtube]YouTube ID[/youtube]';
+s_hr_help = 'Horizontale Linie einfÃ¼gen: [hr]';
+s_bullet_help = 'Listenpunkt einfÃ¼gen: [*]';
+s_video_help = 'Video-Datei einfÃ¼gen: [video width=# height=#]Datei URL[/video]';
+s_googlevideo_help = 'Google Video-Datei einfÃ¼gen: [googlevideo]Google Video ID[/googlevideo]';
+s_youtube_help = 'YouTube Video-Datei einfÃ¼gen: [youtube]YouTube ID[/youtube]';
 s_quick_help = 'Quicktime Video: [quick]http://quicktime_video_url/[/quick]';
-s_flash_help = 'Flash-Datei einfügen: [flash width=# height=#]flash URL[/flash]';
-s_ram_help = 'Real Media Datei einfügen: [ram]Datei URL[/ram]';
-s_stream_help = 'Stream-Datei einfügen: [stream]Datei URL[/stream]';
-s_emff_help = 'mp3 Datei einfügen: [emff]Datei URL[/emff]';
+s_flash_help = 'Flash-Datei einfÃ¼gen: [flash width=# height=#]flash URL[/flash]';
+s_ram_help = 'Real Media Datei einfÃ¼gen: [ram]Datei URL[/ram]';
+s_stream_help = 'Stream-Datei einfÃ¼gen: [stream]Datei URL[/stream]';
+s_emff_help = 'mp3 Datei einfÃ¼gen: [emff]Datei URL[/emff]';
 s_fade_help = 'Transparenz: [opacity=30%]Text[/opacity] oder [opacity=50%][img]http://image_url/[/img][/opacity]';
 s_spoiler_help = 'Spoiler: [spoiler]text[/spoiler]';
 s_cell_help = 'Zellen: [cell]text[/cell]';
-s_list_help = 'Liste: [list]Text[/list] (Tipp: Du kannst [*] verwenden, um einen Listenpunkt hinzuzufügen)';
-s_listo_help = 'Nummerierte Liste: [list=1|a]Text[/list] (Tipp: Du kannst [*] verwenden, um einen Listenpunkt hinzuzufügen)';
+s_list_help = 'Liste: [list]Text[/list] (Tipp: Du kannst [*] verwenden, um einen Listenpunkt hinzuzufÃ¼gen)';
+s_listo_help = 'Nummerierte Liste: [list=1|a]Text[/list] (Tipp: Du kannst [*] verwenden, um einen Listenpunkt hinzuzufÃ¼gen)';
 s_help_help = 'BBCode Hilfe aufrufen';
-s_image_upload_help = 'Bild zu PostImage.org hochladen und zum Text hinzufügen';
-s_posticyimage_help = 'Bild hochladen und zum Text hinzufügen';
-s_smiley_creator = 'Smiley Creator: [smiley=1]Text[/smiley] neuen Smiley mit Schild hinzufügen';
+s_image_upload_help = 'Bild zu PostImage.org hochladen und zum Text hinzufÃ¼gen';
+s_posticyimage_help = 'Bild hochladen und zum Text hinzufÃ¼gen';
+s_smiley_creator = 'Smiley Creator: [smiley=1]Text[/smiley] neuen Smiley mit Schild hinzufÃ¼gen';
 
 //var bbcb_mg_img_path = "images/bbcb_mg/images/";
 //var bbcb_mg_img_path = "images/bbcb_mg/images/png/";
@@ -1954,7 +1954,7 @@ String.prototype.exist=function()
 {
 	return (this=="undefined"?false:true);
 };
-//Opacité
+//OpacitÃ©
 function setOpacity(id,alpha,isObj)
 {
 	if(!dom)
@@ -2006,8 +2006,8 @@ function getOpacity(id,isObj)
 }
 
 // Fading
-vit = 5; //temps entre chaque addition d'opacité(+ petit -> + de qualité -> + dur pour le navigateur)
-add = 4; //valeur à additionner (idem)
+vit = 5; //temps entre chaque addition d'opacitÃ©(+ petit -> + de qualitÃ© -> + dur pour le navigateur)
+add = 4; //valeur Ã  additionner (idem)
 nObj = 0;
 
 fadeObjects = new Object();
@@ -2042,7 +2042,7 @@ function fade2(object, destOp)
 	{
 		direction = -1;//de - en - opaque
 	}
-	alpha += direction * Math.min(direction * diff, add);//ajoute le + petit entre la diférence et add
+	alpha += direction * Math.min(direction * diff, add);//ajoute le + petit entre la difÃ©rence et add
 	setOpacity(object,alpha,true);
 	alpha = getOpacity(object,true);
 	object.offsetLeft;

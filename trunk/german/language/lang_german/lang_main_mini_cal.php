@@ -27,7 +27,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang['Mini_Cal_calendar'] = 'Kalender';
-$lang['Mini_Cal_add_event'] = 'Ereignis hinzufügen';
+$lang['Mini_Cal_add_event'] = 'Ereignis hinzufÃ¼gen';
 $lang['Mini_Cal_events'] = 'Kommende Ereignisse';
 $lang['Mini_Cal_no_events'] = 'Keine';
 
@@ -50,7 +50,7 @@ $lang['mini_cal']['day'][7] = 'So';
 
 $lang['mini_cal']['month'][1] = 'Jan';
 $lang['mini_cal']['month'][2] = 'Feb';
-$lang['mini_cal']['month'][3] = 'Mär';
+$lang['mini_cal']['month'][3] = 'MÃ¤r';
 $lang['mini_cal']['month'][4] = 'Apr';
 $lang['mini_cal']['month'][5] = 'Mai';
 $lang['mini_cal']['month'][6] = 'Jun';
@@ -63,7 +63,7 @@ $lang['mini_cal']['month'][12] = 'Dez';
 
 $lang['mini_cal']['long_month'][1] = 'Januar';
 $lang['mini_cal']['long_month'][2] = 'Februar';
-$lang['mini_cal']['long_month'][3] = 'März';
+$lang['mini_cal']['long_month'][3] = 'MÃ¤rz';
 $lang['mini_cal']['long_month'][4] = 'April';
 $lang['mini_cal']['long_month'][5] = 'Mai';
 $lang['mini_cal']['long_month'][6] = 'Juni';

@@ -35,15 +35,15 @@ $lang = array_merge($lang, array(
 	'Show' => 'Anzeigen',
 	'Download' => 'Download',
 	'Syntax' => 'Syntax',
-	'Select' => 'Auswählen',
+	'Select' => 'AuswÃ¤hlen',
 	'ReviewPost' => 'Beitrag anzeigen',
 	'OffTopic' => 'Off Topic',
-	'OpenNewWindow' => 'Klicke hier um das Bild in einem neuen Fenster zu öffnen',
+	'OpenNewWindow' => 'Klicke hier um das Bild in einem neuen Fenster zu Ã¶ffnen',
 	'C++' => 'C++',
 	'PhpCode' => 'Php',
 
-	'Close_Tags' => 'Tags schließen',
-	'Styles_tip' => 'Tipp: Styles können schnell zum markierten Text hinzugefügt werden.',
+	'Close_Tags' => 'Tags schlieÃŸen',
+	'Styles_tip' => 'Tipp: Styles kÃ¶nnen schnell zum markierten Text hinzugefÃ¼gt werden.',
 
 // Smiley Creator
 	'bbcode_sc_help' => 'Smiley Generator: [schild=1]Text[/schild] Erstellt einen Smiley mit Schild',
@@ -54,13 +54,13 @@ $lang = array_merge($lang, array(
 	'SC_shieldshadow' => 'Schildschatten',
 	'SC_shieldshadow_on' => 'Aktivieren',
 	'SC_shieldshadow_off' => 'Deaktivieren',
-	'SC_smiliechooser' => 'Smiley auswählen',
-	'SC_random_smilie' => 'Zufälliger Smiley',
+	'SC_smiliechooser' => 'Smiley auswÃ¤hlen',
+	'SC_random_smilie' => 'ZufÃ¤lliger Smiley',
 	'SC_default_smilie' => 'Standard Smiley',
 	'SC_create_smilie' => 'Erstellen',
 	'SC_stop_creating' => 'Abbrechen',
 	'SC_error' => 'Hier ist dein Schild - du hast den Text vergessen...',
-	'SC_another_shield' => 'Möchtest du noch einen Smiley erstellen?',
+	'SC_another_shield' => 'MÃ¶chtest du noch einen Smiley erstellen?',
 	'SC_notext_error' => 'Du kannst keine Smilies ohne Text erstellen!',
 
 	'bbcode_b_help' => 'Text in fett: [b]Text[/b] (alt+b)',
@@ -70,11 +70,11 @@ $lang = array_merge($lang, array(
 	'bbcode_c_help' => 'Code anzeigen: [code]Code[/code] (alt+c)',
 	'bbcode_l_help' => 'Liste: [list]Text[/list] (alt+l)',
 	'bbcode_o_help' => 'Geordnete Liste: [list=]Text[/list] (alt+o)',
-	'bbcode_p_help' => 'Bild einfügen: [img]http://URL_des_Bildes[/img] (alt+p)',
-	'bbcode_w_help' => 'URL einfügen: [url]http://URL[/url] oder [url=http://url]URL Text[/url] (alt+w)',
-	'bbcode_a_help' => 'Alle offenen BBCodes schließen',
+	'bbcode_p_help' => 'Bild einfÃ¼gen: [img]http://URL_des_Bildes[/img] (alt+p)',
+	'bbcode_w_help' => 'URL einfÃ¼gen: [url]http://URL[/url] oder [url=http://url]URL Text[/url] (alt+w)',
+	'bbcode_a_help' => 'Alle offenen BBCodes schlieÃŸen',
 	'bbcode_s_help' => 'Schriftfarbe: [color=red]Text[/color] Tipp: Du kannst ebenfalls color=#FF0000 benutzen',
-	'bbcode_f_help' => 'Schriftgröße: [size=x-small]Kleiner Text[/size]',
+	'bbcode_f_help' => 'SchriftgrÃ¶ÃŸe: [size=x-small]Kleiner Text[/size]',
 
 	'Font_color' => 'Schriftfarbe',
 	'color_default' => 'Standard',
@@ -83,14 +83,14 @@ $lang = array_merge($lang, array(
 	'color_orange' => 'Orange',
 	'color_brown' => 'Braun',
 	'color_yellow' => 'Gelb',
-	'color_green' => 'Grün',
+	'color_green' => 'GrÃ¼n',
 	'color_olive' => 'Oliv',
 	'color_cyan' => 'Cyan',
 	'color_blue' => 'Blau',
 	'color_dark_blue' => 'Dunkelblau',
 	'color_indigo' => 'Indigo',
 	'color_violet' => 'Violett',
-	'color_white' => 'Weiß',
+	'color_white' => 'WeiÃŸ',
 	'color_black' => 'Schwarz',
 
 	'color_cadet_blue' => 'Cadet Blau',
@@ -102,27 +102,27 @@ $lang = array_merge($lang, array(
 	'color_gray' => 'Grau',
 	'color_light_blue' => 'Hellblau',
 	'color_light_cyan' => 'Hellzyan',
-	'color_light_green' => 'Hellgrün',
+	'color_light_green' => 'HellgrÃ¼n',
 	'color_light_grey' => 'Hellgrau',
 	'color_light_orange' => 'Hellorange',
 	'color_peach' => 'Gelb-Orange',
 	'color_power_orange' => 'Power Orange',
-	'color_sea_green' => 'Seegrün',
+	'color_sea_green' => 'SeegrÃ¼n',
 	'color_silver' => 'Silber',
 	'color_tomato' => 'Tomatenrot',
-	'color_turquoise' => 'Türkis',
+	'color_turquoise' => 'TÃ¼rkis',
 	'color_chocolate' => 'Schokolade',
 	'color_deepskyblue' => 'Dunkel-Himmelblau',
 	'color_midnightblue' => 'Mitternachtsblau',
-	'color_darkgreen' => 'Dunkelgrün',
+	'color_darkgreen' => 'DunkelgrÃ¼n',
 
-	'Font_size' => 'Schriftgröße',
+	'Font_size' => 'SchriftgrÃ¶ÃŸe',
 	'font_tiny' => 'Winzig',
 	'font_small' => 'Klein',
 	'font_medium' => 'Mittel',
 	'font_normal' => 'Normal',
-	'font_large' => 'etwas Größer',
-	'font_huge' => 'Groß',
+	'font_large' => 'etwas GrÃ¶ÃŸer',
+	'font_huge' => 'GroÃŸ',
 	'font_xl' => 'Riesig',
 
 // Font Type
@@ -190,15 +190,15 @@ $lang = array_merge($lang, array(
 	'bbcb_mg_spoiler' => 'Spoiler',
 	'bbcb_mg_cell' => 'Zelle',
 	'bbcb_mg_grad' => 'Farbverlauf',
-	'bbcb_mg_upload_img' => 'Bild zu PostImage.org hochladen und zum Beitrag hinzufügen',
-	'bbcb_mg_posticyimage' => 'Bild Hochladen und zum Text hinzufügen',
+	'bbcb_mg_upload_img' => 'Bild zu PostImage.org hochladen und zum Beitrag hinzufÃ¼gen',
+	'bbcb_mg_posticyimage' => 'Bild Hochladen und zum Text hinzufÃ¼gen',
 	'bbcb_mg_albumimgl' => 'Foto-Galeriebild links',
 	'bbcb_mg_albumimgr' => 'Foto-Galeriebild rechts',
 	'bbcode_help' => 'BBCode Hilfe',
 
 	'xs_bbc_hide_message' => 'Versteckte Nachricht',
 	'xs_bbc_hide_quote_message' => 'Zitierte versteckte Nachricht ist noch verdeckt.',
-	'xs_bbc_hide_message_explain' => 'Um diese Nachricht lesen zu können, mußt du registriert sein und eine Antwort geschrieben haben.',
+	'xs_bbc_hide_message_explain' => 'Um diese Nachricht lesen zu kÃ¶nnen, muÃŸt du registriert sein und eine Antwort geschrieben haben.',
 
 	'bbcode_url' => 'URL eingeben (z.B. http://www.icyphoenix.de)',
 	'bbcode_url_title' => 'Titel des Links eingeben',
@@ -213,7 +213,7 @@ $js_lang = array();
 
 $js_lang['s_formerrors'] = 'Du must etwas Text eingeben, bevor du den Beitrag absenden kannst.';
 $js_lang['s_gen_error'] = ':: Fehler ::\n\n';
-$js_lang['s_url_insert'] = 'URL einfügen (z.B. http://www.icyphoenix.de/)';
+$js_lang['s_url_insert'] = 'URL einfÃ¼gen (z.B. http://www.icyphoenix.de/)';
 $js_lang['s_url_insert_tip'] = 'http://';
 $js_lang['s_url_error'] = 'Du hast keine URL eingegeben';
 $js_lang['s_url_title_insert'] = 'Titel des Links eingeben (was im Beitrag anzuklicken ist)';
@@ -232,28 +232,28 @@ $js_lang['s_stream_insert'] = 'Gib die Audiodatei URL ein';
 $js_lang['s_video_insert'] = 'Gib die Videodatei URL ein';
 $js_lang['s_video_w_insert'] = 'Bitte gib die Videobreite ein';
 $js_lang['s_video_w_error'] = 'Du hast keine Videobreite eingegeben.';
-$js_lang['s_video_h_insert'] = 'Bitte gib die Videohöhe ein';
-$js_lang['s_video_h_error'] = 'Du hast keine Videohöhe eingegeben.';
+$js_lang['s_video_h_insert'] = 'Bitte gib die VideohÃ¶he ein';
+$js_lang['s_video_h_error'] = 'Du hast keine VideohÃ¶he eingegeben.';
 $js_lang['s_googlevideo_insert'] = 'Bitte Google Video Datei ID eingeben';
 $js_lang['s_youtube_insert'] = 'Bitte YouTube Datei ID eingeben';
 $js_lang['s_emff_insert'] = 'Bitte mp3 Datei URL eingeben';
 $js_lang['s_flash_insert'] = 'Gib die Flash-Datei URL ein';
 $js_lang['s_flash_w_insert'] = 'Bitte gib die Flashbreite ein';
 $js_lang['s_flash_w_error'] = 'Du hast keine Flashbreite eingegeben.';
-$js_lang['s_flash_h_insert'] = 'Bitte gib die Flashhöhe ein';
-$js_lang['s_flash_h_error'] = 'Du hast keine Flashhöhe eingegeben.';
+$js_lang['s_flash_h_insert'] = 'Bitte gib die FlashhÃ¶he ein';
+$js_lang['s_flash_h_error'] = 'Du hast keine FlashhÃ¶he eingegeben.';
 $js_lang['s_id_insert_tip'] = 'ID';
 $js_lang['s_id_insert_error'] = 'Du hast keine ID angegeben';
 $js_lang['s_file_insert_error'] = 'Du hast keine Datei-URL eingegeben.';
-$js_lang['s_grad_select'] = 'Wähle zuerst den Text aus';
+$js_lang['s_grad_select'] = 'WÃ¤hle zuerst den Text aus';
 $js_lang['s_grad_error'] = 'Funktioniert nur mit weniger als 120 Zeichen';
 $js_lang['s_grad_path'] = 'includes/grad.htm';
 $js_lang['s_view_more_code'] = 'Zeige mehr Code';
-$js_lang['s_image_upload'] = 'Bild zu PostImage.org hochladen und zur Nachricht hinzufügen';
-$js_lang['s_posticyimage'] = 'Bild hochladen und zur Nachricht hinzufügen';
+$js_lang['s_image_upload'] = 'Bild zu PostImage.org hochladen und zur Nachricht hinzufÃ¼gen';
+$js_lang['s_posticyimage'] = 'Bild hochladen und zur Nachricht hinzufÃ¼gen';
 
 // Helpline messages
-$js_lang['s_a_help'] = 'Alle offenen BBCodes schließen';
+$js_lang['s_a_help'] = 'Alle offenen BBCodes schlieÃŸen';
 $js_lang['s_b_help'] = 'Text in fett: [b]Text[/b]';
 $js_lang['s_i_help'] = 'Text in kursiv: [i]Text[/i]';
 $js_lang['s_u_help'] = 'Unterstrichener Text: [u]Text[/u]';
@@ -262,20 +262,20 @@ $js_lang['s_quote_help'] = 'Zitat: [quote]Text[/quote]';
 $js_lang['s_code_help'] = 'Code anzeigen: [code]Code[/code]';
 $js_lang['s_phpbbmod_help'] = 'phpBB Mod Template';
 $js_lang['s_highlight_help'] = 'Hervorheben: [highlight=#FFFFAA]Text[/highlight]';
-$js_lang['s_img_help'] = 'Bild einfügen: [img]http://URL_des_Bildes[/img]';
-$js_lang['s_imgl_help'] = 'Links ausgerichtetes Bild einfügen: [img align=left]http://image_url[/img]';
-$js_lang['s_imgr_help'] = 'Rechts ausgerichtetes Bild einfügen: [img align=right]http://image_url[/img]';
-$js_lang['s_albumimg_help'] = 'Foto-Galeriebild einfügen: [albumimg]Foto-Galerie Bild ID[/albumimg]';
-$js_lang['s_albumimgl_help'] = 'Links ausgerichtetes Foto-Galerie Bild einfügen: [albumimg align=left]Foto-Galerie Bild ID[/albumimg]';
-$js_lang['s_albumimgr_help'] = 'Rechts ausgerichtetes Foto-Galerie Bild einfügen: [albumimg align=right]Foto-Galerie Bild ID[/albumimg]';
-$js_lang['s_url_help'] = 'URL einfügen: [url]http://URL[/url] oder [url=http://url]URL Text[/url]';
+$js_lang['s_img_help'] = 'Bild einfÃ¼gen: [img]http://URL_des_Bildes[/img]';
+$js_lang['s_imgl_help'] = 'Links ausgerichtetes Bild einfÃ¼gen: [img align=left]http://image_url[/img]';
+$js_lang['s_imgr_help'] = 'Rechts ausgerichtetes Bild einfÃ¼gen: [img align=right]http://image_url[/img]';
+$js_lang['s_albumimg_help'] = 'Foto-Galeriebild einfÃ¼gen: [albumimg]Foto-Galerie Bild ID[/albumimg]';
+$js_lang['s_albumimgl_help'] = 'Links ausgerichtetes Foto-Galerie Bild einfÃ¼gen: [albumimg align=left]Foto-Galerie Bild ID[/albumimg]';
+$js_lang['s_albumimgr_help'] = 'Rechts ausgerichtetes Foto-Galerie Bild einfÃ¼gen: [albumimg align=right]Foto-Galerie Bild ID[/albumimg]';
+$js_lang['s_url_help'] = 'URL einfÃ¼gen: [url]http://URL[/url] oder [url=http://url]URL Text[/url]';
 $js_lang['s_fc_help'] = 'Schriftfarbe: [color=red]Text[/color] (Du kannst ebenfalls color=#FF0000 benutzen)';
-$js_lang['s_fs_help'] = 'Schriftgröße: [size=x-small]Kleiner Text[/size]';
+$js_lang['s_fs_help'] = 'SchriftgrÃ¶ÃŸe: [size=x-small]Kleiner Text[/size]';
 $js_lang['s_ft_help'] = 'Schriftart: [font=Andalus]Text[/font]';
-$js_lang['s_table_help'] = 'Tabelle einfügen: [table]Text[/table]';
-$js_lang['s_td_help'] = 'Tabellenspalte einfügen: [td]Text[/td]';
-$js_lang['s_mail_help'] = 'E-Mail einfügen: [email]E-Mail hier[/email]';
-$js_lang['s_grad_help'] = 'Gradient-Text einfügen';
+$js_lang['s_table_help'] = 'Tabelle einfÃ¼gen: [table]Text[/table]';
+$js_lang['s_td_help'] = 'Tabellenspalte einfÃ¼gen: [td]Text[/td]';
+$js_lang['s_mail_help'] = 'E-Mail einfÃ¼gen: [email]E-Mail hier[/email]';
+$js_lang['s_grad_help'] = 'Gradient-Text einfÃ¼gen';
 $js_lang['s_right_help'] = 'Text rechts ausrichten: [align=right]Text[/align]';
 $js_lang['s_left_help'] = 'Text links ausrichten: [align=left]Text[/align]';
 $js_lang['s_center_help'] = 'Text zentriert ausrichten: [align=center]Text[/align]';
@@ -286,25 +286,25 @@ $js_lang['s_marqu_help'] = 'Laufschrift nach Oben: [marq=up]Text[/marq]';
 $js_lang['s_marqd_help'] = 'Laufschrift nach Unten: [marq=down]Text[/marq]';
 $js_lang['s_sup_help'] = 'Hochgestellt: [sup]Text[/sup]';
 $js_lang['s_sub_help'] = 'Tiefgestellt: [sub]Text[/sub]';
-$js_lang['s_hr_help'] = 'Horizontale Linie einfügen [hr]';
-$js_lang['s_bullet_help'] = 'Listenpunkt einfügen [*]';
-$js_lang['s_video_help'] = 'Videodatei einfügen: [video width=# height=#]file URL[/video]';
-$js_lang['s_googlevideo_help'] = 'Google Video-Datei einfügen: [googlevideo]Google Video ID[/googlevideo]';
-$js_lang['s_youtube_help'] = 'YouTube Datei einfügen: [youtube]YouTube ID[/youtube]';
-$js_lang['s_quick_help'] = 'Quicktime Video-Datei einfügen: [quick]http://quicktime_video_url/[/quick]';
-$js_lang['s_flash_help'] = 'Flash_Datei einfügen: [flash width=# height=#]flash URL[/flash]';
-$js_lang['s_ram_help'] = 'Real Media Datei einfügen: [ram]File URL[/ram]';
-$js_lang['s_stream_help'] = 'Streamdatei einfügen: [stream]File URL[/stream]';
-$js_lang['s_emff_help'] = 'mp3 Datei einfügen: [emff]File URL[/emff]';
+$js_lang['s_hr_help'] = 'Horizontale Linie einfÃ¼gen [hr]';
+$js_lang['s_bullet_help'] = 'Listenpunkt einfÃ¼gen [*]';
+$js_lang['s_video_help'] = 'Videodatei einfÃ¼gen: [video width=# height=#]file URL[/video]';
+$js_lang['s_googlevideo_help'] = 'Google Video-Datei einfÃ¼gen: [googlevideo]Google Video ID[/googlevideo]';
+$js_lang['s_youtube_help'] = 'YouTube Datei einfÃ¼gen: [youtube]YouTube ID[/youtube]';
+$js_lang['s_quick_help'] = 'Quicktime Video-Datei einfÃ¼gen: [quick]http://quicktime_video_url/[/quick]';
+$js_lang['s_flash_help'] = 'Flash_Datei einfÃ¼gen: [flash width=# height=#]flash URL[/flash]';
+$js_lang['s_ram_help'] = 'Real Media Datei einfÃ¼gen: [ram]File URL[/ram]';
+$js_lang['s_stream_help'] = 'Streamdatei einfÃ¼gen: [stream]File URL[/stream]';
+$js_lang['s_emff_help'] = 'mp3 Datei einfÃ¼gen: [emff]File URL[/emff]';
 $js_lang['s_fade_help'] = 'Fade: [fade]Text[/fade] oder [fade][img]http://bild_url/[/img][/fade]';
 $js_lang['s_spoiler_help'] = 'Spoiler: [spoiler]Text[/spoiler]';
 $js_lang['s_cell_help'] = 'Zelle: [cell]Text[/cell]';
-$js_lang['s_list_help'] = 'Sortierte Liste: [list|=1|a]Text[/list] (Verwende [*] um einen Listenpunkt einzufügen)';
-$js_lang['s_listo_help'] = 'Nummerierte Liste: [list=1|a]Text[/list] (Verwende [*] um einen Listenpunkt hinzuzufügen)';
+$js_lang['s_list_help'] = 'Sortierte Liste: [list|=1|a]Text[/list] (Verwende [*] um einen Listenpunkt einzufÃ¼gen)';
+$js_lang['s_listo_help'] = 'Nummerierte Liste: [list=1|a]Text[/list] (Tipp: Du kannst [*] verwenden, um einen Listenpunkt hinzuzufÃ¼gen)';
 $js_lang['s_help_help'] = 'BBCode Hilfe aufrufen';
-$js_lang['s_image_upload_help'] = 'Bild zu PostImage.org hochladen und zur Nachricht hinzufügen';
-$js_lang['s_posticyimage_help'] = 'Bild hochladen und zur Nachricht hinzufügen';
-$js_lang['s_smiley_creator'] = 'Smiley Creator: [smiley=1]Text[/smiley] neuen Smiley mit Schild hinzufügen';
+$js_lang['s_image_upload_help'] = 'Bild zu PostImage.org hochladen und zur Nachricht hinzufÃ¼gen';
+$js_lang['s_posticyimage_help'] = 'Bild hochladen und zur Nachricht hinzufÃ¼gen';
+$js_lang['s_smiley_creator'] = 'Smiley Creator: [smiley=1]Text[/smiley] neuen Smiley mit Schild hinzufÃ¼gen';
 
 // Please do not remove this!!!
 foreach ($js_lang as $k => $v)

@@ -39,10 +39,10 @@ $lang = array_merge($lang, array(
 	'BBUS_ColHeader_Header' => 'Titel',
 	'BBUS_ColHeader_Description' => 'Beschreibung',
 
-	'BBUS_ColHeader_Posts_Explain' => 'Gesamtzahl aller Beiträge.',
-	'BBUS_ColHeader_PostRate_Explain' => 'Durchschnittliche Anzahl von Beiträgen pro Tag.',
-	'BBUS_ColHeader_PctUTP_Explain' => 'Prozentzahl der gesamten Beiträge des Benutzers.',
-	'BBUS_ColHeader_PctUTUP_Explain' => 'Prozentzahl der gelöschten Beiträge des Benutzers.',
+	'BBUS_ColHeader_Posts_Explain' => 'Gesamtzahl aller BeitrÃ¤ge.',
+	'BBUS_ColHeader_PostRate_Explain' => 'Durchschnittliche Anzahl von BeitrÃ¤gen pro Tag.',
+	'BBUS_ColHeader_PctUTP_Explain' => 'Prozentzahl der gesamten BeitrÃ¤ge des Benutzers.',
+	'BBUS_ColHeader_PctUTUP_Explain' => 'Prozentzahl der gelÃ¶schten BeitrÃ¤ge des Benutzers.',
 	'BBUS_ColHeader_NewTopics_Explain' => 'Gesamtzahl der neuen Themen pro Benutzer.',
 	'BBUS_ColHeader_TopicRate_Explain' => 'Durchschnittliche Anzahl neuer Themen pro Benutzer.',
 	'BBUS_ColHeader_Topics_Watched_Explain' => 'Gesamtzahl der beobachteten Themen.',
@@ -50,19 +50,19 @@ $lang = array_merge($lang, array(
 	'BBUS_Col_Descriptions_Caption' => 'Spalten Beschreibung',
 
 	'BBUS_Msg_NoPosts' => 'Benutzer hat in keinem Forum geschrieben.',
-	'BBUS_Unpruned_Posts' => 'Alle bisherigen Beiträge wurden gelöscht.',
+	'BBUS_Unpruned_Posts' => 'Alle bisherigen BeitrÃ¤ge wurden gelÃ¶scht.',
 	'BBUS_Scale_By' => 'Skalierung:',
 
 // Admin Configuration page
 	'BBUS_Settings_Caption' => 'Forum Verwendungs-Statistiken Einstellungen',
-	'BBUS_Settings_Explain' => 'Diese Einstellungen erlauben Dir einzustellen, welche Benutzer berechtigt sind die Forum Verwendungs-Statistiken auf einer Benutzer-Profil-Seite anzusehen und verschiedene Optionen (verbunden mit den auf dieser Seite präsentierten Daten) zu konfigurieren. ',
+	'BBUS_Settings_Explain' => 'Diese Einstellungen erlauben Dir einzustellen, welche Benutzer berechtigt sind die Forum Verwendungs-Statistiken auf einer Benutzer-Profil-Seite anzusehen und verschiedene Optionen (verbunden mit den auf dieser Seite prÃ¤sentierten Daten) zu konfigurieren. ',
 
 	'BBUS_Setting_ViewLevel_Caption' => 'Ansichts-Level',
 	'BBUS_Setting_ViewLevel_Note' => '<i>Beachte</i>: Diese Textbox kann nur gelesen werden (read-only).<br />Benutze die Checkboxen um den Wert zu anzupassen.',
 
-	'BBUS_Setting_ViewLevel_Explain1' => 'Die Ansichts-Level Einstellung ist eine Summe von einem oder mehr Flags welche festlegt ob ein Benutzer die Forum Verwendungs-Stats auf der Benutzerprofil-Seite sehen kann.<br /><b>Nutze die Checkboxen unten um die Ansicht der Stats für bestimmte Benutzergruppen zu aktivieren oder deaktivieren.</b><br /><br />Die Ansichts-Level Zugriffs Flags werden wie folgt bestimmt:<br />',
+	'BBUS_Setting_ViewLevel_Explain1' => 'Die Ansichts-Level Einstellung ist eine Summe von einem oder mehr Flags welche festlegt ob ein Benutzer die Forum Verwendungs-Stats auf der Benutzerprofil-Seite sehen kann.<br /><b>Nutze die Checkboxen unten um die Ansicht der Stats fÃ¼r bestimmte Benutzergruppen zu aktivieren oder deaktivieren.</b><br /><br />Die Ansichts-Level Zugriffs Flags werden wie folgt bestimmt:<br />',
 
-	'BBUS_Setting_ViewLevel_Explain2' => 'Die häufigste Einstellung für Foren ist 24 (16 + 8). Diese erlaubt Administratoren und Moderatoren, die Forum Verwendungs-Statistiken zu überwachen, während alle anderen Benutzer nur die Standard Benutzerprofilseite angezeigt bekommen.<br /><br /> Es wird empfohlen, dass du die Ansicht der Statistik (besonders für gro&szlig;e Foren) einschränkst, um Leistungsverminderung zu vermeiden, die aus der Erzeugung von Statistiken für viele Benutzer gleichzeitig entstehen können.',
+	'BBUS_Setting_ViewLevel_Explain2' => 'Die hÃ¤ufigste Einstellung fÃ¼r Foren ist 24 (16 + 8). Diese erlaubt Administratoren und Moderatoren, die Forum Verwendungs-Statistiken zu Ã¼berwachen, wÃ¤hrend alle anderen Benutzer nur die Standard Benutzerprofilseite angezeigt bekommen.<br /><br /> Es wird empfohlen, dass du die Ansicht der Statistik (besonders fÃ¼r gro&szlig;e Foren) einschrÃ¤nkst, um Leistungsverminderung zu vermeiden, die aus der Erzeugung von Statistiken fÃ¼r viele Benutzer gleichzeitig entstehen kÃ¶nnen.',
 
 	'BBUS_Setting_ViewOptions_Caption' => 'Ansichts-Optionen',
 	'BBUS_Setting_ViewOptions_Note' => '<i>Beachte</i>: Diese Textbox kann nur gelesen werden (read-only).<br />Benutze die Checkboxen um diesen Wert zu anzupassen.',
@@ -70,10 +70,10 @@ $lang = array_merge($lang, array(
 	'BBUS_Setting_ViewOptions_Explain2' => 'Reduziere die Anzahl, um die Serverlast zu reduzieren.',
 
 	'BBUS_Settings_Default_Post_Rate_Scaling_Caption' => 'vorgegebener Beitrags-Skalierungs-Faktor',
-	'BBUS_Settings_Default_Post_Rate_Scaling_Explain' => 'Gib hier, für die Beitrags Rate, den entsprechenden Skalierungs-Faktor an.',
+	'BBUS_Settings_Default_Post_Rate_Scaling_Explain' => 'Gib hier, fÃ¼r die Beitrags Rate, den entsprechenden Skalierungs-Faktor an.',
 
 	'BBUS_Settings_Default_Topic_Rate_Scaling_Caption' => 'vorgegebener Themen-Skalierungs-Faktor',
-	'BBUS_Settings_Default_Topic_Rate_Scaling_Explain' => 'Gib hier, für die Themen Rate, den entsprechenden Skalierungs-Faktor an.',
+	'BBUS_Settings_Default_Topic_Rate_Scaling_Explain' => 'Gib hier, fÃ¼r die Themen Rate, den entsprechenden Skalierungs-Faktor an.',
 
 	'BBUS_ViewLevel_Anonymous_Caption' => 'G&auml;ste',
 	'BBUS_ViewLevel_Self_Caption' => 'Selbst',
@@ -87,12 +87,12 @@ $lang = array_merge($lang, array(
 	'BBUS_ViewLevel_Users_Explain' => 'Erlaube jedem Benutzer die Ansicht der Stats anderer Benutzer.',
 	'BBUS_ViewLevel_Moderators_Explain' => 'Erlaube Moderatoren die Ansicht der Stats.',
 	'BBUS_ViewLevel_Admins_Explain' => 'Erlaube Administratoren die Ansicht der Stats. (Empfohlen)',
-	'BBUS_ViewLevel_SpecialGrp_Explain' => 'Erlaube einer speziell ausgewählten Gruppe die Ansicht der Stats.',
+	'BBUS_ViewLevel_SpecialGrp_Explain' => 'Erlaube einer speziell ausgewÃ¤hlten Gruppe die Ansicht der Stats.',
 
 	'BBUS_ViewOption_Show_All_Forums_Caption' => 'Zeige alle Foren, unabh&auml;ngig des Benutzer Beitragsz&auml;hlers.',
 	'BBUS_ViewOption_PCTUTUP_Column_Visible_Caption' => 'Zeige %UTUP Spalte in Stats Tabelle',
 	'BBUS_ViewOption_Misc_Section_Visible_Caption' => 'Zeige Verschiedene Info Abschnitt',
-	'BBUS_ViewOption_Misc_TotPrunedPosts_Visible_Caption' => 'Zeige "Alle ungelöschten Beitr&auml;ge" in verschiedenen Abschnitten',
+	'BBUS_ViewOption_Misc_TotPrunedPosts_Visible_Caption' => 'Zeige "Alle ungelÃ¶schten Beitr&auml;ge" in verschiedenen Abschnitten',
 	'BBUS_ViewOption_Viewer_Scalable_PR_Caption' => 'Beitrags-Skalierungs-Faktor anzeigen',
 	'BBUS_ViewOption_Viewer_Scalable_TR_Caption' => 'Themen-Skalierungs-Faktor anzeigen',
 
@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'BBUS_ViewOption_Viewer_Scalable_TR_Explain' => '',
 
 	'BBUS_Setting_SpecialGrp_Caption' => 'Spezial Zugriffs Gruppe',
-	'BBUS_Setting_SpecialGrp_Explain' => 'Wähle hier die spezielle Gruppe aus, die die Forum Verwendungs-Statistiken ansehen darf.  <i>Hinweis</i>: Diese Einstellung ist nur wirkungsvoll, wenn einer \' Spezial Gruppe \' (unter Ansichts-Level Einstellung) die Ansicht per "Hacken" erlaubt wurde.',
+	'BBUS_Setting_SpecialGrp_Explain' => 'WÃ¤hle hier die spezielle Gruppe aus, die die Forum Verwendungs-Statistiken ansehen darf.  <i>Hinweis</i>: Diese Einstellung ist nur wirkungsvoll, wenn einer \' Spezial Gruppe \' (unter Ansichts-Level Einstellung) die Ansicht per "Hacken" erlaubt wurde.',
 	)
 );
 

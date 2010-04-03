@@ -26,10 +26,13 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'10_Main_Settings_Icy_Phoenix' => 'Icy Phoenix',
+	'05_Server_Settings' => 'Server',
+	'10_Site_Settings' => 'Standard-Einstellungen',
+	'15_Various_Settings' => 'Diverse Einstellungen',
 	'20_SQL_Charge' => 'SQL Optimierung',
-	'30_Posting' => 'Beiträge und Mitteilungen',
-	'40_IMG_Posting' => 'Bilder in Beiträgen',
+	'25_Users' => 'Benutzer',
+	'30_Posting' => 'BeitrÃ¤ge und Mitteilungen',
+	'40_IMG_Posting' => 'Bilder in BeitrÃ¤gen',
 	'50_Hierarchy_setting' => 'Forum',
 	'60_Calendar_settings' => 'Kalender',
 	'70_SEO' => 'SEO',
@@ -45,8 +48,8 @@ if ($lang_extend_admin)
 		'Lang_extend_icy_phoenix' => 'Icy Phoenix',
 
 // TAB - Icy Phoenix
-		'IP_enable_xs_version_check' => 'Aktiviere Icy Phoenix Versions Überprüfung',
-		'IP_enable_xs_version_check_explain' => 'Bei Aktivierung dieser Option wird bei jedem ACP Besuch überprüft ob eine neuere Icy Phoenix Version zum Download verfügbar ist. Die Deaktivierung dieser Option kann das Laden des ACPs etwas erhöhen. Wie auch immer, beachte das diese Überprüfung nur einmal am Tag stattfindet und dann im Cache abgelegt wird.',
+		'IP_enable_xs_version_check' => 'Aktiviere Icy Phoenix Versions ÃœberprÃ¼fung',
+		'IP_enable_xs_version_check_explain' => 'Bei Aktivierung dieser Option wird bei jedem ACP Besuch Ã¼berprÃ¼ft ob eine neuere Icy Phoenix Version zum Download verfÃ¼gbar ist. Die Deaktivierung dieser Option kann das Laden des ACPs etwas erhÃ¶hen. Wie auch immer, beachte das diese ÃœberprÃ¼fung nur einmal am Tag stattfindet und dann im Cache abgelegt wird.',
 
 		'IP_disable_email_error' => 'Deaktiviere Fehlermeldungen beim E-Mail versenden',
 
@@ -56,33 +59,35 @@ if ($lang_extend_admin)
 		'IP_enable_digests' => 'Aktiviere Digests',
 
 		'IP_digests_php_cron' => 'Aktiviere Digest PHP Cron',
-		'IP_digests_php_cron_explain' => 'Diese Eigenschaft ermöglicht einer PHP-Emulation des CRON, dieses versucht die E-Mails einmal pro Stunde zu senden. Da es auf einer PHP-Emulation basiert, kann es möglicherweise nicht jedesmal richtig durchgeführt werden. Dies heißt, dass manchmal E-Mails möglicherweise nicht gesendet werden können. Wenn du CRON auf deinem Server ermöglichen kannst, dann verwende diese Möglichkeit stattdessen. Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Cron</b>',
+		'IP_digests_php_cron_explain' => 'Diese Eigenschaft ermÃ¶glicht einer PHP-Emulation des CRON, dieses versucht die E-Mails einmal pro Stunde zu senden. Da es auf einer PHP-Emulation basiert, kann es mÃ¶glicherweise nicht jedesmal richtig durchgefÃ¼hrt werden. Dies heiÃŸt, dass manchmal E-Mails mÃ¶glicherweise nicht gesendet werden kÃ¶nnen. Wenn du CRON auf deinem Server ermÃ¶glichen kannst, dann verwende diese MÃ¶glichkeit stattdessen. Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Cron</b>',
 
 		'IP_emails_only_to_admins' => 'E-Mails nur zu Admins',
 		'IP_emails_only_to_admins_explain' => 'Erlaube dem E-Mail System nur E-Mails an Admins zu senden',
+		
+		'IP_ajax_features_title' => 'AJAX Funktionen',
 
 		'IP_ajax_features' => 'Aktiviere AJAX Funktionen',
 		'IP_ajax_features_explain' => 'Einige AJAX Funktionen in die Seite integrieren',
 
-		'IP_ajax_checks_register' => 'AJAX Überprüfung während der Registrierung',
-		'IP_ajax_checks_register_explain' => 'Bei Aktivierung dieser Option, werden einige Echtzeitüberprüfungen ausgeführt, wenn einige Felder auf der Registrierungs-Seite ausgefüllt werden (Achtung: Diese Option kann die Registrierungs-Seite etwas verlangsamen).',
+		'IP_ajax_checks_register' => 'AJAX ÃœberprÃ¼fung wÃ¤hrend der Registrierung',
+		'IP_ajax_checks_register_explain' => 'Bei Aktivierung dieser Option, werden einige EchtzeitÃ¼berprÃ¼fungen ausgefÃ¼hrt, wenn einige Felder auf der Registrierungs-Seite ausgefÃ¼llt werden (Achtung: Diese Option kann die Registrierungs-Seite etwas verlangsamen).',
 
-		'IP_inactive_users_memberlists' => 'Inaktive Benutzer in der Mitgliederliste und Geburtstags-Block',
-		'IP_inactive_users_memberlists_explain' => 'Bei Aktivierung dieser Option, werden inaktive Benutzer in der Mitgliederliste und Geburtstags-Block angezeigt.',
+		'IP_inactive_users_memberlists' => 'Inaktive Benutzer in der Mitgliederliste und Geburtstags\' Block',
+		'IP_inactive_users_memberlists_explain' => 'Bei Aktivierung dieser Option, werden inaktive Benutzer in der Mitgliederliste und Geburtstags\' Block angezeigt.',
 
 		'IP_page_gen' => 'Zeige Seiten Generierungs Zeit im Footer',
 
 		'IP_switch_header_dropdown' => 'Aktiviere Dropdown Menu im Header',
-		'IP_switch_header_dropdown_explain' => 'Dies aktiviert ein Dropdown Menu im Header für die Suche und für die Beiträge',
+		'IP_switch_header_dropdown_explain' => 'Dies aktiviert ein Dropdown Menu im Header fÃ¼r die Suche und fÃ¼r die BeitrÃ¤ge',
 
 		'IP_show_alpha_bar' => 'Zeige alphabetische Sortierleiste in der Forum-Ansicht',
-		'IP_show_alpha_bar_explain' => 'Diese Option zeigt in der Forum-Ansicht (viewforum.php) eine Leiste, um die Themen alphabetisch sortieren lassen zu können.',
+		'IP_show_alpha_bar_explain' => 'Diese Option zeigt in der Forum-Ansicht (viewforum.php) eine Leiste, um die Themen alphabetisch sortieren lassen zu kÃ¶nnen.',
 
 		'IP_show_rss_forum_icon' => 'Forum Index Icons',
 		'IP_show_rss_forum_icon_explain' => 'Diese Option zeigt Icons rechts von jedem Forumtitel an (im Forum Index): RSS, New Topic...',
 
 		'IP_allow_mods_view_self' => 'Erlaube allen Moderatoren die SELF AUTH Themen anzuzeigen',
-		'IP_allow_mods_view_self_explain' => 'Wenn ein Forum auf SELF AUTH Zugriff gesetzt wurde, können nur Administratoren und Moderatoren die entsprechenden Foren betreten. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow not authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks... Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
+		'IP_allow_mods_view_self_explain' => 'Wenn ein Forum auf SELF AUTH Zugriff gesetzt wurde, kÃ¶nnen nur Administratoren und Moderatoren die entsprechenden Foren betreten. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow not authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks... Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
 
 		'IP_xmas_fx' => 'Weihnachts Schnee',
 		'IP_xmas_fx_explain' => 'Diese Option aktiviert den Schneefall Effekt.',
@@ -91,10 +96,10 @@ if ($lang_extend_admin)
 		'IP_xmas_gfx_explain' => 'Bei Aktivierung dieser Option werden Weihnachtsgrafiken angezeigt.',
 
 		'IP_select_theme' => 'Style Wechsel',
-		'IP_select_theme_explain' => 'Bei Aktivierung dieser Option, wird eine Auswahl Box zum schnellen wechseln aller verfügbaren Styles angezeigt.',
+		'IP_select_theme_explain' => 'Bei Aktivierung dieser Option, wird eine Auswahl Box zum schnellen wechseln aller verfÃ¼gbaren Styles angezeigt.',
 
 		'IP_select_lang' => 'Sprach Wechsel',
-		'IP_select_lang_explain' => 'Bei Aktivierung dieser Option, wird eine Auswahl Box zum schnellen wechseln aller verfügbaren Sprachen angezeigt.',
+		'IP_select_lang_explain' => 'Bei Aktivierung dieser Option, wird eine Auswahl Box zum schnellen wechseln aller verfÃ¼gbaren Sprachen angezeigt.',
 
 		'IP_cms_dock' => 'Zeige Apple Style Dock im CMS',
 
@@ -102,15 +107,15 @@ if ($lang_extend_admin)
 		'IP_cms_style_explain' => 'Bei Aktivierung dieser Option, werden die AJAX Funktionen im CMS aktiviert',
 
 		'IP_split_ga_ann_sticky' => 'Spaltet Themen nach Typ auf',
-		'IP_split_ga_ann_sticky_explain' => 'Hier kannst du eine Variante auswählen um Themen in der Forum-Ansicht (viewforum.php) entsprechend aufzuteilen',
+		'IP_split_ga_ann_sticky_explain' => 'Hier kannst du eine Variante auswÃ¤hlen um Themen in der Forum-Ansicht (viewforum.php) entsprechend aufzuteilen',
 		'IP_split_topic_0' => 'Alle Themen Typen zusammen (kein Split)',
-		'IP_split_topic_1' => 'Globale Ankündigungen, Ankündigungen und Wichtige Themen zusammen, Normale Themen werden abgetrennt',
-		'IP_split_topic_2' => 'Globale Ankündigungen werden abgetrennt, Ankündigungen und Wichtige Themen sind zusammen, Normale Themen abgetrennt',
+		'IP_split_topic_1' => 'Globale AnkÃ¼ndigungen, AnkÃ¼ndigungen und Wichtige Themen zusammen, Normale Themen werden abgetrennt',
+		'IP_split_topic_2' => 'Globale AnkÃ¼ndigungen werden abgetrennt, AnkÃ¼ndigungen und Wichtige Themen sind zusammen, Normale Themen abgetrennt',
 		'IP_split_topic_3' => 'Alle Themen Typen werden abgetrennt dargestellt',
 
 // TAB - SQL Charge
 		'IP_fast_n_furious' => 'Fast And Furious',
-		'IP_fast_n_furious_explain' => 'Bei Aktivierung dieser Option, werden einige große SQL Funktionen abgeschaltet in der Hoffnung das deine Seite dadurch schneller wird!',
+		'IP_fast_n_furious_explain' => 'Bei Aktivierung dieser Option, werden einige groÃŸe SQL Funktionen abgeschaltet in der Hoffnung das deine Seite dadurch schneller wird!',
 
 		/*
 		'IP_db_cron' => 'Datenbank Optimierung',
@@ -118,22 +123,22 @@ if ($lang_extend_admin)
 		*/
 
 		'IP_site_history' => 'Seiten Statistik',
-		'IP_site_history_explain' => 'Bei Aktivierung dieser Option, werden einige zusätzlichen Statistiken in der DB gespeichert (z.B. tägliche Besuche, Beiträge, usw.)',
+		'IP_site_history_explain' => 'Bei Aktivierung dieser Option, werden einige zusÃ¤tzlichen Statistiken in der DB gespeichert (z.B. tÃ¤gliche Besuche, BeitrÃ¤ge, usw.)',
 
 		'IP_global_disable_upi2db' => 'Deaktiviere UPI2DB komplett',
-		'IP_global_disable_upi2db_explain' => 'Mit dieser Option kannst du UPI2DB vollständig abschalten, dadurch sparst du extra Speicherplatz.',
+		'IP_global_disable_upi2db_explain' => 'Mit dieser Option kannst du UPI2DB vollstÃ¤ndig abschalten, dadurch sparst du extra Speicherplatz.',
 
 		'IP_enable_own_icons' => 'Themen-Icon eigener Nachrichten',
-		'IP_enable_own_icons_explain' => 'Aktiviere diese Option und es wird ein anderes Icon für Themen, die eigene Nachrichten enthalten, angezeigt.',
+		'IP_enable_own_icons_explain' => 'Aktiviere diese Option und es wird ein anderes Icon fÃ¼r Themen, die eigene Nachrichten enthalten, angezeigt.',
 
 		'IP_show_forums_online_users' => 'Zeige Online Benutzer im jeweiligen Forum',
-		'IP_show_forums_online_users_explain' => 'Dies aktiviert die Online Benutzer Anzeige für jedes Forum im Index',
+		'IP_show_forums_online_users_explain' => 'Dies aktiviert die Online Benutzer Anzeige fÃ¼r jedes Forum im Index',
 
 		'IP_google_bot_detector' => 'Aktiviere GoogleBot Erkennung',
 
-		'IP_gsearch_guests' => 'Zwingt Gäste zur Google Suche',
+		'IP_gsearch_guests' => 'Zwingt GÃ¤ste zur Google Suche',
 
-		'IP_visit_counter_switch' => 'Aktiviere Besucher Zähler',
+		'IP_visit_counter_switch' => 'Aktiviere Besucher ZÃ¤hler',
 
 		'IP_enable_new_messages_number' => 'Zeige die Anzahl der neuen Nachrichten seit dem letzten Besuch',
 
@@ -165,7 +170,7 @@ if ($lang_extend_admin)
 
 		'IP_last_msgs_n' => 'Anzahl der letzten Nachrichten die angezeigt werden sollen.',
 
-		'IP_last_msgs_x' => 'auszuschließende Foren',
+		'IP_last_msgs_x' => 'auszuschlieÃŸende Foren',
 		'IP_last_msgs_x_explain' => 'Bitte, trage hier die IDs der Foren ein die in der Letzte Nachrichten Box ausgeschlossen werden sollen (Du kannst jede Foren ID mit Komma trennen).',
 
 		'IP_show_chat_online' => 'AJAX Chat Online :: Forum Index',
@@ -190,74 +195,74 @@ if ($lang_extend_admin)
 		'IP_show_random_quote_explain' => 'Bei Aktivierung dieser Option, werden die Zufallszitate im <b>Forum Index</b> angezeigt.',
 
 // TAB - Posting
-		'IP_posts_precompiled' => 'Deaktiviere precompiled Beiträge',
-		'IP_posts_precompiled_explain' => 'Bei Aktivierung dieser Option, kompiliert die viewtopic.php den Beitrags Text, ohne den precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).',
+		'IP_posts_precompiled' => 'Deaktiviere precompiled BeitrÃ¤ge',
+		'IP_posts_precompiled_explain' => 'Bei Aktivierung dieser Option, kompiliert die viewtopic.php den Beitrags Text, ohne den precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen FÃ¤llen nÃ¼tzlich sein).',
 
 		'IP_read_only_forum' => 'Deaktiviere das Schreiben in allen Foren (NUR LESEN Modus)',
 		'IP_read_only_forum_explain' => 'This options allows to lock posting in all forums without having to change permissions. This may be useful for limited periods of time when admins would like to disallow users posting without having to lock the site or change all forum authorizations. Admins will still be able to post.',
 
-		'IP_allow_drafts' => 'Erlaube Entwürfe',
-		'IP_allow_drafts_explain' => 'Erlaubt den Benutzern ihre Beiträge als Entwürfe zu speichern',
+		'IP_allow_drafts' => 'Erlaube EntwÃ¼rfe',
+		'IP_allow_drafts_explain' => 'Erlaubt den Benutzern ihre BeitrÃ¤ge als EntwÃ¼rfe zu speichern',
 
-		'IP_allow_mods_edit_admin_posts' => 'Erlaube Moderatoren die Bearbeitung von Administrator Beiträgen',
-		'IP_allow_mods_edit_admin_posts_explain' => 'Erlaubt Moderatoren die Beiträge von Administratoren zu bearbeiten',
+		'IP_allow_mods_edit_admin_posts' => 'Erlaube Moderatoren die Bearbeitung von Administrator BeitrÃ¤gen',
+		'IP_allow_mods_edit_admin_posts_explain' => 'Erlaubt Moderatoren die BeitrÃ¤ge von Administratoren zu bearbeiten',
 
 		'IP_forum_limit_edit_time_interval' => 'Limit Edit Time Interval (Minutes)',
 		'IP_forum_limit_edit_time_interval_explain' => 'This sets the time interval for users to be allowed to edit own messages. Set to ZERO for no limits (feature should be enabled on a per forum basis in Forums Management)',
 
 		'IP_force_large_caps_mods' => 'Themen-Betreff anpassen',
-		'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepaßt, indem der erste Buchstabe jedes Wortes groß geschrieben wird. (außer für Admins)',
+		'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepaÃŸt, indem der erste Buchstabe jedes Wortes groÃŸ geschrieben wird. (auÃŸer fÃ¼r Admins)',
 
 		'IP_show_new_reply_posting' => 'Vor neuen Antworten-Warn-System',
 		'IP_show_new_reply_posting_explain' => 'Wenn du diese Option aktivierst, wird eine Warnung angezeigt, wenn beim Schreiben einer Antwort zwischenzeitlich ein neuer Eintrag gemacht wurde.',
 
-		'IP_no_bump' => 'Verbiete doppelte Beiträge innerhalb von 24 Stunden',
+		'IP_no_bump' => 'Verbiete doppelte BeitrÃ¤ge innerhalb von 24 Stunden',
 		'IP_no_bump_explain' => 'Bei Aktivierung dieser Option, ist der letzte Poster in einem Thema nicht mehr in der Lage innerhalb von 24 Stunden eine Antwort auf seinen Beitrag zu verfassen. Es sei denn ein anderer Benutzer hat bereits auf seinen Beitrag geantwortet.',
-		'MODS_ALLOWED' => 'Moderatoren können schreiben',
+		'MODS_ALLOWED' => 'Moderatoren kÃ¶nnen schreiben',
 
-		'IP_display_tags_box' => 'TAGS :: Themen-Tags anzeigen',
-		'IP_display_tags_box_explain' => 'Bei Aktivierung dieser Option werden Themen-Tags aktiviert (Tags können zur Indexierung sinnvoll sein): Tags können nur durch Admins eingefügt / bearbeitet werden (oder Moderatoren, wenn du den Switch aktivierst) um Spam zu vermeiden',
+		'IP_display_tags_box' => 'TAGS :: Display Topics Tags',
+		'IP_display_tags_box_explain' => 'Enabling this option will enable Topics Tags (tags could be used for indexing purpose): tags could be inserted / edited only by administrators (or moderators if you enable the switch below) to avoid spam',
 
-		'IP_allow_moderators_edit_tags' => 'TAGS :: Erlaubt Moderatoren Tags zu bearbeiten',
-		'IP_allow_moderators_edit_tags_explain' => 'Bei Aktivierung dieser Option wird es den Moderatoren erlaubt, Themen-Tags zu bearbeiten',
+		'IP_allow_moderators_edit_tags' => 'TAGS :: Allow Moderators To Edit Tags',
+		'IP_allow_moderators_edit_tags_explain' => 'Enabling this option will allow Moderators to edit Topics Tags',
 
-		'IP_show_topic_description' => 'Aktiviere Beschreibung für Themen',
+		'IP_show_topic_description' => 'Aktiviere Beschreibung fÃ¼r Themen',
 		'IP_show_topic_description_explain' => 'Bei Aktivierung dieser Option wird die Themen-Beschreibung beim Schreiben eines neuen Themas und in der Forenansicht angezeigt.',
 
 		'IP_edit_notes' => 'Aktiviere Bearbeitungs Anmerkungen',
 		'IP_edit_notes_explain' => 'Bei Aktivierung dieser Option, werden die Bearbeitungs Anmerkungen aktiviert',
 
-		'IP_edit_notes_n' => 'Maximale Bearbeitungs Anmerkungen',
+		'IP_edit_notes_n' => 'maximale Bearbeitungs Anmerkungen',
 
-		'IP_always_show_edit_by' => 'Zeige in Einträgen "Zuletzt bearbeitet von"',
-		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Beiträgen "Zuletzt bearbeitet von..." in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
+		'IP_always_show_edit_by' => 'Zeige in EintrÃ¤gen editiert von',
+		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in EintrÃ¤gen  "Zuletzt editiert von..." in geÃ¤nderten Nachrichten angezeigt. Ã„nderungen von Admins werden weiterhin nicht angezeigt.',
 
-		'IP_show_social_bookmarks' => 'Öffentliche Lesezeichen',
-		'IP_show_social_bookmarks_explain' => 'Zeige Öffentliche Lesezeichen bei den Themen',
+		'IP_show_social_bookmarks' => 'Ã–ffentliche Lesezeichen',
+		'IP_show_social_bookmarks_explain' => 'Zeige Ã–ffentliche Lesezeichen bei den Themen',
 
 		'IP_link_this_topic' => 'Verlinke dieses Thema',
 		'IP_link_this_topic_explain' => 'Zeigt die "Verlinke dieses Thema" Box beim Lesen eines Themas.',
 
-		'IP_smilies_topic_title' => 'Smilies für Themen Titel und Beschreibung',
-		'IP_smilies_topic_title_explain' => 'Bei Aktivierung dieser Option, werden Smilies für Themen Titel und Themen Beschreibung aktiviert',
+		'IP_smilies_topic_title' => 'Smilies fÃ¼r Themen Titel und Beschreibung',
+		'IP_smilies_topic_title_explain' => 'Bei Aktivierung dieser Option, werden Smilies fÃ¼r Themen Titel und Themen Beschreibung aktiviert',
 
-		'IP_enable_colorpicker' => 'Aktiviere Farbauswahl bei Einträgen',
+		'IP_enable_colorpicker' => 'Aktiviere Farbauswahl bei EintrÃ¤gen',
 
 		'IP_quote_iterations' => 'Anzahl verschachtelter Zitate',
 
 		'IP_ftr_disable' => 'Deaktivierung des Force Topic Read',
 		'IP_ftr_disable_explain' => 'Bei Aktivierung dieser Option, wird der Force Topic Read deaktiviert',
 
-		'IP_disable_html_guests' => 'Deaktiviere HTML Links für Gäste',
+		'IP_disable_html_guests' => 'Deaktiviere HTML Links fÃ¼r GÃ¤ste',
 
 		'IP_birthday_viewtopic' => 'Zeige Poster\'s Alter in Themen',
 
 		'IP_switch_poster_info_topic' => 'Zeige Poster\'s Info in Themen (Sprache, Style, etc.)',
 
 		'IP_enable_quick_quote' => 'Aktiviere Schnellzitat',
-		'IP_enable_quick_quote_explain' => 'Das Schnellzitat erlaubt den Benutzern mittels eines Klicks einen Beitrag zu zitieren. Diese Funktion verwendet Javascript. Die Aktivierung kann lange Beiträge zur Folge haben, wenn viele Beiträge mit langen Texten in den Themen vorhanden sind.',
+		'IP_enable_quick_quote_explain' => 'Das Schnellzitat erlaubt den Benutzern mittels eines Klicks einen Beitrag zu zitieren. Diese Funktion verwendet Javascript. Die Aktivierung kann lange BeitrÃ¤ge zur Folge haben, wenn viele BeitrÃ¤ge mit langen Texten in den Themen vorhanden sind.',
 
-		'IP_allow_html_only_for_admins' => 'Aktiviere HTML nur für Administratoren',
+		'IP_allow_html_only_for_admins' => 'Aktiviere HTML nur fÃ¼r Administratoren',
 		'IP_allow_html_only_for_admins_explain' => 'Enabling this option will allow administrators to use HTML tags in posts. Please notice that this feature may lead to security issues or wrong page formatting if not used properly.',
 
 		'IP_enable_custom_bbcodes' => 'Aktiviere eigene BBCodes',
@@ -266,8 +271,8 @@ if ($lang_extend_admin)
 		'IP_allow_all_bbcode' => 'Aktiviere alle BBCodes',
 		'IP_allow_all_bbcode_explain' => 'Bei Aktivierung dieser Option, werden alle BBCodes in der Signatur und anderen Teilen aktiviert, wo sie noch nicht aktiviert sind.',
 
-		'IP_switch_bbcb_active_content' => 'Erlaube BBCode für aktive Inhalte in Beiträgen',
-		'IP_switch_bbcb_active_content_explain' => 'Aktiviert BBCode für Flash, Video, Audio Streams, RealMedia und Quicktime.',
+		'IP_switch_bbcb_active_content' => 'Erlaube BBCode fÃ¼r aktive Inhalte in BeitrÃ¤gen',
+		'IP_switch_bbcb_active_content_explain' => 'Aktiviert BBCode fÃ¼r Flash, Video, Audio Streams, RealMedia und Quicktime.',
 
 // TAB - Images In Posts
 		'IP_auth_view_pic_upload' => 'Bilder hochladen Erlaubnis (Post Icy Images)',
@@ -281,59 +286,59 @@ if ($lang_extend_admin)
 
 		'IP_show_img_no_gd' => 'Zeige GIF Thumbnails ohne Verwendung der GD Bibliotheken (komplettes Bild wird geladen und dann nur verkleinert angezeigt).',
 
-		'IP_thumbnail_posts' => 'Thumbnails in Beiträgen',
+		'IP_thumbnail_posts' => 'Thumbnails in BeitrÃ¤gen',
 		'IP_thumbnail_posts_explain' => 'Mit dieser Option wird ein Thumbnail anstatt des kompletten Bildes in einem Beitrag angezeigt, wenn der IMG BBCode verwendet wird',
 
-		'IP_show_pic_size_on_thumb' => 'Zeige die Bildgröße in den Thumbnails',
+		'IP_show_pic_size_on_thumb' => 'Zeige die BildgrÃ¶ÃŸe in den Thumbnails',
 
-		'IP_thumbnail_highslide' => 'Benutze HighSlide JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
-		'IP_thumbnail_highslide_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.highslide.com/" target="_blank">HighSlide JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
+		'IP_thumbnail_highslide' => 'Benutze HighSlide JavaScript fÃ¼r die Bildanzeige wenn Thumbnails aktiviert sind',
+		'IP_thumbnail_highslide_explain' => 'Ã–ffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu Ã¶ffnen. Mehr Ã¼ber <a href="http://www.highslide.com/" target="_blank">HighSlide JS...</a><br />Stelle sicher das du die vorkompilierten BeitrÃ¤ge leerst wenn du hier eine Einstellung verÃ¤ndert hast!',
 
-		'IP_thumbnail_lightbox' => 'Benutze Lightbox JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
-		'IP_thumbnail_lightbox_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!<br />Wenn du HighSlide aktiviert hast, wird diese Einstellung ignoriert.',
+		'IP_thumbnail_lightbox' => 'Benutze Lightbox JavaScript fÃ¼r die Bildanzeige wenn Thumbnails aktiviert sind',
+		'IP_thumbnail_lightbox_explain' => 'Ã–ffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu Ã¶ffnen. Mehr Ã¼ber <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox JS...</a><br />Stelle sicher das du die vorkompilierten BeitrÃ¤ge leerst wenn du hier eine Einstellung verÃ¤ndert hast!<br />Wenn du HighSlide aktiviert hast, wird diese Einstellung ignoriert.',
 
 		'IP_thumbnail_cache' => 'Thumbnails Cache',
 
-		'IP_thumbnail_quality' => 'Thumbnails Qualität (1-100)',
+		'IP_thumbnail_quality' => 'Thumbnails QualitÃ¤t (1-100)',
 
-		'IP_thumbnail_size' => 'Thumbnails Größe (in Pixel)',
+		'IP_thumbnail_size' => 'Thumbnails GrÃ¶ÃŸe (in Pixel)',
 
 // TAB - Forum
 		'Lang_extend_categories_hierarchy' => 'Kategorien-Hierarchie',
 
-		'Category_attachment' => 'Angefügt an',
+		'Category_attachment' => 'AngefÃ¼gt an',
 		'Category_desc' => 'Beschreibung',
 		'Category_config_error_fixed' => 'Ein Fehler in den Kategorie-Einstellungen wurde korrigiert',
-		'Attach_forum_wrong' => 'Du kannst kein Forum an ein Forum anfügen',
-		'Attach_root_wrong' => 'Du kannst kein Forum an den Foren-Index anfügen',
+		'Attach_forum_wrong' => 'Du kannst kein Forum an ein Forum anfÃ¼gen',
+		'Attach_root_wrong' => 'Du kannst kein Forum an den Foren-Index anfÃ¼gen',
 		'Forum_name_missing' => 'Du kannst kein Forum ohne Namen anlegen',
 		'Category_name_missing' => 'Du kannst keine Kategorie ohne Namen anlegen',
-		'Only_forum_for_topics' => 'Themen können nur in Foren gefunden werden',
-		'Delete_forum_with_attachment_denied' => 'Du kannst keine Foren löschen, die Sub-Level enthalten',
+		'Only_forum_for_topics' => 'Themen kÃ¶nnen nur in Foren gefunden werden',
+		'Delete_forum_with_attachment_denied' => 'Du kannst keine Foren lÃ¶schen, die Sub-Level enthalten',
 
-		'Category_delete' => 'Lösche Kategorie',
-		'Category_delete_explain' => 'Hier kannst du eine Kategorie löschen und bestimmen, wohin alle darin enthaltenen Foren und Kategorien verschoben werden sollen.',
+		'Category_delete' => 'LÃ¶sche Kategorie',
+		'Category_delete_explain' => 'Hier kannst du eine Kategorie lÃ¶schen und bestimmen, wohin alle darin enthaltenen Foren und Kategorien verschoben werden sollen.',
 
 // forum links type
 		'Forum_link_url' => 'Link URL',
-		'Forum_link_url_explain' => 'Du kannst hier die URL zu einem Icy Phoenix Prog. setzen oder eine vollständige URL zu einem externen Server',
+		'Forum_link_url_explain' => 'Du kannst hier die URL zu einem Icy Phoenix Prog. setzen oder eine vollstÃ¤ndige URL zu einem externen Server',
 		'Forum_link_internal' => 'Icy Phoenix Prog',
-		'Forum_link_internal_explain' => 'Wähle Ja, wenn du ein Programm aufrufen möchtest, welches im Icy Phoenix Directory liegt',
-		'Forum_link_hit_count' => 'Hits Zähler',
-		'Forum_link_hit_count_explain' => 'Wähle Ja wenn du möchtest, das das Board die Klicks zählt und auch darstellt',
+		'Forum_link_internal_explain' => 'WÃ¤hle Ja, wenn du ein Programm aufrufen mÃ¶chtest, welches im Icy Phoenix Directory liegt',
+		'Forum_link_hit_count' => 'Hits ZÃ¤hler',
+		'Forum_link_hit_count_explain' => 'WÃ¤hle Ja wenn du mÃ¶chtest, das das Board die Klicks zÃ¤hlt und auch darstellt',
 		'Forum_link_with_attachment_deny' => 'Du kannst kein Forum als Link definieren, wenn es schon Sub-Level hat',
-		'Forum_link_with_topics_deny' => 'Du kannst kein Forum als Link definieren, wenn es schon Themen enthält',
+		'Forum_link_with_topics_deny' => 'Du kannst kein Forum als Link definieren, wenn es schon Themen enthÃ¤lt',
 		'Forum_attached_to_link_denied' => 'Du kannst kein Forum oder eine Kategorie einem Forum Link zuordnen',
 
 		'Manage_extend' => 'Einstellungen +',
 		'No_subforums' => 'Keine Unterforen',
-		'Forum_type' => 'Wähle die Art des Forums',
+		'Forum_type' => 'WÃ¤hle die Art des Forums',
 		'Presets' => 'Voreinstellungen',
 		'Refresh' => 'Aktualisieren',
 		'Position_after' => 'Positioniere dieses Forum nach',
 		'Link_missing' => 'Der Link fehlt',
-		'Category_with_topics_deny' => 'Es befinden sich noch Beiträge in diesem Forum. Du kannst es nicht in eine Kategorie umwandeln.',
-		'Recursive_attachment' => 'Du kannst ein Forum nicht an das untere Ende seines eigenen Zweiges anhängen (rekursiver Anhang)',
+		'Category_with_topics_deny' => 'Es befinden sich noch BeitrÃ¤ge in diesem Forum. Du kannst es nicht in eine Kategorie umwandeln.',
+		'Recursive_attachment' => 'Du kannst ein Forum nicht an das untere Ende seines eigenen Zweiges anhÃ¤ngen (rekursiver Anhang)',
 		'Forum_with_attachment_denied' => 'Du kannst keine Kategorie mit Foren zu einem eigenen Forum umwandeln',
 		'icon' => 'Icon',
 		'icon_explain' => 'Dieses Icon wird vor dem Forumsnamen angezeigt. Du kannst eine direkte URL angeben oder den $image[] Key Eintrag (siehe <i>dein_template</i>/<i>dein_template.cfg</i>).',
@@ -343,22 +348,22 @@ if ($lang_extend_admin)
 
 // TAB - SEO
 		'IP_url_rw' => 'URL Rewrite',
-		'IP_url_rw_explain' => 'Bei Aktivierung dieser Option wird URL Rewrite für jeden eingeschalten (HTML Links anstelle von PHP, für besseres spidern der Suchrobots).',
+		'IP_url_rw_explain' => 'Bei Aktivierung dieser Option wird URL Rewrite fÃ¼r jeden eingeschalten (HTML Links anstelle von PHP, fÃ¼r besseres spidern der Suchrobots).',
 
-		'IP_url_rw_guests' => 'URL Rewrite für Gäste',
-		'IP_url_rw_guests_explain' => 'Bei Aktivierung dieser Option, wird URL Rewrite nur für Gäste und Bots aktiviert.',
+		'IP_url_rw_guests' => 'URL Rewrite fÃ¼r GÃ¤ste',
+		'IP_url_rw_guests_explain' => 'Bei Aktivierung dieser Option, wird URL Rewrite nur fÃ¼r GÃ¤ste und Bots aktiviert.',
 
-		'IP_bots_reg_auth' => 'Registrierungserlaubnis für Bots',
-		'IP_bots_reg_auth_explain' => 'Wenn diese Option aktiviert wird, ist es möglich das sich Bots registrieren.',
+		'IP_bots_reg_auth' => 'Registrierungserlaubnis fÃ¼r Bots',
+		'IP_bots_reg_auth_explain' => 'Wenn diese Option aktiviert wird, ist es mÃ¶glich das sich Bots registrieren.',
 
-		'IP_lofi_bots' => 'LoFi für Bots',
-		'IP_lofi_bots_explain' => 'Bei Aktivierung dieser Option, wird LoFi für die Bots aktiviert.',
+		'IP_lofi_bots' => 'LoFi fÃ¼r Bots',
+		'IP_lofi_bots_explain' => 'Bei Aktivierung dieser Option, wird LoFi fÃ¼r die Bots aktiviert.',
 
 		'IP_adsense_code' => 'Google AdSense Publisher Code',
-		'IP_adsense_code_explain' => 'Füge hier deinen Google AdSense Publisher Code ein und er wird in der Google Suchen Seite eingefügt. Wenn du dies nicht nutzen willst, lasse das Feld einfach leer.',
+		'IP_adsense_code_explain' => 'FÃ¼ge hier deinen Google AdSense Publisher Code ein und er wird in der Google Suchen Seite eingefÃ¼gt. Wenn du dies nicht nutzen willst, lasse das Feld einfach leer.',
 
 		'IP_google_analytics' => 'Google Analytics Code',
-		'IP_google_analytics_explain' => 'Füge hier deinen Google Analytics Code ein (der Javascript code der von Google zur Verfügung gestellt wird) und dieser wird automatisch im Fuß jeder Seite eingefügt.',
+		'IP_google_analytics_explain' => 'FÃ¼ge hier deinen Google Analytics Code ein (der Javascript code der von Google zur VerfÃ¼gung gestellt wird) und dieser wird automatisch im FuÃŸ jeder Seite eingefÃ¼gt.',
 
 //Sitemap
 		'Sitemap_settings' => 'Sitemap Einstellungen',
@@ -366,25 +371,25 @@ if ($lang_extend_admin)
 		'IP_sitemap_topic_limit' => 'Google Sitemap :: Themen-Limit',
 		'IP_sitemap_topic_limit_explain' => 'Maximale Anzahl von Themen, die mit einer einzigen Datenbankabrfage ausgelesen werden',
 
-		'IP_sitemap_announce_priority' => 'Google Sitemap :: Ankündigungspriorität',
-		'IP_sitemap_announce_priority_explain' => 'Priorität für Ankündigungen (muss eine Zahl zwischen 0.0 &amp; 1.0 sein)',
+		'IP_sitemap_announce_priority' => 'Google Sitemap :: AnkÃ¼ndigungsprioritÃ¤t',
+		'IP_sitemap_announce_priority_explain' => 'PrioritÃ¤t fÃ¼r AnkÃ¼ndigungen (muss eine Zahl zwischen 0.0 &amp; 1.0 sein)',
 
-		'IP_sitemap_sticky_priority' => 'Google Sitemap :: Wichtig-Priorität',
-		'IP_sitemap_sticky_priority_explain' => 'Priorität für Wichtige Themen (muss eine Zahl zwischen 0.0 &amp; 1.0 sein)',
+		'IP_sitemap_sticky_priority' => 'Google Sitemap :: Wichtig-PrioritÃ¤t',
+		'IP_sitemap_sticky_priority_explain' => 'PrioritÃ¤t fÃ¼r Wichtige Themen (muss eine Zahl zwischen 0.0 &amp; 1.0 sein)',
 
-		'IP_sitemap_default_priority' => 'Google Sitemap :: Normal-Priorität',
-		'IP_sitemap_default_priority_explain' => 'Priorität für normale Themen (muss eine Zahl zwischen 0.0 &amp; 1.0 sein)',
+		'IP_sitemap_default_priority' => 'Google Sitemap :: Normal-PrioritÃ¤t',
+		'IP_sitemap_default_priority_explain' => 'PrioritÃ¤t fÃ¼r normale Themen (muss eine Zahl zwischen 0.0 &amp; 1.0 sein)',
 
 		'IP_sitemap_sort' => 'Google Sitemap :: Sortierordnung',
-		'IP_sitemap_new_first' => 'Neue Beiträge zuerst',
-		'IP_sitemap_old_first' => 'Alte Beiträge zuerst',
+		'IP_sitemap_new_first' => 'Neue BeitrÃ¤ge zuerst',
+		'IP_sitemap_old_first' => 'Alte BeitrÃ¤ge zuerst',
 
 //Tags
-		'IP_word_graph_max_words' => 'TAGS :: Maximale Wörter',
-		'IP_word_graph_max_words_explain' => 'Wähle die max. Anzahl an Wörtern die angezeigt werden. Eine hohe Zahl könnte den Server belasten. Der empfohlene Wert ist 250.',
+		'IP_word_graph_max_words' => 'TAGS :: Maximale WÃ¶rter',
+		'IP_word_graph_max_words_explain' => 'WÃ¤hle die max. Anzahl an WÃ¶rtern die angezeigt werden. Eine hohe Zahl kÃ¶nnte den Server belasten. Der empfohlene Wert ist 250.',
 
-		'IP_word_graph_word_counts' => 'TAGS :: Aktiviere Wort Zählungen',
-		'IP_word_graph_word_counts_explain' => 'Die Gesamtzahl der Wörter wird neben jedem Wort angezeigt, wie z.B. <b>Icy Phoenix (365)</b>?',
+		'IP_word_graph_word_counts' => 'TAGS :: Aktiviere Wort ZÃ¤hlungen',
+		'IP_word_graph_word_counts_explain' => 'Die Gesamtzahl der WÃ¶rter wird neben jedem Wort angezeigt, wie z.B. <b>Icy Phoenix (365)</b>?',
 
 		'IP_forum_wordgraph' => 'TAGS :: Forum Wortdiagramm',
 		'IP_forum_wordgraph_explain' => 'Dieses Feature aktiviert ein forumbasierendes Wortdiagramm am Ende jedes Forums',
@@ -394,66 +399,66 @@ if ($lang_extend_admin)
 		'IP_forum_tags_type_tags' => 'Tags',
 		'IP_forum_tags_type_wordgraph' => 'Wordgraph',
 
-		'Similar_topics' => 'Ähnliche Themen',
-		'Similar_topics_explain' => 'Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
+		'Similar_topics' => 'Ã„hnliche Themen',
+		'Similar_topics_explain' => 'Auf dieser Seite kannst du die Konfiguration fÃ¼r die Ã„hnlichen Themen vornehmen.',
 
-		'IP_similar_topics' => 'Ähnliche Themen :: Ähnliche Themen aktivieren',
+		'IP_similar_topics' => 'Ã„hnliche Themen :: Ã„hnliche Themen aktivieren',
 		'IP_similar_topics_explain' => 'This is the global switch for Similar Topics. If you want to switch on this feature you will need also to enable single forums in Forums Management section.',
 
-		'IP_similar_topics_desc' => 'Ähnliche Themen :: Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
+		'IP_similar_topics_desc' => 'Ã„hnliche Themen :: Auf dieser Seite kannst du die Konfiguration fÃ¼r die Ã„hnlichen Themen vornehmen.',
 
-		'IP_similar_stopwords' => 'Ähnliche Themen :: Auszuschließende Stop-Wörter',
+		'IP_similar_stopwords' => 'Ã„hnliche Themen :: AuszuschlieÃŸende Stop-WÃ¶rter',
 
-		'IP_similar_max_topics' => 'Ähnliche Themen :: Maximale Menge der anzuzeigenden Themen',
+		'IP_similar_max_topics' => 'Ã„hnliche Themen :: Maximale Menge der anzuzeigenden Themen',
 
-		'IP_similar_sort_type' => 'Ähnliche Themen :: Sortiere nach',
-		'IP_similar_sort_type_explain' => 'Wähle Sortierung der Ähnlichen Themen',
+		'IP_similar_sort_type' => 'Ã„hnliche Themen :: Sortiere nach',
+		'IP_similar_sort_type_explain' => 'WÃ¤hle Sortierung der Ã„hnlichen Themen',
 		'IP_similar_sort_type_time' => 'Beitragszeit',
 		'IP_similar_sort_type_relev' => 'Bedeutung',
 
-		'IP_similar_ignore_forums_ids' => 'Ähnliche Themen :: ignorierte Foren',
-		'IP_similar_ignore_forums_ids_explain' => 'Gib die IDs der Foren an, in denen Ähnliche Themen ignoriert werden (zum Beispiel test forum, forum für talk, etc.). Eine ID pro Zeile.',
+		'IP_similar_ignore_forums_ids' => 'Ã„hnliche Themen :: ignorierte Foren',
+		'IP_similar_ignore_forums_ids_explain' => 'Gib die IDs der Foren an, in denen Ã„hnliche Themen ignoriert werden (zum Beispiel test forum, forum fÃ¼r talk, etc.). Eine ID pro Zeile.',
 
 // TAB - Logging And Security
-		'IP_admin_protect' => 'Schütze Hauptadmin Account',
-		'IP_admin_protect_explain' => 'Bei Aktivierung dieser Option, wird mehr Sicherheit dem Haupt Admin Account hinzugefügt',
+		'IP_admin_protect' => 'SchÃ¼tze Hauptadmin Account',
+		'IP_admin_protect_explain' => 'Bei Aktivierung dieser Option, wird mehr Sicherheit dem Haupt Admin Account hinzugefÃ¼gt',
 
 		'IP_db_log_actions' => 'Aktiviere DB Aktionen Log',
-		'IP_db_log_actions_explain' => 'Bei Aktivierung dieser Option werden alle Aktionen, die die DB ändern, in der Datenbank gespeichert. Wurde diese Option in der constans.php als &quot;true&quot; gesetzt, so kann sie nicht durch das ACP abgeschaltet werden. Willst du noch zusätzlich alle Fehler gespeichert haben, werden diese in einer extra Datei gesichert.',
+		'IP_db_log_actions_explain' => 'Bei Aktivierung dieser Option werden alle Aktionen, die die DB Ã¤ndern, in der Datenbank gespeichert. Wurde diese Option in der constans.php als &quot;true&quot; gesetzt, so kann sie nicht durch das ACP abgeschaltet werden. Willst du noch zusÃ¤tzlich alle Fehler gespeichert haben, werden diese in einer extra Datei gesichert.',
 
 		'IP_mg_log_actions' => 'Aktiviere TXT Actions Log',
-		'IP_mg_log_actions_explain' => 'Aktiviere diese Option und es wird jede Aktion, die die DB ändert, in einer Textdatei auf unter dem Benutzer gespeichert (Datei wird im LOGS Ordner gespeichert). Diese Datei ist nicht einfach zu lesen, aber es kann unter bestimmten Bedingungen nützlich sein. Aktiviere es nur, wenn du weißt was du machst (die Seite kann nach der Aktivierung langsamer sein).',
+		'IP_mg_log_actions_explain' => 'Aktiviere diese Option und es wird jede Aktion, die die DB Ã¤ndert, in einer Textdatei auf unter dem Benutzer gespeichert (Datei wird im LOGS Ordner gespeichert). Diese Datei ist nicht einfach zu lesen, aber es kann unter bestimmten Bedingungen nÃ¼tzlich sein. Aktiviere es nur, wenn du weiÃŸt was du machst (die Seite kann nach der Aktivierung langsamer sein).',
 
 		'IP_write_errors_log' => 'Aktivere Fehler Log',
-		'IP_write_errors_log_explain' => 'Bei Aktivierung dieser Option werden alle Fehler für jeden Tag einzeln in einem Textdokument gespeichert.',
+		'IP_write_errors_log_explain' => 'Bei Aktivierung dieser Option werden alle Fehler fÃ¼r jeden Tag einzeln in einem Textdokument gespeichert.',
 
 		'IP_write_digests_log' => 'Aktiviere Digests Log',
-		'IP_write_digests_log_explain' => 'Bei Aktivierung dieser Option werden alle versandten Digests für jeden Tag einzeln in einem Textdokument gespeichert.',
+		'IP_write_digests_log_explain' => 'Bei Aktivierung dieser Option werden alle versandten Digests fÃ¼r jeden Tag einzeln in einem Textdokument gespeichert.',
 
-		'IP_logs_path' => 'Pfad für Logs (setze für diesen Ordner CHMOD 0777)',
-		'IP_logs_path_explain' => 'Gib hier den Pfad für die Fehler und andere Logs, relativ zum Forenpfad, ohne Slash am Ende ein. Zum Beispiel: <b>logs</b>.',
+		'IP_logs_path' => 'Pfad fÃ¼r Logs (setze fÃ¼r diesen Ordner CHMOD 0777)',
+		'IP_logs_path_explain' => 'Gib hier den Pfad fÃ¼r die Fehler und andere Logs, relativ zum Forenpfad, ohne Slash am Ende ein. Zum Beispiel: <b>logs</b>.',
 
 // TAB - Cron
 		'IP_cron_global_switch' => 'Aktiviere PHP Cron [Globale Einstellung]',
-		'IP_cron_global_switch_explain' => 'Bei Aktivierung dieser Option wird der PHP-basierende Cron aktiviert: einige automatische Arbeiten werden in bestimmten Intervallen ausgeführt. Der optimale Zeitabstand für jeden Cron hängt von der Auslastung und den Einstellungen der Seite ab: Wenn du nicht weißt was diese Einstellungen bedeuten, dann lass diese Funktion deaktiviert, denn du wirst sie wahrscheinlich nicht benötigen.',
+		'IP_cron_global_switch_explain' => 'Bei Aktivierung dieser Option wird der PHP-basierende Cron aktiviert: einige automatische Arbeiten werden in bestimmten Intervallen ausgefÃ¼hrt. Der optimale Zeitabstand fÃ¼r jeden Cron hÃ¤ngt von der Auslastung und den Einstellungen der Seite ab: Wenn du nicht weiÃŸt was diese Einstellungen bedeuten, dann lass diese Funktion deaktiviert, denn du wirst sie wahrscheinlich nicht benÃ¶tigen.',
 
-		'IP_cron_files_interval' => 'Dateiausführungs Cron Intervall',
-		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausführen in dem Intervall das du bestimmst. Die Dateien die ausgeführt werden sollen müssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien müssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_files_interval' => 'DateiausfÃ¼hrungs Cron Intervall',
+		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausfÃ¼hren in dem Intervall das du bestimmst. Die Dateien die ausgefÃ¼hrt werden sollen mÃ¼ssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien mÃ¼ssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte AusfÃ¼hrung: ' . (($config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_database_interval' => 'DB Optimierungs Cron Intervall',
-		'IP_cron_database_interval_explain' => 'Diese Funktion wird deine Datenbank in dem von dir bestimmten Intervall optimieren.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_database_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_database_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_database_interval_explain' => 'Diese Funktion wird deine Datenbank in dem von dir bestimmten Intervall optimieren.<br /><br /><b>Letzte AusfÃ¼hrung: ' . (($config['cron_database_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_database_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_cache_interval' => 'Templates Cache Cron Intervall',
-		'IP_cron_cache_interval_explain' => 'Der Template Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_cache_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_cache_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_cache_interval_explain' => 'Der Template Cache wird in diesem Intervall gelÃ¶scht.<br /><br /><b>Letzte AusfÃ¼hrung: ' . (($config['cron_cache_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_cache_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_sql_interval' => 'SQL Cache Cron Intervall',
-		'IP_cron_sql_interval_explain' => 'Der SQL Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_sql_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_sql_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_sql_interval_explain' => 'Der SQL Cache wird in diesem Intervall gelÃ¶scht.<br /><br /><b>Letzte AusfÃ¼hrung: ' . (($config['cron_sql_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_sql_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_users_interval' => 'Benutzer Cache Cron Intervall',
-		'IP_cron_users_interval_explain' => 'Der Benutzer Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_users_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_users_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_users_interval_explain' => 'Der Benutzer Cache wird in diesem Intervall gelÃ¶scht.<br /><br /><b>Letzte AusfÃ¼hrung: ' . (($config['cron_users_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_users_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_topics_interval' => 'Themen Cache Cron Intervall',
-		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelÃ¶scht.<br /><br /><b>Letzte AusfÃ¼hrung: ' . (($config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>',
 
 		'Cron_Disabled' => 'Deaktiviert',
 		'15M' => '15 Minuten',
@@ -470,10 +475,10 @@ if ($lang_extend_admin)
 		'30D' => '1 Monat',
 
 
-// lang_extend_mods_settings.php
-		'Lang_extend_mods_settings' => 'Mods settings Sprach-Pack',
+// lang_extend_settings.php
+		'Lang_extend_settings' => 'Icy Phoenix Einstellungen',
 		'Configuration_extend' => 'Kalender &amp; Subforen',
-		'Override_user_choices' => 'Benutzereinstellungen überschreiben',
+		'Override_user_choices' => 'Benutzereinstellungen Ã¼berschreiben',
 		)
 	);
 }
@@ -498,9 +503,9 @@ $lang = array_merge($lang, array(
 	'Full' => 'Komprimiert',
 	'Split_categories' => 'Kategorien im Index aufteilen:',
 	'Use_last_topic_title' => 'Zeige die Titel der letzten Themen im Index:',
-	'Last_topic_title_length' => 'Titellänge des letzten Themas im Index:',
+	'Last_topic_title_length' => 'TitellÃ¤nge des letzten Themas im Index:',
 	'Sub_level_links' => 'Unterforenlinks im Index:',
-	'Sub_level_links_explain' => 'Füge Links zu den Unterforen in der Forum oder Kategorie Beschreibung hinzu',
+	'Sub_level_links_explain' => 'FÃ¼ge Links zu den Unterforen in der Forum oder Kategorie Beschreibung hinzu',
 	'With_pics' => 'Mit Icons',
 	'Display_viewonline' => 'Wer ist Online Box einschalten:',
 	'Never' => 'Nie',
@@ -519,17 +524,17 @@ $lang = array_merge($lang, array(
 	'Calendar_duration' => 'Dauer',
 
 	'Calendar_week_start' => 'Erster Wochentag',
-	'Calendar_header_cells' => 'Anzahl der Zellen die im Board Header angezeigt werden (0 für keine Anzeige)',
-	'Calendar_title_length' => 'Länge des Titels welcher in den Kalender Zellen angezeigt wird',
-	'Calendar_text_length' => 'Länge des Textes, welcher im Übersichtsfenster angezeigt wird',
+	'Calendar_header_cells' => 'Anzahl der Zellen die im Board Header angezeigt werden (0 fÃ¼r keine Anzeige)',
+	'Calendar_title_length' => 'LÃ¤nge des Titels welcher in den Kalender Zellen angezeigt wird',
+	'Calendar_text_length' => 'LÃ¤nge des Textes, welcher im Ãœbersichtsfenster angezeigt wird',
 	'Calendar_block_display' => 'Zeige die Kalender Reihe im Board Index',
-	'Calendar_display_open' => 'Zeige die Kalender Reihe im Forum Index geöffnet (Wenn Kalender Reihen aktiviert sind)',
+	'Calendar_display_open' => 'Zeige die Kalender Reihe im Forum Index geÃ¶ffnet (Wenn Kalender Reihen aktiviert sind)',
 	'Calendar_nb_row' => 'Anzahl der Reihen pro Tag im Board Header',
 	'Calendar_birthday' => 'Zeige Geburtstage im Kalender an',
 	'Calendar_forum' => 'Den Namen des Forums unter dem Thematitel im Planer anzeigen',
 
 	'Sorry_auth_cal' => 'Nur %s kann in diesem Forum Termine in den Kalender eintragen.',
-	'Date_error' => '%d/%d/%d ist kein gültiges Datum',
+	'Date_error' => '%d/%d/%d ist kein gÃ¼ltiges Datum',
 
 	'Event_time' => 'Termin Zeit',
 	'Minutes' => 'Minuten',
