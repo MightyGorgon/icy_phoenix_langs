@@ -220,6 +220,7 @@ $lang = array_merge($lang, array(
 	'cms_block_online_users2' => 'Wer ist online',
 	'cms_block_paypal' => 'PayPal',
 	'cms_block_paypal_donate' => 'Spenden',
+	'cms_block_plugin_guestbook' => 'Gästebuch',
 	'cms_block_poll' => 'Umfrage',
 	'cms_block_random_attach' => 'Zufällige Anhänge',
 	'cms_block_random_quote' => 'Zufälliges Zitat',
