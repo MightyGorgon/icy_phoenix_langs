@@ -4,7 +4,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 
-Ricevi questo report perché un bug su <b>{SITENAME}</b> è stato assegnato a te per l'eventuale soluzione.<br /><br />
+Ricevi questo report perchÃ© un bug su <b>{SITENAME}</b> Ã¨ stato assegnato a te per l'eventuale soluzione.<br /><br />
 
 Per ulteriori informazioni segui il link:<br /><br />
 

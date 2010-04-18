@@ -52,7 +52,7 @@ if ($lang_extend_admin)
 		'IP_enable_digests' => 'Attiva Digests',
 
 		'IP_digests_php_cron' => 'Attiva Digests PHP Cron',
-		'IP_digests_php_cron_explain' => 'Questa funzione consente di abilitare un\'emulazione del CRON per l\'invio dei digests. E\' consigliabile attivarla solo se non si ha accesso al CRON sul proprio server, perch&eacute; questa funzione potrebbe non andare a buon fine in alcuni casi. Per poter utilizzare questa funzione, ricorda che devi abilitare <b>PHP Cron [Global Switch]</b> in <b>Configurazione &raquo; Icy Phoenix &raquo; Cron</b>',
+		'IP_digests_php_cron_explain' => 'Questa funzione consente di abilitare un\'emulazione del CRON per l\'invio dei digests. E\' consigliabile attivarla solo se non si ha accesso al CRON sul proprio server, perch&eacute; questa funzione potrebbe non andare a buon fine in alcuni casi. Per poter utilizzare questa funzione, ricorda che devi abilitare <b>PHP Cron [Global Switch]</b> in <b>ACP &raquo; Configurazione &raquo; Cron</b>',
 
 		'IP_emails_only_to_admins' => 'Emails Solo Agli Amministratori',
 		'IP_emails_only_to_admins_explain' => 'Consenti di utilizzare il sistema di emails solo per inviare emails agli amministratori.',
@@ -286,9 +286,6 @@ if ($lang_extend_admin)
 
 		'IP_thumbnail_highslide' => 'Attiva HighSlide se le miniature nei post sono abilitate',
 		'IP_thumbnail_highslide_explain' => 'Apri l\'immagine in una finestra Java invece che in una nuova finestra.<br />E\' necessario svuotare i messaggi precompilati dopo aver cambiato questa impostazione.',
-
-		'IP_thumbnail_lightbox' => 'Attiva Lightbox se le miniature nei post sono abilitate',
-		'IP_thumbnail_lightbox_explain' => 'Apri l\'immagine in una finestra Java invece che in una nuova finestra.<br />E\' necessario svuotare i messaggi precompilati dopo aver cambiato questa impostazione.<br />Se anche la funzione HighSlide &egrave; stata attivata, l\'impostazione Lightbox verr&agrave; ignorata.',
 
 		'IP_thumbnail_cache' => 'Cache miniature',
 

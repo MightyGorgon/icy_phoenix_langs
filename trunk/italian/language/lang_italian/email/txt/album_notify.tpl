@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 Ciao {USERNAME},
 
-Una nuova immagine è stata inviata su "{SITENAME}" e tu hai richiesto di esserne avvisato.
+Una nuova immagine Ã¨ stata inviata su "{SITENAME}" e tu hai richiesto di esserne avvisato.
 
 ----------------
 Dettagli Immagine

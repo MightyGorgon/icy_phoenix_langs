@@ -1,5 +1,5 @@
 Ciao, {WARNED_POSTER}
 
-Il vostro account su  {SITENAME} è stato riattivato
+Il vostro account su  {SITENAME} Ã¨ stato riattivato
 
 {EMAIL_SIG}  

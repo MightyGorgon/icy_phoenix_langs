@@ -13,7 +13,7 @@ Puoi utilizzare il seguente link per vedere la discussione<br /><br />
 <div class="post-text">{POST_TEXT}</div>
 
 <br /><br />
-Stai ricevendo questa email, perchè stai controllando il forum <b>"{FORUM_NAME}"</b> su <b>{SITENAME}.</b> <br />
+Stai ricevendo questa email, perchÃ¨ stai controllando il forum <b>"{FORUM_NAME}"</b> su <b>{SITENAME}.</b> <br />
 Se non desideri controllare il forum puoi cliccare su "Smetti di controllare questo Forum" che si trova su <b>"{FORUM_NAME}"</b>, o cliccando sul seguente link:
 <br /><br />
 <a href="{U_STOP_WATCHING_FORUM}" target="_blank">{U_STOP_WATCHING_FORUM}</a>

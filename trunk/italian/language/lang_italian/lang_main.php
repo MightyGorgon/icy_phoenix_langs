@@ -2019,6 +2019,7 @@ $lang = array_merge($lang, array(
 /* lang_.php - BEGIN */
 /* lang_.php - END */
 
+	'Uploading' => 'Caricamento in corso...',
 	'Upload_Image_Local' => 'Carica Immagine',
 	'Uploaded_Images_Local' => 'Immagini Caricate',
 	'Upload_Image_Local_Explain' => 'Seleziona il file da caricare',
@@ -2360,7 +2361,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_CONFIRM_EXPLAIN' => 'Dopo un numero massimo di tentativi di accesso falliti verr&agrave; richiesto l\'inserimento di un codice di conferma. Questo serve a prevenire accessi non autorizzati. Il codice &egrave; visualizzato nell\'immagine sottostante. Se l\'immmagine non compare o se hai problemi di visualizzazione, conttatta un %sAmministratore%s.',
 	'LOGIN_ERROR_ATTEMPTS' => 'Hai superato il numero massimo di tentativi di accesso. In aggiunta ai dati nome utente e password dovrai inserire anche il codice di conferma che leggi nell\'immagine sottostante.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE' => 'Non sei stato riconosciuto da Apache.',
-	'LOGIN_ERROR_PASSWORD' => 'La password inserita non &grave; corretta, fai un altro tentativo. Se il problema persiste contatta un %sAmministratore%s.',
+	'LOGIN_ERROR_PASSWORD' => 'La password inserita non &egrave; corretta, fai un altro tentativo. Se il problema persiste contatta un %sAmministratore%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT' => 'Non &egrave; stato possibile convertire la tua password al momento dell\'aggiornamento del software di questo sito. %sRichiedi una nuova password%s. Se il problema persiste contatta un %samministratore%s.',
 	'LOGIN_ERROR_USERNAME' => 'Il nome utente inserito non &egrave; corretto, fai un\'altro tentativo. Se il problema persiste contatta un %sAmministratore%s.',
 	'NO_PASSWORD_SUPPLIED' => 'Non puoi accedere senza inserire una password.',

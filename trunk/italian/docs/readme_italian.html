@@ -170,13 +170,8 @@
 							<li><b>cache/posts/</b></li>
 							<li><b>cache/sql/</b></li>
 							<li><b>cache/topics/</b></li>
+							<li><b>cache/uploads/</b></li>
 							<li><b>cache/users/</b></li>
-							<li><b>ctracker/logfiles/logfile_attempt_counter.txt</b></li>
-							<li><b>ctracker/logfiles/logfile_blocklist.txt</b></li>
-							<li><b>ctracker/logfiles/logfile_debug_mode.txt</b></li>
-							<li><b>ctracker/logfiles/logfile_malformed_logins.txt</b></li>
-							<li><b>ctracker/logfiles/logfile_spammer.txt</b></li>
-							<li><b>ctracker/logfiles/logfile_worms.txt</b></li>
 							<li><b>downloads/</b></li>
 							<li><b>files/</b></li>
 							<li><b>files/album/</b></li>
@@ -188,6 +183,12 @@
 							<li><b>files/thumbs/</b></li>
 							<li><b>images/avatars/</b></li>
 							<li><b>logs/</b></li>
+							<li><b>logs/logfile_attempt_counter.txt</b></li>
+							<li><b>logs/logfile_blocklist.txt</b></li>
+							<li><b>logs/logfile_debug_mode.txt</b></li>
+							<li><b>logs/logfile_malformed_logins.txt</b></li>
+							<li><b>logs/logfile_spammer.txt</b></li>
+							<li><b>logs/logfile_worms.txt</b></li>
 							<li><b>pafiledb/uploads/</b></li>
 							</ul>
 							<br />
@@ -204,7 +205,17 @@
 						<li>Lanciare la procedura di installazione dalla cartella install: <b>install/install.php</b> (esempio: <a class="post-url" href="http://www.mysite.com/icyphoenix/install/install.php">http://www.mysite.com/forum/install/install.php</a>)</li>
 						<li>Seguire le istruzioni a video, inserendo ogni dato richiesto e terminare l'installazione.</li>
 						<li>Eliminare o rinominare la cartella <b>install</b>.</li>
-						<li>Personalizzate ciò che ritenete opportuno in files e db (alcuni files necessitano di modifiche manuali, mentre la maggior parte delle opzioni possono essere configurate da ACP e CMS).</li>
+						<li>Personalizzate alcuni files che contengono impostazioni importanti per il vostro sito:
+							<ul>
+							<li><b>.htaccess</b>: impostazioni riguardo il dominio ed impostazioni base di Apache.</li>
+							<li><b>robots.txt</b>: per cambiare il percorso della sitemap ed altre impostazioni riguardo i bot.</li>
+							<li><b>favicon.ico</b> e <b>images/favicon.ico</b>: per personalizzare l'icona del vostro sito.</li>
+							<li><b>includes/constants.php</b>: personalizzazione alcune costanti e impostazione amministratori principali.</li>
+							<li><b>language/lang_XXX/lang_main_settings.php</b>: alcune informazioni importanti su di te e sul tuo sito.</li>
+							<li><b>templates/default/overall_header*.tpl</b>: personalizzazione di base del template (alcune impostazioni si possono cambiare in ACP e CMS, senza dover modificare manualmente questi files).</li>
+							</ul>
+						</li>
+						<li>Personalizzate le opzioni e la configurazione in ACP e CMS.</li>
 						<li>Usare il nuovo <b>Icy Phoenix</b> <img src="../images/smiles/icon_mrgreen.gif" alt="Enjoy!" title="Enjoy!" />.</li>
 					</ol>
 					<br />

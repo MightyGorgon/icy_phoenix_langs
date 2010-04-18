@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 Ciao {USERNAME},
 
-Perché un file su {SITENAME} nella categoria {CATEGORY} è stato modificato:
+PerchÃ© un file su {SITENAME} nella categoria {CATEGORY} Ã¨ stato modificato:
 
 ---------------------------
 {DOWNLOAD}

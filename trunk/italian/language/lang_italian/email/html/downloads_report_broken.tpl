@@ -4,7 +4,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 
-Ricevi questa email perché {REPORTER} ha segnalato un download non corretto su <b>{SITENAME}</b>.<br /><br />
+Ricevi questa email perchÃ© {REPORTER} ha segnalato un download non corretto su <b>{SITENAME}</b>.<br /><br />
 
 Puoi accedere al link relativo cliccando su:<br /><br />
 

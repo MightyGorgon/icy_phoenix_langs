@@ -2,14 +2,14 @@ Subject: New password activation
 Charset: iso-8859-1
 
 Salve {USERNAME}
-Ricevi questa email perchË Ë stato richiesta da te (o da qualcuno a tuo nome) 
+Ricevi questa email perch√® √® stato richiesta da te (o da qualcuno a tuo nome) 
 una nuova password per l'account sul sito {SITENAME}.
 
 Se non hai effettuato questa richiesta ignorala e, se per caso dovesse ripresentarsi, contatta l'amministratore del forum.
 
-Per utilizzare la nuova password Ë necessario attivarla, semplicemente cliccando sul link seguente.
+Per utilizzare la nuova password √® necessario attivarla, semplicemente cliccando sul link seguente.
 
-Se l'operazione andr‡ a buon fine potrete connettervi al nostro forum utilizzando la
+Se l'operazione andr√† a buon fine potrete connettervi al nostro forum utilizzando la
 seguente password:
 
 {PASSWORD}

@@ -207,7 +207,7 @@ $js_lang = array();
 
 $js_lang['s_formerrors'] = 'Devi inserire del testo per poter inviare un messaggio';
 $js_lang['s_gen_error'] = ':: Errore ::\n\n';
-$js_lang['s_url_insert'] = 'Inserisci l\'URL (es. http://www.phpbb.com/)';
+$js_lang['s_url_insert'] = 'Inserisci l\'URL (es. http://www.icyphoenix.com/)';
 $js_lang['s_url_insert_tip'] = 'http://';
 $js_lang['s_url_error'] = 'Non hai inserito alcun indirizzo';
 $js_lang['s_url_title_insert'] = 'Inserisci un titolo per il link';

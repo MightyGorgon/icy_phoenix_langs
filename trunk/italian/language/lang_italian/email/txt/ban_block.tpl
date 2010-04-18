@@ -1,9 +1,9 @@
 ATTENZIONE, {WARNED_POSTER}
 
-Il vostro accesso a  {SITENAME} è stato sospeso.
+Il vostro accesso a  {SITENAME} Ã¨ stato sospeso.
 
-La ragione di questa sospensione può avere origine da varie motivazioni, questo
-messaggio è comunque originato da questo post :
+La ragione di questa sospensione puÃ² avere origine da varie motivazioni, questo
+messaggio Ã¨ comunque originato da questo post :
 {POST_URL} .
 
 Se non ritenete giusto questo provvedimento, potete contattare {WARNER}, che ha

@@ -4,7 +4,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 
-Perché un file su <b>{SITENAME}</b> nella categoria <b>{CATEGORY}</b> è stato modificato:<br /><br />
+PerchÃ© un file su <b>{SITENAME}</b> nella categoria <b>{CATEGORY}</b> Ã¨ stato modificato:<br /><br />
 
 ---------------------------<br />
 <b>{DOWNLOAD}</b><br />

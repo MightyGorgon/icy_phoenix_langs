@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 {WELCOME_MSG}
 
-Nell'attesa dell'atto di Responsabilit‡ Minore il Tuo account rimmarr‡ inattivo.
+Nell'attesa dell'atto di Responsabilit√† Minore il Tuo account rimmarr√† inattivo.
 
 Stampa questo messaggio. Letto e approvato dal Genitore o dal Tutore Legale attendiamo fax a
 

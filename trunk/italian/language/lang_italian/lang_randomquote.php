@@ -49,7 +49,7 @@ $randomquote = array(
 	'Diventa un possibilista. Non importa quanto buie sembrino essere le cose o quanto lo siano davvero, eleva la tua visione fino a vedere le possibilit&agrave, - guardale sempre, dato che sono sempre presenti. (Norman Vincent Peale)',
 	'"Cercavo disperatamente la vita. Poi mi accorsi che in questa affannosa ricerca si celava lei medesima." (Lisandro)',
 	'Il tiro peggiore che la sorte possa giocare ad un uomo intelligente &egrave, metterlo alle dipendenze di uno sciocco. (Casanova Giacomo)',
-	'I cretini sono sempre pi&ugrave, ingegnosi delle precauzioni che si prendono per impedire loro di nuocere. (8° corollario alla Legge di Murphy)',
+	'I cretini sono sempre pi&ugrave, ingegnosi delle precauzioni che si prendono per impedire loro di nuocere. (8Â° corollario alla Legge di Murphy)',
 	'Per quanto possa ricordare, non vi &egrave, una sola parola nei Vangeli in lode dell\'intelligenza. (Bertrand Russell)',
 	'Non esiste nessuna adeguata difesa, eccetto la stupidit&agrave,, contro l\'impatto di una nuova idea. (P. W. Bridgman)',
 	'Due cose sono infinite: l\'universo e la stupidit&agrave, umana, ma riguardo l\'universo ho ancora dei dubbi. (A. Einstein)',

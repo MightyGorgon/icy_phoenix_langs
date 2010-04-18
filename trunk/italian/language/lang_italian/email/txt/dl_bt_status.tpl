@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 Ciao {USERNAME},
 
-Ricevi questa email perché il bug report {REPORT_TITLE} da te segnalato su {SITENAME} è stato modificato.
+Ricevi questa email perchÃ© il bug report {REPORT_TITLE} da te segnalato su {SITENAME} Ã¨ stato modificato.
 
 Nuovo stato: {STATUS}.
 

@@ -469,7 +469,7 @@ $mtnc[] = array('--', '', '', '', 0);
 $mtnc[] = array('synchronize_post',
 	'Sincronizza forum e discussioni',
 	'Questa operazione permette di sincronizzare il contatore dei post nelle discussioni e nei forum.',
-	'Questa funzione potrebbe richiedere un certo tempo per terminare. Se il tuo server non permette l\'uso del comando the set_time_limit(), questa operazione potrebbe essere interrotta dal PHP. Non verr&agrave; perso nessun dato, ma non tutti i dati potrebbero essere aggiornati. Procedi?',
+	'Questa funzione potrebbe richiedere un certo tempo per terminare. Se il tuo server non permette l\'uso del comando set_time_limit(), questa operazione potrebbe essere interrotta dal PHP. Non verr&agrave; perso nessun dato, ma non tutti i dati potrebbero essere aggiornati. Procedi?',
 	0);
 $mtnc[] = array('synchronize_user',
 	'Sincronizza contatore post utenti',

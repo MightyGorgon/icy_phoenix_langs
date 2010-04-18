@@ -3,7 +3,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 
-Questo Ë un messaggio automatico spedito per avvertirti che il tuo account su <b>"{SITENAME}"</b> Ë stato eliminato per inattivit‡.<br /><br />
+Questo √® un messaggio automatico spedito per avvertirti che il tuo account su <b>"{SITENAME}"</b> √® stato eliminato per inattivit√†.<br /><br />
 
 Se vuoi diventare parte attiva della nostra comunity, per cortesia registrati nuovamente utilizzando questo:<br /><br />
 

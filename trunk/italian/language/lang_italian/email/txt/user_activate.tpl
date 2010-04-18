@@ -3,8 +3,8 @@ Charset: iso-8859-1
 
 Salve {USERNAME},
 
-Il tuo account su "{SITENAME}" è stato disattivato, 
-probabilmente perchè hai modificato dei parametri sensibili nel profilo (es. Indirizzo email o password)
+Il tuo account su "{SITENAME}" Ã¨ stato disattivato, 
+probabilmente perchÃ¨ hai modificato dei parametri sensibili nel profilo (es. Indirizzo email o password)
 
 Clicca link per riattivarlo: 
 

@@ -1,7 +1,7 @@
 {MESSAGE}
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Questa email vi è stata inviata da {FROM_USERNAME} tramite il suo account sul {SITENAME}. 
+Questa email vi Ã¨ stata inviata da {FROM_USERNAME} tramite il suo account sul {SITENAME}. 
 Se considerate questo messaggio come spam, offensivo o illegale, contattate l'
 amministratore all'indirizzo :
 

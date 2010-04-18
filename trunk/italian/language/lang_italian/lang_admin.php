@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'Optimize_DB' => 'Ottimizza Database',
 	'Optimize_Enable_cron' => 'Abilita Cron',
 	'Optimize_Cron_every' => 'Cron Ogni',
-	'Optimize_Cron_every_explain' => 'Per poter utilizzare questa funzione, ricorda che devi abilitare <b>PHP Cron [Global Switch]</b> in <b>Configurazione &raquo; Icy Phoenix &raquo; Cron</b>',
+	'Optimize_Cron_every_explain' => 'Per poter utilizzare questa funzione, ricorda che devi abilitare <b>PHP Cron [Global Switch]</b> in <b>ACP &raquo; Configurazione &raquo; Cron</b>',
 	'Optimize_month' => 'Mese',
 	'Optimize_2weeks' => '2 Settimane',
 	'Optimize_week' => 'Settimana',
@@ -352,6 +352,7 @@ $lang = array_merge($lang, array(
 	'Use_SMTP' => 'Usa un Server SMTP per le email',
 	'Use_SMTP_explain' => 'Rispondi s&igrave; se vuoi o devi inviare email attraverso un server specifico invece della funzione mail locale',
 	'SMTP_server' => 'Indirizzo Server SMTP',
+	'SMTP_port' => 'Porta SMTP',
 	'SMTP_username' => 'Username SMTP',
 	'SMTP_username_explain' => 'Compila il campo username soltanto se il server lo richiede',
 	'SMTP_password' => 'Password SMTP',
@@ -779,8 +780,8 @@ $lang = array_merge($lang, array(
 	'L_ADMINEDITMSG' => 'Non hai il permesso di modificare i dati del profilo o i permessi dell\'Amministratore principale.<br /><br />Questo accesso &egrave; stato annotato e bloccato con successo!',
 
 // Advanced Signature Divider Control
-	'sig_title' => 'Controllo Avanzato Separatore della Firma',
-	'sig_divider' => 'Separatore della Firma attuale',
+	'sig_title' => 'Separatore Firma',
+	'sig_divider' => 'SeparatoreFirma',
 	'sig_explain' => 'Da qui puoi controllare che Separatore utilizzare per dividere la firma degli utenti dai loro post.',
 
 // Start add - Yellow card admin MOD
@@ -1055,11 +1056,11 @@ $lang = array_merge($lang, array(
 	'Account_user_deleted' => 'L\'Utente &egrave; stato eliminato.',
 	'Account_users_deleted' => 'Gli Utenti sono stati eliminati.',
 	'Account_activated' => 'Attivazione Account',
-	'Account_activated_text' => 'Il tuo account è stato attivato',
+	'Account_activated_text' => 'Il tuo account Ã¨ stato attivato',
 	'Account_deactivated' => 'Disattivazione Account',
-	'Account_deactivated_text' => 'Il tuo account è stato disattivato',
+	'Account_deactivated_text' => 'Il tuo account Ã¨ stato disattivato',
 	'Account_deleted' => 'Eliminazione Account',
-	'Account_deleted_text' => 'Il tuo account è stato eliminato',
+	'Account_deleted_text' => 'Il tuo account Ã¨ stato eliminato',
 	'Account_notification' => 'E-mail di notifica spedita.',
 
 // Acronyms
@@ -1109,7 +1110,7 @@ $lang = array_merge($lang, array(
 	'Email_List' => 'Lista Email',
 	'Poll Results' => 'Risultati Sondaggi',
 
-	'Php_Info_Explain' => 'In questa pagina sono elencate le informazioni sulla versione di PHP installata sul server. Sono inclusi in modo dettagliato i moduli caricati, le variabili disponibili, e le impostazioni predefinite. Queste informazioni potrebbero rivelarsi utili per la diagnosi dei problemi. Fatte attenzione, perchè alcuni hosting limitano le informazioni visualizzabili per ragioni di sicurezza. Si raccomanda di non fornire i dettagli di questa pagina tranne quando si richiede aiuto nel forum di Supporto.',
+	'Php_Info_Explain' => 'In questa pagina sono elencate le informazioni sulla versione di PHP installata sul server. Sono inclusi in modo dettagliato i moduli caricati, le variabili disponibili, e le impostazioni predefinite. Queste informazioni potrebbero rivelarsi utili per la diagnosi dei problemi. Fatte attenzione, perchÃ¨ alcuni hosting limitano le informazioni visualizzabili per ragioni di sicurezza. Si raccomanda di non fornire i dettagli di questa pagina tranne quando si richiede aiuto nel forum di Supporto.',
 
 
 //XS2 Forum Header
@@ -1481,7 +1482,7 @@ $lang = array_merge($lang, array(
 	'back_arcs' => 'Linee Curve',
 	'back_lines' => 'Linee',
 	'back_image' => 'Immagine di Sfondo',
-	'back_image_explain' => 'Questa Funzione non è ancora supportata',
+	'back_image_explain' => 'Questa Funzione non Ã¨ ancora supportata',
 
 	'foreground_lattice' => 'Griglia di Sfondo',
 	'foreground_lattice_explain' => '(larghezza x altezza)<br />Genera una griglia sul CAPTCHA',
@@ -1550,7 +1551,7 @@ $lang = array_merge($lang, array(
 	'faq_quest_edit' => 'Modifica Domande & Risposte',
 	'faq_quest_create' => 'Crea Nuove Domande & Risposte',
 
-	'faq_quest_edit_explain' => 'Modifica Domanda e risposta, può anche cambiare il Blocco se volete',
+	'faq_quest_edit_explain' => 'Modifica Domanda e risposta, puÃ² anche cambiare il Blocco se volete',
 	'faq_quest_create_explain' => 'Digitate la nuova Domanda e Risposta e premete Invia.',
 
 	'faq_block' => 'Blocco',
@@ -1564,7 +1565,7 @@ $lang = array_merge($lang, array(
 	'faq_block_add' => 'Aggiungi Blocco',
 	'faq_quest_add' => 'Aggiungi Domanda',
 
-	'faq_no_quests' => 'Nessuna domanda in qusto blocco. Questo impedirà ai blocchi dopo questo di essere visualizzati. Cancellate il blocco o aggiungetvi Domande.',
+	'faq_no_quests' => 'Nessuna domanda in qusto blocco. Questo impedirÃ  ai blocchi dopo questo di essere visualizzati. Cancellate il blocco o aggiungetvi Domande.',
 	'faq_no_blocks' => 'Nessun Blocco definito, per aggiungere nuove domande e risposte dovete creare almeno un Blocco.',
 
 	'faq_write_file' => 'Impossibile Scrivere sul file!',
@@ -1584,7 +1585,7 @@ $lang = array_merge($lang, array(
 	'rules_quest_edit' => 'Modifica Domande & Risposte',
 	'rules_quest_create' => 'Crea Nuove Domande & Risposte',
 
-	'rules_quest_edit_explain' => 'Modifica Domanda e risposta, può anche cambiare il Blocco se volete',
+	'rules_quest_edit_explain' => 'Modifica Domanda e risposta, puÃ² anche cambiare il Blocco se volete',
 	'rules_quest_create_explain' => 'Digitate la nuova Domanda e Risposta e premete Invia.',
 
 	'rules_block' => 'Blocco',
@@ -1598,7 +1599,7 @@ $lang = array_merge($lang, array(
 	'rules_block_add' => 'Aggiungi Blocco',
 	'rules_quest_add' => 'Aggiungi Domanda',
 
-	'rules_no_quests' => 'Nessuna domanda in qusto blocco. Questo impedirà ai blocchi dopo questo di essere visualizzati. Cancellate il blocco o aggiungetvi Domande.',
+	'rules_no_quests' => 'Nessuna domanda in qusto blocco. Questo impedirÃ  ai blocchi dopo questo di essere visualizzati. Cancellate il blocco o aggiungetvi Domande.',
 	'rules_no_blocks' => 'Nessun Blocco definito, per aggiungere nuove domande e risposte dovete creare almeno un Blocco.',
 
 	'rules_write_file' => 'Impossibile Scrivere sul file!',
@@ -1864,7 +1865,7 @@ $lang = array_merge($lang, array(
 
 // Restore
 	'ACP_RESTORE' => 'Ripristina Database',
-	'ACP_RESTORE_EXPLAIN' => 'Effettua un ripristino completo di tutte le tabelle del tuo sito da un file salvato precedentemente. Se il tuo server lo supporta puoi utilizzare la compressione gzip o bzip2, i file verranno decompressi automaticamente. <strong>ATTENZIONE</strong> Verranno sovrascritti tutti i dati attuali. Il ripristino può impiegare molto tempo dipende dalla grandezza del database, non uscire questa pagina fino al completamento del ripristino. I backup sono memorizzati nella cartella <b><samp>backup/</samp></b> e sono generati dalla funzione backup di questo sistema. Il ripristino di backup non generati da questo stesso sistema potrebbe non funzionare correttamente.<br /><br /><strong class="text_red">Importante: se il backup da ripristinare &egrave; troppo grande, potrebbe essere possibile che il timeout impedisca il corretto ripristino ed il sito non funzioni piì&ugrave; correttamente. In questo caso potrebbe essere necessario scaricare il file di backup direttamente dal server ed utilizzre un\'applicazione diversa per ripristinarlo (phpMyAdmin o MySQLDumper ad esempio).</strong><br /><br />',
+	'ACP_RESTORE_EXPLAIN' => 'Effettua un ripristino completo di tutte le tabelle del tuo sito da un file salvato precedentemente. Se il tuo server lo supporta puoi utilizzare la compressione gzip o bzip2, i file verranno decompressi automaticamente. <strong>ATTENZIONE</strong> Verranno sovrascritti tutti i dati attuali. Il ripristino puÃ² impiegare molto tempo dipende dalla grandezza del database, non uscire questa pagina fino al completamento del ripristino. I backup sono memorizzati nella cartella <b><samp>backup/</samp></b> e sono generati dalla funzione backup di questo sistema. Il ripristino di backup non generati da questo stesso sistema potrebbe non funzionare correttamente.<br /><br /><strong class="text_red">Importante: se il backup da ripristinare &egrave; troppo grande, potrebbe essere possibile che il timeout impedisca il corretto ripristino ed il sito non funzioni piÃ¬&ugrave; correttamente. In questo caso potrebbe essere necessario scaricare il file di backup direttamente dal server ed utilizzre un\'applicazione diversa per ripristinarlo (phpMyAdmin o MySQLDumper ad esempio).</strong><br /><br />',
 	'RESTORE_OPTIONS' => 'Opzioni Ripristino',
 
 	'Restore_Success' => 'Il database &egrave; stato ripristinato correttamente.',
@@ -2002,14 +2003,14 @@ $lang = array_merge($lang, array(
 // Tickets Submission - END
 
 	'FORUM_LIMIT_EDIT_TIME' => 'Limitazione Temporale Modifica Messaggi',
-	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'Abilitando questa opzione gli utenti potranno modificare i propri messaggi solo entro il numero di minuti stabilito nella configurazione messaggi di Icy Phoenix (ACP &raquo; Configurazione &raquo; Icy Phoenix &raquo; Messaggi)',
+	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'Abilitando questa opzione gli utenti potranno modificare i propri messaggi solo entro il numero di minuti stabilito nella configurazione messaggi di Icy Phoenix (ACP &raquo; Configurazione &raquo; Messaggi)',
 
 	'BACK_TO_TOP' => 'Torna Su',
 	'BACK_TO_PREV' => 'Torna alla pagina precedente',
 
 // Custom BBCodes - BEGIN
 	'BBCODES_CUSTOM_BBCODES' => 'BBCode Personalizzati',
-	'BBCODES_CUSTOM_BBCODES_EXPLAIN' => 'In questa sezione puoi creare dei BBCodes personalizzati. Per poter utilizzare questi BBCode devi attivare <b>Abilita i BBCode personalizzati</b> in <b>Configurazione &raquo; Icy Phoenix &raquo; Messaggi</b>.',
+	'BBCODES_CUSTOM_BBCODES_EXPLAIN' => 'In questa sezione puoi creare dei BBCodes personalizzati. Per poter utilizzare questi BBCode devi attivare <b>Abilita i BBCode personalizzati</b> in <b>ACP &raquo; Configurazione &raquo; Messaggi</b>.',
 	'BBCODES_NO_BBCODES' => 'Nessun BBCode',
 	'BBCODES_NO_BBCODES_SEL' => 'Nessun BBCode selezionato',
 	'BBCODES_NO_BBCODES_INPUT' => 'Devi compilare almeno il Tag BBCode',
@@ -2067,6 +2068,15 @@ $lang = array_merge($lang, array(
 	'PLUGINS_FOLDER' => 'Directory',
 	'PLUGINS_NAME' => 'Nome',
 	'PLUGINS_DESCRIPTION' => 'Descrizione',
+	'PLUGINS_VERSION' => 'Versione',
+	'PLUGINS_CURRENT_VERSION' => 'Versione installata',
+	'PLUGINS_LAST_VERSION' => 'Versione disponibile',
+	'PLUGINS_INSTALL' => 'Installa',
+	'PLUGINS_UPGRADE' => 'Aggiorna',
+	'PLUGINS_UNINSTALL' => 'Disinstalla',
+	'PLUGINS_UP_TO_DATE' => 'Aggiornata',
+	'PLUGINS_NOT_INSTALLED' => 'Non installata',
+	'PLUGINS_OUTDATED' => 'Non aggiornata',
 	'PLUGINS_UPDATE_CONFIG' => 'Aggiorna Configurazione',
 	'PLUGINS_CONFIG_UPDATED' => 'Configurazione plugins aggiornata correttamente. E\' necessario ricaricare l\'ACP (F5) per aggiornare i moduli.',
 	'PLUGINS_RETURN_CLICK' => 'Clicca %sQUI%s per tornare alla configurazione plugin',
@@ -2142,7 +2152,7 @@ $lang['privmsgs_type'] = $lang['PM_Type'];
 
 // Configuration
 $lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_lang_user_created.php, admin_upi2db.php
-$lang['100_Main_Settings'] = 'Impostazioni Principali';										// admin_config_settings.php
+$lang['100_Main_Settings'] = 'Configurazione';										// admin_config_settings.php
 $lang['110_Various_Configuration'] = 'Impostazioni Varie';								// admin_board.php
 $lang['125_Language'] = 'Variabili Lingua';																// admin_lang_user_created.php
 $lang['127_Clear_Cache'] = 'Svuotamento Cache';														// admin_board_clearcache.php

@@ -3,7 +3,7 @@ Charset: iso-8859-1
 
 Ciao {USERNAME},
 
-Ricevi questa comunicazione perché è stato inserito o modificato un file su {SITENAME} nella categoria {CATEGORY} e devi valutarne l'approvazione.
+Ricevi questa comunicazione perchÃ© Ã¨ stato inserito o modificato un file su {SITENAME} nella categoria {CATEGORY} e devi valutarne l'approvazione.
 
 ---------------------------
 {DOWNLOAD}

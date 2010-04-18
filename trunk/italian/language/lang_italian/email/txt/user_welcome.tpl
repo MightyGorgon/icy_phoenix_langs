@@ -10,8 +10,8 @@ Utente  : {USERNAME}
 Password: {PASSWORD}
 ----------------------------
 
-Non scordare la password perchÈ Ë criptata nel database e non Ë possibile recuperarla.
-In caso di smarrimento della password, sar‡ comunque possibile richiederne una nuova dalla pagina di login.
+Non scordare la password perch√© √® criptata nel database e non √® possibile recuperarla.
+In caso di smarrimento della password, sar√† comunque possibile richiederne una nuova dalla pagina di login.
 
 Grazie per aver scelto il nostro sito.
 

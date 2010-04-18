@@ -4,7 +4,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 
-Ricevi questa email perché il bug report {REPORT_TITLE} da te segnalato su <b>{SITENAME}</b> è stato modificato.<br /><br />
+Ricevi questa email perchÃ© il bug report {REPORT_TITLE} da te segnalato su <b>{SITENAME}</b> Ã¨ stato modificato.<br /><br />
 
 Nuovo stato: {STATUS}.<br /><br />
 

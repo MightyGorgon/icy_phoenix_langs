@@ -3,9 +3,9 @@ Charset: iso-8859-1
 
 Salve {USERNAME},
 
-La tua registrazione su  "{SITENAME}" è stata attivata. 
+La tua registrazione su  "{SITENAME}" Ã¨ stata attivata. 
 Puoi effettuare il login utilizzando il nome utente e la password 
-che ti è stata comunicata, in precedenza.
+che ti Ã¨ stata comunicata, in precedenza.
 
 
 {EMAIL_SIG}

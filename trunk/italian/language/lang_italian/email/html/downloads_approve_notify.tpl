@@ -4,7 +4,7 @@ Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 
-Ricevi questa comunicazione perché è stato inserito o modificato un file su <b>{SITENAME}</b> nella categoria <b>{CATEGORY}</b> e devi valutarne l'approvazione.<br /><br />
+Ricevi questa comunicazione perchÃ© Ã¨ stato inserito o modificato un file su <b>{SITENAME}</b> nella categoria <b>{CATEGORY}</b> e devi valutarne l'approvazione.<br /><br />
 
 ---------------------------<br />
 <b>{DOWNLOAD}</b><br />
