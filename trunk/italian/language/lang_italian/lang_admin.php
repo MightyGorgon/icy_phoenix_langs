@@ -2212,7 +2212,7 @@ $lang['170_db_update_generator'] = 'Generatore DB PHP';				// admin_db_generator
 $lang['180_msqd'] = 'MySQLDumper';														// admin_msqd.php
 
 // Plugins
-$lang['1500_Plugins'] = 'Plugins';														// admin_plugins.php
+$lang['3000_Plugins'] = 'Plugins';														// admin_plugins.php
 $lang['100_Plugins_Modules'] = 'Moduli Plugins';							// admin_plugins.php
 
 // News
@@ -2320,8 +2320,23 @@ $lang['130_GD_Info'] = 'GD Info';														// admin_gd_info.php
 $lang['140_HTTP_REF'] = 'HTTP Referrers';										// admin_referrers.php
 $lang['150_Google_BOT'] = 'Google Bot';											// admin_google_bot_detector.php
 
+// STATS
+$lang['2500_STATS'] = 'Statistiche';												// admin_statistics.php
+
+// CRACKER/TRACKER
+$lang['2600_CRACKERTRACKER'] = 'Cracker Tracker';						// admin_cracker_tracker.php
+
+// Plugins
+$lang['3000_Plugins'] = 'Plugins';														// admin_plugins.php
+$lang['100_Plugins_Modules'] = 'Moduli Plugins';							// admin_plugins.php
+
+// Cash
+$lang['3100_CASH'] = 'Cash / Punti'; // admin_cash.php
+$lang['110_Cash_Admin'] = 'Gestione Divise'; // admin_cash.php
+$lang['120_Cash_Help'] = 'Aiuto'; // admin_cash.php
+
 // Activity
-$lang['3000_ACTIVITY'] = 'Activity / Giochi';								// admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
+$lang['3200_ACTIVITY'] = 'Activity / Giochi';								// admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
 $lang['110_Configuration'] = 'Configurazione';							// admin_activity.php
 $lang['120_Add_Game'] = 'Aggiunta Gioco';										// admin_activity.php
 $lang['130_Edit_Games'] = 'Modifica Giochi';								// admin_activity.php
@@ -2335,11 +2350,6 @@ $lang['200_Mass_Change'] = 'Configurazioni Di Massa';				// admin_ina_mass.php
 $lang['210_Scores_Editor'] = 'Modifica Records';						// admin_ina_scores.php
 $lang['220_Xtras'] = 'Impostazioni Extra';									// admin_ina_xtras.php
 $lang['230_Check_Games'] = 'Lista Giochi';									// admin_ina_xtras.php
-
-// Cash
-$lang['3100_CASH'] = 'Cash / Punti'; // admin_cash.php
-$lang['110_Cash_Admin'] = 'Gestione Divise'; // admin_cash.php
-$lang['120_Cash_Help'] = 'Aiuto'; // admin_cash.php
 
 // ####################### [ ACP Navigation END ] #######################
 
