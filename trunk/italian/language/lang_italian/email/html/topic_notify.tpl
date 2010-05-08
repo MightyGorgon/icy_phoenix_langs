@@ -5,7 +5,7 @@ Charset: iso-8859-1
 Ciao <b>{USERNAME}</b>!<br /><br />
 
 <b>{POSTERNAME}</b> ha inviato una nuova risposta a <b>"{TOPIC_TITLE}"</b> in <b>"{FORUM_NAME}"</b> sul forum <b>{SITENAME}</b>.<br /><br />
-Puoi utilizzare il seguente link per visualizzare le risposte inviate:<br /><br />
+Puoi utilizzare il seguente link per visualizzare le risposte inviate (non verranno inviate ulteriori notifiche finché non visiterai la discussione):<br /><br />
 
 <a href="{U_TOPIC}" target="_blank">{U_TOPIC}</a>
 <br /><br />

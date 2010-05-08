@@ -2372,6 +2372,14 @@ $lang = array_merge($lang, array(
 	'MB' => 'MB',
 	'GB' => 'GB',
 
+	'NO_EVENTS' => 'Nessun evento pianificato',
+	'EVENT_START_DATE' => 'Data Inizio',
+	'EVENT_START_TIME' => 'Ora Inizio',
+	'EVENT_END_DATE' => 'Data Fine',
+	'EVENT_END_TIME' => 'Ora Fine',
+	'EVENT_TITLE' => 'Evento',
+	'EVENT_FORUM' => 'Categoria',
+
 	)
 );
 

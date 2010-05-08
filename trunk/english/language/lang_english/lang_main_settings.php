@@ -37,7 +37,7 @@ $lang['REGISTER_MESSAGE'] = '';
 
 $lang['Welcome_Message'] = 'Welcome to <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Welcome to %s';
-$lang['register_pm'] = "Hello!\n\nWelcome to %s.\n\nWe hope you enjoy your time at this site!\n\nFeel free to join in and share with others or start your own discussion!\n\nEnjoy!\n[b]%s[/b]Staff";
+$lang['register_pm'] = "Hello!\n\nWelcome to %s.\n\nWe hope you enjoy your time at this site!\n\nFeel free to join in and share with others or start your own discussion!\n\nEnjoy!\n[b]%s[/b] Staff";
 
 $lang['Support_Us'] = 'Support Us';
 $lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '" title="' . $lang['Support_Us'] . '" />';
@@ -67,10 +67,12 @@ $lang['HEADER_XML_LANG'] = 'en-gb';
 $lang['LEFT'] = 'left';
 $lang['RIGHT'] = 'right';
 $lang['DATE_FORMAT'] = 'd F y H:i'; // This should be changed to the default date format for your language, php date() format
+$lang['DATE_FORMAT_DATE'] = 'Y/m/d';
+$lang['DATE_FORMAT_TIME'] = 'H.i';
 $lang['DATE_FORMAT_MG'] = 'Y/m/d - H:i';
 $lang['DATE_FORMAT_VF'] = 'd M Y';
 $lang['DATE_FORMAT_BIRTHDAY'] = 'd F Y';
-$lang['DATE_FORMAT2'] = 'd F Y'; // This should be changed to the default date format for your language, php date() format
+$lang['DATE_FORMAT_CALENDAR'] = 'd F Y'; // This should be changed to the default date format for your language, php date() format
 $lang['JOINED_DATE_FORMAT'] = 'F Y'; // Date format of Joined date, php date() format
 
 // This is optional, if you would like a _SHORT_ message output

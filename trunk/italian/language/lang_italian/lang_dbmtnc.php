@@ -252,6 +252,8 @@ $lang = array_merge($lang, array(
 	'Click_or_wait_to_proceed' => 'Clicca qui per procedere o aspetta qualche secondo',
 	'Indexing_progress' => '%d di %d posts (%01.1f%%) sono stati indicizzati. Ultimo post indicizzato: %d',
 	'Indexing_finished' => 'La ricostruzione dell\'indice &egrave; terminata correttamente',
+// synchronize_notify_forum_id
+	'Synchronizing_notify_forum_ids' => 'Sincronizzazione ID forum nella tabella notifiche in corso',
 	// synchronize_post
 	'Synchronize_posts' => 'Sincronizzazione dati dei post in corso',
 	'Synchronize_topic_data' => 'Sincronizzazione Discussioni in corso',
@@ -497,6 +499,11 @@ $mtnc[] = array('sync_topics_subjects',
 	'Sincronizzazione titoli discussioni',
 	'Questa operazione permette di sincronizzare i titoli dei primi messaggi di ogni argomento con il titolo dell\'argomento. Non dovresti aver bisogno di usare questa funzione in condizioni d\'uso normali.',
 	'Questa operazione permette di sincronizzare i titoli dei primi messaggi di ogni argomento con il titolo dell\'argomento. Il sito non sar&agrave; accessibile durante questo periodo di tempo. Procedi?',
+	0);
+$mtnc[] = array('synchronize_notify_forum_id',
+	'Sincronizzazione forum ID tabella notifiche',
+	'Questa funzione sincronizza gli ID dei forum per ciascun topic inserito nella tabella notifiche. Non dovresti aver bisogno di usare questa funzione in condizioni d\'uso normali.',
+	'',
 	0);
 $mtnc[] = array('rebuild_search_index',
 	'Ricostruisci l\'indice di ricerca',
