@@ -1974,10 +1974,10 @@ $lang = array_merge($lang, array(
 /* lang_site_hist.php - END */
 
 /* lang_referrers.php - BEGIN */
-	'Referrers_Title' => 'Http Referrers Managememnt',
-	'Referrers_Cleared' => 'Referrers Cleared',
-	'Referrers_Clear' => 'Delete All',
-	'Click_Return_Referrers' => 'Click %sHere%s to return to Referrers',
+	'Referrers_Title' => 'Gestione Http Referrers',
+	'Referrers_Cleared' => 'Referrers Eliminati',
+	'Referrers_Clear' => 'Elimina Tutti',
+	'Click_Return_Referrers' => 'Clicca %sQUI%s per tornare ai Referrers',
 	'Referrers' => 'Http Referrers',
 	'Referrer_host' => 'Host del Referrer',
 	'Referrer_url' => 'URL del Referrer',
@@ -2027,6 +2027,9 @@ $lang = array_merge($lang, array(
 	'Uploaded_Image_BBC' => 'Per allegare questa immagine nei post, puoi usare questo BBCode.',
 	'Upload_Image_Empty' => 'Non puoi caricare aria sul server... seleziona un file!',
 	'Upload_File_Too_Big' => 'Il file che stai cercando di caricare &egrave; troppo grande! Dimensione massima consentita:',
+	'Upload_File_Error' => 'Errore sconosciuto',
+	'Upload_File_Error_Size' => 'Dimensioni eccessive!',
+	'Upload_File_Error_Type' => 'Tipo file non consentito!',
 	'Upload_File_Type_Allowed' => 'Soltanto questi tipi di immagine possono essere caricati',
 	'Upload_Insert_Image' => 'Inserisci BBCode',
 	'Upload_Close' => 'Chiudi',
@@ -2379,6 +2382,34 @@ $lang = array_merge($lang, array(
 	'EVENT_END_TIME' => 'Ora Fine',
 	'EVENT_TITLE' => 'Evento',
 	'EVENT_FORUM' => 'Categoria',
+
+	'MAX_OPTIONS_SELECT' => 'Puoi scegliere fino a <strong>%d</strong> opzioni',
+	'MAX_OPTION_SELECT' => 'Puoi usare <strong>1</strong> opzione',
+	'NO_POLLS' => 'Nessun Sondaggio',
+	'NO_VOTE_OPTION' => 'Devi selezionare un\'opzione per votare.',
+	'NO_VOTES' => 'Nessun voto',
+	'POLL_ENDED_AT' => 'Sondaggio concluso il %s',
+	'POLL_MAX_OPTIONS' => 'Numero opzioni',
+	'POLL_MAX_OPTIONS_EXPLAIN' => 'Numero massimo di opzioni selezionabili',
+	'POLL_NO_GUESTS' => 'Siamo spiacenti, ma gli ospiti non possono votare',
+	'POLL_RUN_TILL' => 'Il sondaggio termina il %s',
+	'POLL_VOTE_CHANGE' => 'Consenti variazione voto',
+	'POLL_VOTED_OPTION' => 'Hai votato questa opzione',
+	'TOO_MANY_VOTE_OPTIONS' => 'Stai tentando di votare con troppe ozioni.',
+	'VIEW_POLL' => 'Visualizza Sondaggio',
+	'VOTE_SUBMITTED' => 'Il tuo voto &egrave; stato registrato.',
+	'VOTE_CONVERTED' => 'Non &egrave; supportato il cambio voto per sondaggi convertiti.',
+
+	'FORM_INVALID' => 'Il form inviato non è valido. Prova a inviarlo di nuovo.',
+
+	'AUTH_NONE' => 'NESSUNO',
+	'AUTH_ALL' => 'TUTTI',
+	'AUTH_REG' => 'REG',
+	'AUTH_SELF' => 'PROPRI',
+	'AUTH_PRIVATE' => 'PRIVATO',
+	'AUTH_MOD' => 'MOD',
+	'AUTH_JADMIN' => 'J ADMIN',
+	'AUTH_ADMIN' => 'ADMIN',
 
 	)
 );
