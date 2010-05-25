@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 // Index
 	'Admin' => 'Amministrazione',
 	'Not_admin' => 'Non sei autorizzato ad Amministrare questo Forum',
-	'Welcome_phpBB' => 'Benvenuto in Icy Phoenix',
+	'Welcome_IP' => 'Benvenuto in Icy Phoenix',
 	'Admin_intro' => 'Grazie per aver scelto Icy Phoenix come Forum. Questa schermata mostra alcune Statistiche del tuo Forum. Puoi tornare a questa pagina cliccando sul link <u>ACP</u> in cima alla pagina. Per tornare all\'indice del tuo forum, clicca sul link <u>Forum</u> in cima alla pagina. Gli altri collegamenti nella parte sinistra dello schermo ti permettono di controllare ogni aspetto del tuo Forum, in tutte le schermata avrai le informazioni su come usare al meglio le varie funzioni. Per maggiori info e supporto visita <a href="http://www.icyphoenix.com" target="_blank"><strong>icyphoenix.com</strong></a>.',
 	'PayPalInfo' => 'Icy Phoenix &egrave; un progetto open source, se vuoi contribuire allo sviluppo puoi usare il link sottostante.',
 	'Main_index' => 'Forum',
@@ -738,7 +738,7 @@ $lang = array_merge($lang, array(
 	'Version_information' => 'Informazione Versione',
 	'Version_not_checked' => 'La verifica della versione &egrave; disabilitata, visita il sito di Icy Phoenix per informazioni su nuove versioni.',
 
-// Start add - Birthday MOD
+// BIRTHDAY - BEGIN
 	'Birthday_required' => 'Imponi agli utenti di selezionare la data di nascita',
 	'Enable_birthday_greeting' => 'Abilita auguri di compleanno',
 	'Birthday_greeting_explain' => 'Agli utenti che hanno indicato la loro data di nascita, in occasione del loro compleanno il forum invier&agrave; gli auguri',
@@ -749,7 +749,7 @@ $lang = array_merge($lang, array(
 	'Min_user_age' => 'Et&agrave; minima utente',
 	'Birthday_lookforward' => 'Compleanno nei giorni successivi',
 	'Birthday_lookforward_explain' => 'Quanti giorni avanti lo script dovr&agrave; cercare i compleanni',
-// End add - Birthday MOD
+// BIRTHDAY - END
 
 	'Main_Admin_Undeleted' => 'L\'amministratore principale non pu&ograve; essere cancellato!',
 	'Main_Admin_Unchanged_Profile' => 'Non puoi modificare il profilo dell\'amministratore principale!',

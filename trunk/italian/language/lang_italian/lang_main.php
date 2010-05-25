@@ -127,11 +127,12 @@ $lang = array_merge($lang, array(
 	'View_newest_post' => 'Leggi i nuovi Messaggi',
 	'Page_of' => 'Pagina <b>%d</b> di <b>%d</b>', // Replaces with: Page 1 of 2 for example
 
-	'ICQ' => 'ICQ',
 	'AIM' => 'Indirizzo AIM',
+	'ICQ' => 'ICQ',
+	'JABBER' => 'Jabber',
 	'MSNM' => 'MSN Live',
-	'YIM' => 'Yahoo Messenger',
 	'SKYPE' => 'Skype',
+	'YIM' => 'Yahoo Messenger',
 
 	'Forum_Index' => 'Forum', // eg. sitename Forum Index, %s can be removed if you prefer
 
@@ -756,13 +757,13 @@ $lang = array_merge($lang, array(
 // Memberslist
 	'Select_sort_method' => 'Seleziona un ordine',
 	'Sort' => 'Ordina',
-	'Sort_Top_Ten' => 'I Migliori 10 Autori',
-	'Sort_Joined' => 'Data di Registrazione',
-	'Sort_Username' => 'Username',
-	'Sort_Location' => 'Localit&agrave;',
-	'Sort_Posts' => 'Messaggi totali',
-	'Sort_Email' => 'Email',
-	'Sort_Website' => 'Sito Web',
+	'SORT_TOP_TEN' => 'I Migliori 10 Autori',
+	'SORT_JOINED' => 'Data di Registrazione',
+	'SORT_USERNAME' => 'Username',
+	'SORT_LOCATION' => 'Localit&agrave;',
+	'SORT_POSTS' => 'Messaggi totali',
+	'SORT_EMAIL' => 'Email',
+	'SORT_WEBSITE' => 'Sito Web',
 	'Sort_Ascending' => 'Crescente',
 	'Sort_Descending' => 'Decrescente',
 	'Order' => 'Ordina',
@@ -995,7 +996,7 @@ $lang = array_merge($lang, array(
 	'Recent_Logins' => 'Ultimo accesso',
 	'Users_Display' => 'Utenti per pagina',
 
-// Start add - Birthday MOD
+// BIRTHDAY - BEGIN
 	'Birthday' => 'Compleanno',
 	'No_birthday_specify' => 'Non si chiede l\'et&agrave;',
 	'Age' => 'Et&agrave;',
@@ -1014,7 +1015,7 @@ $lang = array_merge($lang, array(
 	'Year' => 'Anno',
 	'Month' => 'Mese',
 	'Day' => 'Giorno',
-// End add - Birthday MOD
+// BIRTHDAY - END
 
 // Start add - Who viewed a topic MOD
 	'Topic_view_users' => 'Utenti che hanno visualizzato questo argomento',
@@ -1710,13 +1711,24 @@ $lang = array_merge($lang, array(
 	'Users_Hidden' => 'Nascosti',
 // Mighty Gorgon - Enhanced Online - END
 // Mighty Gorgon - Power Memberlist - BEGIN
-	'Fast' => 'Veloce',
-	'Standard' => 'Standard',
 	'Style' => 'Stile',
 	'User_Contacts' => 'Contatti',
 	'Memberlist_Users_Display' => 'Utenti per pagina:',
-	'Sort_LastLogon' => 'Ultima Visita',
-	'Sort_Birthday' => 'Compleanno',
+	'SORT_FAST' => 'Veloce',
+	'SORT_STANDARD' => 'Standard',
+	'SORT_RANK' => 'Livello',
+	'SORT_STAFF' => 'Staff',
+	'SORT_STYLE' => 'Stile',
+	'SORT_LASTLOGON' => 'Ultima Visita',
+	'SORT_BIRTHDAY' => 'Compleanno',
+	'SORT_ONLINE' => 'Online',
+	'ASCENDING' => 'Crescente',
+	'DESCENDING' => 'Decrescente',
+	'LESS_THAN' => 'Minore di',
+	'EQUAL_TO' => 'Uguale a',
+	'MORE_THAN' => 'Maggiore di',
+	'BEFORE' => 'Prima',
+	'AFTER' => 'Dopo',
 // Mighty Gorgon - Power Memberlist - END
 // Mighty Gorgon - Multiple Ranks - BEGIN
 	'Staff' => 'Staff',
@@ -2401,6 +2413,12 @@ $lang = array_merge($lang, array(
 	'VOTE_CONVERTED' => 'Non &egrave; supportato il cambio voto per sondaggi convertiti.',
 
 	'FORM_INVALID' => 'Il form inviato non è valido. Prova a inviarlo di nuovo.',
+
+	'NO_USERS_FOUND' => 'Nessun utente trovato',
+	'POST_IP' => 'Indirizzo IP',
+	'FIND_USERNAME' => 'Ricerca avanzata',
+	'FIND_USERNAME_HIDE' => 'Nascondi modulo &quot;Ricerca avanzata&quot;',
+	'FIND_USERNAME_EXPLAIN' => 'Usa questo modulo per cercare gli utenti. Non è necessario compilare tutti i campi. Per ricerche parziali è permesso l’utilizzo del carattere *. Come formato della data utilizzare il seguente <kbd>DD-MM-YYYY</kbd>, es. <samp>29-02-2004</samp>. Selezionare uno o più nomi utenti e clicca sul pulsante di conferma per tornare al modulo precedente.',
 
 	'AUTH_NONE' => 'NESSUNO',
 	'AUTH_ALL' => 'TUTTI',
