@@ -2429,6 +2429,19 @@ $lang = array_merge($lang, array(
 	'AUTH_JADMIN' => 'J ADMIN',
 	'AUTH_ADMIN' => 'ADMIN',
 
+	'SHARE' => 'Condividi',
+	'LIKE' => 'Mi piace',
+	'UNLIKE' => 'Rimuovi apprezzamento',
+	'LIKE_POST' => 'Mi piace questo messaggio',
+	'UNLIKE_POST' => 'Rimuovi apprezzamento a questo messaggio',
+	'LIKE_TIME' => 'Data',
+	'LIKE_RECAP' => 'Utenti a cui piace questo messaggio',
+	'LIKE_COUNTER_YOU' => 'Hai apprezzato questo messaggio',
+	'LIKE_COUNTER_YOU_OTHERS_SINGLE' => 'Tu ed un altro utente avete apprezzato questo messaggio',
+	'LIKE_COUNTER_YOU_OTHERS' => 'Tu e %s utenti avete apprezzato questo messaggio',
+	'LIKE_COUNTER_OTHERS' => '%s hanno apprezzato questo messaggio',
+	'LIKE_COUNTER_OTHERS_SINGLE' => 'Un utente ha apprezzato questo messaggio',
+
 	)
 );
 

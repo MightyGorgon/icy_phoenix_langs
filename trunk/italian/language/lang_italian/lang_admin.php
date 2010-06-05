@@ -2092,6 +2092,9 @@ $lang = array_merge($lang, array(
 	'POLL_ONGOING' => ' (in corso)',
 	'POLL_COMPLETED' => ' (completato))',
 
+	'FORUM_LIKES' => 'Apprezzamento Messaggi (Like)',
+	'FORUM_LIKES_EXPLAIN' => 'Consente agli utenti di esprimere l\'apprezzamento ai singoli messaggi (per utilizzare questa funzione &egrave; necessario averl attivata globalmente tra le Impostazioni di Icy Phoenix [Carico SQL])',
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Impostazioni Icy Phoenix',
 	'IP_CONFIGURATION_EXPLAIN' => 'In questa sezione &egrave; possibile configurare alcune impostazioni avanzate di Icy Phoenix',

@@ -141,6 +141,9 @@ if ($lang_extend_admin)
 
 		'IP_show_thanks_viewtopic' => 'Mostra i ringraziamenti ricevuti nella visualizzazione dei messaggi',
 
+		'IP_disable_likes_posts' => 'Disattiva apprezzamento messaggi [LIKE] (Global Switch)',
+		'IP_disable_likes_posts_explain' => 'Questa opzione consente di disattivare completamente la possibilit&agrave; di apprezzare i singoli messaggi',
+
 		'IP_disable_topic_view' => 'Disattiva "Chi ha letto questo argomento" (Globale)',
 		'IP_disable_topic_view_explain' => 'Questa opzione consente di disattivare la funzione "Chi ha letto questo argomento" (consente di risparmiare spazio nel DB).',
 
