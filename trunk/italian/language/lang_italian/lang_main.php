@@ -1509,7 +1509,7 @@ $lang = array_merge($lang, array(
 	'Always_swear' => 'Consenti parole censurate',
 
 	'Shoutbox' => 'Shoutbox',
-	'Shoutbox_date' => ' d m Y h:i:s',
+	'Shoutbox_date' => ' d m Y H:i:s',
 	'Shout_censor' => '<b>Messaggio Rimosso!</b>',
 	'Shout_refresh' => 'Aggiorna',
 	'Shout_text' => 'Testo',
