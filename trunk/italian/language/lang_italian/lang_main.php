@@ -2444,6 +2444,12 @@ $lang = array_merge($lang, array(
 	'LIKE_COUNTER_OTHERS' => '%s hanno apprezzato questo messaggio',
 	'LIKE_COUNTER_OTHERS_SINGLE' => 'Un utente ha apprezzato questo messaggio',
 
+	'FRIENDSHIP_STATUS' => 'Stato amicizia',
+	'FRIEND_ADD' => 'Aggiungi come amico',
+	'FRIEND_REMOVE' => 'Rimuovi amicizia',
+	'FOE_ADD' => 'Aggiungi alla lista ignorati',
+	'FOE_REMOVE' => 'Rimuovi dalla lista ignorati',
+
 	)
 );
 

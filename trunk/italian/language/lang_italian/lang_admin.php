@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'Admin' => 'Amministrazione',
 	'Not_admin' => 'Non sei autorizzato ad Amministrare questo Forum',
 	'Welcome_IP' => 'Benvenuto in Icy Phoenix',
-	'Admin_intro' => 'Grazie per aver scelto Icy Phoenix come Forum. Questa schermata mostra alcune Statistiche del tuo Forum. Puoi tornare a questa pagina cliccando sul link <u>ACP</u> in cima alla pagina. Per tornare all\'indice del tuo forum, clicca sul link <u>Forum</u> in cima alla pagina. Gli altri collegamenti nella parte sinistra dello schermo ti permettono di controllare ogni aspetto del tuo Forum, in tutte le schermata avrai le informazioni su come usare al meglio le varie funzioni. Per maggiori info e supporto visita <a href="http://www.icyphoenix.com" target="_blank"><strong>icyphoenix.com</strong></a>.',
+	'Admin_intro' => 'Grazie per aver scelto Icy Phoenix come CMS. Questa schermata mostra alcune Statistiche del tuo Forum. Puoi tornare a questa pagina cliccando sul link <u>ACP</u> in cima alla pagina. Per tornare all\'indice del tuo forum, clicca sul link <u>Forum</u> in cima alla pagina. Gli altri collegamenti nella parte sinistra dello schermo ti permettono di controllare ogni aspetto del tuo Forum, in tutte le schermata avrai le informazioni su come usare al meglio le varie funzioni. Per maggiori info e supporto visita <a href="http://www.icyphoenix.com" target="_blank"><strong>icyphoenix.com</strong></a>.',
 	'PayPalInfo' => 'Icy Phoenix &egrave; un progetto open source, se vuoi contribuire allo sviluppo puoi usare il link sottostante.',
 	'Main_index' => 'Forum',
 	'Site_Index' => 'Home Page',
@@ -2094,6 +2094,8 @@ $lang = array_merge($lang, array(
 
 	'FORUM_LIKES' => 'Apprezzamento Messaggi (Like)',
 	'FORUM_LIKES_EXPLAIN' => 'Consente agli utenti di esprimere l\'apprezzamento ai singoli messaggi (per utilizzare questa funzione &egrave; necessario averl attivata globalmente tra le Impostazioni di Icy Phoenix [Carico SQL])',
+
+	'POSTS_PICS' => 'Posts / Pics',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Impostazioni Icy Phoenix',
