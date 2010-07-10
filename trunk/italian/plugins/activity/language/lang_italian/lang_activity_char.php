@@ -174,4 +174,5 @@ $lang['amp_char_save_shop']               = 'Salva Impostazioni';
 $lang['amp_char_settings_saved']         = 'Impostazioni Personaggio Salvato.';
 $lang['amp_char_settings_back']            = 'Clicca %squi%s per tornare al Menu.';
 $lang['char'] = 'Personaggio';
+
 ?>

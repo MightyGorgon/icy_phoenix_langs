@@ -606,7 +606,7 @@ $lang = array_merge($lang, array(
 //==== Start Invision View Profile ===================================== |
 //==== v1.1.3 ========================================================== |
 //====
-	'Invision_Active_Stats' => 'Statistiche Attivit&agrave;',
+	'Invision_Active_Stats' => 'Statistiche',
 	'Invision_Communicate' => 'Comunicazioni',
 	'Invision_Info' => 'Informazioni',
 	'Invision_Member_Group' => 'Membro dei Gruppi',
@@ -2449,6 +2449,11 @@ $lang = array_merge($lang, array(
 	'FRIEND_REMOVE' => 'Rimuovi amicizia',
 	'FOE_ADD' => 'Aggiungi alla lista ignorati',
 	'FOE_REMOVE' => 'Rimuovi dalla lista ignorati',
+
+	'USER_FIRST_NAME' => 'Nome',
+	'USER_LAST_NAME' => 'Cognome',
+	'FACEBOOK' => 'Facebook',
+	'TWITTER' => 'Twitter',
 
 	)
 );

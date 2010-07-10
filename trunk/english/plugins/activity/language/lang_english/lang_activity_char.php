@@ -173,4 +173,6 @@ $lang['amp_char_save_shop'] = 'Save Settings';
 
 $lang['amp_char_settings_saved'] = 'Character Settings Saved.';
 $lang['amp_char_settings_back'] = 'Click %sHere%s to return to the menu.';
+$lang['char'] = 'Character';
+
 ?>
