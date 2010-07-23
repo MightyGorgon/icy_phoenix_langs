@@ -13,8 +13,10 @@ Ha recibido un nuevo mensaje privado en su cuenta en <b>"{SITENAME}"</b>, y ha p
 <b>Asunto:</b> {SUBJECT}<br />
 
 <b>Texto:</b><br /><br />
-{PRIV_MSG_TEXT}
+<div class="post-text">{PRIV_MSG_TEXT}</div>
 
+<br /><br />
+<b>Aviso:</b> No responda a este email, ya que es sólo una notificación. Para contestar a este mensaje debe conectarse en el sitio y visitar la sección de Mensajes Privados.
 <br /><br />
 
 Puede ver el nuevo mensaje usando el siguiente enlace:<br /><br />

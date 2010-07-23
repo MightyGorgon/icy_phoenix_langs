@@ -27,8 +27,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang['Mini_Cal_calendar'] = 'Calendario';
-$lang['Mini_Cal_add_event'] = 'Añadir eventos';
-$lang['Mini_Cal_events'] = 'Próximos eventos';
+$lang['Mini_Cal_add_event'] = 'A&ntilde;adir eventos';
+$lang['Mini_Cal_events'] = 'Pr&oacute;ximos eventos';
 $lang['Mini_Cal_no_events'] = 'Ninguno';
 
 // uses MySQL DATE_FORMAT - %c  long_month, numeric (1..12) - %e  Day of the long_month, numeric (0..31)
@@ -40,13 +40,13 @@ $lang['Mini_Cal_date_format_Time'] = '%H:%i';
 // if you change the first day of the week in constants.php, you should change values for the short day names accordingly
 // e.g. FDOW = Sunday -> $lang['mini_cal']['day'][1] = 'Su'; ... $lang['mini_cal']['day'][7] = 'Sa'; 
 //      FDOW = Monday -> $lang['mini_cal']['day'][1] = 'Mo'; ... $lang['mini_cal']['day'][7] = 'Su'; 
-$lang['mini_cal']['day'][7] = 'Sá';
-$lang['mini_cal']['day'][1] = 'Do';
-$lang['mini_cal']['day'][2] = 'Lu';
-$lang['mini_cal']['day'][3] = 'Ma';
-$lang['mini_cal']['day'][4] = 'Mi';
-$lang['mini_cal']['day'][5] = 'Ju';
-$lang['mini_cal']['day'][6] = 'Vi';
+$lang['mini_cal']['day'][1] = 'Lu';
+$lang['mini_cal']['day'][2] = 'Ma';
+$lang['mini_cal']['day'][3] = 'Mi';
+$lang['mini_cal']['day'][4] = 'Ju';
+$lang['mini_cal']['day'][5] = 'Vi';
+$lang['mini_cal']['day'][6] = 'S&aacute;';
+$lang['mini_cal']['day'][7] = 'Do';
 
 $lang['mini_cal']['month'][1] = 'Ene';
 $lang['mini_cal']['month'][2] = 'Feb';

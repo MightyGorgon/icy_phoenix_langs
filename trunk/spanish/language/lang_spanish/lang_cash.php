@@ -28,11 +28,11 @@ if (empty($lang) || !is_array($lang))
 
 // Admin menu
 $lang['Cmcat_main'] = 'Principal';
-$lang['Cmcat_addons'] = 'Añadidos';
+$lang['Cmcat_addons'] = 'A&ntilde;adidos';
 $lang['Cmcat_other'] = 'Otros';
 $lang['Cmcat_help'] = 'Ayuda';
 
-$lang['Cash_Configuration'] = 'Configuración';
+$lang['Cash_Configuration'] = 'Configuraci&oacute;n';
 $lang['Cash_Currencies'] = 'Monedas';
 $lang['Cash_Exchange'] = 'Intercambio';
 $lang['Cash_Events'] = 'Eventos';
@@ -43,7 +43,7 @@ $lang['Cash_Logs'] = 'Logs';
 $lang['Cash_Settings'] = 'Preferencias';
 
 $lang['Cmenu_cash_config'] = 'Preferencias globales que afectan a todas las monedas';
-$lang['Cmenu_cash_currencies'] = 'Añade, elimina o modifica monedas';
+$lang['Cmenu_cash_currencies'] = 'A&ntilde;ade, elimina o modifica monedas';
 $lang['Cmenu_cash_settings'] = 'Especifica preferencias para cada moneda';
 $lang['Cmenu_cash_events'] = 'Cantidades de dinero dadas en eventos';
 $lang['Cmenu_cash_reset'] = 'Resetea o recuenta dinero';
@@ -54,7 +54,7 @@ $lang['Cmenu_cash_log'] = 'Ver/borrar logs';
 $lang['Cmenu_cash_help'] = 'Ayuda';
 
 // Config
-$lang['Cash_config'] = 'Configuración';
+$lang['Cash_config'] = 'Configuraci&oacute;n';
 $lang['Cash_config_explain'] = 'El siguiente formulario permite configurar el dinero.';
 
 $lang['Cash_admincp'] = 'Modo adminCP';
@@ -64,13 +64,13 @@ $lang['Menu'] = 'Menu';
 
 $lang['Messages'] = 'Mensajes';
 $lang['Spam'] = 'Spam';
-$lang['Click_return_cash_config'] = 'Pulse %saquí%s para volver a la configuración';
-$lang['Cash_config_updated'] = 'Configuración actualizada correctamente';
+$lang['Click_return_cash_config'] = 'Pulse %saqu&iacute;%s para volver a la configuraci&oacute;n';
+$lang['Cash_config_updated'] = 'Configuraci&oacute;n actualizada correctamente';
 $lang['Cash_disabled'] = 'Deshabilitar Cash MOD';
-$lang['Cash_message'] = 'Enseñar ganancias en la confirmación de mensaje/respuesta';
-$lang['Cash_display_message'] = 'Mensaje que enseña las ganancias por mensaje/respuesta';
-$lang['Cash_display_message_explain'] = '¡Debe incluir "%s" en él!';
-$lang['Cash_spam_disable_num'] = 'Numero de mensajes máximos para desactivar ganancias (protección de spam)';
+$lang['Cash_message'] = 'Ense&ntilde;ar ganancias en la confirmaci&oacute;n de mensaje/respuesta';
+$lang['Cash_display_message'] = 'Mensaje que ense&ntilde;a las ganancias por mensaje/respuesta';
+$lang['Cash_display_message_explain'] = '&iexcl;Debe incluir "%s" en &eacute;l!';
+$lang['Cash_spam_disable_num'] = 'Numero de mensajes m&aacute;ximos para desactivar ganancias (protecci&oacute;n de spam)';
 $lang['Cash_spam_disable_time'] = 'Periodo de tiempo en que estos posts no deben exceder (horas)';
 $lang['Cash_spam_disable_message'] = 'Anuncio de SPAM para ganancia nula';
 
@@ -78,7 +78,7 @@ $lang['Cash_spam_disable_message'] = 'Anuncio de SPAM para ganancia nula';
 $lang['Cash_currencies'] = 'Monedas en Cash MOD';
 $lang['Cash_currencies_explain'] = 'El siguiente formulario permite configurar las divisas';
 
-$lang['Click_return_cash_currencies'] = 'Pulse %saquí%s para volver a monedas Cash MOD';
+$lang['Click_return_cash_currencies'] = 'Pulse %saqu&iacute;%s para volver a monedas Cash MOD';
 $lang['Cash_currencies_updated'] = 'Monedas de Cash MOD actualizadas correctamente';
 $lang['Cash_field'] = 'Entidad en la tabla';
 $lang['Cash_currency'] = 'Moneda';
@@ -89,8 +89,8 @@ $lang['Cash_set_all'] = 'Para todos los usuarios';
 $lang['Cash_delete'] = 'Eliminar';
 $lang['Decimals'] = 'Decimales';
 
-$lang['Cash_confirm_copy'] = '¿Copiar todos los datos de %s de los usuarios a %s?<br />Esto no se puede deshacer';
-$lang['Cash_confirm_delete'] = '¿Eliminar %s?<br />Esto no se puede deshacer';
+$lang['Cash_confirm_copy'] = '&iquest;Copiar todos los datos de %s de los usuarios a %s?<br />Esto no se puede deshacer';
+$lang['Cash_confirm_delete'] = '&iquest;Eliminar %s?<br />Esto no se puede deshacer';
 
 $lang['Cash_copy_currency'] = 'Copiar los datos de la moneda';
 
@@ -99,7 +99,7 @@ $lang['Cash_currency_dbfield'] = 'Entidad en la tabla';
 $lang['Cash_currency_decimals'] = 'Numero de decimales de la moneda';
 $lang['Cash_currency_default'] = 'Valor por defecto de la moneda';
 
-$lang['Bad_dbfield'] = 'Nombre de entidad incorrecto, debe estar en formato \'user_word\'<br /><br />%s<br /><br/>Ejemplos:<br />user_points<br />user_cash<br />user_money<br />user_warnings<br /><br />';
+$lang['Bad_dbfield'] = 'Nombre de entidad incorrecto, debe estar en formato \'user_word\'<br /><br />%s<br /><br />Ejemplos:<br />user_points<br />user_cash<br />user_money<br />user_warnings<br /><br />';
 
 // 0 currencies (most admin panels won't work... )
 $lang['Insufficient_currencies'] = 'Necesitas crear monedas antes de modificar las preferencias';
@@ -112,9 +112,9 @@ $lang['Cash_events_explain'] = 'El siguiente formulario permite configurar las g
 
 $lang['No_events'] = 'No hay eventos a listar';
 $lang['Existing_events'] = 'Eventos existentes';
-$lang['Add_an_event'] = 'Añadir un evento';
+$lang['Add_an_event'] = 'A&ntilde;adir un evento';
 $lang['Cash_events_updated'] = 'Eventos actualizados correctamente';
-$lang['Click_return_cash_events'] = 'Pulse %saquí%s para regresar a eventos';
+$lang['Click_return_cash_events'] = 'Pulse %saqu&iacute;%s para regresar a eventos';
 
 //Reset
 $lang['Cash_reset_title'] = 'Resetear Cash MOD';
@@ -126,11 +126,11 @@ $lang['User_of'] = 'Usuarios %s de %s';
 $lang['Set_checked'] = 'Cambiar monedas marcadas';
 $lang['Recount_checked'] = 'Recontar monedas marcadas';
 
-$lang['Cash_confirm_reset'] = '¿Confirmas el reseteo de las siguientes monedas?<br />Esto no puede deshacerse';
-$lang['Cash_confirm_recount'] = '¿Confirmas el recuento de las siguientes monedas?<br />Esto no puede deshacerse<br /><br />Esta accion no es recomendada para foros con grandes cantidades de temas<br /><br />Es recomendable que desactives tu foro mientras ejecutas esta acción. <br />Puedes desactivar tu foro mediante %sConfiguration%s';
+$lang['Cash_confirm_reset'] = '&iquest;Confirmas el reseteo de las siguientes monedas?<br />Esto no puede deshacerse';
+$lang['Cash_confirm_recount'] = '&iquest;Confirmas el recuento de las siguientes monedas?<br />Esto no puede deshacerse<br /><br />Esta accion no es recomendada para foros con grandes cantidades de temas<br /><br />Es recomendable que desactives tu foro mientras ejecutas esta acci&oacute;n. <br />Puedes desactivar tu foro mediante %sConfiguration%s';
 
-$lang['Update_successful'] = '¡Actualización correcta!';
-$lang['Click_return_cash_reset'] = 'Pulse %saquí%s para volver a la página de reinicio de moneda';
+$lang['Update_successful'] = '&iexcl;Actualizaci&oacute;n correcta!';
+$lang['Click_return_cash_reset'] = 'Pulse %saqu&iacute;%s para volver a la p&aacute;gina de reinicio de moneda';
 $lang['User_updated'] = '%s actualizado<br />';
 
 // Others
@@ -149,7 +149,7 @@ $lang['Forum_cm_settings_explain'] = 'En este panel puedes decidir que foros oto
 $lang['Cash_groups'] = 'Grupos de Cash MOD';
 $lang['Cash_groups_explain'] = 'En este panel puedes establecer privilegios a rangos, grupos, administradores y moderadores';
 
-$lang['Click_return_cash_groups'] = 'Pulse %saquí%s para volver a grupos de Cash MOD';
+$lang['Click_return_cash_groups'] = 'Pulse %saqu&iacute;%s para volver a grupos de Cash MOD';
 $lang['Cash_groups_updated'] = 'Grupos actualizados correctamente';
 
 $lang['Set'] = 'Cambiar';
@@ -160,18 +160,18 @@ $lang['Down'] = 'Bajar';
 $lang['Cmh_support'] = 'Soporte de Cash MOD';
 $lang['Cmh_troubleshooting'] = 'Problemas';
 $lang['Cmh_upgrading'] = 'Actualizar';
-$lang['Cmh_addons'] = 'Añadidos';
-$lang['Cmh_demo_boards'] = 'Foros de demostración';
+$lang['Cmh_addons'] = 'A&ntilde;adidos';
+$lang['Cmh_demo_boards'] = 'Foros de demostraci&oacute;n';
 $lang['Cmh_translations'] = 'Traducciones';
 $lang['Cmh_features'] = 'Caracteristicas';
 
-$lang['Cmhe_support'] = 'Información general';
-$lang['Cmhe_troubleshooting'] = 'Si tienes problemas con Cash MOD, mira aquí los parches';
-$lang['Cmhe_upgrading'] = 'Actualmente posees la versión %s, las actualizaciones serán puestas aquí';
-$lang['Cmhe_addons'] = 'Lista de MODs que aprovechan las características de Cash MOD';
+$lang['Cmhe_support'] = 'Informaci&oacute;n general';
+$lang['Cmhe_troubleshooting'] = 'Si tienes problemas con Cash MOD, mira aqu&iacute; los parches';
+$lang['Cmhe_upgrading'] = 'Actualmente posees la versi&oacute;n %s, las actualizaciones ser&aacute;n puestas aqu&iacute;';
+$lang['Cmhe_addons'] = 'Lista de MODs que aprovechan las caracter&iacute;sticas de Cash MOD';
 $lang['Cmhe_demo_boards'] = 'Lista de foros de ejemplo que utilizan Cash MOD';
 $lang['Cmhe_translations'] = 'Lista de traducciones para Cash MOD';
-$lang['Cmhe_features'] = 'Lista de características de Cash MOD, y desarrollo de próximas versiones';
+$lang['Cmhe_features'] = 'Lista de caracter&iacute;sticas de Cash MOD, y desarrollo de pr&oacute;ximas versiones';
 
 // Logs
 $lang['Logs'] = 'Logs de Cash MOD';
@@ -183,17 +183,17 @@ $lang['Cash_settings_explain'] = 'El siguiente formulario te permite establecer 
 
 
 $lang['Display'] = 'Mostrar';
-$lang['Implementation'] = 'Implementación';
+$lang['Implementation'] = 'Implementaci&oacute;n';
 $lang['Allowances'] = 'Subenciones';
 $lang['Allowances_explain'] = 'Esto necesita Cash MOD allowances plug-in';
-$lang['Click_return_cash_settings'] = 'Pulse %saquí%s para volver a preferencias de Cash MOD';
+$lang['Click_return_cash_settings'] = 'Pulse %saqu&iacute;%s para volver a preferencias de Cash MOD';
 $lang['Cash_settings_updated'] = 'Preferencias de Cash MOD actualizadas correctamente';
 
 $lang['Cash_enabled'] = 'Activar moneda';
 $lang['Cash_custom_currency'] = 'Moneda personalizada';
 $lang['Cash_image'] = 'Mostrar moneda como imagen';
-$lang['Cash_imageurl'] = 'Imagen (Relativa a la raíz del sitio phpBB2):';
-$lang['Cash_imageurl_explain'] = 'Usa esto para definir una pequeña imagen relativa a la moneda';
+$lang['Cash_imageurl'] = 'Imagen (Relativa a la ra&iacute;z del sitio phpBB2):';
+$lang['Cash_imageurl_explain'] = 'Usa esto para definir una peque&ntilde;a imagen relativa a la moneda';
 $lang['Prefix'] = 'Prefijo';
 $lang['Postfix'] = 'Sufijo';
 $lang['Cash_currency_style'] = 'Estilo de moneda para Cash MOD';
@@ -218,11 +218,11 @@ $lang['Cash_allow_negative'] = 'Permite a los usuarios tener cantidades de diner
 $lang['Cash_allowance_enabled'] = 'Activar subenciones';
 $lang['Cash_allowance_amount'] = 'Cantidad de dinero ahorrado en subvenciones';
 $lang['Cash_allownace_frequency'] = 'Cada cuanto son ofrecidas las subvenciones';
-$lang['Cash_allownace_frequencies'][CASH_ALLOW_DAY] = 'Día';
+$lang['Cash_allownace_frequencies'][CASH_ALLOW_DAY] = 'D&iacute;a';
 $lang['Cash_allownace_frequencies'][CASH_ALLOW_WEEK] = 'Semana';
 $lang['Cash_allownace_frequencies'][CASH_ALLOW_MONTH] = 'Mes';
-$lang['Cash_allownace_frequencies'][CASH_ALLOW_YEAR] = 'Año';
-$lang['Cash_allowance_next'] = 'Tiempo hasta la próxima subvención';
+$lang['Cash_allownace_frequencies'][CASH_ALLOW_YEAR] = 'A&ntilde;o';
+$lang['Cash_allowance_next'] = 'Tiempo hasta la pr&oacute;xima subvenci&oacute;n';
 
 // Groups
 $lang['Cash_status_type'][CASH_GROUPS_DEFAULT] = 'Defecto';
@@ -242,7 +242,7 @@ $lang['Cash_status'] = 'Estado';
 eg.
 Joe donated 14 gold, $10, 3 points to Peter
 */
-$lang['Cash_clause'][CASH_LOG_DONATE] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha donado <b>%s</b> a <a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>';
+$lang['Cash_clause'][CASH_LOG_DONATE] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha donado <b>%s</b> a <a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>';
 
 /* argument order: [admin/mod id][admin/mod name][editee id][editee name][Added list][removed list][Set list]
 
@@ -252,38 +252,38 @@ Added 14 gold
 Removed $10
 Set 3 points
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_MODEDIT] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new">%s</a> ha editado el efectivo de <a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>:<br />Añadido <b>%s</b><br />Quitado <b>%s</b><br />Fijado a <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_MODEDIT] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new">%s</a> ha editado el efectivo de <a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a>:<br />A&ntilde;adido <b>%s</b><br />Quitado <b>%s</b><br />Fijado a <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][currency name]
 
 eg.
 Joe created points
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_CREATE_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha creado <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_CREATE_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha creado <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][currency name]
 
 eg.
 Joe deleted $
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_DELETE_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha borrado <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_DELETE_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha borrado <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][old currency name][new currency name]
 
 eg.
 Joe renamed silver to gold
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_RENAME_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha renombrado <b>%s</b> a <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_RENAME_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha renombrado <b>%s</b> a <b>%s</b>';
 
 /* argument order: [admin/mod id][admin/mod name][copied currency name][copied over currency name]
 
 eg.
 Joe copied users' gold to points
 */
-$lang['Cash_clause'][CASH_LOG_ADMIN_COPY_CURRENCY] = '<a href="' . IP_ROOT_PATH . PROFILE_MG . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha copiado el usuario <b>%s</b> a <b>%s</b>';
+$lang['Cash_clause'][CASH_LOG_ADMIN_COPY_CURRENCY] = '<a href="' . IP_ROOT_PATH . CMS_PAGE_PROFILE . '?mode=viewprofile&amp;' . POST_USERS_URL . '=%s" target="_new"><b>%s</b></a> ha copiado el usuario <b>%s</b> a <b>%s</b>';
 
 $lang['Log'] = 'Log';
-$lang['Action'] = 'Acción';
+$lang['Action'] = 'Acci&oacute;n';
 $lang['Type'] = 'Tipo';
 $lang['Cash_all'] = 'Todos';
 $lang['Cash_admin'] = 'Admin';
@@ -292,12 +292,12 @@ $lang['Delete_all_logs'] = 'Borrar todos los logs';
 $lang['Delete_admin_logs'] = 'Borrar log del admin';
 $lang['Delete_user_logs'] = 'Borrar logs de usuarios';
 $lang['All'] = 'Todos';
-$lang['Day'] = 'Día';
+$lang['Day'] = 'D&iacute;a';
 $lang['Week'] = 'Semana';
 $lang['Month'] = 'Mes';
-$lang['Year'] = 'Año';
-$lang['Page'] = 'Página';
-$lang['Per_page'] = 'por página';
+$lang['Year'] = 'A&ntilde;o';
+$lang['Page'] = 'P&aacute;gina';
+$lang['Per_page'] = 'por p&aacute;gina';
 
 // Now for some regular stuff...
 
@@ -309,7 +309,7 @@ $lang['Exchange'] = 'Cambiar';
 // Exchange
 $lang['Convert'] = 'Convertir';
 $lang['Select_one'] = 'Selecciona';
-$lang['Exchange_lack_of_currencies'] = 'No hay suficientes tipos de moneda para cambiar<br />Para habilitar esta opción, tu admin tiene que crear al menos dos tipos de moneda';
+$lang['Exchange_lack_of_currencies'] = 'No hay suficientes tipos de moneda para cambiar<br />Para habilitar esta opci&oacute;n, tu admin tiene que crear al menos dos tipos de moneda';
 $lang['You_have'] = 'Tu tienes';
 $lang['One_worth'] = 'Un %s equivale a:';
 $lang['Cannot_exchange'] = 'No puedes cambiar %s, ahora';
@@ -317,8 +317,8 @@ $lang['Cannot_exchange'] = 'No puedes cambiar %s, ahora';
 // Donate
 $lang['Amount'] = 'Cantidad';
 $lang['Donate_to'] = 'Donar a %s';
-$lang['Donation_recieved'] = 'Has recibido una donación de %s';
-$lang['Has_donated'] = '%s te ha donado [b]%s[/b].' . "\n\n" . '%s escribió: ' . "\n";
+$lang['Donation_recieved'] = 'Has recibido una donaci&oacute;n de %s';
+$lang['Has_donated'] = '%s te ha donado [b]%s[/b].' . "\n\n" . '%s escribi&oacute;: ' . "\n";
 
 // Mod Edit
 $lang['Add'] = 'Sumar';
@@ -327,7 +327,7 @@ $lang['Omit'] = 'Omitir';
 $lang['Amount'] = 'Cantidad';
 $lang['Donate_to'] = 'Donar a %s';
 $lang['Has_moderated'] = '%s ha moderado tu %s';
-$lang['Has_added'] = '[*]Añadidos: [b]%s[/b]' . "\n";
+$lang['Has_added'] = '[*]A&ntilde;adidos: [b]%s[/b]' . "\n";
 $lang['Has_removed'] = '[*]Quitados: [b]%s[/b]' . "\n";
 $lang['Has_set'] = '[*]Cambiado a: [b]%s[/b]' . "\n";
 

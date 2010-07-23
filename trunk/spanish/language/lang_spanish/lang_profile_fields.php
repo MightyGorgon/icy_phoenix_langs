@@ -38,8 +38,8 @@ $lang['_Description'] = '';
 
 /*
 //An Australian Example for Profile Fields
-$lang['1_Phone'] = 'Teléfono';
-$lang['1_Description'] = 'Número de Teléfono';
+$lang['1_Phone'] = 'Tel&eacute;fono';
+$lang['1_Description'] = 'N&uacute;mero de Tel&eacute;fono';
 $lang['2_Team'] = 'Equipo';
 $lang['2_Description'] = 'Equipo Australiano';
 $lang['2_Barca'] = 'Wallabies';

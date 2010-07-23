@@ -10,9 +10,9 @@ Puede usar el siguiente enlace para ver el tema:<br /><br />
 <br /><br />
 
 <b>Texto del mensaje:</b><br /><br />
-{POST_TEXT}<br /><br />
+<div class="post-text">{POST_TEXT}</div>
 
-
+<br /><br />
 Recibe este correo porque está observando este foro <b>"{FORUM_NAME}"</b> en <b>{SITENAME}.</b><br />
 Si ya no desea seguir observándolo, pulse en el enlace "Parar de observar este foro" que está en la parte de abajo del foro <b>"{FORUM_NAME}"</b> o en este otro enlace:
 <br /><br />

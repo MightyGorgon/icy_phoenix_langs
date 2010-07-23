@@ -28,9 +28,9 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'bbcb_mg_lang' => 'lang_spanish',
 
-	'wrote' => 'escribió',
+	'wrote' => 'escribi&oacute;',
 	'Quote' => 'Citar',
-	'Code' => 'Código',
+	'Code' => 'C&oacute;digo',
 	'Hide' => 'Ocultar',
 	'Show' => 'Mostrar',
 	'Download' => 'Descargar',
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'PhpCode' => 'PHP',
 
 	'Close_Tags' => 'Cerrar etiquetas',
-	'Styles_tip' => 'Nota: Se pueden aplicar rápidamente estilos al texto seleccionado.',
+	'Styles_tip' => 'Nota: Se pueden aplicar r&aacute;pidamente estilos al texto seleccionado.',
 
 // Smiley Creator
 	'bbcode_sc_help' => 'Creador de emoticonos: [schild=1]Texto[/schild] Crear un emoticono con su texto',
@@ -56,48 +56,48 @@ $lang = array_merge($lang, array(
 	'SC_shieldshadow_off' => 'Desactivar',
 	'SC_smiliechooser' => 'Seleccionar emoticono',
 	'SC_random_smilie' => 'Emoticono aleatorio',
-	'SC_default_smilie' => 'Emoticono estándar',
+	'SC_default_smilie' => 'Emoticono est&aacute;ndar',
 	'SC_create_smilie' => 'Crear',
 	'SC_stop_creating' => 'Cancelar',
-	'SC_error' => 'Aquí esta su protector - Se ha olvidado del texto... ',
-	'SC_another_shield' => '¿Desea crear otro emoticono?',
+	'SC_error' => 'Aqu&iacute; esta su protector - Se ha olvidado del texto... ',
+	'SC_another_shield' => '&iquest;Desea crear otro emoticono?',
 	'SC_notext_error' => 'No puede crear emoticonos sin texto',
 
 	'bbcode_b_help' => 'Negrilla: [b]texto[/b]  (alt+b)',
 	'bbcode_i_help' => 'Cursiva: [i]texto[/i]  (alt+i)',
 	'bbcode_u_help' => 'Subrayado: [u]texto[/u]  (alt+u)',
 	'bbcode_q_help' => 'Cita: [quote]texto[/quote]  (alt+q)',
-	'bbcode_c_help' => 'Código: [code]código[/code]  (alt+c)',
+	'bbcode_c_help' => 'C&oacute;digo: [code]c&oacute;digo[/code]  (alt+c)',
 	'bbcode_l_help' => 'Lista: [list]texto[/list] (alt+l)',
 	'bbcode_o_help' => 'Lista ordenada: [list=]texto[/list]  (alt+o)',
 	'bbcode_p_help' => 'Insertar imagen: [img]http://url_imagen[/img]  (alt+p)',
 	'bbcode_w_help' => 'Insertar URL: [url]http://url[/url] o [url=http://url]texto URL[/url]  (alt+w)',
 	'bbcode_a_help' => 'Cerrar todos los marcadores de BBCode abiertos',
-	'bbcode_s_help' => 'Color: [color=red]texto[/color]  Nota: también puede usarse color=#FF0000',
-	'bbcode_f_help' => 'Tamaño: [size=x-small]texto pequeño[/size]',
+	'bbcode_s_help' => 'Color: [color=red]texto[/color]  Nota: tambi&eacute;n puede usarse color=#FF0000',
+	'bbcode_f_help' => 'Tama&ntilde;o: [size=x-small]texto peque&ntilde;o[/size]',
 
 	'Font_color' => 'Color de texto',
 	'color_default' => 'Predeterminado',
 	'color_dark_red' => 'Rojo oscuro',
 	'color_red' => 'Rojo',
 	'color_orange' => 'Naranja',
-	'color_brown' => 'Marrón',
+	'color_brown' => 'Marr&oacute;n',
 	'color_yellow' => 'Amarillo',
 	'color_green' => 'Verde',
 	'color_olive' => 'Oliva',
 	'color_cyan' => 'Cyan',
 	'color_blue' => 'Azul',
 	'color_dark_blue' => 'Azul oscuro',
-	'color_indigo' => 'Índigo',
+	'color_indigo' => '&Iacute;ndigo',
 	'color_violet' => 'Violeta',
 	'color_white' => 'Blanco',
 	'color_black' => 'Negro',
 
 	'color_cadet_blue' => 'Azul cadete',
 	'color_coral' => 'Coral',
-	'color_crimson' => 'Carmesí',
+	'color_crimson' => 'Carmes&iacute;',
 	'color_dark_grey' => 'Gris oscuro',
-	'color_dark_orchid' => 'Orquídea oscuro',
+	'color_dark_orchid' => 'Orqu&iacute;dea oscuro',
 	'color_gold' => 'Oro',
 	'color_gray' => 'Gris',
 	'color_light_blue' => 'Azul claro',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'color_light_green' => 'Verde claro',
 	'color_light_grey' => 'Gris claro',
 	'color_light_orange' => 'Naranja claro',
-	'color_peach' => 'Melocotón',
+	'color_peach' => 'Melocot&oacute;n',
 	'color_power_orange' => 'Naranja fuerte',
 	'color_sea_green' => 'Verde mar',
 	'color_silver' => 'Plata',
@@ -116,9 +116,9 @@ $lang = array_merge($lang, array(
 	'color_midnightblue' => 'Azul medianoche',
 	'color_darkgreen' => 'Verde oscuro',
 
-	'Font_size' => 'Tamaño de texto',
+	'Font_size' => 'Tama&ntilde;o de texto',
 	'font_tiny' => 'Diminuto',
-	'font_small' => 'Pequeño',
+	'font_small' => 'Peque&ntilde;o',
 	'font_medium' => 'Mediano',
 	'font_normal' => 'Normal',
 	'font_large' => 'Grande',
@@ -162,7 +162,7 @@ $lang = array_merge($lang, array(
 	'bbcb_mg_mu' => 'Marquee arriba',
 	'bbcb_mg_ml' => 'Marquee izquierda',
 	'bbcb_mg_mr' => 'Marquee derecha',
-	'bbcb_mg_code' => 'Código',
+	'bbcb_mg_code' => 'C&oacute;digo',
 	'bbcb_mg_phpbbmod' => 'phpBB MOD template',
 	'bbcb_mg_quote' => 'Citar',
 	'bbcb_mg_spoil' => 'Spoiler',
@@ -172,36 +172,36 @@ $lang = array_merge($lang, array(
 	'bbcb_mg_img' => 'Imagen',
 	'bbcb_mg_imgl' => 'Imagen izquierda',
 	'bbcb_mg_imgr' => 'Imagen derecha',
-	'bbcb_mg_albumimg' => 'Imagen del álbum',
+	'bbcb_mg_albumimg' => 'Imagen del &aacute;lbum',
 	'bbcb_mg_flsh' => 'Flash',
-	'bbcb_mg_vid' => 'Vídeo',
-	'bbcb_mg_gvid' => 'Google vídeo',
+	'bbcb_mg_vid' => 'V&iacute;deo',
+	'bbcb_mg_gvid' => 'Google v&iacute;deo',
 	'bbcb_mg_youtube' => 'YouTube',
 	'bbcb_mg_ram' => 'Ram',
 	'bbcb_mg_strm' => 'Stream',
 	'bbcb_mg_emff' => 'EMFF (MP3)',
 	'bbcb_mg_lst' => 'Lista',
-	'bbcb_mg_hr' => 'Línea horizontal',
+	'bbcb_mg_hr' => 'L&iacute;nea horizontal',
 	'bbcb_mg_bullet' => 'Punto Bullet',
-	'bbcb_mg_sup' => 'Superíndice',
-	'bbcb_mg_sub' => 'Subíndice',
+	'bbcb_mg_sup' => 'Super&iacute;ndice',
+	'bbcb_mg_sub' => 'Sub&iacute;ndice',
 	'bbcb_mg_lsto' => 'Lista ordenada',
 	'bbcb_mg_fade' => 'Transparencia',
 	'bbcb_mg_spoiler' => 'Spoiler',
 	'bbcb_mg_cell' => 'Celda',
 	'bbcb_mg_grad' => 'Multicolor',
-	'bbcb_mg_upload_img' => 'Subir imagen a PostImage.org y añadir al mensaje',
-	'bbcb_mg_posticyimage' => 'Subir imagen y añadirle un mensaje',
-	'bbcb_mg_albumimgl' => 'Imagen del álbum a la izquierda',
-	'bbcb_mg_albumimgr' => 'Imagen del álbum a la derecha',
+	'bbcb_mg_upload_img' => 'Subir imagen a PostImage.org y a&ntilde;adir al mensaje',
+	'bbcb_mg_posticyimage' => 'Subir imagen y a&ntilde;adirle un mensaje',
+	'bbcb_mg_albumimgl' => 'Imagen del &aacute;lbum a la izquierda',
+	'bbcb_mg_albumimgr' => 'Imagen del &aacute;lbum a la derecha',
 	'bbcode_help' => 'Ayuda BBCode',
 
 	'xs_bbc_hide_message' => 'Ocultar mensaje',
-	'xs_bbc_hide_quote_message' => 'Citar mensaje ocultado, si todavía está oculto.',
-	'xs_bbc_hide_message_explain' => 'Perdone, pero debe estar registrado y también enviar una respuesta para ver este mensaje.',
+	'xs_bbc_hide_quote_message' => 'Citar mensaje ocultado, si todav&iacute;a est&aacute; oculto.',
+	'xs_bbc_hide_message_explain' => 'Perdone, pero debe estar registrado y tambi&eacute;n enviar una respuesta para ver este mensaje.',
 
-	'bbcode_url' => 'Introduzca la URL (ej. http://www.phpbb.com)',
-	'bbcode_url_title' => 'Introduzca el título del enlace',
+	'bbcode_url' => 'Introduzca la URL (ej. http://www.icyphoenix.com)',
+	'bbcode_url_title' => 'Introduzca el t&iacute;tulo del enlace',
 	'bbcode_url_empty' => 'No ha introducido una URL!',
 	'bbcode_url_errors' => 'Error!',
 	)
@@ -211,46 +211,46 @@ $lang = array_merge($lang, array(
 // Forms
 $js_lang = array();
 
-$js_lang['s_formerrors'] = 'Debe insertar algún texto para enviar un mensaje';
+$js_lang['s_formerrors'] = 'Debe insertar alg&uacute;n texto para enviar un mensaje';
 $js_lang['s_gen_error'] = ':: Error ::\n\n';
 $js_lang['s_url_insert'] = 'Inserte la URL (por ejemplo, http://www.icyphoenix.com/)';
 $js_lang['s_url_insert_tip'] = 'http://';
 $js_lang['s_url_error'] = 'No ha introducido ninguna URL';
-$js_lang['s_url_title_insert'] = 'Introduzca el título para el enlace';
+$js_lang['s_url_title_insert'] = 'Introduzca el t&iacute;tulo para el enlace';
 $js_lang['s_url_title_insert_tip'] = 'Enlace';
-$js_lang['s_url_title_error'] = 'No ha escrito el nombre de la página';
-$js_lang['s_email_insert'] = 'Introduzca la dirección de correo';
+$js_lang['s_url_title_error'] = 'No ha escrito el nombre de la p&aacute;gina';
+$js_lang['s_email_insert'] = 'Introduzca la direcci&oacute;n de correo';
 $js_lang['s_email_insert_tip'] = 'sunombre@sudominio.com';
-$js_lang['s_email_error'] = 'No ha escrito la dirección de correo';
+$js_lang['s_email_error'] = 'No ha escrito la direcci&oacute;n de correo';
 $js_lang['s_img_insert'] = 'Introduzca la URL de la imagen';
 $js_lang['s_img_error'] = 'No ha escrito la URL de la imagen';
-$js_lang['s_albumimg_insert'] = 'Introduzca la ID de la imagen del álbum';
+$js_lang['s_albumimg_insert'] = 'Introduzca la ID de la imagen del &aacute;lbum';
 $js_lang['s_albumimg_insert_tip'] = 'ID';
-$js_lang['s_albumimg_error'] = 'No ha escrito la ID de la imagen del álbum';
+$js_lang['s_albumimg_error'] = 'No ha escrito la ID de la imagen del &aacute;lbum';
 $js_lang['s_ram_insert'] = 'Por favor, introduzca la URL del archivo real media';
 $js_lang['s_stream_insert'] = 'Por favor, escriba la URL del archivo de audio';
-$js_lang['s_video_insert'] = 'Por favor, escriba la URL del archivo de vídeo';
-$js_lang['s_video_w_insert'] = 'Por favor, especifique la anchura del archivo de vídeo';
-$js_lang['s_video_w_error'] = 'No ha especificado la anchura del archivo de vídeo';
-$js_lang['s_video_h_insert'] = 'Por favor, especifique la altura del archivo de vídeo';
-$js_lang['s_video_h_error'] = 'No ha especificado la altura del archivo de vídeo';
-$js_lang['s_googlevideo_insert'] = 'Por favor, escriba la ID del archivo de Google vídeo';
+$js_lang['s_video_insert'] = 'Por favor, escriba la URL del archivo de v&iacute;deo';
+$js_lang['s_video_w_insert'] = 'Por favor, especifique la anchura del archivo de v&iacute;deo';
+$js_lang['s_video_w_error'] = 'No ha especificado la anchura del archivo de v&iacute;deo';
+$js_lang['s_video_h_insert'] = 'Por favor, especifique la altura del archivo de v&iacute;deo';
+$js_lang['s_video_h_error'] = 'No ha especificado la altura del archivo de v&iacute;deo';
+$js_lang['s_googlevideo_insert'] = 'Por favor, escriba la ID del archivo de Google v&iacute;deo';
 $js_lang['s_youtube_insert'] = 'Por favor, escriba la ID del archivo de YouTube';
 $js_lang['s_emff_insert'] = 'Por favor, escriba la URL del archivo mp3';
-$js_lang['s_flash_insert'] = 'Por favor, escriba la URL de la película flash';
-$js_lang['s_flash_w_insert'] = 'Por favor, especifique la anchura de la película flash';
-$js_lang['s_flash_w_error'] = 'No ha especificado la anchura de la película flash';
-$js_lang['s_flash_h_insert'] = 'Por favor, especifique la altura de la película flash';
-$js_lang['s_flash_h_error'] = 'No ha especificado la altura de la película flash';
+$js_lang['s_flash_insert'] = 'Por favor, escriba la URL de la pel&iacute;cula flash';
+$js_lang['s_flash_w_insert'] = 'Por favor, especifique la anchura de la pel&iacute;cula flash';
+$js_lang['s_flash_w_error'] = 'No ha especificado la anchura de la pel&iacute;cula flash';
+$js_lang['s_flash_h_insert'] = 'Por favor, especifique la altura de la pel&iacute;cula flash';
+$js_lang['s_flash_h_error'] = 'No ha especificado la altura de la pel&iacute;cula flash';
 $js_lang['s_id_insert_tip'] = 'ID';
 $js_lang['s_id_insert_error'] = 'No ha especificado ninguna ID';
 $js_lang['s_file_insert_error'] = 'No ha especificado la URL del archivo';
 $js_lang['s_grad_select'] = 'Por favor, seleccione primero el texto';
-$js_lang['s_grad_error'] = 'Esta opción sólo trabaja con menos de 120 letras';
+$js_lang['s_grad_error'] = 'Esta opci&oacute;n s&oacute;lo trabaja con menos de 120 letras';
 $js_lang['s_grad_path'] = 'includes/grad.htm';
-$js_lang['s_view_more_code'] = 'Ver mas código';
-$js_lang['s_image_upload'] = 'Subir una imagen a PostImage.org y añadir al mensaje';
-$js_lang['s_posticyimage'] = 'Subir una imagen y añadirla al mensaje';
+$js_lang['s_view_more_code'] = 'Ver mas c&oacute;digo';
+$js_lang['s_image_upload'] = 'Subir una imagen a PostImage.org y a&ntilde;adir al mensaje';
+$js_lang['s_posticyimage'] = 'Subir una imagen y a&ntilde;adirla al mensaje';
 
 // Helpline messages
 $js_lang['s_a_help'] = 'Cerrar todas la etiquetas abiertas';
@@ -259,22 +259,22 @@ $js_lang['s_i_help'] = 'Texto en cursiva: [i]texto[/i]';
 $js_lang['s_u_help'] = 'Texto subrayado: [u]texto[/u]';
 $js_lang['s_strike_help'] = 'Texto tachado: [strike]texto[/strike]';
 $js_lang['s_quote_help'] = 'Citar texto: [quote]texto[/quote]';
-$js_lang['s_code_help'] = 'Mostrar código: [code]código[/code]';
+$js_lang['s_code_help'] = 'Mostrar c&oacute;digo: [code]c&oacute;digo[/code]';
 $js_lang['s_phpbbmod_help'] = 'phpBB MOD template';
 $js_lang['s_highlight_help'] = 'Toque de luz (Highlight): [highlight=#FFFFAA]texto[/highlight]';
 $js_lang['s_img_help'] = 'Insertar imagen: [img]http://imagen_url[/img]';
 $js_lang['s_imgl_help'] = 'Insertar imagen alineada a la izquierda: [img align=left]http://imagen_url[/img]';
 $js_lang['s_imgr_help'] = 'Insertar imagen alineada a la derecha: [img align=right]http://imagen_url[/img]';
-$js_lang['s_albumimg_help'] = 'Insertar imagen del álbum: [albumimg]ID imagen álbum[/albumimg]';
-$js_lang['s_albumimgl_help'] = 'Insertar imagen desde el álbum alineada a la izquierda: [albumimg align=left]ID imagen del álbum[/albumimg]';
-$js_lang['s_albumimgr_help'] = 'Insertar imagen desde el álbum alineada a la derecha: [albumimg align=right]ID imagen del álbum[/albumimg]';
+$js_lang['s_albumimg_help'] = 'Insertar imagen del &aacute;lbum: [albumimg]ID imagen &aacute;lbum[/albumimg]';
+$js_lang['s_albumimgl_help'] = 'Insertar imagen desde el &aacute;lbum alineada a la izquierda: [albumimg align=left]ID imagen del &aacute;lbum[/albumimg]';
+$js_lang['s_albumimgr_help'] = 'Insertar imagen desde el &aacute;lbum alineada a la derecha: [albumimg align=right]ID imagen del &aacute;lbum[/albumimg]';
 $js_lang['s_url_help'] = 'Insertar URL: [url]http://url[/url] o [url=http://url]Texto URL[/url]';
 $js_lang['s_fc_help'] = 'Color de fuente: [color=red]texto[/color] (Nota: puede usar color=#FF0000)';
-$js_lang['s_fs_help'] = 'Tamaño de fuente: [size=9]small texto[/size]';
+$js_lang['s_fs_help'] = 'Tama&ntilde;o de fuente: [size=9]small texto[/size]';
 $js_lang['s_ft_help'] = 'Tipo de fuente: [font=Andalus]texto[/font]';
 $js_lang['s_table_help'] = 'Insertar tabla: [table]texto[/table]';
 $js_lang['s_td_help'] = 'Insertar columna de tabla: [td]texto[/td]';
-$js_lang['s_mail_help'] = 'Insertar correo: [email]Correo aquí[/email]';
+$js_lang['s_mail_help'] = 'Insertar correo: [email]Correo aqu&iacute;[/email]';
 $js_lang['s_grad_help'] = 'Insertar texto gradient';
 $js_lang['s_right_help'] = 'Fijar texto alineado a la derecha: [align=right]texto[/align]';
 $js_lang['s_left_help'] = 'Fijar texto alineado a la izquierda: [align=left]texto[/align]';
@@ -284,15 +284,15 @@ $js_lang['s_marqr_help'] = 'Desplazar texto hacia la derecha: [marquee direction
 $js_lang['s_marql_help'] = 'Desplazar texto hacia la izquierda: [marquee direction=left]texto[/marquee]';
 $js_lang['s_marqu_help'] = 'Desplazar texto hacia arriba: [marquee direction=up]texto[/marquee]';
 $js_lang['s_marqd_help'] = 'Desplazar texto hacia abajo: [marquee direction=down]texto[/marquee]';
-$js_lang['s_sup_help'] = 'Superíndice: [sup]text[/sup]';
-$js_lang['s_sub_help'] = 'Subíndice: [sub]text[/sub]';
-$js_lang['s_hr_help'] = 'Insertar línea-H [hr]';
+$js_lang['s_sup_help'] = 'Super&iacute;ndice: [sup]text[/sup]';
+$js_lang['s_sub_help'] = 'Sub&iacute;ndice: [sub]text[/sub]';
+$js_lang['s_hr_help'] = 'Insertar l&iacute;nea-H [hr]';
 $js_lang['s_bullet_help'] = 'Insertar punto bullet [*]';
-$js_lang['s_video_help'] = 'Insertar archivo de vídeo: [video width=# height=#]URL archivo[/video]';
-$js_lang['s_googlevideo_help'] = 'Introduzca el archivo de Google vídeo: [googlevideo]ID Google vídeo[/googlevideo]';
+$js_lang['s_video_help'] = 'Insertar archivo de v&iacute;deo: [video width=# height=#]URL archivo[/video]';
+$js_lang['s_googlevideo_help'] = 'Introduzca el archivo de Google v&iacute;deo: [googlevideo]ID Google v&iacute;deo[/googlevideo]';
 $js_lang['s_youtube_help'] = 'Introduzca el archivo YouTube: [youtube]ID YouTube[/youtube]';
-$js_lang['s_quick_help'] = 'QuickTime vídeo: [quick]http://quicktime_video_url/[/quick]';
-$js_lang['s_flash_help'] = 'Insertar película flash: [flash width=# height=#]URL flash[/flash]';
+$js_lang['s_quick_help'] = 'QuickTime v&iacute;deo: [quick]http://quicktime_video_url/[/quick]';
+$js_lang['s_flash_help'] = 'Insertar pel&iacute;cula flash: [flash width=# height=#]URL flash[/flash]';
 $js_lang['s_ram_help'] = 'Insertar archivo real media: [ram]URL archivo[/ram]';
 $js_lang['s_stream_help'] = 'Introduzca el archivo stream: [stream]URL archivo[/stream]';
 $js_lang['s_emff_help'] = 'Introduzca el archivo mp3: [emff]URL archivo[/emff]';
@@ -302,8 +302,8 @@ $js_lang['s_cell_help'] = 'Celda: [cell]texto[/cell]';
 $js_lang['s_list_help'] = 'Lista ordenada: [list|=1|a]texto[/list] (Nota: puede usar [*] para insertar un punto)';
 $js_lang['s_listo_help'] = 'Lista ordenada: [list=1|a]texto[/list] (Nota: puede usar [*] para insertar un punto)';
 $js_lang['s_help_help'] = 'Abrir ayuda de BBCode';
-$js_lang['s_image_upload_help'] = 'Subir imagen a PostImage.org y añadir al mensaje';
-$js_lang['s_posticyimage_help'] = 'Subir imagen y añadirla al mensaje';
+$js_lang['s_image_upload_help'] = 'Subir imagen a PostImage.org y a&ntilde;adir al mensaje';
+$js_lang['s_posticyimage_help'] = 'Subir imagen y a&ntilde;adirla al mensaje';
 $js_lang['s_smiley_creator'] = 'Personalizar emoticono: [smiley=1]Texto[/smiley] insertar un emoticono con texto';
 
 // Please do not remove this!!!

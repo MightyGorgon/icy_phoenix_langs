@@ -6,7 +6,7 @@ Hola, <b>{USERNAME}</b>.<br />
 
 Este es un mensaje automático para indicarle que su cuenta en <b>"{SITENAME}"</b> ha sido borrada por inactividad.<br />
 
-Si quiere volver a formar parte de la web puede volver a registrarse en:<br /><br/>
+Si quiere volver a formar parte de la web puede volver a registrarse en:<br /><br />
 
 <a href="{U_REGISTER}" target="_blank">{U_REGISTER}</a>
 <br /><br />
