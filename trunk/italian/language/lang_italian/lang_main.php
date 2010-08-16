@@ -2337,6 +2337,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_TAGS_LIST' => 'Tags E Parole Chiave Lista',
 	'TAG_COUNT' => 'Contatore',
 	'TAG_TEXT' => 'Tag',
+	'TAGS_TEXT' => 'Tags',
 	'TAG_RESULTS' => 'Tag selezionato: <b>%s</b>',
 	'TAGS_NO_TAGS' => 'Nessun tag creato',
 	'TAGS_NO_TAG' => 'Il tag richiesto non esiste',
@@ -2454,6 +2455,8 @@ $lang = array_merge($lang, array(
 	'USER_LAST_NAME' => 'Cognome',
 	'FACEBOOK' => 'Facebook',
 	'TWITTER' => 'Twitter',
+
+	'INACTIVE_USER' => 'Utente Inattivo',
 
 	)
 );

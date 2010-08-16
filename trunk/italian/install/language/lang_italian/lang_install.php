@@ -273,6 +273,11 @@ $lang = array_merge($lang, array(
 
 	'RenMovePics' => 'Rinomina E Sposta Immagini Inviate',
 	'RenMovePicsExplain' => 'Questa funzione rinomina e sposta tutte le immagini inviate dagli utenti che si trovano nella cartella principale muovendole in sottocartelle per utente: se lanci questa applicazione avrai bisogno poi di modificare tutti i messaggi tramite la funzione <i>Correggi Messaggi</i>',
+
+	'COLLIDING_CLEAN_USERNAME' => '<strong>%s</strong> &egrave; il nome utente ripulito per:',
+	'COLLIDING_USERNAMES_FOUND' => 'Nomi utente in collisione sono stati trovati nella vecchia board. Per poter portare a termine la conversione, cancella o rinomina questi utenti in modo che nella tua vecchia board ci sia un solo utente per ogni nome utente ripulito.',
+	'COLLIDING_USER' => '&raquo; id utente: <strong>%d</strong> nome utente: <strong>%s</strong> (%d messaggi)',
+
 	)
 );
 

@@ -2090,12 +2090,15 @@ $lang = array_merge($lang, array(
 
 	'POLL_INFINITE' => 'Infinito...',
 	'POLL_ONGOING' => ' (in corso)',
-	'POLL_COMPLETED' => ' (completato))',
+	'POLL_COMPLETED' => ' (completato)',
 
 	'FORUM_LIKES' => 'Apprezzamento Messaggi (Like)',
 	'FORUM_LIKES_EXPLAIN' => 'Consente agli utenti di esprimere l\'apprezzamento ai singoli messaggi (per utilizzare questa funzione &egrave; necessario averl attivata globalmente tra le Impostazioni di Icy Phoenix [Carico SQL])',
 
 	'POSTS_PICS' => 'Posts / Pics',
+
+	'INACTIVE_USER_FEATURE' => 'Maschera utente',
+	'INACTIVE_USER_FEATURE_EXPLAIN' => 'Attivando questa funzione i dati dell\'utente verranno mascherati nei forums e nei messaggi. Il mascheramento avviene solamente se l\'utente non &egrave; attivo.',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Impostazioni Icy Phoenix',
