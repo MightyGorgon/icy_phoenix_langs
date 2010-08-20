@@ -2451,6 +2451,7 @@ $lang = array_merge($lang, array(
 	'FOE_ADD' => 'Aggiungi alla lista ignorati',
 	'FOE_REMOVE' => 'Rimuovi dalla lista ignorati',
 
+	'SOCIAL_NETWORKS' => 'Social Networks',
 	'USER_FIRST_NAME' => 'Nome',
 	'USER_LAST_NAME' => 'Cognome',
 	'FACEBOOK' => 'Facebook',
