@@ -2458,6 +2458,7 @@ $lang = array_merge($lang, array(
 	'TWITTER' => 'Twitter',
 
 	'INACTIVE_USER' => 'Utente Inattivo',
+	'SEARCH_MIN_CHARS' => 'Devi inserire almeno %s caratteri per poter effettuare la ricerca.',
 
 	)
 );

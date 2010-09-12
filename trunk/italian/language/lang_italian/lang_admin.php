@@ -2100,6 +2100,9 @@ $lang = array_merge($lang, array(
 	'INACTIVE_USER_FEATURE' => 'Maschera utente',
 	'INACTIVE_USER_FEATURE_EXPLAIN' => 'Attivando questa funzione i dati dell\'utente verranno mascherati nei forums e nei messaggi. Il mascheramento avviene solamente se l\'utente non &egrave; attivo.',
 
+	'RANK_SHOW_TITLE' => 'Mostra il titolo del rank',
+	'RANK_SHOW_TITLE_EXPLAIN' => 'Disattivando questa opzione verr&agrave; mostrata soltanto l\'immagine',
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Impostazioni Icy Phoenix',
 	'IP_CONFIGURATION_EXPLAIN' => 'In questa sezione &egrave; possibile configurare alcune impostazioni avanzate di Icy Phoenix',

@@ -22,6 +22,7 @@ $lang = array_merge($lang, array(
 	// MG CMS - BEGIN
 	// Some langs borrowed from IM Portal
 	'CMS_WELCOME' => 'Benvenuto in Icy Phoenix',
+	'CMS_THANKS' => 'Grazie per aver scelto <a href="http://www.icyphoenix.com/" title="Icy Phoenix">Icy Phoenix</a>. Se hai bisogno di aiuto puoi consultare la <a href="http://www.icyphoenix.com/viewforumlist.php?f=4" title="Documentazione">Documentazione</a> o il <a href="http://www.icyphoenix.com/forum.php" title="Forum di supporto">Forum</a>.',
 	'BP_Title' => 'Tag posizione dei blocchi',
 	'BP_Explain' => 'In questo pannello puoi aggiungere, modificare o rimuovere posizioni dei blocchi che puoi utilizzare nelle pagine del sito. Le posizioni predefinite sono \'header\' (testata), \'footer\' (pi&egrave; di pagina), \'right\' (destra), \'left\' (sinistra) e \'center\' (centro). Queste posizioni corrispondono al layout utilizzato per una specifica pagina del sito. Possono essere aggiunte soltanto aggiunte posizioni per pagine esistenti. Le chiavi di posizione che non esistono nel layout specifico non verranno mostrate nella pagina del sito. Ogni chiave tag di posizione deve essere unica per la pagina del sito.',
 	'BP_Position' => 'Posizione carattere',
@@ -446,6 +447,7 @@ $lang = array_merge($lang, array(
 		'cms_b_edit' => 'Modifica Blocchi',
 		'cms_b_delete' => 'Cancella Blocchi',
 	),
+
 	)
 );
 
