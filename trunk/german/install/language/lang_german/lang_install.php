@@ -258,6 +258,11 @@ $lang = array_merge($lang, array(
 
 	'RenMovePics' => 'Umbenennen und Verschieben geposteter Bilder',
 	'RenMovePicsExplain' => 'Diese Funktion benennt die Bilder um, die in Beiträgen hochgeladen wurden und verschiebt sie vom Hauptordner in den Benutzer Unterordner: du musst danach die Beitrags-Tabelle aktualisieren, indem du die <i>Beiträge reparieren</i> Funktion ausführst, um den jeweiligen Pfad in den Beiträgen anzupassen',
+
+	'COLLIDING_CLEAN_USERNAME' => '<strong>%s</strong> ist der clean Benutzername für:',
+	'COLLIDING_USERNAMES_FOUND' => 'Es wurden doppelte Benutzernamen im alten Forum gefunden. Um die Konvertierung fortzusetzen lösche oder benenne diese Bentzer so um, dass es nur eindeutige clean Benutzernamen gibt.',
+	'COLLIDING_USER' => '&raquo; Benutzer-ID: <strong>%d</strong> Benutzername: <strong>%s</strong> (%d Beiträge)',
+
 	)
 );
 

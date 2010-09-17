@@ -82,7 +82,7 @@ $lang['amp_char_pro_no_char'] = 'Dieser Benutzer hat bislang noch keinen Charakt
 $lang['amp_char_pro_views'] = 'Ich wurde %T% Mal angeschaut.';
 $lang['amp_char_create_char_link'] = 'Charakter erstellen';
 $lang['amp_char_goto_shop_link'] = 'Charakter-Shop';
-$lang['amp_char_cp_saying'] = 'Character-Spruch';
+$lang['amp_char_cp_saying'] = 'Charakter-Spruch';
 $lang['amp_char_cp_title'] = 'Charakter-Titel';
 $lang['amp_char_cp_delete'] = 'Meinen Charakter löschen';
 $lang['amp_char_cp_delete_confirm'] = 'Bist du sicher, dass du deinen Charakter löschen möchtest? Dies <b>kann nicht</b> rückgängig gemacht werden!';
@@ -113,7 +113,7 @@ $lang['amp_char_shop_color_cyan'] = 'Cyan';
 
 $lang['amp_char_shop_option_color'] = 'Farbe';
 $lang['amp_char_shop_option_shadow'] = 'Schatten';
-$lang['amp_char_shop_option_glow'] = 'Leucheffekt';
+$lang['amp_char_shop_option_glow'] = 'Leuchteffekt';
 $lang['amp_char_shop_option_bold'] = 'Fett';
 $lang['amp_char_shop_option_italic'] = 'Kursiv';
 $lang['amp_char_shop_option_underline'] = 'Unterstrichen';
@@ -173,4 +173,6 @@ $lang['amp_char_save_shop'] = 'Einstellungen übernehmen';
 
 $lang['amp_char_settings_saved'] = 'Charakter-Einstellungen gespeichert.';
 $lang['amp_char_settings_back'] = 'Klicke %shier%s, um zum Menü zu gelangen.';
+$lang['char'] = 'Charakter';
+
 ?>

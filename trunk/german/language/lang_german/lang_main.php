@@ -143,11 +143,13 @@ $lang = array_merge($lang, array(
 	'View_newest_post' => 'Neusten Beitrag anzeigen',
 	'Page_of' => 'Seite <b>%d</b> von <b>%d</b>', // Replaces with: Page 1 of 2 for example
 
-	'ICQ' => 'ICQ-Nummer',
-	'AIM' => 'AIM-Name',
+	'AIM' => 'AIM Address',
+	'ICQ' => 'ICQ Number',
+	'JABBER' => 'Jabber',
 	'MSNM' => 'MSN Live',
-	'YIM' => 'Yahoo Messenger',
 	'SKYPE' => 'Skype',
+	'YIM' => 'Yahoo Messenger',
+
 	'Forum_Index' => 'Forum',  // eg. sitename Forum Index, %s can be removed if you prefer
 
 	'Post_new_topic' => 'Neues Thema eröffnen',
@@ -589,7 +591,7 @@ $lang = array_merge($lang, array(
 	'Wrong_Profile' => 'Du kannst nur dein eigenes Profil bearbeiten.',
 
 // Invision View Profile - BEGIN
-	'Invision_Active_Stats' => 'Aktivitätsstatistik',
+	'Invision_Active_Stats' => 'Statistik',
 	'Invision_Communicate' => 'Kontakt',
 	'Invision_Info' => 'Information',
 	'Invision_Member_Group' => 'Gruppenmitgliedschaft',
@@ -724,7 +726,6 @@ $lang = array_merge($lang, array(
 	'Empty_subject_email' => 'Du musst einen Titel für diese E-Mail angeben.',
 	'Empty_message_email' => 'Du musst einen Text zur E-Mail angeben.',
 
-
 // Visual confirmation system strings
 	'CONFIRM_CODE_WRONG' => 'Der eingegebene Bestätigungs-Code war nicht richtig',
 	'TOO_MANY_ATTEMPTS' => 'Du hast die zulässige Zahl von Registrierungs-Versuchen für diese Sitzung überschritten. Bitte versuche es später erneut.',
@@ -735,13 +736,13 @@ $lang = array_merge($lang, array(
 // Memberslist
 	'Select_sort_method' => 'Sortierungs-Methode auswählen',
 	'Sort' => 'Sortieren',
-	'Sort_Top_Ten' => 'Top-Ten-Autoren',
-	'Sort_Joined' => 'Anmeldungsdatum',
-	'Sort_Username' => 'Benutzername',
-	'Sort_Location' => 'Ort',
-	'Sort_Posts' => 'Beiträge insgesamt',
-	'Sort_Email' => 'E-Mail',
-	'Sort_Website' => 'Webseite',
+	'SORT_TOP_TEN' => 'Top-Ten-Autoren',
+	'SORT_JOINED' => 'Anmeldungsdatum',
+	'SORT_USERNAME' => 'Benutzername',
+	'SORT_LOCATION' => 'Ort',
+	'SORT_POSTS' => 'Beiträge insgesamt',
+	'SORT_EMAIL' => 'E-Mail',
+	'SORT_WEBSITE' => 'Webseite',
 	'Sort_Ascending' => 'Aufsteigend',
 	'Sort_Descending' => 'Absteigend',
 	'Order' => 'Sortierung',
@@ -1465,7 +1466,7 @@ $lang = array_merge($lang, array(
 	'Always_swear' => 'Kraftausdrücke immer erlauben',
 
 	'Shoutbox' => 'Shoutbox',
-	'Shoutbox_date' => ' d m Y h:i:s',
+	'Shoutbox_date' => ' d m Y H:i:s',
 	'Shout_censor' => '<b>Shout entfernt!</b>',
 	'Shout_refresh' => 'Aktualisieren',
 	'Shout_text' => 'Dein Text',
@@ -1635,13 +1636,24 @@ $lang = array_merge($lang, array(
 	'Users_Hidden' => 'Versteckt',
 // Mighty Gorgon - Enhanced Online - END
 // Mighty Gorgon - Power Memberlist - BEGIN
-	'Fast' => 'Schnell',
-	'Standard' => 'Standard',
 	'Style' => 'Style',
 	'User_Contacts' => 'Kontakte',
 	'Memberlist_Users_Display' => 'Benutzer pro Seite:',
-	'Sort_LastLogon' => 'Letzter Besuch',
-	'Sort_Birthday' => 'Geburtstag',
+	'SORT_FAST' => 'Schnell',
+	'SORT_STANDARD' => 'Standard',
+	'SORT_RANK' => 'Rang',
+	'SORT_STAFF' => 'Team',
+	'SORT_STYLE' => 'Style',
+	'SORT_LASTLOGON' => 'Letzter Besuch',
+	'SORT_BIRTHDAY' => 'Geburtstag',
+	'SORT_ONLINE' => 'Online',
+	'ASCENDING' => 'Ascending',
+	'DESCENDING' => 'Descending',
+	'LESS_THAN' => 'Weniger als',
+	'EQUAL_TO' => 'Equal to',
+	'MORE_THAN' => 'Mehr als',
+	'BEFORE' => 'Before',
+	'AFTER' => 'After',
 // Mighty Gorgon - Power Memberlist - END
 // Mighty Gorgon - Multiple Ranks - BEGIN
 	'Staff' => 'Team',
@@ -1854,7 +1866,7 @@ $lang = array_merge($lang, array(
 
 // Moved here from lang_adv_time.php
 	'time_mode' => 'Zeit-Verwaltung',
-		'time_mode_text' => 'Forumeinstellungen werden ignoriert, wenn die Automatische Einstellung aktiviert ist (JavaScript ist für die ersten beiden erforderlich).<br />Wenn du Manuelle Einstellung gewählt hast, kannst du die Sommerzeit Differenz im Feld Sommerzeit Unterschied die Differenz zur normalen Zeit eingeben (0 bis 120 Minuten, normalerweise 60 Minuten).',
+	'time_mode_text' => 'Forumeinstellungen werden ignoriert, wenn die Automatische Einstellung aktiviert ist (JavaScript ist für die ersten beiden erforderlich).<br />Wenn du Manuelle Einstellung gewählt hast, kannst du die Sommerzeit Differenz im Feld Sommerzeit Unterschied die Differenz zur normalen Zeit eingeben (0 bis 120 Minuten, normalerweise 60 Minuten).',
 	'time_mode_auto' => 'Automatische Einstellung:',
 	'time_mode_full_pc' => 'Zeit deines Computers',
 	'time_mode_server_pc' => 'Server Universalzeit, Zeitzone/Sommerzeit<br /><span STYLE="margin-left: 25">deines Computers</span>',
@@ -1944,6 +1956,7 @@ $lang = array_merge($lang, array(
 /* lang_.php - BEGIN */
 /* lang_.php - END */
 
+	'Uploading' => 'Wird hochgeladen...',
 	'Upload_Image_Local' => 'Bild hochladen',
 	'Uploaded_Images_Local' => 'Hochgeladene Bilder',
 	'Upload_Image_Local_Explain' => 'Wähle das Bild aus, das du hochladen möchtest.',
@@ -1951,6 +1964,9 @@ $lang = array_merge($lang, array(
 	'Uploaded_Image_BBC' => 'Du kannst diesen BBCode benutzen, um das Bild zu posten.',
 	'Upload_Image_Empty' => 'Das Bild konnte nicht hochgeladen werden!',
 	'Upload_File_Too_Big' => 'Das Bild, das du hochladen wolltest, ist zu groß! Max erlaubte Größe:',
+	'Upload_File_Error' => 'Unbekannter Fehler',
+	'Upload_File_Error_Size' => 'Dateigröße nicht erlaubt!',
+	'Upload_File_Error_Type' => 'Dateityp nicht erlaubt!',
 	'Upload_File_Type_Allowed' => 'Nur diese Datei-Arten können hochgeladen werden',
 	'Upload_Insert_Image' => 'Füge BBCode ein',
 	'Upload_Close' => 'Schließen',
@@ -2246,8 +2262,11 @@ $lang = array_merge($lang, array(
 	'CLEAN_NAME_EXPLAIN' => 'Only alpha-numeric chars and dashes allowed',
 	'TOPIC_TAGS' => 'Tags und Schlüsselwörter',
 	'TOPIC_TAGS_EXPLAIN' => 'Trenne jeden Tag durch ein Komma',
+	'TOPIC_TAGS_CLOUDS' => 'Tags And Keywords Cloud',
+	'TOPIC_TAGS_LIST' => 'Tags And Keywords List',
 	'TAG_COUNT' => 'Counter',
 	'TAG_TEXT' => 'Tag',
+	'TAGS_TEXT' => 'Tags',
 	'TAG_RESULTS' => 'Ausgewählter Tag: <b>%s</b>',
 	'TAGS_NO_TAGS' => 'Kein Tag bisher festgelegt',
 	'TAGS_NO_TAG' => 'Specified tag doesn\'t exist',
@@ -2284,6 +2303,91 @@ $lang = array_merge($lang, array(
 	'DB_ITEM_CLICK_VIEW_ITEM' => 'Click %sHere%s to view added data',
 	'DB_ITEM_CLICK_RETURN_ITEMS' => 'Click %sHere%s to return to list page',
 	// COMMON DB - END
+
+	'LOGIN_ATTEMPTS_EXCEEDED' => 'The maximum number of %s login attempts has been exceeded. You are not allowed to login for the next %s minutes.',
+	'LOGIN_CONFIRM_EXPLAIN' => 'To prevent brute forcing accounts the board requires you to enter a confirmation code after a maximum amount of failed logins. The code is displayed in the image you should see below. If you are visually impaired or cannot otherwise read this code please contact the %sAdministrator%s.',
+	'LOGIN_ERROR_ATTEMPTS' => 'You exceeded the maximum allowed number of login attempts. In addition to your username and password you now also have to enter the confirm code from the image you see below.',
+	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE' => 'You have not been authenticated by Apache.',
+	'LOGIN_ERROR_PASSWORD' => 'You have specified an incorrect password. Please check your password and try again. If you continue to have problems please contact the %sAdministrator%s.',
+	'LOGIN_ERROR_PASSWORD_CONVERT' => 'It was not possible to convert your password when updating this website\'s software. Please %srequest a new password%s. If you continue to have problems please contact the %sAdministrator%s.',
+	'LOGIN_ERROR_USERNAME' => 'You have specified an incorrect username. Please check your username and try again. If you continue to have problems please contact the %sAdministrator%s.',
+	'NO_PASSWORD_SUPPLIED' => 'You cannot login without a password.',
+	'ACTIVE_ERROR' => 'The specified username is currently inactive. If you have problems activating your account, please contact the %sAdministrator%s.',
+
+	'Bytes' => 'Bytes',
+	'KB' => 'KB',
+	'MB' => 'MB',
+	'GB' => 'GB',
+
+	'NO_EVENTS' => 'No planned events',
+	'EVENT_START_DATE' => 'Start Date',
+	'EVENT_START_TIME' => 'Start Time',
+	'EVENT_END_DATE' => 'End Date',
+	'EVENT_END_TIME' => 'End Time',
+	'EVENT_TITLE' => 'Event',
+	'EVENT_FORUM' => 'Category',
+
+	'MAX_OPTIONS_SELECT' => 'You may select up to <strong>%d</strong> options',
+	'MAX_OPTION_SELECT' => 'You may select <strong>1</strong> option',
+	'NO_POLLS' => 'No Polls',
+	'NO_VOTE_OPTION' => 'You must specify an option when voting.',
+	'NO_VOTES' => 'No votes',
+	'POLL_ENDED_AT' => 'Poll ended at %s',
+	'POLL_MAX_OPTIONS' => 'Max options',
+	'POLL_MAX_OPTIONS_EXPLAIN' => 'Maximum number of options selectable by users',
+	'POLL_NO_GUESTS' => 'Sorry, but Guests are not allowed to vote',
+	'POLL_RUN_TILL' => 'Poll runs until %s',
+	'POLL_VOTE_CHANGE' => 'Allow vote change',
+	'POLL_VOTED_OPTION' => 'You voted for this option',
+	'TOO_MANY_VOTE_OPTIONS' => 'You have tried to vote for too many options.',
+	'VIEW_POLL' => 'View Poll',
+	'VOTE_SUBMITTED' => 'Your vote has been cast.',
+	'VOTE_CONVERTED' => 'Changing votes is not supported for converted polls.',
+
+	'FORM_INVALID' => 'The submitted form was invalid. Try submitting again.',
+
+	'NO_USERS_FOUND' => 'No users found',
+	'POST_IP' => 'IP Address',
+	'FIND_USERNAME' => 'Find a member',
+	'FIND_USERNAME_HIDE' => 'Hide &quot;Find a member&quot; form',
+	'FIND_USERNAME_EXPLAIN' => 'Use this form to search for specific members. You do not need to fill out all fields. To match partial data use * as a wildcard. When entering dates use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the mark checkboxes to select one or more usernames (several usernames may be accepted depending on the form itself) and click the Select Marked button to return to the previous form.',
+
+	'AUTH_NONE' => 'NONE',
+	'AUTH_ALL' => 'ALL',
+	'AUTH_REG' => 'REG',
+	'AUTH_SELF' => 'SELF',
+	'AUTH_PRIVATE' => 'PRIVATE',
+	'AUTH_MOD' => 'MOD',
+	'AUTH_JADMIN' => 'J ADMIN',
+	'AUTH_ADMIN' => 'ADMIN',
+
+	'SHARE' => 'Share',
+	'LIKE' => 'Like',
+	'UNLIKE' => 'Unlike',
+	'LIKE_POST' => 'Like this post',
+	'UNLIKE_POST' => 'Unlike this post',
+	'LIKE_TIME' => 'Date',
+	'LIKE_RECAP' => 'Users who like this post',
+	'LIKE_COUNTER_YOU' => 'You like this post',
+	'LIKE_COUNTER_YOU_OTHERS_SINGLE' => 'You and another user like this post',
+	'LIKE_COUNTER_YOU_OTHERS' => 'You and %s users like this post',
+	'LIKE_COUNTER_OTHERS' => '%s users like this post',
+	'LIKE_COUNTER_OTHERS_SINGLE' => 'One user likes this post',
+
+	'FRIENDSHIP_STATUS' => 'Friendship status',
+	'FRIEND_ADD' => 'Add as a friend',
+	'FRIEND_REMOVE' => 'Remove as a friend',
+	'FOE_ADD' => 'Add as a foe',
+	'FOE_REMOVE' => 'Remove as a foe',
+
+	'SOCIAL_NETWORKS' => 'Social Networks',
+	'USER_FIRST_NAME' => 'First Name',
+	'USER_LAST_NAME' => 'Last Name',
+	'FACEBOOK' => 'Facebook',
+	'TWITTER' => 'Twitter',
+
+	'INACTIVE_USER' => 'Inactive User',
+	'SEARCH_MIN_CHARS' => 'You need to input at least %s chars to perform the search.',
 
 	)
 );

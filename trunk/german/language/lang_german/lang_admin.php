@@ -37,7 +37,7 @@ $lang = array_merge($lang, array(
 	'Users' => 'Benutzer',
 	'Groups' => 'Gruppen',
 	'Forums' => 'Forum',
-	'Styles' => 'Styles/Themes',
+	'Styles' => 'Styles',
 
 	'Configuration' => 'Konfiguration',
 	'Various_Configuration' => 'Konfiguration',
@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 // Index
 	'Admin' => 'Administration',
 	'Not_admin' => 'Du hast keine Administrator-Rechte',
-	'Welcome_phpBB' => 'Willkommen bei Icy Phoenix',
+	'Welcome_IP' => 'Willkommen bei Icy Phoenix',
 	'Admin_intro' => 'Danke, dass du dich für Icy Phoenix entschieden hast. Auf diesem Bildschirm erhältst du einen Überblick über die Statistiken deines Forums. Wenn du auf diese Seite zurückkehren möchtest, klicke auf den <u>Admin Index</u>-Link im oberen Bedienfeld. Um zu deinem Forum zurückzukehren, klicke oben rechts auf Forum. Die anderen Links auf der linken Seite erlauben es dir, alle wichtigen Bereiche deines Forums zu kontrollieren. In jedem Bereich wird beschrieben, wie die einzelnen Funktionen verwendet werden.',
 	'PayPalInfo' => 'Icy Phoenix ist ein Open Source Projekt. Du kannst deine Anerkennung zeigen und die Weiterentwicklung von Icy Phoenix unterstützen, indem du für das Projekt spendest.',
 	'Forum_stats' => 'Forum Statistiken',
@@ -172,7 +172,6 @@ $lang = array_merge($lang, array(
 	'Hidden' => 'Versteckt',
 
 // These are displayed in the drop down boxes for advanced
-// mode forum auth, try and keep them short!
 	'Forum_NONE' => 'KEINER',
 	'Forum_ALL' => 'ALLE',
 	'Forum_REG' => 'REG',
@@ -720,7 +719,7 @@ $lang = array_merge($lang, array(
 	'sig_divider' => 'Signaturteiler',
 	'sig_explain' => 'Hier kannst du einstellen, mit welchen Zeichen die Signatur von den Beiträgen geteilt wird.',
 
-// Start add - Birthday MOD
+// BIRTHDAY - BEGIN
 	'Birthday_required' => 'Die Eingabe des Geburtstags erforderlich machen',
 	'Enable_birthday_greeting' => 'Geburtstagsgrüße aktivieren',
 	'Birthday_greeting_explain' => 'Benutzer, die einen Geburtstag angegeben haben, können bei Einloggen in das Forum beglückwünscht werden.',
@@ -731,7 +730,7 @@ $lang = array_merge($lang, array(
 	'Min_user_age' => 'Mindestalter',
 	'Birthday_lookforward' => 'Geburtstagsvorschau',
 	'Birthday_lookforward_explain' => 'Anzahl der Tage, die vorausgesehen werden soll',
-// End add - Birthday MOD
+// BIRTHDAY - END
 
 // Start add - Yellow card admin MOD
 	'Max_user_bancard' => 'Maximale Anzahl der Warnungen',
@@ -785,7 +784,7 @@ $lang = array_merge($lang, array(
 	'Optimize_DB' => 'Datenbank optimieren',
 	'Optimize_Enable_cron' => 'Cron aktivieren',
 	'Optimize_Cron_every' => 'Cron alle',
-	'Optimize_Cron_every_explain' => 'Bitte beachte, dass auch die Funktion <b>PHP Cron [Globale Einstellung]</b> in <b>Konfiguration &raquo; Icy Phoenix Einstellungen &raquo; Cron</b> aktiviert sein muss.',
+	'Optimize_Cron_every_explain' => 'Bitte beachte, dass auch die Funktion <b>PHP Cron [Globale Einstellung]</b> in <b>Admin-Bereich &raquo; Konfiguration &raquo; Einstellungen &raquo; Cron</b> aktiviert sein muss.',
 	'Optimize_month' => 'Monat',
 	'Optimize_2weeks' => '2 Wochen',
 	'Optimize_week' => 'Woche',
@@ -1394,10 +1393,12 @@ $lang = array_merge($lang, array(
 	'Vote_id' => '#',
 	'Poll_topic' => 'Umfrage-Thema',
 	'Vote_username' => 'Wähler',
-	'Vote_end_date' => 'Umfragedauer',
-	'Sort_vote_id' => 'Umfrage ID',
-	'Sort_poll_topic' => 'Umfragethema',
-	'Sort_vote_start' => 'Startdatum',
+	'Vote_end_date' => 'Umfrage-Dauer',
+	'Sort_vote_id' => 'Umfrage-ID',
+	'Sort_poll_topic' => 'Umfrage-Thema',
+	'Sort_poll_title' => 'Umfrage-Titel',
+	'Sort_poll_start' => 'Start Datum',
+	'Sort_poll_end' => 'End Datum',
 	'Submit' => 'Absenden',
 	'Select_sort_field' => 'Sortierfeld auswählen',
 	'Sort_ascending' => 'Aufsteigend',
@@ -1962,7 +1963,7 @@ $lang = array_merge($lang, array(
 	'TICKET_CAT_EMAILS_EXPLAIN' => 'Insert here all email addresses you want the email to be sent.<br />Separate all addresses by semicolon (a@a.com;b@b.com;c@c.com).',
 	'TICKETS_NO_TICKETS' => 'Keine Tickets',
 	'TICKETS_NO_TICKET_SEL' => 'Kein Ticket ausgewählt',
-	'TICKETS_NO_TICKET_TITLE' => 'You have to enter at least title field',
+	'TICKETS_NO_TICKET_TITLE' => 'Du mußt wenigstens einen Titel eingeben.',
 	'TICKETS_DB_ADD' => 'Kategorie hinzufügen',
 	'TICKETS_DB_ADDED' => 'Kategorie erfolgreich hinzugefügen',
 	'TICKETS_DB_UPDATED' => 'Kategorie erfolgreich geändert',
@@ -2032,14 +2033,23 @@ $lang = array_merge($lang, array(
 
 	// PLUGINS - BEGIN
 	'PLUGINS' => 'Plugins',
-	'PLUGINS_EXPLAIN' => 'In this section you can enable or disable Icy Phoenix Plugins',
+	'PLUGINS_EXPLAIN' => 'Hier kannst du die Icy Phoenix Plugins aktivieren bu´zw. deaktivieren.',
 	'PLUGINS_FOLDER' => 'Ordner',
 	'PLUGINS_NAME' => 'Name',
 	'PLUGINS_DESCRIPTION' => 'Beschreibung',
-	'PLUGINS_UPDATE_CONFIG' => 'Update Configuration',
-	'PLUGINS_CONFIG_UPDATED' => 'Plugins configuration updated successfully. Please note that you need to reload ACP (F5) to update modules.',
-	'PLUGINS_RETURN_CLICK' => 'Click %sHere%s to return to Plugins',
-	'PLUGINS_NO_PLUGINS' => 'Keine Plugins to be configured',
+	'PLUGINS_VERSION' => 'Version',
+	'PLUGINS_CURRENT_VERSION' => 'Aktuelle Version',
+	'PLUGINS_LAST_VERSION' => 'Letzte Version',
+	'PLUGINS_INSTALL' => 'Installieren',
+	'PLUGINS_UPGRADE' => 'Upgrade',
+	'PLUGINS_UNINSTALL' => 'Deinstallieren',
+	'PLUGINS_UP_TO_DATE' => 'Aktuell',
+	'PLUGINS_NOT_INSTALLED' => 'Nicht installiert',
+	'PLUGINS_OUTDATED' => 'Nicht aktuell',
+	'PLUGINS_UPDATE_CONFIG' => 'Update Konfiguration',
+	'PLUGINS_CONFIG_UPDATED' => 'Plugins-Konfiguration erfolgreich aktualisiert. Hinweis: Du mußt den Admin-Bereich neu laden (F5 drücken), um die Module zu aktualisieren.',
+	'PLUGINS_RETURN_CLICK' => 'Klicke %shier%s, um zu den Plugins zurückzukehren.',
+	'PLUGINS_NO_PLUGINS' => 'Keine Plugins konfiguriert',
 	// PLUGINS - END
 
 	'BBCODE_SETTINGS' => 'BBCode, HTML und Smilies Einstellungen',
@@ -2047,7 +2057,18 @@ $lang = array_merge($lang, array(
 
 	'POLL_INFINITE' => 'Unbegrenzt...',
 	'POLL_ONGOING' => ' (aktuell)',
-	'POLL_COMPLETED' => ' (beeindet))',
+	'POLL_COMPLETED' => ' (beeindet)',
+
+	'FORUM_LIKES' => 'Like Posts',
+	'FORUM_LIKES_EXPLAIN' => 'Allow users to like single posts in a topic (you need to enable the global switch in Icy Phoenix Settings [SQL Charge] to be able to use this feature)',
+
+	'POSTS_PICS' => 'Posts / Pics',
+
+	'INACTIVE_USER_FEATURE' => 'Mask this user',
+	'INACTIVE_USER_FEATURE_EXPLAIN' => 'By enabling this switch, the user will be masked in forums and topics. User profile details will be replaced by anonymous data. User will be masked only if its account is not active.',
+
+	'RANK_SHOW_TITLE' => 'Display rank title',
+	'RANK_SHOW_TITLE_EXPLAIN' => 'By disabling this option only rank image will be shown',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Icy Phoenix Einstellungen',
@@ -2169,10 +2190,6 @@ $lang['150_DB_Maintenance'] = 'Datenbank-Wartung'; // admin_db_maintenance.php
 $lang['170_db_update_generator'] = 'DB Update Generator'; // admin_db_generator.php
 $lang['180_msqd'] = 'MySQLDumper'; // admin_msqd.php
 
-// Plugins
-$lang['1500_Plugins'] = 'Plugins'; // admin_plugins.php
-$lang['100_Plugins_Modules'] = 'Plugins Modules'; // admin_plugins.php
-
 // News
 $lang['1600_News_Admin'] = 'News'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
 $lang['100_News_Config'] = 'News Konfiguration'; // admin_news.php
@@ -2278,8 +2295,23 @@ $lang['130_GD_Info'] = 'GD Info'; // admin_gd_info.php
 $lang['140_HTTP_REF'] = 'HTTP Referrers'; // admin_referrers.php
 $lang['150_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
 
+// STATS
+$lang['2500_STATS'] = 'Statistik'; // admin_statistics.php
+
+// CRACKER/TRACKER
+$lang['2600_CRACKERTRACKER'] = 'Cracker Tracker'; // admin_cracker_tracker.php
+
+// Plugins
+$lang['3000_Plugins'] = 'Plugins'; // admin_plugins.php
+$lang['100_Plugins_Modules'] = 'Plugins Module'; // admin_plugins.php
+
+// Cash
+$lang['3100_CASH'] = 'Cash / Points'; // admin_cash.php
+$lang['110_Cash_Admin'] = 'Cash Management'; // admin_cash.php
+$lang['120_Cash_Help'] = 'Help'; // admin_cash.php	
+
 // Activity
-$lang['3000_ACTIVITY'] = 'Activity / Spiele'; // admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
+$lang['3200_ACTIVITY'] = 'Activity / Spiele'; // admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
 $lang['110_Configuration'] = 'Konfiguration'; // admin_activity.php
 $lang['120_Add_Game'] = 'Spiel hinzufügen'; // admin_activity.php
 $lang['130_Edit_Games'] = 'Spiel bearbeiten'; // admin_activity.php
@@ -2290,14 +2322,9 @@ $lang['170_Char_Settings'] = 'Chars Settings'; // admin_ina_char.php
 $lang['180_Hide_Show_Games'] = 'Zeige/Verstecke Spiel'; // admin_ina_disable.php
 $lang['190_DB_Adjustments'] = 'DB Adjustments'; // admin_ina_in_un.php
 $lang['200_Mass_Change'] = 'Mass Configuration'; // admin_ina_mass.php
-$lang['210_Scores_Editor'] = 'Edit Hi-Scores'; // admin_ina_scores.php
+$lang['210_Scores_Editor'] = 'Hi-Scores bearbeiten'; // admin_ina_scores.php
 $lang['220_Xtras'] = 'Extra Settings'; // admin_ina_xtras.php
 $lang['230_Check_Games'] = 'Spiele-Liste'; // admin_ina_xtras.php
-
-// Cash
-$lang['3100_CASH'] = 'Cash / Points'; // admin_cash.php
-$lang['110_Cash_Admin'] = 'Cash Management'; // admin_cash.php
-$lang['120_Cash_Help'] = 'Help'; // admin_cash.php
 
 // ####################### [ ACP Navigation END ] #######################
 

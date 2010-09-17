@@ -48,7 +48,7 @@ $mtnc[] = array('check_user',
 $mtnc[] = array('check_post',
 	'Prüfe Beitrags- und Themen-Tabellen',
 	'Diese Funktion prüft die Beitrags- und die Themen-Tabellen auf Fehler.',
-	'Alle Beiträge ohne gespeichertem Text werden durch diese Aktion verloren gehen. Fortfahren?',
+	'Alle Beiträge ohne gespeicherten Text werden durch diese Aktion verloren gehen. Fortfahren?',
 	0);
 $mtnc[] = array('check_vote',
 	'Prüfe Umfrage-Tabellen',
@@ -106,17 +106,22 @@ $mtnc[] = array('reset_sessions',
 $mtnc[] = array('--', '', '', '', 8);
 $mtnc[] = array('sync_topics_subjects',
 	'Synchronisiere Themen Text',
-	'Diese Funktion synchronisiert den Text des ersten Beitrags in jedem Thema. Im Normalfall wird diese Funktion nicht benötigt.',
+	'Diese Funktion synchronisiert den Text des ersten Beitrags in jedem Thema. Im Normalfall solltest du diese Funktion nicht ausführen.',
 	'Dies wird den Text des ersten Beitrags in jedem Thema synchronisieren. Die Seite wird während dieses Vorgangs gesperrt sein. Fortfahren?',
+	0);
+$mtnc[] = array('synchronize_notify_forum_id',
+	'Synchronisieren der Themen Mitteilungen Forum IDs',
+	'Diese Funktion synchronisiert die Themen Mitteilungen Forum IDs. Im Normalfall solltest du diese Funktion nicht ausführen.',
+	'',
 	0);
 $mtnc[] = array('rebuild_search_index',
 	'Suchindex neu aufbauen',
-	'Diese Funktion baut den Index neu auf, der für die Suche verwendet wird. Im Normalfall wird diese Funktion nicht benötigt.',
+	'Diese Funktion baut den Index neu auf, der für die Suche verwendet wird. Im Normalfall solltest du diese Funktion nicht ausführen.',
 	'Diese Funktion wird den kompletten Suchindex löschen und neu aufbauen. Diese Option kann mehrere Stunden benötigen, in denen das Board nicht verfügbar sein wird. Fortfahren?',
 	7);
 $mtnc[] = array('proceed_rebuilding',
 	'Neuaufbau fortsetzen',
-	'Mit dieser Funkrion kann der Neuaufbau des Suchindex forgesetzt werden, wenn er unterbrochen wurde.',
+	'Mit dieser Funktion kann der Neuaufbau des Suchindex forgesetzt werden, wenn er unterbrochen wurde.',
 	'',
 	4);
 $mtnc[] = array('--', '', '', '', 1);
@@ -143,7 +148,7 @@ $mtnc[] = array('reset_auto_increment',
 	0);
 $mtnc[] = array('heap_convert',
 	'Konvertiere Sitzungs-Tabelle',
-	'Diese Funktion konvertiert die Sitzungs-Tabelle zum HEAP-Tabellen-Typ. Dies wird normalerweise automatisch während der Installation gemacht, um die Geschwindigkeit von IcyPhoenix etwas zu verbessern. Diese Funktion sollte nur ausgeführt werden, wenn die Sitzungs-Tabelle keine HEAP-Tabelle ist.',
+	'Diese Funktion konvertiert die Sitzungs-Tabelle zum HEAP-Tabellen-Typ. Dies wird normalerweise automatisch während der Installation gemacht, um die Geschwindigkeit von Icy Phoenix etwas zu verbessern. Diese Funktion sollte nur ausgeführt werden, wenn die Sitzungs-Tabelle keine HEAP-Tabelle ist.',
 	'Soll die Tabelle wirklich konvertiert werden?',
 	2);
 $mtnc[] = array('--', '', '', '', 3);
@@ -191,7 +196,7 @@ $lang = array_merge($lang, array(
 // Function specific vars
 // statistic
 	'Statistic_title' => 'Board- und Datenbank-Statistik',
-	'Database_table_info' => 'Die Datenbank-Statistik ermittelt drei verschiedene Werte: die aller Tabellen der Datenbank, die der Tabellen, die standardmäßig bei IcyPhoenix enthalten sind (Kerntabellen) sowie alle Tabellen, die mit dem Prefix der Board-Tabellen anfangen (erweiterte Tabellen).',
+	'Database_table_info' => 'Die Datenbank-Statistik ermittelt drei verschiedene Werte: die aller Tabellen der Datenbank, die der Tabellen, die standardmäßig bei Icy Phoenix enthalten sind (Kerntabellen) sowie alle Tabellen, die mit dem Prefix der Board-Tabellen anfangen (erweiterte Tabellen).',
 	'Board_statistic' => 'Board-Statistik',
 	'Database_statistic' => 'Datenbank-Statistik',
 	'Version_info' => 'Versions-Informationen',
@@ -202,8 +207,8 @@ $lang = array_merge($lang, array(
 	'Number_tables' => 'Anzahl der Tabellen',
 	'Number_records' => 'Anzahl der Datensätze',
 	'DB_size' => 'Größe der Datenbank',
-	'Thereof_phpbb_core' => 'davon IcyPhoenix-Kerntabellen',
-	'Thereof_phpbb_advanced' => 'davon erweiterte IcyPhoenix-Tabellen',
+	'Thereof_phpbb_core' => 'davon Icy Phoenix-Kerntabellen',
+	'Thereof_phpbb_advanced' => 'davon erweiterte Icy Phoenix-Tabellen',
 	'Version_of_board' => 'Version des Boards',
 	'Version_of_mod' => 'Version von DB Maintenance',
 	'Version_of_PHP' => 'Version von PHP',
@@ -216,8 +221,8 @@ $lang = array_merge($lang, array(
 	'Current_Rebuild_Config' => 'Konfiguration des aktuellen Neuaufbaus',
 	'Rebuild_Settings_Explain' => 'Diese Einstellungen passen das Verhalten von DB Maintenance beim Neuaufbau des Suchindexes an.',
 	'Current_Rebuild_Settings_Explain' => 'Diese Einstellungen werden von DB Maintenance verwendet, um den aktuellen Status des Neuaufbaus zu speichern. Im Normalfall dürften keine Änderungen an diesen Werten erforderlich sein.',
-	'Disallow_postcounter' => 'Deaktiviere Synchronisation der Beitragzählers der Benutzer',
-	'Disallow_postcounter_Explain' => 'Deaktiviert die Synchronisation der Beitragzählers der Benutzer. Du kannst diese Funktion deaktivieren, wenn du nicht willst, das geprunte Beiträge von den Beitragszählern der Benutzer abgezogen werden.',
+	'Disallow_postcounter' => 'Deaktiviere Synchronisation des Beitragszählers der Benutzer',
+	'Disallow_postcounter_Explain' => 'Deaktiviert die Synchronisation des Beitragszählers der Benutzer. Du kannst diese Funktion deaktivieren, wenn du nicht willst, das geprunte Beiträge von den Beitragszählern der Benutzer abgezogen werden.',
 	'Disallow_rebuild' => 'Deaktiviere den Neuaufbau des Suchindexes',
 	'Disallow_rebuild_Explain' => 'Deaktiviert den Neuaufbau des Suchindexes. Ein unterbrochener Neuaufbau kann dennoch fortgesetzt werden.',
 	'Rebuildcfg_Timelimit' => 'Maximale Ausführungszeit für den Neuaufbau (in Sekunden)',
@@ -267,7 +272,7 @@ $lang = array_merge($lang, array(
 	'Invalid_ranks_found' => 'Benutzer mit ungültigem Rang gefunden',
 	'Removing_invalid_ranks' => 'Entferne ungültigen Rang',
 	'Checking_themes' => 'Prüfe auf fehlerhafte Styles-Einstellungen',
-	'Updating_users_without_style' => 'Aktualisiere Benutzer ohne gewälten Style',
+	'Updating_users_without_style' => 'Aktualisiere Benutzer ohne gewählten Style',
 	'Default_theme_invalid' => '<b>Achtung:</b> Der Standard-Style ist ungültig. Bitte prüfe die Konfiguration des Boards.',
 	'Updating_themes' => 'Aktualisiere ungültige Styles auf Styls %d',
 	'Checking_theme_names' => 'Prüfe auf fehlerhafte Style-Bezeichnungen',
@@ -302,7 +307,7 @@ $lang = array_merge($lang, array(
 	'Setting_post_forum' => '%d: Verschiebe von Forum \'%s\' (%d) nach \'%s\' (%d)',
 	'Checking_texts_wo_post' => 'Prüfe auf Beitragstexte ohne Beitrag',
 	'Invalid_texts_found' => 'Texte ohne Beitrag gefunden',
-	'Recreating_post' => 'Stelle Beitrag %d wieder her und verschiebe in in Thema \'%s\' in Forum \'%s\'<br />Auszug: %s',
+	'Recreating_post' => 'Stelle Beitrag %d wieder her und verschiebe das Thema \'%s\' in Forum \'%s\'<br />Auszug: %s',
 	'Checking_invalid_topic_posters' => 'Prüfe Themen auf ungültige Poster',
 	'Invalid_topic_poster_found' => 'Themen mit ungültigem Poster gefunden',
 	'Updating_topic' => 'Aktualisiere Thema %d (Poster: %d -&gt; %d)',
@@ -370,8 +375,8 @@ $lang = array_merge($lang, array(
 	'Removing_part_invalid_words' => 'Entferne einen Teil der unnötigen Suchwörter',
 	'Removing_invalid_words' => 'Entferne unnötige Suchwörter',
 // synchronize topics subjects
-	'Sync_topics_subjects' => 'Synchronize topics subjects',
-	'Sync_topics_subjects_progress' => 'Synchronization in progress',
+	'Sync_topics_subjects' => 'Synchronisiere Themen Betreff',
+	'Sync_topics_subjects_progress' => 'Synchronisation in Arbeit',
 // rebuild_search_index
 	'Rebuilding_search_index' => 'Baue Suchindex neu auf',
 	'Deleting_search_tables' => 'Leere Such-Tabellen',
@@ -386,6 +391,8 @@ $lang = array_merge($lang, array(
 	'Click_or_wait_to_proceed' => 'Klicke hier, um fortzufahren oder warte einen Moment',
 	'Indexing_progress' => '%d von %d Beiträgen (%01.1f%%) wurden indiziert. Letzter indizierter Beitrag: %d',
 	'Indexing_finished' => 'Der Index wurde erfolgreich neu aufgebaut',
+// synchronize_notify_forum_id
+	'Synchronizing_notify_forum_ids' => 'Synchronisieren der Themen Mitteilungen Forum IDs',
 // synchronize_post
 	'Synchronize_posts' => 'Synchronisiere Beitrags-Daten',
 	'Synchronize_topic_data' => 'Synchronisiere Themen',
@@ -394,7 +401,7 @@ $lang = array_merge($lang, array(
 	'Synchronize_moved_topic_data' => 'Synchronisiere verschobene Themen',
 	'Inconsistencies_found' => 'In der Datenbank wurden Inkonsistenzen gefunden. %sPrüfe bitte die Beitrags- und Themen-Tabellen%s',
 	'Synchronizing_moved_topics' => 'Aktualisiere verschobene Themen',
-	'Synchronizing_moved_topic' => 'Aktualisiere verschobenens Thema %d -&gt; %d (%s)',
+	'Synchronizing_moved_topic' => 'Aktualisiere verschobenes Thema %d -&gt; %d (%s)',
 	'Synchronize_forum_topic_data' => 'Synchronisiere Themen-Daten der Foren',
 	'Synchronizing_forums' => 'Aktualisiere Foren',
 	'Synchronizing_forum' => 'Aktualisiere Forum %d (%s)',
@@ -425,7 +432,7 @@ $lang = array_merge($lang, array(
 	'Checking_db' => 'Überprüfe Datenbank',
 	'Checking_tables' => 'Überprüfe Tabellen',
 	'Table_OK' => 'in Ordnung',
-	'Table_HEAP_info' => 'Befehl steht für HEAP-Tabllen nicht zur Verfügung',
+	'Table_HEAP_info' => 'Befehl steht für HEAP-Tabellen nicht zur Verfügung',
 // repair_db
 	'Repairing_db' => 'Repariere Datenbank',
 	'Repairing_tables' => 'Repariere Tabellen',
@@ -502,15 +509,15 @@ $lang = array_merge($lang, array(
 	'cls_info' => 'Wenn fortgefahren wird, werden alle Sitzungsdaten gelöscht.',
 	'ecf_info' => 'Wenn fortgefahren wird, wird der Cache geleert.',
 	'rdb_info' => 'Wenn fortgefahren wird, werden die Tabellen in der Datenbank repariert.',
-	'cct_info' => 'Wenn fortgefahren wird, wird die Konfigurations-Tabelle geprüft und fehlende Einträge wieder hergesetellt.',
+	'cct_info' => 'Wenn fortgefahren wird, wird die Konfigurations-Tabelle geprüft und fehlende Einträge wieder hergestellt.',
 	'rpd_info' => 'Wenn fortgefahren wird, werden die Konfigurations-Einstellungen geändert, sofern die empfohlene Einstellung ausgewählt ist.',
 	'rcd_info' => 'Wenn fortgefahren wird, werden die Cookie-Daten aktualisiert. Die Option, ob ein sicheres Cookie erstellt werden soll oder nicht, kann unter \'Setze Pfad-Daten zurück\' gefunden werden.',
-	'rld_info' => 'Wenn fortgefahren wird, wird die ausgewählte Sprache sowohl für das Board als auch für den zur Authentifizierung genutzen Benutzer verwendet.',
-	'rtd_info' => 'Wenn forgefahren wird, wird entweder der ausgewählte Style sowohl für das Board als auch für den zur Authentifizierung genutzen Benutzer verwendet oder der Standard-Style (Icy Phoenix) wiederhergestellt und für Board und Benutzer verwendet.',
-	'rtd_info_no_theme' => 'Wenn forgefahren wird, wird der Standard-Style (Icy Phoenix) wiederhergestellt und sowohl für das Board als auch für den zur Authentifizierung genutzen Benutzer verwendet.',
+	'rld_info' => 'Wenn fortgefahren wird, wird die ausgewählte Sprache sowohl für das Board als auch für den zur Authentifizierung genutzten Benutzer verwendet.',
+	'rtd_info' => 'Wenn fortgefahren wird, wird entweder der ausgewählte Style sowohl für das Board als auch für den zur Authentifizierung genutzten Benutzer verwendet oder der Standard-Style (Icy Phoenix) wiederhergestellt und für Board und Benutzer verwendet.',
+	'rtd_info_no_theme' => 'Wenn fortgefahren wird, wird der Standard-Style (Icy Phoenix) wiederhergestellt und sowohl für das Board als auch für den zur Authentifizierung genutzten Benutzer verwendet.',
 	'dgc_info' => 'Wenn fortgefahren wird, wird die GZip Komprimierung deaktiviert.',
 	'cbl_info' => 'Wenn fortgefahren wird, wird die Bann-Liste und die Liste der verbotenen Benutzernamen gelöscht.',
-	'raa_info' => 'Wenn fortgefahren wird, werden alle Adminstratoren zu normalen Benutzern geändert. Wenn ein Admin-Account zur Authentifizierung genutzt wird, behält dieser die Admin-Rechte.',
+	'raa_info' => 'Wenn fortgefahren wird, werden alle Administratoren zu normalen Benutzern geändert. Wenn ein Admin-Account zur Authentifizierung genutzt wird, behält dieser die Admin-Rechte.',
 	'mua_info' => 'Wenn fortgefahren wird, erhält der ausgewählte Benutzer Admin-Rechte. Gleichzeitig wird der Benutzer auf Aktiv geschaltet.',
 	'rcp_info' => 'Wenn fortgefahren wird, wird eine neue config.php mit den angegebenen Daten erstellt.',
 // Success messages for options
@@ -534,7 +541,7 @@ $lang = array_merge($lang, array(
 // Text for success messages
 	'Removing_admins' => 'Entferne Administratoren',
 // Help Text
-	'Option_Help_Text' => '<p>Wenn du eine Fehlermeldung erhältst, dass bei der Erstellung einer Session bzw. Sitzung ein Fehler aufgetreten ist (oder so ähnlich), kannst du die Sitzungsdaten mit <b>Lösche alle Sitzungen</b> löschen. Wenn du Probleme beim Zugriff auf Datenbank-Tabellen hast, so kannst du diese mit <b>Repariere Datenbank-Tabellen</b> reparieren. <b>Überprüfe Konfigurations-Tabelle</b> überprüft die Konfiguartions-Tabelle auf fehlende Einträge, was bei verschiedensten Problemen helfen kann.</p><p>Wenn du dich nicht anmelden kannst oder nicht auf den Administrations-Bereich zugreifen kannst, kann ein Fehler bei den Pfad- oder Cookie-Einstellungen vorliegen. Du kannst sie unter <b>Setze Pfad-Daten zurück</b> oder <b>Setze Cookie-Daten zurück</b> ändern. Du kannst auch die Spracheinstellungen unter <b>Setze Sprach-Daten zurück</b> bzw. die Style-Einstellungen unter <b>Setze Style-Daten zurück</b> zurücksetzen.</p><p>Wenn nach der Aktivierung der GZip-Komprimierung Probleme auftreten, so kannst du sie mit <b>Deaktiviere GZip-Komprimierung</b> ausschalten.</p><p>Wenn du das Passwort zu deinem Benutzernamen vergessen hast, kannst du einem Benutzer Admin-Rechte geben, indem du <b> Gewähre einem Benutzer Admin-Rechte</b> auswählst. Dadurch wird der Benutzer auch aktiviert, so dass du einen kurz zuvor erstelltes Benutzer-Konto verwenden kannst. Wenn du keinen neuen Benutzer erstellen kannst, kannst du die Bann-Liste mit <b> Lösche Bann-Liste</b> löschen (dies stelle auch das Gast-Benutzer-Konto wieder her).</p><p>Wenn dein Board gehackt wurde, solltest du alle Admin-Accounts entfernen, indem du <b>Entferne alle Administratoren</b> entfernst. (Die Accounts selbst werden nicht gelöscht sondern nur die Admin-Rechte entfernt.)</p><p>Wenn du die config.php wiederherstellen musst, kannst du dies mit <b>Stelle config.php wieder her</b> machen.</p>',
+	'Option_Help_Text' => '<p>Wenn du eine Fehlermeldung erhältst, dass bei der Erstellung einer Session bzw. Sitzung ein Fehler aufgetreten ist (oder so ähnlich), kannst du die Sitzungsdaten mit <b>Lösche alle Sitzungen</b> löschen. Wenn du Probleme beim Zugriff auf Datenbank-Tabellen hast, so kannst du diese mit <b>Repariere Datenbank-Tabellen</b> reparieren. <b>Überprüfe Konfigurations-Tabelle</b> überprüft die Konfiguartions-Tabelle auf fehlende Einträge, was bei verschiedensten Problemen helfen kann.</p><p>Wenn du dich nicht anmelden kannst oder nicht auf den Administrations-Bereich zugreifen kannst, kann ein Fehler bei den Pfad- oder Cookie-Einstellungen vorliegen. Du kannst sie unter <b>Setze Pfad-Daten zurück</b> oder <b>Setze Cookie-Daten zurück</b> ändern. Du kannst auch die Spracheinstellungen unter <b>Setze Sprach-Daten zurück</b> bzw. die Style-Einstellungen unter <b>Setze Style-Daten zurück</b> zurücksetzen.</p><p>Wenn nach der Aktivierung der GZip-Komprimierung Probleme auftreten, so kannst du sie mit <b>Deaktiviere GZip-Komprimierung</b> ausschalten.</p><p>Wenn du das Passwort zu deinem Benutzernamen vergessen hast, kannst du einem Benutzer Admin-Rechte geben, indem du <b> Gewähre einem Benutzer Admin-Rechte</b> auswählst. Dadurch wird der Benutzer auch aktiviert, so dass du ein kurz zuvor erstelltes Benutzer-Konto verwenden kannst. Wenn du keinen neuen Benutzer erstellen kannst, kannst du die Bann-Liste mit <b> Lösche Bann-Liste</b> löschen (dies stelle auch das Gast-Benutzer-Konto wieder her).</p><p>Wenn dein Board gehackt wurde, solltest du alle Admin-Accounts entfernen, indem du <b>Entferne alle Administratoren</b> entfernst. (Die Accounts selbst werden nicht gelöscht sondern nur die Admin-Rechte entfernt.)</p><p>Wenn du die config.php wiederherstellen musst, kannst du dies mit <b>Stelle config.php wieder her</b> machen.</p>',
 
 	'dbmntc_Invalid_Option' => 'Ungültige Option',
 	)

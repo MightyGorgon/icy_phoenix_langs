@@ -67,10 +67,12 @@ $lang['HEADER_XML_LANG'] = 'de-de';
 $lang['LEFT'] = 'links';
 $lang['RIGHT'] = 'rechts';
 $lang['DATE_FORMAT'] = 'd F y H:i'; // Dies sollte in das Standard Datums-Format deiner Sprache geändert werden, php date() format
+$lang['DATE_FORMAT_DATE'] = 'Y/m/d';
+$lang['DATE_FORMAT_TIME'] = 'H.i';
 $lang['DATE_FORMAT_MG'] = 'Y/m/d - H:i';
 $lang['DATE_FORMAT_VF'] = 'd M Y';
 $lang['DATE_FORMAT_BIRTHDAY'] = 'd. F Y';
-$lang['DATE_FORMAT2'] = 'd. F Y'; // Dies sollte in das Standard Datums-Format deiner Sprache geändert werden, php date() format
+$lang['DATE_FORMAT_CALENDAR'] = 'd. F Y'; // Dies sollte in das Standard Datums-Format deiner Sprache geändert werden, php date() format
 $lang['JOINED_DATE_FORMAT'] = 'F Y'; // Datums-Format der Anmeldung, php date() format
 
 // This is optional, if you would like a _SHORT_ message output

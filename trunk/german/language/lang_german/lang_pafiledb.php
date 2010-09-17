@@ -158,28 +158,28 @@ $lang = array_merge($lang, array(
 	'Econf' => 'Deine E-Mail wurde erfolgreich gesendet.',
 
 // Comments
-	'Comments' => 'Kommentare', 
+	'Comments' => 'Kommentare',
 	'Comments_title' => 'Kommentar-Titel', 
-	'Comment_subject' => 'Kommentar Betreff', 
-	'Comment' => 'Kommentar', 
-	'Comment_explain' => 'Verwende die Textbox oben, um uns deine Meinung über dieser Datei mitzuteilen.<br />', 
-	'Comment_add' => 'Kommentar hinzufügen', 
-	'Comment_delete' => 'Löschen', 
-	'Comment_posted' => 'Dein Kommentar wurde erfolgreich eingetragen.', 
-	'Comment_deleted' => 'Der ausgewählte Kommentar wurde erfolgreich gelöscht.', 
-	'Comment_desc' => 'Titel', 
+	'Comment_subject' => 'Kommentar Betreff',
+	'Comment' => 'Kommentar',
+	'Comment_explain' => 'Verwende die Textbox oben, um uns deine Meinung über dieser Datei mitzuteilen.<br />',
+	'Comment_add' => 'Kommentar hinzufügen',
+	'Comment_delete' => 'Löschen',
+	'Comment_posted' => 'Dein Kommentar wurde erfolgreich eingetragen.',
+	'Comment_deleted' => 'Der ausgewählte Kommentar wurde erfolgreich gelöscht.',
+	'Comment_desc' => 'Titel',
 	'No_comments' => 'Es wurden noch keine Kommentare geschrieben.',
 	'Links_are_ON' => 'Links sind <u>an</u>',
 	'Links_are_OFF' => 'Links sind <u>aus</u>',
 	'Images_are_ON' => 'Bilder sind <u>an</u>',
 	'Images_are_OFF' => 'Bilder sind <u>aus</u>',
 	'Check_message_length' => 'Kommentarlänge prüfen',
-	'Msg_length_1' => 'Dein Kommentar ist ', 
-	'Msg_length_2' => ' Zeichen lang.', 
-	'Msg_length_3' => 'Du hast ', 
-	'Msg_length_4' => ' Zeichen zur Verfügung.', 
-	'Msg_length_5' => 'Es sind noch ', 
-	'Msg_length_6' => ' Zeichen übrig.', 
+	'Msg_length_1' => 'Dein Kommentar ist ',
+	'Msg_length_2' => ' Zeichen lang.',
+	'Msg_length_3' => 'Du hast ',
+	'Msg_length_4' => ' Zeichen zur Verfügung.',
+	'Msg_length_5' => 'Es sind noch ',
+	'Msg_length_6' => ' Zeichen übrig.',
 
 
 // Download
@@ -242,9 +242,9 @@ $lang['Stats_text'] .= "Die neuste Datei ist <a href={u_newest_file}>{newest_fil
 $lang['Stats_text'] .= "Die älteste Datei ist <a href={u_oldest_file}>{oldest_file}</a>.<br /><br />";
 $lang['Stats_text'] .= "Die durchschnittliche Datei-Bewertung liegt bei {average}/10.<br />";
 $lang['Stats_text'] .= "Die Datei mit der besten Bewertung ist <a href={u_popular}>{popular}</a>, mit einer Bewertung von {most}/10.<br />";
-$lang['Stats_text'] .= "Die Datei mit der schlechtesten Bewertung ist <a href={u_lpopular}>{lpopular}</a>, mit einer Bewertung von {least}/10.<br /><br />";
+$lang['Stats_text'] .= "Die Datei mit der schlechtesten Bewertung ist <a href={u_lpopular}>{lpopular}</a>, mit einer Bewertung von {least}/10.<br />";
 $lang['Stats_text'] .= "Die durchschnittliche Anzahl von Downloads pro Datei liegt bei {avg_dls}.<br />";
 $lang['Stats_text'] .= "Die am meisten heruntergeladene Datei ist <a href={u_most_dl}>{most_dl}</a> mit {most_no} Downloads.<br />";
-$lang['Stats_text'] .= "Die am wenigsten heruntergeladene Datei ist <a href={u_least_dl}>{least_dl}</a> mit {least_no} Downloads.<br /><br />";
+$lang['Stats_text'] .= "Die am wenigsten heruntergeladene Datei ist <a href={u_least_dl}>{least_dl}</a> mit {least_no} Downloads.<br />";
 
 ?>

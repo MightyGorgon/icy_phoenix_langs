@@ -59,7 +59,7 @@ if ($lang_extend_admin)
 		'IP_enable_digests' => 'Aktiviere Digests',
 
 		'IP_digests_php_cron' => 'Aktiviere Digest PHP Cron',
-		'IP_digests_php_cron_explain' => 'Diese Eigenschaft ermöglicht einer PHP-Emulation des CRON, dieses versucht die E-Mails einmal pro Stunde zu senden. Da es auf einer PHP-Emulation basiert, kann es möglicherweise nicht jedesmal richtig durchgeführt werden. Dies heißt, dass manchmal E-Mails möglicherweise nicht gesendet werden können. Wenn du CRON auf deinem Server ermöglichen kannst, dann verwende diese Möglichkeit stattdessen. Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>Configuration &raquo; Icy Phoenix &raquo; Cron</b>',
+		'IP_digests_php_cron_explain' => 'Diese Eigenschaft ermöglicht einer PHP-Emulation des CRON, dieses versucht die E-Mails einmal pro Stunde zu senden. Da es auf einer PHP-Emulation basiert, kann es möglicherweise nicht jedesmal richtig durchgeführt werden. Dies heißt, dass manchmal E-Mails möglicherweise nicht gesendet werden können. Wenn du CRON auf deinem Server ermöglichen kannst, dann verwende diese Möglichkeit stattdessen. Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>ACP &raquo; Configuration &raquo; Main Settings &raquo; Cron</b>',
 
 		'IP_emails_only_to_admins' => 'E-Mails nur zu Admins',
 		'IP_emails_only_to_admins_explain' => 'Erlaube dem E-Mail System nur E-Mails an Admins zu senden',
@@ -144,12 +144,15 @@ if ($lang_extend_admin)
 
 		'IP_disable_thanks_topics' => 'Deaktiviere Bedanken Button (komplett)',
 
-		'IP_show_thanks_profile' => 'Zeigt "Erhaltene Danksagungen" beim Anschauen eines Profils an',
+		'IP_show_thanks_profile' => 'Zeigt &quot;Erhaltene Danksagungen&quot; beim Anschauen eines Profils an',
 
-		'IP_show_thanks_viewtopic' => 'Zeigt "Erhaltene Danksagungen" beim Lesen von Themen an',
+		'IP_show_thanks_viewtopic' => 'Zeigt &quot;Erhaltene Danksagungen&quot; beim Lesen von Themen an',
 
-		'IP_disable_topic_view' => '"Thema angesehen von" (komplett) deaktivieren',
-		'IP_disable_topic_view_explain' => 'Diese Option deaktiviert die "Thema angesehen von"-Funktion (dies reduziert SQL-Platz).',
+		'IP_disable_likes_posts' => 'Disable Posts Like (Global Switch)',
+		'IP_disable_likes_posts_explain' => 'This option allows you to disable globally &quot;Like This Post&quot; feature',
+
+		'IP_disable_topic_view' => '&quot;Thema angesehen von&quot; (komplett) deaktivieren',
+		'IP_disable_topic_view_explain' => 'Diese Option deaktiviert die &quot;Thema angesehen von&quot;-Funktion (dies reduziert SQL-Platz).',
 
 		'IP_disable_referrers' => 'Referer deaktivieren',
 		'IP_disable_referrers_explain' => 'Diese Option deaktiviert die Referer Funktion (dies reduziert SQL-Platz).',
@@ -235,13 +238,13 @@ if ($lang_extend_admin)
 		'IP_edit_notes_n' => 'maximale Bearbeitungs Anmerkungen',
 
 		'IP_always_show_edit_by' => 'Zeige in Einträgen editiert von',
-		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  "Zuletzt editiert von..." in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
+		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  &quot;Zuletzt editiert von...&quot; in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
 
 		'IP_show_social_bookmarks' => 'Öffentliche Lesezeichen',
 		'IP_show_social_bookmarks_explain' => 'Zeige Öffentliche Lesezeichen bei den Themen',
 
 		'IP_link_this_topic' => 'Verlinke dieses Thema',
-		'IP_link_this_topic_explain' => 'Zeigt die "Verlinke dieses Thema" Box beim Lesen eines Themas.',
+		'IP_link_this_topic_explain' => 'Zeigt die &quot;Verlinke dieses Thema&quot; Box beim Lesen eines Themas.',
 
 		'IP_smilies_topic_title' => 'Smilies für Themen Titel und Beschreibung',
 		'IP_smilies_topic_title_explain' => 'Bei Aktivierung dieser Option, werden Smilies für Themen Titel und Themen Beschreibung aktiviert',
@@ -277,7 +280,7 @@ if ($lang_extend_admin)
 // TAB - Images In Posts
 		'IP_auth_view_pic_upload' => 'Bilder hochladen Erlaubnis (Post Icy Images)',
 
-		'IP_enable_postimage_org' => 'Aktiviere "PostImage" Button beim Beitrag erfassen',
+		'IP_enable_postimage_org' => 'Aktiviere &quot;PostImage&quot; Button beim Beitrag erfassen',
 
 		'IP_gd_version' => 'GD Version:',
 		'GD_0' => 'kein GD',
@@ -293,9 +296,6 @@ if ($lang_extend_admin)
 
 		'IP_thumbnail_highslide' => 'Benutze HighSlide JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
 		'IP_thumbnail_highslide_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.highslide.com/" target="_blank">HighSlide JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
-
-		'IP_thumbnail_lightbox' => 'Benutze Lightbox JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
-		'IP_thumbnail_lightbox_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.huddletogether.com/projects/lightbox/" target="_blank">Lightbox JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!<br />Wenn du HighSlide aktiviert hast, wird diese Einstellung ignoriert.',
 
 		'IP_thumbnail_cache' => 'Thumbnails Cache',
 

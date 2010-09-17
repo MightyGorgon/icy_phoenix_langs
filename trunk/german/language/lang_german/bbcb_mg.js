@@ -61,7 +61,7 @@ s_fc_help = 'Schriftfarbe: [color=red]Text[/color] Du kannst HEX color=#FF0000 v
 s_fs_help = 'Schriftgröße: [size=10]kleiner Text[/size]';
 s_ft_help = 'Schriftart: [font=Tahoma]Text[/font]';
 s_table_help = 'Tabelle einfügen: [table]Text[/table]';
-s_td_help = 'Tabllenspalte einfügen: [td]Text[/td]';
+s_td_help = 'Tabellenspalte einfügen: [td]Text[/td]';
 s_mail_help = 'E-Mail einfügen: [email]E-Mail Hier[/email]';
 s_grad_help = 'Text mit Farbverlauf einfügen';
 s_right_help = 'Text rechts ausrichten: [align=right]Text[/align]';
