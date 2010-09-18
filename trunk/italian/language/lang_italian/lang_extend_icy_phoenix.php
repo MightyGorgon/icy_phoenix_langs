@@ -417,19 +417,22 @@ if ($lang_extend_admin)
 		'IP_admin_protect' => 'Proteggi Account Amministratore Principale',
 		'IP_admin_protect_explain' => 'Attivando questa opzione l\'account dell\'Amministratore Principale godr&agrave; di maggior sicurezza: nessun utente potr&agrave; modificare i suoi permessi.',
 
-		'IP_db_log_actions' => 'Attiva Log su DB',
+		'IP_ip_admins_only' => 'Mostra indirizzi IP solo agli Amministratori',
+		'IP_ip_admins_only_explain' => 'Attivando questa opzione solo gli amministratori saranno in grado di vedere gli indirizzi IP (se l\'opzione viene disattivata, anche i moderatori riusciranno a vederli).',
+
+		'IP_db_log_actions' => 'Attiva LOG su DB',
 		'IP_db_log_actions_explain' => 'Questa funzionalit&agrave; consente di memorizzare su DB tutte quelle azioni che in qualche modo interessano le tabelle fondamentali del DB (posts, forum, ecc.). Se questa opzione &egrave; stata impostata anche nel constants.php non pu&ograve; essere disattivata da ACP. Se si attivano anche i rapporti, tutti gli errori riscontrati verranno memorizzati in un file che si potr&agrave; controllare in seguito.',
 
-		'IP_mg_log_actions' => 'Attiva Log su file di testo',
+		'IP_mg_log_actions' => 'Attiva LOG su file di testo',
 		'IP_mg_log_actions_explain' => 'Questa funzionalit&agrave; consente di memorizzare in un file di testo tutte quelle azioni che in qualche modo interessano le tabelle fondamentali del DB (posts, forum, ecc.). Il file di testo viene memorizzato nella cartella LOGS, ma non &egrave; di lettura molto semplice, anche se potrebbe essere utile in alcune circostanze. Su siti molto grandi questa opzione potrebbe rallentare l\'esecuzione di alcune operazioni, per cui si consiglia di attivare questa opzione solo quando se ne ha realmente bisogno e si &egrave; in grado di consultare il file.',
 
-		'IP_write_errors_log' => 'Attiva Log Errori su file di testo giornaliero',
+		'IP_write_errors_log' => 'Attiva LOG Errori su file di testo giornaliero',
 		'IP_write_errors_log_explain' => 'Attivando questa opzione tutti gli errori rilevati sul sito (es.: pagina inesistente, richiesta non corretta, ecc.) verranno memorizzati in un file di log giornaliero. Ricorda che per usare questa funzione &egrave; necessario attivare in .htaccess il reindirizzamento degli errori su errors.php (basta decommentare le linee apposite aggiustando l\'indirizzo del proprio sito).',
 
-		'IP_write_digests_log' => 'Attiva Log Digest su file di testo giornaliero',
+		'IP_write_digests_log' => 'Attiva LOG Digest su file di testo giornaliero',
 		'IP_write_digests_log_explain' => 'Attivando questa opzione tutti i Digest inviati verranno memorizzati in un file di log giornaliero.',
 
-		'IP_logs_path' => 'Percorso Logs (ricorda di attribuire i permessi CHMOD a 0777 a questa cartella)',
+		'IP_logs_path' => 'Percorso LOGS (ricorda di attribuire i permessi CHMOD a 0777 a questa cartella)',
 		'IP_logs_path_explain' => 'Inserisci il percorso per la memorizzazione dei logs degli errori e di altri eventuali logs. Il percorso deve essere relativo al percorso dove &egrave; installato il sito e senza slash finale. Esempio: <b>logs</b>.',
 
 // TAB - Cron
