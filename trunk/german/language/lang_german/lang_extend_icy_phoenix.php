@@ -423,6 +423,9 @@ if ($lang_extend_admin)
 		'IP_admin_protect' => 'Schütze Hauptadmin Account',
 		'IP_admin_protect_explain' => 'Bei Aktivierung dieser Option, wird mehr Sicherheit dem Haupt Admin Account hinzugefügt',
 
+		'IP_ip_admins_only' => 'IP Adressen nur Admins anzeigen',
+		'IP_ip_admins_only_explain' => 'Bei Aktivierung dieser Option werden die IP Adressen der Benutzer in den jeweiligen Foren und Profilen nur den Administratoren angezeigt (durch Deaktivierung dieser Option können auch Moderatoren die IPs sehen).',
+
 		'IP_db_log_actions' => 'Aktiviere DB Aktionen Log',
 		'IP_db_log_actions_explain' => 'Bei Aktivierung dieser Option werden alle Aktionen, die die DB ändern, in der Datenbank gespeichert. Wurde diese Option in der constans.php als &quot;true&quot; gesetzt, so kann sie nicht durch das ACP abgeschaltet werden. Willst du noch zusätzlich alle Fehler gespeichert haben, werden diese in einer extra Datei gesichert.',
 
