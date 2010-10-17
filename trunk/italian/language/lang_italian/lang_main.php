@@ -531,8 +531,18 @@ $lang = array_merge($lang, array(
 
 	'Message_sent' => 'Il tuo Messaggio &egrave; stato spedito.',
 
-	'Click_return_inbox' => 'Torna alla cartella %sPosta in Arrivo%s',
-	'Click_return_index' => 'Torna %sall\'Indice%s',
+	'Click_return_login' => 'Clicca %sQUI%s per riprovare',
+	'Click_return_index' => 'Clicca %sQUI%s per tornare all\'indice',
+	'Click_return_forum' => 'Clicca %sQUI%s per tornare al forum',
+	'Click_return_topic' => 'Clicca %sQUI%s per tornare all\'argomento', // %s's here are for uris, do not remove!
+	'Click_return_viewtopic' => 'Clicca %sQUI%s per tornare all\'argomento',
+	'Click_return_modcp' => 'Clicca %sQUI%s per tornare al Pannello Di Moderazione (MCP)',
+	'Click_return_profile' => 'Clicca %sQUI%s per tornare al Profilo',
+	'Click_return_preferences' => 'Clicca %sQUI%s per tornare alle Preferenze',
+	'Click_return_group' => 'Clicca %sQUI%s per tornare alle informazioni del gruppo',
+	'Click_return_inbox' => 'Clicca %sQUI%s per tornare alla cartella Posta in Arrivo',
+	'Click_view_message' => 'Clicca %sQUI%s per visualizzare il messaggio',
+	'Click_view_privmsg' => 'Clicca %sQUI%s per andare alla casella Posta in Arrivo',
 
 	'Send_a_new_message' => 'Invia nuovo Messaggio Privato',
 	'Send_a_reply' => 'Rispondi a Messaggio Privato',
@@ -558,21 +568,21 @@ $lang = array_merge($lang, array(
 	'Sentbox_size' => 'Posta in Uscita [%d%%]',
 	'Savebox_size' => 'Posta Salvata [%d%%]',
 
-	'Click_view_privmsg' => 'Clicca %sQUI%s per andare alla cartella di Posta in Arrivo',
-
 // Profiles/Registration
 	'Viewing_user_profile' => 'Guarda il profilo :: %s', // %s is username
 	'About_user' => 'Tutto su %s', // %s is username
 //Start quick Administrator User Options and Information MOD
-	'quick_admin_options' => 'Info ed Opzioni per l\'Amministrazione Rapida',
-	'Admin_edit_profile' => 'Modifica il Profilo dell\'Utente',
-	'Admin_edit_permissions' => 'Modifica i Permessi dell\'Utente',
+	'quick_admin_options' => 'Opzioni Amministrazione Rapida',
+	'Admin_edit_profile' => 'Modifica il profilo dell\'utente',
+	'Admin_edit_permissions' => 'Modifica i permessi dell\'utente',
 	'User_active' => 'L\'utente <b>&egrave;</b> attivo',
 	'User_not_active' => 'L\'utente <b>non &egrave;</b> attivo',
-	'Username_banned' => 'Il nome Utente <b>&egrave;</b> bannato',
-	'Username_not_banned' => 'Il nome Utente <b>non &egrave;</b> bannato',
-	'User_email_banned' => 'L\'email dell\' Utente [ %s ] <b>&egrave;</b> bannata',
-	'User_email_not_banned' => 'L\'email dell\' Utente <b>non &egrave;</b> bannata',
+	'Username_banned' => 'L\'utente <b>&egrave;</b> stato espulso',
+	'Username_not_banned' => 'L\'utente <b>non &egrave;</b> stato espulso',
+	'USER_BAN' => 'Espelli',
+	'USER_UNBAN' => 'Ri-ammetti',
+	'User_email_banned' => 'L\'email dell\'utente [ %s ] <b>&egrave;</b> bannata',
+	'User_email_not_banned' => 'L\'email dell\'utente <b>non &egrave;</b> bannata',
 //End quick Administrator User Options and Information MOD
 	'Preferences' => 'Preferenze',
 	'Items_required' => 'Le voci contrassegnate con * sono richieste.',
@@ -1047,7 +1057,6 @@ $lang = array_merge($lang, array(
 	'Ban_reactivate' => 'Il vostro account &egrave; stato riattivato',
 	'Ban_warning' => 'Siete stati ammoniti',
 	'Ban_blocked' => 'Siete stati espulsi',
-	'Click_return_viewtopic' => 'Clicca %sQUI%s per ritornare all\'argomento',
 	'Rules_ban_can' => '<b>Puoi</b> ammonire gli utenti',
 	'user_no_email' => 'Questo utente non ha un indirizzo email, pertanto nessun messaggio pu&ograve; essergli inviato. Devi mandare un messaggio privato',
 	'user_already_banned' => 'Questo utente risulta gi&agrave; bannato',
@@ -1095,8 +1104,6 @@ $lang = array_merge($lang, array(
 
 	'Guestbook' => 'Guestbook',
 	'Viewing_guestbook' => 'Read the guestbook',
-
-	'Click_return_preferences' => 'Clicca %sQUI%s per tornare alle Impostazioni',
 
 // Start add - Last visit MOD
 	'Last_logon' => 'Ultima visita',

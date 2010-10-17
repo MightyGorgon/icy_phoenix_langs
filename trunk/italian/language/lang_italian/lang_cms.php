@@ -103,6 +103,7 @@ $lang = array_merge($lang, array(
 	'DISABLED' => 'Disabilitato',
 	'B_TEXT' => 'Testo',
 	'B_FILE' => 'File blocco',
+	'B_MOVE' => 'Sposta',
 	'B_MOVE_UP' => 'Sposta su',
 	'B_MOVE_DOWN' => 'Sposta gi&ugrave;',
 	'B_VIEW_BY' => 'Mostra per',
@@ -404,6 +405,17 @@ $lang = array_merge($lang, array(
 	'CMS_AJAX_ENABLE' => 'Attiva AJAX',
 	'CMS_AJAX_DISABLE' => 'Disattiva AJAX',
 // CMS - ADV - END
+
+// CMS - TIPS - BEGIN
+	'CMS_TIP_TITLE' => 'CMS pagina principale',
+	'CMS_TIP_CUSTOM_PAGES' => 'Pagine personalizzate',
+	'CMS_TIP_STANDARD_PAGES' => 'Pagine standard',
+	'CMS_TIP_BLOCK_SETTINGS' => 'Blocchi installati',
+	'CMS_TIP_GLOBAL_BLOCKS' => 'Blocchi globali',
+	'CMS_TIP_CONFIG' => 'Configurazione CMS',
+	'CMS_TIP_MENU' => 'Menu',
+	'CMS_TIP_ADS' => 'Pubblicit&agrave;',
+// CMS - TIPS - END
 
 // CMS USERS
 	'CMS_USERS_INDEX' => 'Indice',
