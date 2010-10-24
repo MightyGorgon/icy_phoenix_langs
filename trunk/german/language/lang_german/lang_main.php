@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 
 	'Select_forum' => 'Forum auswählen',
 	'View_latest_post' => 'Letzten Beitrag anzeigen',
-	'View_newest_post' => 'Neusten Beitrag anzeigen',
+	'View_newest_post' => 'Neuesten Beitrag anzeigen',
 	'Page_of' => 'Seite <b>%d</b> von <b>%d</b>', // Replaces with: Page 1 of 2 for example
 
 	'AIM' => 'AIM Address',
@@ -156,12 +156,18 @@ $lang = array_merge($lang, array(
 	'Reply_to_topic' => 'Neue Antwort erstellen',
 	'Reply_with_quote' => 'Antworten mit Zitat',
 
-	'Click_return_topic' => 'Klicke %shier%s, um zum Thema zurückzukehren.', // %s's here are for uris, do not remove!
 	'Click_return_login' => 'Klicke %shier%s, um es noch einmal zu versuchen.',
+	'Click_return_index' => 'Klicke %shier%s, um zum Index zurückzukehren.',
 	'Click_return_forum' => 'Klicke %shier%s, um zum Forum zurückzukehren.',
-	'Click_view_message' => 'Klicke %shier%s, um deine Nachricht anzuzeigen.',
+	'Click_return_topic' => 'Klicke %shier%s, um zum Thema zurückzukehren.', // %s's here are for uris, do not remove!
+	'Click_return_viewtopic' => 'Klicke %shier%s, um zum Thema zurückzukehren.',
 	'Click_return_modcp' => 'Klicke %shier%s, um zur Moderatorenkontrolle zurückzukehren.',
+	'Click_return_profile' => 'Klicke %shier%s, um zum Benutzer Profil zurückzukehren.',
+	'Click_return_preferences' => 'Klicke %shier%s, um zu den Einstellungen zurückzukehren.',
 	'Click_return_group' => 'Klicke %shier%s, um zur Gruppeninfo zurückzukehren.',
+	'Click_return_inbox' => 'Klicke %shier%s, um zum Posteingang zurückzukehren.',
+	'Click_view_message' => 'Klicke %shier%s, um deine Nachricht anzuzeigen.',
+	'Click_view_privmsg' => 'Klicke %shier%s, um deinen Posteingang anzuschauen.',
 
 	'Admin_panel' => 'Admin-Bereich',
 
@@ -518,9 +524,6 @@ $lang = array_merge($lang, array(
 
 	'Message_sent' => 'Deine Nachricht wurde gesendet.',
 
-	'Click_return_inbox' => 'Klicke %shier%s, um zum Posteingang zurückzukehren.',
-	'Click_return_index' => 'Klicke %shier%s, um zum Index zurückzukehren.',
-
 	'Send_a_new_message' => 'Neue Nachricht senden',
 	'Send_a_reply' => 'Auf private Nachricht antworten',
 	'Edit_message' => 'Private Nachricht bearbeiten',
@@ -545,8 +548,6 @@ $lang = array_merge($lang, array(
 	'Sentbox_size' => 'Deine gesendeten Nachrichten sind zu %d%% voll',
 	'Savebox_size' => 'Dein Archiv ist zu %d%% voll',
 
-	'Click_view_privmsg' => 'Klicke %shier%s, um deinen Posteingang aufzurufen',
-
 // Profiles/Registration
 	'Viewing_user_profile' => 'Profil anzeigen : %s', // %s is username
 	'About_user' => 'Alles über %s',
@@ -558,6 +559,8 @@ $lang = array_merge($lang, array(
 	'User_not_active' => 'Benutzer <b>ist nicht</b> aktiv',
 	'Username_banned' => 'Benutzername <b>ist</b> gesperrt',
 	'Username_not_banned' => 'Benutzername <b>ist nicht</b> gesperrt',
+	'USER_BAN' => 'Sperren',
+	'USER_UNBAN' => 'Entsperren',
 	'User_email_banned' => 'Die E-Mail von [ %s ] <b>ist</b> gesperrt',
 	'User_email_not_banned' => 'Die E-Mail des Benutzers <b>ist nicht</b> gesperrt',
 //End Quick Administrator User Options and Information MOD
@@ -961,8 +964,6 @@ $lang = array_merge($lang, array(
 	'Guestbook' => 'Gästebuch',
 	'Viewing_guestbook' => 'Das Gästebuch lesen',
 
-	'Click_return_preferences' => 'Klicke %shier%s, um zu den Einstellungen zurückzukehren.',
-
 	'Warn_new_post' => 'Es gibt mindestens eine neue Antwort in diesem Thema. Bitte schau dir die neuen Antworten in der Thema Übersicht an und sende deinen Beitrag erneut ab.',
 
 	'Today_at' => '<b class="date-today">Heute</b> um ',
@@ -1017,7 +1018,6 @@ $lang = array_merge($lang, array(
 	'Ban_reactivate' => 'Dein Benutzer-Konto wurde reaktiviert.',
 	'Ban_warning' => 'Du wurdest verwarnt!',
 	'Ban_blocked' => 'Dein Benutzer-Konto ist nun gesperrt.',
-	'Click_return_viewtopic' => 'Klicke %shier%s, um zum Thema zurückzukehren.',
 /*
 	'Rules_ban_can' => 'You <b>can</b> ban other users in this forum',
 	'Rules_greencard_can' => 'You <b>can</b> un-ban users in this forum',
@@ -1306,7 +1306,7 @@ $lang = array_merge($lang, array(
 	'Viewing_Referrers' => 'Referer anzeigen',
 //Referrers Mod End
 
-	'Recent_topics' => 'Neuste Themen', // Recent Topics
+	'Recent_topics' => 'Neueste Themen', // Recent Topics
 	'Recent_today' => 'Heute',
 	'Recent_yesterday' => 'Gestern',
 	'Recent_last24' => 'in den letzten 24 Stunden',
@@ -1327,7 +1327,7 @@ $lang = array_merge($lang, array(
 	'Recent_title_lastXdays' => ' seit den letzten %s Tagen', // %s = days
 	'Recent_no_topics' => 'Es wurden keine Themen gefunden.',
 	'Recent_wrong_mode' => 'Du hast den falschen Modus ausgewählt.',
-	'Recent_click_return' => 'Klicke %shier%s, um zur Neuste Themen Seite zurückzukehren.',
+	'Recent_click_return' => 'Klicke %shier%s, um zur Neueste Themen Seite zurückzukehren.',
 
 	'Profile_view_option' => 'Pop up Fenster für Profilansichten',
 	'Profile_viewed' => 'Profilansichten',
@@ -1617,7 +1617,7 @@ $lang = array_merge($lang, array(
 //====================================================
 // Mighty Gorgon - LANG - BEGIN
 // Mighty Gorgon - Full Album Pack - BEGIN
-	'Newest_pic' => 'Neustes Bild', // Album Addon
+	'Newest_pic' => 'Neuestes Bild', // Album Addon
 	'Random_pic' => 'Zufälliges Bild', // Album Addon
 	'Click_enlarge_pic' => 'Klicke auf das Bild, um es zu vergrößern.',
 // Mighty Gorgon - Full Album Pack - END
@@ -2136,7 +2136,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DELETION_REQUEST' => 'Benutzer %s hat die Löschung seines Accounts beantragt.',
 
 	'SORT_TOPICS' => 'Sortiere Themen',
-	'SORT_TOPICS_NEWEST' => 'Neusten',
+	'SORT_TOPICS_NEWEST' => 'Neuesten',
 	'SORT_TOPICS_OLDEST' => 'Ältesten',
 
 	'EDIT_POST_DETAILS' => 'Beitragsangaben ändern',
@@ -2320,12 +2320,12 @@ $lang = array_merge($lang, array(
 	'GB' => 'GB',
 
 	'NO_EVENTS' => 'No planned events',
-	'EVENT_START_DATE' => 'Start Date',
-	'EVENT_START_TIME' => 'Start Time',
-	'EVENT_END_DATE' => 'End Date',
-	'EVENT_END_TIME' => 'End Time',
-	'EVENT_TITLE' => 'Event',
-	'EVENT_FORUM' => 'Category',
+	'EVENT_START_DATE' => 'Datum',
+	'EVENT_START_TIME' => 'Uhrzeit',
+	'EVENT_END_DATE' => 'Datum Ende',
+	'EVENT_END_TIME' => 'Uhrzeit Ende',
+	'EVENT_TITLE' => 'Veranstaltung',
+	'EVENT_FORUM' => 'Kategorie',
 
 	'MAX_OPTIONS_SELECT' => 'You may select up to <strong>%d</strong> options',
 	'MAX_OPTION_SELECT' => 'You may select <strong>1</strong> option',
