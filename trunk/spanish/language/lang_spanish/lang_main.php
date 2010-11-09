@@ -155,12 +155,18 @@ $lang = array_merge($lang, array(
 	'Reply_to_topic' => 'Responder al tema',
 	'Reply_with_quote' => 'Responder citando',
 
-	'Click_return_topic' => 'Pulse %saqu&iacute;%s para volver al tema', // %s's here are for uris, do not remove!
 	'Click_return_login' => 'Pulse %saqu&iacute;%s para intentar de nuevo',
+	'Click_return_index' => 'Pulse %saqu&iacute;%s para volver al &iacute;ndice',
 	'Click_return_forum' => 'Pulse %saqu&iacute;%s para volver al foro',
-	'Click_view_message' => 'Pulse %saqu&iacute;%s para ver su mensaje',
+	'Click_return_topic' => 'Pulse %saqu&iacute;%s para volver al tema', // %s's here are for uris, do not remove!
+	'Click_return_viewtopic' => 'Pulse %saqu&iacute;%s para volver al tema',
 	'Click_return_modcp' => 'Pulse %saqu&iacute;%s para volver al panel de control del moderador',
+	'Click_return_profile' => 'Pulse %saqu&iacute;%s para volver al perfil',
+	'Click_return_preferences' => 'Pulse %saqu&iacute;%s para volver a las preferencias',
 	'Click_return_group' => 'Pulse %saqu&iacute;%s para volver a la informaci&oacute;n de grupo',
+	'Click_return_inbox' => 'Pulse %saqu&iacute;%s para volver a su bandeja de entrada',
+	'Click_view_message' => 'Pulse %saqu&iacute;%s para ver su mensaje',
+	'Click_view_privmsg' => 'Pulse %saqu&iacute;%s para ver su bandeja de entrada',
 
 	'Admin_panel' => 'Ir al ACP',
 
@@ -517,9 +523,6 @@ $lang = array_merge($lang, array(
 
 	'Message_sent' => 'Su mensaje se ha enviado',
 
-	'Click_return_inbox' => 'Pulse %saqu&iacute;%s para volver a su bandeja de entrada',
-	'Click_return_index' => 'Pulse %saqu&iacute;%s para volver al &iacute;ndice',
-
 	'Send_a_new_message' => 'Enviar un nuevo mensaje privado',
 	'Send_a_reply' => 'Responder a un mensaje privado',
 	'Edit_message' => 'Editar mensaje privado',
@@ -544,8 +547,6 @@ $lang = array_merge($lang, array(
 	'Sentbox_size' => 'Su bandeja de enviados est&aacute; %d%% llena',
 	'Savebox_size' => 'Su bandeja de guardados est&aacute; %d%% llena',
 
-	'Click_view_privmsg' => 'Pulse %saqu&iacute;%s para ver su bandeja de entrada',
-
 // Profiles/Registration
 	'Viewing_user_profile' => 'Viendo perfil :: %s', // %s is username
 	'About_user' => 'Todo sobre %s', // %s is username
@@ -557,6 +558,8 @@ $lang = array_merge($lang, array(
 	'User_not_active' => 'El usuario <b>no est&aacute;</b> activo',
 	'Username_banned' => 'El usuario <b>est&aacute;</b> excluido',
 	'Username_not_banned' => 'El usuario <b>no est&aacute;</b> excluido',
+	'USER_BAN' => 'Excluir', 
+	'USER_UNBAN' => 'Reincorporar',
 	'User_email_banned' => 'Correo del usuario [ %s ] <b>est&aacute;</b> excluido',
 	'User_email_not_banned' => 'Correo del usuario <b>no est&aacute;</b> excluido',
 //End Quick Administrator User Options and Information MOD
@@ -960,8 +963,6 @@ $lang = array_merge($lang, array(
 	'Guestbook' => 'Libro de visitas',
 	'Viewing_guestbook' => 'Leer libro de visitas',
 
-	'Click_return_preferences' => 'Pulse %saqu&iacute;%s para volver a preferencias',
-
 	'Warn_new_post' => 'Hay por lo menos una nueva contestaci&oacute;n en este tema. Por favor, repase las nuevas respuestas en la revisi&oacute;n del tema y vuelva a enviar su mensaje.',
 
 	'Today_at' => '<b class="date-today">Hoy</b> a las ',
@@ -1016,7 +1017,6 @@ $lang = array_merge($lang, array(
 	'Ban_reactivate' => 'Su cuenta ha sido reactivada',
 	'Ban_warning' => 'Ha recibido una tarjeta amarilla, advertencia',
 	'Ban_blocked' => 'Su cuenta ha sido bloqueada',
-	'Click_return_viewtopic' => 'Pulse %saqu&iacute;%s para volver al tema',
 /*
 	'Rules_ban_can' => '<b>Puede</b> expulsar a otros usuarios',
 	'Rules_greencard_can' => '<b>Puede</b> quitar Tarjetas verdes',
@@ -1963,7 +1963,7 @@ $lang = array_merge($lang, array(
 	'Upload_Image_Empty' => 'No puede subir al aire... &iexcl;Ya lo sabe!',
 	'Upload_File_Too_Big' => '&iexcl;El archivo que est&aacute; intentando subir es demasiado grande! Tama&ntilde;o m&aacute;ximo permitido:',
 	'Upload_File_Error' => 'Error Desconocido',
-	'Upload_File_Error_Size' => 'Tipo de archivo no permitido',
+	'Upload_File_Error_Size' => 'Tamaño de archivo no permitido',
 	'Upload_File_Error_Type' => 'Tipo de archivo no permitido',
 	'Upload_File_Type_Allowed' => 'S&oacute;lo este tipo de archivos pueden subirse',
 	'Upload_Insert_Image' => 'Insertar BBCode',
@@ -2264,6 +2264,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_TAGS_LIST' => 'Lista de Etiquetas y Palabras Clave',
 	'TAG_COUNT' => 'Contador',
 	'TAG_TEXT' => 'Etiqueta',
+	'TAGS_TEXT' => 'Etiquetas',
 	'TAG_RESULTS' => 'Etiqueta seleccionada: <b>%s</b>',
 	'TAGS_NO_TAGS' => 'No se ha definido ninguna etiqueta',
 	'TAGS_NO_TAG' => 'La etiqueta especificada no existe',
@@ -2377,11 +2378,19 @@ $lang = array_merge($lang, array(
 	'FOE_ADD' => 'A&ntilde;adir como enemigo',
 	'FOE_REMOVE' => 'Eliminar de mis enemigos',
 
+	'SOCIAL_NETWORKS' => 'Redes Sociales', 
 	'USER_FIRST_NAME' => 'Nombre',
 	'USER_LAST_NAME' => 'Apellidos',
 	'FACEBOOK' => 'Facebook',
 	'TWITTER' => 'Twitter',
 
+	'INACTIVE_USER' => 'Usuario inactivo',
+
+	'SEARCH_MIN_CHARS' => 'Debe escribir al menos %s caracteres para poder realizar la b&uacute;squeda.',
+
+	'EXTRA_STATS_SHOW' => 'Mostrar estad&iacute;sticas extra', 
+	'EXTRA_STATS_HIDE' => 'Ocultar estad&iacute;sticas extra', 
+	'RESERVED' => 'Reservado', 
 	)
 );
 

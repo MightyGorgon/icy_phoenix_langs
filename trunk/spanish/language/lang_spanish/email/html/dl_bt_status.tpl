@@ -1,5 +1,5 @@
 Subject: Nuevo estado para informe de error en <b>{SITENAME}</b>
-Charset: iso-8859-1
+Charset: utf-8
 
 <br /><font face="Verdana" size="2">
 Hola <b>{USERNAME}</b>,<br /><br />

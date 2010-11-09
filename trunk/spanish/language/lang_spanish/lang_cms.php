@@ -28,6 +28,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	// MG CMS - BEGIN
 	'CMS_WELCOME' => 'Bienvenido a Icy Phoenix',
+	'CMS_THANKS' => 'Gracias por usar <a href="http://www.icyphoenix.com/" title="Icy Phoenix">Icy Phoenix</a>. Si necesita ayuda puede visitar la <a href="http://www.icyphoenix.com/viewforumlist.php?f=4" title="Documentaci&oacute;n">Documentaci&oacute;n</a> o el <a href="http://www.icyphoenix.com/forum.php" title="Foro de Soporte">Foro de Soporte</a>.',
 	'BP_Title' => 'Bloquea la posici&oacute;n del t&iacute;tulo',
 	'BP_Explain' => 'Desde este panel de control puede a&ntilde;adir, editar o borrar la posici&oacute;n de los bloques que pueden ser usados en el portal IM. Las posiciones por defecto son \'header\', \'footer\', \'right\' and \'center\'. S&oacute;lo posiciones existentes por p&aacute;gina principal deben a&ntilde;adirse aqu&iacute;. Los c&oacute;digos de posiciones que no existan en la etiqueta especificada no aparecer&aacute;n en la p&aacute;gina principal. Cada llave de posici&oacute;n y car&aacute;cter deben ser &uacute;nicos para cada p&aacute;gina.',
 	'BP_Position' => 'Posici&oacute;n del car&aacute;cter',
@@ -108,6 +109,7 @@ $lang = array_merge($lang, array(
 	'DISABLED' => 'Desactivado',
 	'B_TEXT' => 'Texto',
 	'B_FILE' => 'Archivo de bloque',
+	'B_MOVE' => 'Mover',
 	'B_MOVE_UP' => 'Mover arriba',
 	'B_MOVE_DOWN' => 'Mover abajo',
 	'B_VIEW_BY' => 'Ver por',
@@ -126,6 +128,7 @@ $lang = array_merge($lang, array(
 	'Click_return_blocksadmin' => 'Pulse %saqu&iacute;%s para volver a la administraci&oacute;n de bloques.',
 	'Block_removed' => 'Bloque eliminado',
 	'B_BV_added' => 'Archivo de configuraci&oacute;n de bloque disponible: Variables de bloque insertadas autom&aacute;ticamente',
+	'B_EDIT_BS' => 'Editar Configuraci&oacute;n',
 	'B_EDIT' => 'Editar',
 	'B_DELETE' => 'Borrar',
 
@@ -410,6 +413,17 @@ $lang = array_merge($lang, array(
 	'CMS_AJAX_DISABLE' => 'Desactivar AJAX',
 // CMS - ADV - END
 
+// CMS - TIPS - BEGIN 
+	'CMS_TIP_TITLE' => 'P&aacute;gina principal de CMS',
+	'CMS_TIP_CUSTOM_PAGES' => 'P&aacute;ginas personalizadas: todas las p&aacute;ginas creadas desde cero en Icy Phoenix se basan en uno de los dise&ntilde;os disponibles.<br />Puede personalizar cada p&aacute;gina a&ntilde;adiendo, editando o eliminando bloques y contenidos.<br />Tambi&eacute;n puede asignar un nombre f&iacute;sico a la p&aacute;gina (si su servidor lo permite, puede crear una nueva p&aacute;gina llamada por ejemplo <b>mipagina.php</b>).<br />En esta secci&oacute;n puede tambi&eacute;n personalizar los permisos y configuraci&oacute;n global de páginas como la barra lateral y los bloques globales.',
+	'CMS_TIP_STANDARD_PAGES' => 'P&aacute;ginas est&aacute;ndar: p&aacute;ginas predeterminadas en Icy Phoenix.<br />Estas p&aacute;ginas tienen un contenido ya definido, pero puede personalizarlas a&ntilde;adiendo bloques o contenido en las posiciones permitidas.<br />Tambi&eacute;n puede a&ntilde;adir nuevas p&aacute;ginas, pero estas deben existir previamente en su servidor.<br />En esta secci&oacute;n tambi&eacute;n puede personalizar los permisos y la configuraci&oacute;n global de la p&aacute;gina como la barra lateral y los bloques globales.',
+	'CMS_TIP_BLOCK_SETTINGS' => 'Un bloque es una secci&oacute;n o gadget que puede a&ntilde;adir a cualquier p&aacute;gina.<br />Antes de poder a&ntilde;adir un bloque a una p&aacute;gina, debe crearlo en esta secci&oacute;n.<br />Una vez el contenido del bloque haya sido definido y guardado, puede a&ntilde;adir el bloque a cualquier p&aacute;gina.<br />Despu&eacute;s de haber creado un bloque nuevo, tambi&eacute;n puede a&ntilde;adir el mismo bloque en varias p&aacute;ginas sin tener que crear su contenido de nuevo.',
+	'CMS_TIP_GLOBAL_BLOCKS' => 'Los bloques globales son bloques que pueden ser utilizados en cualquier p&aacute;gina sin la necesidad de a&ntilde;adirlo en ninguna p&aacute;gina.<br />Para poder mostrar los bloques globales debe asegurarse de que la p&aacute;gina tenga activados los Bloques Globales en su configuraci&oacute;n.',
+	'CMS_TIP_CONFIG' => 'Configuraci&oacute;n CMS: en esta p&aacute;gina puede establecer algunos ajustes b&aacute;sicos del CMS.',
+	'CMS_TIP_MENU' => 'Esta secci&oacute;n permite crear y administrar el men&uacute; de navegaci&oacute;n.<br />Puede crear varios men&uacute;s de navegaci&oacute;n y entonces podr&aacute; a&ntilde;adirlos a cualquier p&aacute;gina a trav&eacute;s del bloque &quot;Dynamic Menu&quot; (recuerde a&ntilde;adir la ID del men&uacute; correctamente).<br />Tambi&eacute;n puede establecer im&aacute;genes especiales y permisos en cualquier enlace o categor&iacute;a.',
+	'CMS_TIP_ADS' => 'La secci&oacute;n de anuncios le permite administrar anuncios comunes en todas las p&aacute;ginas y en algunas secciones comunes (como foros, temas y el men&uacute;).<br />En esta secci&oacute;n podr&aacute; crear varios anuncios y entonces decidir c&oacute;mo ser&aacute;n mostrados (si se establece m&aacute;s de un anuncio para la misma posici&oacute;n, los anuncios ser&aacute;n mostrados aleatoriamente).',
+// CMS - TIPS - END
+
 // CMS USERS
 	'CMS_USERS_INDEX' => '&Iacute;ndice',
 	'CMS_USERS_LAYOUTS' => 'P&aacute;ginas',
@@ -453,6 +467,7 @@ $lang = array_merge($lang, array(
 		'cms_b_edit' => 'Editar bloques',
 		'cms_b_delete' => 'Eliminar bloques',
 	),
+
 	)
 );
 

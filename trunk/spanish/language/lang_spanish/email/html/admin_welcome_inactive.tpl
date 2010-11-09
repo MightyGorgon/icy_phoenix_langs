@@ -1,18 +1,18 @@
 Subject: Bienvenido a los foros de {SITENAME}
-Charset: iso-8859-1
+Charset: utf-8
 <br /><font face="Verdana" size="2">
 Bienvenido a los foros de <b>{SITENAME}</b>
 <br /><br />
-Por favor, guarde esta información, contiene datos importantes de la cuenta creada.
+Por favor, guarde esta informaci&oacute;n, contiene datos importantes de la cuenta creada.
 <br /><br />
 ----------------------------<br />
 <b>Nombre de usuario:</b> {USERNAME}<br />
-<b>Contraseña:</b> {PASSWORD}<br />
+<b>Contrase&ntilde;a:</b> {PASSWORD}<br />
 ----------------------------
 <br /><br />
-Actualmente, su cuenta está inactiva a la espera que un administrador la active. Recibirá un correo cuando eso ocurra.
+Actualmente, su cuenta est&aacute; inactiva a la espera que un administrador la active. Recibir&aacute; un correo cuando eso ocurra.
 <br /><br />
-Por favor, no pierda esta información, ya que la contraseña de su usuario está encriptada en la base de datos y no podemos volver a enviar su contraseña.
+Por favor, no pierda esta informaci&oacute;n, ya que la contrase&ntilde;a de su usuario est&aacute; encriptada en la base de datos y no podemos volver a enviar su contrase&ntilde;a.
 <br /><br />
 Gracias por registrarse.
 <br /><br />

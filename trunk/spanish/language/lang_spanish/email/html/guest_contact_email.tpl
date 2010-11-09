@@ -1,16 +1,16 @@
-Charset: iso-8859-1
+Charset: utf-8
 
 Hola.
 
-Esto es un correo que le envía {FROM_USERNAME}, usuario de "{SITENAME}".<br /><br />
+Esto es un correo que le env&iacute;a {FROM_USERNAME}, usuario de "{SITENAME}".<br /><br />
 
-Si este mensaje es spam, o contiene abusos o otros comentarios ofensivos, por favor, contacte con el administrador del foro en la siguiente dirección:
+Si este mensaje es spam, o contiene abusos o otros comentarios ofensivos, por favor, contacte con el administrador del foro en la siguiente direcci&oacute;n:
 
 {BOARD_EMAIL}<br /><br />
 
 Incluya el correo completo (particularmente los encabezados).<br /><br />
 
-El mensaje que se le ha enviado viene a continuación:<br />
+El mensaje que se le ha enviado viene a continuaci&oacute;n:<br />
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br /><br />
 
 {MESSAGE}

@@ -419,6 +419,9 @@ if ($lang_extend_admin)
 		'IP_admin_protect' => 'Proteger cuenta del administrador principal',
 		'IP_admin_protect_explain' => 'Habilitando esta opci&oacute;n se a&ntilde;adir&aacute; mayor seguridad a la cuenta del administrador principal, otros administradores o usuarios no podr&aacute;n quitarle su rango o calidad de administrador.',
 
+		'IP_ip_admins_only' => 'Mostrar direcciones IP s&oacute;lo a los administradores', 
+		'IP_ip_admins_only_explain' => 'Activando esta opci&oacute;n s&oacute;lo los administradores podr&aacute;n ver las direcciones IP en foros y perfiles (desactivando esta opci&oacute;n tambi&eacute;n los moderadores podr&aacute;n ver las direcciones IP).', 
+
 		'IP_db_log_actions' => 'Habilitar log de acciones de la BD',
 		'IP_db_log_actions_explain' => 'Habilitando esta opci&oacute;n, cualquier acci&oacute;n que modifique la BD ser&aacute; almacenada en un log en la BD. Si esta opci&oacute;n ha sido marcada como true en el archivo constants.php, entonces no se podr&aacute; deshabilitar esta opci&oacute;n desde el ACP. Si se selecciona obtener reportes, entonces se guardaran archivos extra con todos los errores registrados.',
 

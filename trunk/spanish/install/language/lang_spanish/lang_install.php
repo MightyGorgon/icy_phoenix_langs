@@ -271,6 +271,10 @@ $lang = array_merge($lang, array(
 
 	'RenMovePics' => 'Renombrar y mover las fotos posteadas',
 	'RenMovePicsExplain' => 'Esta caracter&iacute;stica renombra y mueve todas las fotos posteadas por los usuarios de la carpeta principal a las subcarpetas: usted tendr&aacute; que actualizar la tabla de posts usando <i>Actualizar posts</i> para ajustar todas las rutas de los posts',
+
+	'COLLIDING_CLEAN_USERNAME' => '<strong>%s</strong> es el nombre de usuario limpio para:',
+	'COLLIDING_USERNAMES_FOUND' => 'Se han encontrado nombres de usuarios que colisionan en su sitio. Para poder completar la conversi&oacute;n por favor elimine o renombre estos usuarios dado que es la &uacute;nica manera de que solamente un usuario se pueda conectar con cada nombre de usuario limpio.',
+	'COLLIDING_USER' => '&raquo; id de usuario: <strong>%d</strong> nombre de usuario: <strong>%s</strong> (%d mensajes)',
 	)
 );
 

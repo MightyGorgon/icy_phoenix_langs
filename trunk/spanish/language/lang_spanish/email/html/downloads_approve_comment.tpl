@@ -1,10 +1,10 @@
 Subject: Nuevo comentario de descargas
-Charset: iso-8859-1
+Charset: utf-8
 
 <br /><font face="Verdana" size="2">
 Hola <b>{USERNAME}</b>,<br /><br />
 
-Recibe este correo porque un comentario nuevo o editado en la descarga <b>{DOWNLOAD}</b> en <b>{SITENAME}</b> en la categoría <b>{CATEGORY}</b> debe ser aprobado.<br /><br />
+Recibe este correo porque un comentario nuevo o editado en la descarga <b>{DOWNLOAD}</b> en <b>{SITENAME}</b> en la categor&iacute;a <b>{CATEGORY}</b> debe ser aprobado.<br /><br />
 
 Si quiere aprobar este comentario haga clic en el siguiente enlace:<br /><br />
 

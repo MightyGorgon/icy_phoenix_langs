@@ -1,5 +1,5 @@
 Subject: Bienvenido a los foros de {SITENAME}
-Charset: iso-8859-1
+Charset: utf-8
 
 <br /><font face="Verdana" size="2">
 Bienvenido a los foros de <b>{SITENAME}</b>.
@@ -9,12 +9,12 @@ Por favor, conserve este correo. Los datos de su cuenta son los siguentes:
 <br /><br />
 ----------------------------<br />
 <b>Usuario:</b> {USERNAME}<br />
-<b>Contraseña:</b> {PASSWORD}<br />
+<b>Contrase&ntilde;a:</b> {PASSWORD}<br />
 ----------------------------
 <br /><br />
 
-Por favor, no olvide su contraseña, ya que se encuentra encriptada en nuestra base de datos y no podemos reenviarla.<br />
-Sin embargo, de olvidar su contraseña puede pedir una nueva, que se activará de la misma manera que esta cuenta.
+Por favor, no olvide su contrase&ntilde;a, ya que se encuentra encriptada en nuestra base de datos y no podemos reenviarla.<br />
+Sin embargo, de olvidar su contrase&ntilde;a puede pedir una nueva, que se activar&aacute; de la misma manera que esta cuenta.
 <br /><br />
 Muchas gracias por registrarse.
 <br /><br />

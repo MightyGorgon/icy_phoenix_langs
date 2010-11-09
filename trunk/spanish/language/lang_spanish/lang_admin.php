@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
 	'Forum_status' => 'Estado del foro',
 	'Forum_pruning' => 'Auto-Limpieza (pruning)',
 
-	'prune_freq' => 'Verificar antigüedad de temas cada',
+	'prune_freq' => 'Verificar antig&uuml;edad de temas cada',
 	'prune_days' => 'Eliminar temas que no han recibido respuestas por espacio de',
 	'Set_prune_data' => 'Ha activado auto-limpieza (pruning) para este foro, pero no ha indicado la cantidad de d&iacute;as para el vencimiento. Por favor, regrese e ind&iacute;quelo.',
 
@@ -423,7 +423,7 @@ $lang = array_merge($lang, array(
 	'Click_return_forumadmin' => 'Pulse %saqu&iacute;%s para volver a la administraci&oacute;n de foros',
 
 // Smiley Management
-	'smiley_title' => 'Utilidad de modificaci&oacute;n de emoticonos (Smileys)',
+	'smiley_title' => 'Utilidad de modificaci&oacute;n de emoticonos',
 	'smile_desc' => 'Desde esta p&aacute;gina usted puede agregar, borrar y modificar los emoticonos que los usuarios pueden usar en sus mensajes, tanto p&uacute;blicos como privados. Por favor tenga en cuenta que si su servidor lo soporta, podr&aacute; tambi&eacute;n ordenar los emoticonos r&aacute;pidamente usando el m&eacute;todo de arrastrar y soltar.',
 
 	'smiley_config' => 'Configuraci&oacute;n de emoticono',
@@ -2064,6 +2064,12 @@ $lang = array_merge($lang, array(
 	'FORUM_LIKES_EXPLAIN' => 'Permite a los usuarios marcar mensajes con "me gusta" (debe activar el interruptor global en la configuraci&oacute;n de Icy Phoenix [Carga SQL] para permitir a los usuarios utilizar esta funci&oacute;n)',
 
 	'POSTS_PICS' => 'Mensajes / Im&aacute;genes',
+
+	'INACTIVE_USER_FEATURE' => 'Enmascarar a este usuario',
+	'INACTIVE_USER_FEATURE_EXPLAIN' => 'Activando este interruptor, el usuario ser&aacute; enmascarado en todos los foros y mensajes. Sus detalles de perfil ser&aacute;n reemplazadosp por los datos de un usuario an&oacute;nimo. El usuario s&oacute;lo ser&aacute; enmascarado si su cuenta no est&aacute; activa.',
+
+	'RANK_SHOW_TITLE' => 'Mostrar t&iacute;tulo del rango', 
+	'RANK_SHOW_TITLE_EXPLAIN' => 'Desactivando esta opci&oacute;n s&oacute;lo se mostrar&aacute; la imagen del rango.', 
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Ajustes Icy Phoenix',
