@@ -19,5 +19,5 @@ Se non desideri controllare il forum puoi cliccare su "Smetti di controllare que
 <br /><br />
 <a href="{U_STOP_WATCHING_TOPIC}" target="_blank">{U_STOP_WATCHING_TOPIC}</a>
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

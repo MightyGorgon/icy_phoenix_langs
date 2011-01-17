@@ -16,5 +16,5 @@ In caso di smarrimento della password, sar&agrave; comunque possibile richiedern
 <br /><br />
 Grazie per l'iscrizione.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

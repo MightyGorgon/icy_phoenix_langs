@@ -12,5 +12,5 @@ I motivi di questo provvedimento possono essere diversi, questa sospensione &egr
 Se non ritenete giusto questo provvedimento potete contattare <b>{WARNER}</b>, la persona che vi ha sospeso, spiegando il vostro messaggio.
 
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

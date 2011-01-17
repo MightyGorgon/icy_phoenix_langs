@@ -23,5 +23,5 @@ Se ritenete ingiusta questa ammonizione provate a contattare <b>{WARNER}</b>, ch
 colui che vi ha ammonito, spiegando il vostro messaggio ed indicando i motivi 
 per cui non condividete questa segnalazione.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

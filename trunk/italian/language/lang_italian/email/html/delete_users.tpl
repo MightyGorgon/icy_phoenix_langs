@@ -12,5 +12,5 @@ Se vuoi diventare parte attiva della nostra comunity, per cortesia registrati nu
 
 Non riceverai altre emails a riguardo di questo account.
 
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

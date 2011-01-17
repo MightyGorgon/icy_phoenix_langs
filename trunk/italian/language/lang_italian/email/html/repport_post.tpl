@@ -11,5 +11,5 @@ Questo messaggio vi viene inviato in quanto siete moderatori.<br /><br />
 Per verificare il messaggio:<br /><br />
 <a href="{POST_URL}" target="_blank">{POST_URL}</a>
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

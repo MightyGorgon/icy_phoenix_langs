@@ -18,5 +18,5 @@ Ricorda che puoi disattivare le notifiche per i commenti di questa immagine clic
 <br /><br />
 <hr />
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

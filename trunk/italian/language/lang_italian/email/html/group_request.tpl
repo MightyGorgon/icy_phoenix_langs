@@ -10,5 +10,5 @@ Per accettare o rifiutare la richiesta visita il seguente link:<br /><br />
 <a href="{U_GROUPCP}" target="_blank">{U_GROUPCP}</a>
 <br /><br />
 
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

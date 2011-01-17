@@ -23,5 +23,5 @@ Puoi consultare il tuo nuovo messaggio cliccando sul seguente link:<br /><br />
 <a href="{U_INBOX}">{U_INBOX}</a><br /><br />
 
 Ricordati che puoi sempre scegliere di non essere informato dell'arrivo di nuovi messaggi modificando le impostazioni nel tuo profilo.<br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

@@ -18,5 +18,5 @@ Se vuoi approvare questo file clicca sul link seguente:<br /><br />
 
 Ricorda che puoi scegliere di non essere avvisato per l'inserimento di nuovi file modificando le preferenze nel tuo profilo nella sezione download.<br /><br />
 
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

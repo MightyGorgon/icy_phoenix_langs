@@ -741,7 +741,7 @@ $lang = array_merge($lang, array(
 // BIRTHDAY - BEGIN
 	'Birthday_required' => 'Imponi agli utenti di selezionare la data di nascita',
 	'Enable_birthday_greeting' => 'Abilita auguri di compleanno',
-	'Birthday_greeting_explain' => 'Agli utenti che hanno indicato la loro data di nascita, in occasione del loro compleanno il forum invier&agrave; gli auguri',
+	'Birthday_greeting_explain' => 'Agli utenti che hanno indicato la loro data di nascita, in occasione del loro compleanno il forum invier&agrave; gli auguri via MP. Per il controllo dell\'invio auguri via email si rimanda alla sezione <b>Cron</b>.',
 	'Next_birthday_greeting' => 'Anno del prossimo compleanno',
 	'Next_birthday_greeting_explain' => 'Questo campo memorizza l\'anno in cui l\'utente avr&agrave; il prossimo compleanno',
 	'Wrong_next_birthday_greeting' => 'Anno del prossimo compleanno non valido! Riprovare grazie',
@@ -1372,11 +1372,6 @@ $lang = array_merge($lang, array(
 	'Pics_Count_Not_Synchronized' => 'Contatori non sincronizzati',
 
 // Icy Phoenix - BUILD 001
-	'Enable_Digests' => 'Attiva Digests',
-	'Enable_Digests_PHPCron' => 'Attiva Digests PHP Cron',
-	'Enable_Digests_PHPCron_Explain' => 'Questa funzione consente di abilitare un\'emulazione del CRON per l\'invio dei digests. E\' consigliabile attivarla solo se non si ha accesso al CRON sul proprio server, perch&eacute; questa funzione potrebbe non andare a buon fine in alcuni casi.',
-
-
 // Ajax Shoutbox - BEGIN
 	'Shoutbox_config' => 'AJAX Shoutbox',
 	'Shout_read_only' => 'Sola Lettura',

@@ -14,5 +14,5 @@ Se l'operazione andr&agrave; a buon fine potrete connettervi al nostro forum uti
 <br /><br />
 Una volta effettuata la login potrete modificare la password nel profilo utente. Per qualsiasi dubbio contattate pure l'amministratore.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>
