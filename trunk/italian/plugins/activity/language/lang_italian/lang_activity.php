@@ -903,7 +903,7 @@ $lang['games_settings_daily'] = 'Visualizza Sezione Giochi di Oggi?';
 $lang['games_settings_online'] = 'Visualizza Sezione Lista Online?';
 $lang['games_settings_new'] = 'Visualizza Sezione Ultimi Giochi?';
 $lang['games_settings_new_count'] = 'Quanti Giochi vuoi visualizzare nella Sezione Ultimi Giochi?';
-$lang['games_settings_finished'] = 'Le tue impostazioni sono state salvate. Clicca <a href="activity.' . PHP_EXT . '?sid=' . $userdata['session_id'] . '">Qui</a> per tornare alla Pagina dei Giochi';
+$lang['games_settings_finished'] = 'Le tue impostazioni sono state salvate. Clicca <a href="activity.' . PHP_EXT . '?sid=' . $user->data['session_id'] . '">Qui</a> per tornare alla Pagina dei Giochi';
 $lang['games_settings_submit'] = ' Salva Impostazioni ';
 $lang['hof_link'] = 'Albo D\'Oro';
 $lang['mass_settings_complete'] = 'I tuoi cambiamenti sono stati effettuati.<br /><br />Clicca %sQui%s per tornare alla pagina precedente.';

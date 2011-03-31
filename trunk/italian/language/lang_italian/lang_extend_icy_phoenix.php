@@ -113,6 +113,9 @@ if ($lang_extend_admin)
 		'IP_site_history' => 'Statistiche Visite Sito',
 		'IP_site_history_explain' => 'Attivando questa opzione verranno memorizzate delle statistiche sulle visite del sito',
 
+		'IP_active_sessions' => 'Limite Numero Sessioni',
+		'IP_active_sessions_explain' => '<b>ATTENZIONE</b>: questo &egrave; il numero massimo di sessioni possibili, se il limite viene raggiunto, il sito risulter&agrave; non accessibile. Lasciare questo valore impostato a 0 (ZERO) se non si ha la consapevolezza di come modificarlo opportunamente.',
+
 		'IP_global_disable_upi2db' => 'Disabilita completamente UPI2DB',
 		'IP_global_disable_upi2db_explain' => 'Questa opzione consente di disattivare completamente il sistema UPI2DB permettendo di risparmiare in termini di memoria.',
 
@@ -186,8 +189,8 @@ if ($lang_extend_admin)
 		'IP_show_random_quote_explain' => 'Attivando questa opzione verrano visualizzate le citazioni casuali nell\'<b>Indice Del Forum</b>.',
 
 // TAB - Posting
-		'IP_posts_precompiled' => 'Disattiva messaggi precompilati',
-		'IP_posts_precompiled_explain' => 'Attivando questa opzione non verranno pi&ugrave; caricati i messaggi precompilati, per cui il caricamento sar&agrave; pi&ugrave; lento, ma rispetter&agrave; sempre le preferenze degli utenti su BBCode ed HTML (pu&ograve; essere utile in alcuni casi).',
+		'IP_posts_precompiled' => 'Disattiva Messaggi Precompilati Per Gli Ospiti',
+		'IP_posts_precompiled_explain' => 'Attivando questa opzione non verranno pi&ugrave; utilizzati i messaggi precompilati per gli ospiti (il caricamento sar&agrave; pi&ugrave; lento).',
 
 		'IP_read_only_forum' => 'Blocco scrittura nei forum (Modalit&agrave; Sola Lettura)',
 		'IP_read_only_forum_explain' => 'Questa opzione consente di disattivare temporaneamente la scrittura nei forum senza dover intervenire nei permessi. Potrebbe risultare utile in alcuni casi in cui si voglia impedire che gli utenti scrivano senza dover bloccare il sito o modificare i permessi in tutti i forum. Gli amministratori potranno continuare a scrivere.',
@@ -210,6 +213,9 @@ if ($lang_extend_admin)
 		'IP_no_bump' => 'Blocca "Bump" per 24 ore',
 		'IP_no_bump_explain' => 'Abilitando questa opzione gli utenti che hanno inviato l\'ultimo messaggio in un argomento non saranno in grado di inviare nuovi messaggi a meno che non siano passate 24 ore dal loro ultimo messaggio o finch&eacute; qualcun altro non risponda (non si applica agli amministratori)',
 		'MODS_ALLOWED' => 'Consenti Moderatori',
+
+		'IP_robots_index_topics_no_replies' => 'Attiva Indicizzazione Argomenti Senza Risposte',
+		'IP_robots_index_topics_no_replies_explain' => 'Attivando questa opzione gli argomenti senza risposte verranno indicizzati, altrimenti sar&agrave; inserito un meta tag per evitare che vengano indicizzati',
 
 		'IP_display_tags_box' => 'TAGS :: Abilita Tags Per Gli Argomenti',
 		'IP_display_tags_box_explain' => 'Attivando questa opzione sar&agrave; possibile inserire e visualizzare Tags per gli argomenti del forum. I Tags possono essere molto utili per l\'indicizzazione, ma possono essere anche molto dannosi se non utilizzati correttamente: per questo l\'immissione dei Tags &egrave; riservata agli amministratori o ai moderatori (se viene attivatata l\'opzione sottostante).',

@@ -902,7 +902,7 @@ $lang['games_settings_daily'] = 'Display Daily Game Section?';
 $lang['games_settings_online'] = 'Display Online List Section?';
 $lang['games_settings_new'] = 'Display Newest Games Section?';
 $lang['games_settings_new_count'] = 'How Many New Games To Display?';
-$lang['games_settings_finished'] = 'Your settings have been saved. Click <a href="activity.' . PHP_EXT . '?sid=' . $userdata['session_id'] . '">Here</a> to return to games';
+$lang['games_settings_finished'] = 'Your settings have been saved. Click <a href="activity.' . PHP_EXT . '?sid=' . $user->data['session_id'] . '">Here</a> to return to games';
 $lang['games_settings_submit'] = ' Save Settings ';
 $lang['hof_link'] = 'Hall Of Fame';
 $lang['mass_settings_complete'] = 'Your changes have been done.<br /><br />Click %sHere%s to return to the previous page.';

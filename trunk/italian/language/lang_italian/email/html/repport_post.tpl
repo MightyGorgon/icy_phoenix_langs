@@ -9,7 +9,9 @@ Questo messaggio, sinora, ha ricevuto <b>{NUMBER_OF_REPPORTS}</b> segnalazioni.<
 Questo messaggio vi viene inviato in quanto siete moderatori.<br /><br />
 
 Per verificare il messaggio:<br /><br />
-<a href="{POST_URL}" target="_blank">{POST_URL}</a>
+
+<a href="{POST_URL}" target="_blank">{POST_SUBJECT}</a>
 <br /><br />
+
 <span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
 </font>
