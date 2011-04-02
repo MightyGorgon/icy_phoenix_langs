@@ -121,7 +121,7 @@ if ($lang_extend_admin)
 		'IP_site_history_explain' => 'Bei Aktivierung dieser Option, werden einige zusätzlichen Statistiken in der DB gespeichert (z.B. tägliche Besuche, Beiträge, usw.)',
 
 		'IP_active_sessions' => 'Anzahl der Sessions (Sitzungen) begrenzen',
-		'IP_active_sessions_explain' => '<b>ACHTUNG:</b> Sei vorsichtig mit diesem Wert. Diese Zahl ist die maximal zulässige Anzahl von Sitzungen, wenn das Limit erreicht ist kann auf die Website nicht mehr zugegriffen werden. Laß diesen Eintrag bei 0 (NULL), wenn du dich nicht auskennst.',
+		'IP_active_sessions_explain' => '<b>ACHTUNG:</b> Sei vorsichtig mit diesem Wert. Diese Zahl ist die maximal zulässige Anzahl von Sitzungen, wenn das Limit erreicht ist kann auf die Website nicht mehr zugegriffen werden. Laß diesen Eintrag bei 0 (NULL), wenn du dir nicht sicher bist.',
 
 		'IP_global_disable_upi2db' => 'Deaktiviere UPI2DB komplett',
 		'IP_global_disable_upi2db_explain' => 'Mit dieser Option kannst du UPI2DB vollständig abschalten, dadurch sparst du extra Speicherplatz.',
@@ -447,10 +447,10 @@ if ($lang_extend_admin)
 		'IP_cron_global_switch_explain' => 'Bei Aktivierung dieser Option wird der PHP-basierende Cron aktiviert: einige automatische Arbeiten werden in bestimmten Intervallen ausgeführt. Der optimale Zeitabstand für jeden Cron hängt von der Auslastung und den Einstellungen der Seite ab: Wenn du nicht weißt was diese Einstellungen bedeuten, dann lass diese Funktion deaktiviert, denn du wirst sie wahrscheinlich nicht benötigen.',
 
 		'IP_cron_digests_interval' => 'Digests PHP Cron',
-		'IP_cron_digests_interval_explain' => 'This feature will enable a PHP emulation of the CRON trying to send digests emails once per hour, but since it is based on a PHP emulation it may not be correctly executed every time. This means that sometimes emails may not be sent. If you can enable CRON on your server, please select <b>Server Cron</b> and make sure you manually enable the file to allow digests to be run via server.<br /><br /><b>Last run: ' . (($config['cron_digests_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_digests_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_digests_interval_explain' => 'Diese Feature aktiviert eine PHP Emulation des CRON um die E-Mails einmal pro Stunde zu senden. Aber da es PHP Emulation basierend ist, kann es nicht immer exakt ausgeführt werden. Das bedeutet, dass die E-Mails manchmal nicht gesendet werden. Wenn dein Server CRON unterstützt dann nutze den CRON deines Server anstelle dieser Feature.<br /><br /><b>Last run: ' . (($config['cron_digests_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_digests_last_run']), $config['board_timezone'])) . '</b>',
 
-		'IP_cron_birthdays_interval' => 'Birthdays PHP Cron',
-		'IP_cron_birthdays_interval_explain' => 'This feature will enable a PHP emulation of the CRON trying to send birthdays greeting emails, but since it is based on a PHP emulation it may not be correctly executed every time. This means that sometimes emails may not be sent.<br /><br /><b>Last run: ' . (($config['cron_birthdays_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_birthdays_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_birthdays_interval' => 'Geburtstags PHP Cron',
+		'IP_cron_birthdays_interval_explain' => 'Diese Feature aktiviert eine PHP Emulation des CRON um zu versuchen, die Glückwünsche zum Geburtstag per E-AMil zu versenden. Da es PHP Emulation basierend ist, kann es nicht immer exakt ausgeführt werden. Das bedeutet, dass die E-Mails manchmal nicht gesendet werden.<br /><br /><b>Last run: ' . (($config['cron_birthdays_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_birthdays_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_files_interval' => 'Dateiausführungs Cron Intervall',
 		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausführen in dem Intervall das du bestimmst. Die Dateien die ausgeführt werden sollen müssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien müssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>',

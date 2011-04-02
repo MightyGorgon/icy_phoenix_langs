@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
 
 	'Admin_panel' => 'Admin-Bereich',
 
-	'Board_disabled' => 'Sorry, aber dieses Board ist im Moment nicht verfügbar. Probier es bitte später wieder.',
+	'Board_disabled' => 'Entschuldigung, aber dieses Board ist im Moment nicht verfügbar. Probier es bitte später wieder.',
 
 // Global Header strings
 	'Registered_users' => 'Registrierte Benutzer:',
@@ -2242,13 +2242,13 @@ $lang = array_merge($lang, array(
 	'TICKET_CAT' => 'Kategorie',
 	// Tickets Submission - END
 
-	'LIMIT_EDIT_TIME_WARN' => 'We are sorry, but you are only allowed to edit posts within the first <b>%d</b> minute(s) after submission.',
+	'LIMIT_EDIT_TIME_WARN' => 'Es tut uns leid, aber du darfst deine Beiträge nur innerhalb der ersten <b>%d</b> Minute(n) bearbeiten.',
 	'CLEAN_NAME' => 'Clean Name',
-	'CLEAN_NAME_EXPLAIN' => 'Only alpha-numeric chars and dashes allowed',
+	'CLEAN_NAME_EXPLAIN' => 'Nur alphanumerische Zeichen und Bindestriche erlaubt',
 	'TOPIC_TAGS' => 'Tags und Schlüsselwörter',
 	'TOPIC_TAGS_EXPLAIN' => 'Trenne jeden Tag durch ein Komma',
 	'TOPIC_TAGS_CLOUDS' => 'Tags And Keywords Cloud',
-	'TOPIC_TAGS_LIST' => 'Tags And Keywords List',
+	'TOPIC_TAGS_LIST' => 'Tags und Schlüsselwörter',
 	'TAG_COUNT' => 'Counter',
 	'TAG_TEXT' => 'Tag',
 	'TAGS_TEXT' => 'Tags',
@@ -2258,7 +2258,7 @@ $lang = array_merge($lang, array(
 	'TAGS_NO_TAGS' => 'Kein Tag bisher festgelegt',
 	'TAGS_NO_TAG' => 'Vorgegebener Tag ist nicht vorhanden',
 
-	'SQL_ERROR_OCCURRED' => 'An SQL error occurred while fetching this page. Please contact the Site Administrator if this problem persists.',
+	'SQL_ERROR_OCCURRED' => 'Ein SQL-Fehler ist beim LAden der Seite aufgetreten. Kontaktieren bitte den Administrator, falls dieses Problem weiterhin bestehen sollte.',
 
 	'PLUGIN_DISABLED' => 'Dieses Plugin ist zurzeit deaktivert.',
 
@@ -2287,19 +2287,19 @@ $lang = array_merge($lang, array(
 	'DB_ITEM_ADDED' => 'Item added successfully',
 	'DB_ITEM_REMOVED' => 'Item removed successfully',
 	'DB_ITEM_NO_ITEMS' => 'No Items',
-	'DB_ITEM_CLICK_VIEW_ITEM' => 'Click %sHere%s to view added data',
-	'DB_ITEM_CLICK_RETURN_ITEMS' => 'Click %sHere%s to return to list page',
+	'DB_ITEM_CLICK_VIEW_ITEM' => 'Klicke %shier%s, um die hinzugefügten Daten anzusehen.',
+	'DB_ITEM_CLICK_RETURN_ITEMS' => 'Klicke %shier%s, um zur list page zurückzukehren.',
 	// COMMON DB - END
 
-	'LOGIN_ATTEMPTS_EXCEEDED' => 'The maximum number of %s login attempts has been exceeded. You are not allowed to login for the next %s minutes.',
-	'LOGIN_CONFIRM_EXPLAIN' => 'To prevent brute forcing accounts the board requires you to enter a confirmation code after a maximum amount of failed logins. The code is displayed in the image you should see below. If you are visually impaired or cannot otherwise read this code please contact the %sAdministrator%s.',
-	'LOGIN_ERROR_ATTEMPTS' => 'You exceeded the maximum allowed number of login attempts. In addition to your username and password you now also have to enter the confirm code from the image you see below.',
-	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE' => 'You have not been authenticated by Apache.',
-	'LOGIN_ERROR_PASSWORD' => 'You have specified an incorrect password. Please check your password and try again. If you continue to have problems please contact the %sAdministrator%s.',
-	'LOGIN_ERROR_PASSWORD_CONVERT' => 'It was not possible to convert your password when updating this website\'s software. Please %srequest a new password%s. If you continue to have problems please contact the %sAdministrator%s.',
-	'LOGIN_ERROR_USERNAME' => 'You have specified an incorrect username. Please check your username and try again. If you continue to have problems please contact the %sAdministrator%s.',
-	'NO_PASSWORD_SUPPLIED' => 'You cannot login without a password.',
-	'ACTIVE_ERROR' => 'The specified username is currently inactive. If you have problems activating your account, please contact the %sAdministrator%s.',
+	'LOGIN_ATTEMPTS_EXCEEDED' => 'Die maximale Anzahl von %s Login-Versuchen ist erreicht. Du kannst dich deshalb in den nächsten %s Minuten nicht einloggen.',
+	'LOGIN_CONFIRM_EXPLAIN' => 'Um einen Brute-Force-Angriff auf Benutzerkonten zu verhindern, müsst du nach einer bestimmten Zahl von fehlerhaften Anmeldungen einen Bestätigungscode angeben. Der Code wird im unten stehenden Bild angezeigt. Wenn du nur über ein eingeschränktes Sehvermögen verfügen oder aus einem anderen Grund den Code nicht lesen kannst, kontaktiere bitte den %sAdministrator%s.',
+	'LOGIN_ERROR_ATTEMPTS' => 'Du hast die zuöässige Anzahl von Login-Versuchen überschritten. Deshalb mußt du nun zusätzlich zum Benutzernamen und Passwort, auch den Bestätigungs-Code von dem Bild mit angeben.',
+	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE' => 'Du konntest von Apache nicht authentifiziert werden.',
+	'LOGIN_ERROR_PASSWORD' => 'Du hast ein falsche Passwort angegeben. Bitte überprüfe dein Passwort und versuche es erneut. Wenn du weiterhin Probleme haben solltest, kontaktiere den %sAdministrator%s.',
+	'LOGIN_ERROR_PASSWORD_CONVERT' => 'Es war leider nicht möglich dein Passwort (beim Update der Website) zu konvertieren. Bitte %sfordere ein neues Passwort%s an. Wenn du weiterhin Probleme haben solltest, kontaktiere den %sAdministrator%s.',
+	'LOGIN_ERROR_USERNAME' => 'Du hast einen falschen Benutzernamen angegeben. Bitte überprüfe deinen Benutzernamen und versuche es erneut. Wenn du weiterhin Probleme haben solltest, kontaktiere den %sAdministrator%s.',
+	'NO_PASSWORD_SUPPLIED' => 'Du kannst dich nicht ohne ein Passwort anmelden.',
+	'ACTIVE_ERROR' => 'Dein angegebener Benutzername ist derzeit inaktiv. Wenn du weiterhin Probleme hast dein Konto zu aktivieren, dann kontaktiere bitte den %sAdministrator%s.',
 
 	'Bytes' => 'Bytes',
 	'KB' => 'KB',
@@ -2319,11 +2319,11 @@ $lang = array_merge($lang, array(
 	'NO_POLLS' => 'Keine Umfragen',
 	'NO_VOTE_OPTION' => 'Du mußt mindestens eine Option auswählen.',
 	'NO_VOTES' => 'Keine Abstimmungen',
-	'POLL_ENDED_AT' => 'Poll ended at %s',
+	'POLL_ENDED_AT' => 'Umfrage endet am %s',
 	'POLL_MAX_OPTIONS' => 'Max Optionen',
 	'POLL_MAX_OPTIONS_EXPLAIN' => 'Maximale Anzahl an Optionen, die vom Benutzer ausgewählt werden können.',
-	'POLL_NO_GUESTS' => 'Sorry, but Guests are not allowed to vote',
-	'POLL_RUN_TILL' => 'Poll runs until %s',
+	'POLL_NO_GUESTS' => 'Entschuldigung, aber Gäste dürfen nicht abstimmen.',
+	'POLL_RUN_TILL' => 'Umfrage läuft bis %s',
 	'POLL_VOTE_CHANGE' => 'Änderung der Stimmabgabe erlauben',
 	'POLL_VOTED_OPTION' => 'Du hast bei der Umfrage schon abgestimmt.',
 	'TOO_MANY_VOTE_OPTIONS' => 'Du hast zu viele Optionen ausgewählt.',
@@ -2331,7 +2331,7 @@ $lang = array_merge($lang, array(
 	'VOTE_SUBMITTED' => 'Deine Stimme wurde verarbeitet.',
 	'VOTE_CONVERTED' => 'Changing votes is not supported for converted polls.',
 
-	'FORM_INVALID' => 'The submitted form was invalid. Try submitting again.',
+	'FORM_INVALID' => 'Das übermittelte Formular war ungültig. Bitte versuche es noch einmal einzureichen.',
 
 	'NO_USERS_FOUND' => 'Keine Benutzer gefunden',
 	'POST_IP' => 'IP Adresse',
