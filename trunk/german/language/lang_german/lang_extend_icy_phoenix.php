@@ -56,14 +56,9 @@ if ($lang_extend_admin)
 		'IP_html_email' => 'HTML E-Mail',
 		'IP_html_email_explain' => 'Bei Aktivierung dieser Option, werden HTML E-Mails aktiviert, andernfalls werden sie in reinem Text Format gesendet',
 
-		'IP_enable_digests' => 'Aktiviere Digests',
-
-		'IP_digests_php_cron' => 'Aktiviere Digest PHP Cron',
-		'IP_digests_php_cron_explain' => 'Diese Eigenschaft ermöglicht einer PHP-Emulation des CRON, dieses versucht die E-Mails einmal pro Stunde zu senden. Da es auf einer PHP-Emulation basiert, kann es möglicherweise nicht jedesmal richtig durchgeführt werden. Dies heißt, dass manchmal E-Mails möglicherweise nicht gesendet werden können. Wenn du CRON auf deinem Server ermöglichen kannst, dann verwende diese Möglichkeit stattdessen. Please note that you need also to enable <b>PHP Cron [Global Switch]</b> in <b>ACP &raquo; Configuration &raquo; Main Settings &raquo; Cron</b>',
-
 		'IP_emails_only_to_admins' => 'E-Mails nur zu Admins',
 		'IP_emails_only_to_admins_explain' => 'Erlaube dem E-Mail System nur E-Mails an Admins zu senden',
-		
+
 		'IP_ajax_features_title' => 'AJAX Funktionen',
 
 		'IP_ajax_features' => 'Aktiviere AJAX Funktionen',
@@ -124,6 +119,9 @@ if ($lang_extend_admin)
 
 		'IP_site_history' => 'Seiten Statistik',
 		'IP_site_history_explain' => 'Bei Aktivierung dieser Option, werden einige zusätzlichen Statistiken in der DB gespeichert (z.B. tägliche Besuche, Beiträge, usw.)',
+
+		'IP_active_sessions' => 'Anzahl der Sessions (Sitzungen) begrenzen',
+		'IP_active_sessions_explain' => '<b>ACHTUNG:</b> Sei vorsichtig mit diesem Wert. Diese Zahl ist die maximal zulässige Anzahl von Sitzungen, wenn das Limit erreicht ist kann auf die Website nicht mehr zugegriffen werden. Laß diesen Eintrag bei 0 (NULL), wenn du dich nicht auskennst.',
 
 		'IP_global_disable_upi2db' => 'Deaktiviere UPI2DB komplett',
 		'IP_global_disable_upi2db_explain' => 'Mit dieser Option kannst du UPI2DB vollständig abschalten, dadurch sparst du extra Speicherplatz.',
@@ -198,11 +196,11 @@ if ($lang_extend_admin)
 		'IP_show_random_quote_explain' => 'Bei Aktivierung dieser Option, werden die Zufallszitate im <b>Forum Index</b> angezeigt.',
 
 // TAB - Posting
-		'IP_posts_precompiled' => 'Deaktiviere precompiled Beiträge',
-		'IP_posts_precompiled_explain' => 'Bei Aktivierung dieser Option, kompiliert die viewtopic.php den Beitrags Text, ohne den precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).',
+		'IP_posts_precompiled' => 'Deaktiviere Precompiled Beiträge für Gäste',
+		'IP_posts_precompiled_explain' => 'Bei Aktivierung dieser Option, analysiert die viewtopic.php den Beitrags-Text für Gäste, ohne den Precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).',
 
 		'IP_read_only_forum' => 'Deaktiviere das Schreiben in allen Foren (NUR LESEN Modus)',
-		'IP_read_only_forum_explain' => 'This options allows to lock posting in all forums without having to change permissions. This may be useful for limited periods of time when admins would like to disallow users posting without having to lock the site or change all forum authorizations. Admins will still be able to post.',
+		'IP_read_only_forum_explain' => 'Diese Option sperrt das Schreiben von neuen Beiträgen im Forum komplett, ohne die Berechtigungen ändern zu müssen. Dies kann für eine kurze Zeit recht hilfreich sein, da nur das Lesen erlaubt ist. Administratoren können weiterhin Beiträge schreiben.',
 
 		'IP_allow_drafts' => 'Erlaube Entwürfe',
 		'IP_allow_drafts_explain' => 'Erlaubt den Benutzern ihre Beiträge als Entwürfe zu speichern',
@@ -223,11 +221,14 @@ if ($lang_extend_admin)
 		'IP_no_bump_explain' => 'Bei Aktivierung dieser Option, ist der letzte Poster in einem Thema nicht mehr in der Lage innerhalb von 24 Stunden eine Antwort auf seinen Beitrag zu verfassen. Es sei denn ein anderer Benutzer hat bereits auf seinen Beitrag geantwortet.',
 		'MODS_ALLOWED' => 'Moderatoren können schreiben',
 
-		'IP_display_tags_box' => 'TAGS :: Display Topics Tags',
-		'IP_display_tags_box_explain' => 'Enabling this option will enable Topics Tags (tags could be used for indexing purpose): tags could be inserted / edited only by administrators (or moderators if you enable the switch below) to avoid spam',
+		'IP_robots_index_topics_no_replies' => 'Aktiviere Robots Indexierung für Themen ohne Antwort',
+		'IP_robots_index_topics_no_replies_explain' => 'Wenn du diese Option aktivierst, werden Themen ohne eine Antwort von Robots NICHT indexiert (noindex), ansonsten werden diese Themen auch indexiert und sind somit in Suchmaschienen auffindbar.',
 
-		'IP_allow_moderators_edit_tags' => 'TAGS :: Allow Moderators To Edit Tags',
-		'IP_allow_moderators_edit_tags_explain' => 'Enabling this option will allow Moderators to edit Topics Tags',
+		'IP_display_tags_box' => 'TAGS :: Themen Tags anzeigen',
+		'IP_display_tags_box_explain' => 'Bei Aktivierung dieser Option werden die Themen Tags angezeigt (Tags können zum Indexieren benutzt werden): Tags können nur von Administratoren hinzugefügt oder geändert werden (oder Moderatoren, wenn du die unten stehende Option aktiviert wird) um Spam vorzubeugen.',
+
+		'IP_allow_moderators_edit_tags' => 'TAGS :: Erlaubt Moderatoren Tags zu ändern',
+		'IP_allow_moderators_edit_tags_explain' => 'Wenn du diese Option aktivierst, dürfen Moderatoren Tags bearbeiten.',
 
 		'IP_show_topic_description' => 'Aktiviere Beschreibung für Themen',
 		'IP_show_topic_description_explain' => 'Bei Aktivierung dieser Option wird die Themen-Beschreibung beim Schreiben eines neuen Themas und in der Forenansicht angezeigt.',
@@ -395,7 +396,7 @@ if ($lang_extend_admin)
 		'IP_forum_wordgraph_explain' => 'Dieses Feature aktiviert ein forumbasierendes Wortdiagramm am Ende jedes Forums',
 
 		'IP_forum_tags_type' => 'TAGS :: Forum Tags Type',
-		'IP_forum_tags_type_explain' => 'You can choose whether to display Wordgraph (word taken from search tables) or Tags (tags specified in topics)',
+		'IP_forum_tags_type_explain' => 'Du kannst auswählen, ob der Wordgraph (Wörter von der Search-Tabelle) oder Tags (Tags die in den Themen angegeben wurden) angezeigt werden.',
 		'IP_forum_tags_type_tags' => 'Tags',
 		'IP_forum_tags_type_wordgraph' => 'Wordgraph',
 
@@ -445,6 +446,12 @@ if ($lang_extend_admin)
 		'IP_cron_global_switch' => 'Aktiviere PHP Cron [Globale Einstellung]',
 		'IP_cron_global_switch_explain' => 'Bei Aktivierung dieser Option wird der PHP-basierende Cron aktiviert: einige automatische Arbeiten werden in bestimmten Intervallen ausgeführt. Der optimale Zeitabstand für jeden Cron hängt von der Auslastung und den Einstellungen der Seite ab: Wenn du nicht weißt was diese Einstellungen bedeuten, dann lass diese Funktion deaktiviert, denn du wirst sie wahrscheinlich nicht benötigen.',
 
+		'IP_cron_digests_interval' => 'Digests PHP Cron',
+		'IP_cron_digests_interval_explain' => 'This feature will enable a PHP emulation of the CRON trying to send digests emails once per hour, but since it is based on a PHP emulation it may not be correctly executed every time. This means that sometimes emails may not be sent. If you can enable CRON on your server, please select <b>Server Cron</b> and make sure you manually enable the file to allow digests to be run via server.<br /><br /><b>Last run: ' . (($config['cron_digests_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_digests_last_run']), $config['board_timezone'])) . '</b>',
+
+		'IP_cron_birthdays_interval' => 'Birthdays PHP Cron',
+		'IP_cron_birthdays_interval_explain' => 'This feature will enable a PHP emulation of the CRON trying to send birthdays greeting emails, but since it is based on a PHP emulation it may not be correctly executed every time. This means that sometimes emails may not be sent.<br /><br /><b>Last run: ' . (($config['cron_birthdays_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_birthdays_last_run']), $config['board_timezone'])) . '</b>',
+
 		'IP_cron_files_interval' => 'Dateiausführungs Cron Intervall',
 		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausführen in dem Intervall das du bestimmst. Die Dateien die ausgeführt werden sollen müssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien müssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>',
 
@@ -464,6 +471,7 @@ if ($lang_extend_admin)
 		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>',
 
 		'Cron_Disabled' => 'Deaktiviert',
+		'Cron_Server' => 'Server Cron',
 		'15M' => '15 Minuten',
 		'30M' => '30 Minuten',
 		'1H' => '1 Stunde',

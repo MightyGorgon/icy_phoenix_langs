@@ -696,7 +696,7 @@ $lang = array_merge($lang, array(
 	'User_deleted_successfully' => 'Benutzer wurde(n) erfolgreich gelöscht.',
 	'User_add_group_successfully' => 'Benutzer wurde(n) erfolgreich zur Gruppe hinzugefügt.',
 
-	'Click_return_userlist' => 'Klicke %shier%s um zur Benutzerliste zurückzukehren.',
+	'Click_return_userlist' => 'Klicke %shier%s, um zur Benutzerliste zurückzukehren.',
 //
 // Admin Userlist End
 
@@ -1177,7 +1177,7 @@ $lang = array_merge($lang, array(
 	'auth_view_kb' => 'Wissensdatenbank',
 	'auth_view_ranks' => 'Ränge',
 	'auth_view_statistics' => 'Statistiken',
-	'auth_view_recent' => 'Neuste Themen',
+	'auth_view_recent' => 'Neueste Themen',
 	'auth_view_referrers' => 'Referrers',
 	'auth_view_rules' => 'Regeln',
 	'auth_view_site_hist' => 'Seiten Historie',
@@ -1339,10 +1339,6 @@ $lang = array_merge($lang, array(
 	'Pics_Count_Not_Synchronized' => 'Folgende Bildzähler wurden nicht korrekt synchronisiert:',
 
 // IP - BUILD 001
-	'Enable_Digests' => 'Aktiviere Digests',
-	'Enable_Digests_PHPCron' => 'Aktiviere Digests PHP Cron',
-	'Enable_Digests_PHPCron_Explain' => 'Diese Feature aktiviert eine PHP Emulation des CRON um die E-Mails einmal pro Stunde zu senden. Aber da es PHP Emulation basierend ist, kann es nicht immer exakt ausgeführt werden. Das bedeutet, dass die E-Mails manchmal nicht gesendet werden. Wenn dein Server CRON unterstützt dann nutze den CRON deines Server anstelle dieser Feature.',
-
 // Ajax Shoutbox - BEGIN
 	'Shoutbox_config' => 'AJAX Shoutbox Konfiguration',
 	'Shout_read_only' => 'Nur Lesen',
@@ -2308,7 +2304,7 @@ $lang['100_Plugins_Modules'] = 'Plugins Module'; // admin_plugins.php
 // Cash
 $lang['3100_CASH'] = 'Cash / Points'; // admin_cash.php
 $lang['110_Cash_Admin'] = 'Cash Management'; // admin_cash.php
-$lang['120_Cash_Help'] = 'Help'; // admin_cash.php	
+$lang['120_Cash_Help'] = 'Hilfe'; // admin_cash.php
 
 // Activity
 $lang['3200_ACTIVITY'] = 'Activity / Spiele'; // admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php

@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'Attach_topic_icon' => 'Attachment Topic Icon',
 	'Attach_topic_icon_explain' => 'Dieses Bild wird vor einem Topic, in dem Attachments gepostet wurden, angezeigt. Lassen Sie das Feld leer, wenn es nicht angezeigt werden soll.',
 	'Attach_display_order' => 'Attachment Reihenfolge (Anzeige)',
-	'Attach_display_order_explain' => 'Hier kannst du auswählen in welcher Reihenfolge die Attachments in Nachrichten/PNs angezeigt werden sollen. Entweder in Absteigender Reihenfolge (Neustes Attachment zuerst) or Aufsteigender Reihenfolge (Ältestes Attachment zuerst).',
+	'Attach_display_order_explain' => 'Hier kannst du auswählen in welcher Reihenfolge die Attachments in Nachrichten/PNs angezeigt werden sollen. Entweder in Absteigender Reihenfolge (Neuestes Attachment zuerst) or Aufsteigender Reihenfolge (Ältestes Attachment zuerst).',
 	'Show_apcp' => 'Neues Attachment Posting Control Panel anzeigen',
 	'Show_apcp_explain' => 'Wähle aus, ob du das Attachment Posting Control Panel anzeigen möchtest (Ja) oder die alte Methode mit den zwei Boxen für das Hinzufügen von Dateien und für alle hinzugefügten Dateien (Nein) in dem Nachrichten Fenster. Das Aussehen der beiden Modi ist sehr schwer zu beschreiben, am besten die beiden Modi mal ausprobieren.',
 

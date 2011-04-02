@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ctracker_module_2' => 'Credits',
 	'ctracker_module_3' => 'Dateiscanner',
 	'ctracker_module_4' => 'Globale Nachricht',
-	'ctracker_module_5' => 'IP&Agent Blocker',
+	'ctracker_module_5' => 'IP &amp; Agent Blocker',
 	'ctracker_module_6' => 'Logmanager',
 	'ctracker_module_7' => 'Wartung &amp; Tests',
 	'ctracker_module_8' => 'Miserable Benutzer',
@@ -225,7 +225,7 @@ $lang = array_merge($lang, array(
 	'ctracker_glob_msg_reset_ok' => 'Die globale Nachricht wurde nun von der Nutzertabelle entfernt. Benutzer bekommen die eingetragene Nachricht nicht mehr angezeigt.<br /><br />Klicke <a href="%s">hier</a>, um zurück zur CrackerTracker Verwaltung zu gelangen.',
 
 /*
-* IP&Agent Blocker
+* IP &amp; Agent Blocker
 */
 	'ctracker_ipb_delete' => 'Eintrag löschen',
 	'ctracker_ipb_blocklist' => 'Blocklisteinträge',

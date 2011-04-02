@@ -139,22 +139,22 @@ $lang['game_cheater'] = 'Erwischt!';
 $lang['game_played'] = 'Gespielt';
 $lang['game_lib_link'] = "<br />Manche der Spiele hier wurden mit &copy; <A HREF=\"http://www.javascript-games.org/gamelib/\" TARGET=\"New_Window\">GameLib</A> v2.08<br /> erstellt. Schaue unter <A HREF=\"http://www.javascript-games.org\" TARGET=\"New_Window\">JavaScript Games</A> für mehr Informationen.";
 
-// Fehlermeldungen (Anm. d. Übersetzers: ich lasse die Fehlermeldungen im englischen Original, um besseren support im phpbb-amod.com-Forum zu erhalten ...)
-$lang['no_main_data'] = 'Fehler: Couldn\'t obtain main data';
-$lang['no_game_data'] = 'Fehler: Couldn\'t obtain game data';
-$lang['no_game_update'] = 'Fehler: Could\'t update game data';
-$lang['no_game_total'] = 'Fehler: Error getting total games';
-$lang['no_game_user'] = 'Fehler: Error obtaining user game data';
-$lang['no_game_delete'] = 'Fehler: Couldn\'t delete game';
-$lang['no_game_repair'] = 'Fehler: Couldn\'t repair game tables';
-$lang['no_game_save'] = 'Fehler: Couldn\'t save game data';
-$lang['no_user_update'] = 'Fehler: Couldn\'t update user data';
-$lang['no_score_data'] = 'Fehler: Couldn\'t obtain scores data';
-$lang['no_score_reset'] = 'Fehler: Couldn\'t reset scores data';
-$lang['no_score_insert'] = 'Fehler: Couldn\'t insert score';
-$lang['no_score_reset'] = 'Fehler: Couldn\'t reset scores';
-$lang['no_config_data'] = 'Fehler: Could not access Online Activities configuration';
-$lang['no_config_update'] = 'Fehler: Failed to update Online Activities configuration for ';
+// Errors
+$lang['no_main_data'] = 'Fehler: Konnte die Hauptdaten nicht abrufen.';
+$lang['no_game_data'] = 'Fehler: Konnte Spieldaten nicht abrufen.';
+$lang['no_game_update'] = 'Fehler: Konnte Spieldaten nicht aktualisieren.';
+$lang['no_game_total'] = 'Fehler: Konnte die Anzahl der Spiele nicht abrufen.';
+$lang['no_game_user'] = 'Fehler: Konnte Benutzer-Spieldaten nicht abrufen.';
+$lang['no_game_delete'] = 'Fehler: Konnte das Spiel nicht löschen.';
+$lang['no_game_repair'] = 'Fehler: Konnte die Spiel-Tabellen nicht reparieren.';
+$lang['no_game_save'] = 'Fehler: Konnte die Spieldaten nicht sichern.';
+$lang['no_user_update'] = 'Fehler: Konnte Benutzer-Spieldaten nicht aktualisieren.';
+$lang['no_score_data'] = 'Fehler: Konnte die Punkte-Daten nicht abrufen.';
+$lang['no_score_reset'] = 'Fehler: Konnte die Punkte-Daten nicht zurücksetzen.';
+$lang['no_score_insert'] = 'Fehler: Konnte Punkte nicht hinzufügen.';
+$lang['no_score_reset'] = 'Fehler: Konnte Punkte nicht zurücksetzen.';
+$lang['no_config_data'] = 'Fehler: Konnte auf die Online Activities Konfiguration nicht zugreifen.';
+$lang['no_config_update'] = 'Fehler: Bei der Aktualisierung der Online Activities Konfiguration für ';
 $lang['no_score_update'] = 'Konnte die Score nicht updaten.';
 $lang['game_score_updated'] = 'Score erneuert.';
 $lang['game_score_not_updated'] = 'Deine Score wurde nicht gespeichert, da sie nicht besser war als deine beste Score in diesem Spiel.';
@@ -168,8 +168,8 @@ $lang['the_trophy_holder'] = 'Der Trophäen-Inhaber, ';
 $lang['ban'] = 'Du wurdest vom Administrator gebannt und kannst momentan keine Spiele mehr spielen.';
 $lang['ban_error'] = 'Fehler';
 $lang['score'] = 'Score: ';
-$lang['seperator'] = '&#8226;';
-$lang['seperator_2'] = '&#8226;';
+$lang['separator'] = '&#8226;';
+$lang['separator_2'] = '&#8226;';
 $lang['info'] = 'Info';
 $lang['same_window'] = 'Im selben Fenster';
 $lang['new_window'] = 'In einem neuen Fenster';
@@ -500,7 +500,7 @@ $lang['admin_db_18'] = 'Erfolg';
 $lang['admin_db_19'] = 'Installation erfolgt.';
 $lang['admin_db_20'] = 'Deinstallation erfolgt.';
 
-/* Ab Version 1.0.5 hinzugekommen */
+/* Added in 1.0.5 */
 $lang['bulk_add_title'] = 'Activities Admin: Massen-Spiele-Hinzufügen';
 $lang['bulk_add_title_2'] = 'Falls du alle Spiele, die nicht bereits in der Datenbank sind, auf einmal hinzufügen möchtest, klicke unten. Bitte beachte, dass dabei alle in der Xtras-Sektion voreingestellten Informationen verwendet werden. Alle Anpassungen können wie gewöhnlich Spiel für Spiel gemacht werden. Kurz gesagt: Dieses Feature ist hauptsächlich dazu geeignet, mehr als 20 Spiele auf einmal zu installieren. Auf diese Weise musst du nur noch eine passende Beschreibung zu den einzelnen Spielen hinzufügen.';
 $lang['bulk_add_button'] = ' Spiele installieren! ';
@@ -532,7 +532,7 @@ $lang['online_no_hidden'] = 'Es spielen hier momentan keine versteckten Benutzer
 $lang['online_one_hidden'] = 'Es spielt hier momentan 1 versteckter Benutzer.';
 $lang['online_x_hidden'] = 'Es spielen hier momentan %n% versteckte Benutzer.';
 
-/* Ab Version 1.0.6 hinzugekommen */
+/* Added in 1.0.6 */
 $lang['admin_proper_name'] = 'Echter Spielname';
 $lang['admin_proper_name_desc'] = '-:- Dies ist der Name, der über den Spiel-Icons angezeigt wird (außerdem auch in der Schnellauswahl-Liste usw.).';
 $lang['new_description'] = 'Beschreibung';
@@ -569,7 +569,7 @@ $lang['order_method_title'] = 'Spiele-Ordnung-Auswahl';
 $lang['jump_to_boxes_title'] = 'Einige Erleichterungen';
 $lang['no_one_yet'] = 'Bisher noch keine';
 
-/* Ab Version 1.0.7 hinzugekommen */
+/* Added in 1.0.7 */
 $lang['activity_xtras'] = 'Activity Xtras';
 $lang['auto_delete'] = 'Automatisches Löschen der Scores aktivieren?';
 $lang['select_option'] = 'Option auswählen';
@@ -718,7 +718,7 @@ $lang['info_page_bonus'] = 'Trophäen-Bonus  ';
 $lang['info_page_player'] = 'Trophäen-Inhaber  ';
 $lang['info_page_score'] = 'Score  ';
 
-/* Ab Version 1.0.8 hinzugekommen */
+/* Added in 1.0.8 */
 $lang['favorites_mouse_over'] = 'Zu Favoriten hinzufügen';
 $lang['favorites_r_mouse_over'] = 'von Favoriten entfernen';
 $lang['favorites_info_link'] = 'Zeige meine Favoriten an';
@@ -752,7 +752,7 @@ $lang['admin_use_rating_reward'] = 'Benutzern Punkte geben, wenn sie ein Spiel b
 $lang['admin_use_rating_reward_1'] = 'Falls ja, wie viele Punkte?';
 $lang['rating_payout_message'] = 'Als kleines Dankeschön dafür, dass du dir Zeit dafür genommen hast, dieses Spiel zu bewerten, haben dir die Admins eine kleine Belohung von %P% zukommen lassen.';
 
-/* Ab Version 1.0.9 hinzugekommen */
+/* Added in 1.0.9 */
 $lang['favorites_none_error_1'] = 'Du hast noch keine Favoriten gespeichert.';
 $lang['favorites_none_error_2'] = 'Fehler';
 $lang['rating_text_line'] = 'Du hast dieses Spiel mit einer %R% bewertet.';
@@ -814,7 +814,7 @@ $lang['admin_guest_view'] = 'Dürfen Gäste die Spiele anschauen?<br /><i><span 
 $lang['admin_use_shoutbox'] = 'Shoutbox anzeigen?<br /><i><span class="gensmall">Diese Option wird, falls aktiviert, einen Shoutbox-Link in der Info-Box anzeigen. So können die Benutzer chatten, während sie auf der Spieleseite sind.</span></i>';
 $lang['order_type_jackpot'] = 'Jackpot';
 
-/* Ab Version 1.1.0 hinzugekommen */
+/* Added in 1.1.0 */
 $lang['game_type_one'] = 'phpBB-basiertes Spiel';
 $lang['game_type_two'] = 'Ohne Highscore';
 $lang['game_type_three'] = 'IPB-basiertes Spiel';
@@ -902,7 +902,7 @@ $lang['games_settings_daily'] = 'Spiel des Tages anzeigen?';
 $lang['games_settings_online'] = 'Wer ist Online-Bereich anzeigen?';
 $lang['games_settings_new'] = 'Neueste Spiele anzeigen?';
 $lang['games_settings_new_count'] = 'Wie viele neueste Spiele?';
-$lang['games_settings_finished'] = 'Einstellungen gespeichert. Klick <a href="activity.'. $phpEx .'?sid='. $userdata['session_id'] .'">hier</a>, um zu den Spielen zu gelangen';
+$lang['games_settings_finished'] = 'Einstellungen gespeichert. Klicke <a href="activity.' . PHP_EXT . '?sid=' . $user->data['session_id'] . '">hier</a>, um zu den Spielen zu gelangen.';
 $lang['games_settings_submit'] = ' Einstellungen speichern ';
 $lang['hof_link'] = 'Hall Of Fame';
 $lang['mass_settings_complete'] = 'Deine EInstellungen wurden übernommen.<br /><br />Klick %shier%s, um zur letzten Seite zurückzukehren.';

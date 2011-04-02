@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 
 	'module_name_latest_topics' => 'Letzte Themen',
 	'Rank' => 'Rang',
-	'Latest_Topics' => 'Neustes Thema',
+	'Latest_Topics' => 'Neuestes Thema',
 	'Post_time' => 'Beitragszeit',
 
 	'module_name_month_stat' => 'Monats-Statistik',

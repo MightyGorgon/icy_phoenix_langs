@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 	'View_latest_file' => 'Zeige neuste Datei',
 
 // Toplists mx blocks
-	'Recent_Public_Files' => 'Neuste Downloads',
+	'Recent_Public_Files' => 'Neueste Downloads',
 	'Random_Public_Files' => 'Zufällige Downloads',
 	'Toprated_Public_Files' => 'Bestbewertetste Downloads',
 	'Most_Public_Files' => 'Die meisten Downloads',

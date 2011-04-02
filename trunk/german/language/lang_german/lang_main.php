@@ -699,7 +699,7 @@ $lang = array_merge($lang, array(
 	'COPPA' => 'Dein Benutzer-Konto wurde erstellt, muss aber zuerst überprüft werden. Mehr Details dazu wurden dir per E-Mail gesendet.',
 
 	'Registration' => 'Einverständniserklärung',
-	'Reg_agreement' => 'Die Administratoren und Moderatoren dieses Forums bemühen sich, Beiträge mit fragwürdigem Inhalt so schnell wie möglich zu bearbeiten oder ganz zu löschen, aber es ist nicht möglich, jede einzelne Nachricht zu überprüfen. Du bestätigst mit Absenden dieser Einverständniserklärung, dass du akzeptierst, dass jeder Beitrag in diesem Forum die Meinung des Urhebers wiedergibt und dass die Administratoren, Moderatoren und Betreiber dieses Forums nur für ihre eigenen Beiträge verantwortlich sind.<br /><br />Du verpflichtest dich, keine beleidigenden, obszönen, vulgären, verleumdenden, gewaltverherrlichenden oder aus anderen Gründen strafbaren Inhalte in diesem Forum zu veröffentlichen. Verstöße gegen diese Regel führen zu sofortiger und permanenter Sperrung, wir behalten uns vor, Verbindungsdaten u. ä. an die strafverfolgenden Behörden weiterzugeben. Du räumst den Betreibern, Administratoren und Moderatoren dieses Forums das Recht ein, Beiträge nach eigenem Ermessen zu entfernen, zu bearbeiten, zu verschieben oder zu sperren. Du stimmst zu, dass die im Rahmen der Registrierung erhobenen Daten in einer Datenbank gespeichert werden.<br /><br />Dieses System verwendet Cookies, um Informationen auf deinem Computer zu speichern. Diese Cookies enthalten keine der oben angegebenen Informationen, sondern dienen ausschließlich deinem Bedienungskomfort dieser Seite. Deine E-Mail-Adresse wird nur zur Bestätigung der Registrierung und ggf. zum Versand eines neuen Passwortes verwendet.<br /><br />Durch das Abschließen der Registrierung stimmst du diesen Nutzungsbedingungen zu.',
+	'Reg_agreement' => 'Die Administratoren und Moderatoren dieses Forums bemühen sich, Beiträge mit fragwürdigem Inhalt so schnell wie möglich zu bearbeiten oder ganz zu löschen, aber es ist nicht möglich, jede einzelne Nachricht zu überprüfen. Du bestätigst mit Absenden dieser Einverständniserklärung, dass du akzeptierst, dass jeder Beitrag in diesem Forum die Meinung des Urhebers wiedergibt und dass die Administratoren, Moderatoren und Betreiber dieses Forums nur für ihre eigenen Beiträge verantwortlich sind.<br /><br />Du verpflichtest dich, keine beleidigenden, obszönen, vulgären, verleumdenden, gewaltverherrlichenden oder aus anderen Gründen strafbaren Inhalte in diesem Forum zu veröffentlichen. Verstöße gegen diese Regel führen zu sofortiger und permanenter Sperrung, wir behalten uns vor, Verbindungsdaten u. ä. an die strafverfolgenden Behörden weiterzugeben. Du räumst den Betreibern, Administratoren und Moderatoren dieses Forums das Recht ein, Beiträge nach eigenem Ermessen zu entfernen, zu bearbeiten, zu verschieben oder zu sperren. Du stimmst zu, dass die im Rahmen der Registrierung erhobenen Daten in einer Datenbank gespeichert werden.<br /><br />Dieses System verwendet Cookies, um Informationen auf deinem Computer zu speichern. Diese Cookies enthalten keine der oben angegebenen Informationen, sondern dienen ausschließlich deinem Bedienungskomfort dieser Seite. Deine E-Mail-Adresse wird nur zur Bestätigung der Registrierung und ggf. zum Versand eines neuen Passwortes verwendet.<br /><br />Sei versichert, dass deine persönlichen Daten nach den Bestimmunges des Landes des Website-Eigentümer behandelt werden.<br /><br />Durch das Abschließen der Registrierung stimmst du diesen Nutzungsbedingungen zu.',
 
 	'Agreement' => 'Einverständniserklärung',
 	'Agree_under_13' => 'Ich bin mit den Bedingungen dieses Forums einverstanden und <b>unter</b> 12 Jahre alt.',
@@ -736,7 +736,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_CODE' => 'Bestätigungs-Code',
 	'CONFIRM_CODE_EXPLAIN' => 'Gebe den Code exakt so ein, wie du ihn siehst. Der Code unterscheidet zwischen Groß- und Kleinschreibung, die Null hat im Inneren einen schrägen Strich.',
 
-// Memberslist
+// Memberlist
 	'Select_sort_method' => 'Sortierungs-Methode auswählen',
 	'Sort' => 'Sortieren',
 	'SORT_TOP_TEN' => 'Top-Ten-Autoren',
@@ -980,7 +980,7 @@ $lang = array_merge($lang, array(
 	'Birthday_require' => 'Die Eingabe des Geburtstags ist erforderlich',
 	'Birthday_to_low' => 'Das Alter muss über %d Jahren liegen',
 	'Submit_date_format' => 'd.m.Y', //php date() format - note: ONLY d , m and Y may be used and SHALL ALL be used (different sepperators are accepted)
-	'Birthday_greeting_today' =>'Herzlichen Glückwünsch zum Geburtstag! Mit deinen %s Jahren siehst du immer noch so aus wie eh und je: einfach <b>blendend</b>.<br /> Also lass dich heute reich beschenken und feiern und lass dich nicht ärgern.',//%s is substituted with the users age
+	'Birthday_greeting_today' =>'Herzlichen Glückwünsch zum Geburtstag! Mit deinen %s Jahren siehst du immer noch so aus wie eh und je: einfach [b]blendend[/b]. Also lass dich heute reich beschenken und feiern und lass dich nicht ärgern.',//%s is substituted with the users age
 	'Birthday_greeting_prev' =>'Hui! Wir kommen zu spät zu deinem %s. Geburtstag, der am %s war, stimmt\'s? Wir wünschen dir auch nachträglich noch alles Gute und hoffen, dass du einen schönen Geburtstag hattest.',//%s is substituted with the users age, and birthday
 	'Greeting_Messaging' =>'Herzlichen Glückwunsch!',
 	'Birthday_today' => 'Geburtstage heute: ',
@@ -1110,7 +1110,7 @@ $lang = array_merge($lang, array(
 // db_update generator
 	'Db_update_generator' => 'DB Update Generator',
 	'Instructions' => 'Anweisungen',
-	'SQL_instructions' => 'Diese Software generiert PHP Dateien, welche es dir erlauben, die Datenbank mit Hilfe deines Browsers zu aktualisieren. Es gibt ein paar Dinge, die du beachten musst, wenn du SQL Anweisungen in die Box unten eingibst.<br />Stelle zunächst einmal sicher, dass alle SQL Abfragen mit einem Semikolon (;) enden. Wenn nicht, wird die Datei fehlerhaft sein. Als nächstes solltest du sicherstellen, dass die Tabellen den "phpbb_" Präfix haben. Dieser wird automatisch mit einer Variablen ersetzt, welche es dir ermöglicht, die erstellte db_update.php Datei in jedem Forum zu nutzen, ganz gleich wie dort der verwendete Tabellen Präfix ist.',
+	'SQL_instructions' => 'Diese Software generiert PHP Dateien, welche es dir erlauben, die Datenbank mit Hilfe deines Browsers zu aktualisieren. Es gibt ein paar Dinge, die du beachten musst, wenn du SQL Anweisungen in die Box unten eingibst.<br />Stelle zunächst einmal sicher, dass alle SQL Abfragen mit einem Semikolon (;) enden. Wenn nicht, wird die Datei fehlerhaft sein. Als nächstes solltest du sicherstellen, dass die Tabellen den &quot;phpbb_&quot; Präfix haben. Dieser wird automatisch mit einer Variablen ersetzt, welche es dir ermöglicht, die erstellte db_update.php Datei in jedem Forum zu nutzen, ganz gleich wie dort der verwendete Tabellen Präfix ist.',
 	'Enter_SQL' => 'SQL eingeben',
 	'Enter_SQL_explain' => 'MySQL ist die weltweit bekannteste Open Source Datenbank, geschätzt für ihre Geschwindigkeit und Zuverlässigkeit.',
 	'Output_SQL' => 'SQL Ausgabe',
@@ -1145,7 +1145,7 @@ $lang = array_merge($lang, array(
 //Begin Lo-Fi Mod
 	'Lofi' => 'Lo-Fi Version',
 // 'Full_Version' => 'Vollversion',
-	'Full_Version' => 'Dies ist eine "Lo-Fi" Version von unserem Inhalt. Um die volle Version mit mehr Informationen, Formaten und Bildern anzuzeigen, klicke bitte hier.',
+	'Full_Version' => 'Dies ist eine &quot;Lo-Fi&quot; Version von unserem Inhalt. Um die volle Version mit mehr Informationen, Formaten und Bildern anzuzeigen, klicke bitte hier.',
 	'quote_lofi' => 'Zitat',
 	'edit_lofi' => 'Bearbeiten',
 	'ip_lofi' => 'IP',
@@ -1354,7 +1354,7 @@ $lang = array_merge($lang, array(
 
 	'Topics_per_page' => 'Themen pro Seite',
 	'Posts_per_page' => 'Beiträge pro Seite',
-	'Hot_threshold' => 'Beitragsgrenze für "heiße" Themen',
+	'Hot_threshold' => 'Beitragsgrenze für &quot;heiße&quot; Themen',
 
 	'Mod_CP_first_post' => 'Erster Beitrag',
 	'Mod_CP_topic_count' => '<b>%s</b> Thema gefunden.',
@@ -2060,7 +2060,7 @@ $lang = array_merge($lang, array(
 	'Sitemap' => 'Sitemap',
 
 	'Delete_My_Account' => 'Benutzer-Konto löschen',
-	'Delete_My_Account_Explain' => 'Wenn du dein Benutzer-Konto auf dieser Seite löschen möchtest, dann schicke bitte einen Antrag unter Benutzung dieses Formulars und dein Konto wird so bald wie möglich gesperrt.<br />Bitte gib "Konto-Löschung" im Betreff an und (wenn du möchtest) schreib den Grund in wenigen Worten.',
+	'Delete_My_Account_Explain' => 'Wenn du dein Benutzer-Konto auf dieser Seite löschen möchtest, dann schicke bitte einen Antrag unter Benutzung dieses Formulars und dein Konto wird so bald wie möglich gesperrt.<br />Bitte gib &quot;Konto-Löschung&quot; im Betreff an und (wenn du möchtest) schreib den Grund in wenigen Worten.',
 
 	'KB_MODE_ON' => 'Aktiviere KB Methode',
 	'KB_MODE_OFF' => 'Deaktiviere KB Methode',
@@ -2164,7 +2164,7 @@ $lang = array_merge($lang, array(
 	'MASS_PM' => 'Massen-PN',
 	'TEXT_FORMAT' => 'Format',
 	'SENDER' => 'Absender',
-	'PM_NOTIFICATION' => 'Hallo,<br /><br />Du hast eine neue private Nachricht bei "{SITENAME}" erhalten.<br /><br />Du kannst dir deine neue Nachricht anschauen, indem du auf nachstehenden Link klickst:<br /><br />{U_INBOX}<br /><br />',
+	'PM_NOTIFICATION' => 'Hallo,<br /><br />Du hast eine neue private Nachricht bei &quot;{SITENAME}&quot; erhalten.<br /><br />Du kannst dir deine neue Nachricht anschauen, indem du auf nachstehenden Link klickst:<br /><br />{U_INBOX}<br /><br />',
 
 	'GSEARCH' => 'Google Suche',
 	'GSEARCH_ENGINE' => 'Google-Suchmaschine benutzen',
@@ -2176,14 +2176,6 @@ $lang = array_merge($lang, array(
 
 	'WHITE_LIST_MESSAGE' => 'Diese Seite benötigt eine Benutzerkonto Freischaltung via Email. Bitte überprüfe das diese Domain auf der White-Liste (erlaubte Domains) deines Anti-Spam-Systems steht, andernfalls wirst du die Aktivierungsmitteilung nicht erhalten können.',
 	'CLICK_RETURN_HOME' => 'Klicke %shier%s, um zur Startseite zurückzukehren.',
-
-	'WEEK_DAY_SUNDAY' => 'Sonntag',
-	'WEEK_DAY_MONDAY' => 'Montag',
-	'WEEK_DAY_TUESDAY' => 'Dienstag',
-	'WEEK_DAY_WEDNESDAY' => 'Mittwoch',
-	'WEEK_DAY_THURSDAY' => 'Donnerstag',
-	'WEEK_DAY_FRIDAY' => 'Freitag',
-	'WEEK_DAY_SATURDAY' => 'Samstag',
 
 	'RATINGS' => 'Bewertungen',
 
@@ -2206,20 +2198,13 @@ $lang = array_merge($lang, array(
 	'SORT_ORDER' => 'Sortieren nach',
 	'SORT_DIR' => 'Sortier-Richtung',
 
-	'TIME_YEAR' => 'Jahr',
-	'TIME_MONTH' => 'Monat',
-	'TIME_DAY' => 'Tag',
-	'TIME_HOUR' => 'Stunde',
-	'TIME_MINUTE' => 'Minute',
-	'TIME_SECOND' => 'Sekunde',
-
 	'CONTACTS' => 'Kontakte',
 
 	// Event Registration - BEGIN
 	'Reg_Title' => 'Event Anmeldung',
 	'Post_Registration' => 'Event Anmeldung',
 	'Add_registration' => 'Eine Event Anmeldung hinzufügen',
-	'Add_reg_explain' => '&nbsp;&bull; Wähle <i>Aktivieren</i> um ein Registrierungsformular mit diesem Posting anzuzeigen. Entferne den Haken bei <i>Aktivieren</i> um es zu verstecken.<br />&nbsp;&bull; Wähle <i>Zurücksetzen</i> um alle gegenwärtigen Registrierungen für dieses Formular zu löschen.<br />&nbsp;&bull; Gib eine Zahl in <i>Plätze</i> ein, um Registrierungen für eine Option zu beschränken. "0" oder leer = unendlich',
+	'Add_reg_explain' => '&nbsp;&bull; Wähle <i>Aktivieren</i> um ein Registrierungsformular mit diesem Posting anzuzeigen. Entferne den Haken bei <i>Aktivieren</i> um es zu verstecken.<br />&nbsp;&bull; Wähle <i>Zurücksetzen</i> um alle gegenwärtigen Registrierungen für dieses Formular zu löschen.<br />&nbsp;&bull; Gib eine Zahl in <i>Plätze</i> ein, um Registrierungen für eine Option zu beschränken. &quot;0&quot; oder leer = unendlich',
 	'reg_activate' => 'Aktivieren',
 	'reg_reset' => 'Zurücksetzen',
 	'Reg_Insert' => 'Du bist für das Event angemeldet.',
@@ -2268,8 +2253,10 @@ $lang = array_merge($lang, array(
 	'TAG_TEXT' => 'Tag',
 	'TAGS_TEXT' => 'Tags',
 	'TAG_RESULTS' => 'Ausgewählter Tag: <b>%s</b>',
+	'TAGS_SEARCH' => 'Suche einen Tag...',
+	'TAGS_SEARCH_NO_RESULTS' => 'Keinen Tag gefunden!',
 	'TAGS_NO_TAGS' => 'Kein Tag bisher festgelegt',
-	'TAGS_NO_TAG' => 'Specified tag doesn\'t exist',
+	'TAGS_NO_TAG' => 'Vorgegebener Tag ist nicht vorhanden',
 
 	'SQL_ERROR_OCCURRED' => 'An SQL error occurred while fetching this page. Please contact the Site Administrator if this problem persists.',
 
@@ -2319,7 +2306,7 @@ $lang = array_merge($lang, array(
 	'MB' => 'MB',
 	'GB' => 'GB',
 
-	'NO_EVENTS' => 'No planned events',
+	'NO_EVENTS' => 'Keine aktuellen Termine vorhanden.',
 	'EVENT_START_DATE' => 'Datum',
 	'EVENT_START_TIME' => 'Uhrzeit',
 	'EVENT_END_DATE' => 'Datum Ende',
@@ -2327,29 +2314,29 @@ $lang = array_merge($lang, array(
 	'EVENT_TITLE' => 'Veranstaltung',
 	'EVENT_FORUM' => 'Kategorie',
 
-	'MAX_OPTIONS_SELECT' => 'You may select up to <strong>%d</strong> options',
-	'MAX_OPTION_SELECT' => 'You may select <strong>1</strong> option',
-	'NO_POLLS' => 'No Polls',
-	'NO_VOTE_OPTION' => 'You must specify an option when voting.',
-	'NO_VOTES' => 'No votes',
+	'MAX_OPTIONS_SELECT' => 'Du kannst bis zu <strong>%d</strong> Optionen auswählen.',
+	'MAX_OPTION_SELECT' => 'Du kannst nur <strong>1</strong> Option auswählen.',
+	'NO_POLLS' => 'Keine Umfragen',
+	'NO_VOTE_OPTION' => 'Du mußt mindestens eine Option auswählen.',
+	'NO_VOTES' => 'Keine Abstimmungen',
 	'POLL_ENDED_AT' => 'Poll ended at %s',
-	'POLL_MAX_OPTIONS' => 'Max options',
-	'POLL_MAX_OPTIONS_EXPLAIN' => 'Maximum number of options selectable by users',
+	'POLL_MAX_OPTIONS' => 'Max Optionen',
+	'POLL_MAX_OPTIONS_EXPLAIN' => 'Maximale Anzahl an Optionen, die vom Benutzer ausgewählt werden können.',
 	'POLL_NO_GUESTS' => 'Sorry, but Guests are not allowed to vote',
 	'POLL_RUN_TILL' => 'Poll runs until %s',
-	'POLL_VOTE_CHANGE' => 'Allow vote change',
-	'POLL_VOTED_OPTION' => 'You voted for this option',
-	'TOO_MANY_VOTE_OPTIONS' => 'You have tried to vote for too many options.',
-	'VIEW_POLL' => 'View Poll',
-	'VOTE_SUBMITTED' => 'Your vote has been cast.',
+	'POLL_VOTE_CHANGE' => 'Änderung der Stimmabgabe erlauben',
+	'POLL_VOTED_OPTION' => 'Du hast bei der Umfrage schon abgestimmt.',
+	'TOO_MANY_VOTE_OPTIONS' => 'Du hast zu viele Optionen ausgewählt.',
+	'VIEW_POLL' => 'Umfrage anzeigen',
+	'VOTE_SUBMITTED' => 'Deine Stimme wurde verarbeitet.',
 	'VOTE_CONVERTED' => 'Changing votes is not supported for converted polls.',
 
 	'FORM_INVALID' => 'The submitted form was invalid. Try submitting again.',
 
-	'NO_USERS_FOUND' => 'No users found',
-	'POST_IP' => 'IP Address',
-	'FIND_USERNAME' => 'Find a member',
-	'FIND_USERNAME_HIDE' => 'Hide &quot;Find a member&quot; form',
+	'NO_USERS_FOUND' => 'Keine Benutzer gefunden',
+	'POST_IP' => 'IP Adresse',
+	'FIND_USERNAME' => 'Mitglied finden',
+	'FIND_USERNAME_HIDE' => 'Blende die &quot;Mitglied finden&quot; Anzeige aus',
 	'FIND_USERNAME_EXPLAIN' => 'Use this form to search for specific members. You do not need to fill out all fields. To match partial data use * as a wildcard. When entering dates use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the mark checkboxes to select one or more usernames (several usernames may be accepted depending on the form itself) and click the Select Marked button to return to the previous form.',
 
 	'AUTH_NONE' => 'NONE',
@@ -2362,36 +2349,36 @@ $lang = array_merge($lang, array(
 	'AUTH_ADMIN' => 'ADMIN',
 
 	'SHARE' => 'Share',
-	'LIKE' => 'Like',
-	'UNLIKE' => 'Unlike',
-	'LIKE_POST' => 'Like this post',
-	'UNLIKE_POST' => 'Unlike this post',
-	'LIKE_TIME' => 'Date',
-	'LIKE_RECAP' => 'Users who like this post',
-	'LIKE_COUNTER_YOU' => 'You like this post',
-	'LIKE_COUNTER_YOU_OTHERS_SINGLE' => 'You and another user like this post',
-	'LIKE_COUNTER_YOU_OTHERS' => 'You and %s users like this post',
-	'LIKE_COUNTER_OTHERS' => '%s users like this post',
-	'LIKE_COUNTER_OTHERS_SINGLE' => 'One user likes this post',
+	'LIKE' => 'Gefällt mir',
+	'UNLIKE' => 'Gefällt mir nicht',
+	'LIKE_POST' => 'Beitrag gefällt mir',
+	'UNLIKE_POST' => 'Beitrag gefällt mir nicht',
+	'LIKE_TIME' => 'Datum',
+	'LIKE_RECAP' => 'Benutzer, denen der Beitrag gefällt',
+	'LIKE_COUNTER_YOU' => 'Dir gefällt der Beitrag',
+	'LIKE_COUNTER_YOU_OTHERS_SINGLE' => 'Dir und anderen gefällt der Beitrag',
+	'LIKE_COUNTER_YOU_OTHERS' => 'Dir und %s Benutzern gefällt der Beitrag',
+	'LIKE_COUNTER_OTHERS' => '%s Benutzern gefällt der Beitrag',
+	'LIKE_COUNTER_OTHERS_SINGLE' => 'Einem Benutzer gefällt der Beitrag',
 
-	'FRIENDSHIP_STATUS' => 'Friendship status',
-	'FRIEND_ADD' => 'Add as a friend',
-	'FRIEND_REMOVE' => 'Remove as a friend',
-	'FOE_ADD' => 'Add as a foe',
-	'FOE_REMOVE' => 'Remove as a foe',
+	'FRIENDSHIP_STATUS' => 'Freundschafts-Status',
+	'FRIEND_ADD' => 'Als Freund hinzufügen',
+	'FRIEND_REMOVE' => 'Als Freund entfernen',
+	'FOE_ADD' => 'Als Feind hinzufügen',
+	'FOE_REMOVE' => 'Als Feind entfernen',
 
-	'SOCIAL_NETWORKS' => 'Social Networks',
-	'USER_FIRST_NAME' => 'First Name',
-	'USER_LAST_NAME' => 'Last Name',
+	'SOCIAL_NETWORKS' => 'Soziale Netzwerke',
+	'USER_FIRST_NAME' => 'Vorname',
+	'USER_LAST_NAME' => 'Nachname',
 	'FACEBOOK' => 'Facebook',
 	'TWITTER' => 'Twitter',
 
-	'INACTIVE_USER' => 'Inactive User',
-	'SEARCH_MIN_CHARS' => 'You need to input at least %s chars to perform the search.',
+	'INACTIVE_USER' => 'Inaktiver Benutzer',
+	'SEARCH_MIN_CHARS' => 'Du musst mindestens %s Zeichen eingeben, um suchen zu können.',
 
-	'EXTRA_STATS_SHOW' => 'Show Extra Statistics',
-	'EXTRA_STATS_HIDE' => 'Hide Extra Statistics',
-	'RESERVED' => 'Reserved',
+	'EXTRA_STATS_SHOW' => 'Zusätzliche Statistik anzeigen',
+	'EXTRA_STATS_HIDE' => 'Zusätzliche Statistik ausblenden',
+	'RESERVED' => 'Reserviert',
 
 	)
 );
@@ -2420,132 +2407,208 @@ $lang['Prune_explain'][5] = 'Löscht die Benutzer, die zwar aktiviert sind, aber
 $lang['All_times'] = 'Alle Zeiten sind %s'; // eg. All times are GMT - 12 Hours (times from next block)
 
 // Time zones short
-$lang['tzs']['-12'] = 'GMT - 12 Stunden';
-$lang['tzs']['-11'] = 'GMT - 11 Stunden';
-$lang['tzs']['-10'] = 'GMT - 10 Stunden';
-$lang['tzs']['-9'] = 'GMT - 9 Stunden';
-$lang['tzs']['-8'] = 'GMT - 8 Stunden';
-$lang['tzs']['-7'] = 'GMT - 7 Stunden';
-$lang['tzs']['-6'] = 'GMT - 6 Stunden';
-$lang['tzs']['-5'] = 'GMT - 5 Stunden';
-$lang['tzs']['-4'] = 'GMT - 4 Stunden';
-$lang['tzs']['-3.5'] = 'GMT - 3.5 Stunden';
-$lang['tzs']['-3'] = 'GMT - 3 Stunden';
-$lang['tzs']['-2'] = 'GMT - 2 Stunden';
-$lang['tzs']['-1'] = 'GMT - 1 Stunde';
-$lang['tzs']['0'] = 'GMT';
-$lang['tzs']['1'] = 'GMT + 1 Stunde';
-$lang['tzs']['2'] = 'GMT + 2 Stunden';
-$lang['tzs']['3'] = 'GMT + 3 Stunden';
-$lang['tzs']['3.5'] = 'GMT + 3.5 Stunden';
-$lang['tzs']['4'] = 'GMT + 4 Stunden';
-$lang['tzs']['4.5'] = 'GMT + 4.5 Stunden';
-$lang['tzs']['5'] = 'GMT + 5 Stunden';
-$lang['tzs']['5.5'] = 'GMT + 5.5 Stunden';
-$lang['tzs']['6'] = 'GMT + 6 Stunden';
-$lang['tzs']['6.5'] = 'GMT + 6.5 Stunden';
-$lang['tzs']['7'] = 'GMT + 7 Stunden';
-$lang['tzs']['8'] = 'GMT + 8 Stunden';
-$lang['tzs']['9'] = 'GMT + 9 Stunden';
-$lang['tzs']['9.5'] = 'GMT + 9.5 Stunden';
-$lang['tzs']['10'] = 'GMT + 10 Stunden';
-$lang['tzs']['11'] = 'GMT + 11 Stunden';
-$lang['tzs']['12'] = 'GMT + 12 Stunden';
-$lang['tzs']['13'] = 'GMT + 13 Stunden';
+$lang['tz'] = array(
+	'-12' => 'GMT - 12 Stunden',
+	'-11' => 'GMT - 11 Stunden',
+	'-10' => 'GMT - 10 Stunden',
+	'-9.5' => 'GMT - 9:30 Stunden',
+	'-9' => 'GMT - 9 Stunden',
+	'-8' => 'GMT - 8 Stunden',
+	'-7' => 'GMT - 7 Stunden',
+	'-6' => 'GMT - 6 Stunden',
+	'-5' => 'GMT - 5 Stunden',
+	'-4.5' => 'GMT - 4:30 Stunden',
+	'-4' => 'GMT - 4 Stunden',
+	'-3.5' => 'GMT - 3:30 Stunden',
+	'-3' => 'GMT - 3 Stunden',
+	'-2' => 'GMT - 2 Stunden',
+	'-1' => 'GMT - 1 Stunde',
+	'0' => 'GMT',
+	'1' => 'GMT + 1 Stunde',
+	'2' => 'GMT + 2 Stunden',
+	'3' => 'GMT + 3 Stunden',
+	'3.5' => 'GMT + 3:30 Stunden',
+	'4' => 'GMT + 4 Stunden',
+	'4.5' => 'GMT + 4:30 Stunden',
+	'5' => 'GMT + 5 Stunden',
+	'5.5' => 'GMT + 5:30 Stunden',
+	'5.75' => 'GMT + 5:45 Stunden',
+	'6' => 'GMT + 6 Stunden',
+	'6.5' => 'GMT + 6:30 Stunden',
+	'7' => 'GMT + 7 Stunden',
+	'8' => 'GMT + 8 Stunden',
+	'8.75' => 'GMT + 8:45 Stunden',
+	'9' => 'GMT + 9 Stunden',
+	'9.5' => 'GMT + 9:30 Stunden',
+	'10' => 'GMT + 10 Stunden',
+	'10.5' => 'GMT + 10:30 Stunden',
+	'11' => 'GMT + 11 Stunden',
+	'11.5' => 'GMT + 11:30 Stunden',
+	'12' => 'GMT + 12 Stunden',
+	'12.75' => 'GMT + 12:45 Stunden',
+	'13' => 'GMT + 13 Stunden',
+	'14' => 'GMT + 14 Stunden',
+	'dst' => '[ <abbr title="Greenwich Mean Time">GMT</abbr> ]',
+);
 
 // These are displayed in the timezone select box
-$lang['tz']['-12'] = '(GMT -12 Stunden) Eniwetok, Kwajalein';
-$lang['tz']['-11'] = '(GMT -11 Stunden) Midway Island, Samoa';
-$lang['tz']['-10'] = '(GMT -10 Stunden) Hawaii';
-$lang['tz']['-9'] = '(GMT -9 Stunden) Alaska';
-$lang['tz']['-8'] = '(GMT -8 Stunden) Pacific Time (US &amp; Canada)';
-$lang['tz']['-7'] = '(GMT -7 Stunden) Mountain Time (US &amp; Canada)';
-$lang['tz']['-6'] = '(GMT -6 Stunden) Central Time (US &amp; Canada), Mexico City';
-$lang['tz']['-5'] = '(GMT -5 Stunden) Eastern Time (US &amp; Canada), Bogota, Lima, Quito';
-$lang['tz']['-4'] = '(GMT -4 Stunden) Atlantic Time (Canada), Caracas, La Paz';
-$lang['tz']['-3.5'] = '(GMT -3.5 Stunden) Neufundland';
-$lang['tz']['-3'] = '(GMT -3 Stunden) Brazilien, Buenos Aires, Georgetown';
-$lang['tz']['-2'] = '(GMT -2 Stunden) Mitt-Atlantik';
-$lang['tz']['-1'] = '(GMT -1 Stunde) Azoren, Cape Verde Inseln';
-$lang['tz']['0'] = '(GMT) Westeuropäische Zeit, London, Lisabon, Casablanca, Monrovia';
-$lang['tz']['1'] = '(GMT +1 Stunde) Mitteleuropäische Zeit, Brüssel, Berlin, Madrid, Paris';
-$lang['tz']['2'] = '(GMT +2 Stunden) Osteuropäische Zeit, Kaliningrad, Süd Afrika';
-$lang['tz']['3'] = '(GMT +3 Stunden) Baghdad, Kuwait, Riyadh, Moskau, St. Petersburg';
-$lang['tz']['3.5'] = '(GMT +3.5 Stunden) Tehran';
-$lang['tz']['4'] = '(GMT +4 Stunden) Abu Dhabi, Muscat, Baku, Tbilisi';
-$lang['tz']['4.5'] = '(GMT +4.5 Stunden) Kabul';
-$lang['tz']['5'] = '(GMT +5 Stunden) Ekaterinburg, Islamabad, Karachi, Tashkent';
-$lang['tz']['5.5'] = '(GMT +5.5 Stunden) Bombay, Kalkutta, Madras, Neu Delhi';
-$lang['tz']['5.75'] = '(GMT +5.75 Stunden) Kathmandu';
-$lang['tz']['6'] = '(GMT +6 Stunden) Almaty, Dhaka, Colombo';
-$lang['tz']['6.5'] = '(GMT +6.5 Stunden)';
-$lang['tz']['7'] = '(GMT +7 Stunden) Bangkok, Hanoi, Jakarta';
-$lang['tz']['8'] = '(GMT +8 Stunden) Beijing, Perth, Singapur, Hong Kong, Urumqi';
-$lang['tz']['9'] = '(GMT +9 Stunden) Tokyo, Seoul, Osaka, Sapporo, Yakutsk';
-$lang['tz']['9.5'] = '(GMT +9.5 Stunden) Adelaide, Darwin';
-$lang['tz']['10'] = '(GMT +10 Stunden) EAST (East Australian Standard), Guam';
-$lang['tz']['11'] = '(GMT +11 Stunden) Magadan, Solomon Islands, Neu Caledonia';
-$lang['tz']['12'] = '(GMT +12 Stunden) Auckland, Fiji, Kamchatka, Marshall Inseln';
-$lang['tz']['13'] = '(GMT +13 Stunden) Nuku\'alofa';
+$lang['tz_zones'] = array(
+	'-12' => '(GMT -12 Stunden) Eniwetok, Kwajalein',
+	'-11' => '(GMT -11 Stunden) Midway Island, Samoa',
+	'-10' => '(GMT -10 Stunden) Hawaii',
+	'-9.5' => '[GMT -9:30 Stunden] Marquesas Islands Time',
+	'-9' => '(GMT -9 Stunden) Alaska',
+	'-8' => '(GMT -8 Stunden) Pacific Time (US &amp; Canada)',
+	'-7' => '(GMT -7 Stunden) Mountain Time (US &amp; Canada)',
+	'-6' => '(GMT -6 Stunden) Central Time (US &amp; Canada), Mexico City',
+	'-5' => '(GMT -5 Stunden) Eastern Time (US &amp; Canada), Bogota, Lima, Quito',
+	'-4.5' => '[GMT -4:30 Stunden] Venezuelan Standard Time',
+	'-4' => '(GMT -4 Stunden) Atlantic Time (Canada), Caracas, La Paz',
+	'-3.5' => '(GMT -3.5 Stunden) Neufundland',
+	'-3' => '(GMT -3 Stunden) Brazilien, Buenos Aires, Georgetown',
+	'-2' => '(GMT -2 Stunden) Mitt-Atlantik',
+	'-1' => '(GMT -1 Stunde) Azoren, Cape Verde Inseln',
+	'0' => '(GMT) Westeuropäische Zeit, London, Lisabon, Casablanca, Monrovia',
+	'1' => '(GMT +1 Stunde) Mitteleuropäische Zeit, Brüssel, Berlin, Madrid, Paris',
+	'2' => '(GMT +2 Stunden) Osteuropäische Zeit, Kaliningrad, Süd Afrika',
+	'3' => '(GMT +3 Stunden) Baghdad, Kuwait, Riyadh, Moskau, St. Petersburg',
+	'3.5' => '(GMT +3.5 Stunden) Tehran',
+	'4' => '(GMT +4 Stunden) Abu Dhabi, Muscat, Baku, Tbilisi',
+	'4.5' => '(GMT +4.5 Stunden) Kabul',
+	'5' => '(GMT +5 Stunden) Ekaterinburg, Islamabad, Karachi, Tashkent',
+	'5.5' => '(GMT +5.5 Stunden) Bombay, Kalkutta, Madras, Neu Delhi',
+	'5.75' => '(GMT +5.75 Stunden) Kathmandu',
+	'6' => '(GMT +6 Stunden) Almaty, Dhaka, Colombo',
+	'6.5' => '(GMT +6.5 Stunden)',
+	'7' => '(GMT +7 Stunden) Bangkok, Hanoi, Jakarta',
+	'8' => '(GMT +8 Stunden) Beijing, Perth, Singapur, Hong Kong, Urumqi',
+	'8.75' => '[GMT +8:45 Stunden] Southeastern Western Australia Standard Time',
+	'9' => '(GMT +9 Stunden) Tokyo, Seoul, Osaka, Sapporo, Yakutsk',
+	'9.5' => '(GMT +9.5 Stunden) Adelaide, Darwin',
+	'10' => '(GMT +10 Stunden) EAST (East Australian Standard), Guam',
+	'10.5' => '[GMT +10:30 Stunden] Lord Howe Standard Time',
+	'11' => '(GMT +11 Stunden) Magadan, Solomon Islands, Neu Caledonia',
+	'11.5' => '[GMT +11:30 Stunden] Norfolk Island Time',
+	'12' => '(GMT +12 Stunden) Auckland, Fiji, Kamchatka, Marshall Inseln',
+	'12.75' => '[GMT +12:45 Stunden] Chatham Islands Time',
+	'13' => '(GMT +13 Stunden) Tonga Time, Phoenix Islands Time',
+	'14' => '[GMT +14 Stunden] Line Island Time',
+);
 // Timezones - END
 
-$lang['datetime']['Sunday'] = $lang['WEEK_DAY_SUNDAY'];
-$lang['datetime']['Monday'] = $lang['WEEK_DAY_MONDAY'];
-$lang['datetime']['Tuesday'] = $lang['WEEK_DAY_TUESDAY'];
-$lang['datetime']['Wednesday'] = $lang['WEEK_DAY_WEDNESDAY'];
-$lang['datetime']['Thursday'] = $lang['WEEK_DAY_THURSDAY'];
-$lang['datetime']['Friday'] = $lang['WEEK_DAY_FRIDAY'];
-$lang['datetime']['Saturday'] = $lang['WEEK_DAY_SATURDAY'];
-$lang['datetime']['Sun'] = 'So';
-$lang['datetime']['Mon'] = 'Mo';
-$lang['datetime']['Tue'] = 'Di';
-$lang['datetime']['Wed'] = 'Mi';
-$lang['datetime']['Thu'] = 'Do';
-$lang['datetime']['Fri'] = 'Fr';
-$lang['datetime']['Sat'] = 'Sa';
-$lang['datetime']['January'] = 'Januar';
-$lang['datetime']['February'] = 'Februar';
-$lang['datetime']['March'] = 'März';
-$lang['datetime']['April'] = 'April';
-$lang['datetime']['May'] = 'Mai';
-$lang['datetime']['June'] = 'Juni';
-$lang['datetime']['July'] = 'Juli';
-$lang['datetime']['August'] = 'August';
-$lang['datetime']['September'] = 'September';
-$lang['datetime']['October'] = 'Oktober';
-$lang['datetime']['November'] = 'November';
-$lang['datetime']['December'] = 'Dezember';
-$lang['datetime']['JAN'] = 'Jan';
-$lang['datetime']['FEB'] = 'Feb';
-$lang['datetime']['MAR'] = 'März';
-$lang['datetime']['APR'] = 'Apr';
-$lang['datetime']['MAY'] = 'Mai';
-$lang['datetime']['JUN'] = 'Jun';
-$lang['datetime']['JUL'] = 'Jul';
-$lang['datetime']['AUG'] = 'Aug';
-$lang['datetime']['SEP'] = 'Sep';
-$lang['datetime']['OCT'] = 'Okt';
-$lang['datetime']['NOV'] = 'Nov';
-$lang['datetime']['DEC'] = 'Dez';
-$lang['datetime']['Jan'] = $lang['datetime']['JAN'];
-$lang['datetime']['Feb'] = $lang['datetime']['FEB'];
-$lang['datetime']['Mar'] = $lang['datetime']['MAR'];
-$lang['datetime']['Apr'] = $lang['datetime']['APR'];
-$lang['datetime']['May'] = $lang['datetime']['MAY'];
-$lang['datetime']['Jun'] = $lang['datetime']['JUN'];
-$lang['datetime']['Jul'] = $lang['datetime']['JUL'];
-$lang['datetime']['Aug'] = $lang['datetime']['AUG'];
-$lang['datetime']['Sep'] = $lang['datetime']['SEP'];
-$lang['datetime']['Oct'] = $lang['datetime']['OCT'];
-$lang['datetime']['Nov'] = $lang['datetime']['NOV'];
-$lang['datetime']['Dec'] = $lang['datetime']['DEC'];
+// Dates And Times - BEGIN
+$lang = array_merge($lang, array(
+	'WEEK_DAY_SUNDAY' => 'Sonntag',
+	'WEEK_DAY_MONDAY' => 'Montag',
+	'WEEK_DAY_TUESDAY' => 'Dienstag',
+	'WEEK_DAY_WEDNESDAY' => 'Mittwoch',
+	'WEEK_DAY_THURSDAY' => 'Donnerstag',
+	'WEEK_DAY_FRIDAY' => 'Freitag',
+	'WEEK_DAY_SATURDAY' => 'Samstag',
+
+	'TIME_YEAR' => 'Jahr',
+	'TIME_MONTH' => 'Monat',
+	'TIME_DAY' => 'Tag',
+	'TIME_HOUR' => 'Stunde',
+	'TIME_MINUTE' => 'Minute',
+	'TIME_SECOND' => 'Sekunde',
+
+	// The value is only an example and will get replaced by the current time on view
+	'dateformats' => array(
+		'd M Y, H:i' => '01 Jan 2007, 13:37',
+		'd M Y H:i' => '01 Jan 2007 13:37',
+		'M jS, \'y, H:i' => 'Jan 1st, \'07, 13:37',
+		'D M d, Y g:i a' => 'Mon Jan 01, 2007 1:37 pm',
+		'F jS, Y, g:i a' => 'Januar 1st, 2007, 1:37 pm',
+		'|d M Y|, H:i' => 'Heute, 13:37 / 01 Jan 2007, 13:37',
+		'|F jS, Y|, g:i a' => 'Heute, 1:37 pm / January 1st, 2007, 1:37 pm'
+	),
+
+	// The default dateformat which will be used on new installs in this language
+	// Translators should change this if a the usual date format is different
+	'default_dateformat' => 'D M d, Y g:i a', // Mon Jan 01, 2007 1:37 pm
+
+	)
+);
+
+$lang['datetime'] = array(
+	'TODAY' => 'Heute',
+	'TOMORROW' => 'Morgen',
+	'YESTERDAY' => 'Gestern',
+	'AGO' => array(
+		0 => 'vor weniger als 1 Minute',
+		1 => 'vor %d Minute',
+		2 => 'vor %d Minuten',
+		60=> 'vor 1 Stunde',
+	),
+
+	'Sunday' => 'Sonntag',
+	'Monday' => 'Montag',
+	'Tuesday' => 'Dienstag',
+	'Wednesday' => 'Mittwoch',
+	'Thursday' => 'Donnerstag',
+	'Friday' => 'Freitag',
+	'Saturday' => 'Samstag',
+
+	'Sun' => 'So',
+	'Mon' => 'Mo',
+	'Tue' => 'Di',
+	'Wed' => 'Mi',
+	'Thu' => 'Do',
+	'Fri' => 'Fr',
+	'Sat' => 'Sa',
+
+	'January' => 'Januar',
+	'February' => 'Februar',
+	'March' => 'März',
+	'April' => 'April',
+	'May' => 'Mai',
+	'June' => 'Juni',
+	'July' => 'Juli',
+	'August' => 'August',
+	'September' => 'September',
+	'October' => 'Oktober',
+	'November' => 'November',
+	'December' => 'Dezember',
+
+	'JAN' => 'Jan',
+	'FEB' => 'Feb',
+	'MAR' => 'März',
+	'APR' => 'Apr',
+	'MAY' => 'Mai',
+	'JUN' => 'Jun',
+	'JUL' => 'Jul',
+	'AUG' => 'Aug',
+	'SEP' => 'Sep',
+	'OCT' => 'Okt',
+	'NOV' => 'Nov',
+	'DEC' => 'Dez',
+
+	'Jan_short' => 'Jan',
+	'Feb_short' => 'Feb',
+	'Mar_short' => 'März',
+	'Apr_short' => 'Apr',
+	'May_short' => 'Mai',
+	'Jun_short' => 'Jun',
+	'Jul_short' => 'Jul',
+	'Aug_short' => 'Aug',
+	'Sep_short' => 'Sep',
+	'Oct_short' => 'Okt',
+	'Nov_short' => 'Nov',
+	'Dec_short' => 'Dez',
+);
 
 // NOTE: Please do not translate the following 4 lines!
 // They are automatically translated into your language
+
 $lang['day_short'] = array($lang['datetime']['Sun'], $lang['datetime']['Mon'], $lang['datetime']['Tue'], $lang['datetime']['Wed'], $lang['datetime']['Thu'], $lang['datetime']['Fri'], $lang['datetime']['Sat']);
+
 $lang['day_long'] = array($lang['datetime']['Sunday'], $lang['datetime']['Monday'], $lang['datetime']['Tuesday'], $lang['datetime']['Wednesday'], $lang['datetime']['Thursday'], $lang['datetime']['Friday'], $lang['datetime']['Saturday']);
+
 $lang['month_short'] = array($lang['datetime']['JAN'], $lang['datetime']['FEB'], $lang['datetime']['MAR'], $lang['datetime']['APR'], $lang['datetime']['MAY'], $lang['datetime']['JUN'], $lang['datetime']['JUL'], $lang['datetime']['AUG'], $lang['datetime']['SEP'], $lang['datetime']['OCT'], $lang['datetime']['NOV'], $lang['datetime']['DEC']);
+
 $lang['month_long'] = array($lang['datetime']['January'], $lang['datetime']['February'], $lang['datetime']['March'], $lang['datetime']['April'], $lang['datetime']['May'], $lang['datetime']['June'], $lang['datetime']['July'], $lang['datetime']['August'], $lang['datetime']['September'], $lang['datetime']['October'], $lang['datetime']['November'], $lang['datetime']['December']);
+// Dates And Times - END
 
 //====================================================
 // Do not insert anything below this line

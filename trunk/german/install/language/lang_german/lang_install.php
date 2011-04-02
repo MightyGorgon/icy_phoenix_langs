@@ -36,7 +36,7 @@ $lang = array_merge($lang, array(
 
 	'Re_install' => 'Deine vorherige Installation ist immer noch aktiv.<br /><br />Wenn du Icy Phoenix erneut installieren willst dann wähle unten Ja. Bitte beachte, wenn du fortfährst, gehen alle Daten verloren und es werden keine Backups gemacht! Der Administrator Benutzername und das Password das du zum Einloggen ins Forum benutzt hast wird nach der Re-Installation erneut erstellt und keine anderen Einstellungen beibehalten.<br /><br />Überlege genau bevor du mit Ja bestätigst!',
 
-	'Inst_Step_0' => 'Danke für deine Entscheidung Icy Phoenix zu nutzen. Dieser Wizard wird dich durch den Installations-Prozess begleiten.<br /><span class="text_red">Bitte beachte das du alle Icy Phoenix Dateien auf deinen Server geladen haben solltest und das die Datenbank für die Installation bereits angelegt sein muss.</span>',
+	'Inst_Step_0' => 'Danke für deine Entscheidung Icy Phoenix zu nutzen. Dieser Assistent wird dich durch den Installations-Prozess begleiten.<br /><span class="text_red">Bitte beachte das du alle Icy Phoenix Dateien auf deinen Server geladen haben solltest und das die Datenbank für die Installation bereits angelegt sein muss.</span>',
 
 	'Inst_Step_1' => 'Um die Installation abzuschließen solltest du die erforderlichen Details unten ausfüllen.<br /><span class="text_red">Bitte beachte, dass die Datenbank für die Installation bereits angelegt sein muss.</span>',
 

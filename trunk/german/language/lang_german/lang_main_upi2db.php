@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'upi2db_mark_news_unread' => 'News als ungelesen markieren',
 	'upi2db_search_mark_read' => 'AGM',
 	'upi2db_submit_mark_read' => 'Als gelesen markieren',
-	'upi2db_submit_topic_mark_read' => 'Ausgewählte Themen wurden als gelesen markiert',
+	'upi2db_submit_topic_mark_read' => 'Ausgewählte Themen wurden als gelesen markiert.',
 
 	'upi2db_mark_post_unread' => 'Beitrag als ungelesen markieren',
 	'upi2db_mark_post_unread_cant' => 'Dieser Beitrag kann nicht als ungelesen markiert werden.',
