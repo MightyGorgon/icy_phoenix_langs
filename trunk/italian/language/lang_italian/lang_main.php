@@ -83,13 +83,13 @@ $lang = array_merge($lang, array(
 	'Hours' => 'Ore',
 	'Message' => 'Messaggio',
 
-	'1_Day' => '1 Giorno',
-	'7_Days' => '7 Giorni',
-	'2_Weeks' => '2 Settimane',
-	'1_Month' => '1 Mese',
-	'3_Months' => '3 Mesi',
-	'6_Months' => '6 Mesi',
-	'1_Year' => '1 Anno',
+	'1_DAY' => '1 Giorno',
+	'7_DAYS' => '7 Giorni',
+	'2_WEEKS' => '2 Settimane',
+	'1_MONTH' => '1 Mese',
+	'3_MONTHS' => '3 Mesi',
+	'6_MONTHS' => '6 Mesi',
+	'1_YEAR' => '1 Anno',
 
 	'Go' => 'Vai',
 	'Jump_to' => 'Vai a',
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'Reached_on_error' => 'Sei arrivato in questa pagina per errore.',
 
 	'Display_topics' => 'Mostra prima gli Argomenti di',
-	'All_Topics' => 'Seleziona',
+	'ALL_TOPICS' => 'Seleziona',
 
 	'Topic_News_nb' => 'News',
 	'Topic_global_announcement_nb' => 'Annuncio Globale',
@@ -308,7 +308,7 @@ $lang = array_merge($lang, array(
 	'No_posts_topic' => 'Non ci sono messaggi in questo argomento',
 
 	'Display_posts' => 'Mostra prima i messaggi di',
-	'All_Posts' => 'Tutti i messaggi',
+	'ALL_POSTS' => 'Tutti i messaggi',
 	'Newest_First' => 'Nuovi',
 	'Oldest_First' => 'Vecchi',
 
@@ -1375,7 +1375,7 @@ $lang = array_merge($lang, array(
 	'Recent_wrong_mode' => 'Modalit&agrave; selezionata errata.',
 	'Recent_click_return' => 'Clicca %sQUI%s per ritornare indietro.',
 
-	'Profile_view_option' => 'Finestra di Pop up per la visione del profilo',
+	'Profile_view_option' => 'Finestra di pop up per la visione del profilo',
 	'Profile_viewed' => 'Visite Profilo',
 
 // BEGIN Disable Registration MOD
@@ -1397,9 +1397,9 @@ $lang = array_merge($lang, array(
 
 	'Forbidden_characters' => 'Per lo Username sono permessi solo i seguenti caratteri a-z, 0-9, -, _ e gli spazi.',
 
-	'Topics_per_page' => 'Argomenti Per Pagina',
-	'Posts_per_page' => 'Messaggi Per Pagina',
-	'Hot_threshold' => 'Numero Messaggi Argomento Popolare',
+	'Topics_per_page' => 'Argomenti per pagina',
+	'Posts_per_page' => 'Messaggi per pagina',
+	'Hot_threshold' => 'Numero messaggi argomento popolare',
 
 // enhanced modcp..
 	'Mod_CP_first_post' => 'Primo Messaggio',
@@ -2010,10 +2010,10 @@ $lang = array_merge($lang, array(
 
 /* lang_prune_users.php - BEGIN */
 // add to prune inactive
-	'X_Days' => '%d Giorni',
-	'X_Weeks' => '%d Settimane',
-	'X_Months' => '%d Mesi',
-	'X_Years' => '%d Anni',
+	'X_DAYS' => '%d Giorni',
+	'X_WEEKS' => '%d Settimane',
+	'X_MONTHS' => '%d Mesi',
+	'X_YEARS' => '%d Anni',
 
 	'Confirm_delete_user' => 'Sei sicuro di voler eliminare questo Utente?',
 	'Prune_no_users' => 'Non &egrave stato eliminato nessun utente',
@@ -2465,6 +2465,19 @@ $lang = array_merge($lang, array(
 	'EXTRA_STATS_SHOW' => 'Mostra Statistiche Avanzate',
 	'EXTRA_STATS_HIDE' => 'Nascondi Statistiche Avanzate',
 	'RESERVED' => 'Riservata',
+
+	'VIEW_TOPICS_DAYS' => 'Visualizza argomenti dei giorni scorsi',
+	'VIEW_TOPICS_DIR' => 'Ordinameto argomenti per',
+	'VIEW_TOPICS_KEY' => 'Direzione ordinamento argomenti',
+	'VIEW_POSTS_DAYS' => 'Visualizza messaggi dei giorni scorsi',
+	'VIEW_POSTS_DIR' => 'Ordinameto messaggi per',
+	'VIEW_POSTS_KEY' => 'Direzione ordinamento messaggi',
+
+	'AUTHOR' => 'Autore',
+	'POST_TIME' => 'Data',
+	'REPLIES' => 'Risposte',
+	'SUBJECT' => 'Titolo',
+	'VIEWS' => 'Visite',
 
 	)
 );
