@@ -1,4 +1,4 @@
-Charset: iso-8859-1
+Charset: utf-8
 
 Die folgende E-Mail erhältst du von einem Administrator von {SITENAME}. Wenn diese E-Mail unerwünschten Inhalt (Spam) enthält, dann kontaktiere bitte den Administrator unter:
 

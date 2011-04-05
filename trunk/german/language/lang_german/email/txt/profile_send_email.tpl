@@ -1,5 +1,5 @@
 Subject: Neue E-Mail von {FROM_USERNAME}
-Charset: iso-8859-1
+Charset: utf-8
 
 {MESSAGE}
 

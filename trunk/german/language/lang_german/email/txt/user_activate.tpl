@@ -1,5 +1,5 @@
 Subject: Benutzer-Konto bei {SITENAME} wieder aktivieren
-Charset: iso-8859-1
+Charset: utf-8
 
 Hallo {USERNAME},
 

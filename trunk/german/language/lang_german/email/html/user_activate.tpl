@@ -1,5 +1,5 @@
 Subject: Benutzer-Konto bei {SITENAME} wieder aktivieren
-Charset: iso-8859-1
+Charset: utf-8
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
 Dein Benutzer-Konto bei "<b>{SITENAME}</b>" wurde deaktiviert, vermutlich durch Änderungen an deinem Profil.<br /><br />

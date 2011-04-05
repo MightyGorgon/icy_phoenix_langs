@@ -1,5 +1,5 @@
 Subject: Neuer Download
-Charset: iso-8859-1
+Charset: utf-8
 
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />

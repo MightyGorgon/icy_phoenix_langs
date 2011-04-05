@@ -1,5 +1,5 @@
 Subject: Benachichtigung über neues Thema im Forum "{FORUM_NAME}" - {TOPIC_TITLE}
-Charset: iso-8859-1
+Charset: utf-8
 
 Hallo {USERNAME},
 

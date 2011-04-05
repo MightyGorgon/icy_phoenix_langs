@@ -1,5 +1,5 @@
 Subject: Du hast eine neue Private Nachricht von {FROM} erhalten
-Charset: iso-8859-1
+Charset: utf-8
 
 Hallo {USERNAME}!
 

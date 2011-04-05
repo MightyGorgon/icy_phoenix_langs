@@ -1,5 +1,5 @@
 Subject: Neues Benutzer-Konto
-Charset: iso-8859-1
+Charset: utf-8
 <font face="Verdana" size="2">
 <br />
 <b>Hallo,</b>

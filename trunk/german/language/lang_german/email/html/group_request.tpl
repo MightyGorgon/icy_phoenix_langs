@@ -1,5 +1,5 @@
 Subject: Eine Anfrage zum Beitritt zu dieser Gruppe wurde erstellt
-Charset: iso-8859-1
+Charset: utf-8
 <br /><font face="Verdana" size="2">
 Hallo <b>{GROUP_MODERATOR}</b>,<br /><br />
 

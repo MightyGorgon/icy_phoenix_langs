@@ -1,5 +1,5 @@
 Subject: Deine Beitrittsanfrage wurde akzeptiert
-Charset: iso-8859-1
+Charset: utf-8
 
 Glückwunsch,
 

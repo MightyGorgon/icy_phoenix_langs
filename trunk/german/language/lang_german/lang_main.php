@@ -97,13 +97,13 @@ $lang = array_merge($lang, array(
 	'Hours' => 'Stunden',
 	'Message' => 'Nachricht',
 
-	'1_Day' => '1 Tag',
-	'7_Days' => '7 Tage',
-	'2_Weeks' => '2 Wochen',
-	'1_Month' => '1 Monat',
-	'3_Months' => '3 Monate',
-	'6_Months' => '6 Monate',
-	'1_Year' => '1 Jahr',
+	'1_DAY' => '1 Tag',
+	'7_DAYS' => '7 Tage',
+	'2_WEEKS' => '2 Wochen',
+	'1_MONTH' => '1 Monat',
+	'3_MONTHS' => '3 Monate',
+	'6_MONTHS' => '6 Monate',
+	'1_YEAR' => '1 Jahr',
 
 	'Go' => 'Los',
 	'Jump_to' => 'Gehe zu',
@@ -273,7 +273,7 @@ $lang = array_merge($lang, array(
 	'Reached_on_error' => 'Fehler auf dieser Seite!',
 
 	'Display_topics' => 'Siehe Beiträge der letzten',
-	'All_Topics' => 'Alle Themen anzeigen',
+	'ALL_TOPICS' => 'Alle Themen anzeigen',
 
 	'Topic_News_nb' => 'News',
 	'Topic_global_announcement_nb' => 'Globale Ankündigung',
@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'No_posts_topic' => 'Es existieren keine Beiträge zu diesem Thema.',
 
 	'Display_posts' => 'Beiträge der letzten Zeit anzeigen',
-	'All_Posts' => 'Alle Beiträge',
+	'ALL_POSTS' => 'Alle Beiträge',
 	'Newest_First' => 'Die neusten zuerst',
 	'Oldest_First' => 'Die ältesten zuerst',
 
@@ -710,10 +710,10 @@ $lang = array_merge($lang, array(
 
 	'Wrong_activation' => 'Der Aktivierungsschlüssel aus dem Link stimmt nicht mit dem in der Datenbank überein. Bitte überprüfe die URL, und versuche es erneut.',
 	'Send_password' => 'Schickt mir ein neues Passwort.',
-	'Password_updated' => 'Ein neues Passwort wurde erstellt, es wurde eine E-Mail mit weiteren Anweisungen verschickt.',
+	'Password_updated' => 'Ein neues Passwort wurde erstellt und eine E-Mail mit weiteren Anweisungen an dich verschickt.',
 	'No_email_match' => 'Die angegebene E-Mail-Adresse stimmt nicht mit dem Benutzernamen überein.',
 	'New_password_activation' => 'Aktivierung des neuen Passwortes',
-	'Password_activated' => 'Dein Benutzer-Konto wurde wieder aktiviert. Um dich einzuloggen, benutze das Passwort, welches du per E-Mail erhalten hast.',
+	'Password_activated' => 'Dein Benutzer-Konto wurde wieder aktiviert. Benutze das Passwort, welches du per E-Mail erhalten hast, um dich einzuloggen.',
 
 	'Send_email_msg' => 'E-Mail senden',
 	'No_user_specified' => 'Es wurde kein Benutzer ausgewählt',
@@ -921,10 +921,10 @@ $lang = array_merge($lang, array(
 	'Topics_Unlocked' => 'Die gewählten Themen wurden entsperrt.',
 	'No_Topics_Moved' => 'Es wurden keine Themen verschoben.',
 
-	'Confirm_delete_topic' => 'Bist du sicher, dass die gewählten Themen entfernt werden sollen?',
-	'Confirm_lock_topic' => 'Bist du sicher, dass die gewählten Themen gesperrt werden sollen?',
-	'Confirm_unlock_topic' => 'Bist du sicher, dass die gewählten Themen entsperrt werden sollen?',
-	'Confirm_move_topic' => 'Bist du sicher, dass die gewählten Themen verschoben werden sollen?',
+	'Confirm_delete_topic' => 'Bist du sicher, dass du die ausgewählten Themen entfernen möchtest?',
+	'Confirm_lock_topic' => 'Bist du sicher, dass du die ausgewählten Themen sperren möchtest?',
+	'Confirm_unlock_topic' => 'Bist du sicher, dass du die ausgewählten Themen entsperren möchtest?',
+	'Confirm_move_topic' => 'Bist du sicher, dass du die ausgewählten Themen verschieben möchtest?',
 
 	'Move_to_forum' => 'Verschieben nach',
 	'Leave_shadow_topic' => 'Schatten Thema im alten Forum lassen',
@@ -1329,7 +1329,7 @@ $lang = array_merge($lang, array(
 	'Recent_wrong_mode' => 'Du hast den falschen Modus ausgewählt.',
 	'Recent_click_return' => 'Klicke %shier%s, um zur Neueste Themen Seite zurückzukehren.',
 
-	'Profile_view_option' => 'Pop up Fenster für Profilansichten',
+	'Profile_view_option' => 'Pop-up Fenster für Profilansichten',
 	'Profile_viewed' => 'Profilansichten',
 
 // BEGIN Disable Registration MOD
@@ -1928,10 +1928,10 @@ $lang = array_merge($lang, array(
 
 /* lang_prune_users.php - BEGIN */
 // add to prune inactive
-	'X_Days' => '%d Tage',
-	'X_Weeks' => '%d Wochen',
-	'X_Months' => '%d Monate',
-	'X_Years' => '%d Jahre',
+	'X_DAYS' => '%d Tage',
+	'X_WEEKS' => '%d Wochen',
+	'X_MONTHS' => '%d Monate',
+	'X_YEARS' => '%d Jahre',
 
 	'Confirm_delete_user' => 'Bist du Dir wirklich sicher, dass du diesen Benutzer löschen willst?',
 	'Prune_no_users' => 'Es wurden keine Benutzer gelöscht.',
@@ -2379,6 +2379,19 @@ $lang = array_merge($lang, array(
 	'EXTRA_STATS_SHOW' => 'Zusätzliche Statistik anzeigen',
 	'EXTRA_STATS_HIDE' => 'Zusätzliche Statistik ausblenden',
 	'RESERVED' => 'Reserviert',
+
+	'VIEW_TOPICS_DAYS' => 'Anzeige der Themen der letzten Tage',
+	'VIEW_TOPICS_DIR' => 'Anzeige der Themasortierung',
+	'VIEW_TOPICS_KEY' => 'Anzeige Themen sortieren nach',
+	'VIEW_POSTS_DAYS' => 'Anzeige der Beiträge der letzten Tage',
+	'VIEW_POSTS_DIR' => 'Anzeige der Beitragsortierung',
+	'VIEW_POSTS_KEY' => 'Anzeige Beiträge sortieren nach',
+
+	'AUTHOR' => 'Author',
+	'POST_TIME' => 'Uhrzeit',
+	'REPLIES' => 'Antworten',
+	'SUBJECT' => 'Betreff',
+	'VIEWS' => 'Aufrufe',
 
 	)
 );

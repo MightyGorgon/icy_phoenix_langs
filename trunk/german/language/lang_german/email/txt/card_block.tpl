@@ -1,5 +1,5 @@
 Subject: Dein Benutzer-Konto wurde vorübergehend gesperrt
-Charset: iso-8859-1
+Charset: utf-8
 
 Hallo {WARNED_POSTER},
 

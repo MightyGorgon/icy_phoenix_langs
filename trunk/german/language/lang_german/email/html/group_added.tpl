@@ -1,5 +1,5 @@
 Subject: Du bist zur Gruppe "{GROUP_NAME}" hinzugefügt worden
-Charset: iso-8859-1
+Charset: utf-8
 <br /><font face="Verdana" size="2">
 Glückwunsch,<br /><br />
 
