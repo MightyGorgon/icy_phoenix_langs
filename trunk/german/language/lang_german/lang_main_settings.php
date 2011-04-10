@@ -74,6 +74,9 @@ $lang['DATE_FORMAT_VF'] = 'd M Y';
 $lang['DATE_FORMAT_BIRTHDAY'] = 'd. F Y';
 $lang['DATE_FORMAT_CALENDAR'] = 'd.m.Y'; // Dies sollte in das Standard Datums-Format deiner Sprache geändert werden, php date() format
 $lang['JOINED_DATE_FORMAT'] = 'F Y'; // Datums-Format der Anmeldung, php date() format
+$lang['NUMBER_FORMAT_DECIMALS'] = 0;
+$lang['NUMBER_FORMAT_DECIMALS_SEP'] = '.';
+$lang['NUMBER_FORMAT_THOUSANDS_SEP'] = ',';
 
 // This is optional, if you would like a _SHORT_ message output
 // along with our copyright message indicating you are the translator

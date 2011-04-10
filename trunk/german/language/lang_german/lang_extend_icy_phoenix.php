@@ -269,8 +269,8 @@ if ($lang_extend_admin)
 		'IP_allow_html_only_for_admins' => 'Aktiviere HTML nur für Administratoren',
 		'IP_allow_html_only_for_admins_explain' => 'Enabling this option will allow administrators to use HTML tags in posts. Please notice that this feature may lead to security issues or wrong page formatting if not used properly.',
 
-		'IP_enable_custom_bbcodes' => 'Aktiviere eigene BBCodes',
-		'IP_enable_custom_bbcodes_explain' => 'This option will enable customized BBCodes created in ACP.',
+		'IP_enable_custom_bbcodes' => 'Aktiviere Benutzerdefinierte BBCodes',
+		'IP_enable_custom_bbcodes_explain' => 'Aktiviere die Erstellung von Benutzerdefinierten BBCodes im ACP.',
 
 		'IP_allow_all_bbcode' => 'Aktiviere alle BBCodes',
 		'IP_allow_all_bbcode_explain' => 'Bei Aktivierung dieser Option, werden alle BBCodes in der Signatur und anderen Teilen aktiviert, wo sie noch nicht aktiviert sind.',
@@ -279,9 +279,9 @@ if ($lang_extend_admin)
 		'IP_switch_bbcb_active_content_explain' => 'Aktiviert BBCode für Flash, Video, Audio Streams, RealMedia und Quicktime.',
 
 // TAB - Images In Posts
-		'IP_auth_view_pic_upload' => 'Bilder hochladen Erlaubnis (Post Icy Images)',
+		'IP_auth_view_pic_upload' => 'Bilder hochladen beim Beitrag schreiben erlauben',
 
-		'IP_enable_postimage_org' => 'Aktiviere &quot;PostImage&quot; Button beim Beitrag erfassen',
+		'IP_enable_postimage_org' => 'Aktiviere den &quot;Bilder hochladen&quot; Button beim Beitrag erfassen.',
 
 		'IP_gd_version' => 'GD Version:',
 		'GD_0' => 'kein GD',

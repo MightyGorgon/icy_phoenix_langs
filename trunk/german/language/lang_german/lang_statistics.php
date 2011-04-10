@@ -163,7 +163,7 @@ $lang = array_merge($lang, array(
 
 	'module_name_most_active_topicstarter' => 'Die aktivsten Themenstarter',
 
-	'module_name_most_logged_on_users' => 'Am meisten eingeloggte Benutzer',
+	'module_name_most_logged_on_users' => 'Am häufigsten eingeloggte Benutzer',
 	'Time2' => 'Eingeloggt für',
 
 	'module_name_most_used_languages' => 'Verwendete Sprachen',
@@ -172,7 +172,7 @@ $lang = array_merge($lang, array(
 	'module_name_most_used_styles' => 'Verwendete Styles',
 	'Style' => 'Style',
 
-	'module_name_most_viewed_topics' => 'Am meisten angesehene Themen',
+	'module_name_most_viewed_topics' => 'Am häufigsten angesehene Themen',
 	'Month_jan' => 'Jan',
 	'Month_feb' => 'Feb',
 	'Month_mar' => 'Mrz',
@@ -206,29 +206,29 @@ $lang = array_merge($lang, array(
 	'Traffic_reg' => 'Tag der Woche Traffic: Registrierungen',
 	'New_users' => 'Neue Benutzer',
 
-	'module_name_site_hist_daily_stats_current_week' => 'Current Week Daily Statistics',
+	'module_name_site_hist_daily_stats_current_week' => 'Aktulle Wochen-Tages-Statistik',
 
-	'module_name_site_hist_hours_stats_current_day' => 'Current Day Statistics',
+	'module_name_site_hist_hours_stats_current_day' => 'Aktulle Tages-Statistik',
 
 	'module_name_site_hist_month_top_posters' => 'Die aktivesten Benutzer diesen Monat',
 	'Month_Var' => '[%s]', // %s wird durch den aktuellen Monat ersetzt
 
-	'module_name_site_hist_monthly_stats_current_year' => 'Current Year Monthly Statistics',
+	'module_name_site_hist_monthly_stats_current_year' => 'Laufendes Jahr Monats-Statistik',
 
 	'module_name_site_hist_week_top_posters' => 'Die aktivesten Benutzer diese Woche',
 	'Week_Var' => '[%s]', // %s wird durch die aktuelle Woche ersetzt
 
-	'module_name_top_attachments' => 'Am meisten heruntergeladene Anhänge',
+	'module_name_top_attachments' => 'Am häufigsten heruntergeladene Anhänge',
 	'File_name' => 'Dateiname',
 	'File_comment' => 'Dateikommentar',
 
 	'module_name_top_posters' => 'Top Poster',
 
-	'module_name_top_smilies' => 'Am meisten verwendete Smilies',
+	'module_name_top_smilies' => 'Am häufigsten verwendete Smilies',
 	'smiley_url' => 'Smiley',
 	'smiley_code' => 'Smiley Code',
 
-	'module_name_top_words' => 'Am meisten verwendete Wörter',
+	'module_name_top_words' => 'Am häufigsten verwendete Wörter',
 	'Word' => 'Wort',
 	'Uses2' => 'Verwendet',
 

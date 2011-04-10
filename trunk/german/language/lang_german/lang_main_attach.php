@@ -50,8 +50,8 @@ $lang = array_merge($lang, array(
 	'Extension_disabled_after_posting' => 'Die Erweiterung <b>%s</b> wurde vom Administrator deaktiviert. Aus diesem Grund wird der Anhang nicht angezeigt.', // used in Posts and PM's, replace %s with mime type
 
 // Posting/PM -> Initial Display
-	'Attach_posting_cp' => 'Attachment Posting Kontrollzentrum',
-	'Attach_posting_cp_explain' => 'Wenn du auf &quot;Anhang hinzufügen&quot; klickst, kannst du in der erscheinenden Box Anhänge hinzufügen.<br /> Wenn du auf &quot;Bereits angehängte Dateien&qout; klickst, siehst du eine Liste mit bereits angehängte Dateien und kannst diese bearbeiten.<br />Wenn du einen Anhang ersetzen möchtes (neuere Version hochladen), musst du beide Links anklicken. Füge den Anhang wie immer ein, aber klicke nicht auf &quot;Anhang hinzufügen&quot; sondern klicke bei dem zu aktualisierenden Anhang auf &quot;<b>Neue Version hochladen</b>&quot;',
+	'Attach_posting_cp' => 'Anhänge hinzufügen Kontrollzentrum',
+	'Attach_posting_cp_explain' => 'Wenn du auf &quot;Einen Anhang hinzufügen&quot; klickst, kannst du in der erscheinenden Box Anhänge hinzufügen.<br /> Wenn du auf &quot;Bereits angehängte Dateien&qout; klickst, siehst du eine Liste mit bereits angehängte Dateien und kannst diese bearbeiten.<br />Wenn du einen Anhang ersetzen möchtes (neuere Version hochladen), musst du beide Links anklicken. Füge den Anhang wie immer ein, aber klicke nicht auf &quot;Anhang hinzufügen&quot; sondern klicke bei dem zu aktualisierenden Anhang auf &quot;<b>Neue Version hochladen</b>&quot;',
 
 // Posting/PM -> Posting Attachments
 	'Add_attachment' => 'Anhang hinzufügen',
