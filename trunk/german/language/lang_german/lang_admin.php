@@ -2013,7 +2013,7 @@ $lang = array_merge($lang, array(
 	'TOKEN' => 'Token',
 	'TOKENS' => 'Tokens',
 	'TOKENS_EXPLAIN' => 'Tokens are placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {TEXT1}, {TEXT2}.<br /><br />Within the HTML replacement you can also use any language string present in your language/ directory like this: {L_<em>&lt;STRINGNAME&gt;</em>} where <em>&lt;STRINGNAME&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as &quot;wrote&quot; or its translation according to userâ€™s locale.<br /><br /><strong>Please note that only tokens listed below are able to be used within custom BBCodes.</strong>',
-	'TOKEN_DEFINITION' => 'What can it be?',
+	'TOKEN_DEFINITION' => 'Was kann das sein?',
 	'TOO_MANY_BBCODES' => 'You cannot create any more BBCodes. Please remove one or more BBCodes then try again.',
 
 	'BBCODES_TOKENS_DESCRIPTION' => '
