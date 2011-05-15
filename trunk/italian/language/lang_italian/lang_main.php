@@ -256,7 +256,6 @@ $lang = array_merge($lang, array(
 // Viewforum
 	'View_forum' => 'Guarda Forum',
 
-	'Forum_not_exist' => 'Il Forum selezionato non esiste.',
 	'Reached_on_error' => 'Sei arrivato in questa pagina per errore.',
 
 	'Display_topics' => 'Mostra prima gli Argomenti di',
@@ -308,7 +307,6 @@ $lang = array_merge($lang, array(
 
 	'No_newer_topics' => 'Non ci sono nuovi argomenti in questo forum',
 	'No_older_topics' => 'Non ci sono vecchi argomenti in questo forum',
-	'Topic_post_not_exist' => 'L\'argomento o il messaggio che hai richiesto non esiste',
 	'No_posts_topic' => 'Non ci sono messaggi in questo argomento',
 
 	'Display_posts' => 'Mostra prima i messaggi di',
@@ -526,7 +524,6 @@ $lang = array_merge($lang, array(
 	'PM_disabled' => 'I Messaggi privati sono stati disabilitati dal Forum.',
 	'Cannot_send_privmsg' => 'L\'Amministratore del forum ti ha revocato i permessi di inviare Messaggi Privati.',
 	'No_to_user' => 'Devi specificare uno username per inviare il Messaggio.',
-	'No_such_user' => 'L\'Utente non esiste.',
 
 	'Disable_HTML_pm' => 'Disabilita HTML in questo Messaggio',
 	'Disable_ACRO_AUTO_pm' => 'Disabilita Acronimi ed Autolinks in questo Messaggio',
@@ -614,7 +611,6 @@ $lang = array_merge($lang, array(
 	'Search_user_posts' => 'Cerca tutti i Messaggi scritti da %s', // Find all posts by username
 	'Search_user_topics_started' => 'Cerca tutti gli argomenti iniziati da %s', // Find all topics started by username
 
-	'No_user_id_specified' => 'L\'Utente non esiste.',
 	'Wrong_Profile' => 'Non puoi modificare questo Profilo.',
 //====================================================================== |
 //==== Start Invision View Profile ===================================== |
@@ -1647,22 +1643,22 @@ $lang = array_merge($lang, array(
 	'Login_Hidden' => 'Nascosto',
 	'Login_Visible' => 'Visibile',
 	'Login_Default' => 'Predefinito',
-	'Errors_Not_Found' => 'L\'indirizzo richesto non &egrave; stato trovato su questo server',
-	'Errors_000' => 'Errore Sconosciuto',
-	'Errors_000_Full' => 'L\'indirizzo richiesto ha restituito un errore sconosciuto.<br />Gli errori sono stati registrati nel file di log.',
-	'Errors_400' => 'Errore 400',
-	'Errors_400_Full' => 'L\'indirizzo richiesto non &egrave; un indirizzo valido.',
-	'Errors_401' => 'Errore 401 - Errore Autorizzazione',
-	'Errors_401_Full' => 'Non disponi delle autorizzazioni necessarie per visualizzare questa pagina.',
-	'Errors_403' => 'Errore 403',
-	'Errors_403_Full' => 'L\'accesso a questo indirizzo &egrave; proibito.',
-	'Errors_404' => 'Errore 404 - Indirizzo Non Trovato',
-	'Errors_404_Full' => 'L\'indirizzo richiesto non &egrave; stato trovato su questo server. L\'errore pu&ograve; essere dovuto ad un\'errata digitazione oppure al fatto che il file &egrave; stato rimosso dal server.',
-	'Errors_500' => 'Errore 500 - Errore Di Configurazione',
-	'Errors_500_Full' => 'L\'indirizzo richiesto restituisce un errore di configurazione.<br />Gli errori sono stati registrati nel file di log.',
-	'Errors_Email_Subject' => 'Errori: ',
-	'Errors_Email_Addrress_Prefix' => 'gestione_errori',
-	'Errors_Email_Body' => 'Si &egrave verificato un errore sul tuo sito. Per favore verifica il file di log.',
+	'ERRORS_NOT_FOUND' => 'L\'indirizzo richesto non &egrave; stato trovato su questo server',
+	'ERRORS_000' => 'Errore Sconosciuto',
+	'ERRORS_000_FULL' => 'L\'indirizzo richiesto ha restituito un errore sconosciuto.<br />Gli errori sono stati registrati nel file di log.',
+	'ERRORS_400' => 'Errore 400',
+	'ERRORS_400_FULL' => 'L\'indirizzo richiesto non &egrave; un indirizzo valido.',
+	'ERRORS_401' => 'Errore 401 - Errore Autorizzazione',
+	'ERRORS_401_FULL' => 'Non disponi delle autorizzazioni necessarie per visualizzare questa pagina.',
+	'ERRORS_403' => 'Errore 403',
+	'ERRORS_403_FULL' => 'L\'accesso a questo indirizzo &egrave; proibito.',
+	'ERRORS_404' => 'Errore 404 - Indirizzo Non Trovato',
+	'ERRORS_404_FULL' => 'L\'indirizzo richiesto non &egrave; stato trovato su questo server. L\'errore pu&ograve; essere dovuto ad un\'errata digitazione oppure al fatto che il file &egrave; stato rimosso dal server.',
+	'ERRORS_500' => 'Errore 500 - Errore Di Configurazione',
+	'ERRORS_500_FULL' => 'L\'indirizzo richiesto restituisce un errore di configurazione.<br />Gli errori sono stati registrati nel file di log.',
+	'ERRORS_EMAIL_SUBJECT' => 'Errori: ',
+	'ERRORS_EMAIL_ADDRRESS_PREFIX' => 'gestione_errori',
+	'ERRORS_EMAIL_BODY' => 'Si &egrave verificato un errore sul tuo sito. Per favore verifica il file di log.',
 
 // BUILD 059
 	'Remote_avatar_no_image' => 'L\'immagine %s non esiste o non &egrave; raggiunbibile',
@@ -2482,6 +2478,18 @@ $lang = array_merge($lang, array(
 	'REPLIES' => 'Risposte',
 	'SUBJECT' => 'Titolo',
 	'VIEWS' => 'Visite',
+
+	'INVALID' => 'Valore non valido.',
+	'TOO_LARGE' => 'Il valore inserito &egrave; troppo grande.',
+	'TOO_LONG' => 'Il valore inserito &egrave; troppo lungo.',
+	'TOO_SHORT' => 'Il valore inserito &egrave; troppo corto.',
+	'TOO_SMALL' => 'Il valore inserito &egrave; troppo piccolo.',
+	'WRONG_DATA' => 'Valore non valido.',
+
+	'ERROR_NO_ATTACHMENT' => 'Il file richiesto non esiste.',
+	'NO_FORUM' => 'Il Forum selezionato non esiste.',
+	'NO_TOPIC' => 'L\'argomento o il messaggio che hai richiesto non esiste.',
+	'NO_USER' => 'L\'Utente non esiste.',
 
 	)
 );

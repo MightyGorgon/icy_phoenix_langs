@@ -55,8 +55,10 @@ $lang['PrivacyDisclaimer'] = '<b>INFORMATIVA SUL TRATTAMENTO DI DATI PERSONALI</
 
 $lang['ENCODING'] = 'UTF-8';
 $lang['DIRECTION'] = 'ltr';
+$lang['USER_LANG'] = 'it';
 $lang['HEADER_LANG'] = 'it';
 $lang['HEADER_XML_LANG'] = 'it';
+$lang['HEADER_JQUERY_LANG'] = 'it';
 $lang['LEFT'] = 'sinistra';
 $lang['RIGHT'] = 'destra';
 $lang['DATE_FORMAT'] = 'd F y H:i'; // This should be changed to the default date format for your language, php date() format

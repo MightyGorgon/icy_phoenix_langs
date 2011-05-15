@@ -77,8 +77,6 @@ $lang = array_merge($lang, array(
 	'Installed' => 'Installate',
 	'Uninstall' => 'Disinstalla',
 	'Uninstalled' => 'Disinstallatata',
-	'Move_up' => 'Sposta in alto',
-	'Move_down' => 'Sposta in basso',
 	'Update_time' => 'Tempo aggiornamento',
 	'Auth_settings_updated' => 'Impostazione di autorizzazione  - [Sempre aggiornate]',
 
