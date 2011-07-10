@@ -20,7 +20,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'Title_ads' => 'Annunci',
-	'Title_ads_tla' => 'Annunci',
+	'Title_ads_tla' => 'Annunci TLA',
+	'Title_ads_tla_new' => 'Annunci TLA New',
 	'Title_album' => 'Album',
 	'Title_birthdays' => 'Compleanni',
 	'Title_calendar' => 'Calendario',

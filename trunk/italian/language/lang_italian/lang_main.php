@@ -2491,6 +2491,8 @@ $lang = array_merge($lang, array(
 	'NO_TOPIC' => 'L\'argomento o il messaggio che hai richiesto non esiste.',
 	'NO_USER' => 'L\'Utente non esiste.',
 
+	'AJAX_SEARCH' => 'Cerca...',
+
 	)
 );
 
