@@ -40,6 +40,20 @@ if ($lang_extend_admin)
 	$lang = array_merge($lang, array(
 		'Lang_extend_icy_phoenix' => 'Icy Phoenix',
 
+// TAB - SERVER
+		'SITE_META_KEYWORDS' => 'Meta Keywords',
+		'SITE_META_KEYWORDS_SWITCH' => 'Attiva Meta Keywords Da DB',
+		'SITE_META_KEYWORDS_SWITCH_EXPLAIN' => 'Se attivi questa funzione, nelle pagine del sito verranno mostrate le keywords definite qui sopra invece di quelle presenti nel file <i>lang_main_settings.php</i>.',
+		'SITE_META_DESCRIPTION' => 'Meta Description',
+		'SITE_META_DESCRIPTION_SWITCH' => 'Attiva Meta Description Da DB',
+		'SITE_META_DESCRIPTION_SWITCH_EXPLAIN' => 'Se attivi questa funzione, nelle pagine del sito verr&agrave; mostrata la descrizione definita qui sopra invece di quella presente nel file <i>lang_main_settings.php</i>.',
+		'SITE_META_AUTHOR' => 'Meta Author',
+		'SITE_META_AUTHOR_SWITCH' => 'Attiva Meta Author Da DB',
+		'SITE_META_AUTHOR_SWITCH_EXPLAIN' => 'Se attivi questa funzione, nelle pagine del sito invece verr&agrave; mostrato l\'autore definito qui sopra invece di quello presente nel file <i>lang_main_settings.php</i>.',
+		'SITE_META_COPYRIGHT' => 'Meta Copyright',
+		'SITE_META_COPYRIGHT_SWITCH' => 'Attiva Meta Copyright Da DB',
+		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Se attivi questa funzione, nelle pagine del sito verr&agrave; mostrato il copyright definito qui sopra invece di quello presente nel file <i>lang_main_settings.php</i>.',
+
 // TAB - Icy Phoenix
 		'IP_enable_xs_version_check' => 'Verifica Versione Icy Phoenix',
 		'IP_enable_xs_version_check_explain' => 'Abilitando questa opzione ogni volta che si entra in ACP viene verificato che la versione in uso di Icy Phoenix sia la pi&ugrave; aggiornata. Disabilitando questa opzione l\'ACP potrebbe caricarsi pi&ugrave; velocemente. In ogni caso la verifica viene fatta solo una volta al giorno, per cui il rallentamento si dovrebbe riscontrare solo la prima volta che si entra in ACP per ogni giorno.',
