@@ -2498,6 +2498,9 @@ $lang = array_merge($lang, array(
 	'LINKEDIN' => 'LinkedIn',
 	'YOUTUBE' => 'YouTube',
 
+	'MOBILE_STYLE_ENABLE' => 'Attiva Visualizzazione Periferiche Mobili',
+	'MOBILE_STYLE_DISABLE' => 'Disattiva Visualizzazione Periferiche Mobili',
+
 	)
 );
 

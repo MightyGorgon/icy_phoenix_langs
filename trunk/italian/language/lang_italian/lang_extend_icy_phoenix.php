@@ -368,6 +368,9 @@ if ($lang_extend_admin)
 		'IP_lofi_bots' => 'LoFi Per Bots',
 		'IP_lofi_bots_explain' => 'Attivando questa opzione LoFi verr&agrave; abilitato per i bots.',
 
+		'IP_seo_cyrillic' => 'Conversione Caratteri Cirillici',
+		'IP_seo_cyrillic_explain' => 'Attivando questa opzione alcuni caratteri cirillici verranno convertiti in caratteri dell\'alfabeto latino (non nei messaggi, ma nelle keywords, tags e dove viene usata la funzione di pulizia delle stringhe).',
+
 		'IP_adsense_code' => 'Codice Publisher Google AdSense',
 		'IP_adsense_code_explain' => 'Inserisci qui il tuo Codice Publisher di Google AdSense e verr&agrave; automaticamente inserito nella pagina ricerca di Google. Se non vuoi utilizzare il tuo codice, lascia questo campo vuoto.',
 
