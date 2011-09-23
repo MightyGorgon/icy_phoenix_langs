@@ -2000,9 +2000,6 @@ $lang = array_merge($lang, array(
 	'FORUM_LIMIT_EDIT_TIME' => 'Limitazione Temporale Modifica Messaggi',
 	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'Abilitando questa opzione gli utenti potranno modificare i propri messaggi solo entro il numero di minuti stabilito nella configurazione messaggi di Icy Phoenix (ACP &raquo; Configurazione &raquo; Messaggi)',
 
-	'BACK_TO_TOP' => 'Torna Su',
-	'BACK_TO_PREV' => 'Torna alla pagina precedente',
-
 // Custom BBCodes - BEGIN
 	'BBCODES_CUSTOM_BBCODES' => 'BBCode Personalizzati',
 	'BBCODES_CUSTOM_BBCODES_EXPLAIN' => 'In questa sezione puoi creare dei BBCodes personalizzati. Per poter utilizzare questi BBCode devi attivare <b>Abilita i BBCode personalizzati</b> in <b>ACP &raquo; Configurazione &raquo; Messaggi</b>.',
