@@ -91,12 +91,15 @@ $lang = array_merge($lang, array(
 	'permission_type' => array(
 		'a_' => 'Permessi di amministrazione',
 		'cms_' => 'Permessi CMS',
+		'cmsl_' => 'Permessi pagine CMS',
+		'cmsls_' => 'Permessi pagine standard CMS',
+		'cmsb_' => 'Permessi blocchi CMS',
 		'f_' => 'Permessi forum',
 		'm_' => 'Permessi moderatore',
 		'pl_' => 'Permessi plugins',
 		'u_' => 'Permessi utente',
 		'global' => array(
-			'm_' => 'Permessi moderatore globale',
+			'm_' => 'Permessi globali moderatore',
 		),
 	),
 
@@ -105,9 +108,6 @@ $lang = array_merge($lang, array(
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board' => array('lang' => 'Pu&ograve; modificare impostazioni forum/controllare aggiornamenti', 'cat' => 'settings'),
-	'acl_a_server' => array('lang' => 'Pu&ograve; modificare impostazioni server/communicazione', 'cat' => 'settings'),
-
 	'acl_a_user' => array('lang' => 'Pu&ograve; gestire utenti<br /><em>Comprende anche la possibilit&agrave; di vedere quale browser usa nella lista degli utenti online.</em>', 'cat' => 'user_group'),
 	'acl_a_group' => array('lang' => 'Pu&ograve; gestire gruppi', 'cat' => 'user_group'),
 
@@ -125,16 +125,22 @@ $lang = array_merge($lang, array(
 
 // CMS Permissions
 $lang = array_merge($lang, array(
-	'acl_cms_view' => array('lang' => 'Pu&ograve; visualizzare la gestione del CMS', 'cat' => 'cms'),
-	'acl_cms_edit' => array('lang' => 'Pu&ograve; modificare le impostazioni del CMS', 'cat' => 'cms'),
+	'acl_cms_admin' => array('lang' => 'Pu&ograve; accedere alla gestione del CMS', 'cat' => 'cms'),
+	'acl_cms_settings' => array('lang' => 'Pu&ograve; gestire le Impostazioni del CMS', 'cat' => 'cms'),
+	'acl_cms_layouts' => array('lang' => 'Pu&ograve; gestire le Pagine CMS', 'cat' => 'cms'),
+	'acl_cms_layouts_special' => array('lang' => 'Pu&ograve; gestire le Pagine Standard', 'cat' => 'cms'),
+	'acl_cms_blocks' => array('lang' => 'Pu&ograve; gestire i Blocchi', 'cat' => 'cms'),
+	'acl_cms_blocks_global' => array('lang' => 'Pu&ograve; gestire i Blocchi Globali', 'cat' => 'cms'),
+	'acl_cms_permissions' => array('lang' => 'Pu&ograve; gestire i Permessi', 'cat' => 'cms'),
+	'acl_cms_menu' => array('lang' => 'Pu&ograve; gestire i Menu Di Navigazione', 'cat' => 'cms'),
+	'acl_cms_ads' => array('lang' => 'Pu&ograve; gestire gli Annunci', 'cat' => 'cms'),
 
-	'acl_cms_l_add' => array('lang' => 'Pu&ograve; aggiungere pagine CMS', 'cat' => 'layouts'),
-	'acl_cms_l_edit' => array('lang' => 'Pu&ograve; modificare pagine CMS', 'cat' => 'layouts'),
-	'acl_cms_l_delete' => array('lang' => 'Pu&ograve; eliminare pagine CMS', 'cat' => 'layouts'),
+	// Only Local
+	'acl_cmsl_admin' => array('lang' => 'Pu&ograve; gestire il contenuto della pagina', 'cat' => 'layouts'),
 
-	'acl_cms_b_add' => array('lang' => 'Pu&ograve; aggiungere blocchi nelle pagine CMS', 'cat' => 'blocks'),
-	'acl_cms_b_edit' => array('lang' => 'Pu&ograve; modificare blocchi nelle pagine CMS', 'cat' => 'blocks'),
-	'acl_cms_b_delete' => array('lang' => 'Pu&ograve; eliminare blocchi nelle pagine CMS', 'cat' => 'blocks'),
+	'acl_cmsls_admin' => array('lang' => 'Pu&ograve; gestire il contenuto della pagina', 'cat' => 'layouts'),
+
+	'acl_cmsb_admin' => array('lang' => 'Pu&ograve; gestire il contenuto del blocco', 'cat' => 'blocks'),
 	)
 );
 
@@ -154,6 +160,7 @@ $lang = array_merge($lang, array(
 
 // Plugins Permissions
 $lang = array_merge($lang, array(
+	'acl_pl_admin' => array('lang' => 'Pu&ograve; gestire i contenuti nei Plugins', 'cat' => 'plugins_actions'),
 	'acl_pl_input' => array('lang' => 'Pu&ograve; inserire contenuti nei Plugins', 'cat' => 'plugins_actions'),
 	'acl_pl_edit' => array('lang' => 'Pu&ograve; modificare contenuti nei Plugins', 'cat' => 'plugins_actions'),
 	'acl_pl_delete' => array('lang' => 'Pu&ograve; eliminare contenuti nei Plugins', 'cat' => 'plugins_actions'),

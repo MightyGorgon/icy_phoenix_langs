@@ -75,6 +75,10 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_GLOBAL_M_' => 'Permessi moderatore globale',
 	'ACL_TYPE_GLOBAL_PL_' => 'Permessi Plugins',
 	'ACL_TYPE_GLOBAL_U_' => 'Permessi utente',
+	'ACL_TYPE_LOCAL_CMS_' => 'Permessi CMS',
+	'ACL_TYPE_LOCAL_CMSL_' => 'Permessi pagine CMS',
+	'ACL_TYPE_LOCAL_CMSLS_' => 'Permessi pagine standard CMS',
+	'ACL_TYPE_LOCAL_CMSB_' => 'Permessi blocchi CMS',
 	'ACL_TYPE_LOCAL_F_' => 'Permessi forum',
 	'ACL_TYPE_LOCAL_M_' => 'Permessi moderatore forum',
 
@@ -138,8 +142,13 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NOT_ASSIGNED' => 'Nessun gruppo assegnato a questo ruolo',
 
+	'ITEMS_SELECTED' => 'Elementi selezionati',
+
 	'LOOK_UP_GROUP' => 'Cerca gruppo',
 	'LOOK_UP_USER' => 'Cerca utente',
+	'LOOK_UP_CMS_L' => 'Seleziona pagina',
+	'LOOK_UP_CMS_LS' => 'Seleziona pagina standard',
+	'LOOK_UP_CMS_B' => 'Seleziona blocco',
 
 	'MANAGE_GROUPS' => 'Gestione gruppi',
 	'MANAGE_USERS' => 'Gestione utenti',
@@ -220,6 +229,10 @@ $lang = array_merge($lang, array(
 	'ROLE_NAME_ALREADY_EXIST' => 'Un ruolo di nome <strong>%s</strong> esiste gi&agrave; per il tipo di permesso specificato.',
 	'ROLE_NOT_ASSIGNED' => 'Il ruolo non &egrave; ancora stato assegnato.',
 
+	'SELECTED_BLOCK_NOT_EXIST' => 'Il blocco selezionato non esiste.',
+	'SELECTED_LAYOUT_NOT_EXIST' => 'La pagina CMS selezionata non esiste.',
+	'SELECTED_LAYOUT_SPECIAL_NOT_EXIST' => 'La pagina standard selezionata non esiste.',
+
 	'SELECTED_FORUM_NOT_EXIST' => 'Il forum selezionato non esiste.',
 	'SELECTED_GROUP_NOT_EXIST' => 'Gruppo(i) selezionato(i) non esistente(i).',
 	'SELECTED_USER_NOT_EXIST' => 'Utente(i) selezionato(i) non esistente(i).',
@@ -279,6 +292,7 @@ $lang = array_merge($lang, array(
 	'USERS_NOT_ASSIGNED' => 'Nessun utente assegnato a questo ruolo',
 	'USER_IS_MEMBER_OF_DEFAULT' => '&egrave; un membro dei seguenti gruppi predefiniti',
 	'USER_IS_MEMBER_OF_CUSTOM' => '&egrave; un membro dei seguenti gruppi personalizzati',
+	'USERNAMES_EXPLAIN' => 'Inserisci un nome utente per riga.',
 
 	'VIEW_ASSIGNED_ITEMS' => 'Vedi figure assegnate',
 	'VIEW_LOCAL_PERMS' => 'Permessi locali',
