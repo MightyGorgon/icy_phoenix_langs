@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 		'a_' => 'Permessi di amministrazione',
 		'cms_' => 'Permessi CMS',
 		'cmsl_' => 'Permessi pagine CMS',
-		'cmsls_' => 'Permessi pagine standard CMS',
+		'cmss_' => 'Permessi pagine standard CMS',
 		'cmsb_' => 'Permessi blocchi CMS',
 		'f_' => 'Permessi forum',
 		'm_' => 'Permessi moderatore',
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	// Only Local
 	'acl_cmsl_admin' => array('lang' => 'Pu&ograve; gestire il contenuto della pagina', 'cat' => 'layouts'),
 
-	'acl_cmsls_admin' => array('lang' => 'Pu&ograve; gestire il contenuto della pagina', 'cat' => 'layouts'),
+	'acl_cmss_admin' => array('lang' => 'Pu&ograve; gestire il contenuto della pagina', 'cat' => 'layouts'),
 
 	'acl_cmsb_admin' => array('lang' => 'Pu&ograve; gestire il contenuto del blocco', 'cat' => 'blocks'),
 	)

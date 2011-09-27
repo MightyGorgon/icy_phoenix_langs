@@ -202,6 +202,33 @@ if ($lang_extend_admin)
 		'IP_show_random_quote' => 'Citazioni Casuali :: Indice Del Forum',
 		'IP_show_random_quote_explain' => 'Attivando questa opzione verrano visualizzate le citazioni casuali nell\'<b>Indice Del Forum</b>.',
 
+// Spam Section
+		'IP_spam_measures_header' => 'Misure Antispam',
+
+		'IP_spam_posts_number' => 'SPAM - Numero Minimo Di Messaggi Per Disattivare Le Misure Antispam',
+		'IP_spam_posts_number_explain' => 'Fino a che l\'utente non ha raggiunto il numero minimo di messaggi specificato qui sotto, le misure antispam resteranno attive per tutte le funzionalit&agrave; con prefisso SPAM elencate qui sotto',
+		'IP_spam_p_0' => 'Disattivato',
+		'IP_spam_p_3' => '3',
+		'IP_spam_p_5' => '5',
+		'IP_spam_p_10' => '10',
+		'IP_spam_p_20' => '20',
+
+		'IP_spam_disable_url' => 'SPAM - Disattiva URL Nei Messaggi',
+		'IP_spam_disable_url_explain' => 'Attivando questa opzione tutte le URL verranno disattivate ed i prefissi HTTP verranno rimpiazzati con H**P per tutti gli utenti che non hanno raggiunto il numero di messaggi minimo specificato qui sopra. Gli amministratori vedranno comunque il contenuto originale.',
+
+		'IP_spam_hide_signature' => 'SPAM - Disattiva Firme Nei Messaggi',
+		'IP_spam_hide_signature_explain' => 'Attivando questa opzione le firme nei messaggi verranno disattivate per tutti gli utenti che non hanno raggiunto il numero di messaggi minimo specificato qui sopra. Gli amministratori vedranno comunque la firma.',
+
+		'IP_spam_post_edit_interval' => 'SPAM - Disattiva Modifica Messaggi',
+		'IP_spam_post_edit_interval_explain' => 'Attivando questa opzione gli utenti che non hanno raggiunto il numero di messaggi minimo specificato qui sopra non saranno in grado di modificare i propri messaggi superato il periodo specificato',
+		'IP_time_15m' => '15 Minutes',
+		'IP_time_30m' => '30 Minutes',
+		'IP_time_1h' => '1 Hour',
+		'IP_time_2h' => '2 Hours',
+		'IP_time_6h' => '6 Hours',
+		'IP_time_12h' => '12 Hours',
+		'IP_time_24h' => '24 Hours',
+
 // TAB - Posting
 		'IP_posts_precompiled' => 'Disattiva Messaggi Precompilati Per Gli Ospiti',
 		'IP_posts_precompiled_explain' => 'Attivando questa opzione non verranno pi&ugrave; utilizzati i messaggi precompilati per gli ospiti (il caricamento sar&agrave; pi&ugrave; lento).',
@@ -215,8 +242,8 @@ if ($lang_extend_admin)
 		'IP_allow_mods_edit_admin_posts' => 'Consenti Modifica Messaggi Admin',
 		'IP_allow_mods_edit_admin_posts_explain' => 'Consenti ai moderatori di modificare i messaggi degli amministratori',
 
-		'IP_forum_limit_edit_time_interval' => 'Intervallo Modifica Messaggi (Minuti)',
-		'IP_forum_limit_edit_time_interval_explain' => 'Questa impostazione consente di fissare un intervallo massimo in cui gli utenti possono modificare i propri messaggi. Impostando a zero nessun limite verr&agrave;  impostato. Questa impostazione va abilitata a livello di singolo forum dalla Gestione Forum.',
+		'IP_forum_limit_edit_time_interval' => 'Intervallo Modifica Messaggi',
+		'IP_forum_limit_edit_time_interval_explain' => 'Questa impostazione consente di fissare un intervallo massimo in cui gli utenti possono modificare i propri messaggi. Impostando a zero nessun limite verr&agrave;  impostato. Questa impostazione va abilitata a livello di singolo forum dalla Gestione Forum. A differenza della impostazione antispam elencata pi&ugrave; su, questa opzione si applica a tutti gli utenti (non solo a quelli che non hanno ancora raggiunto il numero minimo di messaggi).',
 
 		'IP_force_large_caps_mods' => 'Forza Iniziali Maiuscole',
 		'IP_force_large_caps_mods_explain' => 'Forza iniziali maiuscole nei titoli degli argomenti anche ai moderatori (gli amministratori non hanno comunque vincoli)',
