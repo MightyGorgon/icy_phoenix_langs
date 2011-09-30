@@ -54,6 +54,10 @@ if ($lang_extend_admin)
 		'SITE_META_COPYRIGHT_SWITCH' => 'Attiva Meta Copyright Da DB',
 		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Se attivi questa funzione, nelle pagine del sito verr&agrave; mostrato il copyright definito qui sopra invece di quello presente nel file <i>lang_main_settings.php</i>.',
 
+// TAB - SITE
+		'IP_mobile_style_disable' => 'Disattiva Rilevazione Periferiche Mobili',
+		'IP_mobile_style_disable_explain' => 'Attivando questa opzione lo stile per le periferiche mobili non verr&agrave; attivato in automatico. Lasciando questa opzione disattivata, il template <b>Mobile</b> verr&agrave; attivata in automatico per tutte le periferiche mobili.',
+
 // TAB - Icy Phoenix
 		'IP_enable_xs_version_check' => 'Verifica Versione Icy Phoenix',
 		'IP_enable_xs_version_check_explain' => 'Abilitando questa opzione ogni volta che si entra in ACP viene verificato che la versione in uso di Icy Phoenix sia la pi&ugrave; aggiornata. Disabilitando questa opzione l\'ACP potrebbe caricarsi pi&ugrave; velocemente. In ogni caso la verifica viene fatta solo una volta al giorno, per cui il rallentamento si dovrebbe riscontrare solo la prima volta che si entra in ACP per ogni giorno.',
