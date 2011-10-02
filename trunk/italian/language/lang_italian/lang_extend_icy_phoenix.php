@@ -220,8 +220,8 @@ if ($lang_extend_admin)
 		'IP_spam_disable_url' => 'SPAM - Disattiva URL Nei Messaggi',
 		'IP_spam_disable_url_explain' => 'Attivando questa opzione tutte le URL verranno disattivate ed i prefissi HTTP verranno rimpiazzati con H**P per tutti gli utenti che non hanno raggiunto il numero di messaggi minimo specificato qui sopra. Gli amministratori vedranno comunque il contenuto originale.',
 
-		'IP_spam_hide_signature' => 'SPAM - Disattiva Firme Nei Messaggi',
-		'IP_spam_hide_signature_explain' => 'Attivando questa opzione le firme nei messaggi verranno disattivate per tutti gli utenti che non hanno raggiunto il numero di messaggi minimo specificato qui sopra. Gli amministratori vedranno comunque la firma.',
+		'IP_spam_hide_signature' => 'SPAM - Disattiva Firme E Sito Nei Messaggi',
+		'IP_spam_hide_signature_explain' => 'Attivando questa opzione le firme e le informazioni riguardo il sito personale verranno disattivate dai messaggi nel forum per tutti gli utenti che non hanno raggiunto il numero di messaggi minimo specificato qui sopra. Gli amministratori vedranno comunque la firma.',
 
 		'IP_spam_post_edit_interval' => 'SPAM - Disattiva Modifica Messaggi',
 		'IP_spam_post_edit_interval_explain' => 'Attivando questa opzione gli utenti che non hanno raggiunto il numero di messaggi minimo specificato qui sopra non saranno in grado di modificare i propri messaggi superato il periodo specificato',

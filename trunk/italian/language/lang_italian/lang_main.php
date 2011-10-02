@@ -921,8 +921,8 @@ $lang = array_merge($lang, array(
 	'Guest_user_online' => 'C\'&egrave; %d Ospite in linea', // There is 1 Guest user online
 	'No_users_browsing' => 'Al momento non ci sono Utenti nel Forum',
 
-	'Online_explain' => 'Questi dati si basano sugli Utenti in linea negli ultimi ' . intval(ONLINE_REFRESH / 60) . ' minuti',
-	'Online_today' => 'Questi dati si basano sugli Utenti in linea nella giornata',
+	'ONLINE_EXPLAIN' => 'Questi dati si basano sugli Utenti in linea negli ultimi ' . intval(ONLINE_REFRESH / 60) . ' minuti',
+	'ONLINE_TODAY' => 'Questi dati si basano sugli Utenti in linea nella giornata',
 
 	'Forum_Location' => 'Localit&agrave; del Forum',
 	'Last_updated' => 'Ultimo Aggiornamento',
@@ -1864,7 +1864,7 @@ $lang = array_merge($lang, array(
 	'UserSport' => 'Sport/Squadra',
 	'UserMusic' => 'Musica/Gruppi',
 	'UserNoInfo' => 'Nessuna Informazione Inserita',
-	'Last_Seen' => 'Ultimi Online',
+	'LAST_SEEN' => 'Ultimi Online',
 // New MG - END
 
 // MG CMS - BEGIN
