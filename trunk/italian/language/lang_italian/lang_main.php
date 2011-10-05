@@ -1880,7 +1880,7 @@ $lang = array_merge($lang, array(
 // Icy Phoenix - BUILD 001
 	'SimilarTopics' => 'Argomenti Simili',
 	'Chat' => 'Chat',
-	'Digests' => 'Digests',
+	'DIGESTS' => 'Digests',
 
 	'CPL_REG_INFO_EXPLAIN' => 'Username, indirizzo email e password',
 	'CPL_PROFILE_INFO_EXPLAIN' => 'Informazioni generali riguardo i contatti, interessi ed altre informazioni generali',
