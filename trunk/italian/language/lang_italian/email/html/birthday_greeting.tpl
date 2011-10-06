@@ -1,9 +1,11 @@
-Subject: Buon Compleanno
+Subject: Buon Compleanno Da {SITENAME}
 Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 
-I nostri migliori auguri per i tuoi {USER_AGE} anni.<br /><br />
+Noi di <a href="{SITE_URL}">{SITENAME}</a> ti facciamo i nostri migliori auguri per il tuo compleanno.<br /><br />
+
+Buon Compleanno!<br /><br />
 
 <a href="{SITE_URL}">{SITENAME}</a><br /><br /><br />
 

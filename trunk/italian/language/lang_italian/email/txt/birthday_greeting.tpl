@@ -1,6 +1,8 @@
 Ciao {USERNAME},
 
-I nostri migliori auguri per i tuoi {USER_AGE} anni.
+Noi di {SITENAME} ti facciamo i nostri migliori auguri per il tuo compleanno.
+
+Buon Compleanno!
 
 {EMAIL_SIG}
 

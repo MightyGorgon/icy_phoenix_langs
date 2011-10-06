@@ -781,7 +781,7 @@ $lang = array_merge($lang, array(
 
 // Advanced Signature Divider Control
 	'sig_title' => 'Separatore Firma',
-	'sig_divider' => 'SeparatoreFirma',
+	'sig_divider' => 'Separatore Firma',
 	'sig_explain' => 'Da qui puoi controllare che Separatore utilizzare per dividere la firma degli utenti dai loro post.',
 
 // Start add - Yellow card admin MOD
