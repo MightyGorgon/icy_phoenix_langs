@@ -1,5 +1,4 @@
 Subject: New password activation
-Charset: iso-8859-1
 
 Salve {USERNAME}
 Ricevi questa email perchè è stato richiesta da te (o da qualcuno a tuo nome) 

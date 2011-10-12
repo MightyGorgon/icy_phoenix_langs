@@ -1,5 +1,5 @@
 Subject: New Topic Notification for forum "{FORUM_NAME}" - {TOPIC_TITLE}
-Charset: iso-8859-1
+
 Hello {USERNAME}!
 
 {POSTERNAME} has posted a new topic called "{TOPIC_TITLE}" in the "{FORUM_NAME}" forum at {SITENAME}..

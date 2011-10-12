@@ -1,7 +1,7 @@
-Subject: Benvenuto sul Forum di {SITENAME}
-Charset: iso-8859-1
+Subject: Benvenuto sul {SITENAME}
+
 <br /><font face="Verdana" size="2">
-Benvenuto sul Forum di <b>{SITENAME}</b>
+Benvenuto su <b>{SITENAME}</b>
 <br /><br />
 
 Nell'attesa dell'atto di Responsabilit&agrave; Minore il Tuo account rimmarr&agrave; inattivo.<br /><br />

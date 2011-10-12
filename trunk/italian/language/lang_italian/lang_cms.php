@@ -337,6 +337,7 @@ $lang = array_merge($lang, array(
 	'CMS_Menu_New_link_name' => 'Nome link',
 	'CMS_Menu_Default_link' => 'Default link (le impostazioni contrassegnate con un <b>*</b> verranno ignorate)',
 	'CMS_Menu_No_default_link' => 'No default link (Impostazioni personalizzate)',
+	'CMS_MENU_NO_DEFAULT_LINK_SELECT' => '-- No Default Link (Impostazioni Personalizzate) --',
 	'CMS_Menu_New_menu_des' => 'Descrizione menu',
 	'CMS_Menu_New_cat_des' => 'Descrizione categoria',
 	'CMS_Menu_New_link_des' => 'Descrizione link',

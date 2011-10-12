@@ -1,5 +1,4 @@
 Subject: E' stato Inserito un nuovo file nella sezione download
-Charset: iso-8859-1
 
 Ciao {USERNAME},
 

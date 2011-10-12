@@ -1,5 +1,4 @@
 Subject: Topic Reply Notification - {TOPIC_TITLE}
-Charset: iso-8859-1
 
 Ciao {USERNAME},
 Ricevi questo messaggio perchè stai controllando l'argomento "{TOPIC_TITLE}" su {SITENAME}

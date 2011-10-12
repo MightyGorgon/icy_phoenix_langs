@@ -1,5 +1,5 @@
 Subject: Sei stato aggiunto ad un Gruppo Utenti
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Congratulazioni,<br /><br />
 

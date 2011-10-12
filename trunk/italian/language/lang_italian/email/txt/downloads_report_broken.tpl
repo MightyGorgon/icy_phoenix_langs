@@ -1,5 +1,4 @@
 Subject: Download errato
-Charset: iso-8859-1
 
 Ciao {USERNAME},
 

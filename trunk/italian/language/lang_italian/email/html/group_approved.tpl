@@ -1,5 +1,5 @@
 Subject: La tua richiesta &egrave; stata approvata
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Congratulazioni,<br /><br />
 

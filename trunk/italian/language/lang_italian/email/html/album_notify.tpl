@@ -1,5 +1,5 @@
 Subject: Nuova immagine inviata da {FROM}
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,
 <br /><br />

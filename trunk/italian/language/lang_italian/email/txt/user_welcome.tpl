@@ -1,5 +1,4 @@
 Subject: Benvenuto nel sito {SITENAME}
-Charset: iso-8859-1
 
 {WELCOME_MSG}
 

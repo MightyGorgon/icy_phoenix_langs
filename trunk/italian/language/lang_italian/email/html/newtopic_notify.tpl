@@ -1,5 +1,5 @@
 Subject: Notifica Nuova Discussione "{FORUM_NAME}" - {TOPIC_TITLE}
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>!<br /><br />
 

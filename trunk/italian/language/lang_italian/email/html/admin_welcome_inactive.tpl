@@ -1,5 +1,5 @@
 Subject: Benvenuto sul Forum di {SITENAME}
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Benvenuto nel sito <b>{SITENAME}</b>
 <br /><br />

@@ -1,9 +1,8 @@
 Subject: Nuovo commento inviato per {PIC_TITLE}
-Charset: iso-8859-1
 
 Ciao,
 
-un nuovo commento &egrave; stato inviato su "<b>{SITENAME}</b>" per l'immagine "<b>{PIC_TITLE}</b>" e tu hai chiesto di esserne informato.
+un nuovo commento è stato inviato su "{SITENAME}" per l'immagine "{PIC_TITLE}" e tu hai chiesto di esserne informato.
 
 
 Puoi visualizzare il commento cliccando su questo link:

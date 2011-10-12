@@ -1,5 +1,3 @@
-Charset: iso-8859-1
-
 Ciao,
 
 Questa &egrave; un email inviata da {FROM_USERNAME} membro di "{SITENAME}".

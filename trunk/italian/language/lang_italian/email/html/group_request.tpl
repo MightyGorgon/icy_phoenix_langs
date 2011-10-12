@@ -1,5 +1,5 @@
 Subject: Richiesta di partecipare al tuo Gruppo
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Ciao <b>{GROUP_MODERATOR}</b>,<br /><br />
 

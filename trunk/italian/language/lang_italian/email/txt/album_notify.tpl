@@ -1,5 +1,4 @@
 Subject: Nuova immagine inviata da {FROM}
-Charset: iso-8859-1
 
 Ciao {USERNAME},
 

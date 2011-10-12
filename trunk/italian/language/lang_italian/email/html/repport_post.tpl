@@ -1,5 +1,5 @@
 Subject: Segnalazione Messaggio
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Informazione da <b>{SITENAME}</b><br /><br />
 

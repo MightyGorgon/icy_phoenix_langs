@@ -1,5 +1,4 @@
 Subject: E' stato inserito un nuovo commento nella sezione download
-Charset: iso-8859-1
 
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />

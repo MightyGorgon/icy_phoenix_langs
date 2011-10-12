@@ -1,5 +1,5 @@
 Subject: Riattiva il tuo account
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 Il tuo account su <b>"{SITENAME}"</b> &egrave; stato disattivato, probabilmente perch&eacute; hai modificato dei parametri sensibili nel profilo (es. Indirizzo email o password)<br /><br />

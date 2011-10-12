@@ -1,5 +1,5 @@
 Subject: Attivazione Nuova Password
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 Ricevi questa email perch&eacute; &egrave; stato richiesta da te (o da qualcuno a tuo nome) una nuova password per l'account sul sito <b>{SITENAME}</b>.<br />

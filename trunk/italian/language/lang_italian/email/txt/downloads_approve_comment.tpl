@@ -1,5 +1,4 @@
 Subject: E' stato inserito un nuovo commento nella sezione download
-Charset: iso-8859-1
 
 Ciao {USERNAME},
 

@@ -1,5 +1,5 @@
 Subject: Hai ricevuto un'ammonizione
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 ATTENZIONE, <b>{WARNED_POSTER}</b><br /><br />
 

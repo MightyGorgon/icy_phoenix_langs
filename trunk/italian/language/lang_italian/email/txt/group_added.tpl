@@ -1,5 +1,4 @@
 Subject: Sei stato aggiunto ad un Gruppo Utenti
-Charset: iso-8859-1
 
 Congratulazioni,
 Sei stato aggiunto al gruppo "{GROUP_NAME}" su {SITENAME}.

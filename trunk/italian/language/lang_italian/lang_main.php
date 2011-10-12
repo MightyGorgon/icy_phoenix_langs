@@ -2351,7 +2351,7 @@ $lang = array_merge($lang, array(
 	'AJAX_SHOUTBOX' => 'Chat',
 	'AJAX_SHOUTBOX_PVT' => 'Chat Privata',
 	'AJAX_SHOUTBOX_PVT_LINK' => 'Chat privata con questo utente',
-	'AJAX_SHOUTBOX_PVT_ALERT' => 'You have a chat request',
+	'AJAX_SHOUTBOX_PVT_ALERT' => 'Hai una richiesta di Chat Privata',
 
 	// COMMON DB - BEGIN
 	'SELECT_SORT_METHOD' => 'Ordina per',
@@ -2507,6 +2507,15 @@ $lang = array_merge($lang, array(
 	'BACK_TO_PREV' => 'Torna alla pagina precedente',
 
 	'CMS_EDIT_PARENT_BLOCK' => 'Modifica Blocco Base',
+
+	'UPI2DB_DISABLED' => 'UPI2DB Disattivato',
+	'UPI2DB_LINK_U' => 'UPI2DB Non Letti',
+	'UPI2DB_LINK_M' => 'UPI2DB Segnati',
+	'UPI2DB_LINK_P' => 'UPI2DB Permanentemente Letti',
+	'UPI2DB_LINK_FULL' => 'UPI2DB Info Completa',
+	'NEW_POSTS_LINK' => 'Nuovi Messaggi',
+	'LOGIN_LOGOUT_LINK' => 'Login/Logout',
+	'MENU_EMPTY_LINK' => 'Link Vuoto',
 
 	)
 );

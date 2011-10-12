@@ -1,5 +1,5 @@
 Subject: Il tuo account &egrave; stato riattivato
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Ciao, <b>{WARNED_POSTER}</b><br /><br />
 

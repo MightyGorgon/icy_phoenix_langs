@@ -1,5 +1,3 @@
-Charset: iso-8859-1
-
 Salve {TO_USERNAME},
 
 Questa email ti è stata inviata da {FROM_USERNAME} attraverso il tuo account

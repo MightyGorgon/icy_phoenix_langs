@@ -1,5 +1,4 @@
 Subject: Hai ricevuto un messaggio privato da parte di {FROM}
-Charset: iso-8859-1
 
 Ciao {USERNAME},
 

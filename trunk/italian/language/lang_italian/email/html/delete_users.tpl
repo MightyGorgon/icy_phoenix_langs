@@ -1,5 +1,5 @@
 Subject: Il tuo Account su {SITENAME}
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Ciao <b>{USERNAME}</b>,<br /><br />
 

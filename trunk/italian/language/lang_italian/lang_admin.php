@@ -371,6 +371,8 @@ $lang = array_merge($lang, array(
 	'Cookie_secure' => 'Cookie Sicuri',
 	'Cookie_secure_explain' => 'Se il server funziona via SSL abilita questo altrimenti lascia disabilitato',
 	'Session_length' => 'Lunghezza Sessione [ secondi ]',
+	'SESSION_LAST_VISIT_RESET' => 'Aggiornamento Ultima Visita A Sessione Scaduta',
+	'SESSION_LAST_VISIT_RESET_EXPLAIN' => 'Abilitando questa opzione, la data di ultima visita verr&agrave; aggiornato anche con la scadenza della sessione. Lasciando invece disattivata questa opzione, la data di ultima visita viene aggiornato soltanto con un logout oppure se &egrave; attivato l\'autologin ed &egrave; stato superato il tempo massimo di connessione.',
 
 // Visual Confirmation
 	'Visual_confirm' => 'Abilita Conferma Visuale',

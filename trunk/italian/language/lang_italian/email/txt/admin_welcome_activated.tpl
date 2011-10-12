@@ -1,5 +1,4 @@
 Subject: Account Activated
-Charset: iso-8859-1
 
 Salve {USERNAME},
 
