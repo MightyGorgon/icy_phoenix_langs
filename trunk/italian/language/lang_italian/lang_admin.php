@@ -1361,8 +1361,10 @@ $lang = array_merge($lang, array(
 	'Server_Cookies' => 'Server &amp; Cookies',
 
 // BUILD 050
-	'Disable_Registration_IP_Check' => 'Disabilita blacklist IP pubbliche in fase di registrazione',
-	'Disable_Registration_IP_Check_Explain' => 'Normalmente viene verificato l\'indirizzo IP dell\'utente in fase di registrazione se la funzione non viene disabilitata. Il controllo &egrave; piuttosto stringente, e potrebbero venire bloccati anche degli indirizzi IP che si trovano nelle black list per errore.',
+	'ENABLE_CHECK_DNSBL' => 'Attiva controllo indirizzo IP nelle Blacklist pubbliche (Registrazione)',
+	'ENABLE_CHECK_DNSBL_EXPLAIN' => 'Attivando questa opzione, l\'indirizzo IP degli utenti viene verificato in fase di registrazione. Se l\'indirizzo IP &egrave; presente nelle liste di Blacklist pubbliche, la registrazione viene bloccata. Il controllo &egrave; piuttosto stringente, e potrebbero venire bloccati anche degli indirizzi IP che si trovano nelle Blacklist per errore.',
+	'ENABLE_CHECK_DNSBL_POSTING' => 'Attiva controllo indirizzo IP nelle Blacklist pubbliche (Messaggi)',
+	'ENABLE_CHECK_DNSBL_POSTING_EXPLAIN' => 'Attivando questa opzione, l\'indirizzo IP degli utenti viene verificato in fase di invio messaggi.',
 	'Config_explain2' => 'Il form sottostante permette la personalizzazione del calendario e dei subforum.',
 	'Forum_postcount' => 'Incrementa contatore messaggi degli utenti',
 
