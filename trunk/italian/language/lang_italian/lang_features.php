@@ -121,8 +121,8 @@ $lang = array_merge($lang, array(
 
 	'item_coppa' => 'Registrazioni COPPA',
 	'item_l_r_a' => 'Limite tentativi registrazione',
-	'item_username_lenght' => 'Impostazione lunghezza min/max usename',
-	'item_pass_lenght' => 'Impostazione lunghezza min/max password',
+	'item_username_length' => 'Impostazione lunghezza min/max usename',
+	'item_pass_length' => 'Impostazione lunghezza min/max password',
 	'item_l_u_c' => 'Proibizione caratteri in nome utente',
 	'item_s_p_c_r' => 'Complessit&agrave; password',
 	'item_f_p_c' => 'Forzatura variazione password',
