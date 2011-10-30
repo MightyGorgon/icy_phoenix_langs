@@ -163,8 +163,8 @@ if ($lang_extend_admin)
 		'IP_disable_topic_view' => 'Disattiva "Chi ha letto questo argomento" (Globale)',
 		'IP_disable_topic_view_explain' => 'Questa opzione consente di disattivare la funzione "Chi ha letto questo argomento" (consente di risparmiare spazio nel DB).',
 
-		'IP_disable_referrers' => 'Disattiva la memorizzazione dei Referrers',
-		'IP_disable_referrers_explain' => 'Questa opzione consente di disattivare la memorizzazione dei Referrers nel DB (consente di risparmiare spazio nel DB).',
+		'IP_disable_referers' => 'Disattiva la memorizzazione dei Referers',
+		'IP_disable_referers_explain' => 'Questa opzione consente di disattivare la memorizzazione dei Referers nel DB (consente di risparmiare spazio nel DB).',
 
 		'IP_disable_logins' => 'Disabilita Registrazione Logins',
 		'IP_disable_logins_explain' => 'Attivando questa opzione verr&agrave; disabilitata la registrazione dei Logins',
