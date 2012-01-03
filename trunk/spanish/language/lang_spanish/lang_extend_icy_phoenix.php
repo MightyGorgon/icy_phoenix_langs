@@ -46,6 +46,23 @@ if ($lang_extend_admin)
 {
 	$lang = array_merge($lang, array(
 		'Lang_extend_icy_phoenix' => 'Icy Phoenix',
+// TAB - SERVER
+		'SITE_META_KEYWORDS' => 'Meta Claves',
+		'SITE_META_KEYWORDS_SWITCH' => 'Habilitar Claves Meta desde DB',
+		'SITE_META_KEYWORDS_SWITCH_EXPLAIN' => 'Si habilita los Claves Meta desde DB, entonces se usaran los Meta especificados arriba en paginas HTML, en vez de los especificados en <i>lang_main_settings.php</i>.',
+		'SITE_META_DESCRIPTION' => 'Meta Descripc&iacute;on',
+		'SITE_META_DESCRIPTION_SWITCH' => 'Habilitar descripc&iacute;on desde DB',
+		'SITE_META_DESCRIPTION_SWITCH_EXPLAIN' => 'Si habilita los Claves Meta desde db, entonces se usaran los Descripc&iacute;ones especificados arriba en paginas HTML, en vez de los especificados en <i>lang_main_settings.php</i>.',
+		'SITE_META_AUTHOR' => 'Meta Autor',
+		'SITE_META_AUTHOR_SWITCH' => 'Habilitar Autor Meta desde DB',
+		'SITE_META_AUTHOR_SWITCH_EXPLAIN' => 'Si habilita los Autores desde db, entonces se usaran los Autores especificados arriba en paginas HTML, en vez de los especificados en <i>lang_main_settings.php</i>.',
+		'SITE_META_COPYRIGHT' => 'Meta Copyright',
+		'SITE_META_COPYRIGHT_SWITCH' => 'Habilitar el Meta Copyright desde DB',
+		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Si habilita el Meta Copyright desde db, entonces se usaran los Meta Copyrights especificados arriba en paginas HTML, en vez de los especificados en <i>lang_main_settings.php</i>.',
+
+// TAB - SITE
+		'IP_mobile_style_disable' => 'Deshabilitar la detecc&iacute;on de Moviles',
+		'IP_mobile_style_disable_explain' => 'Normalmente, cuando un Movil conecta al sitio, el estilo <b>Movil</b> es automaticamente habilitado (cualquier Usuario puede deshabilitarlo manualmente). Si quiere deshabilitar la detecc&iacute;on automatica, solo selecione esta opcion.',
 
 // TAB - Icy Phoenix
 		'IP_enable_xs_version_check' => 'Activar comprobaci&oacute;n de versi&oacute;n Icy Phoenix',
@@ -56,11 +73,7 @@ if ($lang_extend_admin)
 		'IP_html_email' => 'Correo HTML',
 		'IP_html_email_explain' => 'Activando esta opci&oacute;n podr&aacute; utilizar el formato HTML, de lo contrario, ser&aacute; texto simple plano.',
 
-		'IP_enable_digests' => 'Habilitar res&uacute;menes',
-
-		'IP_digests_php_cron' => 'Habilitar res&uacute;menes PHP cron',
-		'IP_digests_php_cron_explain' => 'Esta caracter&iacute;stica habilitar&aacute; una emulaci&oacute;n del cron de PHP intentando enviar los correos una vez por hora, no obstante, como se basa en una emulaci&oacute;n de PHP no podr&aacute; ser ejecutado correctamente cada vez. Esto significa que a veces los mensajes pueden no ser enviados. Si se puede activar cron en su servidor, use el CRON en vez de esta caracter&iacute;stica. Por favor tenga en cuenta que tambi&eacute;n necesitar&aacute; activar <b>PHP Cron [Intrerruptor Global]</b> en <b>ACP &raquo; Configuraci&oacute;n &raquo; Configuraci&oacute;n General &raquo; Cron</b>',
-
+		
 		'IP_emails_only_to_admins' => 'Correos solo para administradores',
 		'IP_emails_only_to_admins_explain' => 'Permite enviar utilizar el sistema de env&iacute;o de correos solo para administradores',
 
@@ -121,6 +134,9 @@ if ($lang_extend_admin)
 		'IP_site_history' => 'Estad&iacute;sticas del sitio',
 		'IP_site_history_explain' => 'Habilitando esta opci&oacute;n se activar&aacute; las estad&iacute;sticas del sitio',
 
+        'IP_active_sessions' => 'Limite en numeros de sessiones activas',
+		'IP_active_sessions_explain' => '<b>Tenga quidado</b> con este valor: este numero es el numero maximo de sessiones permitidas, si se alcanza el limite, la pagina no sera accessible. Si no sabe, como configurar este Limite, dejalo en 0 (CERO).',
+
 		'IP_global_disable_upi2db' => 'Desactivar UPI2DB globalmente',
 		'IP_global_disable_upi2db_explain' => 'Esta opci&oacute;n te permite desactivar UPI2DB globalmente para ahorrar memoria extra.',
 
@@ -150,8 +166,8 @@ if ($lang_extend_admin)
 		'IP_disable_topic_view' => 'Deshabilitar "Qui&eacute;n ha le&iacute;do este tema" (Interruptor Global)',
 		'IP_disable_topic_view_explain' => 'Esta opci&oacute;n permite deshabilitar la caracter&iacute;stica "Qui&eacute;n ha le&iacute;do este tema" (esto ahorrar&aacute; espacio SQL).',
 
-		'IP_disable_referrers' => 'Deshabilitar referidos',
-		'IP_disable_referrers_explain' => 'Esta opci&oacute;n permite deshabilitar la caracter&iacute;stica de referidos (esto ahorrar&aacute; espacio SQL).',
+		'IP_disable_referers' => 'Deshabilitar referidos',
+		'IP_disable_referers_explain' => 'Esta opci&oacute;n permite deshabilitar la caracter&iacute;stica de referidos (esto ahorrar&aacute; espacio SQL).',
 
 		'IP_disable_logins' => 'Desactivar la grabaci&oacute;n de identificaciones',
 		'IP_disable_logins_explain' => 'Habilitando esta opci&oacute;n, las identificaciones del usuario no se guardar&aacute;n m&aacute;s',
@@ -193,6 +209,33 @@ if ($lang_extend_admin)
 		'IP_show_random_quote' => 'Citas aleatorias :: &Iacute;ndice de foros',
 		'IP_show_random_quote_explain' => 'Habilitando esta opci&oacute;n se mostrar&aacute;n citas aleatorias en el <b>&Iacute;ndice de foros</b>',
 
+// Spam Section
+		'IP_spam_measures_header' => 'Proteccion SPAM',
+
+		'IP_spam_posts_number' => 'SPAM - Numero minimo de POsts, para evadir la Proteccion SPAM',
+		'IP_spam_posts_number_explain' => 'Hasta que un Usuario llege al Limite de POsts fijado, la Proteccion SPAM se mantendra activa (los que tienen el prefijo SPAM debajo de esta linea)',
+		'IP_spam_p_0' => 'Deshabilitado',
+		'IP_spam_p_3' => '3',
+		'IP_spam_p_5' => '5',
+		'IP_spam_p_10' => '10',
+		'IP_spam_p_20' => '20',
+
+		'IP_spam_disable_url' => 'SPAM - Deshabilitar URL en posts',
+		'IP_spam_disable_url_explain' => 'Esta Funcion removera todos los links en Posts, y los reemplazara con H**P, se mantendra activa, hasta alcanzar el numero de posts especificado arriba. Administradores veran los Posts de todos modos.',
+
+		'IP_spam_hide_signature' => 'SPAM - Deshabilitar la firma y Sitio Web en Posts',
+		'IP_spam_hide_signature_explain' => 'Esta funcion mantendra la Firma y la Pagina Web Personal oculta para todos los Usuarios, que no han alcanzado el limite fijado. Administradores veran la firma de todos modos.',
+
+		'IP_spam_post_edit_interval' => 'SPAM - Deshabilitar la Edicion de Posts',
+		'IP_spam_post_edit_interval_explain' => 'Habilitando esta funcion, todos los Usuarios, que no han alcanzado el limite de Posts fijado, NO podran editar sus Posts despues del tiempo fijado',
+		'IP_time_15m' => '15 Minutos',
+		'IP_time_30m' => '30 Minutos',
+		'IP_time_1h' => '1 Hora',
+		'IP_time_2h' => '2 Horas',
+		'IP_time_6h' => '6 Horas',
+		'IP_time_12h' => '12 Horas',
+		'IP_time_24h' => '24 Horas',
+
 // TAB - Posting
 		'IP_posts_precompiled' => 'Deshabilitar mensajes precompilados',
 		'IP_posts_precompiled_explain' => 'Habilitando esta opci&oacute;n en la vista de temas, siempre se compilar&aacute;n los mensajes de texto, sin utilizar los mensajes de texto precompilados (	esto es m&aacute;s lento, pero puede ser &uacute;til en algunos casos).',
@@ -218,6 +261,9 @@ if ($lang_extend_admin)
 		'IP_no_bump' => 'Prohibir bumping (doble posteo) dentro de 24 horas',
 		'IP_no_bump_explain' => 'Habilitando esta opci&oacute;n, el &uacute;ltimo usuario en escribir en un tema, no podr&aacute; escribir dentro de 24 horas desde su &uacute;ltimo mensaje, hasta que otro usuario deje una respuesta (no se aplica a los admins)',
 		'MODS_ALLOWED' => 'Moderadores pueden escribir',
+
+        'IP_robots_index_topics_no_replies' => 'Habilitar indexac&iacute;on de topicos sin respuesta para Robots, de otro modo, topicos sin respuestas, no seran idexados',
+		'IP_robots_index_topics_no_replies_explain' => 'Habilitando la indexac&iacute;on de topicos sin respuesta para Robots, de otro modo, topicos sin respuestas, no seran idexados',
 
 		'IP_display_tags_box' => 'Etiquetas :: Mostrar Etiquetas de Temas',
 		'IP_display_tags_box_explain' => 'Activando esta opci&oacute;n se activar&aacute;n las etiquetas de los temas (las etiquetas podr&iacute;an ser usadas para indexaci&oacute;n): las etiquetas pueden ser introducidas o editadas s&oacute;lo por administradores (o moderadores si activa la siguiente opci&oacute;n) para evitar spam',
@@ -355,6 +401,9 @@ if ($lang_extend_admin)
 		'IP_lofi_bots' => 'LoFi para buscadores',
 		'IP_lofi_bots_explain' => 'Habilitando esta opci&oacute;n el sistema LoFi se activar&aacute; para robots de b&uacute;squeda.',
 
+        'IP_seo_cyrillic' => 'Conversacion deCaracteres cirílicos',
+		'IP_seo_cyrillic_explain' => 'Al activar esta opci&oacute;n algunos caracteres cir&iacute;licos se convertir&aacute;n en caracteres latinos (no en los mensajes, pero en palabras clave, etiquetas y donde se usan cadenas).',
+
 		'IP_adsense_code' => 'C&oacute;digo Google AdSense',
 		'IP_adsense_code_explain' => 'Introduzca aqu&iacute; su c&oacute;digo de Google AdSense y se insertar&aacute; en las p&aacute;ginas de Google Search. Sino desea usarlo, solo debe dejar este campo en blanco.',
 
@@ -419,10 +468,10 @@ if ($lang_extend_admin)
 		'IP_admin_protect' => 'Proteger cuenta del administrador principal',
 		'IP_admin_protect_explain' => 'Habilitando esta opci&oacute;n se a&ntilde;adir&aacute; mayor seguridad a la cuenta del administrador principal, otros administradores o usuarios no podr&aacute;n quitarle su rango o calidad de administrador.',
 
-		'IP_ip_admins_only' => 'Mostrar direcciones IP s&oacute;lo a los administradores', 
-		'IP_ip_admins_only_explain' => 'Activando esta opci&oacute;n s&oacute;lo los administradores podr&aacute;n ver las direcciones IP en foros y perfiles (desactivando esta opci&oacute;n tambi&eacute;n los moderadores podr&aacute;n ver las direcciones IP).', 
-
-		'IP_db_log_actions' => 'Habilitar log de acciones de la BD',
+		'IP_ip_admins_only' => 'Mostrar IP a Administradores solo',
+        'IP_ip_admins_only_explain' => 'Habiliatndo esta Opcion, solo Adminitradores podran ver los IP en los Foros y Perfiles (deshabilitando esta opcion permitira tambien a los Moderadores ver los IP).',
+        
+        'IP_db_log_actions' => 'Habilitar log de acciones de la BD',
 		'IP_db_log_actions_explain' => 'Habilitando esta opci&oacute;n, cualquier acci&oacute;n que modifique la BD ser&aacute; almacenada en un log en la BD. Si esta opci&oacute;n ha sido marcada como true en el archivo constants.php, entonces no se podr&aacute; deshabilitar esta opci&oacute;n desde el ACP. Si se selecciona obtener reportes, entonces se guardaran archivos extra con todos los errores registrados.',
 
 		'IP_mg_log_actions' => 'Habilitar log de acciones TXT',
@@ -443,6 +492,11 @@ if ($lang_extend_admin)
 
 		'IP_cron_files_interval' => 'Ejecuciones de archivos con intervalo cron',
 		'IP_cron_files_interval_explain' => 'Este tipo de cron puede ser usado para ejecutar ciertos archivos de forma autom&aacute;tica cada cierto intervalo que tu decidas. Los archivos a ser ejecutados deben ser a&ntilde;adidos en <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b>. Si indicas mas de un archivo, deben ser separados por comas.<br /><br /><b>&Uacute;ltima ejecuci&oacute;n: ' . (($config['cron_files_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>',
+        'IP_cron_digests_interval' => 'PHP Cron Resumenes',
+		'IP_cron_digests_interval_explain' => 'Esta característica permitirá que una emulación de PHP de la CRON trate de enviar resumenes por mensaje de correo electrónico una vez por hora, pero ya que se basa en una emulación de PHP no puede ser ejecutado de forma correcta cada vez. Esto significa que a veces los correos electrónicos no pueden ser enviados. Si usted puede activar el cron en el servidor, por favor seleccione <b> Cron SERVER </ b> y asegúrese de activar manualmente el archivo para permitir que los resumenes se ejecuten a través del servidor.<br /><br /><b>Ult&iacute;ma ejecuc&iacute;on: ' . (($config['cron_digests_last_run'] == 0) ? 'NUNCA' : create_date('d M Y  - H.i.s', ($config['cron_digests_last_run']), $config['board_timezone'])) . '</b>',
+
+		'IP_cron_birthdays_interval' => 'PHP Cron Cumplea&ñtilde;os',
+		'IP_cron_birthdays_interval_explain' => 'Esta característica permitirá que una emulación de PHP de la CRON trate de enviar e-mails de felicitación de cumpleaños, pero ya que se basa en una emulación de PHP puede no ser ejecutado de forma correcta cada vez. Esto significa que a veces los correos electrónicos no pueden ser enviados.<br /><br /><b>Ultima Ejecuc&iacute;on: ' . (($config['cron_birthdays_last_run'] == 0) ? 'NUNCA' : create_date('d M Y  - H.i.s', ($config['cron_birthdays_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_database_interval' => 'Optimizaci&oacute;n de la BD con intervalo cron',
 		'IP_cron_database_interval_explain' => 'Esta caracter&iacute;stica optimizar&aacute; la base de datos del sitio en cada intervalo dado.<br /><br /><b>&Uacute;ltima ejecuci&oacute;n: ' . (($config['cron_database_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($config['cron_database_last_run']), $config['board_timezone'])) . '</b>',
@@ -458,6 +512,9 @@ if ($lang_extend_admin)
 
 		'IP_cron_topics_interval' => 'Ordenar el cache de temas con Intervalo Cron',
 		'IP_cron_topics_interval_explain' => 'El cache de temas ser&aacute; limpiado en cada intervalo dado.<br /><br /><b>&Uacute;ltima ejecuci&oacute;n: ' . (($config['cron_topics_last_run'] == 0) ? 'NUNCA' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>',
+
+        'IP_cron_sessions_interval' => 'Limpiar Sessiones via CRON',
+		'IP_cron_sessions_interval_explain' => 'Las Tablas de Sessiones seran limpiadas cada intervalo.<br /><br /><b>&Uacute;ltima ejecuci&oacute;n: ' . (($config['cron_sessions_last_run'] == 0) ? 'NUNCA' : create_date('d M Y  - H.i.s', ($config['cron_sessions_last_run']), $config['board_timezone'])) . '</b>',
 
 		'Cron_Disabled' => 'Deshabilitado',
 		'15M' => '15 minutos',

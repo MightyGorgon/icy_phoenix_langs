@@ -1,9 +1,9 @@
-Subject: Su petici&oacute;n se ha aprobado
-Charset: utf-8
+Subject: Su petición se ha aprobado
+Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Felicidades.<br /><br />
 
-Su petici&oacute;n para pertenecer al grupo <b>"{GROUP_NAME}"</b> en <b>{SITENAME}</b> se ha aprobado.<br /><br />
+Su petición para pertenecer al grupo <b>"{GROUP_NAME}"</b> en <b>{SITENAME}</b> se ha aprobado.<br /><br />
 
 Pulse en el enlace para ver la lista de usuarios.<br /><br />
 

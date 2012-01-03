@@ -1,7 +1,7 @@
-Subject: Notificaci&oacute;n de un mensaje
-Charset: utf-8
+Subject: Notificación de un mensaje
+Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
-Notificaci&oacute;n de <b>{SITENAME}</b><br /><br />
+Notificación de <b>{SITENAME}</b><br /><br />
 
 El usuario <b>{USER}</b> ha notificado un mensaje.<br />
 Este mensaje tiene ya <b>{NUMBER_OF_REPPORTS}</b> tarjeta(s) azul(es).<br /><br />

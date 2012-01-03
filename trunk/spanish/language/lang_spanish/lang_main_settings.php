@@ -61,8 +61,10 @@ $lang['PrivacyDisclaimer'] = 'Est&aacute; de acuerdo con que sus datos personale
 
 $lang['ENCODING'] = 'UTF-8';
 $lang['DIRECTION'] = 'ltr';
+$lang['USER_LANG'] = 'es-es';
 $lang['HEADER_LANG'] = 'es-es';
 $lang['HEADER_XML_LANG'] = 'es-es';
+$lang['HEADER_LANG_JQUERY'] = 'es-ES';
 $lang['LEFT'] = 'izquierda';
 $lang['RIGHT'] = 'derecha';
 $lang['DATE_FORMAT'] = 'd F y H:i'; // This should be changed to the default date format for your language, php date() format
@@ -70,9 +72,16 @@ $lang['DATE_FORMAT_DATE'] = 'd/m/Y';
 $lang['DATE_FORMAT_TIME'] = 'H:i';
 $lang['DATE_FORMAT_MG'] = 'd/m/Y - H:i';
 $lang['DATE_FORMAT_VF'] = 'd M Y';
+$lang['DATE_FORMAT_DATE_JQUI_JQ'] = 'yy/mm/dd'; // Please note that only yy mm and dd are supported, all with leading zero
+$lang['DATE_FORMAT_DATE_JQUI_PHP'] = 'Y/m/d'; // Please note that only Y m and d are supported, all with leading zero
 $lang['DATE_FORMAT_BIRTHDAY'] = 'd F Y';
 $lang['DATE_FORMAT2'] = 'd F Y'; // This should be changed to the default date format for your language, php date() format
 $lang['JOINED_DATE_FORMAT'] = 'F Y'; // Date format of Joined date, php date() format
+$lang['NUMBER_FORMAT_DECIMALS'] = 0;
+$lang['NUMBER_FORMAT_DECIMALS_SEP'] = '.';
+$lang['NUMBER_FORMAT_THOUSANDS_SEP'] = ',';
+$lang['NUMBER_FORMAT_DATE_SEP'] = '/';
+$lang['NUMBER_FORMAT_TIME_SEP'] = ':';
 
 // This is optional, if you would like a _SHORT_ message output
 // along with our copyright message indicating you are the translator

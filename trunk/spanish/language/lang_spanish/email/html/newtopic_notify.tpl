@@ -1,5 +1,5 @@
 Subject: Notificacion de nuevo tema en el foro "{FORUM_NAME}" - {TOPIC_TITLE}
-Charset: utf-8
+Charset: iso-8859-1
 <br /><font face="Verdana" size="2">
 Hola, <b>{USERNAME}</b>.<br /><br />
 
@@ -13,8 +13,8 @@ Puede usar el siguiente enlace para ver el tema:<br /><br />
 <div class="post-text">{POST_TEXT}</div>
 
 <br /><br />
-Recibe este correo porque est&aacute; observando este foro <b>"{FORUM_NAME}"</b> en <b>{SITENAME}.</b><br />
-Si ya no desea seguir observ&aacute;ndolo, pulse en el enlace "Parar de observar este foro" que est&aacute; en la parte de abajo del foro <b>"{FORUM_NAME}"</b> o en este otro enlace:
+Recibe este correo porque está observando este foro <b>"{FORUM_NAME}"</b> en <b>{SITENAME}.</b><br />
+Si ya no desea seguir observándolo, pulse en el enlace "Parar de observar este foro" que está en la parte de abajo del foro <b>"{FORUM_NAME}"</b> o en este otro enlace:
 <br /><br />
 <a href="{U_STOP_WATCHING_FORUM}" target="_blank">{U_STOP_WATCHING_FORUM}</a>
 <br /><br />

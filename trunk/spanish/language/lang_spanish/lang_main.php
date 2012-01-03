@@ -46,6 +46,10 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <b><i>Junior Developer</i></b><br />
 <br />
 <br />
+<span style="color: #ff5500;"><b>Informpro</b></span><br />
+<b><i>Junior Developer</i></b><br />
+<br />
+<br />
 <b><i>Contribuciones valiosas</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
@@ -94,7 +98,7 @@ $lang = array_merge($lang, array(
 	'Poster' => 'Autor',
 	'Author' => 'Autor',
 	'Time' => 'Hora',
-	'Hours' => 'Horas',
+	'Horas' => 'Horas',
 	'Message' => 'Mensaje',
 
 	'1_Day' => '1 d&iacute;a',
@@ -155,18 +159,18 @@ $lang = array_merge($lang, array(
 	'Reply_to_topic' => 'Responder al tema',
 	'Reply_with_quote' => 'Responder citando',
 
-	'Click_return_login' => 'Pulse %saqu&iacute;%s para intentar de nuevo',
-	'Click_return_index' => 'Pulse %saqu&iacute;%s para volver al &iacute;ndice',
-	'Click_return_forum' => 'Pulse %saqu&iacute;%s para volver al foro',
-	'Click_return_topic' => 'Pulse %saqu&iacute;%s para volver al tema', // %s's here are for uris, do not remove!
-	'Click_return_viewtopic' => 'Pulse %saqu&iacute;%s para volver al tema',
-	'Click_return_modcp' => 'Pulse %saqu&iacute;%s para volver al panel de control del moderador',
-	'Click_return_profile' => 'Pulse %saqu&iacute;%s para volver al perfil',
-	'Click_return_preferences' => 'Pulse %saqu&iacute;%s para volver a las preferencias',
-	'Click_return_group' => 'Pulse %saqu&iacute;%s para volver a la informaci&oacute;n de grupo',
-	'Click_return_inbox' => 'Pulse %saqu&iacute;%s para volver a su bandeja de entrada',
-	'Click_view_message' => 'Pulse %saqu&iacute;%s para ver su mensaje',
-	'Click_view_privmsg' => 'Pulse %saqu&iacute;%s para ver su bandeja de entrada',
+    'Click_return_login' => 'Pulse %saqu&iacute;%s para intentar de nuevo',
+    'Click_return_index' => 'Pulse %saqu&iacute;%s para volver al &iacute;ndice',
+    'Click_return_forum' => 'Pulse %saqu&iacute;%s para volver al foro', 
+    'Click_return_topic' => 'Pulse %saqu&iacute;%s para volver al tema', // %s's here are for uris, do not remove! 
+    'Click_return_viewtopic' => 'Pulse %saqu&iacute;%s para volver al Tema',
+    'Click_return_modcp' => 'Pulse %saqu&iacute;%s para volver al panel de control del moderador',
+    'Click_return_profile' => 'Pulse %saqu&iacute;%s para volver al Pefil',
+    'Click_return_preferences' => 'Pulse %saqu&iacute;%s para volver a Preferencias',
+    'Click_return_group' => 'Pulse %saqu&iacute;%s para volver a la informaci&oacute;n de grupo',  
+    'Click_return_inbox' => 'Pulse %saqu&iacute;%s para volver a su bandeja de entrada',
+    'Click_view_message' => 'Pulse %saqu&iacute;%s para ver su mensaje',
+    'Click_view_privmsg' => 'Pulse %saqu&iacute;%s para ver su bandeja de entrada',
 
 	'Admin_panel' => 'Ir al ACP',
 
@@ -268,11 +272,10 @@ $lang = array_merge($lang, array(
 // Viewforum
 	'View_forum' => 'Ver foro',
 
-	'Forum_not_exist' => 'El foro que ha seleccionado no existe.',
 	'Reached_on_error' => 'Ha llegado a esta p&aacute;gina debido a un error.',
 
 	'Display_topics' => 'Mostrar temas anteriores',
-	'All_Topics' => 'Todos los temas',
+	'ALL_TOPICS' => 'Todos los Topicos',
 
 	'Topic_News_nb' => 'Noticia',
 	'Topic_global_announcement_nb' => 'Anuncio global',
@@ -334,11 +337,10 @@ $lang = array_merge($lang, array(
 
 	'No_newer_topics' => 'No hay temas m&aacute;s nuevos en este foro',
 	'No_older_topics' => 'No hay temas anteriores en este foro',
-	'Topic_post_not_exist' => 'El tema o mensaje solicitado no existe',
 	'No_posts_topic' => 'Este tema no tiene mensajes',
 
 	'Display_posts' => 'Mostrar mensajes anteriores',
-	'All_Posts' => 'Todos los mensajes',
+	'ALL_POSTS' => 'Todos los Posts',
 	'Newest_First' => 'El m&aacute;s reciente primero',
 	'Oldest_First' => 'El m&aacute;s antiguo primero',
 
@@ -514,7 +516,6 @@ $lang = array_merge($lang, array(
 	'PM_disabled' => 'Se han desactivado los mensajes privados en este foro',
 	'Cannot_send_privmsg' => 'Lo sentimos, pero el administrador le ha desactivado la opci&oacute;n de enviar mensajes privados.',
 	'No_to_user' => 'Debe especificar un nombre de usuario a quien mandar este mensaje.',
-	'No_such_user' => 'Lo sentimos, pero no existe ese usuario.',
 
 	'Disable_HTML_pm' => 'Deshabilitar HTML en este mensaje',
 	'Disable_ACRO_AUTO_pm' => 'Deshabilitar siglas y autoenlaces en este mensaje',
@@ -523,13 +524,16 @@ $lang = array_merge($lang, array(
 
 	'Message_sent' => 'Su mensaje se ha enviado',
 
+	
+	
+
 	'Send_a_new_message' => 'Enviar un nuevo mensaje privado',
 	'Send_a_reply' => 'Responder a un mensaje privado',
 	'Edit_message' => 'Editar mensaje privado',
 
 	'Notification_subject' => '&iexcl;Ha recibido un nuevo mensaje privado!',
 
-	'Find_username' => 'Buscar un usuario',
+	'FIND_USERNAME' => 'Buscar un Usuario',
 	'Find' => 'Buscar',
 	'No_match' => 'No se hallaron coincidencias.',
 
@@ -547,6 +551,8 @@ $lang = array_merge($lang, array(
 	'Sentbox_size' => 'Su bandeja de enviados est&aacute; %d%% llena',
 	'Savebox_size' => 'Su bandeja de guardados est&aacute; %d%% llena',
 
+	
+
 // Profiles/Registration
 	'Viewing_user_profile' => 'Viendo perfil :: %s', // %s is username
 	'About_user' => 'Todo sobre %s', // %s is username
@@ -558,8 +564,9 @@ $lang = array_merge($lang, array(
 	'User_not_active' => 'El usuario <b>no est&aacute;</b> activo',
 	'Username_banned' => 'El usuario <b>est&aacute;</b> excluido',
 	'Username_not_banned' => 'El usuario <b>no est&aacute;</b> excluido',
-	'USER_BAN' => 'Excluir', 
-	'USER_UNBAN' => 'Reincorporar',
+    'USER_BAN' => 'Banear',
+    'USER_UNBAN' => 'Desbanear',
+
 	'User_email_banned' => 'Correo del usuario [ %s ] <b>est&aacute;</b> excluido',
 	'User_email_not_banned' => 'Correo del usuario <b>no est&aacute;</b> excluido',
 //End Quick Administrator User Options and Information MOD
@@ -589,7 +596,6 @@ $lang = array_merge($lang, array(
 	'Search_user_posts' => 'Buscar todos los mensajes de %s', // Find all posts by username
 	'Search_user_topics_started' => 'Buscar todos los mensajes que empiezan por %s', // Find all topics started by username
 
-	'No_user_id_specified' => 'Lo sentimos, pero ese usuario no existe.',
 	'Wrong_Profile' => 'No puede modificar un perfil que no sea el suyo.',
 
 // Invision View Profile - BEGIN
@@ -882,8 +888,8 @@ $lang = array_merge($lang, array(
 	'Guest_user_online' => 'Hay %d usuario an&oacute;nimo conectado', // There is 1 Guest user online
 	'No_users_browsing' => 'No hay usuarios viendo el foro en este momento',
 
-	'Online_explain' => 'Estos datos est&aacute;n basados en la actividad de usuarios de los &uacute;ltimos 5 minutos',
-	'Online_today' => 'Estos datos est&aacute;n basados en la actividad de usuarios en las &uacute;ltimas 24 horas',
+	'ONLINE_EXPLAIN' => 'Estos datos est&aacute;n basados en la actividad de usuarios de los &uacute;ltimos 5 minutos',
+	'ONLINE_TODAY' => 'Estos datos est&aacute;n basados en la actividad de usuarios en las &uacute;ltimas 24 horas',
 
 	'Forum_Location' => 'Ubicaci&oacute;n en el foro',
 	'Last_updated' => '&Uacute;ltima actualizaci&oacute;n',
@@ -963,6 +969,7 @@ $lang = array_merge($lang, array(
 	'Guestbook' => 'Libro de visitas',
 	'Viewing_guestbook' => 'Leer libro de visitas',
 
+
 	'Warn_new_post' => 'Hay por lo menos una nueva contestaci&oacute;n en este tema. Por favor, repase las nuevas respuestas en la revisi&oacute;n del tema y vuelva a enviar su mensaje.',
 
 	'Today_at' => '<b class="date-today">Hoy</b> a las ',
@@ -979,8 +986,8 @@ $lang = array_merge($lang, array(
 	'Birthday_require' => 'La fecha de nacimiento es un dato obligatorio.',
 	'Birthday_to_low' => 'Lo sentimos, pero no se admiten usuarios menores de %d a&ntilde;os',
 	'Submit_date_format' => 'd-m-Y', //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different seperators are accepted)
-	'Birthday_greeting_today' => 'Queremos desearle un feliz %s cumplea&ntilde;os.<br /><br />&nbsp;',//%s is substituted with the users age
-	'Birthday_greeting_prev' => 'Con un poco de retraso, ya que cumpliste %s a&ntilde;os en %s, te deseamos un feliz cumplea&ntilde;os.<br /><br />&nbsp;',//%s is substituted with the users age, and birthday 
+	'Birthday_greeting_today' => 'Queremos desearle un feliz %s cumplea&ntilde;os.',//%s is substituted with the users age
+	'Birthday_greeting_prev' => 'Con un poco de retraso, ya que cumpliste %s a&ntilde;os en %s, te deseamos un feliz cumplea&ntilde;os.',//%s is substituted with the users age, and birthday 
 	'Greeting_Messaging' => 'Felicidades',
 	'Birthday_today' => 'Hoy es el cumplea&ntilde;os de: ',
 	'Birthday_week' => 'En los pr&oacute;ximos %d d&iacute;as, cumplen a&ntilde;os los siguientes usuarios:',
@@ -1017,6 +1024,7 @@ $lang = array_merge($lang, array(
 	'Ban_reactivate' => 'Su cuenta ha sido reactivada',
 	'Ban_warning' => 'Ha recibido una tarjeta amarilla, advertencia',
 	'Ban_blocked' => 'Su cuenta ha sido bloqueada',
+	
 /*
 	'Rules_ban_can' => '<b>Puede</b> expulsar a otros usuarios',
 	'Rules_greencard_can' => '<b>Puede</b> quitar Tarjetas verdes',
@@ -1562,22 +1570,22 @@ $lang = array_merge($lang, array(
 	'Login_Hidden' => 'Oculto',
 	'Login_Visible' => 'Visible',
 	'Login_Default' => 'Por defecto',
-	'Errors_Not_Found' => 'La direcci&oacute;n solicitada no se ha encontrado en este servidor',
-	'Errors_000' => 'Error desconocido',
-	'Errors_000_Full' => 'La direcci&oacute;n solicitada devuelve un c&oacute;digo de error desconocido.<br />Los errores se han copiado al log y comprobaremos el problema lo antes posible.',
-	'Errors_400' => 'Error 400',
-	'Errors_400_Full' => 'La direcci&oacute;n solicitada no es una direcci&oacute;n v&aacute;lida.',
-	'Errors_401' => 'Error 401 - Error de autorizaci&oacute;n',
-	'Errors_401_Full' => 'Est&aacute; recibiendo este mensaje porque no le autorizan a tener acceso a esta direcci&oacute;n.',
-	'Errors_403' => 'Error 403',
-	'Errors_403_Full' => 'Acceso a esta direcci&oacute;n prohibido.',
+	'ERRORS_NOT_FOUND' => 'La direcci&oacute;n solicitada no se ha encontrado en este servidor',
+	'ERRORS_000' => 'Error desconocido',
+	'ERRORS_000_FULL' => 'La direcci&oacute;n solicitada devuelve un c&oacute;digo de error desconocido.<br />Los errores se han copiado al log y comprobaremos el problema lo antes posible.',
+	'ERRORS_400' => 'Error 400',
+	'ERRORS_400_FULL' => 'La direcci&oacute;n solicitada no es una direcci&oacute;n v&aacute;lida.',
+	'ERRORS_401' => 'Error 401 - Error de autorizaci&oacute;n',
+	'ERRORS_401_FULL' => 'Est&aacute; recibiendo este mensaje porque no le autorizan a tener acceso a esta direcci&oacute;n.',
+	'ERRORS_403' => 'Error 403',
+	'ERRORS_403_FULL' => 'Acceso a esta direcci&oacute;n prohibido.',
 	'Errors_404' => 'Error 404 - Archivo no encontrado',
 	'Errors_404_Full' => 'La direcci&oacute;n que ha solicitado no est&aacute; disponible en este servidor. Puede tener un error en la direcci&oacute;n o lo qu&eacute; est&aacute; buscando pudo haber sido quitado.',
-	'Errors_500' => 'Error 500 - Error de configuraci&oacute;n',
-	'Errors_500_Full' => 'La direcci&oacute;n que ha solicitado devuelve un error de configuraci&oacute;n.<br />Los errores se han copiado log y comprobaremos el problema lo antes posible.',
-	'Errors_Email_Subject' => 'Errores: ',
-	'Errors_Email_Addrress_Prefix' => 'xs_errors',
-	'Errors_Email_Body' => 'Un error ha ocurrido en su sitio. Por favor, revise el archivo log.',
+	'ERRORS_500' => 'Error 500 - Error de configuraci&oacute;n',
+	'ERRORS_500_FULL' => 'La direcci&oacute;n que ha solicitado devuelve un error de configuraci&oacute;n.<br />Los errores se han copiado log y comprobaremos el problema lo antes posible.',
+	'ERRORS_EMAIL_SUBJECT' => 'Errores: ',
+	'ERRORS_EMAIL_ADDRESS_PREFIX' => 'xs_errors',
+	'ERRORS_EMAIL_BODY' => 'Un error ha ocurrido en su sitio. Por favor, revise el archivo log.',
 	'Remote_avatar_no_image' => 'La imagen %s no existe',
 	'Remote_avatar_error_filesize' => 'La imagen pesa m&aacute;s del l&iacute;mite permitido (%d bytes)',
 	'Remote_avatar_error_dimension' => 'La imagen es m&aacute;s grande de lo permitido (%d x %d pixels)',
@@ -1781,14 +1789,14 @@ $lang = array_merge($lang, array(
 	'UserSport' => 'Deporte/equipo',
 	'UserMusic' => 'M&uacute;sica/grupos',
 	'UserNoInfo' => 'Informaci&oacute;n no disponible',
-	'Last_Seen' => '&Uacute;ltima conexi&oacute;n',
+	'LAST_SEEN' => '&Uacute;ltima conexi&oacute;n',
 // New MG - END
 
 // MG CMS - BEGIN
 	'CMS_TITLE' => 'CMS',
 	'CMS_MANAGEMENT' => 'Administraci&oacute;n CMS',
-	'CMS_CONFIG' => 'Configuraci&oacute;n CMS',
-	'CMS_SETTINGS' => 'Preferencias CMS',
+	'CMS_CONFIG' => 'Configuraci&oacute;n',
+	'CMS_SETTINGS' => 'Preferencias',
 	'CMS_ACP' => 'Editar esta p&aacute;gina',
 	'CUSTOM_PAGE' => 'P&aacute;gina personalizada',
 // MG CMS - END
@@ -1796,7 +1804,7 @@ $lang = array_merge($lang, array(
 // Icy Phoenix - BUILD 001
 	'SimilarTopics' => 'Temas parecidos',
 	'Chat' => 'Chat',
-	'Digests' => 'Resumen',
+	'DIGESTS' => 'Resumen',
 
 	'CPL_REG_INFO_EXPLAIN' => 'Nombre, direcci&oacute;n de correo y contrase&ntilde;a',
 	'CPL_PROFILE_INFO_EXPLAIN' => 'Informaci&oacute;n general del contacto, messenger, sexo, cumplea&ntilde;os, intereses y otra informaci&oacute;n',
@@ -1926,10 +1934,10 @@ $lang = array_merge($lang, array(
 
 /* lang_prune_users.php - BEGIN */
 // add to prune inactive
-	'X_Days' => '%d d&iacute;as',
-	'X_Weeks' => '%d semanas',
-	'X_Months' => '%d meses',
-	'X_Years' => '%d a&ntilde;os',
+	'X_DAYS' => '%d d&iacute;as',
+	'X_WEEKS' => '%d semanas',
+	'X_MONTHS' => '%d meses',
+	'X_YEARS' => '%d a&ntilde;os',
 
 	'Confirm_delete_user' => '&iquest;Seguro que quiere eliminar este/estos usuario/s? ',
 	'Prune_no_users' => 'N&iacute;ng&uacute;n usuario borrado',
@@ -1963,7 +1971,7 @@ $lang = array_merge($lang, array(
 	'Upload_Image_Empty' => 'No puede subir al aire... &iexcl;Ya lo sabe!',
 	'Upload_File_Too_Big' => '&iexcl;El archivo que est&aacute; intentando subir es demasiado grande! Tama&ntilde;o m&aacute;ximo permitido:',
 	'Upload_File_Error' => 'Error Desconocido',
-	'Upload_File_Error_Size' => 'Tamaño de archivo no permitido',
+	'Upload_File_Error_Size' => 'Tama&ntilde;o de archivo no permitido',
 	'Upload_File_Error_Type' => 'Tipo de archivo no permitido',
 	'Upload_File_Type_Allowed' => 'S&oacute;lo este tipo de archivos pueden subirse',
 	'Upload_Insert_Image' => 'Insertar BBCode',
@@ -2175,13 +2183,6 @@ $lang = array_merge($lang, array(
 	'WHITE_LIST_MESSAGE' => 'Este foro requiere confirmaci&oacute;n de cuenta a trav&eacute;s de e-mail. Por favor, verifique que este dominio est&aacute; en la lista blanca de su sistema de antispam o nunca recibir&aacute; el mensaje de activaci&oacute;n.',
 	'CLICK_RETURN_HOME' => 'Pulse %saqu&iacute;%s para volver a la p&aacute;gina principal',
 
-	'WEEK_DAY_SUNDAY' => 'Domingo',
-	'WEEK_DAY_MONDAY' => 'Lunes',
-	'WEEK_DAY_TUESDAY' => 'Martes',
-	'WEEK_DAY_WEDNESDAY' => 'Mi&eacute;rcoles',
-	'WEEK_DAY_THURSDAY' => 'Jueves',
-	'WEEK_DAY_FRIDAY' => 'Viernes',
-	'WEEK_DAY_SATURDAY' => 'S&aacute;bado',
 
 	'RATINGS' => 'Valoraciones',
 
@@ -2204,12 +2205,6 @@ $lang = array_merge($lang, array(
 	'SORT_ORDER' => 'Ordenar por',
 	'SORT_DIR' => 'Direcci&oacute;n de ordenaci&oacute;n',
 
-	'TIME_YEAR' => 'A&ntilde;o',
-	'TIME_MONTH' => 'Mes',
-	'TIME_DAY' => 'D&iacute;a',
-	'TIME_HOUR' => 'Hora',
-	'TIME_MINUTE' => 'Minuto',
-	'TIME_SECOND' => 'Segundo',
 
 	'CONTACTS' => 'Contactos',
 
@@ -2264,8 +2259,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_TAGS_LIST' => 'Lista de Etiquetas y Palabras Clave',
 	'TAG_COUNT' => 'Contador',
 	'TAG_TEXT' => 'Etiqueta',
-	'TAGS_TEXT' => 'Etiquetas',
-	'TAG_RESULTS' => 'Etiqueta seleccionada: <b>%s</b>',
+    'TAGS_TEXT' => 'Etiquetas',
+	'TAGS_SEARCH' => 'Buscar etiqueta...',
+	'TAGS_SEARCH_NO_RESULTS' => 'No se encontraron etiquetas!',
+    'TAG_RESULTS' => 'Etiqueta seleccionada: <b>%s</b>',
+	
 	'TAGS_NO_TAGS' => 'No se ha definido ninguna etiqueta',
 	'TAGS_NO_TAG' => 'La etiqueta especificada no existe',
 
@@ -2377,23 +2375,74 @@ $lang = array_merge($lang, array(
 	'FRIEND_REMOVE' => 'Eliminar de mis amigos',
 	'FOE_ADD' => 'A&ntilde;adir como enemigo',
 	'FOE_REMOVE' => 'Eliminar de mis enemigos',
-
-	'SOCIAL_NETWORKS' => 'Redes Sociales', 
+    'SOCIAL_NETWORKS' => 'Redes Sociales',
 	'USER_FIRST_NAME' => 'Nombre',
 	'USER_LAST_NAME' => 'Apellidos',
 	'FACEBOOK' => 'Facebook',
 	'TWITTER' => 'Twitter',
 
-	'INACTIVE_USER' => 'Usuario inactivo',
+    'INACTIVE_USER' => 'Usuario Inactivo',
+    'SEARCH_MIN_CHARS' => 'Necesita introducir como minimo %s letras para usar la busqueda.',
 
-	'SEARCH_MIN_CHARS' => 'Debe escribir al menos %s caracteres para poder realizar la b&uacute;squeda.',
+    'EXTRA_STATS_SHOW' => 'Mostrar Estad&iacute;sticas Extra',
+    'EXTRA_STATS_HIDE' => 'Esconder Estad&iacute;sticas Extra',
+    'RESERVED' => 'Reservado',
+'VIEW_TOPICS_DAYS' => 'Display topics from previous days',
+	'VIEW_TOPICS_DIR' => 'Display topic order direction',
+	'VIEW_TOPICS_KEY' => 'Display topics ordering by',
+	'VIEW_POSTS_DAYS' => 'Display posts from previous days',
+	'VIEW_POSTS_DIR' => 'Display post order direction',
+	'VIEW_POSTS_KEY' => 'Display posts ordering by',
 
-	'EXTRA_STATS_SHOW' => 'Mostrar estad&iacute;sticas extra', 
-	'EXTRA_STATS_HIDE' => 'Ocultar estad&iacute;sticas extra', 
-	'RESERVED' => 'Reservado', 
+	'AUTHOR' => 'Autor',
+	'POST_TIME' => 'Hora',
+	'REPLIES' => 'Respuestas',
+	'SUBJECT' => 'Objetivo',
+	'VIEWS' => 'Vistas',
+
+	'INVALID' => 'Data invalida.',
+	'TOO_LARGE' => 'El valor es demasiado grande.',
+	'TOO_LONG' => 'El valor es demasiado largo.',
+	'TOO_SHORT' => 'El valor es demasiado corto.',
+	'TOO_SMALL' => 'El valor es demasiado peque&ntilde;o.',
+	'WRONG_DATA' => 'Data invalida.',
+
+	'ERROR_NO_ATTACHMENT' => 'El archivo que intenta descargar, no existe.',
+	'NO_FORUM' => 'El Foro selecionado, no existe.',
+	'NO_TOPIC' => 'El Topico &oacute; Post que busca, no existe.',
+	'NO_USER' => 'Lo sentimos, pero este Usuario no existe',
+
+	'AJAX_SEARCH' => 'Buscar...',
+
+	'FLICKR' => 'Flickr',
+	'GOOGLEPLUS' => 'Google Plus',
+	'LINKEDIN' => 'LinkedIn',
+	'YOUTUBE' => 'YouTube',
+
+	'MOBILE_STYLE_ENABLE' => 'Habilitar estilo Movil',
+	'MOBILE_STYLE_DISABLE' => 'Deshabilitar estilo Movil',
+
+	'INVALID_SESSION' => 'Session invalida. Si el problema persiste, contacte con el Administrador.',
+
+	'BACK_TO_TOP' => 'Arriba',
+	'BACK_TO_PREV' => 'Volver a Pagina previa',
+
+	'CMS_EDIT_PARENT_BLOCK' => 'Editar bloque padre',
+
+	'UPI2DB_DISABLED' => 'UPI2DB Deshabilitado',
+	'UPI2DB_LINK_U' => 'UPI2DB No leeidos',
+	'UPI2DB_LINK_M' => 'UPI2DB Markados',
+	'UPI2DB_LINK_P' => 'UPI2DB Permanentes',
+	'UPI2DB_LINK_FULL' => 'UPI2DB Info completa',
+	'NEW_POSTS_LINK' => 'Nuevos',
+	'LOGIN_LOGOUT_LINK' => 'Conectar/Desconectar',
+	'MENU_EMPTY_LINK' => 'Enlace vacio',
+
+	'IP_BLACKLISTED' => 'Su IP %s ha sido blockeada por encontrarse en la lista negra. Para mas Informac&iacute;on visite <a href="%s">%s</a>.',
+
 	)
 );
-
+	
 /*Special Cases, Do not bother to change for another language */
 $lang['YES'] = $lang['Yes'];
 $lang['NO'] = $lang['No'];
@@ -2415,134 +2464,216 @@ $lang['Prune_commands'][5] = 'Borrar usuarios que no escriben y no visitan el fo
 $lang['Prune_explain'][5] = 'De quieres nunca han enviado un mensaje y no han visitado el foro recientemente, <b>excluyendo</b> los nuevos usuarios de los &uacute;ltimos %d d&iacute;as';
 
 // Timezones - BEGIN
-$lang['All_times'] = 'Todas las horas son %s'; // eg. All times are GMT - 12 Hours (times from next block)
+$lang['All_times'] = 'Todas las horas son %s'; // eg. All times are GMT - 12 Horas (times from next block)
 
 // Time zones short
-$lang['tzs']['-12'] = 'GMT - 12 horas';
-$lang['tzs']['-11'] = 'GMT - 11 horas';
-$lang['tzs']['-10'] = 'GMT - 10 horas';
-$lang['tzs']['-9'] = 'GMT - 9 horas';
-$lang['tzs']['-8'] = 'GMT - 8 horas';
-$lang['tzs']['-7'] = 'GMT - 7 horas';
-$lang['tzs']['-6'] = 'GMT - 6 horas';
-$lang['tzs']['-5'] = 'GMT - 5 horas';
-$lang['tzs']['-4'] = 'GMT - 4 horas';
-$lang['tzs']['-3.5'] = 'GMT - 3.5 horas';
-$lang['tzs']['-3'] = 'GMT - 3 horas';
-$lang['tzs']['-2'] = 'GMT - 2 horas';
-$lang['tzs']['-1'] = 'GMT - 1 hora';
-$lang['tzs']['0'] = 'GMT';
-$lang['tzs']['1'] = 'GMT + 1 hora';
-$lang['tzs']['2'] = 'GMT + 2 horas';
-$lang['tzs']['3'] = 'GMT + 3 horas';
-$lang['tzs']['3.5'] = 'GMT + 3.5 horas';
-$lang['tzs']['4'] = 'GMT + 4 horas';
-$lang['tzs']['4.5'] = 'GMT + 4.5 horas';
-$lang['tzs']['5'] = 'GMT + 5 horas';
-$lang['tzs']['5.5'] = 'GMT + 5.5 horas';
-$lang['tzs']['6'] = 'GMT + 6 horas';
-$lang['tzs']['6.5'] = 'GMT + 6.5 horas';
-$lang['tzs']['7'] = 'GMT + 7 horas';
-$lang['tzs']['8'] = 'GMT + 8 horas';
-$lang['tzs']['9'] = 'GMT + 9 horas';
-$lang['tzs']['9.5'] = 'GMT + 9.5 horas';
-$lang['tzs']['10'] = 'GMT + 10 horas';
-$lang['tzs']['11'] = 'GMT + 11 horas';
-$lang['tzs']['12'] = 'GMT + 12 horas';
-$lang['tzs']['13'] = 'GMT + 13 horas';
+$lang['tz'] = array(
+	'-12' => 'UTC - 12 Horas',
+	'-11' => 'UTC - 11 Horas',
+	'-10' => 'UTC - 10 Horas',
+	'-9.5' => 'UTC - 9:30 Horas',
+	'-9' => 'UTC - 9 Horas',
+	'-8' => 'UTC - 8 Horas',
+	'-7' => 'UTC - 7 Horas',
+	'-6' => 'UTC - 6 Horas',
+	'-5' => 'UTC - 5 Horas',
+	'-4.5' => 'UTC - 4:30 Horas',
+	'-4' => 'UTC - 4 Horas',
+	'-3.5' => 'UTC - 3:30 Horas',
+	'-3' => 'UTC - 3 Horas',
+	'-2' => 'UTC - 2 Horas',
+	'-1' => 'UTC - 1 Hora',
+	'0' => 'UTC',
+	'1' => 'UTC + 1 Hora',
+	'2' => 'UTC + 2 Horas',
+	'3' => 'UTC + 3 Horas',
+	'3.5' => 'UTC + 3:30 Horas',
+	'4' => 'UTC + 4 Horas',
+	'4.5' => 'UTC + 4:30 Horas',
+	'5' => 'UTC + 5 Horas',
+	'5.5' => 'UTC + 5:30 Horas',
+	'5.75' => 'UTC + 5:45 Horas',
+	'6' => 'UTC + 6 Horas',
+	'6.5' => 'UTC + 6:30 Horas',
+	'7' => 'UTC + 7 Horas',
+	'8' => 'UTC + 8 Horas',
+	'8.75' => 'UTC + 8:45 Horas',
+	'9' => 'UTC + 9 Horas',
+	'9.5' => 'UTC + 9:30 Horas',
+	'10' => 'UTC + 10 Horas',
+	'10.5' => 'UTC + 10:30 Horas',
+	'11' => 'UTC + 11 Horas',
+	'11.5' => 'UTC + 11:30 Horas',
+	'12' => 'UTC + 12 Horas',
+	'12.75' => 'UTC + 12:45 Horas',
+	'13' => 'UTC + 13 Horas',
+	'14' => 'UTC + 14 Horas',
+	'dst' => '[ <abbr title="Daylight Saving Time">DST</abbr> ]',
+);
 
 // These are displayed in the timezone select box
-$lang['tz']['-12'] = '(GMT -12 horas) Eniwetok, Kwajalein';
-$lang['tz']['-11'] = '(GMT -11 horas) Midway Island, Samoa';
-$lang['tz']['-10'] = '(GMT -10 horas) Hawaii';
-$lang['tz']['-9'] = '(GMT -9 horas) Alaska';
-$lang['tz']['-8'] = '(GMT -8 horas) Pacific Time (US &amp; Canada)';
-$lang['tz']['-7'] = '(GMT -7 horas) Mountain Time (US &amp; Canada)';
-$lang['tz']['-6'] = '(GMT -6 horas) Central Time (US &amp; Canada), Mexico City';
-$lang['tz']['-5'] = '(GMT -5 horas) Eastern Time (US &amp; Canada), Bogota, Lima, Quito';
-$lang['tz']['-4'] = '(GMT -4 horas) Atlantic Time (Canada), Caracas, La Paz';
-$lang['tz']['-3.5'] = '(GMT -3.5 horas) Newfoundland';
-$lang['tz']['-3'] = '(GMT -3 horas) Brazil, Buenos Aires, Georgetown';
-$lang['tz']['-2'] = '(GMT -2 horas) Mid-Atlantic';
-$lang['tz']['-1'] = '(GMT -1 hora) Azores, Cape Verde Islands';
-$lang['tz']['0'] = '(GMT) Western Europe Time, London, Lisbon, Casablanca, Monrovia';
-$lang['tz']['1'] = '(GMT +1 hora) CET(Central Europe Time), Brussels, Madrid, Paris';
-$lang['tz']['2'] = '(GMT +2 horas) EET(Eastern Europe Time), Kaliningrad, South Africa';
-$lang['tz']['3'] = '(GMT +3 horas) Baghdad, Kuwait, Riyadh, Moscow, St. Petersburg';
-$lang['tz']['3.5'] = '(GMT +3.5 horas) Tehran';
-$lang['tz']['4'] = '(GMT +4 horas) Abu Dhabi, Muscat, Baku, Tbilisi';
-$lang['tz']['4.5'] = '(GMT +4.5 horas) Kabul';
-$lang['tz']['5'] = '(GMT +5 horas) Ekaterinburg, Islamabad, Karachi, Tashkent';
-$lang['tz']['5.5'] = '(GMT +5.5 horas) Bombay, Calcutta, Madras, New Delhi';
-$lang['tz']['5.75'] = '(GMT +5.75 horas) Kathmandu';
-$lang['tz']['6'] = '(GMT +6 horas) Almaty, Dhaka, Colombo';
-$lang['tz']['6.5'] = '(GMT +6.5 horas)';
-$lang['tz']['7'] = '(GMT +7 horas) Bangkok, Hanoi, Jakarta';
-$lang['tz']['8'] = '(GMT +8 horas) Beijing, Perth, Singapore, Hong Kong, Urumqi';
-$lang['tz']['9'] = '(GMT +9 horas) Tokyo, Seoul, Osaka, Sapporo, Yakutsk';
-$lang['tz']['9.5'] = '(GMT +9.5 horas) Adelaide, Darwin';
-$lang['tz']['10'] = '(GMT +10 horas) EAST(East Australian Standard), Guam';
-$lang['tz']['11'] = '(GMT +11 horas) Magadan, Solomon Islands, New Caledonia';
-$lang['tz']['12'] = '(GMT +12 horas) Auckland, Fiji, Kamchatka, Marshall Island';
-$lang['tz']['13'] = '(GMT +13 horas) Nuku\'alofa';
+$lang['tz_zones'] = array(
+	'-12' => '[UTC - 12] Baker Island Time',
+	'-11' => '[UTC - 11] Niue Time, Samoa Standard Time',
+	'-10' => '[UTC - 10] Hawaii-Aleutian Standard Time, Cook Island Time',
+	'-9.5' => '[UTC - 9:30] Marquesas Islands Time',
+	'-9' => '[UTC - 9] Alaska Standard Time, Gambier Island Time',
+	'-8' => '[UTC - 8] Pacific Standard Time',
+	'-7' => '[UTC - 7] Mountain Standard Time',
+	'-6' => '[UTC - 6] Central Standard Time',
+	'-5' => '[UTC - 5] Eastern Standard Time',
+	'-4.5' => '[UTC - 4:30] Venezuelan Standard Time',
+	'-4' => '[UTC - 4] Atlantic Standard Time',
+	'-3.5' => '[UTC - 3:30] Newfoundland Standard Time',
+	'-3' => '[UTC - 3] Amazon Standard Time, Central Greenland Time',
+	'-2' => '[UTC - 2] Fernando de Noronha Time, South Georgia &amp; the South Sandwich Islands Time',
+	'-1' => '[UTC - 1] Azores Standard Time, Cape Verde Time, Eastern Greenland Time',
+	'0' => '[UTC] Western European Time, Greenwich Mean Time',
+	'1' => '[UTC + 1] Central European Time, West African Time',
+	'2' => '[UTC + 2] Eastern European Time, Central African Time',
+	'3' => '[UTC + 3] Moscow Standard Time, Eastern African Time',
+	'3.5' => '[UTC + 3:30] Iran Standard Time',
+	'4' => '[UTC + 4] Gulf Standard Time, Samara Standard Time',
+	'4.5' => '[UTC + 4:30] Afghanistan Time',
+	'5' => '[UTC + 5] Pakistan Standard Time, Yekaterinburg Standard Time',
+	'5.5' => '[UTC + 5:30] Indian Standard Time, Sri Lanka Time',
+	'5.75' => '[UTC + 5:45] Nepal Time',
+	'6' => '[UTC + 6] Bangladesh Time, Bhutan Time, Novosibirsk Standard Time',
+	'6.5' => '[UTC + 6:30] Cocos Islands Time, Myanmar Time',
+	'7' => '[UTC + 7] Indochina Time, Krasnoyarsk Standard Time',
+	'8' => '[UTC + 8] Chinese Standard Time, Australian Western Standard Time, Irkutsk Standard Time',
+	'8.75' => '[UTC + 8:45] Southeastern Western Australia Standard Time',
+	'9' => '[UTC + 9] Japan Standard Time, Korea Standard Time, Chita Standard Time',
+	'9.5' => '[UTC + 9:30] Australian Central Standard Time',
+	'10' => '[UTC + 10] Australian Eastern Standard Time, Vladivostok Standard Time',
+	'10.5' => '[UTC + 10:30] Lord Howe Standard Time',
+	'11' => '[UTC + 11] Solomon Island Time, Magadan Standard Time',
+	'11.5' => '[UTC + 11:30] Norfolk Island Time',
+	'12' => '[UTC + 12] New Zealand Time, Fiji Time, Kamchatka Standard Time',
+	'12.75' => '[UTC + 12:45] Chatham Islands Time',
+	'13' => '[UTC + 13] Tonga Time, Phoenix Islands Time',
+	'14' => '[UTC + 14] Line Island Time',
+);
 // Timezones - END
 
-$lang['datetime']['Sunday'] = 'Domingo';
-$lang['datetime']['Monday'] = 'Lunes';
-$lang['datetime']['Tuesday'] = 'Martes';
-$lang['datetime']['Wednesday'] = 'Mi&eacute;rcoles';
-$lang['datetime']['Thursday'] = 'Jueves';
-$lang['datetime']['Friday'] = 'Viernes';
-$lang['datetime']['Saturday'] = 'S&aacute;bado';
-$lang['datetime']['Sun'] = 'Dom';
-$lang['datetime']['Mon'] = 'Lun';
-$lang['datetime']['Tue'] = 'Mar';
-$lang['datetime']['Wed'] = 'Mi&eacute;';
-$lang['datetime']['Thu'] = 'Jue';
-$lang['datetime']['Fri'] = 'Vie';
-$lang['datetime']['Sat'] = 'S&aacute;b';
-$lang['datetime']['January'] = 'Enero';
-$lang['datetime']['February'] = 'Febrero';
-$lang['datetime']['March'] = 'Marzo';
-$lang['datetime']['April'] = 'Abril';
-$lang['datetime']['May'] = 'Mayo';
-$lang['datetime']['June'] = 'Junio';
-$lang['datetime']['July'] = 'Julio';
-$lang['datetime']['August'] = 'Agosto';
-$lang['datetime']['September'] = 'Septiembre';
-$lang['datetime']['October'] = 'Octubre';
-$lang['datetime']['November'] = 'Noviembre';
-$lang['datetime']['December'] = 'Diciembre';
-$lang['datetime']['JAN'] = 'Ene';
-$lang['datetime']['FEB'] = 'Feb';
-$lang['datetime']['MAR'] = 'Mar';
-$lang['datetime']['APR'] = 'Abr';
-$lang['datetime']['MAY'] = 'May';
-$lang['datetime']['JUN'] = 'Jun';
-$lang['datetime']['JUL'] = 'Jul';
-$lang['datetime']['AUG'] = 'Ago';
-$lang['datetime']['SEP'] = 'Sep';
-$lang['datetime']['OCT'] = 'Oct';
-$lang['datetime']['NOV'] = 'Nov';
-$lang['datetime']['DEC'] = 'Dic';
-$lang['datetime']['Jan'] = $lang['datetime']['JAN'];
-$lang['datetime']['Feb'] = $lang['datetime']['FEB'];
-$lang['datetime']['Mar'] = $lang['datetime']['MAR'];
-$lang['datetime']['Apr'] = $lang['datetime']['APR'];
-$lang['datetime']['May'] = $lang['datetime']['MAY'];
-$lang['datetime']['Jun'] = $lang['datetime']['JUN'];
-$lang['datetime']['Jul'] = $lang['datetime']['JUL'];
-$lang['datetime']['Aug'] = $lang['datetime']['AUG'];
-$lang['datetime']['Sep'] = $lang['datetime']['SEP'];
-$lang['datetime']['Oct'] = $lang['datetime']['OCT'];
-$lang['datetime']['Nov'] = $lang['datetime']['NOV'];
-$lang['datetime']['Dec'] = $lang['datetime']['DEC'];
+// Dates And Times - BEGIN
+$lang = array_merge($lang, array(
+	'WEEK_DAY_SUNDAY' => 'Domingo',
+	'WEEK_DAY_MONDAY' => 'Lunes',
+	'WEEK_DAY_TUESDAY' => 'Martes',
+	'WEEK_DAY_WEDNESDAY' => 'Miercoles',
+	'WEEK_DAY_THURSDAY' => 'Jueves',
+	'WEEK_DAY_FRIDAY' => 'Viernes',
+	'WEEK_DAY_SATURDAY' => 'Sabado',
+
+	'TIME_YEAR' => 'A&ntilde;o',
+	'TIME_MONTH' => 'Mes',
+	'TIME_DAY' => 'Dia',
+	'TIME_HOUR' => 'Hora',
+	'TIME_MINUTE' => 'Minuto',
+	'TIME_SECOND' => 'Segundo',
+
+	// The value is only an example and will get replaced by the current time on view
+	'dateformats' => array(
+		'd M Y, H:i' => '01 Ene 2007, 13:37',
+		'd M Y H:i' => '01 Ene 2007 13:37',
+		'M jS, \'y, H:i' => 'Ene 1st, \'07, 13:37',
+		'D M d, Y g:i a' => 'Lun Ene 01, 2007 1:37 pm',
+		'F jS, Y, g:i a' => 'Enero 1º, 2007, 1:37 pm',
+		'|d M Y|, H:i' => 'Hoy, 13:37 / 01 Ene 2007, 13:37',
+		'|F jS, Y|, g:i a' => 'Hoy, 1:37 pm / Enero 1º, 2007, 1:37 pm'
+	),
+
+	// The default dateformat which will be used on new installs in this language
+	// Translators should change this if a the usual date format is different
+	'default_dateformat' => 'D M d, Y g:i a', // Mon Jan 01, 2007 1:37 pm
+
+	)
+);
+
+$lang['datetime'] = array(
+	'TODAY' => 'Hoy',
+	'TOMORROW' => 'Ma&ntilde;ana',
+	'YESTERDAY' => 'Ayer',
+	'AGO' => array(
+		0 => 'hace menos de un minuto',
+		1 => 'hace %d minutos',
+		2 => 'hace %d minutos',
+		60=> 'hace una hora',
+	),
+
+	'Sunday' => 'Domingo',
+	'Monday' => 'Lunes',
+	'Tuesday' => 'Martes',
+	'Wednesday' => 'Miercoles',
+	'Thursday' => 'Jueves',
+	'Friday' => 'Viernes',
+	'Saturday' => 'Sabado',
+
+	'Sun' => 'Dom',
+	'Mon' => 'Lun',
+	'Tue' => 'Mar',
+	'Wed' => 'Mie',
+	'Thu' => 'Jue',
+	'Fri' => 'Vie',
+	'Sat' => 'Sab',
+
+	'SUN_S' => 'Do',
+	'MON_S' => 'Lu',
+	'TUE_S' => 'Ma',
+	'WED_S' => 'Mi',
+	'THU_S' => 'Ju',
+	'FRI_S' => 'Vi',
+	'SAT_S' => 'Sa',
+
+	'January' => 'Enero',
+	'February' => 'Febrero',
+	'March' => 'Marzo',
+	'April' => 'Abril',
+	'May' => 'Mayo',
+	'June' => 'Junio',
+	'July' => 'Julio',
+	'August' => 'Agosto',
+	'September' => 'Septiembre',
+	'October' => 'Octobre',
+	'November' => 'Noviembre',
+	'December' => 'Diciembre',
+
+	'JAN' => 'Ene',
+	'FEB' => 'Feb',
+	'MAR' => 'Mar',
+	'APR' => 'Abr',
+	'MAY' => 'May',
+	'JUN' => 'Jun',
+	'JUL' => 'Jul',
+	'AUG' => 'Ago',
+	'SEP' => 'Sep',
+	'OCT' => 'Oct',
+	'NOV' => 'Nov',
+	'DEC' => 'Dic',
+
+	'Jan_short' => 'Ene',
+	'Feb_short' => 'Feb',
+	'Mar_short' => 'Mar',
+	'Apr_short' => 'Abr',
+	'May_short' => 'May',
+	'Jun_short' => 'Jun',
+	'Jul_short' => 'Jul',
+	'Aug_short' => 'Ago',
+	'Sep_short' => 'Sep',
+	'Oct_short' => 'Oct',
+	'Nov_short' => 'Nov',
+	'Dec_short' => 'Dic',
+);
 
 $lang['day_short'] = array($lang['datetime']['Sun'], $lang['datetime']['Mon'], $lang['datetime']['Tue'], $lang['datetime']['Wed'], $lang['datetime']['Thu'], $lang['datetime']['Fri'], $lang['datetime']['Sat']);
-$lang['day_long'] = array($lang['datetime']['Sunday'], $lang['datetime']['Monday'], $lang['datetime']['Tuesday'], $lang['datetime']['Wednesday'], $lang['datetime']['Thursday'], $lang['datetime']['Friday'], $lang['datetime']['Saturday']);
-$lang['month_short'] = array($lang['datetime']['JAN'], $lang['datetime']['FEB'], $lang['datetime']['MAR'], $lang['datetime']['APR'], $lang['datetime']['MAY'], $lang['datetime']['JUN'], $lang['datetime']['JUL'], $lang['datetime']['AUG'], $lang['datetime']['SEP'], $lang['datetime']['OCT'], $lang['datetime']['NOV'], $lang['datetime']['DEC']);
-$lang['month_long'] = array($lang['datetime']['January'], $lang['datetime']['February'], $lang['datetime']['March'], $lang['datetime']['April'], $lang['datetime']['May'], $lang['datetime']['June'], $lang['datetime']['July'], $lang['datetime']['August'], $lang['datetime']['September'], $lang['datetime']['October'], $lang['datetime']['November'], $lang['datetime']['December']);
 
+$lang['day_long'] = array($lang['datetime']['Sunday'], $lang['datetime']['Monday'], $lang['datetime']['Tuesday'], $lang['datetime']['Wednesday'], $lang['datetime']['Thursday'], $lang['datetime']['Friday'], $lang['datetime']['Saturday']);
+
+$lang['month_short'] = array($lang['datetime']['JAN'], $lang['datetime']['FEB'], $lang['datetime']['MAR'], $lang['datetime']['APR'], $lang['datetime']['MAY'], $lang['datetime']['JUN'], $lang['datetime']['JUL'], $lang['datetime']['AUG'], $lang['datetime']['SEP'], $lang['datetime']['OCT'], $lang['datetime']['NOV'], $lang['datetime']['DEC']);
+
+$lang['month_long'] = array($lang['datetime']['January'], $lang['datetime']['February'], $lang['datetime']['March'], $lang['datetime']['April'], $lang['datetime']['May'], $lang['datetime']['June'], $lang['datetime']['July'], $lang['datetime']['August'], $lang['datetime']['September'], $lang['datetime']['October'], $lang['datetime']['November'], $lang['datetime']['December']);
+// Dates And Times - END
 //====================================================
 // Do not insert anything below this line
 //====================================================

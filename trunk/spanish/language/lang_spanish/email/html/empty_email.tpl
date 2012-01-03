@@ -1,3 +1,3 @@
 Subject: {SUBJECT}
-Charset: utf-8
+Charset: iso-8859-1
 {MESSAGE}

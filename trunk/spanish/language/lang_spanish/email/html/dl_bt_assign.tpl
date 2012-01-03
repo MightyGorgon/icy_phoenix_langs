@@ -1,10 +1,10 @@
 Subject: Asignado informe de error en <b>{SITENAME}</b>
-Charset: utf-8
+Charset: iso-8859-1
 
 <br /><font face="Verdana" size="2">
 Hola <b>{USERNAME}</b>,<br /><br />
 
-Recibe este correo porqu&eacute; un informe de error en <b>{SITENAME}</b> le ha sido asignado para trabajar en &eacute;l.<br /><br />
+Recibe este correo porqué un informe de error en <b>{SITENAME}</b> le ha sido asignado para trabajar en él.<br /><br />
 
 Para mas detalles sobre este informe visite este enlace:<br /><br />
 

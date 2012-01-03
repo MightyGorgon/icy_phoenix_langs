@@ -74,8 +74,6 @@ $lang = array_merge($lang, array(
 	'Installed' => 'Instalado',
 	'Uninstall' => 'Desinstalar',
 	'Uninstalled' => 'Desinstalado',
-	'Move_up' => 'Mover arriba',
-	'Move_down' => 'Mover abajo',
 	'Update_time' => 'Actualizar fecha',
 	'Auth_settings_updated' => 'Ajustes de autorizaci&oacute;n - [Siempre son actualizados]',
 
@@ -90,7 +88,9 @@ $lang = array_merge($lang, array(
 	'Status' => 'Estado',
 	'Update_time_minutes' => 'Actualizar tiempo en minutos',
 	'Update_time_desc' => 'Intervalo de tiempo (en minutos) de refresco del cach&eacute; por uno nuevo.',
-	'Auto_set_update_time' => 'Determina y fija el tiempo recomendado para cada instalaci&oacute;n (y activaci&oacute;n) de los m&oacute;dulos. ATENCI&Oacute;N: puede ser largo.',
+	'AUTO_SET_UPDATE_TIME' => 'Determina y fija el tiempo recomendado para cada instalaci&oacute;n (y activaci&oacute;n) de los m&oacute;dulos. ATENCI&Oacute;N: puede ser largo.',
+	'STAT_BLOCKS_SORT' => '<i>Consejo: Puede cambiar las posiciones, arrastrando los bloques.</i>',
+
 	'Uninstall_module' => 'M&oacute;dulo de desinstalaci&oacute;n',
 	'Uninstall_module_desc' => 'Marca el m&oacute;dulo con el estado "No instalado", de modo que puede reinstalarlo con el comando de instalaci&oacute;n. Este sistema no suprime el m&oacute;dulo de sus ficheros, por lo que debe suprimir la carpeta del modulo manualmente para quitarlo por completo.',
 	'Active_desc' => 'La opci&oacute;n de si el m&oacute;dulo es activo, as&iacute; se mostrar&aacute; dependiendo de los permisos del sistema.',

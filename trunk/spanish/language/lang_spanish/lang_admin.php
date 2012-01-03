@@ -348,6 +348,8 @@ $lang = array_merge($lang, array(
 	'Cookie_secure' => 'Cookie segura [ https ]',
 	'Cookie_secure_explain' => 'Si su servidor permite SSL, active esta opci&oacute;n. Si no, d&eacute;jela desactivada',
 	'Session_length' => 'Duraci&oacute;n de la sesi&oacute;n [ segundos ]',
+    'SESSION_LAST_VISIT_RESET' => 'Refrescar Ultima Visita, si la session exp&iacut;ro',
+	'SESSION_LAST_VISIT_RESET_EXPLAIN' => 'Si habilita esta Opcion, las Ultimas Visitas seran actualizadas, aunque la session expire. De otro Modo, solo sera actualizada, cuando AutoLogin esta habilitado, y la session expire.',
 
 // Visual Confirmation
 	'Visual_confirm' => 'Activar confirmaci&oacute;n visual',
@@ -391,7 +393,7 @@ $lang = array_merge($lang, array(
 	'Forum_status' => 'Estado del foro',
 	'Forum_pruning' => 'Auto-Limpieza (pruning)',
 
-	'prune_freq' => 'Verificar antig&uuml;edad de temas cada',
+	'prune_freq' => 'Verificar antigüedad de temas cada',
 	'prune_days' => 'Eliminar temas que no han recibido respuestas por espacio de',
 	'Set_prune_data' => 'Ha activado auto-limpieza (pruning) para este foro, pero no ha indicado la cantidad de d&iacute;as para el vencimiento. Por favor, regrese e ind&iacute;quelo.',
 
@@ -423,7 +425,7 @@ $lang = array_merge($lang, array(
 	'Click_return_forumadmin' => 'Pulse %saqu&iacute;%s para volver a la administraci&oacute;n de foros',
 
 // Smiley Management
-	'smiley_title' => 'Utilidad de modificaci&oacute;n de emoticonos',
+	'smiley_title' => 'Utilidad de modificaci&oacute;n de emoticonos (Smileys)',
 	'smile_desc' => 'Desde esta p&aacute;gina usted puede agregar, borrar y modificar los emoticonos que los usuarios pueden usar en sus mensajes, tanto p&uacute;blicos como privados. Por favor tenga en cuenta que si su servidor lo soporta, podr&aacute; tambi&eacute;n ordenar los emoticonos r&aacute;pidamente usando el m&eacute;todo de arrastrar y soltar.',
 
 	'smiley_config' => 'Configuraci&oacute;n de emoticono',
@@ -1329,8 +1331,10 @@ $lang = array_merge($lang, array(
 	'Announce_settings' => 'Ajustes de anuncios',
 	'Split_settings' => 'Ajustes de separaci&oacute;n',
 	'Server_Cookies' => 'Configuraciones servidor',
-	'Disable_Registration_IP_Check' => 'Desactivar el rastreo de la lista negra p&uacute;blica de IP durante el registro.',
-	'Disable_Registration_IP_Check_Explain' => 'Comprueba cada direcci&oacute;n IP durante el registro si no esta desactivado. Si la IP encontrada est&aacute; en la lista negra, el registro ser&aacute; bloqueado. Esto puede dar lugar al bloqueo accidental de usuarios correctos.',
+	'ENABLE_CHECK_DNSBL' => 'Habiltar el checkeo de la Lista Negra via IP, durante el registro',
+	'ENABLE_CHECK_DNSBL_EXPLAIN' => 'Si habilita esta Opcion, La IP de los Usuarios sera comparada con la lista negra publica. Tenga en cuenta, que esto podria bloquear algunos Usuarios, cuyas IP figuran en la lista negra por error.',
+	'ENABLE_CHECK_DNSBL_POSTING' => 'Habiltar el checkeo de la Lista Negra via IP, durante el posteo',
+	'ENABLE_CHECK_DNSBL_POSTING_EXPLAIN' => 'Si habilita esta Opcion, La IP de los Usuarios sera comparada con la lista negra publica.',
 	'Config_explain2' => 'El formulario de abajo permitir&aacute; modificar opciones del calendario y de los subforos. Puede cambiar la apariencia y ajustes.',
 	'Forum_postcount' => 'Cantidad de mensajes de usuarios',
 	'Use_Captcha' => 'Usar CAPTCHA',
@@ -1749,8 +1753,6 @@ $lang = array_merge($lang, array(
 	'Deleted_Group' => 'Grupo especificado borrado. Ha reajustado a todos los usuarios que estaban a ninguna categor&iacute;a de usuario de grupo<br />',
 	'Hide' => 'Ocultar',
 	'Un-hide' => 'Mostrar',
-	'Move_Up' => 'Subir',
-	'Move_Down' => 'Bajar',
 	'Group_Hidden' => 'Grupo oculto<br />',
 	'Group_Unhidden' => 'Grupo mostrado<br />',
 	'Groups_Updated' => 'Los cambios del grupo se han actualizado<br />',
@@ -1975,9 +1977,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LIMIT_EDIT_TIME' => 'Limitar tiempo de edici&oacute;n de mensajes',
 	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'Activando esta opci&oacute;n los usuarios podr&aacute;n editar sus propios mensajes solamente en el tiempo especificado en la Configuraci&oacute;n de mensajes de Icy Phoenix (ACP &raquo; Configuraci&oacute;n &raquo; Configuraci&oacute;n General &raquo; Escribiendo y mensajes)',
 
-	'BACK_TO_TOP' => 'Arriba',
-	'BACK_TO_PREV' => 'Volver a la p&aacute;gina anterior',
-
+	
 	// Custom BBCodes - BEGIN
 	'BBCODES_CUSTOM_BBCODES' => 'BBCodes Personalizados',
 	'BBCODES_CUSTOM_BBCODES_EXPLAIN' => 'BBCode es una implementaci&oacute;n especial de HTML que ofrece un mejor control sobre qu&eacute; y c&oacute;mo algo es mostrado. Desde esta p&aacute; puede a&ntilde;adir, eliminar y editar BBCodes personalizados. Para poder usar estos BBCodes debe activar la opci&oacute;n <b>Activar BBCodes Personalizados</b> en la secci&oacute;n <b>ACP &raquo; Configuraci&oacute;n &raquo; Configuraci&oacute;n General &raquo; Escribiendo y Mensajes</b>.',
@@ -2039,7 +2039,7 @@ $lang = array_merge($lang, array(
 	'PLUGINS_NAME' => 'Nombre',
 	'PLUGINS_DESCRIPTION' => 'Descripci&oacute;n',
 	'PLUGINS_VERSION' => 'Versi&oacute;n',
-	'PLUGINS_CURRENT_VERSION' => 'Versi&oacute;n actual',
+	'PLUGINS_CURRENT_VERSION' => 'Versi&oacute;n instalada',
 	'PLUGINS_LAST_VERSION' => '&Uacute;ltima versi&oacute;n',
 	'PLUGINS_INSTALL' => 'Instalar',
 	'PLUGINS_UPGRADE' => 'Actualizar',
@@ -2064,12 +2064,13 @@ $lang = array_merge($lang, array(
 	'FORUM_LIKES_EXPLAIN' => 'Permite a los usuarios marcar mensajes con "me gusta" (debe activar el interruptor global en la configuraci&oacute;n de Icy Phoenix [Carga SQL] para permitir a los usuarios utilizar esta funci&oacute;n)',
 
 	'POSTS_PICS' => 'Mensajes / Im&aacute;genes',
+    'POSTS_PICS' => 'Temas / Imagenes',
 
-	'INACTIVE_USER_FEATURE' => 'Enmascarar a este usuario',
-	'INACTIVE_USER_FEATURE_EXPLAIN' => 'Activando este interruptor, el usuario ser&aacute; enmascarado en todos los foros y mensajes. Sus detalles de perfil ser&aacute;n reemplazadosp por los datos de un usuario an&oacute;nimo. El usuario s&oacute;lo ser&aacute; enmascarado si su cuenta no est&aacute; activa.',
+    'INACTIVE_USER_FEATURE' => 'Actualizar este Usuario',
+    'INACTIVE_USER_FEATURE_EXPLAIN' => 'Habilitando esto, el Usuario sera remplazado en Temas y Foro. El perfil sera reemplazado por datos de usuario anonimo. Solo sera reemplazado, si su cuanta es inactiva.',
 
-	'RANK_SHOW_TITLE' => 'Mostrar t&iacute;tulo del rango', 
-	'RANK_SHOW_TITLE_EXPLAIN' => 'Desactivando esta opci&oacute;n s&oacute;lo se mostrar&aacute; la imagen del rango.', 
+    'RANK_SHOW_TITLE' => 'Mostrar el Titulo del Rango',
+    'RANK_SHOW_TITLE_EXPLAIN' => 'Dishabilitando esta funcion, solo la imagen del Rango sera mostrada',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Ajustes Icy Phoenix',

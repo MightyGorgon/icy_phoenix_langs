@@ -1,5 +1,5 @@
 Subject: Descarga rota
-Charset: utf-8
+Charset: iso-8859-1
 
 <br /><font face="Verdana" size="2">
 Hola <b>{USERNAME}</b>,<br /><br />
