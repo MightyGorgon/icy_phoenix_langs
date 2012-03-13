@@ -1827,6 +1827,7 @@ $lang = array_merge($lang, array(
 	'Shoutbox_loading' => 'Loading Shoutbox...',
 // Errors
 	'Shoutbox_unable' => 'Sorry, the action couldn\'t be done. Please try again.',
+	'Shoutbox_timeout' => 'Sorry the server is not responding. Please try again.',
 	'Shoutbox_empty' => 'No messages in Database',
 	'Shoutbox_no_mode' => 'No valid mode specified',
 // Archive
