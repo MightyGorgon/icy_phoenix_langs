@@ -555,6 +555,7 @@ $lang = array_merge($lang, array(
 
 	'Use_sub_forum' => 'Compressione Indice',
 	'Index_packing_explain' => 'Seleziona il livello di compressione dell\'indice',
+	'List' => 'Elenco',
 	'Medium' => 'Medio',
 	'Full' => 'Completo',
 	'Split_categories' => 'Dividi le categorie nell\'indice',

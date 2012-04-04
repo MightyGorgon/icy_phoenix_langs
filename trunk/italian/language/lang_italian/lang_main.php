@@ -1906,7 +1906,8 @@ $lang = array_merge($lang, array(
 	'Shoutbox_no_auth' => 'Spiacenti, ma solo gli utenti registrati possono utilizzare la Shoutbox.',
 	'Shoutbox_loading' => 'Caricamento Shoutbox...',
 // Errors
-	'Shoutbox_unable' => 'Spiacenti, ma l\'azione richiesta non pu&ograve; essere completate. Riprova di nuovo.',
+	'Shoutbox_unable' => 'Spiacenti, ma l\'azione richiesta non pu&ograve; essere completata. Riprova di nuovo.',
+	'Shoutbox_timeout' => 'Spiacenti, ma il server non risponde. Riprova di nuovo.',
 	'Shoutbox_empty' => 'Nessun messaggio nel DB',
 	'Shoutbox_no_mode' => 'Modo specificato non valido',
 // Archive
