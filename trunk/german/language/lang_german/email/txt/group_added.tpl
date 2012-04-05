@@ -1,10 +1,9 @@
-Subject: Du bist zur Gruppe "{GROUP_NAME}" hinzugefügt worden
-Charset: utf-8
+Subject: Du bist zur Gruppe "{GROUP_NAME}" hinzugefÃ¼gt worden
 
-Glückwunsch,
+GlÃ¼ckwunsch,
 
-Du wurdest zur Gruppe "{GROUP_NAME}" bei {SITENAME} hinzugefügt.
-Diese Aktion wurde durch einen Administrator oder einen Gruppen-Moderator durchgeführt. Für mehr Informationen dazu kannst du den Administrator kontaktieren.
+Du wurdest zur Gruppe "{GROUP_NAME}" bei {SITENAME} hinzugefÃ¼gt.
+Diese Aktion wurde durch einen Administrator oder einen Gruppen-Moderator durchgefÃ¼hrt. FÃ¼r mehr Informationen dazu kannst du den Administrator kontaktieren.
 
 Du kannst deine Gruppen-Mitgliedschaften hier anschauen:
 {U_GROUPCP}

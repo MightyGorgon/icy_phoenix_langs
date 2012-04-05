@@ -378,16 +378,16 @@ $lang = array_merge($lang, array(
 	'L_Toc' => 'Inhaltstabelle (TOC)',
 	'L_Toc_explain' => 'Verwende [toc], um einen Eintrag zur Inhaltstabelle (Table Of Contents - TOC) hinzuzufügen.',
 	'L_Abstract' => 'Zusammenfassung',
-	'L_Abstract_explain' => 'Verwende [abstract]...[/abstract], um eine Zusammenfassung einzufügen.',
+	'L_Abstract_explain' => 'Verwende [abstract]&hellip;[/abstract], um eine Zusammenfassung einzufügen.',
 
 	'L_Title_Format' => 'Titel',
-	'L_Title_Format_explain' => 'Verwende [title]...[/title], um einen Haupt-Titel einzufügen.',
+	'L_Title_Format_explain' => 'Verwende [title]&hellip;[/title], um einen Haupt-Titel einzufügen.',
 
 	'L_Subtitle_Format' => 'Untertitel',
-	'L_Subtitle_Format_explain' => 'Verwende [subtitle]...[/subtitle], um einen Untertitel einzufügen.',
+	'L_Subtitle_Format_explain' => 'Verwende [subtitle]&hellip;[/subtitle], um einen Untertitel einzufügen.',
 
 	'L_Subsubtitle_Format' => 'Minititel',
-	'L_Subsubtitle_Format' => 'Verwende [subsubtitle]...[/subsubtitle], um einen kleinen Titel einzufügen.',
+	'L_Subsubtitle_Format' => 'Verwende [subsubtitle]&hellip;[/subsubtitle], um einen kleinen Titel einzufügen.',
 
 	'L_Options' => 'Optionen:',
 	'L_Formatting' => 'Formatierung:',

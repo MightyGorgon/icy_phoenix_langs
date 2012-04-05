@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'SC_default_smilie' => 'Standard Smiley',
 	'SC_create_smilie' => 'Erstellen',
 	'SC_stop_creating' => 'Abbrechen',
-	'SC_error' => 'Hier ist dein Schild - du hast den Text vergessen...',
+	'SC_error' => 'Hier ist dein Schild - du hast den Text vergessen&hellip;',
 	'SC_another_shield' => 'Möchtest du noch einen Smiley erstellen?',
 	'SC_notext_error' => 'Du kannst keine Smilies ohne Text erstellen!',
 
@@ -198,7 +198,7 @@ $lang = array_merge($lang, array(
 
 	'xs_bbc_hide_message' => 'Versteckte Nachricht',
 	'xs_bbc_hide_quote_message' => 'Zitierte versteckte Nachricht ist noch verdeckt.',
-	'xs_bbc_hide_message_explain' => 'Um diese Nachricht lesen zu können, mußt du registriert sein und eine Antwort geschrieben haben.',
+	'xs_bbc_hide_message_explain' => 'Um diese Nachricht lesen zu können, musst du registriert sein und eine Antwort geschrieben haben.',
 
 	'bbcode_url' => 'URL eingeben (z.B. http://www.icyphoenix.de)',
 	'bbcode_url_title' => 'Titel des Links eingeben',
@@ -211,7 +211,7 @@ $lang = array_merge($lang, array(
 // Forms
 $js_lang = array();
 
-$js_lang['s_formerrors'] = 'Du must etwas Text eingeben, bevor du den Beitrag absenden kannst.';
+$js_lang['s_formerrors'] = 'Du musst etwas Text eingeben, bevor du den Beitrag absenden kannst.';
 $js_lang['s_gen_error'] = ':: Fehler ::\n\n';
 $js_lang['s_url_insert'] = 'URL einfügen (z.B. http://www.icyphoenix.de/)';
 $js_lang['s_url_insert_tip'] = 'http://';
@@ -266,8 +266,8 @@ $js_lang['s_img_help'] = 'Bild einfügen: [img]http://URL_des_Bildes[/img]';
 $js_lang['s_imgl_help'] = 'Links ausgerichtetes Bild einfügen: [img align=left]http://image_url[/img]';
 $js_lang['s_imgr_help'] = 'Rechts ausgerichtetes Bild einfügen: [img align=right]http://image_url[/img]';
 $js_lang['s_albumimg_help'] = 'Foto-Galeriebild einfügen: [albumimg]Foto-Galerie Bild ID[/albumimg]';
-$js_lang['s_albumimgl_help'] = 'Links ausgerichtetes Foto-Galerie Bild einfügen: [albumimg align=left]Foto-Galerie Bild ID[/albumimg]';
-$js_lang['s_albumimgr_help'] = 'Rechts ausgerichtetes Foto-Galerie Bild einfügen: [albumimg align=right]Foto-Galerie Bild ID[/albumimg]';
+$js_lang['s_albumimgl_help'] = 'Foto-Galerie Bild links einfügen: [albumimg align=left]Foto-Galerie Bild ID[/albumimg]';
+$js_lang['s_albumimgr_help'] = 'Foto-Galerie Bild rechts einfügen: [albumimg align=right]Foto-Galerie Bild ID[/albumimg]';
 $js_lang['s_url_help'] = 'URL einfügen: [url]http://URL[/url] oder [url=http://url]URL Text[/url]';
 $js_lang['s_fc_help'] = 'Schriftfarbe: [color=red]Text[/color] (Du kannst ebenfalls color=#FF0000 benutzen)';
 $js_lang['s_fs_help'] = 'Schriftgröße: [size=x-small]Kleiner Text[/size]';
@@ -280,10 +280,10 @@ $js_lang['s_right_help'] = 'Text rechts ausrichten: [align=right]Text[/align]';
 $js_lang['s_left_help'] = 'Text links ausrichten: [align=left]Text[/align]';
 $js_lang['s_center_help'] = 'Text zentriert ausrichten: [align=center]Text[/align]';
 $js_lang['s_justify_help'] = 'Text als Blocksatz ausrichten: [align=justify]Text[/align]';
-$js_lang['s_marqr_help'] = 'Laufschrift nach Rechts: [marq=right]Text[/marq]';
-$js_lang['s_marql_help'] = 'Laufschrift nach Links: [marq=left]Text[/marq]';
-$js_lang['s_marqu_help'] = 'Laufschrift nach Oben: [marq=up]Text[/marq]';
-$js_lang['s_marqd_help'] = 'Laufschrift nach Unten: [marq=down]Text[/marq]';
+$js_lang['s_marqr_help'] = 'Laufschrift nach rechts: [marq=right]Text[/marq]';
+$js_lang['s_marql_help'] = 'Laufschrift nach links: [marq=left]Text[/marq]';
+$js_lang['s_marqu_help'] = 'Laufschrift nach oben: [marq=up]Text[/marq]';
+$js_lang['s_marqd_help'] = 'Laufschrift nach unten: [marq=down]Text[/marq]';
 $js_lang['s_sup_help'] = 'Hochgestellt: [sup]Text[/sup]';
 $js_lang['s_sub_help'] = 'Tiefgestellt: [sub]Text[/sub]';
 $js_lang['s_hr_help'] = 'Horizontale Linie einfügen [hr]';

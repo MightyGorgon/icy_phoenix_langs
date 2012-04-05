@@ -14,6 +14,6 @@ if (!defined('IN_ICYPHOENIX'))
 }
 
 $lang['PLUGIN_CASH'] = 'Cash';
-$lang['PLUGIN_CASH_EXPLAIN'] = 'Cash system';
+$lang['PLUGIN_CASH_EXPLAIN'] = 'Cash System';
 
 ?>

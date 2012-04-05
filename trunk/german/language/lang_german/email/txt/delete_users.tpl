@@ -1,9 +1,8 @@
-Subject: Dein Benutzer-Konto bei {SITENAME} wurde gelöscht
-Charset: utf-8
+Subject: Dein Benutzer-Konto bei {SITENAME} wurde gelÃ¶scht
 
 Hallo {USERNAME},
 
-dies ist eine automatische Nachricht um dir mitzuteilen, dass Dein Benutzer-Konto bei {SITENAME} gelöscht wurde.
+dies ist eine automatische Nachricht um dir mitzuteilen, dass Dein Benutzer-Konto bei {SITENAME} gelÃ¶scht wurde.
 
 Falls du wieder Mitglied unserer Community werden willst, kannst du dich mit einem Klick auf den folgenden Link wieder registrieren.
 

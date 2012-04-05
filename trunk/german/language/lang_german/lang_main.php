@@ -46,6 +46,10 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <b><i>Junior Developer</i></b><br />
 <br />
 <br />
+<span style="color: #ff5500;"><b>Informpro</b></span><br />
+<b><i>Junior Developer</i></b><br />
+<br />
+<br />
 <b><i>Valued Contributors</i></b><br />
 <span style="color: #228822;"><b>Andrea75</b></span><br />
 <span style="color: #dd2222;"><b>Artie</b></span><br />
@@ -223,7 +227,7 @@ $lang = array_merge($lang, array(
 	'Registered_users_zero_total' => 'Wir haben <b>keine</b> registrierten Benutzer.', // # registered users
 	'Registered_users_total' => 'Wir haben <b>%d</b> registrierte Benutzer.', // # registered users
 	'Registered_user_total' => 'Wir haben <b>einen</b> registrierten Benutzer.', // # registered users
-	'Newest_user' => 'Der neuste Benutzer ist <b>%s%s%s</b>.', // a href, username, /a
+	'Newest_user' => 'Der neueste Benutzer ist <b>%s%s%s</b>.', // a href, username, /a
 
 	'No_new_posts_last_visit' => 'Keine neuen Beiträge seit deinem letzten Besuch',
 
@@ -251,7 +255,7 @@ $lang = array_merge($lang, array(
 	'Enter_password' => 'Gib bitte deinen Benutzernamen und dein Passwort ein, um dich einzuloggen.',
 	'Login' => 'Login',
 	'Logout' => 'Logout',
-	'Forgotten_password' => 'Ich habe mein Passwort vergessen!',
+	'Forgotten_password' => 'Passwort vergessen?',
 	'AUTOLOGIN' => 'Bei jedem Besuch automatisch einloggen',
 	'Error_login' => 'Du hast einen falschen oder inaktiven Benutzernamen oder ein falsches Passwort eingegeben.',
 
@@ -269,7 +273,6 @@ $lang = array_merge($lang, array(
 // Viewforum
 	'View_forum' => 'Forum anzeigen',
 
-	'Forum_not_exist' => 'Das ausgewählte Forum existiert nicht.',
 	'Reached_on_error' => 'Fehler auf dieser Seite!',
 
 	'Display_topics' => 'Siehe Beiträge der letzten',
@@ -335,7 +338,6 @@ $lang = array_merge($lang, array(
 
 	'No_newer_topics' => 'Es gibt keine neueren Themen in diesem Forum.',
 	'No_older_topics' => 'Es gibt keine älteren Themen in diesem Forum.',
-	'Topic_post_not_exist' => 'Das gewählte Thema oder der Beitrag existiert nicht.',
 	'No_posts_topic' => 'Es existieren keine Beiträge zu diesem Thema.',
 
 	'Display_posts' => 'Beiträge der letzten Zeit anzeigen',
@@ -515,7 +517,6 @@ $lang = array_merge($lang, array(
 	'PM_disabled' => 'Private Nachrichten wurden in diesem Board deaktiviert.',
 	'Cannot_send_privmsg' => 'Der Administrator hat private Nachrichten für dich gesperrt.',
 	'No_to_user' => 'Du musst einen Benutzernamen angeben, um diese Nachricht zu senden.',
-	'No_such_user' => 'Es existiert kein Benutzer mit diesem Namen.',
 
 	'Disable_HTML_pm' => 'HTML in dieser Nachricht deaktivieren',
 	'Disable_ACRO_AUTO_pm' => 'Abkürzungserklärungen und Autolinks in dieser Nachricht deaktivieren',
@@ -530,7 +531,7 @@ $lang = array_merge($lang, array(
 
 	'Notification_subject' => 'Eine neue private Nachricht ist eingetroffen!',
 
-	'Find_username' => 'Benutzernamen finden',
+	'FIND_USERNAME' => 'Benutzernamen finden',
 	'Find' => 'Finden',
 	'No_match' => 'Keine Ergebnisse gefunden.',
 
@@ -590,7 +591,6 @@ $lang = array_merge($lang, array(
 	'Search_user_posts' => 'Alle Beiträge von %s anzeigen', // Find all posts by username
 	'Search_user_topics_started' => 'Finde alle Themen die von %s gestartet wurden', // Find all topics started by username
 
-	'No_user_id_specified' => 'Dieser Benutzer existiert nicht.',
 	'Wrong_Profile' => 'Du kannst nur dein eigenes Profil bearbeiten.',
 
 // Invision View Profile - BEGIN
@@ -702,11 +702,11 @@ $lang = array_merge($lang, array(
 	'Reg_agreement' => 'Die Administratoren und Moderatoren dieses Forums bemühen sich, Beiträge mit fragwürdigem Inhalt so schnell wie möglich zu bearbeiten oder ganz zu löschen, aber es ist nicht möglich, jede einzelne Nachricht zu überprüfen. Du bestätigst mit Absenden dieser Einverständniserklärung, dass du akzeptierst, dass jeder Beitrag in diesem Forum die Meinung des Urhebers wiedergibt und dass die Administratoren, Moderatoren und Betreiber dieses Forums nur für ihre eigenen Beiträge verantwortlich sind.<br /><br />Du verpflichtest dich, keine beleidigenden, obszönen, vulgären, verleumdenden, gewaltverherrlichenden oder aus anderen Gründen strafbaren Inhalte in diesem Forum zu veröffentlichen. Verstöße gegen diese Regel führen zu sofortiger und permanenter Sperrung, wir behalten uns vor, Verbindungsdaten u. ä. an die strafverfolgenden Behörden weiterzugeben. Du räumst den Betreibern, Administratoren und Moderatoren dieses Forums das Recht ein, Beiträge nach eigenem Ermessen zu entfernen, zu bearbeiten, zu verschieben oder zu sperren. Du stimmst zu, dass die im Rahmen der Registrierung erhobenen Daten in einer Datenbank gespeichert werden.<br /><br />Dieses System verwendet Cookies, um Informationen auf deinem Computer zu speichern. Diese Cookies enthalten keine der oben angegebenen Informationen, sondern dienen ausschließlich deinem Bedienungskomfort dieser Seite. Deine E-Mail-Adresse wird nur zur Bestätigung der Registrierung und ggf. zum Versand eines neuen Passwortes verwendet.<br /><br />Sei versichert, dass deine persönlichen Daten nach den Bestimmunges des Landes des Website-Eigentümer behandelt werden.<br /><br />Durch das Abschließen der Registrierung stimmst du diesen Nutzungsbedingungen zu.',
 
 	'Agreement' => 'Einverständniserklärung',
-	'Agree_under_13' => 'Ich bin mit den Bedingungen dieses Forums einverstanden und <b>unter</b> 12 Jahre alt.',
-	'Agree_over_13' => 'Ich bin mit den Bedingungen dieses Forums einverstanden.',
+	'Agree_under_13' => 'Ich bin mit den Bedingungen einverstanden und <b>unter</b> 12 Jahre alt.',
+	'Agree_over_13' => 'Ich bin mit den Bedingungen einverstanden.',
 	'Agree_not' => 'Ich bin mit den Bedingungen nicht einverstanden.',
 	'Agree_checkbox' => 'Ich stimme diesen Bedingungen ausdrücklich zu.',
-	'Agree_checkbox_Error' => 'Um dich registrieren zu können mußt du die Checkbox (unten auf dieser Seite) aktivieren!',
+	'Agree_checkbox_Error' => 'Um dich registrieren zu können musst du die Checkbox (unten auf dieser Seite) aktivieren!',
 
 	'Wrong_activation' => 'Der Aktivierungsschlüssel aus dem Link stimmt nicht mit dem in der Datenbank überein. Bitte überprüfe die URL, und versuche es erneut.',
 	'Send_password' => 'Schickt mir ein neues Passwort.',
@@ -867,9 +867,9 @@ $lang = array_merge($lang, array(
 	'Auth_Administrators' => '<b>Administratoren</b>',
 
 	'Not_Moderator' => 'Du bist nicht Moderator dieses Forums.',
-	'Not_Authorized' => 'Nicht berechtigt',
+	'Not_Authorized' => 'Nicht berechtigt!',
 
-	'You_been_banned' => 'Du wurdest von diesem Forum verbannt.<br />Kontaktiere den Administrator, um mehr Informationen zu erhalten.',
+	'You_been_banned' => 'Du wurdest von dieser Website verbannt.<br />Kontaktiere den Administrator, um mehr Informationen zu erhalten.',
 
 // Viewonline
 	'Reg_users_zero_online' => 'Es sind kein registrierter und ', // There are 5 Registered and
@@ -883,8 +883,8 @@ $lang = array_merge($lang, array(
 	'Guest_user_online' => 'Es ist ein Gast online.',
 	'No_users_browsing' => 'Im Moment sind keine Benutzer im Forum.',
 
-	'Online_explain' => 'Diese Daten zeigen an, wer in den letzten 5 Minuten online war.',
-	'Online_today' => 'Diese Daten zeigen an, wer in den letzten 24 Stunden online war.',
+	'ONLINE_EXPLAIN' => 'Diese Daten zeigen, wer in den letzten 5 Minuten online war.',
+	'ONLINE_TODAY' => 'Diese Daten zeigen, wer in den letzten 24 Stunden online war.',
 
 	'Forum_Location' => 'Welche Seite',
 	'Last_updated' => 'Zuletzt aktualisiert',
@@ -1158,7 +1158,7 @@ $lang = array_merge($lang, array(
 	'aim_lofi' => 'AIM',
 	'yim_lofi' => 'YIM',
 	'msnm_lofi' => 'MSN',
-	'quick_lofi' => 'Schnellantwort',
+	'quick_lofi' => 'Schnell-Antwort',
 	'new_pm_lofi' => 'Sende eine PN',
 //End Lo-Fi Mod
 
@@ -1301,10 +1301,6 @@ $lang = array_merge($lang, array(
 	'Confirm_delete_edit_note' => 'Bist du sicher, dass du diese Bearbeitungsnotiz löschen möchtest?',
 	'Edit_note_deleted' => 'Die Notiz wurde erfolgreich gelöscht.',
 // End Edit Notes MOD
-//Referrers Mod
-	'Referrers' => 'http Referer',
-	'Viewing_Referrers' => 'Referer anzeigen',
-//Referrers Mod End
 
 	'Recent_topics' => 'Neueste Themen', // Recent Topics
 	'Recent_today' => 'Heute',
@@ -1519,7 +1515,7 @@ $lang = array_merge($lang, array(
 	'Always_set_bm' => 'Setze Lesezeichen automatisch beim Schreiben einen Beitrages',
 	'Found_bookmark' => 'Du hast %d Lesezeichen gesetzt.', // eg. Search found 1 match
 	'Found_bookmarks' => 'Du hast %d Lesezeichen gesetzt.', // eg. Search found 24 matches
-	'More_bookmarks' => 'Mehr Lesezeichen...', // For mozilla navigation bar
+	'More_bookmarks' => 'Mehr Lesezeichen&hellip;', // For mozilla navigation bar
 
 //RSS Reader Help
 	'RSS' => 'RSS',
@@ -1537,7 +1533,7 @@ $lang = array_merge($lang, array(
 	'Rss_news_help_rights' => 'Wir behalten uns das Recht vor, die Nutzung von Feeds jederzeit nach unserem Ermessen zu beenden. Unsere Foren-Feeds dürfen nicht weitervertrieben werden.',
 	'Rss_news_feeds' => 'RSS News Feeds',
 
-	'Quick_Reply' => 'Schnell Antwort',
+	'Quick_Reply' => 'Schnell-Antwort',
 	'Mod_CP_sticky2' => 'Wichtig',
 	'Mod_CP_announce2' => 'Ankündigung',
 	'Mod_CP_global2' => 'Global',
@@ -1563,22 +1559,22 @@ $lang = array_merge($lang, array(
 	'Login_Hidden' => 'Versteckt',
 	'Login_Visible' => 'Sichtbar',
 	'Login_Default' => 'Standard',
-	'Errors_Not_Found' => 'Die angeforderte Adresse wurde auf diesem Server nicht gefunden.',
-	'Errors_000' => 'Unbekannter Fehler',
-	'Errors_000_Full' => 'Die angeforderte Adresse hat einen unbekannten Fehlercode zurückgegeben.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
-	'Errors_400' => 'Fehler 400',
-	'Errors_400_Full' => 'Die angeforderte Adresse ist ungültig.',
-	'Errors_401' => 'Fehler 401 - Nicht berechtigt',
-	'Errors_401_Full' => 'Du erhältst diese Fehlermeldung, weil du nicht berechtigt bist, diese Adresse aufzurufen.',
-	'Errors_403' => 'Fehler 403',
-	'Errors_403_Full' => 'Zugriff auf diese Adresse ist verboten.',
-	'Errors_404' => 'Fehler 404 - Datei nicht gefunden',
-	'Errors_404_Full' => 'Die angeforderte Adresse wurde auf dem Server nicht gefunden. Vielleicht hast du die Adresse falsch eingegeben, oder die angeforderte Seite ist nicht mehr auf dem Server.',
-	'Errors_500' => 'Fehler 500 - Konfigurationsfehler',
-	'Errors_500_Full' => 'Die angeforderte Adresse lieferte einen Konfigurationsfehler.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
-	'Errors_Email_Subject' => 'Fehler: ',
-	'Errors_Email_Addrress_Prefix' => 'icy_phoenix_errors',
-	'Errors_Email_Body' => 'Auf deiner Seite ist ein Fehler aufgetreten. Bitte überprüfe die Log-Datei.',
+	'ERRORS_NOT_FOUND' => 'Die angeforderte Adresse wurde auf diesem Server nicht gefunden.',
+	'ERRORS_000' => 'Unbekannter Fehler',
+	'ERRORS_000_FULL' => 'Die angeforderte Adresse hat einen unbekannten Fehlercode zurückgegeben.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
+	'ERRORS_400' => 'Fehler 400',
+	'ERRORS_400_FULL' => 'Die angeforderte Adresse ist ungültig.',
+	'ERRORS_401' => 'Fehler 401 - Nicht berechtigt',
+	'ERRORS_401_FULL' => 'Du erhältst diese Fehlermeldung, weil du nicht berechtigt bist, diese Adresse aufzurufen.',
+	'ERRORS_403' => 'Fehler 403',
+	'ERRORS_403_FULL' => 'Zugriff auf diese Adresse ist verboten.',
+	'ERRORS_404' => 'Fehler 404 - Datei nicht gefunden',
+	'ERRORS_404_FULL' => 'Die angeforderte Adresse wurde auf dem Server nicht gefunden. Vielleicht hast du die Adresse falsch eingegeben, oder die angeforderte Seite ist nicht mehr auf dem Server.',
+	'ERRORS_500' => 'Fehler 500 - Konfigurationsfehler',
+	'ERRORS_500_FULL' => 'Die angeforderte Adresse lieferte einen Konfigurationsfehler.<br />Der Fehler wurde in eine Log-Datei geschrieben und wir werden so schnell wie möglich prüfen, wo das Problem liegt.',
+	'ERRORS_EMAIL_SUBJECT' => 'Fehler: ',
+	'ERRORS_EMAIL_ADDRRESS_PREFIX' => 'errors_management',
+	'ERRORS_EMAIL_BODY' => 'Auf deiner Seite ist ein Fehler aufgetreten. Bitte überprüfe die Log-Datei.',
 	'Remote_avatar_no_image' => 'Das Bild %s ist nicht vorhanden',
 	'Remote_avatar_error_filesize' => 'Das Bild ist zu groß. Avatare dürfen maximal (%d Bytes) groß sein.',
 	'Remote_avatar_error_dimension' => 'Die Bildpixelgröße ist zu groß. Avatare dürfen maximal (%d x %d Pixel) groß sein.',
@@ -1647,10 +1643,10 @@ $lang = array_merge($lang, array(
 	'SORT_LASTLOGON' => 'Letzter Besuch',
 	'SORT_BIRTHDAY' => 'Geburtstag',
 	'SORT_ONLINE' => 'Online',
-	'ASCENDING' => 'Ascending',
-	'DESCENDING' => 'Descending',
+	'ASCENDING' => 'Aufsteigend',
+	'DESCENDING' => 'Absteigend',
 	'LESS_THAN' => 'Weniger als',
-	'EQUAL_TO' => 'Equal to',
+	'EQUAL_TO' => 'Gleich',
 	'MORE_THAN' => 'Mehr als',
 	'BEFORE' => 'Before',
 	'AFTER' => 'After',
@@ -1730,7 +1726,7 @@ $lang = array_merge($lang, array(
 	'LINK_DIGESTS' => 'Digests',
 
 	'LINK_CREDITS' => 'Credits',
-	'LINK_REFERRERS' => 'HTTP Referrers',
+	'LINK_REFERERS' => 'HTTP Referer',
 	'LINK_VIEWONLINE' => 'Benutzer online',
 	'LINK_STATISTICS' => 'Statistik',
 	'LINK_DELETE_COOKIES' => 'Cookies löschen',
@@ -1783,14 +1779,14 @@ $lang = array_merge($lang, array(
 	'UserSport' => 'Sport/Team',
 	'UserMusic' => 'Musik/Gruppen',
 	'UserNoInfo' => 'Keine Informationen verfügbar',
-	'Last_Seen' => 'Zuletzt Online',
+	'LAST_SEEN' => 'Zuletzt Online',
 // New MG - END
 
 // MG CMS - BEGIN
 	'CMS_TITLE' => 'CMS',
 	'CMS_MANAGEMENT' => 'CMS Verwaltung',
-	'CMS_CONFIG' => 'CMS Konfiguration',
-	'CMS_SETTINGS' => 'CMS Einstellungen',
+	'CMS_CONFIG' => 'Konfiguration',
+	'CMS_SETTINGS' => 'Einstellungen',
 	'CMS_ACP' => 'Bearbeite diese Seite',
 	'CUSTOM_PAGE' => 'Individuelle Seitenanpassung',
 // MG CMS - END
@@ -1798,7 +1794,7 @@ $lang = array_merge($lang, array(
 // Icy Phoenix - BUILD 001
 	'SimilarTopics' => 'Ähnliche Beiträge',
 	'Chat' => 'Chat',
-	'Digests' => 'Digests',
+	'DIGESTS' => 'Digests',
 
 	'CPL_REG_INFO_EXPLAIN' => 'Benutzername, E-Mail-Adresse und Passwort',
 	'CPL_PROFILE_INFO_EXPLAIN' => 'Allgemeine Kontakt Information, Messenger, Geburtstag, Interessen und andere Informationen',
@@ -1827,10 +1823,11 @@ $lang = array_merge($lang, array(
 	'Ajax_Chat' => 'Chat',
 	'Ajax_Archive' => 'Archiv',
 	'Shoutbox_flooderror' => 'Du kannst nicht so schnell hintereinander Shouts senden. Bitte versuche es in einem Moment noch einmal.',
-	'Shoutbox_no_auth' => 'Sorry, nur registrierte Benutzer können die Shoutbox benutzen',
-	'Shoutbox_loading' => 'Lade Shoutbox...',
+	'Shoutbox_no_auth' => 'Entschuldigung, nur registrierte Benutzer können die Shoutbox benutzen',
+	'Shoutbox_loading' => 'Lade Shoutbox&hellip;',
 // Errors
-	'Shoutbox_unable' => 'Sorry, die Aktion konnte nicht ausgeführt werden. Versuch es bitte noch einmal.',
+	'Shoutbox_unable' => 'Entschuldigung, die Aktion konnte nicht ausgeführt werden. Versuch es bitte noch einmal.',
+	'Shoutbox_timeout' => 'Entschuldigung, der Srever antwortet nicht. Bitte versuche es noch einmal.',
 	'Shoutbox_empty' => 'Keine Mitteilungen in der Datenbank',
 	'Shoutbox_no_mode' => 'Kein gültiger Mode festgelegt',
 // Archive
@@ -1911,20 +1908,24 @@ $lang = array_merge($lang, array(
 	'Top_Visiting_Users' => 'Benutzer die die meiste Zeit hier verbracht haben',
 /* lang_site_hist.php - END */
 
-/* lang_referrers.php - BEGIN */
-	'Referrers_Title' => 'Http Referer Konfiguration',
-	'Referrers_Cleared' => 'Referer gelöscht',
-	'Referrers_Clear' => 'Alle löschen',
-	'Click_Return_Referrers' => 'Klicke %shier%s, um zu den Referer zurückzukehren.',
-	'Referrers' => 'Http Referer',
-	'Referrer_host' => 'Verweisender Host',
-	'Referrer_url' => 'Verweisende URL',
-	'Referrer_ip' => 'Verweisende IP',
-	'Referrer_hits' => 'Treffer',
-	'Referrer_first' => 'Erster Besuch',
-	'Referrer_last' => 'Letzter Besuch',
-	'Viewing_Referrers' => 'Referer anzeigen',
-/* lang_referrers.php - END */
+/* lang_referers.php - BEGIN */
+	'REFERERS' => 'Http Referer',
+	'VIEWING_REFERERS' => 'Referer anzeigen',
+	'REFERERS_TITLE' => 'Http Referers Management',
+	'REFERERS_CLEARED' => 'Referer gelöscht',
+	'REFERERS_CLEAR' => 'Alle löschen',
+	'CLICK_RETURN_REFERERS' => 'Klicke %shier%s, um zu den Referer zurückzukehren.',
+	'REFERER_HOST' => 'Host',
+	'REFERER_URL' => 'URL',
+	'REFERER_T_URL' => 'Besuchte URL',
+	'REFERER_IP' => 'IP',
+	'REFERER_HITS' => 'Treffer',
+	'REFERER_FIRST' => 'Erster Besuch',
+	'REFERER_LAST' => 'Letzter Besuch',
+	'REFERER_DELETE' => 'Löschen',
+	'REFERER_KILL' => 'Remove from DB (use * for wildcard)',
+	'REFERER_GROUP_BY' => 'Gruppieren nach',
+/* lang_referers.php - END */
 
 /* lang_prune_users.php - BEGIN */
 // add to prune inactive
@@ -1956,7 +1957,7 @@ $lang = array_merge($lang, array(
 /* lang_.php - BEGIN */
 /* lang_.php - END */
 
-	'Uploading' => 'Wird hochgeladen...',
+	'Uploading' => 'Wird hochgeladen&hellip;',
 	'Upload_Image_Local' => 'Bild hochladen',
 	'Uploaded_Images_Local' => 'Hochgeladene Bilder',
 	'Upload_Image_Local_Explain' => 'Wähle das Bild aus, das du hochladen möchtest.',
@@ -1986,7 +1987,7 @@ $lang = array_merge($lang, array(
 	'AJAX_search_results' => 'Eine Schnellsuche hat %s Themen mit den Schlüsselwörtern aus deinem Thementitel gefunden. Klickt hier, um diese Themen anzusehen.',
 	'AJAX_search_result' => 'Eine Schnellsuche hat ein Thema mit den Schlüsselwörtern aus deinem Thementitel gefunden. Klickt hier, um dieses Thema anzusehen.',
 	'More_matches_username' => 'Mehr als ein Benutzer passt zu deiner Anfrage. Bitte wähle einen aus der obigen Box aus.',
-	'No_username' => 'Du mußt einen Benutzernamen eingeben.',
+	'No_username' => 'Du musst einen Benutzernamen eingeben.',
 	'AJAX_quick_search_results' => 'Eine Schnellsuche hat %s Themen mit diesen Schlüsselwörtern gefunden.<br />Rechts kannst du die ersten Ergebnisse sehen.<br />Klicke auf SUCHEN, um die komplette Ergebnisliste zu erhalten.',
 	'AJAX_quick_search_result' => 'Eine Schnellsuche hat ein Thema mit diesen Schlüsselwörtern gefunden.<br />Rechts kannst du das Ergebnis sehen.',
 
@@ -1995,7 +1996,7 @@ $lang = array_merge($lang, array(
 	'Feature_Disabled' => 'Diese Funktion wurde deaktiviert.',
 
 // Resend Activation - BEGIN
-	'Resend_activation_email' => 'Erneutes Senden der Aktivierungs-E-Mail',
+	'Resend_activation_email' => 'Sende Aktivierungs-E-Mail erneut!',
 	'Invalid_activation' => 'Benutzer-Konto Aktivierung kann nur von einem Administrator durchgeführt werden.',
 	'No_actkey' => 'Es existiert kein Aktivierung-Schlüssel für dein Konto. Bitte kontaktiere den Administrator für mehr Informationen.',
 	'Send_actmail_flood_error' => 'Du kannst nicht so schnell eine erneute Anfrage nach deiner letzten senden! Bitte versuche es später noch einmal.',
@@ -2159,19 +2160,19 @@ $lang = array_merge($lang, array(
 	'SHOW_POSTS_FROM' => 'Zeige Beiträge von',
 	'SHOW_POSTS_TO' => 'an',
 
-	'SEE_MORE_DETAILS' => 'Mehr Details sehen...',
+	'SEE_MORE_DETAILS' => 'Mehr Details sehen&hellip;',
 	'UNKNOWN' => 'Unbekannt',
 	'MASS_PM' => 'Massen-PN',
 	'TEXT_FORMAT' => 'Format',
 	'SENDER' => 'Absender',
-	'PM_NOTIFICATION' => 'Hallo,<br /><br />Du hast eine neue private Nachricht bei &quot;{SITENAME}&quot; erhalten.<br /><br />Du kannst dir deine neue Nachricht anschauen, indem du auf nachstehenden Link klickst:<br /><br />{U_INBOX}<br /><br />',
+	'PM_NOTIFICATION' => 'Hallo,<br /><br />Du hast eine neue private Nachricht von &quot;{SITENAME}&quot; erhalten.<br /><br />Du kannst dir deine neue Nachricht anschauen, indem du auf den nachstehenden Link klickst:<br /><br />{U_INBOX}<br /><br />',
 
 	'GSEARCH' => 'Google Suche',
 	'GSEARCH_ENGINE' => 'Google-Suchmaschine benutzen',
 	'SEARCH_WHAT' => 'Was suchen',
 	'SEARCH_WHERE' => 'Wo suchen',
-	'SEARCH_THIS_FORUM' => 'Dieses Forum durchsuchen...',
-	'SEARCH_THIS_TOPIC' => 'Dieses Thema durchsuchen...',
+	'SEARCH_THIS_FORUM' => 'Dieses Forum durchsuchen&hellip;',
+	'SEARCH_THIS_TOPIC' => 'Dieses Thema durchsuchen&hellip;',
 	'VF_ALL_TOPICS' => 'Alle Themen',
 
 	'WHITE_LIST_MESSAGE' => 'Diese Seite benötigt eine Benutzerkonto Freischaltung via Email. Bitte überprüfe das diese Domain auf der White-Liste (erlaubte Domains) deines Anti-Spam-Systems steht, andernfalls wirst du die Aktivierungsmitteilung nicht erhalten können.',
@@ -2229,7 +2230,7 @@ $lang = array_merge($lang, array(
 	'Reg_Head_Time' => 'Datum:',
 	'Reg_for' => 'Anmeldung läuft für',
 	'Reg_for_explain' => '[ Gib 0 ein, oder freilassen für eine endlose Registrierung ]',
-	'Reg_no_options_specified' => 'Du mußt eine Option auswählen, für die du dich registrieren möchtest.',
+	'Reg_no_options_specified' => 'Du musst eine Option auswählen, für die du dich registrieren möchtest.',
 	'Reg_event_date' => '<b>Event Datum: </b>',
 	// Event Registration - END
 
@@ -2253,7 +2254,7 @@ $lang = array_merge($lang, array(
 	'TAG_TEXT' => 'Tag',
 	'TAGS_TEXT' => 'Tags',
 	'TAG_RESULTS' => 'Ausgewählter Tag: <b>%s</b>',
-	'TAGS_SEARCH' => 'Suche einen Tag...',
+	'TAGS_SEARCH' => 'Suche einen Tag&hellip;',
 	'TAGS_SEARCH_NO_RESULTS' => 'Keinen Tag gefunden!',
 	'TAGS_NO_TAGS' => 'Kein Tag bisher festgelegt',
 	'TAGS_NO_TAG' => 'Vorgegebener Tag ist nicht vorhanden',
@@ -2293,7 +2294,7 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_ATTEMPTS_EXCEEDED' => 'Die maximale Anzahl von %s Login-Versuchen ist erreicht. Du kannst dich deshalb in den nächsten %s Minuten nicht einloggen.',
 	'LOGIN_CONFIRM_EXPLAIN' => 'Um einen Brute-Force-Angriff auf Benutzerkonten zu verhindern, müsst du nach einer bestimmten Zahl von fehlerhaften Anmeldungen einen Bestätigungscode angeben. Der Code wird im unten stehenden Bild angezeigt. Wenn du nur über ein eingeschränktes Sehvermögen verfügen oder aus einem anderen Grund den Code nicht lesen kannst, kontaktiere bitte den %sAdministrator%s.',
-	'LOGIN_ERROR_ATTEMPTS' => 'Du hast die zuöässige Anzahl von Login-Versuchen überschritten. Deshalb mußt du nun zusätzlich zum Benutzernamen und Passwort, auch den Bestätigungs-Code von dem Bild mit angeben.',
+	'LOGIN_ERROR_ATTEMPTS' => 'Du hast die zuöässige Anzahl von Login-Versuchen überschritten. Deshalb musst du nun zusätzlich zum Benutzernamen und Passwort, auch den Bestätigungs-Code von dem Bild mit angeben.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE' => 'Du konntest von Apache nicht authentifiziert werden.',
 	'LOGIN_ERROR_PASSWORD' => 'Du hast ein falsche Passwort angegeben. Bitte überprüfe dein Passwort und versuche es erneut. Wenn du weiterhin Probleme haben solltest, kontaktiere den %sAdministrator%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT' => 'Es war leider nicht möglich dein Passwort (beim Update der Website) zu konvertieren. Bitte %sfordere ein neues Passwort%s an. Wenn du weiterhin Probleme haben solltest, kontaktiere den %sAdministrator%s.',
@@ -2317,7 +2318,7 @@ $lang = array_merge($lang, array(
 	'MAX_OPTIONS_SELECT' => 'Du kannst bis zu <strong>%d</strong> Optionen auswählen.',
 	'MAX_OPTION_SELECT' => 'Du kannst nur <strong>1</strong> Option auswählen.',
 	'NO_POLLS' => 'Keine Umfragen',
-	'NO_VOTE_OPTION' => 'Du mußt mindestens eine Option auswählen.',
+	'NO_VOTE_OPTION' => 'Du musst mindestens eine Option auswählen.',
 	'NO_VOTES' => 'Keine Abstimmungen',
 	'POLL_ENDED_AT' => 'Umfrage endet am %s',
 	'POLL_MAX_OPTIONS' => 'Max Optionen',
@@ -2393,6 +2394,48 @@ $lang = array_merge($lang, array(
 	'SUBJECT' => 'Betreff',
 	'VIEWS' => 'Aufrufe',
 
+	'INVALID' => 'Ungültige Daten.',
+	'TOO_LARGE' => 'Der eingegebene Wert ist zu groß.',
+	'TOO_LONG' => 'Der eingegebene Wert ist zu lang.',
+	'TOO_SHORT' => 'Der eingegebene Wert ist zu kurz.',
+	'TOO_SMALL' => 'Der eingegebene Wert ist zu klein.',
+	'WRONG_DATA' => 'Ungültige Daten.',
+
+	'ERROR_NO_ATTACHMENT' => 'Die Datei, die du herunterladen möchtest, existiert nicht.',
+	'NO_FORUM' => 'Das ausgewählte Forum existiert nicht.',
+	'NO_TOPIC' => 'Das Thema oder der Beitrag existiert nicht.',
+	'NO_USER' => 'Dieser Benutzer existiert nicht.',
+
+	'AJAX_SEARCH' => 'Suche&hellip;',
+
+	'FLICKR' => 'Flickr',
+	'GOOGLEPLUS' => 'Google Plus',
+	'LINKEDIN' => 'LinkedIn',
+	'YOUTUBE' => 'YouTube',
+
+	'MOBILE_STYLE_ENABLE' => 'Aktiviere Mobil freundlichen Style',
+	'MOBILE_STYLE_DISABLE' => 'Deaktiviere Mobil freundlichen Style',
+
+	'INVALID_SESSION' => 'Ungültige Sitzung. Wenn das Problem weiterhin besteht, wende dich bitte an einen Administrator.',
+
+	'BACK_TO_TOP' => 'Top',
+	'BACK_TO_PREV' => 'Zurück zur vorherigen Seite',
+
+	'CMS_EDIT_PARENT_BLOCK' => 'Edit Parent Block',
+
+	'UPI2DB_DISABLED' => 'UPI2DB deaktiviert',
+	'UPI2DB_LINK_U' => 'UPI2DB ungelesen',
+	'UPI2DB_LINK_M' => 'UPI2DB markiert',
+	'UPI2DB_LINK_P' => 'UPI2DB permanent gelesen',
+	'UPI2DB_LINK_FULL' => 'UPI2DB ausführliche Info',
+	'NEW_POSTS_LINK' => 'Neue Beiträge',
+	'LOGIN_LOGOUT_LINK' => 'Login/Logout',
+	'MENU_EMPTY_LINK' => 'Leerer Link',
+
+	'IP_BLACKLISTED' => 'Deine IP-Adresse %s wurde blockiert, da sie auf der Blacklist steht. Weitere Einzelheiten gibt es hier: <a href="%s">%s</a>.',
+
+	'PRINTABLE_VERSION' => 'Druckbare Version',
+
 	)
 );
 
@@ -2421,91 +2464,91 @@ $lang['All_times'] = 'Alle Zeiten sind %s'; // eg. All times are GMT - 12 Hours 
 
 // Time zones short
 $lang['tz'] = array(
-	'-12' => 'GMT - 12 Stunden',
-	'-11' => 'GMT - 11 Stunden',
-	'-10' => 'GMT - 10 Stunden',
-	'-9.5' => 'GMT - 9:30 Stunden',
-	'-9' => 'GMT - 9 Stunden',
-	'-8' => 'GMT - 8 Stunden',
-	'-7' => 'GMT - 7 Stunden',
-	'-6' => 'GMT - 6 Stunden',
-	'-5' => 'GMT - 5 Stunden',
-	'-4.5' => 'GMT - 4:30 Stunden',
-	'-4' => 'GMT - 4 Stunden',
-	'-3.5' => 'GMT - 3:30 Stunden',
-	'-3' => 'GMT - 3 Stunden',
-	'-2' => 'GMT - 2 Stunden',
-	'-1' => 'GMT - 1 Stunde',
-	'0' => 'GMT',
-	'1' => 'GMT + 1 Stunde',
-	'2' => 'GMT + 2 Stunden',
-	'3' => 'GMT + 3 Stunden',
-	'3.5' => 'GMT + 3:30 Stunden',
-	'4' => 'GMT + 4 Stunden',
-	'4.5' => 'GMT + 4:30 Stunden',
-	'5' => 'GMT + 5 Stunden',
-	'5.5' => 'GMT + 5:30 Stunden',
-	'5.75' => 'GMT + 5:45 Stunden',
-	'6' => 'GMT + 6 Stunden',
-	'6.5' => 'GMT + 6:30 Stunden',
-	'7' => 'GMT + 7 Stunden',
-	'8' => 'GMT + 8 Stunden',
-	'8.75' => 'GMT + 8:45 Stunden',
-	'9' => 'GMT + 9 Stunden',
-	'9.5' => 'GMT + 9:30 Stunden',
-	'10' => 'GMT + 10 Stunden',
-	'10.5' => 'GMT + 10:30 Stunden',
-	'11' => 'GMT + 11 Stunden',
-	'11.5' => 'GMT + 11:30 Stunden',
-	'12' => 'GMT + 12 Stunden',
-	'12.75' => 'GMT + 12:45 Stunden',
-	'13' => 'GMT + 13 Stunden',
-	'14' => 'GMT + 14 Stunden',
-	'dst' => '[ <abbr title="Greenwich Mean Time">GMT</abbr> ]',
+	'-12' => 'UTC - 12 Stunden',
+	'-11' => 'UTC - 11 Stunden',
+	'-10' => 'UTC - 10 Stunden',
+	'-9.5' => 'UTC - 9:30 Stunden',
+	'-9' => 'UTC - 9 Stunden',
+	'-8' => 'UTC - 8 Stunden',
+	'-7' => 'UTC - 7 Stunden',
+	'-6' => 'UTC - 6 Stunden',
+	'-5' => 'UTC - 5 Stunden',
+	'-4.5' => 'UTC - 4:30 Stunden',
+	'-4' => 'UTC - 4 Stunden',
+	'-3.5' => 'UTC - 3:30 Stunden',
+	'-3' => 'UTC - 3 Stunden',
+	'-2' => 'UTC - 2 Stunden',
+	'-1' => 'UTC - 1 Stunde',
+	'0' => 'UTC',
+	'1' => 'UTC + 1 Stunde',
+	'2' => 'UTC + 2 Stunden',
+	'3' => 'UTC + 3 Stunden',
+	'3.5' => 'UTC + 3:30 Stunden',
+	'4' => 'UTC + 4 Stunden',
+	'4.5' => 'UTC + 4:30 Stunden',
+	'5' => 'UTC + 5 Stunden',
+	'5.5' => 'UTC + 5:30 Stunden',
+	'5.75' => 'UTC + 5:45 Stunden',
+	'6' => 'UTC + 6 Stunden',
+	'6.5' => 'UTC + 6:30 Stunden',
+	'7' => 'UTC + 7 Stunden',
+	'8' => 'UTC + 8 Stunden',
+	'8.75' => 'UTC + 8:45 Stunden',
+	'9' => 'UTC + 9 Stunden',
+	'9.5' => 'UTC + 9:30 Stunden',
+	'10' => 'UTC + 10 Stunden',
+	'10.5' => 'UTC + 10:30 Stunden',
+	'11' => 'UTC + 11 Stunden',
+	'11.5' => 'UTC + 11:30 Stunden',
+	'12' => 'UTC + 12 Stunden',
+	'12.75' => 'UTC + 12:45 Stunden',
+	'13' => 'UTC + 13 Stunden',
+	'14' => 'UTC + 14 Stunden',
+	'dst' => '[ <abbr title="Koordinierte Weltzeit (UTC)">UTC</abbr> ]',
 );
 
 // These are displayed in the timezone select box
 $lang['tz_zones'] = array(
-	'-12' => '(GMT -12 Stunden) Eniwetok, Kwajalein',
-	'-11' => '(GMT -11 Stunden) Midway Island, Samoa',
-	'-10' => '(GMT -10 Stunden) Hawaii',
-	'-9.5' => '[GMT -9:30 Stunden] Marquesas Islands Time',
-	'-9' => '(GMT -9 Stunden) Alaska',
-	'-8' => '(GMT -8 Stunden) Pacific Time (US &amp; Canada)',
-	'-7' => '(GMT -7 Stunden) Mountain Time (US &amp; Canada)',
-	'-6' => '(GMT -6 Stunden) Central Time (US &amp; Canada), Mexico City',
-	'-5' => '(GMT -5 Stunden) Eastern Time (US &amp; Canada), Bogota, Lima, Quito',
-	'-4.5' => '[GMT -4:30 Stunden] Venezuelan Standard Time',
-	'-4' => '(GMT -4 Stunden) Atlantic Time (Canada), Caracas, La Paz',
-	'-3.5' => '(GMT -3.5 Stunden) Neufundland',
-	'-3' => '(GMT -3 Stunden) Brazilien, Buenos Aires, Georgetown',
-	'-2' => '(GMT -2 Stunden) Mitt-Atlantik',
-	'-1' => '(GMT -1 Stunde) Azoren, Cape Verde Inseln',
-	'0' => '(GMT) Westeuropäische Zeit, London, Lisabon, Casablanca, Monrovia',
-	'1' => '(GMT +1 Stunde) Mitteleuropäische Zeit, Brüssel, Berlin, Madrid, Paris',
-	'2' => '(GMT +2 Stunden) Osteuropäische Zeit, Kaliningrad, Süd Afrika',
-	'3' => '(GMT +3 Stunden) Baghdad, Kuwait, Riyadh, Moskau, St. Petersburg',
-	'3.5' => '(GMT +3.5 Stunden) Tehran',
-	'4' => '(GMT +4 Stunden) Abu Dhabi, Muscat, Baku, Tbilisi',
-	'4.5' => '(GMT +4.5 Stunden) Kabul',
-	'5' => '(GMT +5 Stunden) Ekaterinburg, Islamabad, Karachi, Tashkent',
-	'5.5' => '(GMT +5.5 Stunden) Bombay, Kalkutta, Madras, Neu Delhi',
-	'5.75' => '(GMT +5.75 Stunden) Kathmandu',
-	'6' => '(GMT +6 Stunden) Almaty, Dhaka, Colombo',
-	'6.5' => '(GMT +6.5 Stunden)',
-	'7' => '(GMT +7 Stunden) Bangkok, Hanoi, Jakarta',
-	'8' => '(GMT +8 Stunden) Beijing, Perth, Singapur, Hong Kong, Urumqi',
-	'8.75' => '[GMT +8:45 Stunden] Southeastern Western Australia Standard Time',
-	'9' => '(GMT +9 Stunden) Tokyo, Seoul, Osaka, Sapporo, Yakutsk',
-	'9.5' => '(GMT +9.5 Stunden) Adelaide, Darwin',
-	'10' => '(GMT +10 Stunden) EAST (East Australian Standard), Guam',
-	'10.5' => '[GMT +10:30 Stunden] Lord Howe Standard Time',
-	'11' => '(GMT +11 Stunden) Magadan, Solomon Islands, Neu Caledonia',
-	'11.5' => '[GMT +11:30 Stunden] Norfolk Island Time',
-	'12' => '(GMT +12 Stunden) Auckland, Fiji, Kamchatka, Marshall Inseln',
-	'12.75' => '[GMT +12:45 Stunden] Chatham Islands Time',
-	'13' => '(GMT +13 Stunden) Tonga Time, Phoenix Islands Time',
-	'14' => '[GMT +14 Stunden] Line Island Time',
+	'-12' => '[UTC - 12] Baker Island Time',
+	'-11' => '[UTC - 11] Niue Time, Samoa Standard Time',
+	'-10' => '[UTC - 10] Hawaii-Aleutian Standard Time, Cook Island Time',
+	'-9.5' => '[UTC - 9:30] Marquesas Islands Time',
+	'-9' => '[UTC - 9] Alaska Standard Time, Gambier Island Time',
+	'-8' => '[UTC - 8] Pacific Standard Time',
+	'-7' => '[UTC - 7] Mountain Standard Time',
+	'-6' => '[UTC - 6] Central Standard Time',
+	'-5' => '[UTC - 5] Eastern Standard Time',
+	'-4.5' => '[UTC - 4:30] Venezuelan Standard Time',
+	'-4' => '[UTC - 4] Atlantic Standard Time',
+	'-3.5' => '[UTC - 3:30] Newfoundland Standard Time',
+	'-3' => '[UTC - 3] Amazon Standard Time, Central Greenland Time',
+	'-2' => '[UTC - 2] Fernando de Noronha Time, South Georgia &amp; the South Sandwich Islands Time',
+	'-1' => '[UTC - 1] Azores Standard Time, Cape Verde Time, Eastern Greenland Time',
+	'0' => '[UTC] Western European Time, Greenwich Mean Time',
+	'1' => '[UTC + 1] Central European Time, West African Time',
+	'2' => '[UTC + 2] Eastern European Time, Central African Time',
+	'3' => '[UTC + 3] Moscow Standard Time, Eastern African Time',
+	'3.5' => '[UTC + 3:30] Iran Standard Time',
+	'4' => '[UTC + 4] Gulf Standard Time, Samara Standard Time',
+	'4.5' => '[UTC + 4:30] Afghanistan Time',
+	'5' => '[UTC + 5] Pakistan Standard Time, Yekaterinburg Standard Time',
+	'5.5' => '[UTC + 5:30] Indian Standard Time, Sri Lanka Time',
+	'5.75' => '[UTC + 5:45] Nepal Time',
+	'6' => '[UTC + 6] Bangladesh Time, Bhutan Time, Novosibirsk Standard Time',
+	'6.5' => '[UTC + 6:30] Cocos Islands Time, Myanmar Time',
+	'7' => '[UTC + 7] Indochina Time, Krasnoyarsk Standard Time',
+	'8' => '[UTC + 8] Chinese Standard Time, Australian Western Standard Time, Irkutsk Standard Time',
+	'8.75' => '[UTC + 8:45] Southeastern Western Australia Standard Time',
+	'9' => '[UTC + 9] Japan Standard Time, Korea Standard Time, Chita Standard Time',
+	'9.5' => '[UTC + 9:30] Australian Central Standard Time',
+	'10' => '[UTC + 10] Australian Eastern Standard Time, Vladivostok Standard Time',
+	'10.5' => '[UTC + 10:30] Lord Howe Standard Time',
+	'11' => '[UTC + 11] Solomon Island Time, Magadan Standard Time',
+	'11.5' => '[UTC + 11:30] Norfolk Island Time',
+	'12' => '[UTC + 12] New Zealand Time, Fiji Time, Kamchatka Standard Time',
+	'12.75' => '[UTC + 12:45] Chatham Islands Time',
+	'13' => '[UTC + 13] Tonga Time, Phoenix Islands Time',
+	'14' => '[UTC + 14] Line Island Time',
 );
 // Timezones - END
 
@@ -2570,6 +2613,14 @@ $lang['datetime'] = array(
 	'Thu' => 'Do',
 	'Fri' => 'Fr',
 	'Sat' => 'Sa',
+
+	'SUN_S' => 'So',
+	'MON_S' => 'Mo',
+	'TUE_S' => 'Di',
+	'WED_S' => 'Mi',
+	'THU_S' => 'Do',
+	'FRI_S' => 'Fr',
+	'SAT_S' => 'Sa',
 
 	'January' => 'Januar',
 	'February' => 'Februar',

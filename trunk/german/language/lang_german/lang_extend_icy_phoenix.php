@@ -47,6 +47,24 @@ if ($lang_extend_admin)
 	$lang = array_merge($lang, array(
 		'Lang_extend_icy_phoenix' => 'Icy Phoenix',
 
+// TAB - SERVER
+		'SITE_META_KEYWORDS' => 'Meta Schlüsselwörter',
+		'SITE_META_KEYWORDS_SWITCH' => 'Aktiviere Meta Schlüsselwörter von der DB',
+		'SITE_META_KEYWORDS_SWITCH_EXPLAIN' => 'Wenn du Meta Schlüsselwörter aktivierst, dann werden die oben angegebenen Schlüsselwörter auf den html Seiten benutzt. Sonst werden die Schlüsselwörter aus <i>lang_main_settings.php</i> verwendet.',
+		'SITE_META_DESCRIPTION' => 'Meta Beschreibung',
+		'SITE_META_DESCRIPTION_SWITCH' => 'Aktiviere Meta Beschreibung von der DB',
+		'SITE_META_DESCRIPTION_SWITCH_EXPLAIN' => 'Wenn du Meta Beschreibung aktivierst, dann wird die oben angegebene Beschreibung auf den html Seiten benutzt. Sonst wird die Beschreibung aus <i>lang_main_settings.php</i> verwendet.</i>.',
+		'SITE_META_AUTHOR' => 'Meta Verfasser',
+		'SITE_META_AUTHOR_SWITCH' => 'Aktiviere Meta Verfasser von der DB',
+		'SITE_META_AUTHOR_SWITCH_EXPLAIN' => 'Wenn du Meta Verfasser aktivierst, dann wird der oben angegebene Verfasser auf den html Seiten benutzt. Sonst wird der Verfasser aus <i>lang_main_settings.php</i> verwendet.</i>.',
+		'SITE_META_COPYRIGHT' => 'Meta Copyright',
+		'SITE_META_COPYRIGHT_SWITCH' => 'Aktiviere Meta Copyright von der DB',
+		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Wenn du Meta Copyright aktivierst, dann wird der oben angegebene Copyright auf den html Seiten benutzt. Sonst wird der Copyright aus <i>lang_main_settings.php</i> verwendet.</i>.',
+
+// TAB - SITE
+		'IP_mobile_style_disable' => 'Deaktiviere Mobile Geräte Erkennung',
+		'IP_mobile_style_disable_explain' => 'Normalerweise wird für mobile Geräte der <b>Mobile</b> Style automatisch aktiviert (es kann von jedem Benutzer selbst deaktiviert werden). Wähle diese Funktion, wenn du die automatische Erkennung ausschalten möchtest.',
+
 // TAB - Icy Phoenix
 		'IP_enable_xs_version_check' => 'Aktiviere Icy Phoenix Versions Überprüfung',
 		'IP_enable_xs_version_check_explain' => 'Bei Aktivierung dieser Option wird bei jedem ACP Besuch überprüft ob eine neuere Icy Phoenix Version zum Download verfügbar ist. Die Deaktivierung dieser Option kann das Laden des ACPs etwas erhöhen. Wie auch immer, beachte das diese Überprüfung nur einmal am Tag stattfindet und dann im Cache abgelegt wird.',
@@ -79,10 +97,10 @@ if ($lang_extend_admin)
 		'IP_show_alpha_bar_explain' => 'Diese Option zeigt in der Forum-Ansicht (viewforum.php) eine Leiste, um die Themen alphabetisch sortieren lassen zu können.',
 
 		'IP_show_rss_forum_icon' => 'Forum Index Icons',
-		'IP_show_rss_forum_icon_explain' => 'Diese Option zeigt Icons rechts von jedem Forumtitel an (im Forum Index): RSS, New Topic...',
+		'IP_show_rss_forum_icon_explain' => 'Diese Option zeigt Icons rechts von jedem Forumtitel an (im Forum Index): RSS, Neues Thema&hellip;',
 
 		'IP_allow_mods_view_self' => 'Erlaube allen Moderatoren die SELF AUTH Themen anzuzeigen',
-		'IP_allow_mods_view_self_explain' => 'Wenn ein Forum auf SELF AUTH Zugriff gesetzt wurde, können nur Administratoren und Moderatoren die entsprechenden Foren betreten. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow not authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks... Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
+		'IP_allow_mods_view_self_explain' => 'Wenn ein Forum auf SELF AUTH Zugriff gesetzt wurde, können nur Administratoren und Moderatoren die entsprechenden Foren betreten. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow not authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks&hellip; Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
 
 		'IP_xmas_fx' => 'Weihnachts Schnee',
 		'IP_xmas_fx_explain' => 'Diese Option aktiviert den Schneefall Effekt.',
@@ -152,8 +170,8 @@ if ($lang_extend_admin)
 		'IP_disable_topic_view' => '&quot;Thema angesehen von&quot; (komplett) deaktivieren',
 		'IP_disable_topic_view_explain' => 'Diese Option deaktiviert die &quot;Thema angesehen von&quot;-Funktion (dies reduziert SQL-Platz).',
 
-		'IP_disable_referrers' => 'Referer deaktivieren',
-		'IP_disable_referrers_explain' => 'Diese Option deaktiviert die Referer Funktion (dies reduziert SQL-Platz).',
+		'IP_disable_referers' => 'Referer deaktivieren',
+		'IP_disable_referers_explain' => 'Diese Option deaktiviert die Referer Funktion (dies reduziert SQL-Platz).',
 
 		'IP_disable_logins' => 'Deaktiviere Login Aufzeichnungen',
 		'IP_disable_logins_explain' => 'Bei Aktivierung dieser Option, werden die Logins der Benutzer nicht mehr aufgezeichnet',
@@ -171,7 +189,7 @@ if ($lang_extend_admin)
 
 		'IP_last_msgs_n' => 'Anzahl der letzten Nachrichten die angezeigt werden sollen.',
 
-		'IP_last_msgs_x' => 'auszuschließende Foren',
+		'IP_last_msgs_x' => 'Auszuschließende Foren',
 		'IP_last_msgs_x_explain' => 'Bitte, trage hier die IDs der Foren ein die in der Letzte Nachrichten Box ausgeschlossen werden sollen (Du kannst jede Foren ID mit Komma trennen).',
 
 		'IP_show_chat_online' => 'AJAX Chat Online :: Forum Index',
@@ -195,6 +213,33 @@ if ($lang_extend_admin)
 		'IP_show_random_quote' => 'Zufallszitat :: Forum Index',
 		'IP_show_random_quote_explain' => 'Bei Aktivierung dieser Option, werden die Zufallszitate im <b>Forum Index</b> angezeigt.',
 
+// Spam Section
+		'IP_spam_measures_header' => 'Spam Maßnahmen',
+
+		'IP_spam_posts_number' => 'SPAM - Minimale Beiträge um Spam Maßnahmen zu vermeiden',
+		'IP_spam_posts_number_explain' => 'Bis ein Benutzer die angegebene Beitragszahl erreicht, werden diese Spam Maßnahmen ausgeführt (die nachstehenden mit SPAM Präfix)',
+		'IP_spam_p_0' => 'Deaktiviert',
+		'IP_spam_p_3' => '3',
+		'IP_spam_p_5' => '5',
+		'IP_spam_p_10' => '10',
+		'IP_spam_p_20' => '20',
+
+		'IP_spam_disable_url' => 'SPAM - Deaktiviere URLs in Beiträgen',
+		'IP_spam_disable_url_explain' => 'Diese Funktion entfernt alle URLs in den jeweiligen Beiträgen und ersetzt HTTP with H**P, solange, bis die oben angegebenen Minimalen Beiträge erreicht sind. Administratoren bekommen weiterhin den original Beitrag angezeigt.',
+
+		'IP_spam_hide_signature' => 'SPAM - Deaktiviere Signatur und Web in Beiträgen',
+		'IP_spam_hide_signature_explain' => 'Diese Funktion versteckt die Signatur und persönliche Webseiten Informationen aller Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben. Administratoren bekommen weiterhin die Signatur angezeigt.',
+
+		'IP_spam_post_edit_interval' => 'SPAM - Deaktiviere Beitrag bearbeiten',
+		'IP_spam_post_edit_interval_explain' => 'Durch Aktivierung dieser Funktion werden alle Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben, nicht in der Lage sein, ihre Beiträge innerhalb der angegeben Zeit zu ändern.',
+		'IP_time_15m' => '15 Minuten',
+		'IP_time_30m' => '30 Minuten',
+		'IP_time_1h' => '1 Stunde',
+		'IP_time_2h' => '2 Stunden',
+		'IP_time_6h' => '6 Stunden',
+		'IP_time_12h' => '12 Stunden',
+		'IP_time_24h' => '24 Stunden',
+
 // TAB - Posting
 		'IP_posts_precompiled' => 'Deaktiviere Precompiled Beiträge für Gäste',
 		'IP_posts_precompiled_explain' => 'Bei Aktivierung dieser Option, analysiert die viewtopic.php den Beitrags-Text für Gäste, ohne den Precompiled Text zu verwenden (dies ist langsamer, aber kann in manchen Fällen nützlich sein).',
@@ -208,8 +253,8 @@ if ($lang_extend_admin)
 		'IP_allow_mods_edit_admin_posts' => 'Erlaube Moderatoren die Bearbeitung von Administrator Beiträgen',
 		'IP_allow_mods_edit_admin_posts_explain' => 'Erlaubt Moderatoren die Beiträge von Administratoren zu bearbeiten',
 
-		'IP_forum_limit_edit_time_interval' => 'Limit Edit Time Interval (Minutes)',
-		'IP_forum_limit_edit_time_interval_explain' => 'This sets the time interval for users to be allowed to edit own messages. Set to ZERO for no limits (feature should be enabled on a per forum basis in Forums Management)',
+		'IP_forum_limit_edit_time_interval' => 'Limit Edit Time Interval',
+		'IP_forum_limit_edit_time_interval_explain' => 'This sets the time interval for users to be allowed to edit own messages. Set to ZERO for no limits (feature should be enabled on a per forum basis in Forums Management). This setting will be applied to all users regardless to their number of posts, so it is different from the similar antispam feature which applies only for users who didn\'t reach a certain amount of posts.',
 
 		'IP_force_large_caps_mods' => 'Themen-Betreff anpassen',
 		'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepaßt, indem der erste Buchstabe jedes Wortes groß geschrieben wird. (außer für Admins)',
@@ -239,7 +284,7 @@ if ($lang_extend_admin)
 		'IP_edit_notes_n' => 'maximale Bearbeitungs Anmerkungen',
 
 		'IP_always_show_edit_by' => 'Zeige in Einträgen editiert von',
-		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  &quot;Zuletzt editiert von...&quot; in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
+		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  &quot;Zuletzt editiert von&hellip;&quot; in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
 
 		'IP_show_social_bookmarks' => 'Öffentliche Lesezeichen',
 		'IP_show_social_bookmarks_explain' => 'Zeige Öffentliche Lesezeichen bei den Themen',
@@ -296,7 +341,7 @@ if ($lang_extend_admin)
 		'IP_show_pic_size_on_thumb' => 'Zeige die Bildgröße in den Thumbnails',
 
 		'IP_thumbnail_highslide' => 'Benutze HighSlide JavaScript für die Bildanzeige wenn Thumbnails aktiviert sind',
-		'IP_thumbnail_highslide_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.highslide.com/" target="_blank">HighSlide JS...</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
+		'IP_thumbnail_highslide_explain' => 'Öffnet das Bild vor der aktuellen Seite, ohne ein neues Fenster zu öffnen. Mehr über <a href="http://www.highslide.com/" target="_blank">HighSlide JS&hellip;</a><br />Stelle sicher das du die vorkompilierten Beiträge leerst wenn du hier eine Einstellung verändert hast!',
 
 		'IP_thumbnail_cache' => 'Thumbnails Cache',
 
@@ -345,7 +390,7 @@ if ($lang_extend_admin)
 		'icon_explain' => 'Dieses Icon wird vor dem Forumsnamen angezeigt. Du kannst eine direkte URL angeben oder den $image[] Key Eintrag (siehe <i>dein_template</i>/<i>dein_template.cfg</i>).',
 
 // TAB - Calendar
-		'Lang_extend_topic_calendar' => 'Topic Kalender',
+		'Lang_extend_topic_calendar' => 'Themen Kalender',
 
 // TAB - SEO
 		'IP_url_rw' => 'URL Rewrite',
@@ -359,6 +404,9 @@ if ($lang_extend_admin)
 
 		'IP_lofi_bots' => 'LoFi für Bots',
 		'IP_lofi_bots_explain' => 'Bei Aktivierung dieser Option, wird LoFi für die Bots aktiviert.',
+
+		'IP_seo_cyrillic' => 'Kyrillische Zeichen Konvertierung',
+		'IP_seo_cyrillic_explain' => 'Wenn diese Option aktiviert wird, werden einige kyrillische Zeichen zu lateinischen Zeichen konvertiert (nicht in den Beiträgen, aber in den Schlüsselwörtern, Tags und dort, wo die clean strings Funktion benutzt wird).',
 
 		'IP_adsense_code' => 'Google AdSense Publisher Code',
 		'IP_adsense_code_explain' => 'Füge hier deinen Google AdSense Publisher Code ein und er wird in der Google Suchen Seite eingefügt. Wenn du dies nicht nutzen willst, lasse das Feld einfach leer.',
@@ -404,7 +452,7 @@ if ($lang_extend_admin)
 		'Similar_topics_explain' => 'Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 
 		'IP_similar_topics' => 'Ähnliche Themen :: Ähnliche Themen aktivieren',
-		'IP_similar_topics_explain' => 'This is the global switch for Similar Topics. If you want to switch on this feature you will need also to enable single forums in Forums Management section.',
+		'IP_similar_topics_explain' => 'Dies ist der Hauptschalter für Ähnliche Themen. Wenn du diese Funktion nutzen möchtest, mußt du in dem jeweiligen Forum (Forum-Verwaltung) auch die Ähnliche Themen-Box aktivieren.',
 
 		'IP_similar_topics_desc' => 'Ähnliche Themen :: Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 
@@ -470,6 +518,9 @@ if ($lang_extend_admin)
 		'IP_cron_topics_interval' => 'Themen Cache Cron Intervall',
 		'IP_cron_topics_interval_explain' => 'Der Themen Cache wird in diesem Intervall gelöscht.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_topics_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_topics_last_run']), $config['board_timezone'])) . '</b>',
 
+		'IP_cron_sessions_interval' => 'Sessions-Säuberung Cron Intervall',
+		'IP_cron_sessions_interval_explain' => 'Sessions Tabellen werden in diesem Intervall geleert.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_sessions_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_sessions_last_run']), $config['board_timezone'])) . '</b>',
+
 		'Cron_Disabled' => 'Deaktiviert',
 		'Cron_Server' => 'Server Cron',
 		'15M' => '15 Minuten',
@@ -488,7 +539,7 @@ if ($lang_extend_admin)
 
 // lang_extend_settings.php
 		'Lang_extend_settings' => 'Icy Phoenix Einstellungen',
-		'Configuration_extend' => 'Kalender &amp; Subforen',
+		'Configuration_extend' => 'Kalender &amp; Unterforen',
 		'Override_user_choices' => 'Benutzereinstellungen überschreiben',
 		)
 	);
@@ -510,13 +561,14 @@ $lang = array_merge($lang, array(
 
 	'Use_sub_forum' => 'Unterforen Anzeige (Komprimierung):',
 	'Index_packing_explain' => 'Gibt an, wie die Unterforen im Index angezeigt werden.',
+	'List' => 'Liste',
 	'Medium' => 'Mittel',
 	'Full' => 'Komprimiert',
 	'Split_categories' => 'Kategorien im Index aufteilen:',
 	'Use_last_topic_title' => 'Zeige die Titel der letzten Themen im Index:',
 	'Last_topic_title_length' => 'Titellänge des letzten Themas im Index:',
 	'Sub_level_links' => 'Unterforenlinks im Index:',
-	'Sub_level_links_explain' => 'Füge Links zu den Unterforen in der Forum oder Kategorie Beschreibung hinzu',
+	'Sub_level_links_explain' => 'Füge Links zu den Unterforen in der Forum oder Kategorie Beschreibung hinzu.',
 	'With_pics' => 'Mit Icons',
 	'Display_viewonline' => 'Wer ist Online Box einschalten:',
 	'Never' => 'Nie',

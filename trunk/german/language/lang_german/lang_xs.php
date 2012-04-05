@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 	'xs_ftp_log_disabled' => 'FTP Funktionen sind auf diesem Server deaktiviert. Script wird nicht fortgesetzt.',
 	'xs_ftp_log_connecting' => 'verbinde zu {HOST}',
 	'xs_ftp_log_noconnect' => 'kann nicht zu {HOST} verbinden',
-	'xs_ftp_log_connected' => 'verbunden. Logge ein...',
+	'xs_ftp_log_connected' => 'verbunden. Logge ein&hellip;',
 	'xs_ftp_log_nologin' => 'kann nicht als {USER} einloggen',
 	'xs_ftp_log_loggedin' => 'eingeloggt',
 	'xs_ftp_log_end' => 'Scriptausführung beendet',
@@ -192,7 +192,7 @@ $lang = array_merge($lang, array(
 	'xs_config_updated' => 'Konfiguration aktualisiert.',
 	'xs_config_updated_explain' => 'Du musst diese Seite aktualisieren bevor die Konfiguration übernommen werden kann. Klicke <a href="{URL}">hier</a>, um die Seite zu aktualisieren.',
 	'xs_config_warning' => 'Achtung: Cache kann nicht geschrieben werden.',
-	'xs_config_warning_explain' => 'In das Cache Verzeichnis kann nicht geschrieben werden. eXtreme Styles kann versuchen, dieses Problem zu lösen.<br />Klicke <a href="{URL}">hier</a>, um zu versuchen, den Zugriffsmodus für das Cache Verzeichnis zu ändern.<br /><br />Sollte Cache aus irgendwelchen Gründen auf deinem Server nicht funktionieren...kein Problem, eXtreme Styles<br />beschleunigt die Geschwindigkeit des Forums auch ohne Cache um ein Vielfaches.',
+	'xs_config_warning_explain' => 'In das Cache Verzeichnis kann nicht geschrieben werden. eXtreme Styles kann versuchen, dieses Problem zu lösen.<br />Klicke <a href="{URL}">hier</a>, um zu versuchen, den Zugriffsmodus für das Cache Verzeichnis zu ändern.<br /><br />Sollte der Cache aus irgendwelchen Gründen auf deinem Server nicht funktionieren&hellip; kein Problem, eXtreme Styles<br />beschleunigt die Geschwindigkeit des Forums auch ohne Cache um ein Vielfaches.',
 
 	'xs_config_maintitle' => 'eXtreme Styles mod Konfiguration',
 	'xs_config_subtitle' => 'Das ist die Konfiguration von eXtreme Styles. Wenn du eine Einstellungsmöglichkeit nicht verstehst, ändere sie bitte nicht.',
@@ -242,8 +242,8 @@ $lang = array_merge($lang, array(
 
 	'xs_check_hdr' => 'Prüfe Cache auf %s',
 	'xs_check_filename' => 'Fehler: Falscher Dateiname',
-	'xs_check_openfile1' => 'Fehler: Kann Datei "%s" nicht öffnen. Versuche Verzeichnisse zu erstellen...',
-	'xs_check_openfile2' => 'Fehler: Konnte die Datei "%s" zum zweiten Mal nicht öffnen. Gebe auf...',
+	'xs_check_openfile1' => 'Fehler: Kann Datei "%s" nicht öffnen. Versuche Verzeichnisse zu erstellen&hellip;',
+	'xs_check_openfile2' => 'Fehler: Konnte die Datei "%s" zum zweiten Mal nicht öffnen. Gebe auf&hellip;',
 	'xs_check_nodir' => 'Prüfe "%s" - Verzeichnis existiert nicht.',
 	'xs_check_nodir2' => 'Fehler: Kann Verzeichnis "%s" nicht erstellen - Du solltest die Befugnisse überprüfen.',
 	'xs_check_createddir' => 'Verzeichnis "%s" erstellt',

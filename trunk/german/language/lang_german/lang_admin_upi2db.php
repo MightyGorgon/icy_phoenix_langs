@@ -36,11 +36,11 @@ $lang = array_merge($lang, array(
 	'up2db_days_tagen' => 'Tagen',
 	'up2db_days_explain' => 'Anzahl der Tage, wie lange die Post Informationen in der Datenbank gespeichert bleiben.<br /> Alle Themen deren letzte Antwort älter als X Tage ist, werden automatisch als gelesen markiert.<br />Achtung! Je größer die Zahl, desto mehr wird die Datenbank belastet. Standard = 30 Tage',
 
-	'edit_as_new' => '<strong>Editierte Beiträge als ungelesen markieren?</strong>',
+	'edit_as_new' => '<strong>Bearbeitete Beiträge als ungelesen markieren?</strong>',
 	'edit_as_new_explain' => 'Sollen bereits gelesenen Beiträge nach dem Editieren ungelesen markiert werden?',
 	'last_edit_as_new' => '<strong>Letzter Beitrag im Thema nach Edit als ungelesen markieren?</strong>',
-	'edit_topic_first' => '<strong>Editierte Beiträge in der Thema Ansicht nach oben schieben?</strong>',
-	'edit_topic_first_explain' => 'Steht die Option auf "Ja" werden ungelesene editierte Beiträge in der Themen Übersicht als erstes (unter den Ankündigungen und Wichtig) angezeigt bis sie gelesen wurden.',
+	'edit_topic_first' => '<strong>Bearbeitete Beiträge in der Thema Ansicht nach oben schieben?</strong>',
+	'edit_topic_first_explain' => 'Steht die Option auf "Ja" werden ungelesene bearbeitete Beiträge in der Themen Übersicht als erstes (unter den Ankündigungen und Wichtig) angezeigt bis sie gelesen wurden.',
 
 	'upi2db_condition_setup' => 'UPI2DB Konditionen',
 	'upi2db_condition_min_posts' => 'Min. Beiträge',

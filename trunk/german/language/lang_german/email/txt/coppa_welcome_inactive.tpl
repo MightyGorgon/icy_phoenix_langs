@@ -1,9 +1,8 @@
 Subject: Willkommen bei {SITENAME}
-Charset: utf-8
 
-{WELCOME_MSG}
+Willkommen bei {SITENAME}
 
-Gemäß den COPPA-Richtlinien ist dein Benutzer-Konto im Moment inaktiv.
+GemÃ¤ÃŸ den COPPA-Richtlinien ist dein Benutzer-Konto im Moment inaktiv.
 
 Bitte drucke diese Nachricht aus und gib sie deinen Eltern oder Erziehungsberechtigten zum Unterschreiben.
 Danach faxe sie an:
@@ -30,9 +29,9 @@ Ort: {FROM}
 Beruf: {OCC}
 Interessen: {INTERESTS}
 
-ICH HABE DIE INFORMATIONEN, DIE VON MEINEM KIND EINGETRAGEN WURDEN, GELESEN UND FÜR RICHTIG BEFUNDEN. ICH ERLAUBE IHM HIERMIT BEI {SITENAME} ZU POSTEN UND DIE OBEN ANGEFÜHRTEN INFORMATIONEN AUF DIESER SEITE ZU SPEICHERN.
-ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT NACH EINEM LOGIN GEÄNDERT WERDEN KÖNNEN.
-ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT AUF WUNSCH VON {SITENAME} ENTFERNT WERDEN KÖNNEN.
+ICH HABE DIE INFORMATIONEN, DIE VON MEINEM KIND EINGETRAGEN WURDEN, GELESEN UND FÃœR RICHTIG BEFUNDEN. ICH ERLAUBE IHM HIERMIT BEI {SITENAME} ZU POSTEN UND DIE OBEN ANGEFÃœHRTEN INFORMATIONEN AUF DIESER SEITE ZU SPEICHERN.
+ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT NACH EINEM LOGIN GEÃ„NDERT WERDEN KÃ–NNEN.
+ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT AUF WUNSCH VON {SITENAME} ENTFERNT WERDEN KÃ–NNEN.
 
 
 Elternteil/Erziehungsberechtigter
@@ -45,10 +44,10 @@ Datum:        __________________
 ------------------------------ Hier abschneiden ------------------------------
 
 
-Sobald der Administrator den oben angeführten Abschnitt erhalten hat, wird dieses Benutzer-Konto aktiviert.
+Sobald der Administrator den oben angefÃ¼hrten Abschnitt erhalten hat, wird dieses Benutzer-Konto aktiviert.
 
-Das Passwort wurde nur verschlüsselt in unserer Datenbank gespeichert, wenn du es also vergisst, können wir es dir nicht mehr zusenden. Wenn du es trotzdem vergessen solltest, kannst du aber jederzeit, über die Login-Seite, ein neues anfordern.
+Das Passwort wurde nur verschlÃ¼sselt in unserer Datenbank gespeichert, wenn du es also vergisst, kÃ¶nnen wir es dir nicht mehr zusenden. Wenn du es trotzdem vergessen solltest, kannst du aber jederzeit, Ã¼ber die Login-Seite, ein neues anfordern.
 
-Danke für deine Registrierung!
+Danke fÃ¼r deine Registrierung!
 
 {EMAIL_SIG}
