@@ -214,7 +214,7 @@ $lang = array_merge($lang, array(
 	'Comment_too_long' => 'Il commento inserito &egrave; troppo lungo',
 	'Comment_delete_confirm' => 'Sei sicuro di voler cancellare questo commento?',
 	'Pic_Locked' => 'Spiacente, questa immagine &egrave; stata bloccata. Non &egrave; possibile inserire altri commenti.',
-	'Post_your_comment' => 'Inserisci Il Tuo Commento!',
+	'Post_your_comment' => 'Inserisci Il Tuo Commento',
 
 	// Personal Gallery
 	'Personal_Gallery_Explain' => 'Puoi visualizzare le gallerie personali degli altri utenti cliccando sul loro profilo',
