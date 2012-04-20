@@ -2127,6 +2127,8 @@ $lang = array_merge($lang, array(
 	'Drafts_NM' => 'Risposta',
 	'Drafts_NPM' => 'Messaggio Privato',
 
+	'Full_editor' => 'Accedi all\'Editor Completo',
+
 	'CannotEditAdminsPosts' => 'Non puoi modificare i messaggi degli amministratori',
 	'Random_Number' => 'Numero Casuale',
 

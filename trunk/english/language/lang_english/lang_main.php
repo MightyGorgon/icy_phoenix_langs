@@ -2048,6 +2048,8 @@ $lang = array_merge($lang, array(
 	'Drafts_NM' => 'Reply',
 	'Drafts_NPM' => 'Private Message',
 
+	'Full_editor' => 'Switch to full Editor',
+
 	'CannotEditAdminsPosts' => 'You cannot edit admins posts',
 	'Random_Number' => 'Random Number',
 
