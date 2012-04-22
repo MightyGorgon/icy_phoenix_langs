@@ -174,6 +174,14 @@ $lang = array_merge($lang, array(
 	'Album_Category_Sorting_Asc' => 'Ascendente',
 	'Album_Category_Sorting_Desc' => 'Discendente',
 
+	'Album_Picture_Sorting' => 'Ordinamento Foto Album',
+	'Album_Picture_Sorting_Time' => 'Data',
+	'Album_Picture_Sorting_Title' => 'Immagine',
+	'Album_Picture_Sorting_View' => 'Visualizzazioni',
+	'Album_Picture_Sorting_Direction' => 'Direzione Ordinamento',
+	'Album_Picture_Sorting_Asc' => 'Ascendente',
+	'Album_Picture_Sorting_Desc' => 'Discendente',
+
 	// 07 - Clear Cache
 	'Clear_Cache_Tab' => 'Cache',
 	'Clear_Cache' => 'Svuota Cache',
