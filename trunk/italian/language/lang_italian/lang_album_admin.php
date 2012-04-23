@@ -174,6 +174,9 @@ $lang = array_merge($lang, array(
 	'Album_Category_Sorting_Asc' => 'Ascendente',
 	'Album_Category_Sorting_Desc' => 'Discendente',
 
+	'Album_Picture_Sorting' => 'Ordinamento Immagini Album',
+	'Album_Picture_Sorting_Direction' => 'Direzione Ordinamento',
+
 	// 07 - Clear Cache
 	'Clear_Cache_Tab' => 'Cache',
 	'Clear_Cache' => 'Svuota Cache',

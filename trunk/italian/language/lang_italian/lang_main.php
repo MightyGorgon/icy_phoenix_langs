@@ -1183,8 +1183,8 @@ $lang = array_merge($lang, array(
 	'TELL_FRIEND' => 'Segnala via email',
 	'TELL_FRIEND_SENDER_USER' => 'Il tuo nome',
 	'TELL_FRIEND_SENDER_EMAIL' => 'Il tuo indirizzo email',
-	'TELL_FRIEND_RECIEVER_USER' => 'Il nome del tuo amico',
-	'TELL_FRIEND_RECIEVER_EMAIL' => 'L\'indirizzo email del tuo amico',
+	'TELL_FRIEND_RECEIVER_USER' => 'Il nome del tuo amico',
+	'TELL_FRIEND_RECEIVER_EMAIL' => 'L\'indirizzo email del tuo amico',
 	'TELL_FRIEND_WRONG_EMAIL' => 'L\'indirizzo email indicato non &egrave; valido.',
 	'TELL_FRIEND_MSG' => 'Il tuo messaggio:',
 	'TELL_FRIEND_TITLE' => 'Segnala ad un amico',
@@ -2048,6 +2048,7 @@ $lang = array_merge($lang, array(
 	'Upload_File_Error_Size' => 'Dimensioni eccessive!',
 	'Upload_File_Error_Type' => 'Tipo file non consentito!',
 	'Upload_File_Type_Allowed' => 'Soltanto questi tipi di immagine possono essere caricati',
+	'Upload_File_Max_Size' => 'La grandezza massima permesso per ogni file &egrave; di',
 	'Upload_Insert_Image' => 'Inserisci BBCode',
 	'Upload_Close' => 'Chiudi',
 	'BBCode' => 'BBCode',
@@ -2484,6 +2485,7 @@ $lang = array_merge($lang, array(
 	'TOO_SMALL' => 'Il valore inserito &egrave; troppo piccolo.',
 	'WRONG_DATA' => 'Valore non valido.',
 
+	'ATTACHMENTS' => 'Allegati',
 	'ERROR_NO_ATTACHMENT' => 'Il file richiesto non esiste.',
 	'NO_FORUM' => 'Il Forum selezionato non esiste.',
 	'NO_TOPIC' => 'L\'argomento o il messaggio che hai richiesto non esiste.',
@@ -2518,6 +2520,8 @@ $lang = array_merge($lang, array(
 	'IP_BLACKLISTED' => 'Il tuo IP %s &egrave; stato bloccato perch&eacute; incluso in blacklist pubbliche. Per maggiori dettagli <a href="%s">%s</a>.',
 
 	'PRINTABLE_VERSION' => 'Versione Stampabile',
+
+	'FULL_EDITOR' => 'Editor Completo',
 
 	)
 );

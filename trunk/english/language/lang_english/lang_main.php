@@ -1969,6 +1969,7 @@ $lang = array_merge($lang, array(
 	'Upload_File_Error_Size' => 'File size not allowed!',
 	'Upload_File_Error_Type' => 'File type not allowed!',
 	'Upload_File_Type_Allowed' => 'Only these file types may be uploaded',
+	'Upload_File_Max_Size' => 'The maximum single file size allowed is',
 	'Upload_Insert_Image' => 'Insert BBCode',
 	'Upload_Close' => 'Close',
 	'BBCode' => 'BBCode',
@@ -2401,6 +2402,7 @@ $lang = array_merge($lang, array(
 	'TOO_SMALL' => 'The value you entered is too small.',
 	'WRONG_DATA' => 'Invalid data.',
 
+	'ATTACHMENTS' => 'Attachments',
 	'ERROR_NO_ATTACHMENT' => 'The file you are trying to download does not exist.',
 	'NO_FORUM' => 'The forum you selected does not exist.',
 	'NO_TOPIC' => 'The topic or post you requested does not exist.',
@@ -2435,6 +2437,8 @@ $lang = array_merge($lang, array(
 	'IP_BLACKLISTED' => 'Your IP %s has been blocked because it is blacklisted. For details please see <a href="%s">%s</a>.',
 
 	'PRINTABLE_VERSION' => 'Printable Version',
+
+	'FULL_EDITOR' => 'Switch to full Editor',
 
 	)
 );
