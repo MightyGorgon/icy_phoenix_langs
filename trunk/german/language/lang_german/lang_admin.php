@@ -201,11 +201,11 @@ $lang = array_merge($lang, array(
 	'Group_memberships' => 'Benutzergruppenmitglieder',
 	'Usergroup_members' => 'Diese Gruppe hat die folgenden Mitglieder',
 
-	'Forum_auth_updated' => 'Forumsberechtigungen aktualisiert',
-	'User_auth_updated' => 'Benutzerberechtigungen aktualisiert',
-	'Group_auth_updated' => 'Gruppenberechtigungen aktualisiert',
+	'Forum_auth_updated' => 'Forumsberechtigungen aktualisiert.',
+	'User_auth_updated' => 'Benutzerberechtigungen aktualisiert.',
+	'Group_auth_updated' => 'Gruppenberechtigungen aktualisiert.',
 
-	'Auth_updated' => 'Befugnisse wurden aktualisiert',
+	'Auth_updated' => 'Befugnisse wurden aktualisiert.',
 	'Click_return_userauth' => 'Klicke %shier%s, um zu den Benutzerrechten zurückzukehren.',
 	'Click_return_groupauth' => 'Klicke %shier%s, um zu den Gruppenrechten zurückzukehren.',
 	'Click_return_forumauth' => 'Klicke %shier%s, um zu den Forenberechtigungen zurückzukehren.',
@@ -215,12 +215,12 @@ $lang = array_merge($lang, array(
 	'Ban_explain' => 'Hier kannst du Benutzer bannen. Du kannst entweder einen bestimmten Benutzer, eine IP-Adresse oder einen Hostnamen sperren. Durch diese Methode kann der Benutzer die Startseite des Forums nicht aufrufen. Um den Benutzer daran zu hindern, sich unter einem anderen Namen anzumelden, kannst du auch bestimmte E-Mail-Adressen sperren. Eine E-Mail-Sperre verhindert nur das Registrieren, nicht das Posten eines Benutzers!',
 	'Ban_explain_warn' => 'Bitte beachte, dass, wenn du mehrere IP-Adressen eingibst, alle Adressen zwischen dem Anfang und dem Ende der Sperrliste hinzugefügt werden. Versuche die Anzahl der Adressen klein zu halten, indem du Wildcards einsetzt, wo es möglich ist. Am besten ist es, eine konkrete IP-Adresse anzugeben.',
 
-	'Select_username' => 'Wähle einen Benutzernamen',
-	'Select_ip' => 'Wähle eine IP-Adresse',
-	'Select_email' => 'Wähle eine E-Mail-Adresse',
+	'Select_username' => 'Wähle einen Benutzernamen!',
+	'Select_ip' => 'Wähle eine IP-Adresse!',
+	'Select_email' => 'Wähle eine E-Mail-Adresse!',
 
 	'Ban_username' => 'Einen oder mehrere Benutzer bannen',
-	'Ban_username_explain' => 'Wenn du mehrere Benutzer auswählst, kannst du auch mehrere Benutzer auf einmal bannen',
+	'Ban_username_explain' => 'Wenn du mehrere Benutzer auswählst, kannst du auch mehrere Benutzer auf einmal bannen.',
 
 	'Ban_IP' => 'Eine(n) oder mehrere IP-Adressen/Hostnamen bannen',
 	'IP_hostname' => 'IP-Adressen oder Hostname',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'Email_sig' => 'E-Mail Signatur',
 	'Email_sig_explain' => 'Diese Signatur wird an alle E-Mails des Administrators angehängt',
 	'Use_SMTP' => 'Nutze einen SMTP Server zum Mailen',
-	'Use_SMTP_explain' => 'Wähle \'Ja\', wenn du möchtest, dass deine E-Mails über einen SMTP-Server gesendet werden',
+	'Use_SMTP_explain' => 'Wähle JA, wenn du möchtest, dass deine E-Mails über einen SMTP-Server gesendet werden',
 	'SMTP_server' => 'SMTP-Server Adresse',
 	'SMTP_port' => 'SMTP Port',
 	'SMTP_username' => 'SMTP Benutzername',
@@ -347,6 +347,8 @@ $lang = array_merge($lang, array(
 	'Cookie_secure' => 'Sicheres Cookie',
 	'Cookie_secure_explain' => 'Falls dein Server auf SSL läuft, aktiviere diese Funktion, ansonsten lasse sie deaktiviert',
 	'Session_length' => 'Sessionlänge [ Sekunden ]',
+	'SESSION_LAST_VISIT_RESET' => 'Letzten Besuch aktualisieren, wenn Session abgelaufen',
+	'SESSION_LAST_VISIT_RESET_EXPLAIN' => 'Wenn du diese Option aktivierst, wird die letzte Besuchszeit aktualisiert, auch wenn die Session bereits abgelaufen ist. Ansonsten wird die letzte Besuchszeit nur aktualisiert, wenn Autologin aktiviert ist und die maximale Login-Zeit noch nicht erreicht wurde.',
 
 // Visual Confirmation
 	'Visual_confirm' => 'Aktiviere visuelle Bestätigung',
@@ -368,9 +370,9 @@ $lang = array_merge($lang, array(
 	'Action' => 'Aktion',
 	'Update_order' => 'Reihenfolge ändern',
 	'Config_updated' => 'Konfiguration erfolgreich 	geändert',
-	'Move_up' => 'Nach oben',
-	'Move_down' => 'Nach unten',
-	'Resync' => 'Resync',
+	'MOVE_UP' => 'Nach oben',
+	'MOVE_DOWN' => 'Nach unten',
+	'RESYNC' => 'Resync',
 	'No_mode' => 'Kein Modus ausgewählt',
 	'Forum_edit_delete_explain' => 'Hier kannst du alle allgemeinen Boardeinstellungen anpassen. Zur Benutzer- und Forenkonfiguration benutze bitte die entsprechenden Links auf der linken Seite',
 	'Forum_Expand' => 'Aufklappen',
@@ -701,11 +703,11 @@ $lang = array_merge($lang, array(
 // Admin Userlist End
 
 // Version Check
-	'Version_up_to_date' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine phpBB-Version verfügbar.',
-	'Version_up_to_date_ip' => 'Dein Forum ist auf dem neusten Stand; es sind keine Updates für deine Icy Phoenix Version verfügbar.',
-	'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neusten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
-	'Version_not_up_to_date_ip' => 'Es sind Updates für deine Icy Phoenix Version verfügbar, bitte besuche <a href="http://www.icyphoenix.com/" target="_new">Icy Phoenix</a>, um die aktuellste Version zu erhalten.',
-	'Latest_version_info' => 'Die neuste verfügbare Version ist <b>phpBB %s</b>.',
+	'Version_up_to_date' => 'Dein Forum ist auf dem neuesten Stand. Es sind keine Updates für deine phpBB-Version verfügbar.',
+	'Version_up_to_date_ip' => 'Dein Forum ist auf dem neuesten Stand. Es sind keine Updates für deine Icy Phoenix Version verfügbar.',
+	'Version_not_up_to_date' => 'Dein Forum ist <b>nicht</b> auf dem neuesten Stand. Es sind Updates für deine phpBB-Version verfügbar, bitte besuche <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a>, um die aktuellste Version zu erhalten.',
+	'Version_not_up_to_date_ip' => 'Es sind Updates für deine Icy Phoenix Version verfügbar, bitte besuche <a href="http://www.icyphoenix.de/" target="_new">Icy Phoenix</a>, um die aktuellste Version zu erhalten.',
+	'Latest_version_info' => 'Die neueste verfügbare Version ist <b>phpBB %s</b>.',
 	'Current_version_info' => 'Du verwendest <b>phpBB %s</b>.',
 	'Connect_socket_error' => 'Die Verbindung zum phpBB-Server konnte nicht aufgebaut werden. Es trat folgender Fehler auf:<br />%s',
 	'Connect_socket_error_ip' => 'Es konnte keine Verbindung zum Icy Phoenix Server hergestellt werden',
@@ -840,7 +842,7 @@ $lang = array_merge($lang, array(
 
 // Start add - Bin Mod
 	'Bin_forum' => 'Papierkorb-Forum',
-	'Bin_forum_explain' => 'Füge die Forum ID des Forums ein, in welches die Papierkorbbeiträge verschoben werden sollen. Trage 0 ein, um die Funktion zu deaktivieren. Du solltest die Forumsberechtigungen bearbeiten und Benutzern das Lesen/Schreiben/Antworten nicht gestatten... oder den Zugang zum Forum ganz verwehren. Nur Moderatoren oder Administratoren sollten derartige Rechte in diesem Forum besitzen.',
+	'Bin_forum_explain' => 'Füge die Forum ID des Forums ein, in welches die Papierkorbbeiträge verschoben werden sollen. Trage 0 ein, um die Funktion zu deaktivieren. Du solltest die Forumsberechtigungen bearbeiten und Benutzern das Lesen/Schreiben/Antworten nicht gestatten&hellip; oder den Zugang zum Forum ganz verwehren. Nur Moderatoren oder Administratoren sollten derartige Rechte in diesem Forum besitzen.',
 // End add - Bin Mod
 
 // Begin Quick Title Edition Mod 1.0.0 by Xavier Olive.
@@ -1078,7 +1080,7 @@ $lang = array_merge($lang, array(
 	'Forum_rules' => 'Forenregeln',
 	'Rules_display_title' => 'Zeige Titel in der Forenregeln-BOX an?',
 	'Rules_custom_title' => 'Eigener Titel',
-	'Rules_appear_in' => 'Diese Regeln werden angezeigt beim...',
+	'Rules_appear_in' => 'Diese Regeln werden angezeigt beim&hellip;',
 	'Rules_in_viewforum' => 'anzeigen des Forums',
 	'Rules_in_viewtopic' => 'anzeigen von Themen im Forum',
 	'Rules_in_posting' => 'schreiben/antworten in diesem Forum',
@@ -1171,14 +1173,14 @@ $lang = array_merge($lang, array(
 	'auth_view_album' => 'Foto-Galerie',
 	'auth_view_links' => 'Links',
 	'auth_view_calendar' => 'Kalender',
-	'auth_view_attachments' => 'Anhänge',
+	'auth_view_attachments' => 'Dateianhänge',
 	'auth_view_download' => 'Downloads',
 	'auth_view_pic_upload' => 'Bilder Hochladen (Post Icy Images)',
 	'auth_view_kb' => 'Wissensdatenbank',
 	'auth_view_ranks' => 'Ränge',
 	'auth_view_statistics' => 'Statistiken',
 	'auth_view_recent' => 'Neueste Themen',
-	'auth_view_referrers' => 'Referrers',
+	'auth_view_referers' => 'Referers',
 	'auth_view_rules' => 'Regeln',
 	'auth_view_site_hist' => 'Seiten Historie',
 	'auth_view_shoutbox' => 'Shoutbox',
@@ -1328,8 +1330,10 @@ $lang = array_merge($lang, array(
 	'Announce_settings' => 'Ankündigungs Einstellungen',
 	'Split_settings' => 'Trennungs Einstellungen',
 	'Server_Cookies' => 'Server Einstellungen',
-	'Disable_Registration_IP_Check' => 'Deaktiviere IP-Überprüfung in öffentlichen Blacklist bei Registrierung',
-	'Disable_Registration_IP_Check_Explain' => 'Überprüft jede IP-Adresse bei der Registrierung, wenn nicht deaktiviert. Wird die IP in der Blacklist gefunden, wird die Registrierung blockiert. Das kann auch ungewollt normale Nutzer von der Registrierung ausschließen.',
+	'ENABLE_CHECK_DNSBL' => 'Aktiviere öffentliche Blacklist IP-Überprüfung beim Registrieren',
+	'ENABLE_CHECK_DNSBL_EXPLAIN' => 'Wenn du die IP-Überprüfung beim Registrieren aktivierst, werden die IP-Adressen der Benutzer in öffentlichen Blacklists überprüft. Beachte bitte, dass es durch diese Kontrolle manchmal zu unbeabsichtigten Blockierungen von normalen Benutzern kommen kann, deren IP aus Versehen in die öffentliche Blacklist aufgenomen wurde.',
+	'ENABLE_CHECK_DNSBL_POSTING' => 'Aktiviere öffentliche Blacklist IP-Überprüfung beim Beitragschreiben',
+	'ENABLE_CHECK_DNSBL_POSTING_EXPLAIN' => 'Wenn du die IP-Überprüfung für das Schreiben von Beiträgen aktivierst, werden die IP-Adressen dieser Benutzer in öffentlichen Blacklists überprüft.',
 	'Config_explain2' => 'Hier kannst du die Ansicht und Einstellungen für den Kalender und die Subforen ändern.',
 	'Forum_postcount' => 'Beiträge zählen',
 	'Use_Captcha' => 'CAPTCHA aktivieren',
@@ -1372,8 +1376,8 @@ $lang = array_merge($lang, array(
 	'megamail_batchstart' => 'Bearbeitet',
 	'megamail_batchsize' => 'Nachrichten pro Batch',
 	'megamail_batchwait' => 'Pause',
-	'megamail_created_message' => 'Die Massen-Mail wurde in der Datenbank gespeichert.<br /><br /> Um das Senden zu starten, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
-	'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br />Um mit dem Senden fortzufahren, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst...',
+	'megamail_created_message' => 'Die Massen-Mail wurde in der Datenbank gespeichert.<br /><br /> Um das Senden zu starten, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst&hellip;',
+	'megamail_send_message' => 'Das aktuelle Batch (%s - %s) wurde gesendet.<br /><br />Um mit dem Senden fortzufahren, klicke %shier%s oder warte, bis du per Meta-Refresh dahin weitergeleitet wirst&hellip;',
 	'megamail_status' => 'Status',
 	'megamail_proceed' => '%sJetzt fortfahren%s',
 	'megamail_done' => 'FERTIG',
@@ -1606,8 +1610,8 @@ $lang = array_merge($lang, array(
 	'Normal_Desc' => 'Alle privaten Nachrichten des Forums können hier verwaltet werden. Sie können die Nachrichten der Benutzer lesen, löschen und archivieren. Im letzten Fall wird die Nachricht des Benutzers ins Archiv des Administrations-Bereichs verschoben.<br /><br /><b>ACHTUNG:</b> Es wird nicht angezeigt, ob die Nachricht Anlagen wie z.B. Bilder enthält!',
 	'Remove_Old' => 'Nachrichten ohne Besitzer:</a> <span class="gensmall">Nachrichten von gelöschten Benutzern können manchmal in der Datenbank zurückbleiben, welche durch diese Option gelöscht werden.</span>',
 	'Remove_Sent' => 'Kopien der gesendeten Nachrichten:</a> <span class="gensmall">Nachrichten in diesem Ordner sind in der Regel überflüssig. Es sei denn, der Besitzer möchte noch einmal nachvollziehen, was er geschrieben hat. In diesem Fall kann er seine Nachrichten aber auch archivieren und somit diese Löschung umgehen, wenn er möchte.</span>',
-	'Removed_Old' => 'Alle besitzerlosen Nachrichten werden gelöscht...<br />',
-	'Removed_Sent' => 'Alle Kopien der gesendeten Nachrichten werden gelöscht...<br />',
+	'Removed_Old' => 'Alle besitzerlosen Nachrichten werden gelöscht&hellip;<br />',
+	'Removed_Sent' => 'Alle Kopien der gesendeten Nachrichten werden gelöscht&hellip;<br />',
 	'Utilities' => 'Massen Löschungs Programme',
 	'Nivisec_Com' => 'Nivisec.com',
 
@@ -1744,8 +1748,6 @@ $lang = array_merge($lang, array(
 	'Deleted_Group' => 'Gelöschte Gruppe.  Alle Benutzer die in diese Gruppe waren sind nun ohne Gruppen Mitgliedschaft<br />',
 	'Hide' => 'Verstecken',
 	'Un-hide' => 'Sichtbar machen',
-	'Move_Up' => 'Nach oben verschieben',
-	'Move_Down' => 'Nach unten verschieben',
 	'Group_Hidden' => 'Gruppe versteckt<br />',
 	'Group_Unhidden' => 'Gruppe sichtbar<br />',
 	'Groups_Updated' => 'Gruppen Änderungen wurden aktualisiert<br />',
@@ -1820,7 +1822,7 @@ $lang = array_merge($lang, array(
 
 	'TABLE_SELECT' => 'Tabellen-Auswahl',
 
-	'BACKUP_IN_PROGRESS' => 'Backup wird erstellt...',
+	'BACKUP_IN_PROGRESS' => 'Backup wird erstellt&hellip;',
 	'BACKUP_IN_PROGRESS_TABLE' => 'Sichere Tabelle: <b>%s</b>',
 	'BACKUP_IN_PROGRESS_REDIRECT' => 'Du wirst automatisch in ein paar Sekunden zum nächsten Schritt weitergeleitet',
 	'BACKUP_IN_PROGRESS_REDIRECT_CLICK' => 'Wenn du nicht innerhalb von ein paar Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
@@ -1882,7 +1884,7 @@ $lang = array_merge($lang, array(
 	'LOGS_ADMIN_DB_UTILITIES_BACKUP_download' => ', und hat sie heruntergeladen',
 	'LOGS_ADMIN_DB_UTILITIES_RESTORE' => 'DB wiederhergestellt von',
 	'LOGS_ADMIN_BOARD_CONFIG' => 'änderte die Board/Server Einstellungen',
-	'LOGS_ADMIN_BOARD_IP_CONFIG' => 'änderte die IcyPhoenix Einstellungen',
+	'LOGS_ADMIN_BOARD_IP_CONFIG' => 'änderte die Icy Phoenix Einstellungen',
 	'LOGS_ADMIN_GROUP_NEW' => 'erstellte Gruppe',
 	'LOGS_ADMIN_GROUP_DELETE' => 'löschte Gruppe',
 	'LOGS_ADMIN_GROUP_EDIT' => 'änderte Gruppe',
@@ -1895,9 +1897,9 @@ $lang = array_merge($lang, array(
 	'LOGS_CMS_LAYOUT_EDIT' => 'änderte %sdiese%s Seite',
 	'LOGS_CMS_LAYOUT_DELETE' => 'löschte eine Seite [ID=%s]',
 	'LOGS_CMS_BLOCK_EDIT' => 'änderte einen Block [ID=%s] auf %sdieser%s Seite',
-	'LOGS_CMS_BLOCK_EDIT_LS' => 'änderte einen Block [ID=%s] in einer Standard Seite [%s]',
+	'LOGS_CMS_BLOCK_EDIT_LS' => 'änderte einen Block [ID=%s] in einer Standardseite [%s]',
 	'LOGS_CMS_BLOCK_DELETE' => 'löschte einen Block [ID=%s] auf %sdieser%s Seite',
-	'LOGS_CMS_BLOCK_DELETE_LS' => 'löschte einen Block [ID=%s] in einer Standard-Seite [%s]',
+	'LOGS_CMS_BLOCK_DELETE_LS' => 'löschte einen Block [ID=%s] in einer Standardseite [%s]',
 /* Logs - END */
 
 	'SMILEYS_UPDATED' => 'Smilies aktualisiert',
@@ -1969,9 +1971,6 @@ $lang = array_merge($lang, array(
 
 	'FORUM_LIMIT_EDIT_TIME' => 'Limit User Post Edit Time',
 	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'By enabling this option users will be allowed to edit own messages only within the limit set in Posts configuration of Icy Phoenix (ACP &raquo; Configuration &raquo; Icy Phoenix &raquo; Posting And Messages)',
-
-	'BACK_TO_TOP' => 'Nach oben',
-	'BACK_TO_PREV' => 'Zurück zur vorherigen Seite',
 
 	// Custom BBCodes - BEGIN
 	'BBCODES_CUSTOM_BBCODES' => 'Benutzerdefinierte BBCodes',
@@ -2051,9 +2050,9 @@ $lang = array_merge($lang, array(
 	'BBCODE_SETTINGS' => 'BBCode, HTML und Smilies Einstellungen',
 	'POSTING_SETTINGS' => 'Beitrags-Einstellungen',
 
-	'POLL_INFINITE' => 'Unbegrenzt...',
+	'POLL_INFINITE' => 'Unbegrenzt&hellip;',
 	'POLL_ONGOING' => ' (aktuell)',
-	'POLL_COMPLETED' => ' (beeindet)',
+	'POLL_COMPLETED' => ' (beendet)',
 
 	'FORUM_LIKES' => 'Like Posts',
 	'FORUM_LIKES_EXPLAIN' => 'Allow users to like single posts in a topic (you need to enable the global switch in Icy Phoenix Settings [SQL Charge] to be able to use this feature)',
@@ -2083,7 +2082,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_Empty_Precompiled_Posts_Explain' => 'Diese Funktion leert alle vorkompilierten Beiträge.',
 	'MG_SW_Empty_Precompiled_Posts_Success' => 'Vorkompilierte Beiträge korrekt geleert.',
 	'MG_SW_Empty_Precompiled_Posts_Fail' => 'Fehler beim Leeren der vorkompilierten Beiträge.',
-	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Leeren der Cache Ordner in Bearbeitung...',
+	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Leeren der Cache Ordner in Bearbeitung&hellip;',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect' => 'Du wirst automatisch in 3 Sekunden zum nächsten Schritt weitergeleitet',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click' => 'Wenn du nicht automatisch in 3 Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
 	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Klicke %shier%s, um zur Cache Verwaltung zurückzukehren.',
@@ -2157,7 +2156,7 @@ $lang['180_Word_Censor'] = 'Wortzensur'; // admin_words.php
 $lang['200_Notepad'] = 'Admin Notizblock'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Hilfestellung'; // admin_helpdesk.php
 $lang['220_Tickets_Emails'] = 'E-Mail Kategorien'; // admin_tickets.php
-$lang['230_Custom_BBCodes'] = 'Custom BBCodes'; // admin_bbcodes.php
+$lang['230_Custom_BBCodes'] = 'Eigene BBCodes'; // admin_bbcodes.php
 $lang['240_Replace_title'] = 'Ersetzen in Beiträgen'; // admin_replace.php
 
 // Forum
@@ -2284,11 +2283,11 @@ $lang['120_FAQ_Board'] = 'Seiten-FAQ'; // admin_faq_editor.php
 $lang['130_FAQ_Rules'] = 'Seiten-Regeln'; // admin_faq_editor.php
 
 // INFO
-$lang['2400_INFO'] = 'Info'; // admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referrers.php, admin_google_bot_detector.php
+$lang['2400_INFO'] = 'Info'; // admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referers.php, admin_google_bot_detector.php
 $lang['110_Actions_LOG'] = 'Aktionen Log'; // admin_logs.php
 $lang['120_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
 $lang['130_GD_Info'] = 'GD Info'; // admin_gd_info.php
-$lang['140_HTTP_REF'] = 'HTTP Referrers'; // admin_referrers.php
+$lang['140_HTTP_REF'] = 'HTTP Referers'; // admin_referers.php
 $lang['150_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
 
 // STATS
@@ -2319,7 +2318,7 @@ $lang['180_Hide_Show_Games'] = 'Zeige/Verstecke Spiel'; // admin_ina_disable.php
 $lang['190_DB_Adjustments'] = 'DB Adjustments'; // admin_ina_in_un.php
 $lang['200_Mass_Change'] = 'Mass Configuration'; // admin_ina_mass.php
 $lang['210_Scores_Editor'] = 'Hi-Scores bearbeiten'; // admin_ina_scores.php
-$lang['220_Xtras'] = 'Extra Settings'; // admin_ina_xtras.php
+$lang['220_Xtras'] = 'Extra Einstellungen'; // admin_ina_xtras.php
 $lang['230_Check_Games'] = 'Spiele-Liste'; // admin_ina_xtras.php
 
 // ####################### [ ACP Navigation END ] #######################

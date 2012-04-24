@@ -1,9 +1,8 @@
 Subject: Neuer Download
-Charset: utf-8
 
 Hallo {USERNAME},
 
-Du bekommst diese E-Mail, weil es bei {SITENAME} einen neuen bzw. geänderten Download in der Kategorie {CATEGORY} gibt, der freigegeben werden muss:
+Du bekommst diese E-Mail, weil es bei {SITENAME} einen neuen bzw. geÃ¤nderten Download in der Kategorie {CATEGORY} gibt, der freigegeben werden muss:
 
 ---------------------------
 {DOWNLOAD}
@@ -14,6 +13,6 @@ Wenn du diesen Download freigeben willst, dann klicke auf folgenden Link:
 
 {U_APPROVE}
 
-Wenn du zukünftig keine Benachrichtigungen hierüber erhalten willst, dann kannst du die Einstellungen in deinem Download Profil ändern.
+Wenn du zukÃ¼nftig keine Benachrichtigungen hierÃ¼ber erhalten willst, dann kannst du die Einstellungen in deinem Download Profil Ã¤ndern.
 
-{EMAIL_SIG}
+{BOARD_EMAIL}

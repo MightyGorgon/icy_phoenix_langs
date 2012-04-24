@@ -1,14 +1,12 @@
-Charset: utf-8
-
 Hallo,
 
-Die folgende E-Mail wurde von {FROM_USERNAME} über dessen Benutzer-Konto bei "{SITENAME}" gesendet.
+Die folgende E-Mail wurde von {FROM_USERNAME} Ã¼ber dessen Benutzer-Konto bei "{SITENAME}" gesendet.
 
-Wenn diese E-Mail unerwünschten Inhalt (Spam) enthält, dann kontaktiere bitte den Administrator unter:
+Wenn diese E-Mail unerwÃ¼nschten Inhalt (Spam) enthÃ¤lt, dann kontaktiere bitte den Administrator unter:
 
 {BOARD_EMAIL}
 
-Schick dazu bitte die ganze Nachricht, inklusive Überschrift, mit.
+Schick dazu bitte die ganze Nachricht, inklusive Ãœberschrift, mit.
 
 Geschriebene Nachricht folgt:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

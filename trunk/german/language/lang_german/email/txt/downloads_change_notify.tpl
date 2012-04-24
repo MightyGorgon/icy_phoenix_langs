@@ -1,9 +1,8 @@
-Subject: Geänderter Download
-Charset: utf-8
+Subject: GeÃ¤nderter Download
 
 Hallo {USERNAME},
 
-Du bekommst diese E-Mail, weil der nachfolgende Download bei {SITENAME} in der Kategorie "{CATEGORY}" geändert wurde:
+Du bekommst diese E-Mail, weil der nachfolgende Download bei {SITENAME} in der Kategorie "{CATEGORY}" geÃ¤ndert wurde:
 
 ---------------------------
 {DOWNLOAD}
@@ -14,6 +13,6 @@ Wenn du diesen Download ansehen willst, dann klicke auf folgenden Link:
 
 {U_CATEGORY}
 
-Wenn du zukünftig keine Benachrichtigungen hierüber erhalten willst, dann entferne die Benachrichtigungen in den Download Details oder Deinem Downloads Benutzerprofil.
+Wenn du zukÃ¼nftig keine Benachrichtigungen hierÃ¼ber erhalten willst, dann entferne die Benachrichtigungen in den Download Details oder Deinem Downloads Benutzerprofil.
 
-{EMAIL_SIG}
+{BOARD_EMAIL}

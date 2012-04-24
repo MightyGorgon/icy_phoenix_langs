@@ -1,5 +1,5 @@
 Subject: Gemeldeter Beitrag im Forum {FORUM_NAME}
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
 Report von <b>{SITENAME}</b><br /><br />
 

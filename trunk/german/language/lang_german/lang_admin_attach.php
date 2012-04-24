@@ -29,13 +29,13 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 // Modules, this replaces the keys used
 	'Control_Panel' => 'Kontrollzentrum',
-	'Shadow_attachments' => 'Versteckte Attachments',
+	'Shadow_attachments' => 'Versteckte Dateianhänge',
 	'Forbidden_extensions' => 'Verbotene Dateiendungen',
 	'Extension_control' => 'Bearbeite Erweiterungen',
 	'Extension_group_manage' => 'Bearbeite Dateiendungsgruppen',
 	'Special_categories' => 'Spezial-Kategorien',
-	'Sync_attachments' => 'Attachments Synchronisieren',
-	'Quota_limits' => 'Quota Grenzen',
+	'Sync_attachments' => 'Dateianhänge synchronisieren',
+	'Quota_limits' => 'Kontingent Grenzen',
 
 // Attachments -> Management
 	'Attach_settings' => 'Attachment Einstellungen',
@@ -46,36 +46,36 @@ $lang = array_merge($lang, array(
 
 	'Upload_directory' => 'Upload Verzeichnis',
 	'Upload_directory_explain' => 'Gib den relativen Pfad von deiner Icy Phoenix Installation zu deinem Upload-Verzeichnis an. Zum Beispiel: <b>files</b> wenn deine Icy Phoenix Installation auf http://www.deineseite.de/ip und das Attachment Upload-Verzeichnis auf http://www.deineseite.de/ip/files ist.',
-	'Attach_img_path' => 'Pfad zu einem Bild für Attachments',
-	'Attach_img_path_explain' => 'Dieses Bild wird vor dem Attachment Link in jeder Nachricht angezeicht. Lassen Sie das Feld leer, wenn es nicht angezeigt werden soll. Diese Einstellung wird überschrieben von den Einstellungen für das Bild in der Verwaltung der Dateiendungsgruppen.',
-	'Attach_topic_icon' => 'Attachment Topic Icon',
+	'Attach_img_path' => 'Pfad zu einem Bild für Dateianhänge',
+	'Attach_img_path_explain' => 'Dieses Bild wird vor einem Dateianhang-Link in jeder Nachricht angezeigt. Lass dieses Feld leer, wenn es nicht angezeigt werden soll. Diese Einstellung wird überschrieben von den Einstellungen für das Bild in der Verwaltung der Dateiendungsgruppen.',
+	'Attach_topic_icon' => 'Dateianhang Themen Icon',
 	'Attach_topic_icon_explain' => 'Dieses Bild wird vor einem Topic, in dem Attachments gepostet wurden, angezeigt. Lassen Sie das Feld leer, wenn es nicht angezeigt werden soll.',
-	'Attach_display_order' => 'Attachment Reihenfolge (Anzeige)',
+	'Attach_display_order' => 'Dateianhang Reihenfolge (Anzeige)',
 	'Attach_display_order_explain' => 'Hier kannst du auswählen in welcher Reihenfolge die Attachments in Nachrichten/PNs angezeigt werden sollen. Entweder in Absteigender Reihenfolge (Neuestes Attachment zuerst) or Aufsteigender Reihenfolge (Ältestes Attachment zuerst).',
 	'Show_apcp' => 'Neues Attachment Posting Control Panel anzeigen',
 	'Show_apcp_explain' => 'Wähle aus, ob du das Attachment Posting Control Panel anzeigen möchtest (Ja) oder die alte Methode mit den zwei Boxen für das Hinzufügen von Dateien und für alle hinzugefügten Dateien (Nein) in dem Nachrichten Fenster. Das Aussehen der beiden Modi ist sehr schwer zu beschreiben, am besten die beiden Modi mal ausprobieren.',
 
 	'Max_filesize_attach' => 'Dateigröße',
 	'Max_filesize_attach_explain' => 'Maximale Dateigröße für Attachments. Ein Wert von 0 bedeutet \'unbegrenzt\'. Diese Einstellung ist begrenzt durch die Server Konfiguration. Wenn z.B. in der PHP Konfiguration nur eine maximale Upload Größe von 2 MB defniert ist, dann kann dieser Wert auch nicht vom Attachment Mod überschritten werden.',
-	'Attach_quota' => 'Attachment Quota',
-	'Attach_quota_explain' => 'Hier kannst du die maximale Größe ALLER Attachments definieren. Ein Wert von 0 bedeutet \'unbegrenzt\'.',
+	'Attach_quota' => 'Dateianhang Kontingent',
+	'Attach_quota_explain' => 'Hier kannst du die maximale Größe ALLER Dateianhänge definieren. Ein Wert von 0 bedeutet \'unbegrenzt\'.',
 	'Max_filesize_pm' => 'Maximale Dateigröße in den Privaten Nachrichten',
 	'Max_filesize_pm_explain' => 'Maximale Dateigröße ALLER Attachments, die ein User in allen seiner Privaten Nachrichten haben kann. Ein Wert von 0 bedeutet \'unbegrenzt\'.', 
-	'Default_quota_limit' => 'Standard Quota Grenze',
+	'Default_quota_limit' => 'Standard Kontingent Grenze',
 	'Default_quota_limit_explain' => 'Hier bist du in der Lage eine Standard Quota Grenze für Benutzer festzulegen, die sich gerade neu registriert haben oder die keine definierte Quota Grenze besitzen. Die Option \'Keine Quota Grenze\' ist zum Benutzen der normalen Einstellungen (für Dateigrößen und Grenzen) gedacht. Wenn \'Standard\' ausgewählt ist, dann werden keine Quotas neu registrierten Benutzern zugeordnet.',
 
 	'Max_attachments' => 'Maximale Anzahl an Attachments',
-	'Max_attachments_explain' => 'Hier kannst du die Anzahl der Attachments, die in einer Nachricht erlaubt sind, angeben.',
-	'Max_attachments_pm' => 'Maximale Anzahl an Attachments in einer Privaten Nachricht',
-	'Max_attachments_pm_explain' => 'Hier kannst du die Anzahl der Attachments, die in einer Privaten Nachricht erlaubt sind, angeben.',
+	'Max_attachments_explain' => 'Hier kannst du die Anzahl der Dateianhänge, die in einer Nachricht erlaubt sind, angeben.',
+	'Max_attachments_pm' => 'Maximale Anzahl an Dateianhänge in einer Privaten Nachricht',
+	'Max_attachments_pm_explain' => 'Hier kannst du die Anzahl der Dateianhänge, die in einer Privaten Nachricht erlaubt sind, angeben.',
 
-	'Disable_mod' => 'Attachment Mod abschalten',
-	'Disable_mod_explain' => 'Diese Option ist hauptsächlich zum testen neuer Templates oder Themes gedacht, sie unterbindet alle Attachment Funktionen, außer diese im Administrationsbereich.',
-	'PM_Attachments' => 'Erlaube Attachments in Privaten Nachrichten',
-	'PM_Attachments_explain' => 'Erlaube oder Verbiete das Anhängen von Dateien in Privaten Nachrichten.',
+	'Disable_mod' => 'Dateianhänge komplett deaktivieren',
+	'Disable_mod_explain' => 'Diese Option ist hauptsächlich zum Testen neuer Templates oder Themes gedacht, sie unterbindet alle Funktionen für Dateianhänge, außer diese im Administrationsbereich.',
+	'PM_Attachments' => 'Erlaube Dateianhänge in Privaten Nachrichten',
+	'PM_Attachments_explain' => 'Erlaube oder verbiete das Anhängen von Dateien in Privaten Nachrichten.',
 	'Ftp_upload' => 'Benutze FTP Upload',
 	'Ftp_upload_explain' => 'Benutze die FTP Upload Möglichkeit. Wenn du diese Option auf Ja stellst, dann musst du unten deine FTP Einstellungen eingeben, das Upload Verzeichnis hat dann keine Gültigkeit mehr.',
-	'Attachment_topic_review' => 'Möchtest du Attachments in dem Themen-Überblicks Feld darstellen ?',
+	'Attachment_topic_review' => 'Möchtest du Dateianhänge in dem Themen-Überblicks Feld darstellen?',
 	'Attachment_topic_review_explain' => 'Wenn du \'Ja\', dann werden alle Attachments in dem Themen-Überblicks Feld dargestellt, daß angezeigt wird, wenn du auf Themen antwortest.',
 
 	'Ftp_server' => 'FTP Upload Server',
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'Ftp_download_path' => 'Download Link zum FTP Pfad',
 	'Ftp_download_path_explain' => 'Gib die URL zu deinem FTP Pfad, in dem die Attachments gespeichert werden, an.<br />Wenn du einen Remote FTP Server benutzt, dann gib die komplette URL zu deinem FTP Pfad an, zum Beispiel http://www.meineseite.de/ip/upload.<br />Wenn du den Local Host benutzt, dann kannst du auch den URL Pfad relativ zu deiner Icy Phoenix Installation benutzen, z.B. \'upload\'.<br />Lass dieses Feld leer, wenn sich auf deinen FTP Pfad vom Internet aus nicht zugreigen lässt. Dann kannst du aber die Physikalische Download Methode nicht benutzen.',
 	'Ftp_passive_mode' => 'FTP Passiv Modus',
-	'Ftp_passive_mode_explain' => 'Das PASV Kommando erzwingt das öffnen eines Ports am Remote Server für eine Datenverbindung und gibt diese Addresse dann zurück. Der Remote Server lauscht an diesem Port und der Client verbindet sich mit ihm.',
+	'Ftp_passive_mode_explain' => 'Das PASSIV Kommando erzwingt das öffnen eines Ports am Remote Server für eine Datenverbindung und gibt diese Addresse dann zurück. Der Remote Server lauscht an diesem Port und der Client verbindet sich mit ihm.',
 
 	'No_ftp_extensions_installed' => 'Du kannst die FTP Upload Methode nicht verwenden, da die FTP Erweiterungen nicht in deiner PHP Installation integriert/installiert wurden.',
 
@@ -100,9 +100,9 @@ $lang = array_merge($lang, array(
 	'Empty_file_entry' => 'Leerer Dateieintrag',
 
 // Attachments -> Sync
-	'Sync_thumbnail_recreated' => 'Thumbnail für Attachment erstellt: %s', // replace %s with physical Filename
-	'Sync_thumbnail_resetted' => 'Thumbnail für Attachment %s zurückgesetzt.',
-	'Attach_sync_finished' => 'Attachment Synchronisierung erfolgreich beendet.',
+	'Sync_thumbnail_recreated' => 'Thumbnail für Dateianhänge erstellt: %s', // replace %s with physical Filename
+	'Sync_thumbnail_resetted' => 'Thumbnail für Dateianhänge %s zurückgesetzt.',
+	'Attach_sync_finished' => 'Dateianhang-Synchronisierung erfolgreich beendet.',
 	'Sync_topics' => 'Themen synchronisieren',
 	'Sync_posts' => 'Beiträge synchronisieren',
 	'Sync_thumbnails' => 'Thumbnails synchronisieren',
@@ -168,7 +168,7 @@ $lang = array_merge($lang, array(
 
 // Extensions -> Extension Groups Control -> Group Permissions
 	'Group_permissions_title' => 'Dateiendungsgruppen Berechtigungen -> \'%s\'',
-	'Group_permissions_explain' => 'Hier bist du in der Lage diese Dateiendungsgruppe auf bestimmte Foren zu beschränken. Standardmäßig werden Dateiendungsgruppen in allen Foren erlaubt, in denen ein User die Berechtigung zum Posten von Attachments hat. Hier kannst du dies ändern, indem du Foren, in denen die Gruppe (die Dateierweiterungen dieser Gruppe) erlaubt sein soll hinzufügst. Der Standardwert \'ALLE FOREN\' wird nach dem hinzufügen verschwinden. Du kannst \'ALLE FOREN\' jederzeit wieder hinzufügen. Wenn du ein Forum zu deinem Board hinzufügst, und eine Gruppe auf \'ALLE FOREN\' gesetzt ist, dann wird sich nichts ändern. Aber wenn du die Berechtigungen geändert hast, die Dateierweiterungen der Gruppe somit nur in bestimmten Foren erlaubst, dann solltest du hier noch mal vorbeischauen, wenn du die Gruppe auch in dem neu hinzugefügtem Forum erlauben möchtest. Bedenke bitte, daß du hier alle Foren auswählen kannst, auch die, in denen das Posten von Attachments generell nicht erlaubt ist.',
+	'Group_permissions_explain' => 'Hier bist du in der Lage diese Dateiendungsgruppe auf bestimmte Foren zu beschränken. Standardmäßig werden Dateiendungsgruppen in allen Foren erlaubt, in denen ein Benutzer die Berechtigung zum hochladen von Dateianhängen hat. Hier kannst du dies ändern, indem du Foren, in denen die Gruppe (die Dateierweiterungen dieser Gruppe) erlaubt sein soll hinzufügst. Der Standardwert \'ALLE FOREN\' wird nach dem hinzufügen verschwinden. Du kannst \'ALLE FOREN\' jederzeit wieder hinzufügen. Wenn du ein Forum zu deinem Board hinzufügst, und eine Gruppe auf \'ALLE FOREN\' gesetzt ist, dann wird sich nichts ändern. Aber wenn du die Berechtigungen geändert hast, die Dateierweiterungen der Gruppe somit nur in bestimmten Foren erlaubst, dann solltest du hier noch mal vorbeischauen, wenn du die Gruppe auch in dem neu hinzugefügtem Forum erlauben möchtest. Bedenke bitte, daß du hier alle Foren auswählen kannst, auch die, in denen das Hochladen von Dateianhängen generell nicht erlaubt ist.',
 	'Note_admin_empty_group_permissions' => 'Beachte:<br />In den unten aufgeführten Foren wird deinen Benutzern in der Regel erlaubt Dateien anzuhängen, aber da keine Dateiendungsgruppe erlaubt ist, ist es deinen Benutzern nicht erlaubt irgendetwas anzuhängen. Wenn sie es versuchen, werden sie eine Fehlermeldung erhalten. Vielleicht willst du die Berechtigung bei \'Post Files\' auf ADMIN bei diesen Foren setzen.<br /><br />',
 	'Add_forums' => 'Füge Foren hinzu',
 	'Add_selected' => 'Füge ausgewählte hinzu',
@@ -182,64 +182,64 @@ $lang = array_merge($lang, array(
 	'Quota_limit_exist' => 'Die Quota Grenze %s existiert bereits.',
 
 // Attachments -> Control Panel
-	'Control_panel_title' => 'File Attachments Kontrollzentrum',
-	'Control_panel_explain' => 'Hier kannst du Attachments, basierend auf Benutzername, Attachments, Mime Gruppen usw. verwalten und angucken.',
+	'Control_panel_title' => 'Dateianhänge Kontrollzentrum',
+	'Control_panel_explain' => 'Hier kannst du Dateianhänge, basierend auf Benutzername, Attachments, Mime Gruppen usw. verwalten und angucken.',
 	'File_comment_cp' => 'Kommentar',
 
 // Control Panel -> Search
 	'Search_wildcard_explain' => 'Benutze das *-Zeichen als Joker',
-	'Size_smaller_than' => 'Attachmentgröße kleiner als (bytes)',
-	'Size_greater_than' => 'Attachmentgröße größer als (bytes)',
+	'Size_smaller_than' => 'Dateianhang kleiner als (bytes)',
+	'Size_greater_than' => 'Dateianhang größer als (bytes)',
 	'Count_smaller_than' => 'Anzahl der Downloads ist kleiner als',
 	'Count_greater_than' => 'Anzahl der Downloads ist größer als',
 	'More_days_old' => 'Mehr als diese Anzahl an Tagen alt',
-	'No_attach_search_match' => 'Keine Attachments gefunden die den Suchkriterien entsprechen.',
+	'No_attach_search_match' => 'Keine Dateianhänge gefunden die den Suchkriterien entsprechen.',
 
 // Control Panel -> Statistics
-	'Number_of_attachments' => 'Anzahl an Attachments',
+	'Number_of_attachments' => 'Anzahl der Dateianhänge',
 	'Total_filesize' => 'komplette Dateigröße',
-	'Number_posts_attach' => 'Anzahl der Posts mit Attachments',
-	'Number_topics_attach' => 'Anzahl der Topics mit Attachments',
-	'Number_users_attach' => 'Anzahl der User die Attachments gepostet haben',
-	'Number_pms_attach' => 'Anzahl der Attachments in Privaten Nachrichten',
+	'Number_posts_attach' => 'Anzahl der Beiträge mit Dateianhängen',
+	'Number_topics_attach' => 'Anzahl der Themen mit Dateianhängen',
+	'Number_users_attach' => 'Anzahl der User die Dateianhänge hochgeladen haben',
+	'Number_pms_attach' => 'Anzahl der Dateianhänge in Privaten Nachrichten',
 
 // Control Panel -> Attachments
-	'Statistics_for_user' => 'Attachment Statistik für %s', // replace %s with username
+	'Statistics_for_user' => 'Dateianhang-Statistik für %s', // replace %s with username
 	'Size_in_kb' => 'Größe (KB)',
 	'Downloads' => 'Downloads',
-	'Post_time' => 'Postzeit',
-	'Posted_in_topic' => 'Im Topic gepostet',
+	'Post_time' => 'Beitragszeit',
+	'Posted_in_topic' => 'Im Thema geschrieben',
 	'Submit_changes' => 'Änderungen absenden',
 
 // Sort Types
-	'Sort_Attachments' => 'Datei-Anhänge',
+	'Sort_Attachments' => 'Dateianhänge',
 	'Sort_Size' => 'Größe',
 	'Sort_Filename' => 'Dateiname',
 	'Sort_Comment' => 'Kommentar',
 	'Sort_Extension' => 'Dateiendung',
 	'Sort_Downloads' => 'Downloads',
-	'Sort_Posttime' => 'Postzeit',
-	'Sort_Posts' => 'Posts',
+	'Sort_Posttime' => 'Beitragszeit',
+	'Sort_Posts' => 'Beiträge',
 
 // View Types
 	'View_Statistic' => 'Statistik',
 	'View_Search' => 'Suche',
 	'View_Username' => 'Benutzername',
-	'View_Attachments' => 'Datei-Anhänge',
+	'View_Attachments' => 'Dateianhänge',
 
 // Successfully updated
-	'Attach_config_updated' => 'Attachment Einstellungen wurden erfolgreich verändert.',
-	'Click_return_attach_config' => 'Klicke %shier%s, um zu den Attachment Einstellungen zurückzukehren.',
+	'Attach_config_updated' => 'Einstellungen der Dateianhänge wurde erfolgreich verändert.',
+	'Click_return_attach_config' => 'Klicke %shier%s, um zu den Einstellungen der Dateianhängen zurückzukehren.',
 	'Test_settings_successful' => 'Einstellungstest abgeschlossen, die Konfiguration scheint zu funktionieren.',
 
 // Some basic definitions
-	'Attachments' => 'Datei-Anhänge',
-	'Attachment' => 'Datei-Anhang',
+	'Attachments' => 'Dateianhänge',
+	'Attachment' => 'Dateianhang',
 	'Extensions' => 'Dateiendungen',
 	'Extension' => 'Dateiendung',
 
 // Auth pages
-	'Auth_attach' => 'Dateien Posten',
+	'Auth_attach' => 'Dateien hochladen',
 	'Auth_download' => 'Dateien herunterladen',
 	)
 );

@@ -1,15 +1,14 @@
-Subject: Dein Benutzer-Konto wurde vorübergehend gesperrt
-Charset: utf-8
+Subject: Dein Benutzer-Konto wurde vorÃ¼bergehend gesperrt
 
 Hallo {WARNED_POSTER},
 
-Dein Benutzer-Konto bei {SITENAME} wurde für {BLOCK_TIME} gesperrt.
+Dein Benutzer-Konto bei {SITENAME} wurde fÃ¼r {BLOCK_TIME} gesperrt.
 
-Für die Sperrung kann es verschiedene Gründe geben. Die Verwarnung wurde wegen diesem Beitrag ausgesprochen:
+FÃ¼r die Sperrung kann es verschiedene GrÃ¼nde geben. Die Verwarnung wurde wegen diesem Beitrag ausgesprochen:
 {POST_URL}
 
-Wenn dir nicht bewußt ist, warum du diese Verwarung erhalten hast, nimm Kontakt mit {WARNER} auf, der die Verwarnung ausgesprochen hat.
-Erkläre deinen Beitrag und warum du mit der Verwarnung nicht einverstanden bist. Bleibe dabei immer sachlich.
+Wenn dir nicht bewuÃŸt ist, warum du diese Verwarung erhalten hast, nimm Kontakt mit {WARNER} auf, der die Verwarnung ausgesprochen hat.
+ErklÃ¤re deinen Beitrag und warum du mit der Verwarnung nicht einverstanden bist. Bleibe dabei immer sachlich.
 
 
 {EMAIL_SIG}

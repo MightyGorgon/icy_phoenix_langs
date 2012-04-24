@@ -19,7 +19,7 @@ $lang = array_merge($lang, array(
 	'ENCODING' => 'UTF-8',
 	'DIRECTION' => 'ltr',
 	'HEADER_LANG' => 'de-de',
-	'HEADER_XML_LANG' => 'de-de',
+	'HEADER_LANG_XML' => 'de-de',
 	'LEFT' => 'links',
 	'RIGHT' => 'rechts',
 
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'CHMOD_Apply' => 'Passe die CHMOD Berechtigungen für Icy Phoenix Dateien und Ordner über PHP an.',
 	'CHMOD_Apply_Warn' => 'Bitte beachte, dass nicht alle Server eine CHMOD Anpassung über PHP unterstützen. Es kann manuelles setzen der Berechtigungen erforderlich sein!!!',
 
-	'Default_lang' => 'Standard Seiten Sprache',
+	'Default_lang' => 'Standardseiten Sprache',
 	'Select_lang' => 'Sprache',
 	'DB_Host' => 'Datenbank Server Hostname / DSN',
 	'DB_Name' => 'Dein Datenbank Name',
@@ -216,6 +216,11 @@ $lang = array_merge($lang, array(
 	'Fixed' => 'Repariert',
 	'NotFixed' => 'Nicht repariert',
 	'FilesProcessed' => 'Reparatur der Dateien abgeschlossen',
+
+	'FixForums' => 'Foren konvertieren',
+	'FixForumsExplain' => 'Diese Funktion wird Foren und Kategorien in das neue Format konvertieren.',
+	'FixingForumsInProgress' => 'Konvertierung in Arbeit&hellip;',
+	'FixingForumsComplete' => 'Arbeit vollständig!',
 
 	'FixPosts' => 'Beiträge reparieren',
 	'FixPostsExplain' => 'Mit dieser Funktion kannst du alle Beiträge in deinem Forum reparieren. Du kannst es benutzen um: finde und ersetze jeden Text in deinen Beiträgen, entferne BBCode UID, den Pfad geposteter Bilder automatisch anzupassen.',

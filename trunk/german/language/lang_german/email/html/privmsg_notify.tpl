@@ -1,5 +1,5 @@
 Subject: Du hast eine neue Private Nachricht von {FROM} erhalten
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
 
@@ -25,5 +25,5 @@ Durch Klicken auf den folgenden Link kommst du direkt zur Nachricht:<br /><br />
 
 Du kannst die Benachrichtigungen übrigens abstellen, indem du die entsprechende Option in deinem Profil deaktivierst.<br /><br />
 
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

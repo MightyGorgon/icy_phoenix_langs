@@ -1,7 +1,7 @@
 {MESSAGE}
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Die E-Mail oben wurde dir von {FROM_USERNAME} über sein Benutzer-Konto bei {SITENAME} geschickt. Wenn diese E-Mail unerwünschten Inhalt (Spam) enthält, dann kontaktiere bitte den Administrator unter:
+Die E-Mail oben wurde dir von {FROM_USERNAME} Ã¼ber sein Benutzer-Konto bei {SITENAME} geschickt. Wenn diese E-Mail unerwÃ¼nschten Inhalt (Spam) enthÃ¤lt, dann kontaktiere bitte den Administrator unter:
 
 {BOARD_EMAIL}
 

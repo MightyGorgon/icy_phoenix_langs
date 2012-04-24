@@ -1,9 +1,8 @@
 Subject: Ein neues Bild wurde von {FROM} hochgeladen
-Charset: utf-8
 
 Hallo {USERNAME},
 
-Es wurde ein neues Bild bei "{SITENAME}" hochgeladen und du hast angegeben, dass du darüber benachrichtigt werden möchtest.
+Es wurde ein neues Bild bei "{SITENAME}" hochgeladen und du hast angegeben, dass du darÃ¼ber benachrichtigt werden mÃ¶chtest.
 
 ,.-'-.,,.-'-.,,.-'-.,,.-'-.,
 
@@ -17,10 +16,10 @@ Bildfreigabestatus: {PIC_APPROVAL}
 
 ,.-'-.,,.-'-.,,.-'-.,,.-'-.,
 
-Das Bild kann über nachstehenden Link betrachtet werden:
+Das Bild kann Ã¼ber nachstehenden Link betrachtet werden:
 
 {U_PIC}
 
-Wenn du nicht mehr über neue Bilder benachrichtigt werden möchtest, ändere einfach die entsprechenden Einstellungen im Administrationsbereich.
+Wenn du nicht mehr Ã¼ber neue Bilder benachrichtigt werden mÃ¶chtest, Ã¤ndere einfach die entsprechenden Einstellungen im Administrationsbereich.
 
 {EMAIL_SIG}

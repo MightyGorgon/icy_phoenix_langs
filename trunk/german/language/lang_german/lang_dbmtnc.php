@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 	'Unlock_db' => 'Entsperre das Board',
 	'Already_locked' => 'Das Board war bereits gesperrt',
 	'Ignore_unlock_command' => 'Das Board war bei Start der Funktion bereits gesperrt. Es wird nicht entsperrt',
-	'Delay_info' => 'Warte drei Sekunden, damit Datenbanktransaktionen beendet werden können...',
+	'Delay_info' => 'Warte drei Sekunden, damit Datenbanktransaktionen beendet werden können&hellip;',
 
 	'Affected_row' => 'Ein betroffener Datensatz',
 	'Affected_rows' => '%d betroffene Datensätze',

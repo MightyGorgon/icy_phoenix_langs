@@ -1,16 +1,16 @@
-Subject: Neuer Status für Bug Report bei {SITENAME}
-Charset: utf-8
+Subject: Neuer Status fÃ¼r Bug Report bei {SITENAME}
 
 Hallo {USERNAME},
 
-Du erhältst diese E-Mail weil der Status für deinen Bug Report {REPORT_TITLE} bei {SITENAME} geändert wurde.
-
+Du erhÃ¤ltst diese E-Mail weil der Status fÃ¼r deinen Bug Report {REPORT_TITLE} bei {SITENAME} geÃ¤ndert wurde.
 Neuer Status: {STATUS}.
 
 {STATUS_TEXT}
 
-Für weitere Informationen darüber nutze einfach den folgenden Link:
+FÃ¼r weitere Informationen darÃ¼ber nutze einfach den folgenden Link:
 
 {U_BUG_REPORT}
 
-{EMAIL_SIG}
+----------------------------
+
+{BOARD_EMAIL}

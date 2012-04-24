@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'cat_security' => 'Sicherheit',
 
 	'item_perm_ban' => 'Dauerhafte Sperren',
-	'item_temp_ban' => 'Vorrübergehende Sperren',
+	'item_temp_ban' => 'Vorübergehende Sperren',
 	'item_permission' => 'Berechtigungen',
 	'item_paid_sec' => 'Kommerzieller Sicherheitsaudit des Codes',
 	'item_form_hand' => 'Formular-Verarbeitung',
@@ -121,8 +121,8 @@ $lang = array_merge($lang, array(
 
 	'item_coppa' => 'COPPA-Registrierung',
 	'item_l_r_a' => 'Begrenzung für Registrierungsversuche',
-	'item_username_lenght' => 'Bestimme min / max Benutzernamenlänge',
-	'item_pass_lenght' => 'Bestimme min / max Passwortlänge',
+	'item_username_length' => 'Bestimme min / max Benutzernamenlänge',
+	'item_pass_length' => 'Bestimme min / max Passwortlänge',
 	'item_l_u_c' => 'Begrenze Benutzernamenzeichen',
 	'item_s_p_c_r' => 'Bestimme die Passwortkomplexität',
 	'item_f_p_c' => 'Erzwingung von Passwort-Wechsel',
@@ -438,9 +438,9 @@ $lang = array_merge($lang, array(
 
 	'item_feat_url_rewrite' => 'SEO Optimierung und URL Rewrite',
 	'item_feat_rss' => 'RSS-Feed',
-	'item_feat_referrers' => 'Referrers-Verfolgung',
-	'item_feat_referrers' => 'Bots-Verfolgung',
-	'item_feat_referrers' => 'Browser und OS Erkennung',
+	'item_feat_referers_tracking' => 'Referer-Verfolgung',
+	'item_feat_bots_tracking' => 'Bots-Verfolgung',
+	'item_feat_browser_tracking' => 'Browser und OS Erkennung',
 	'item_feat_banners' => 'Banner und Ad Verwaltung',
 
 /*********/

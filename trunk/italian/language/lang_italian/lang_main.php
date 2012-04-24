@@ -628,7 +628,7 @@ $lang = array_merge($lang, array(
 	'Invision_Signature' => 'Firma',
 	'Invision_Website' => 'Sito Web',
 	'Invision_Total_Posts' => 'Totale messaggi',
-	'Invision_User_post_pct_stats' => '%.2f%% dei messaggi totali del forum',
+	'Invision_User_post_pct_stats' => '( %.2f%% dei messaggi totali del forum )',
 	'Invision_User_post_day_stats' => '%.2f messaggi al giorno',
 	'Invision_Search_user_posts' => 'Trova tutti i messaggi dell\'utente',
 	'Invision_Posting_details' => 'Dettagli Utente',
@@ -1906,8 +1906,8 @@ $lang = array_merge($lang, array(
 	'Shoutbox_no_auth' => 'Spiacenti, ma solo gli utenti registrati possono utilizzare la Shoutbox.',
 	'Shoutbox_loading' => 'Caricamento Shoutbox...',
 // Errors
-	'Shoutbox_unable' => 'Spiacenti, ma l\'azione richiesta non può essere completate. Riprova di nuovo.',
-	'Shoutbox_timeout' => 'Spiacente, ma il server non risponde. Riprova di nuovo.',
+	'Shoutbox_unable' => 'Spiacenti, ma l\'azione richiesta non pu&ograve; essere completata. Riprova di nuovo.',
+	'Shoutbox_timeout' => 'Spiacenti, ma il server non risponde. Riprova di nuovo.',
 	'Shoutbox_empty' => 'Nessun messaggio nel DB',
 	'Shoutbox_no_mode' => 'Modo specificato non valido',
 // Archive
@@ -2048,7 +2048,7 @@ $lang = array_merge($lang, array(
 	'Upload_File_Error_Size' => 'Dimensioni eccessive!',
 	'Upload_File_Error_Type' => 'Tipo file non consentito!',
 	'Upload_File_Type_Allowed' => 'Soltanto questi tipi di immagine possono essere caricati',
-	'Upload_File_Max_Size' => 'La grandezza massima permesso per ogni file è di',
+	'Upload_File_Max_Size' => 'La grandezza massima permesso per ogni file &egrave; di',
 	'Upload_Insert_Image' => 'Inserisci BBCode',
 	'Upload_Close' => 'Chiudi',
 	'BBCode' => 'BBCode',
@@ -2126,8 +2126,6 @@ $lang = array_merge($lang, array(
 	'Drafts_NT' => 'Nuovo Argomento',
 	'Drafts_NM' => 'Risposta',
 	'Drafts_NPM' => 'Messaggio Privato',
-
-	'Full_editor' => 'Accedi all\'Editor Completo',
 
 	'CannotEditAdminsPosts' => 'Non puoi modificare i messaggi degli amministratori',
 	'Random_Number' => 'Numero Casuale',
@@ -2522,6 +2520,8 @@ $lang = array_merge($lang, array(
 	'IP_BLACKLISTED' => 'Il tuo IP %s &egrave; stato bloccato perch&eacute; incluso in blacklist pubbliche. Per maggiori dettagli <a href="%s">%s</a>.',
 
 	'PRINTABLE_VERSION' => 'Versione Stampabile',
+
+	'FULL_EDITOR' => 'Editor Completo',
 
 	)
 );

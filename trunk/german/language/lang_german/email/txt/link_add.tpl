@@ -1,8 +1,7 @@
-Subject: Neuer Link hinzugefügt
-Charset: utf-8
+Subject: Neuer Link hinzugefÃ¼gt
 
 Hallo Admin,
 
-der Link {LINK_URL} wurde bei {SITENAME} hinzugefügt. Bitte gehe zur Link Verwaltung und bestätige bzw. lösche den Link.
+der Link {LINK_URL} wurde bei {SITENAME} hinzugefÃ¼gt. Bitte gehe zur Link Verwaltung und bestÃ¤tige bzw. lÃ¶sche den Link.
 
-Wenn du keine derartigen E-Mails mehr erhalten möchtest, kannst du dies in der Link Konfiguration im Administrations-Bereich abschalten.
+Wenn du keine derartigen E-Mails mehr erhalten mÃ¶chtest, kannst du dies in der Link Konfiguration im Administrations-Bereich abschalten.

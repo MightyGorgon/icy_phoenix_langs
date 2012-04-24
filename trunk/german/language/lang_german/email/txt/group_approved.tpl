@@ -1,7 +1,6 @@
 Subject: Deine Beitrittsanfrage wurde akzeptiert
-Charset: utf-8
 
-Glückwunsch,
+GlÃ¼ckwunsch,
 
 Deine Anfrage zum Beitritt zur Gruppe "{GROUP_NAME}" bei {SITENAME} wurde akzeptiert.
 Klicke auf den folgenden Link, um deine Mitgliedschaften anzusehen:

@@ -1,9 +1,8 @@
 Subject: Du hast eine neue Private Nachricht von {FROM} erhalten
-Charset: utf-8
 
 Hallo {USERNAME}!
 
-Du hast eine neue Private Nachricht von {FROM} bei {SITENAME} erhalten und hast angegeben, dass du darüber benachrichtigt werden möchtest.
+Du hast eine neue Private Nachricht von {FROM} bei {SITENAME} erhalten und hast angegeben, dass du darÃ¼ber benachrichtigt werden mÃ¶chtest.
 
 ,.-'-.,,.-'-.,,.-'-.,,.-'-.,
 
@@ -24,6 +23,6 @@ Durch Klicken auf den folgenden Link kommst du direkt zur Nachricht:
 
 {U_INBOX}
 
-Du kannst die Benachrichtigungen übrigens abstellen, indem du die entsprechende Option in deinem Profil deaktivierst.
+Du kannst die Benachrichtigungen Ã¼brigens abstellen, indem du die entsprechende Option in deinem Profil deaktivierst.
 
 {EMAIL_SIG}

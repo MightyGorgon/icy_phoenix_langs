@@ -1,13 +1,12 @@
-Charset: utf-8
 <font face="Verdana" size="2">
 <br />{MESSAGE}
 <br />
 <br />
 <br />
 <i>
-<span style="color:#a4a4a4; font-size:11">
-Die E-Mail oben wurde dir von <b>{FROM_USERNAME}</b>  über sein Benutzer-Konto bei <b>{SITENAME}</b> geschickt.<br />
-Wenn diese E-Mail unerwünschten Inhalt (Spam) enthält, dann kontaktiere bitte den Administrator unter:
+<span style="color: #a4a4a4; font-size: 11;">
+Die E-Mail oben wurde dir von <b>{FROM_USERNAME}</b>  Ã¼ber sein Benutzer-Konto bei <b>{SITENAME}</b> geschickt.<br />
+Wenn diese E-Mail unerwÃ¼nschten Inhalt (Spam) enthÃ¤lt, dann kontaktiere bitte den Administrator unter:
 <br /><br />
 <b><a href="mailto:{BOARD_EMAIL}" target="_blank" style="color:#a4a4a4">{BOARD_EMAIL}</a></b><br /><br />
 

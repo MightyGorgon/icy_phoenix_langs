@@ -1,9 +1,8 @@
 Subject: Benutzer-Konto bei {SITENAME} wieder aktivieren
-Charset: utf-8
 
 Hallo {USERNAME},
 
-Dein Benutzer-Konto bei {SITENAME} wurde deaktiviert, vermutlich durch Änderungen an deinem Profil.
+Dein Benutzer-Konto bei {SITENAME} wurde deaktiviert, vermutlich durch Ã„nderungen an deinem Profil.
 
 Klicke den folgenden Link an, um das Benutzer-Konto wieder zu aktivieren:
 

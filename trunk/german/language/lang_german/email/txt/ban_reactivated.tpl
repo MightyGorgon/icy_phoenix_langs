@@ -1,5 +1,4 @@
 Subject: Dein Benutzer-Konto wurde wieder aktiviert
-Charset: utf-8
 
 Hallo {WARNED_POSTER},
 

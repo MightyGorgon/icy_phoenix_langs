@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'Ftp_error_login' => 'Anmeldung an FTP-Server fehlgeschlagen. Der Benutzername \'%s\' oder das Passwort ist falsch. Bitte überprüfe deine FTP-Einstellungen.',
 	'Ftp_error_path' => 'Kein Zugriff auf das FTP-Verzeichnis \'%s\'. Bitte überprüfe deine FTP-Einstellungen.',
 	'Ftp_error_upload' => 'Hochladen von Dateien in das FTP-Verzeichnis \'%s\' fehlgeschlagen. Bitte überprüfe deine FTP-Einstellungen.',
-	'Ftp_error_delete' => 'Löschen von Dateien im FTP-Verzeichnis \'%s\' fehlgeschlagen. Bitte überprüfe deine FTP-Einstellungen.<br />Another reason for this error could be the non-existence of the Attachment, please check this first in Shadow Attachments.',
+	'Ftp_error_delete' => 'Das Löschen von Dateien im FTP-Verzeichnis \'%s\' ist fehlgeschlagen. Bitte überprüfe deine FTP-Einstellungen.<br />Ein anderer Grund für diesen Fehler könnte sein, dass es keinen Anhang gibt. Bitte prüfe das zuerst unter &quot;Versteckte Anhänge&quot;.',
 	'Ftp_error_pasv_mode' => 'Aktivieren/Deaktivieren des FTP Passive Mode fehlgeschlagen',
 
 // Attach Rules Window

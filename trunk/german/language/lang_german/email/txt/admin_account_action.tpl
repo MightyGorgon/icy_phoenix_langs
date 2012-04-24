@@ -1,5 +1,4 @@
 Subject: {SUBJECT}
-Charset: utf-8
 
 Hallo {USERNAME},
 

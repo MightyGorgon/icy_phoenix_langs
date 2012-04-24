@@ -29,10 +29,10 @@ $lang['BBC_Overview'] = '<ul>
 <li><span class="topic_imp">phpBB bulletin Board und Berechtigungssystem</span><br /></li>
 <li><span class="topic_imp">CMS Funktion welche die Schaffung von neuen Seiten und Blöcken ermöglicht (einige dieser Funktionen stammen vom aufgegebenen IM Portal Projekt)</span><br /></li>
 <li><span class="topic_imp">Übergreifende Template Integration zwischen allen Seitenabschnitten</span><br /></li>
-<li><span class="topic_imp">Viele Funktionen können sofort benutzt werden: Foto-Galerie, Downloads, Wissensdatenbank, Links, Chat...</span><br /></li>
+<li><span class="topic_imp">Viele Funktionen können sofort benutzt werden: Foto-Galerie, Downloads, Wissensdatenbank, Links, Chat&hellip;</span><br /></li>
 <li><span class="topic_imp">Startbereit für Mehrsprachigkeit und Mehrfach-Template</span><br /></li>
 <li><span class="topic_imp">Nahezu 100% XHTML und CSS W3C konform</span><br /></li>
-<li><span class="topic_imp">...und vieles mehr...</span><br /></li>
+<li><span class="topic_imp">&hellip;und vieles mehr&hellip;</span><br /></li>
 </ul>
 <br /><br />
 </li>
@@ -43,9 +43,9 @@ $lang['BBC_Overview'] = '<ul>
 <li><span class="topic_ann"><b>Hat Icy Phoenix viele Templates?</b></span><br /></li>
 <li><span class="topic_imp">Ja, im Moment sind einige kostenlose Templates (einige davon mit unterschiedlichen Farbenvariationen) vorhanden und wir arbeiten weiterhin an Neuen. Wenn du an neuen Templates interessiert bist, solltest du regelmäßig das <a class="post-url" href="http://www.icyphoenix.com/" target="_blank">Support Forum</a> besuchen.</span><br /><br /></li>
 <li><span class="topic_ann"><b>Ist Icy Phoenix mehrsprachig?</b></span><br /></li>
-<li><span class="topic_imp">Englisch ist die Hauptsprache in Icy Phoenix, aber es wurde in andere Sprachen übersetzt (alphabetisch geordnet): deutsch, galicisch, holländisch, italienisch, katalanisch, serbisch, spanisch... und weitere werden folgen! Wenn du deine Sprache nicht in dieser Liste finden solltest, dann frage bitte im <a class="post-url" href="http://www.icyphoenix.com/" target="_blank">Support Forum</a>. Vielleicht arbeitet gerade jemand an dieser Übersetzung. Dann kannst du beim "Übersetzungs-Team" mitmachen, um deinen Beitrag zu leisten.</span><br /><br /></li>
+<li><span class="topic_imp">Englisch ist die Hauptsprache in Icy Phoenix, aber es wurde in andere Sprachen übersetzt (alphabetisch geordnet): deutsch, galicisch, holländisch, italienisch, katalanisch, serbisch, spanisch&hellip; und weitere werden folgen! Wenn du deine Sprache nicht in dieser Liste finden solltest, dann frage bitte im <a class="post-url" href="http://www.icyphoenix.com/" target="_blank">Support Forum</a>. Vielleicht arbeitet gerade jemand an dieser Übersetzung. Dann kannst du beim "Übersetzungs-Team" mitmachen, um deinen Beitrag zu leisten.</span><br /><br /></li>
 <li><span class="topic_ann"><b>Wird Icy Phoenix upgraded auf phpBB 3?</b></span><br /></li>
-<li><span class="topic_imp">Im Moment gibt es keine Überlegungen Icy Phoenix auf phpBB 3 upzugraden. Dafür gibt es einige Gründe. Wenn phpBB 3 lange genug und stabil laufen sollte, kann es sein, dass sich Dinge auch einmal ändern...</span><br /><br /></li>
+<li><span class="topic_imp">Im Moment gibt es keine Überlegungen Icy Phoenix auf phpBB 3 upzugraden. Dafür gibt es einige Gründe. Wenn phpBB 3 lange genug und stabil laufen sollte, kann es sein, dass sich Dinge auch einmal ändern&hellip;</span><br /><br /></li>
 <li><span class="topic_ann"><b>Darf ich dem Icy Phoenix Projekt beitreten?</b></span><br /></li>
 <li><span class="topic_imp">Natürlich. Icy Phoenix ist ein Open-Source Projekt und jeder, der einen kontinuierlichen Beitrag dafür leisten möchte, kann sich für ein Team anmelden.</span><br /><br /></li>
 </ul>';
@@ -57,7 +57,7 @@ $lang['BBC_Requirements'] = 'Bevor du Icy Phoenix installierst solltest du siche
 <ul>
 <li>Mindestens 20 MB freien Speicherplatz in dem Ordner, wo du Icy Phoenix installieren möchtest</li>
 <li>Web Server mit PHP (4 oder höher) installiert und gestartet (läuft am besten mit Linux + Apache)</li>
-<li>MySQL (3 oder höher) Datenbank mit mindestens 1 MB freien Speicherplatz (natürlich hängt die Größe davon ab, wie groß dein Forum sein wird... 1 MB ist genug, für die Anfangsinstallation)</li>
+<li>MySQL (3 oder höher) Datenbank mit mindestens 1 MB freien Speicherplatz (natürlich hängt die Größe davon ab, wie groß dein Forum sein wird&hellip; 1 MB ist genug, für die Anfangsinstallation)</li>
 <li>Erlaubnis haben, CHMOD setzen zu können</li>
 </ul>
 <br /><br />

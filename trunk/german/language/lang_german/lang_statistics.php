@@ -31,7 +31,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 // Wenn du den Autor auf der Statistik Seite würdigen möchtest, dann unkommentiere die zweite Zeile.
 // 'Version_info' => '<br />Statistik Mod Version %s', //%s = nummer
-	'Version_info' => '<br />Statistics Mod Version %s &copy; 2002 <a href="http://www.opentools.de/board">Acyd Burn</a>',
+	'Version_info' => '<br />Statistik Mod recoded by <a href="http://www.icyphoenix.com/">Mighty Gorgon</a> based on Version %s &copy; 2002 <a href="http://www.opentools.de/board">Acyd Burn</a>',
 
 // Diese Sprach Variablen sind für alle installierten Module verfügbar
 	'Rank' => 'Rang',
@@ -74,8 +74,6 @@ $lang = array_merge($lang, array(
 	'Installed' => 'Installiert',
 	'Uninstall' => 'Deinstallieren',
 	'Uninstalled' => 'Deinstalliert',
-	'Move_up' => 'Einen Eintrag hoch',
-	'Move_down' => 'Einen Eintrag runter',
 	'Update_time' => 'Update Zeit',
 	'Auth_settings_updated' => 'Berechtigungen - [Diese werden immer aktualisiert]',
 
@@ -90,7 +88,8 @@ $lang = array_merge($lang, array(
 	'Status' => 'Status',
 	'Update_time_minutes' => 'Update Zeit in Minuten',
 	'Update_time_desc' => 'Zeitintervall (in Minuten) bis zum Neuladen der Daten aus dem Modul. D.h. in der eingestellten Zeit werden die gecachten Daten zum Anzeigen genommen.',
-	'Auto_set_update_time' => 'Ermittle und setze die vorgeschlagenen Update Zeiten für jedes Installiertes (und Aktive) Modul. Bitte Beachte: Das kann etwas länger dauern.',
+	'AUTO_SET_UPDATE_TIME' => 'Ermittle und setze die vorgeschlagenen Update Zeiten für jedes Installiertes (und Aktive) Modul. Bitte Beachte: Das kann etwas länger dauern.',
+	'STAT_BLOCKS_SORT' => '<i>Tipp: Sie können die Module auch per Drag &amp; Drop anordnen.</i>',
 	'Uninstall_module' => 'Modul deinstallieren',
 	'Uninstall_module_desc' => 'Markiert das Modul als "nicht installiert", so das es möglich ist das Modul noch einmal zu installieren. Es löscht das Modul nicht von der Festplatte, du musst das Modul Verzeichnis löschen um das Modul komplett zu deinstallieren.',
 	'Active_desc' => 'Option, ob das Modul aktiv ist oder nicht. Im aktiviertem Zustand wird das Modul in abhängigkeit der Berechtigungen in den Statistiken angezeigt.',
@@ -218,7 +217,7 @@ $lang = array_merge($lang, array(
 	'module_name_site_hist_week_top_posters' => 'Die aktivesten Benutzer diese Woche',
 	'Week_Var' => '[%s]', // %s wird durch die aktuelle Woche ersetzt
 
-	'module_name_top_attachments' => 'Am häufigsten heruntergeladene Anhänge',
+	'module_name_top_attachments' => 'Am häufigsten heruntergeladene Dateianhänge',
 	'File_name' => 'Dateiname',
 	'File_comment' => 'Dateikommentar',
 

@@ -1,5 +1,5 @@
 Subject: Aktivierung des neuen Passwortes
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
 Hallo <b>{USERNAME}</b>,<br /><br />
 Du erhältst diese E-Mail, weil du (oder jemand, der sich für dich ausgibt), ein neues Passwort für dein Benutzer-Konto bei <b>{SITENAME}</b> angefordert hat.<br />
@@ -14,5 +14,5 @@ Wenn dies erfolgreich war, kannst du dich in Zukunft mit dem folgenden Passwort 
 <br /><br />
 Du kannst (und solltest) dieses Passwort natürlich wieder ändern. Um dies zu tun, logge dich ein und gehe auf die "Profil"-Seite, wo du das Passwort ändern kannst. Wenn du damit Probleme hast, kontaktiere bitte den Administrator.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

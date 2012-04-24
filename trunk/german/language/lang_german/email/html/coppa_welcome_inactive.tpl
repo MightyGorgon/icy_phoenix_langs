@@ -1,9 +1,9 @@
 Subject: Willkommen bei {SITENAME}
-Charset: utf-8
+
 <br /><font face="Verdana" size="2">
-{WELCOME_MSG}
+Willkommen bei <b>{SITENAME}</b>
 <br /><br />
-Gemäß den COPPA-Richtlinien ist dein Benutzer-Konto im Moment inaktiv.<br /><br />
+GemÃ¤ÃŸ den COPPA-Richtlinien ist dein Benutzer-Konto im Moment inaktiv.<br /><br />
 
 Bitte drucke diese Nachricht aus und gib sie deinen Eltern oder Erziehungsberechtigten zum Unterschreiben. Danach faxe sie an:<br /><br />
 
@@ -14,7 +14,7 @@ ODER sende sie an:<br /><br />
 {MAIL_INFO}<br /><br /><br />
 
 ------------------------------ Hier abschneiden ------------------------------<br />
-Erlaubnis bei {SITENAME} zu posten<br /><br />
+Erlaubnis bei {SITENAME} mitzumachen<br /><br />
 
 Benutzername: {USERNAME}<br />
 Passwort: {PASSWORD}<br />
@@ -29,9 +29,9 @@ Ort: {FROM}<br />
 Beruf: {OCC}<br />
 Interessen: {INTERESTS}<br /><br />
 
-ICH HABE DIE INFORMATIONEN, DIE VON MEINEM KIND EINGETRAGEN WURDEN, GELESEN UND FÜR RICHTIG BEFUNDEN. ICH ERLAUBE IHM HIERMIT BEI {SITENAME} ZU POSTEN UND DIE OBEN ANGEFÜHRTEN INFORMATIONEN AUF DIESER SEITE ZU SPEICHERN.<br />
-ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT NACH EINEM LOGIN GEÄNDERT WERDEN KÖNNEN.<br />
-ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT AUF WUNSCH VON {SITENAME} ENTFERNT WERDEN KÖNNEN.<br /><br />
+ICH HABE DIE INFORMATIONEN, DIE VON MEINEM KIND EINGETRAGEN WURDEN, GELESEN UND FÃœR RICHTIG BEFUNDEN. ICH ERLAUBE IHM HIERMIT BEI {SITENAME} ZU POSTEN UND DIE OBEN ANGEFÃœHRTEN INFORMATIONEN AUF DIESER SEITE ZU SPEICHERN.<br />
+ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT NACH EINEM LOGIN GEÃ„NDERT WERDEN KÃ–NNEN.<br />
+ICH HABE VERSTANDEN, DASS DIESE INFORMATIONEN JEDERZEIT AUF WUNSCH VON {SITENAME} ENTFERNT WERDEN KÃ–NNEN.<br /><br />
 
 
 Elternteil/Erziehungsberechtigter<br />
@@ -44,12 +44,12 @@ Datum:        __________________<br /><br />
 ------------------------------ Hier abschneiden ------------------------------<br /><br /><br />
 
 
-Sobald der Administrator den oben angeführten Abschnitt erhalten hat, wird dieses Benutzer-Konto aktiviert.<br /><br />
+Sobald der Administrator den oben angefÃ¼hrten Abschnitt erhalten hat, wird dieses Benutzer-Konto aktiviert.<br /><br />
 
-Das Passwort wurde nur verschlüsselt in unserer Datenbank gespeichert, wenn du es also vergisst, können wir es dir nicht mehr zusenden.<br /> Wenn du es trotzdem vergessen solltest, kannst du aber jederzeit, über die Login-Seite, ein neues anfordern.
+Das Passwort wurde nur verschlÃ¼sselt in unserer Datenbank gespeichert, wenn du es also vergisst, kÃ¶nnen wir es dir nicht mehr zusenden.<br /> Wenn du es trotzdem vergessen solltest, kannst du aber jederzeit, Ã¼ber die Login-Seite, ein neues anfordern.
 <br /><br />
-Danke für deine Registrierung!
+Danke fÃ¼r deine Registrierung!
 
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

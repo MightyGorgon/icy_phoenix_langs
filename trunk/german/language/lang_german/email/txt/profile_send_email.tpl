@@ -1,11 +1,10 @@
 Subject: Neue E-Mail von {FROM_USERNAME}
-Charset: utf-8
 
 {MESSAGE}
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die obenstehende E-Mail wurde von {FROM_USERNAME} über dessen Benutzer-Konto bei {SITENAME} gesendet. Wenn diese E-Mail unerwünschten Inhalt (Spam) enthält, dann kontaktiere bitte den Administrator unter:
+Die obenstehende E-Mail wurde von {FROM_USERNAME} Ã¼ber dessen Benutzer-Konto bei {SITENAME} gesendet. Wenn diese E-Mail unerwÃ¼nschten Inhalt (Spam) enthÃ¤lt, dann kontaktiere bitte den Administrator unter:
 
 {BOARD_EMAIL}
 

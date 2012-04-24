@@ -69,6 +69,7 @@ $lang = array_merge($lang, array(
 	'Cat_not_exist' => 'La categoria selezionata non esiste.',
 	'File_not_exist' => 'Il file selezionato non esiste.',
 	'License_not_exist' => 'La licenza selezionata non esiste.',
+	'No_dl_categories_exists' => 'Non ci sono categorie nel database oppure non hai il permesso di visualizzare nessuna categoria.',
 
 	// File
 	'File' => 'File',

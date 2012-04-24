@@ -62,8 +62,10 @@ $lang['PrivacyDisclaimer'] = 'Du erklärst dich ausdrücklich damit einverstande
 
 $lang['ENCODING'] = 'UTF-8';
 $lang['DIRECTION'] = 'ltr';
+$lang['USER_LANG'] = 'de-de';
 $lang['HEADER_LANG'] = 'de-de';
-$lang['HEADER_XML_LANG'] = 'de-de';
+$lang['HEADER_LANG_XML'] = 'de-de';
+$lang['HEADER_LANG_JQUERY'] = 'de-DE';
 $lang['LEFT'] = 'links';
 $lang['RIGHT'] = 'rechts';
 $lang['DATE_FORMAT'] = 'd F y H:i'; // Dies sollte in das Standard Datums-Format deiner Sprache geändert werden, php date() format
@@ -71,18 +73,25 @@ $lang['DATE_FORMAT_DATE'] = 'd.m.Y';
 $lang['DATE_FORMAT_TIME'] = 'H:i';
 $lang['DATE_FORMAT_MG'] = 'd.m.Y - H:i';
 $lang['DATE_FORMAT_VF'] = 'd M Y';
+$lang['DATE_FORMAT_DATE_JQUI_JQ'] = 'dd.mm.yy'; // You can only use one of these three formats: dd/mm/yy, mm/dd/yy, yy/mm/dd
+$lang['DATE_FORMAT_TIME_JQUI_JQ'] = 'hh:ss';
+$lang['DATE_FORMAT_DATE_JQUI_PHP'] = 'd.m.Y'; // You can only use one of these three formats: d/m/Y, m/d/Y, Y/m/d
+$lang['DATE_FORMAT_TIME_JQUI_PHP'] = 'H.i';
+$lang['DATE_FORMAT_DATE_MYSQL_PHP'] = 'ymd'; // You can only use one of these three formats: dmy, mdy, ymd (this is used to convert dates from MySQL and PHP and vice versa, all dates are with leading zeroes)
 $lang['DATE_FORMAT_BIRTHDAY'] = 'd. F Y';
 $lang['DATE_FORMAT_CALENDAR'] = 'd.m.Y'; // Dies sollte in das Standard Datums-Format deiner Sprache geändert werden, php date() format
 $lang['JOINED_DATE_FORMAT'] = 'F Y'; // Datums-Format der Anmeldung, php date() format
 $lang['NUMBER_FORMAT_DECIMALS'] = 0;
 $lang['NUMBER_FORMAT_DECIMALS_SEP'] = '.';
 $lang['NUMBER_FORMAT_THOUSANDS_SEP'] = ',';
+$lang['NUMBER_FORMAT_DATE_SEP'] = '/';
+$lang['NUMBER_FORMAT_TIME_SEP'] = ':';
 
 // This is optional, if you would like a _SHORT_ message output
 // along with our copyright message indicating you are the translator
 // please add it here.
 
-$lang['TRANSLATION_INFO'] = 'Deutsche Übersetzung durch <a href="http://www.icyphoenix.de" target="_blank">IcyPhoenix.de</a>';
+$lang['TRANSLATION_INFO'] = 'Deutsche Übersetzung durch <a href="http://www.icyphoenix.de" onclick="this.target=\'_blank\'">IcyPhoenix.de</a>';
 $lang['TRANSLATION'] = '';
 
 ?>
