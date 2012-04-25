@@ -77,8 +77,8 @@ $lang = array_merge($lang, array(
 	'LB_Preview_Explain' => 'Dieses Feature zeigt eine LightBox mit einer Bildervorschau, wenn du mit der Maus über das Thumbnail fährst.',
 	'Album_config_notice' => 'Falls du die derzeitigen Album-Einstellungen wechselst und einen anderen Tab wählst, wirst du zum Speichern der Änderungen aufgefordert.<br />Das System wird Änderungen <b>nicht automatisch speichern</b>.',
 	'Save_sucessfully_confimation' => '%s wurde erfolgreich gespeichert',
-	'Show_Recent_In_Subcats' => 'Zeige die neusten Bilder in den Unterkategorien',
-	'Show_Recent_Instead_of_NoPics' => 'Zeige die neusten Bilder anstelle der \'Keine Bilder\'-Nachricht',
+	'Show_Recent_In_Subcats' => 'Zeige die neuesten Bilder in den Unterkategorien',
+	'Show_Recent_Instead_of_NoPics' => 'Zeige die neuesten Bilder anstelle der \'Keine Bilder\'-Nachricht',
 	'Show_Last_Comments' => 'Zeige letzte Kommentare im Foto-Galerie Index und Kategorien',
 	'Album_Index_Settings' => 'Foto-Galerie Index',
 	'Album_Index_Page_Settings' => 'Album Index Seiten Einstellungen',
@@ -117,8 +117,8 @@ $lang = array_merge($lang, array(
 	'Personal_Sub_Cat_Limit' => 'Maximale Anzahl an Unterkategorien (-1 = unbegrenzt)',
 	'User_Can_Create_Personal_SubCats' => 'Benutzer können Unterkategorien in ihren persönlichen Foto-Galerien erstellen',
 	'Click_return_personal_gallery_index' => 'Klicke %shier%s, um zu den persönlichen Foto-Galerien zurückzukehren.',
-	'Show_Recent_In_Personal_Subcats' => 'Zeige die neusten Bilder in den persönlichen Unterkategorien',
-	'Show_Recent_Instead_of_Personal_NoPics' => 'Zeige die neusten Bilder anstelle von \'Keine Bilder\' in den persönlichen Foto-Galerien',
+	'Show_Recent_In_Personal_Subcats' => 'Zeige die neuesten Bilder in den persönlichen Unterkategorien',
+	'Show_Recent_Instead_of_Personal_NoPics' => 'Zeige die neuesten Bilder anstelle von \'Keine Bilder\' in den persönlichen Foto-Galerien',
 
 // 03 - Categories
 	'Categories' => 'Foto-Galerie Kategorien',
@@ -170,10 +170,13 @@ $lang = array_merge($lang, array(
 	'Album_Category_Sorting' => 'Sortierung der Alben-Kategorien',
 	'Album_Category_Sorting_Id' => 'ID',
 	'Album_Category_Sorting_Name' => 'Name',
-	'Album_Category_Sorting_Order' => 'Sortierreihenfolge (standard)',
+	'Album_Category_Sorting_Order' => 'Sortierreihenfolge (Standard)',
 	'Album_Category_Sorting_Direction' => 'Richtung (nur für ID und Name)',
 	'Album_Category_Sorting_Asc' => 'Aufsteigend',
 	'Album_Category_Sorting_Desc' => 'Absteigend',
+
+	'Album_Picture_Sorting' => 'Sortierung der Bilder',
+	'Album_Picture_Sorting_Direction' => 'Sortierreihenfolge (Standard)',
 
 // 07 - Clear Cache
 	'Clear_Cache_Tab' => 'Cache',
@@ -225,7 +228,7 @@ $lang = array_merge($lang, array(
 	'SP_Rate_type_0' => 'Nur Bilder',
 	'SP_Rate_type_1' => 'Nur Ziffern',
 	'SP_Rate_type_2' => 'Ziffern und Bilder',
-	'SP_Display_latest' => 'Zeige Block mit den neusten Bildern',
+	'SP_Display_latest' => 'Zeige Block mit den neuesten Bildern',
 	'SP_Display_highest' => 'Zeige Block mit den höchstbewerteten Bildern',
 	'SP_Display_most_viewed' => 'Zeige Block mit den am häufigsten betrachteten Bildern',
 	'SP_Display_random' => 'Zeige Block mit zufälligen Bildern',

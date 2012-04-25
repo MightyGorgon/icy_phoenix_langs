@@ -712,9 +712,9 @@ $lang = array_merge($lang, array(
 	'Connect_socket_error' => 'Die Verbindung zum phpBB-Server konnte nicht aufgebaut werden. Es trat folgender Fehler auf:<br />%s',
 	'Connect_socket_error_ip' => 'Es konnte keine Verbindung zum Icy Phoenix Server hergestellt werden',
 	'Socket_functions_disabled' => 'Die Socket-Funktionen konnten nicht benutzt werden.',
-	'Mailing_list_subscribe_reminder' => 'Um immer die neusten Informationen zu Updates von phpBB zu erhalten, solltest du dich <a href="http://www.phpbb.com/support/" target="_new">beim phpBB Newsletter anmelden</a>.',
+	'Mailing_list_subscribe_reminder' => 'Um immer die neuesten Informationen zu Updates von phpBB zu erhalten, solltest du dich <a href="http://www.phpbb.com/support/" target="_new">beim phpBB Newsletter anmelden</a>.',
 	'Version_information' => 'Versions-Information',
-	'Version_not_checked' => 'Versionsprüfung ist zur Zeit deaktiviert. Bitte besuche die Icy Phoenix Support Foren für Informationen über neue Versionen.',
+	'Version_not_checked' => 'Versionsprüfung ist zurzeit deaktiviert. Bitte besuche die Icy Phoenix Support Foren für Informationen über neue Versionen.',
 
 // Advanced Signature Divider Control
 	'sig_title' => 'Signaturteiler Einstellungen',

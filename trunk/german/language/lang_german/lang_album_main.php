@@ -42,12 +42,12 @@ $lang = array_merge($lang, array(
 	'Category_not_exist' => 'Diese Kategorie existiert nicht',
 	'Upload_Pic' => 'Bild Upload',
 	'Upload_Pics' => 'Bilder Upload',
-	'JUpload_Pic' => 'Lade mehrere verschiedene Bilder mit Jupload hoch',
+	'JUpload_Pic' => 'Lade mehrere verschiedene Bilder mit Jupload hoch.',
 	'Pic_Title' => 'Bild Titel',
 	'View' => 'Ansichten',
 	'Pic_Poster' => 'Benutzer',
 	'Pic_Image' => 'Bild',
-	'Waiting' => ' Bild(er) die auf Freigabe warten',
+	'Waiting' => ' Bild(er) warten auf Freigabe',
 
 /*
 	'Album_upload_can' => 'You <b>can</b> upload new pics in this category',
@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'Pic_Desc' => 'Bildbeschreibung',
 	'Plain_text_only' => 'Nur einfacher Text',
 	'Max_length' => 'Max. Länge (bytes)',
-	'Upload_pic_from_machine' => 'Lade ein Bild von Deiner Festplatte hoch',
+	'Upload_pic_from_machine' => 'Lade ein Bild von deiner Festplatte hoch',
 	'Upload_to_Category' => 'Lade in Kategorie',
 	'Upload_thumbnail_from_machine' => 'Lade das Vorschaubild von der Festplatte (gleicher Dateityp wie Bild)',
 	'Upload_thumbnail' => 'Lade ein Vorschaubild hoch',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 // 'Album_upload_need_approval' => 'Dein Bild wurde erfolgreich hochgeladen.<br /><br />Aber Bildüberprüfung ist angeschaltet, sodass dein Bild vor der Veröffentlichung erst von einem Administrator oder Moderator dieses Forum überprüft werden muss',
 
 	'Bad_upload' => 'Das Hochladen des Bildes ist fehlgeschlagen.',
-	'Bad_upload_file_size' => 'Die von Dir hochgeladene Datei ist zu groß oder beschädigt.',
+	'Bad_upload_file_size' => 'Die von dir hochgeladene Datei ist zu groß oder beschädigt.',
 	'Album_upload_successful' => 'Dein Bild wurde erfolgreich hochgeladen.',
 	'Album_upload_need_approval' => 'Dein Bild wurde erfolgreich hochgeladen.<br /><br />Allerdings muss dein Bild erst von einem Administrator oder Moderator überprüft werden, bevor es angezeigt wird.',
 
@@ -215,7 +215,7 @@ $lang = array_merge($lang, array(
 // Rate
 	'Current_Rating' => 'Aktuelle Bewertung',
 	'Please_Rate_It' => 'Bitte bewerten',
-	'Login_To_Vote' => 'Bitte log Dich ein, um zu bewerten',
+	'Login_To_Vote' => 'Bitte log dich ein, um zu bewerten',
 	'Already_rated' => 'Du hast dieses Bild schon bewertet',
 	'Own_Pic_Rate' => 'Du darfst deine eigenen Bilder nicht bewerten.',
 	'Album_rate_successfully' => 'Das Bild wurde erfolgreich bewertet.',
@@ -223,16 +223,16 @@ $lang = array_merge($lang, array(
 	'Hot_Or_Not' => 'Hot Or Not',
 
 // Comment
-	'Comment_no_text' => 'Bitte gib Deinen Kommentar ein',
+	'Comment_no_text' => 'Bitte gib deinen Kommentar ein',
 	'Comment_too_long' => 'Dein Kommentar ist zu lang',
 	'Comment_delete_confirm' => 'Bist du sicher, dass du diesen Kommentar löschen willst?',
 	'Pic_Locked' => 'Sorry, dieses Bild ist gesperrt. Du kannst hier keine weiteren Kommentare einstellen.',
-	'Post_your_comment' => 'Bitte gib Deinen Kommentar ein',
+	'Post_your_comment' => 'Bitte gib deinen Kommentar ein.',
 
 // Personal Gallery
 	'Personal_Gallery_Explain' => 'Du kannst die persönlichen Foto-Galerien anderer Mitglieder betrachten, wenn du auf den Link in deren Profil klickst',
 	'Personal_gallery_not_created' => 'Die persönliche Foto-Galerie von %s ist leer oder wurde noch nicht erstellt',
-	'Not_allowed_to_create_personal_gallery' => 'Sorry, der Administrator des Boards erlaubt es Dir nicht, eine persönliche Foto-Galerie zu erstellen',
+	'Not_allowed_to_create_personal_gallery' => 'Sorry, der Administrator des Boards erlaubt es dir nicht, eine persönliche Foto-Galerie zu erstellen',
 	'Click_return_personal_gallery' => 'Klicke %shier%s, um zur persönlichen Foto-Galerie zurückzukehren.',
 
 // Download Archive

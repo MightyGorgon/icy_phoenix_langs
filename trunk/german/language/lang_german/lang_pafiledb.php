@@ -29,7 +29,7 @@ $lang = array_merge($lang, array(
 // Toplist
 	'Toplist' => 'Top-Liste',
 	'Select_list' => 'Wähle die Art der Liste aus, die angezeigt werden soll',
-	'Latest_downloads' => 'Die neusten Dateien',
+	'Latest_downloads' => 'Die neuesten Dateien',
 	'Most_downloads' => 'Populärste Dateien',
 	'Rated_downloads' => 'Dateien mit bester Bewertung',
 	'Total_new_files' => 'Alle neuen Downloads',

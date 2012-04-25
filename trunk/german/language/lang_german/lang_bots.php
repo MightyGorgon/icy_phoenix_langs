@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_BOTS' => 'Klicke %shier%s, um zur Bot-Administration zurückzukehren.',
 
 	'ERR_BOT_ADD' => 'Du hast nicht alle benötigten Felder ausgefüllt, bitte gehe zurück und versuche es erneut.',
-	'ERR_BOT_AGENT_MATCHES_UA' => 'Der Bot Agent den du eingeben willst ist der gleiche den du zur Zeit benutzt. Bitte stelle den Agent für diesen Bot ein.',
+	'ERR_BOT_AGENT_MATCHES_UA' => 'Der Bot Agent den du eingeben willst ist der gleiche den du zurzeit benutzt. Bitte stelle den Agent für diesen Bot ein.',
 	'ERR_BOT_NO_IP' => 'Die IP Adressen die du eingegeben hast sind ungültig oder der Hostname konnte nicht aufgelöst werden.',
 	'ERR_BOT_NO_MATCHES' => 'Du musst mindestens einen Agent oder eine IP für diesen Bot eingeben.',
 

@@ -167,7 +167,7 @@ $lang['Cmh_features'] = 'Funktionen';
 
 $lang['Cmhe_support'] = 'Allgemeine Informationen';
 $lang['Cmhe_troubleshooting'] = 'Wenn du Probleme mit dem Cash Mod hast, gucke hier nach ob es Lösungen gibt';
-$lang['Cmhe_upgrading'] = 'Du hast momentan Version %s, Upgrades zur neusten Version werden hier gepostet';
+$lang['Cmhe_upgrading'] = 'Du hast momentan Version %s, Upgrades zur neuesten Version werden hier gepostet';
 $lang['Cmhe_addons'] = 'Eine Liste an MODs, die nutzen von Cash Mod Funktionalität machen';
 $lang['Cmhe_demo_boards'] = 'Eine Liste von Demo Boards, die den Cash Mod benutzen';
 $lang['Cmhe_translations'] = 'Eine Liste von Übersetzungen für den Cash Mod';
