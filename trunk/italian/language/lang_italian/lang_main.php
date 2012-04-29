@@ -1923,7 +1923,14 @@ $lang = array_merge($lang, array(
 	'Online_registered' => 'Utenti',
 	'Online_guests' => 'Ospiti',
 	'Who_is_Chatting' => 'Online In Chat',
+	'Start_Private_Chat' => 'Clicca sul nome per iniziare un chat privato',
 	'Shoutbox_online_explain' => 'Questi dati sono basati sugli ultimi 30 secondi',
+// Chat rooms
+	'Shout_rooms' => 'Stanze',
+	'Admin_rooms' => 'Tutte le stanze',
+	'Public_room' => 'Stanza pubblica',
+	'Private_room' => 'Stanza privata',
+	'My_id' => 'Io',
 // Ajax Shoutbox - END
 
 	'Contact_us' => 'Contattaci',
