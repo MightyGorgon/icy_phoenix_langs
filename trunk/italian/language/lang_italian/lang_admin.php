@@ -1386,8 +1386,6 @@ $lang = array_merge($lang, array(
 	'Shout_guest_allowed' => 'Consenti l\'uso agli ospiti',
 	'Shoutbox_flood' => 'Intervallo Flood',
 	'Shoutbox_flood_explain' => 'Numero di secondi minimo necessario tra l\'invio di un messaggio ed il successivo.',
-	'Shoutbox_refreshtime' => 'Tempo Di Aggiornamento',
-	'Shoutbox_refresh_explain' => 'Tempo espresso in millisecondi per l\'aggiornamento della Shoutbox.<br /><i>Questo valore dovrebbe essere almeno 1000 millisecondi.</i>',
 // Ajax Shoutbox - END
 
 /* lang_postcount.php - BEGIN */
@@ -2096,6 +2094,19 @@ $lang = array_merge($lang, array(
 
 	'RANK_SHOW_TITLE' => 'Mostra il titolo del rank',
 	'RANK_SHOW_TITLE_EXPLAIN' => 'Disattivando questa opzione verr&agrave; mostrata soltanto l\'immagine',
+
+	'AJAX_CHAT_MSGS_REFRESH' => 'Aggiornamento Messaggi',
+	'AJAX_CHAT_MSGS_REFRESH_EXPLAIN' => 'Inserisci il numero di secondi per l\'aggiornamento dei messaggi nella chat. Questo valore non dovrebbe mai essere inferiore a due secondi: valori inferiori ad un secondo non verranno comunque accettati.',
+	'AJAX_CHAT_SESSION_REFRESH' => 'Durata Sessione',
+	'AJAX_CHAT_SESSION_REFRESH_EXPLAIN' => 'Inserisci il numero di secondi per la durata delle sessioni in chat. Nel caso in cui non si rilevi la presenza in chat oltre il periodo indicato, il sistema provveder&agrave; ad eliminare la sessione. Questo valore non dovrebbe mai essere inferiore a dieci secondi: valori inferiori a cinque secondi non verranno comunque accettati.',
+	'AJAX_CHAT_LINK_TYPE' => 'Formato Chat',
+	'AJAX_CHAT_LINK_TYPE_EXPLAIN' => 'Per cortesia scegliere se si vuole un formato di chat ridotto o si vuole mostrare la pagina completa (il formato Ridotto &grave; consigliato, anche perch&eacute; pi&ugrave; veloce).',
+	'AJAX_CHAT_LINK_TYPE_SIMPLE' => 'Ridotto',
+	'AJAX_CHAT_LINK_TYPE_FULL' => 'Completo',
+	'AJAX_CHAT_NOTIFICATION' => 'Notifica Chat Privata',
+	'AJAX_CHAT_NOTIFICATION_EXPLAIN' => 'Abilitando questa opzione, gli utenti verranno avvisati tramite una notifica nel caso di invito ad una Chat Privata.',
+	'AJAX_CHAT_CHECK_ONLINE' => 'Link Chat Privata Solo Per Utenti Online',
+	'AJAX_CHAT_CHECK_ONLINE_EXPLAIN' => 'Abilitando questa opzione il link per la Chat Privata verr&agrave; mostrato soltanto se l\'utente &egrave; gi&agrave; in chat, altrimenti verr&agrave; mostrato anche se l\'utente &egrave; semplicemente online sul sito.',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Impostazioni Icy Phoenix',
