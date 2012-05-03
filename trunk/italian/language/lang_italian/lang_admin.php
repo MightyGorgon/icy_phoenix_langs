@@ -1668,7 +1668,7 @@ $lang = array_merge($lang, array(
 /* lang_admin_link.php - BEGIN */
 	'Link_Categories_Title' => 'Gestione Categorie Link',
 	'Link_Categories_Explain' => 'In questa schermata potete gestire le categorie dei link: crearle, modificarle, cancellarle, ordinarle, etc. .',
-	'Category_Permissions' => 'Permessi categoria"',
+	'Category_Permissions' => 'Permessi categoria',
 	'Category_Title' => 'Titolo categoria',
 	'Category_Desc' => 'Descrizione categoria',
 	'View_level' => 'Livello visualizzazione',
