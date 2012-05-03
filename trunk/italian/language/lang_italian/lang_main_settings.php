@@ -65,6 +65,7 @@ $lang['DATE_FORMAT'] = 'd F y H:i'; // This should be changed to the default dat
 $lang['DATE_FORMAT_DATE'] = 'd/m/Y';
 $lang['DATE_FORMAT_TIME'] = 'H.i';
 $lang['DATE_FORMAT_MG'] = 'Y/m/d - H:i';
+$lang['DATE_FORMAT_CHAT'] = 'Y/m/d - H.i.s';
 $lang['DATE_FORMAT_VF'] = 'd M Y';
 $lang['DATE_FORMAT_DATE_JQUI_JQ'] = 'dd/mm/yy'; // You can only use one of these three formats: dd/mm/yy, mm/dd/yy, yy/mm/dd
 $lang['DATE_FORMAT_TIME_JQUI_JQ'] = 'hh:ss';
