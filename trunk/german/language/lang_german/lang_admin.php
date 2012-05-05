@@ -399,7 +399,7 @@ $lang = array_merge($lang, array(
 	'FORUM_SIMILAR_TOPICS' => 'Ähnliche Themen-Box',
 	'FORUM_SIMILAR_TOPICS_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird unter jedem Thema eine Box mit ähnlichen Themen angezeigt.',
 	'FORUM_TOPIC_VIEWS' => 'Themen-Betrachter',
-	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Wenn du diese Option aktivierst werden alle Benutzer die ein Thema in diesem Forum anschauen, in der Datenbank gespeichert (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung in Icy Phoenix Einstellungen => SQL Optimierung aktivieren)',
+	'FORUM_TOPIC_VIEWS_EXPLAIN' => 'Wenn du diese Option aktivierst werden alle Benutzer die ein Thema in diesem Forum anschauen, in der Datenbank gespeichert (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung, Icy Phoenix Einstellungen => SQL Optimierung, aktivieren)',
 	'FORUM_TAGS' => 'Forum Tags',
 	'FORUM_TAGS_EXPLAIN' => 'Diese Option aktiviert eine Box, die die am häufigsten genutzten Wörter des gesamten Forums anzeigt (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung in Icy Phoenix Einstellungen => SEO aktivieren)',
 	'FORUM_SORT_BOX' => 'Themen Sortierungs-Box',
@@ -1353,8 +1353,6 @@ $lang = array_merge($lang, array(
 	'Shout_guest_allowed' => 'Gäste erlaubt',
 	'Shoutbox_flood' => 'Flood Abstand',
 	'Shoutbox_flood_explain' => 'Anzahl der Sekunden die ein Benutzer zwischen den Shouts warten muss.',
-	'Shoutbox_refreshtime' => 'Aktualisierungs-Rate',
-	'Shoutbox_refresh_explain' => 'Zeit der Shoutbox in Millisekunden um neue Nachrichten zu lesen.<br /><i>Dieser Wert sollte über 1000 Millisekunden liegen.</i>',
 // Ajax Shoutbox - END
 
 /* lang_postcount.php - BEGIN */
@@ -2054,16 +2052,29 @@ $lang = array_merge($lang, array(
 	'POLL_ONGOING' => ' (aktuell)',
 	'POLL_COMPLETED' => ' (beendet)',
 
-	'FORUM_LIKES' => 'Like Posts',
-	'FORUM_LIKES_EXPLAIN' => 'Allow users to like single posts in a topic (you need to enable the global switch in Icy Phoenix Settings [SQL Charge] to be able to use this feature)',
+	'FORUM_LIKES' => 'Gefällt mir Beiträge',
+	'FORUM_LIKES_EXPLAIN' => 'Erlaubt den Benutzern einen einzelnen Beitrag in einem Thema als &quot;Gefällt mir&quot; zu markieren (um diese Funktion nutzen zu können, musst du auch die Globale Einstellung, Icy Phoenix Einstellungen => SQL Optimierung, aktivieren)',
 
 	'POSTS_PICS' => 'Beiträge / Bilder',
 
-	'INACTIVE_USER_FEATURE' => 'Mask this user',
-	'INACTIVE_USER_FEATURE_EXPLAIN' => 'By enabling this switch, the user will be masked in forums and topics. User profile details will be replaced by anonymous data. User will be masked only if its account is not active.',
+	'INACTIVE_USER_FEATURE' => 'Verberge diesen Benutzer',
+	'INACTIVE_USER_FEATURE_EXPLAIN' => 'Wenn du dies aktivierst, wird dieser Benutzer in Foren und Themen versteckt. Details des Benutzerprofils werden durch anonyme Daten ersetzt. Benutzer werden nur versteckt, wenn sein Benutzerkonto inaktiv ist.',
 
-	'RANK_SHOW_TITLE' => 'Display rank title',
-	'RANK_SHOW_TITLE_EXPLAIN' => 'By disabling this option only rank image will be shown',
+	'RANK_SHOW_TITLE' => 'Rang Titel anzeigen',
+	'RANK_SHOW_TITLE_EXPLAIN' => 'Wenn du dies deaktivierst, wird nur das Rang-Bild angezeigt.',
+
+	'AJAX_CHAT_MSGS_REFRESH' => 'Aktualisierungs-Interval',
+	'AJAX_CHAT_MSGS_REFRESH_EXPLAIN' => 'Bitte gib das Zeit-Interval in Sekunden an, indem das System auf neue Chat-Nachrichten überprüft werden soll. Dieser Wert sollte nicht kleiner als 2 Sekunden sein (es wird auf 1 Sekunde geändert, wenn der eingegebene Wert kleiner als 1 ist).',
+	'AJAX_CHAT_SESSION_REFRESH' => 'Session Länge',
+	'AJAX_CHAT_SESSION_REFRESH_EXPLAIN' => 'Bitte gib die Länge der Chat-Sitzung (Session) ein. Dieser Wert wird dazu benutzt, um zu überprüfen, ob ein Benutzer das Chat-Gespräch verlassen hat. Dieser Wert sollte nicht kleiner als 10 Sekunden sein (es wird auf 5 Sekunden geändert, wenn der eingegebene Wert kleiner als 5 ist).',
+	'AJAX_CHAT_LINK_TYPE' => 'Chat-Fenster anpassen',
+	'AJAX_CHAT_LINK_TYPE_EXPLAIN' => 'Bitte gib an, ob du ein einfaches Chat-Fenster haben möchtest oder ein Chat-Fenster mit vollständiger Kopf-und Fußzeile (einfaches ist schneller).',
+	'AJAX_CHAT_LINK_TYPE_SIMPLE' => 'Einfaches',
+	'AJAX_CHAT_LINK_TYPE_FULL' => 'Vollständiges',
+	'AJAX_CHAT_NOTIFICATION' => 'Private Chat-Mitteilung',
+	'AJAX_CHAT_NOTIFICATION_EXPLAIN' => 'Wenn du diese Funktion aktivierst, wird bei einer privaten Chat-Anfrage, eine Benachrichtigung an den jeweiligen Benutzer geschickt.',
+	'AJAX_CHAT_CHECK_ONLINE' => 'Privater Chat-Link nur für Online Benutzer',
+	'AJAX_CHAT_CHECK_ONLINE_EXPLAIN' => 'Wenn du diese Funktion aktivierst, wird der private Chat-Link nur bei Benutzern angezeigt, die bereits im Chat sind. Ansonsten wird es für alle Benutzer (die online sind) auf der Website angezeigt.',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Icy Phoenix Einstellungen',
