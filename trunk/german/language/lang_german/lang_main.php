@@ -1844,10 +1844,17 @@ $lang = array_merge($lang, array(
 	'Online_guests' => 'Gäste',
 	'Who_is_Chatting' => 'Wer ist im Chat',
 	'Shoutbox_online_explain' => 'Diese Informationen basieren auf den Daten der aktiven Benutzer der letzten dreißig Sekunden.',
+	'Start_Private_Chat' => 'Klicke auf den Namen, um einen privaten Chat zu starten.',
+// Chat rooms
+	'Shout_rooms' => 'Räume',
+	'Admin_rooms' => 'Alle Räume',
+	'Public_room' => 'Öffentlicher Raum',
+	'Private_room' => 'Privater Raum',
+	'My_id' => 'Ich',
 // Ajax Shoutbox - END
 
 	'Contact_us' => 'Kontakt',
-	'Contact_us_explain' => 'Auf dieser Seite kannst du uns eine E-Mail senden',
+	'Contact_us_explain' => 'Auf dieser Seite kannst du uns eine E-Mail senden.',
 	'Session_invalid' => 'Ungültige Session. Bitte betrete das Forum noch einmal.',
 
 // Icy Phoenix - BUILD 007
@@ -2437,6 +2444,7 @@ $lang = array_merge($lang, array(
 	'IP_BLACKLISTED' => 'Deine IP-Adresse %s wurde blockiert, da sie auf der Blacklist steht. Weitere Einzelheiten gibt es hier: <a href="%s">%s</a>.',
 
 	'PRINTABLE_VERSION' => 'Druckbare Version',
+	'CHANGE_FONT_SIZE' => 'Schriftgröße ändern',
 
 	'FULL_EDITOR' => 'Wechsele zum Voll-Editor',
 
