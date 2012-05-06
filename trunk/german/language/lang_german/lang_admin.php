@@ -1648,7 +1648,7 @@ $lang = array_merge($lang, array(
 	'Category_updated' => 'Die Kategorie wurde erfolgreich bearbeitet.',
 	'Delete_Category' => 'Kategorie löschen',
 	'Delete_Category_Explain' => 'Mit dem nachstehenden Formular kannst du Kategorien zu löschen.',
-	'Category_deleted' => 'Diese Kategorie wurde erfolgreich gelösch.t',
+	'Category_deleted' => 'Diese Kategorie wurde erfolgreich gelöscht.',
 	'Category_changed_order' => 'Diese Kategorie wurde erfolgreich verschoben.',
 
 // Config
