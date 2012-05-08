@@ -244,6 +244,7 @@ $lang = array_merge($lang, array(
 	'cms_block_staff' => 'Staff',
 	'cms_block_statistics' => 'Statistiken',
 	'cms_block_style' => 'Style',
+	'cms_block_tags' => 'Tags',
 	'cms_block_top_downloads' => 'Besten Downloads',
 	'cms_block_top_nav' => 'Top Nav',
 	'cms_block_top_posters' => 'Besten Beitragsverfasser',
@@ -251,7 +252,7 @@ $lang = array_merge($lang, array(
 	'cms_block_users_visited' => 'Aktive Benutzer',
 	'cms_block_visit_counter' => 'Besucher Zähler',
 	'cms_block_welcome' => 'Willkommen',
-	'cms_block_wordgraph' => 'Tags',
+	'cms_block_wordgraph' => 'Wordgraph',
 	'cms_block_xs_news' => 'News',
 //	'cms_block_' => '',
 
