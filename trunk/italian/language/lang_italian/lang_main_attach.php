@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'Attachment_too_big' => 'Allegato troppo grande.<br />Max : %d %s', // replace %d with maximum file size, %s with size var
 	'Attach_quota_reached' => '&egrave; stata raggiunta la dimensione massima per gli allegati. Contattate l\'amministratore del forum per ulteriori informazioni.',
 	'Too_many_attachments' => 'Impossibile aggiungere l\'allegato: raggiunto il numero massimo di %d allegati nel messaggio', // replace %d with maximum number of attachments
-	'Error_imagesize' => 'L\'allegato immagine deve essere inferiore a  %d pixels larghezza e %d pixels altezza',
+	'Error_imagesize' => 'L\'allegato immagine deve essere inferiore a %d pixels larghezza e %d pixels altezza',
 	'General_upload_error' => 'Errore in fase di Upload : Impossibile uploadare l\'allegato in %s.', // replace %s with local path
 
 	'Error_empty_add_attachbox' => 'Devi inserire un valore nel Box \'Aggiungi allegato\' ',
