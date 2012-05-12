@@ -31,7 +31,7 @@ $lang = array_merge($lang, array(
 	'setup_upi2db_explain' => 'Hier kannst du die diversen Einstellungen des Unread Post Information 2 Database Mod ändern.<br />Ist dieser Mod aktiv, werden die Informationen über ungelesene Beiträge in der Datenbank gespeichert, so dass sie auch nachdem sich ein Benutzer abgemeldet hat nicht verloren gehen.',
 	'upi2db_on' => '<strong>UPI2DB Mod aktiv?</strong>',
 	'upi2db_on_explain' => 'Hier kannst du den UPI2DB Mod ein- und auschalten oder es dem User überlassen.<br /> Ist der Mod deaktiviert ist das Standard Cookie System aktiv.',
-	'user_select' => 'User Einstellung',
+	'user_select' => 'Benutzer-Einstellung',
 	'up2db_days' => '<strong>Beiträge automatisch gelesen nach&hellip;</strong>',
 	'up2db_days_tagen' => 'Tagen',
 	'up2db_days_explain' => 'Anzahl der Tage, wie lange die Post Informationen in der Datenbank gespeichert bleiben.<br /> Alle Themen deren letzte Antwort älter als X Tage ist, werden automatisch als gelesen markiert.<br />Achtung! Je größer die Zahl, desto mehr wird die Datenbank belastet. Standard = 30 Tage',
