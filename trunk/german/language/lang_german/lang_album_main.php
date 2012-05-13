@@ -211,6 +211,7 @@ $lang = array_merge($lang, array(
 	'Pics_unlocked_successfully' => 'Die Bilder wurden erfolgreich entsperrt',
 	'Pics_approved_successfully' => 'Die Bilder wurden erfolgreich freigegeben',
 	'Pics_unapproved_successfully' => 'Die Freigabe der Bilder wurden erfolgreich aufgehoben',
+	'NO_PICS_SPECIFIED' => 'Kein Bild ausgewählt',
 
 // Rate
 	'Current_Rating' => 'Aktuelle Bewertung',
