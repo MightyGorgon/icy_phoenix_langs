@@ -198,6 +198,7 @@ $lang = array_merge($lang, array(
 	'Pics_unlocked_successfully' => 'Le immagini sono state sbloccate',
 	'Pics_approved_successfully' => 'Le immagini sono state approvate',
 	'Pics_unapproved_successfully' => 'Le immagini sono state rifiutate',
+	'NO_PICS_SPECIFIED' => 'Nessuna immagine selezionata',
 
 	// Rate
 	'Current_Rating' => 'Valutazione Corrente',
