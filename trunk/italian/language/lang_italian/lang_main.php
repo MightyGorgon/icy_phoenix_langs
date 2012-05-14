@@ -2459,10 +2459,10 @@ $lang = array_merge($lang, array(
 	'LIKE_TIME' => 'Data',
 	'LIKE_RECAP' => 'Utenti a cui piace questo messaggio',
 	'LIKE_COUNTER_YOU' => 'Hai apprezzato questo messaggio',
-	'LIKE_COUNTER_YOU_OTHERS_SINGLE' => 'Tu ed un altro utente avete apprezzato questo messaggio',
+	'LIKE_COUNTER_YOU_OTHERS_SINGLE' => 'Tu e %s utente avete apprezzato questo messaggio',
 	'LIKE_COUNTER_YOU_OTHERS' => 'Tu e %s utenti avete apprezzato questo messaggio',
-	'LIKE_COUNTER_OTHERS' => '%s hanno apprezzato questo messaggio',
-	'LIKE_COUNTER_OTHERS_SINGLE' => 'Un utente ha apprezzato questo messaggio',
+	'LIKE_COUNTER_OTHERS' => '%s utenti hanno apprezzato questo messaggio',
+	'LIKE_COUNTER_OTHERS_SINGLE' => '%s utente ha apprezzato questo messaggio',
 
 	'FRIENDSHIP_STATUS' => 'Stato amicizia',
 	'FRIEND_ADD' => 'Aggiungi come amico',
