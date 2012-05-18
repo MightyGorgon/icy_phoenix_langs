@@ -2318,6 +2318,7 @@ $lang['120_Cash_Help'] = 'Hilfe'; // admin_cash.php
 
 // Activity
 $lang['3200_ACTIVITY'] = 'Activity / Spiele'; // admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
+$lang['105_DB_Adjustments'] = 'Install / Uninstall'; // admin_ina_in_un.php
 $lang['110_Configuration'] = 'Konfiguration'; // admin_activity.php
 $lang['120_Add_Game'] = 'Spiel hinzufügen'; // admin_activity.php
 $lang['130_Edit_Games'] = 'Spiel bearbeiten'; // admin_activity.php
@@ -2326,7 +2327,6 @@ $lang['150_Bulk_Add_Games'] = 'Bulk Add Games'; // admin_ina_bulk_add.php
 $lang['160_Category'] = 'Kategorien-Einstellungen'; // admin_ina_category.php
 $lang['170_Char_Settings'] = 'Chars Settings'; // admin_ina_char.php
 $lang['180_Hide_Show_Games'] = 'Zeige/Verstecke Spiel'; // admin_ina_disable.php
-$lang['190_DB_Adjustments'] = 'DB Adjustments'; // admin_ina_in_un.php
 $lang['200_Mass_Change'] = 'Mass Configuration'; // admin_ina_mass.php
 $lang['210_Scores_Editor'] = 'Hi-Scores bearbeiten'; // admin_ina_scores.php
 $lang['220_Xtras'] = 'Extra Einstellungen'; // admin_ina_xtras.php
