@@ -552,6 +552,7 @@ $lang = array_merge($lang, array(
 	'Click_return_profile' => 'Clicca %sQUI%s per tornare al Profilo',
 	'Click_return_preferences' => 'Clicca %sQUI%s per tornare alle Preferenze',
 	'Click_return_group' => 'Clicca %sQUI%s per tornare alle informazioni del gruppo',
+	'Click_return_drafts' => 'Clicca %sQUI%s per tornare alle Bozze',
 	'Click_return_inbox' => 'Clicca %sQUI%s per tornare alla cartella Posta in Arrivo',
 	'Click_view_message' => 'Clicca %sQUI%s per visualizzare il messaggio',
 	'Click_view_privmsg' => 'Clicca %sQUI%s per andare alla casella Posta in Arrivo',
