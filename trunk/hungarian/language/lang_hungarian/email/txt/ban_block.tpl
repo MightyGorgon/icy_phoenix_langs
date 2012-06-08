@@ -1,11 +1,11 @@
-Subject: A hozzáférésedet blokkolták
-Charset: UTF-8
+Subject: Your account is now blocked
 
-Szia {WARNED_POSTER} !
+Hello, {WARNED_POSTER} 
 
-A {SITENAME} oldalon a hozzáférésed blokkolva lett.
+Your account on {SITENAME} has been blocked. 
 
-Már többször figyelmeztettek, de a {POST_URL} hozzászólásod volt az utolsó csepp a pohárban. Amennyiben nem értess vele egyet, kérlek vedd fel a kapcsolatot {WARNER}-vel, és õ részletes információt tud azzal kapcsolatban szolgáltatni, hogy miért történt az, ami történt. 
+The reasons for this can be numerous, this final warning is given because of this post {POST_URL} that you have made. 
+If you don't see why you've received this warning you could try contacting {WARNER}, who gave the warning, explaining your post, and that you don't understand why this warning was given. 
 
 
 {EMAIL_SIG}  

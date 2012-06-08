@@ -1,7 +1,6 @@
 Subject: {SUBJECT}
-Charset: UTF-8
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
 {TEXT}.
 

@@ -25,59 +25,53 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-$lang = array_merge($lang, array (
-  'Mini_Cal_calendar' => 'Kalendárium',
-  'Mini_Cal_add_event' => 'Esemény hozzáadása',
-  'Mini_Cal_events' => 'Következõ események',
-  'Mini_Cal_no_events' => 'Nincs',
+
+$lang['Mini_Cal_calendar'] = 'NaptÃ¡r';
+$lang['Mini_Cal_add_event'] = 'EsemÃ©ny hozzÃ¡adÃ¡sa';
+$lang['Mini_Cal_events'] = 'KÃ¶zelgÅ‘ esemÃ©nyek';
+$lang['Mini_Cal_no_events'] = 'Nincs';
 
 // uses MySQL DATE_FORMAT - %c  long_month, numeric (1..12) - %e  Day of the long_month, numeric (0..31)
 // see http://www.mysql.com/doc/D/a/Date_and_time_functions.html for more details
 // currently supports: %a, %b, %c, %d, %e, %m, %y, %Y, %H, %k, %h, %l, %i, %s, %p
-  'Mini_Cal_date_format' => '%b %e',
-  'Mini_Cal_date_format_Time' => '%H:%i',
-  'mini_cal' => 
-  array (
-    'day' => 
-    array (
-      7 => 'Va',
-      1 => 'Hé',
-      2 => 'Ke',
-      3 => 'Sz',
-      4 => 'Cs',
-      5 => 'Pé',
-      6 => 'Sz',
-    ),
-    'month' => 
-    array (
-      1 => 'Jan',
-      2 => 'Feb',
-      3 => 'Már',
-      4 => 'Ápr',
-      5 => 'Máj',
-      6 => 'Jún',
-      7 => 'Júl',
-      8 => 'Aug',
-      9 => 'Sze',
-      10 => 'Okt',
-      11 => 'Nov',
-      12 => 'Dec',
-    ),
-    'long_month' => 
-    array (
-      1 => 'Január',
-      2 => 'Február',
-      3 => 'Március',
-      4 => 'Április',
-      5 => 'Május',
-      6 => 'Június',
-      7 => 'Július',
-      8 => 'Augusztus',
-      9 => 'Szeptember',
-      10 => 'Október',
-      11 => 'November',
-      12 => 'December',
-    ),
-  ),
-));
+$lang['Mini_Cal_date_format'] = '%b %e';
+$lang['Mini_Cal_date_format_Time'] = '%H:%i';
+
+// if you change the first day of the week in constants.php, you should change values for the short day names accordingly
+// e.g. FDOW = Sunday -> $lang['mini_cal']['day'][1] = 'Su'; ... $lang['mini_cal']['day'][7] = 'Sa';
+//      FDOW = Monday -> $lang['mini_cal']['day'][1] = 'Mo'; ... $lang['mini_cal']['day'][7] = 'Su';
+$lang['mini_cal']['day'][1] = 'H';
+$lang['mini_cal']['day'][2] = 'K';
+$lang['mini_cal']['day'][3] = 'Sze';
+$lang['mini_cal']['day'][4] = 'Cs';
+$lang['mini_cal']['day'][5] = 'P';
+$lang['mini_cal']['day'][6] = 'Szo';
+$lang['mini_cal']['day'][7] = 'V';
+
+$lang['mini_cal']['month'][1] = 'jan.';
+$lang['mini_cal']['month'][2] = 'febr.';
+$lang['mini_cal']['month'][3] = 'mÃ¡rc.';
+$lang['mini_cal']['month'][4] = 'Ã¡pr.';
+$lang['mini_cal']['month'][5] = 'mÃ¡j.';
+$lang['mini_cal']['month'][6] = 'jÃºn.';
+$lang['mini_cal']['month'][7] = 'jÃºl.';
+$lang['mini_cal']['month'][8] = 'aug.';
+$lang['mini_cal']['month'][9] = 'szept.';
+$lang['mini_cal']['month'][10] = 'okt.';
+$lang['mini_cal']['month'][11] = 'nov.';
+$lang['mini_cal']['month'][12] = 'dec.';
+
+$lang['mini_cal']['long_month'][1] = 'januÃ¡r';
+$lang['mini_cal']['long_month'][2] = 'februÃ¡r';
+$lang['mini_cal']['long_month'][3] = 'mÃ¡rcius';
+$lang['mini_cal']['long_month'][4] = 'Ã¡prilis';
+$lang['mini_cal']['long_month'][5] = 'mÃ¡jus';
+$lang['mini_cal']['long_month'][6] = 'jÃºnius';
+$lang['mini_cal']['long_month'][7] = 'jÃºlius';
+$lang['mini_cal']['long_month'][8] = 'augusztus';
+$lang['mini_cal']['long_month'][9] = 'szeptember';
+$lang['mini_cal']['long_month'][10] = 'oktÃ³ber';
+$lang['mini_cal']['long_month'][11] = 'november';
+$lang['mini_cal']['long_month'][12] = 'december';
+
 ?>

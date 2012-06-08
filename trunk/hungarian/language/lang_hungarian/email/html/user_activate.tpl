@@ -1,5 +1,5 @@
 Subject: Reactivate your account
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Hello <b>{USERNAME}</b>,<br /><br />
 Your account on <b>"{SITENAME}"</b> has been deactivated, most likely due to changes made to your profile. <br /><br />
@@ -8,5 +8,5 @@ In order to reactivate your account you must click on the link below:<br /><br /
 <br /><br />
 Some email clients will not parse this url correctly. In that case you may try to copy and paste this link directly into your internet browser.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

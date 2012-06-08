@@ -1,14 +1,13 @@
-Subject: Hiba státuszának frissülése a {SITENAME} oldalon
-Charset: UTF-8
+Subject: New Status for Bug Report on {SITENAME}
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert a {REPORT_TITLE} hibajelentés státusza megváltozott a {SITENAME} oldalon.
-Az új státusza: {STATUS}.
+You have received this email because the status for your bug report {REPORT_TITLE} on {SITENAME} was changed.
+New Status: {STATUS}.
 
 {STATUS_TEXT}
 
-További részleteket az alábbi linken találhatsz:
+For more details about this please follow up this link:
 
 {U_BUG_REPORT}
 

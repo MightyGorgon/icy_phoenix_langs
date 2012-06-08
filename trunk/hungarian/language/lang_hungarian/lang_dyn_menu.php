@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_dyn_menu.php 80 2009-02-19 13:45:54Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -44,7 +44,7 @@ $lang['menu_item']['cms_pages_permissions'] = $lang['CMS_PAGES_PERMISSIONS'];
 $lang['menu_item']['cms_ads'] = $lang['CMS_ADS'];
 $lang['menu_item']['contact_us'] = $lang['Contact_us'];
 $lang['menu_item']['credits'] = $lang['Hacks_List'];
-$lang['menu_item']['digests'] = $lang['Digests'];
+$lang['menu_item']['digests'] = $lang['DIGESTS'];
 $lang['menu_item']['downloads'] = $lang['Downloads'];
 $lang['menu_item']['faq'] = $lang['FAQ'];
 $lang['menu_item']['forum'] = $lang['Forum'];
@@ -56,13 +56,13 @@ $lang['menu_item']['links'] = $lang['Links'];
 $lang['menu_item']['login'] = $lang['Login'];
 $lang['menu_item']['memberlist'] = $lang['Memberlist'];
 $lang['menu_item']['news'] = $lang['News'];
-$lang['menu_item']['news_cat'] = $lang['NEWS_CAT'];
-$lang['menu_item']['news_arc'] = $lang['NEWS_ARC'];
+$lang['menu_item']['news_cat'] = $lang['LINK_NEWS_CAT'];
+$lang['menu_item']['news_arc'] = $lang['LINK_NEWS_ARC'];
 $lang['menu_item']['private_messages'] = $lang['Private_Messages'];
 $lang['menu_item']['profile'] = $lang['Profile'];
 $lang['menu_item']['ranks'] = $lang['Rank_Header'];
 $lang['menu_item']['recent_topics'] = $lang['Recent_topics'];
-$lang['menu_item']['referrers'] = $lang['Referrers'];
+$lang['menu_item']['referers'] = $lang['REFERERS'];
 $lang['menu_item']['register'] = $lang['Register'];
 $lang['menu_item']['rss'] = $lang['RSS'];
 $lang['menu_item']['rules'] = $lang['BoardRules'];

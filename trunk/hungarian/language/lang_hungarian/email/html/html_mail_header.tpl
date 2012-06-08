@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>{SITENAME}</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 		<style type="text/css">
 			body { background-color: #ffffff; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; scrollbar-base-color: #224488; scrollbar-arrow-color: #DD4040; }
@@ -54,6 +54,8 @@
 			div.code li.code-row-highlight { color: #ff2222; border-color: #d8d8d8; }
 			div.code li.code-row-highlight .code-row-text, div.code span.code-row-highlight { color: #ff2222; }
 			li.code-row-first { border-top: none; }
+			code, code.inline { color: #444444; background-color: #ffffff; border: 1px solid #cccccc; font-size: 0.9em; font-style: normal; line-height: 1.4em; padding: 3px; font-family: 'Courier New', Courier, Monaco, 'Andale Mono', monospace, sans-serif; }
+			code.inline { display: inline; }
 		</style>
 	</head>
 	<body>

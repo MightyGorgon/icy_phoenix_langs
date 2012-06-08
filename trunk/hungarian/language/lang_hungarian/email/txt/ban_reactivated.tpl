@@ -1,8 +1,7 @@
-Subject: A hozzáférésed újra aktív
-Charset: UTF-8
+Subject: Your account has been re-activated
 
-Szia {WARNED_POSTER}!
+Hello, {WARNED_POSTER} 
 
-A {SITENAME} oldalon a hozzáférésed újra-aktiválásra került.
+Your account on {SITENAME} is now reactivated 
 
 {EMAIL_SIG}  

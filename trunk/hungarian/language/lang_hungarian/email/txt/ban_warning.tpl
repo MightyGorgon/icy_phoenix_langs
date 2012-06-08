@@ -1,19 +1,18 @@
-Subject: Figyelmeztetést kaptál
-Charset: UTF-8
+Subject: You've received a warning
 
-Szia {WARNED_POSTER}!
+Hello, {WARNED_POSTER}
 
-A {SITENAME} oldalon figyelmeztetésben részesült a hozzáférésed.
-Jelenleg {WARNINGS} érvényes figyelmeztetésed van az összesen megszerezhetõ {TOTAL_WARN} figyelmeztetésbõl. Ha eléred ezt a szintet banolva leszel az oldalról. 
+Your account on {SITENAME} has received a warning.
+You have now a total of {WARNINGS} warnings, if you accumulate more than {TOTAL_WARN} your account will be blocked.
 
-A figyelmeztetést az alábbi hozzászólásod tartalmáért kaptad:
-{POST_URL} 
+The reasons for this are numerous, this warning is given because of this post: {POST_URL} that you made.
 
-Emlékeztetlek, hogy a regisztrációkor elfogadtál egy feltételt, aminek a betartása mindenkor kötelezõ érvényû.
+Here is a reminder of some of the terms you accepted when you registered, we kindly ask you to respect them in the future
 
-"Nincs engedélyezve semmilyen sértõ, obszcén, vulgáris, rágalmazó, gyûlölködõ, fenyegetõ, szexuális tartalmú vagy olyan hozzászólás beküldése, amely bármilyen törvényt megsért. Amennyiben ezt nem tartod be, ideiglenes vagy végleges eltiltásban részesítünk." 
+Quote:
+"You agree not to post any abusive, obscene, vulgar, slanderous, hateful, threatening, sexually-orientated or any other material that may violate any applicable laws. Doing so may lead to you being immediately and permanently banned"
 
-Ezt az üzenetet azért kaptad, mert {WARNER} figyelmeztetésben részesített. Amennyiben kifogásod van az intézkedésével, lépj vele kapcsolatba. Késõbbiekben a hasonló hozzászólásaid hasonló elbírálásra kerülnek.
+If you don't see why you've received this warning you could try to contact {WARNER}, who gave the warning, explaining your post, and that you don't understand why this warning is given.
 
 
-{EMAIL_SIG}  
+{EMAIL_SIG}

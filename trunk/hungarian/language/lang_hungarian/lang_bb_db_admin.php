@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_bb_db_admin.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -26,54 +26,54 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
-  'db_browse' => 'Böngészés',
-  'db_truncate' => 'Csonkol',
-  'db_optimize' => 'Optimalizálás',
-  'db_drop' => 'Eldob',
-  'db_repair' => 'Javít',
-  'db_structure' => 'Struktúra',
-  'db_explain' => 'Akció magyarázata',
-  
-  'db_table_name' => 'Táblanév',
-  'db_action' => 'Akció',
-  'db_type' => 'Típus',
-  'db_row_format' => 'Sorformátum',
-  'db_rows' => 'Sorok',
-  'db_avg_r_len' => 'Elfogadott sorszélesség',
-  'db_data_len' => 'Adathossz',
-  'db_max_dat_len' => 'Max adathossz',
-  'db_index_len' => 'Index szélesség',
-  'db_overhead' => 'Overhead',
-  'db_auto_inc' => 'Automatikos növekmény',
-  'db_with_sel' => 'A kijelölt táblákon:',
-  'db_field' => 'Mezõ',
-  'db_type' => 'Típus',
-  'db_null' => 'Null',
-  'db_key' => 'Kulcs',
-  'db_default' => 'Alapértelmezett',
-  'db_extra' => 'Extra',
-  
-  'db_unauthed' => 'Nem azonosított hozzáférés.',
-  'db_tru_warning' => 'Tényleg csonkolni akarod ezt: %s?',
-  'db_dro_warning' => 'Tényleg el akarod dobni ezt: %s?',
-  'db_warning_y' => 'Igen',
-  'db_warning_n' => 'Nem',
-  'db_opt_success' => '<b>%s</b> tábla optimalizálása: sikeres, teljes.',
-  'db_tru_success' => '<b>%s</b> tábla csonkolása: sikeres, teljes.',
-  'db_dro_success' => '<b>%s</b> tábla eldobása: sikeres, teljes.',
-  'db_rep_success' => '<b>%s</b> tábla javítása: sikeres, teljes.',
-  'db_explained' => 'Tábla optimalizálása: Eltávolítja az üres meradékbiteket.<br />Tábla csonkolása: Eltávolítja a tábla tartalmát.<br />Böngészés: Megjeleníti a tábla tartalmát.<br />Eldob: Eltávolítja a táblát az adatbázisból.',
-  'db_back' => 'Kattints %side%s a saját oldalra történõ visszatéréshez.',
-  'db_change_exp' => 'Ennek a használatával el tudsz érni olyan SQL SQL parancsokat, mint az INSERT INTO, az ALTER TABLE, az UPDATE, a DELETE FROM, a DROP TABLE, a DESCRIBE, stb.. Többet is megadhatsz egyszerre, csak el kell õket vélasztanod pontosvesszõvel.',
-  'db_submit_q' => ' Lekérés elküldése ',
-  'db_sql_total' => 'SQL lekérés # %s',
-  'db_aff_total' => 'Sikeres, teljes. Érintett sorok: %s',
-  'db_no_query' => 'Nem adtál meg semmilyen lekérést!',
-  'db_sql_field_changed' => 'Mezõ neve megváltoztatva.',
-  'db_sql_query_db' => 'Lekérés az adatbázisodból: ',
-  'DB_Admin' => 'phpBBMyAdmin',
-  )
+$lang = array_merge($lang, array(
+	'db_browse' => 'Browse',
+	'db_truncate' => 'Truncate',
+	'db_optimize' => 'Optimize',
+	'db_drop' => 'Drop',
+	'db_repair' => 'Repair',
+	'db_structure' => 'Structure',
+	'db_explain' => 'Explain Actions',
+
+	'db_table_name' => 'Table Name',
+	'db_action' => 'Action',
+	'db_type' => 'Type',
+	'db_row_format' => 'Row Format',
+	'db_rows' => 'Rows',
+	'db_avg_r_len' => 'Avg Row Length',
+	'db_data_len' => 'Data Length',
+	'db_max_dat_len' => 'Max Data Length',
+	'db_index_len' => 'Index Length',
+	'db_overhead' => 'Overhead',
+	'db_auto_inc' => 'Auto Increment',
+	'db_with_sel' => 'With Selected Tables:',
+	'db_field' => 'Field',
+	'db_type' => 'Type',
+	'db_null' => 'Null',
+	'db_key' => 'Key',
+	'db_default' => 'Default',
+	'db_extra' => 'Extra',
+
+	'db_unauthed' => 'Unauthorized Access.',
+	'db_tru_warning' => 'Are you sure you want to truncate %s?',
+	'db_dro_warning' => 'Are you sure you want to drop %s?',
+	'db_warning_y' => 'Yes',
+	'db_warning_n' => 'No',
+	'db_opt_success' => 'Optimize Table <b>%s</b>, Successfully Completed.',
+	'db_tru_success' => 'Truncate Table <b>%s</b>, Successfully Completed.',
+	'db_dro_success' => 'Drop Table <b>%s</b>, Successfully Completed.',
+	'db_rep_success' => 'Repair Table <b>%s</b>, Successfully Completed.',
+	'db_explained' => 'Optimize Table: Will empty out any leftover bits of data.<br />Truncate Table: Will empty a table of all its contents.<br />Browse: Will allow you to view the data in a table.<br />Drop: Will remove a table from your database.',
+	'db_back' => 'Click %sHere%s to return to the main page.',
+	'db_change_exp' => 'By using this, you will be able to execute SQL\'s such as, INSERT INTO, ALTER TABLE, UPDATE, DELETE FROM, DROP TABLE, DESCRIBE, etc... Add as many as you want, seperate each SQL command with a semi-colon.',
+	'db_submit_q' => ' Submit Query ',
+	'db_sql_total' => 'SQL Query # %s',
+	'db_aff_total' => 'Successfully Completed. Affected Rows: %s',
+	'db_no_query' => 'You did not enter a query!',
+	'db_sql_field_changed' => 'Field Name Changed.',
+	'db_sql_query_db' => 'Query Your Database: ',
+	'DB_Admin' => 'IP MyAdmin',
+	)
 );
 
 ?>

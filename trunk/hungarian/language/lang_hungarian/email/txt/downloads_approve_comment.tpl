@@ -1,15 +1,14 @@
-Subject: Új letöltéskomment
-Charset: UTF-8
+Subject: New Download Comment
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert vagy megváltozott, vagy új komment került egy letöltéshez a {SITENAME} oldal {CATEGORY} kategóriájába, és jóvá kell hagyni:
+you have received this email because of a new or edited download comment for {DOWNLOAD} on {SITENAME} in the category {CATEGORY} which must be approved.
 
-Ha jóvá akarod hagyni a kommentárt, kérlek kattints a következõ linkre:
+If you want to approve this comment click the following link:
 
 {U_APPROVE}
 
-Vagy ezen a második linken el is olvashatod:
+Or you can view this comment by using this second link:
 
 {U_DOWNLOAD}
 

@@ -1,14 +1,12 @@
-Subject: Témafigyelés értesítés - {FORUM_NAME} - {TOPIC_TITLE}
-Charset: UTF-8
+Subject: Topic Reply Notification - {TOPIC_TITLE}
 
 Hello,
 
-Ezt az emailt azért kapod, mert a "{SITENAME}" oldalon, a "{TOPIC_TITLE}" téma figyelését kérted. A témába a legutóbbi látogatásod óta új hozzászólás érkezett. A következõ linkre kattintva megtekintheted az azóta született hozzászólásokat. Több értesítést nem fogsz kapni, amíg meg nem tekinted a témát.
+You are receiving this email because you are watching the topic, "{TOPIC_TITLE}" at {SITENAME}. This topic has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
 
-A téma megtekintéséhez kattints a következõ linkre:
 {U_TOPIC}
 
-Ha nem szeretnél a továbbiakban figyelni ezt a témát, akkor klikkelj a "Téma figyelésének abbahagyása" gombra kattintva, vagy az alábbi linkre:
+If you no longer wish to watch this topic you can either click the "Stop watching this topic link" found at the bottom of the topic above, or by clicking the following link:
 
 {U_STOP_WATCHING_TOPIC}
 

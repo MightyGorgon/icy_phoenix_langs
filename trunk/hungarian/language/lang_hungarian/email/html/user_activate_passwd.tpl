@@ -1,5 +1,5 @@
 Subject: New password activation
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Hello <b>{USERNAME}</b>,<br /><br />
 You are receiving this email because you have (or someone pretending to be you has) requested a new password be sent for your account on <b>{SITENAME}</b>.<br />
@@ -14,5 +14,5 @@ If successful you will be able to login using the following password:<br /><br /
 <br /><br />
 You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

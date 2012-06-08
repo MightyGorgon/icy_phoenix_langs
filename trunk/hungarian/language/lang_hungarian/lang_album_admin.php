@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_album_admin.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'Personal_Gallery_MOD' => 'Personal gallery can be moderated by owner',
 	'Personal_Sub_Cat_Limit' => 'Maximum number of subcategories (-1 = unlimited)',
 	'User_Can_Create_Personal_SubCats' => 'Users can create subcategories in own personal gallery',
-	'Click_return_personal_gallery_index' => 'Click %shere%s to return to the personal gallery index',
+	'Click_return_personal_gallery_index' => 'Click %sHere%s to return to the personal gallery index',
 	'Show_Recent_In_Personal_Subcats' => 'Show recent pictures in personal subcategories',
 	'Show_Recent_Instead_of_Personal_NoPics' => 'Show recent pictures instead of no picture message in personal gallery',
 
@@ -167,13 +167,16 @@ $lang = array_merge($lang, array(
 	'Use_Old_Thumbnails_Explain' => 'If you enable this feature, you will use the old thumbnails functions to generate small and mid thumbnails and a quick full pic loading. You should use this feature only if you are having problems without enabling it.',
 
 // 06 - Sorting
-	'Album_Category_Sorting' => 'Sorting of the album categories',
+	'Album_Category_Sorting' => 'Album Categories Sorting',
 	'Album_Category_Sorting_Id' => 'ID',
 	'Album_Category_Sorting_Name' => 'Name',
 	'Album_Category_Sorting_Order' => 'Sort Order (default)',
-	'Album_Category_Sorting_Direction' => 'Sorting direction (only valid for ID and Name sorting)',
+	'Album_Category_Sorting_Direction' => 'Album Categories Sorting Direction',
 	'Album_Category_Sorting_Asc' => 'Ascending',
 	'Album_Category_Sorting_Desc' => 'Descending',
+
+	'Album_Picture_Sorting' => 'Album Pictures Sorting',
+	'Album_Picture_Sorting_Direction' => 'Album Pictures Sorting Direction',
 
 // 07 - Clear Cache
 	'Clear_Cache_Tab' => 'Cache',

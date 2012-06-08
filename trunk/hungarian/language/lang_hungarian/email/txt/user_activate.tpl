@@ -1,12 +1,11 @@
-Subject: Aktiváld a hozzáférésed!
-Charset: UTF-8
+Subject: Reactivate your account
 
-Kedves {USERNAME}!
+Hello {USERNAME},
 
-Az hozzáférésed a "{SITENAME}" oldalon deaktiválásra került, valószínûleg a profilodban történt változások miatt. Ahhoz, hogy újra aktív legyen, kattints a következõ linkre:
+Your account on "{SITENAME}" has been deactivated, most likely due to changes made to your profile. In order to reactivate your account you must click on the link below:
 
 {U_ACTIVATE}
 
-Néhány email kliens nem megfelelõen olvassa a linkeket, így hiba esetén kérlek próbáld meg kimásolni, és beilleszteni közvetlenül egy webböngészõbe a fenti linket.
+Some email clients will not parse this url correctly. In that case you may try to copy and paste this link directly into your internet browser.
 
 {EMAIL_SIG}

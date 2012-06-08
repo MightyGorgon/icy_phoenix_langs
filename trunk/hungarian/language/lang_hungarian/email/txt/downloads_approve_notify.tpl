@@ -1,19 +1,18 @@
-Subject: Új letöltés
-Charset: UTF-8
+Subject: New Download
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert vagy megváltozott, vagy új letöltés került a {SITENAME} oldal {CATEGORY} kategóriájába, és jóvá kell hagyni:
+you have received this email because of a new or edited download on {SITENAME} in the category {CATEGORY} which must be approved:
 
 ---------------------------
 {DOWNLOAD}
 {DESCRIPTION}
 ---------------------------
 
-Ha jóvá akarod hagyni a letöltést, kérlek kattints a következõ linkre:
+If you want to approve this download click the following link:
 
 {U_APPROVE}
 
-Emlékeztetlek, hogy ha nem szeretnél minden új vagy szerkesztett letöltésrõl értesítõt kapni, csak meg kell változtatnod az erre vonatkozó beállítást a letöltési profilodban.
+Remember that you can always choose not to be notified about new or edited downloads by changing the appropriate setting in your download profile.
 
 {BOARD_EMAIL}

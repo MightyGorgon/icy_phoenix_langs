@@ -1,5 +1,5 @@
 Subject: Your account on {SITENAME}
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Hello <b>{USERNAME}</b>,<br />
 <br />
@@ -11,5 +11,5 @@ If you wish to become an active part of our online community again, please re-re
 <a href="{U_REGISTER}" target="_blank">{U_REGISTER}</a>
 <br /><br />
 You will receive no further emails concerning this account.
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

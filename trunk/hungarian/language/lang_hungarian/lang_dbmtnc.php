@@ -106,12 +106,17 @@ $mtnc[] = array('reset_sessions',
 $mtnc[] = array('--', '', '', '', 8);
 $mtnc[] = array('sync_topics_subjects',
 	'Synchronize topics subjects',
-	'This function will synchronize topic subjects in first post of each topics You won\'t need this function under normal conditions.',
+	'This function will synchronize topic subjects in first post of each topic. You shouldn\'t have to run this function under normal conditions.',
 	'This will synchronize topic subjects in first post of each topic. The site will not be accessible during this time. Proceed?',
+	0);
+$mtnc[] = array('synchronize_notify_forum_id',
+	'Synchronize Topic Notifications forum IDs',
+	'This function will update forum IDs on topic notifications table. You shouldn\'t have to run this function under normal conditions.',
+	'',
 	0);
 $mtnc[] = array('rebuild_search_index',
 	'Rebuild search index',
-	'This function will rebuild the index used for searching. You won\'t need this function under normal conditions.',
+	'This function will rebuild the index used for searching. You shouldn\'t have to run this function under normal conditions.',
 	'This will delete the complete search index and rebuild it. It can take up to several hours to complete this task. The site will not be accessible during this time. Proceed?',
 	7);
 $mtnc[] = array('proceed_rebuilding',
@@ -215,7 +220,7 @@ $lang = array_merge($lang, array(
 	'Rebuild_Config' => 'Configuration of rebuilding of search index',
 	'Current_Rebuild_Config' => 'Configuration of current rebuilding',
 	'Rebuild_Settings_Explain' => 'These settings adjust the behaviour of DB Maintenance when rebuilding the search index.',
-	'Current_Rebuild_Settings_Explain' => 'These settings are used by DB Maintenance to store the position of the current rebuild. There is no need to adapt these settings under normal conditions.',
+	'Current_Rebuild_Settings_Explain' => 'These settings are used by DB Maintenance to store the position of the current rebuild. There is no need to change these settings under normal conditions.',
 	'Disallow_postcounter' => 'Disallow synchronization of user post counters',
 	'Disallow_postcounter_Explain' => 'This will disable the function to synchronize the user post counters. You can disallow this function if you do not want that pruned posts get subtracted from the post counters of the users.',
 	'Disallow_rebuild' => 'Disallow rebuilding of the search index',
@@ -320,6 +325,8 @@ $lang = array_merge($lang, array(
 	'Checking_topic_watch_data' => 'Checking for invalid watched topics',
 	'Checking_auth_access_data' => 'Checking for invalid group authorization data',
 	'Must_synchronize' => 'You have to synchronize the post data before using the board. Click to proceed.',
+// rebuild last poster details
+	'Rebuild_Last_Poster_Details' => 'Rebuilding last poster details',
 // check_vote
 	'Checking_vote_tables' => 'Check vote tables',
 	'Checking_votes_wo_topic' => 'Checking for votes without corresponding topic',
@@ -384,6 +391,8 @@ $lang = array_merge($lang, array(
 	'Click_or_wait_to_proceed' => 'Click here to proceed or wait a few seconds',
 	'Indexing_progress' => '%d of %d posts (%01.1f%%) have been indexed. Last post indexed: %d',
 	'Indexing_finished' => 'Rebuilding the index was finished successfully',
+// synchronize_notify_forum_id
+	'Synchronizing_notify_forum_ids' => 'Synchronizing topics notifications forum IDs',
 // synchronize_post
 	'Synchronize_posts' => 'Synchronizing post data',
 	'Synchronize_topic_data' => 'Synchronizing topics',
@@ -537,4 +546,5 @@ $lang = array_merge($lang, array(
 	'dbmntc_Invalid_Option' => 'Invalid Option',
 	)
 );
+
 ?>

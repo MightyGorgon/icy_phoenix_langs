@@ -1,9 +1,9 @@
-Subject: Bevontak a {SITENAME} oldalon egy hibajelentésbe
-Charset: UTF-8
+Subject: Assigned Bug Report on {SITENAME}
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert a {SITENAME} oldal bekültek egy olyan hibajelentést, melyhez a segítségedet szeretnék kérni. További részleteket az alábbi linken találhatsz:
+You have received this email because a bug report on {SITENAME} was assigned to you to work on it.
+For more details about this report please follow up this link:
 
 {U_BUG_REPORT}
 

@@ -1,19 +1,16 @@
-Subject: Hozzászólás jelentése
-Charset: UTF-8
+Subject: Post report
 
-Jelentés a {SITENAME} oldalról
+Report from {SITENAME}
 
-A {USER} felhasználó jelentett egy hozzászólást a moderátoroknak.
+The user {USER} has reported a post to the forum moderators.
+This post has, until now, received {NUMBER_OF_REPPORTS} reports.
 
-Ez a jelentést most kaptad, és várólistán van még {NUMBER_OF_REPPORTS} elintézetlen jelentés. 
+You are receiving this report since you are a moderator of this forum.
 
-Ezt a jelentést azért kaptad, mert a fórum moderátora vagy.
+URL to the actual post is here:
+{POST_URL}
 
-
-Az aktuális hozzászólás linkje: 
-{POST_URL} 
-
-A hozzászólás a "{FORUM_NAME}" fórumban található, és
-a hozzászólás tárgya: "{POST_SUBJECT}"
+The post was located in the forum "{FORUM_NAME}"
+the post subject is "{POST_SUBJECT}"
 
 {BOARD_EMAIL}

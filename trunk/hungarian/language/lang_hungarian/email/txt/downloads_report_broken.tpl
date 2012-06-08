@@ -1,10 +1,9 @@
-Subject: Törött letöltés
-Charset: UTF-8
+Subject: Broken Download
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert {REPORTER} észrevett és bejelentett egy törött letöltést a {SITENAME} oldalon.
-Kattints az alábbi linkre, hogy a jelentést megtekintsd:
+you have received this email because {REPORTER} has reported a broken download on {SITENAME}.
+Use the following link to check this report:
 
 ---------------------------
 {U_DOWNLOAD}

@@ -1,26 +1,25 @@
-Subject: {FROM} új képet küldött föl
-Charset: UTF-8
+Subject: New Picture has been posted from {FROM}
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert új kép került ki a {SITENAME} oldalra, és kérted, hogy ilyen esetben értesítsünk.
-
-,.-'-.,,.-'-.,,.-'-.,,.-'-.,
-
-Kép részletei
-
-Beküldõ: {FROM}
-Dátum: {DATE}
-Kép címe: {PIC_TITLE}
-Kép ID: {PIC_ID}
-Képelfogadási státusz: {PIC_APPROVAL}
+A new picture has been posted on "{SITENAME}" and you have requested that you be notified on this event.
 
 ,.-'-.,,.-'-.,,.-'-.,,.-'-.,
 
-Megnézheted a képet az alábbi linkre kattintva:
+Picture Details
+
+Sender: {FROM}
+Date: {DATE}
+PIC Title: {PIC_TITLE}
+PIC ID: {PIC_ID}
+PIC Approval Status: {PIC_APPROVAL}
+
+,.-'-.,,.-'-.,,.-'-.,,.-'-.,
+
+You can view the picture by clicking on the following link:
 
 {U_PIC}
 
-Emlékeztetlek, hogy ha nem szeretnél minden új képrõl értesítõt kapni, csak meg kell változtatnod az erre vonatkozó beállítást a letöltési profilodban.
+Remember that you can always choose not to be notified of new pictures by changing the appropriate setting in your profile.
 
 {EMAIL_SIG}

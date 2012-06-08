@@ -1,8 +1,7 @@
-Subject: Link hozzáadása
-Charset: UTF-8
+Subject: Link added
 
-Kedves adminisztrátor!
+Dear Site Admin,
 
-A {SITENAME} oldalon a {LINK_URL} linket én adtam hozzá. Kérlek menj a Linkkezelõbe és hagyd jóvá.
+Link {LINK_URL} added in {SITENAME}, please go to Links Management and validate it.
 
-Ha nem akarsz több ilyen emailt kapni, akkor le tudod tiltani a Linkbeállítások vezérlõjében.
+If you no longer wish to receive such mail, you can go to Links Configuration Control.

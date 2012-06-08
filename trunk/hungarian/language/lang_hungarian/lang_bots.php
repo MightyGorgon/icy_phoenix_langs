@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_bots.php 76 2009-01-31 21:11:24Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'BOT_COL_LAST_VISIT' => 'Last Visit',
 	'BOT_COL_COUNTER' => 'Counter',
 
-	'CLICK_RETURN_BOTS' => 'Click %shere%s to return to Bots administration',
+	'CLICK_RETURN_BOTS' => 'Click %sHere%s to return to Bots administration',
 
 	'ERR_BOT_ADD' => 'You have not filled all the required fields, please go back and try again.',
 	'ERR_BOT_AGENT_MATCHES_UA' => 'The Bot agent you supplied is similar to the one you are currently using. Please adjust the agent for this Bot.',

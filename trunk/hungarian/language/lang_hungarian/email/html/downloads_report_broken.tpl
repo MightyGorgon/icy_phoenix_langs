@@ -1,5 +1,4 @@
 Subject: Broken Download
-Charset: iso-8859-1
 
 <br /><font face="Verdana" size="2">
 Hello <b>{USERNAME}</b>,<br /><br />
@@ -13,5 +12,5 @@ Use the following link to check this report:<br /><br />
 ---------------------------<br /><br />
 
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

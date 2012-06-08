@@ -1,11 +1,10 @@
-Subject: Kérelmed elfogadásra került
-Charset: UTF-8
+Subject: Your request has been approved
 
-Gratulálunk!
+Congratulations,
 
-A csatlakozási kérelmed a "{SITENAME}" oldalon a "{GROUP_NAME}" csoportba elfogadásra került.
-Kattints a következõ linkre, hogy megtekintsd a csoporttagságod részleteit.
+Your request to join the "{GROUP_NAME}" group on {SITENAME} has been approved.
+Click on the following link to see your group membership.
 
-{U_GROUP}
+{U_GROUPCP}
 
 {EMAIL_SIG}

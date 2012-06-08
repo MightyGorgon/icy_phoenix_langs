@@ -1,18 +1,17 @@
-Subject: Új kommentárt küldtek be a {PIC_TITLE} képhez
-Charset: UTF-8
+Subject: New pic comment posted to {PIC_TITLE}
 
-Helló,
+Hello,
 
-Új kép lett beküldve a "{SITENAME}" oldalra. A kép címe: "{PIC_TITLE}", és azt kérdet, hogy emlékeztessünk erre az eseményre.
+A new pic comment has been posted on "{SITENAME}" to the pic titled "{PIC_TITLE}" and you have requested that you be notified on this event.
 
 
-A képet meg tudod nézni az alábbi linkre kattintva:
+You can view the pic comment by clicking on the following link:
 
 {U_PIC}
 
 
 
-Emlékeztetlek, hogy az új képekre történõ figyelmeztetés a te kérésed volt, és bármikor megszüntetheted az "Új képek hozzáadásának figyelésének abbahagyása" gombra kattintva, vagy az alábbi linkre klikkelve:
+Remember that you can always choose not to be notified of new pic comments by either clicking the "Stop watching this pic link" found near the bottom of the pic linked above, or by clicking the following link:
 
 {U_STOP_WATCHING_COMMENT}
 

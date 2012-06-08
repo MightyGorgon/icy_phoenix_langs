@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin_cback_ctracker.php 96 2009-04-27 16:48:19Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -163,7 +163,7 @@ $lang = array_merge($lang, array(
 	'ctracker_credits_moddownload' => 'CrackerTracker MOD Download',
 	'ctracker_credits_thanks' => 'Thanks to...',
 	'ctracker_credits_thanks_text' => 'I would like to say thank you to the following persons:',
-	'ctracker_credits_thanks_to' => '<b>Ideas, Safety tests and Proofreading</b><br />Tekin Birdüzen<br /><i>(<a href="http://www.cybercosmonaut.de" target="_blank">cYbercOsmOnauT</a>)</i><br /><br /><br /><br /><b>Ideas:</b><br />Bernhard Jaud<br /><i>(GenuineParts)</i><br /><br /><br /><br /><b>Translator (English)</b><br />Marc Renninger<br /><i>(mc-dragon)</i><br /><br /><br /><br /><b>Corrector (English)</b><br />George <br />Sommerset<br /><i>(<a href="http://www.englisch-hilfen.de" target="_blank">www.englisch-hilfen.de</a>)</i><br /><br /><br /><br /><b>Beta Tester</b><br />Thanks to all participants of Beta-Tests<br />to the CBACK Premium users and of course to<br />our colleagues of the "Mod-Scene" who helped with Beta Tests and Proof-reading, too.</i>',
+	'ctracker_credits_thanks_to' => '<b>Ideas, Safety tests and Proofreading</b><br />Tekin Bird&uuml;zen<br /><i>(<a href="http://www.cybercosmonaut.de" target="_blank">cYbercOsmOnauT</a>)</i><br /><br /><br /><br /><b>Ideas:</b><br />Bernhard Jaud<br /><i>(GenuineParts)</i><br /><br /><br /><br /><b>Translator (English)</b><br />Marc Renninger<br /><i>(mc-dragon)</i><br /><br /><br /><br /><b>Corrector (English)</b><br />George <br />Sommerset<br /><i>(<a href="http://www.englisch-hilfen.de" target="_blank">www.englisch-hilfen.de</a>)</i><br /><br /><br /><br /><b>Beta Tester</b><br />Thanks to all participants of Beta-Tests<br />to the CBACK Premium users and of course to<br />our colleagues of the "Mod-Scene" who helped with Beta Tests and Proof-reading, too.</i>',
 	'ctracker_credits_info' => 'More Safety?',
 	'ctracker_credits_info_text' => 'The perfect add-on for Icy Phoenix and the CrackerTracker: For optimal safety we recommend the Mod <b>Advanced Visual Confirmation</b> by AmigaLink. This MOD expands the CAPTCHA feature of phpBB and CrackerTracker Professional with a more complex system which cannot be read by Bots. This MOD you can download from <a href="http://www.amigalink.de" target="_blank">www.AmigaLink.de</a>.<br /><br /><br /><br />We suggest that you also integrate this MOD into your Board for additional security.',
 
@@ -260,7 +260,7 @@ $lang = array_merge($lang, array(
 	'ctracker_log_manager_cell_1' => 'Date / Time',
 	'ctracker_log_manager_cell_2a' => 'Appeal',
 	'ctracker_log_manager_cell_2b' => 'Username',
-	'ctracker_log_manager_cell_3' => 'Referrer',
+	'ctracker_log_manager_cell_3' => 'Referer',
 	'ctracker_log_manager_cell_4' => 'UserAgent',
 	'ctracker_log_manager_cell_5' => 'IP Address',
 	'ctracker_log_manager_cell_6' => 'Remote Host',

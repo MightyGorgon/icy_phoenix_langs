@@ -1,29 +1,28 @@
-Subject: Új privát üzeneted érkezett {FROM}-tõl
-Charset: UTF-8
+Subject: New Private Message has arrived from {FROM}
 
 Hello {USERNAME},
 
-A "{SITENAME}" oldalon új privát üzenetet kaptál, és kérted, hogy ilyen esetekben értesítsünk téged.
+You have received a new private message to your account on "{SITENAME}" and you have requested that you be notified on this event.
 
 ,.-'-.,,.-'-.,,.-'-.,,.-'-.,
 
-Üzenet részletei:
+Message Details:
 
-Feladó: {FROM}
-Dátum: {DATE}
-Tárgy: {SUBJECT}
+Sender: {FROM}
+Date: {DATE}
+Subject: {SUBJECT}
 
 ,.-'-.,,.-'-.,,.-'-.,,.-'-.,
 
-Szöveg:
+Text:
 {PRIV_MSG_TEXT}
 
 ,.-'-.,,.-'-.,,.-'-.,,.-'-.,
 
-A következõ linkre kattintva tekintheted meg az érkezett üzenetet:
+You can view your new message by clicking on the following link:
 
 {U_INBOX}
 
-Ezt az emailt azért kapod, mert beállítottad, hogy privát üzenet érkezésérõl értesülni szeretnél. Ne felejtsd el, hogy bármikor kikapcsolhatod az ilyen értesítéseket a profilodban.
+Remember that you can always choose not to be notified of new messages by changing the appropriate setting in your profile.
 
 {EMAIL_SIG}

@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_profile_fields.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -38,13 +38,13 @@ $lang['_Description'] = '';
 
 /*
 //An Australian Example for Profile Fields
-$lang['1_Phone'] = 'Phone';
-$lang['1_Description'] = 'Phone Number';
-$lang['2_Team'] = 'Team';
-$lang['2_Description'] = 'Australian Team';
+$lang['1_Phone'] = 'Telefon';
+$lang['1_Description'] = 'Telefonszám';
+$lang['2_Team'] = 'Csapat';
+$lang['2_Description'] = 'Ausztrál csapat';
 $lang['2_Juve'] = 'Wallabies';
 $lang['2_Milan'] = 'Kangaroos';
-$lang['2_Altro'] = 'Other';
+$lang['2_Altro'] = 'Egyéb';
 */
 
 ?>

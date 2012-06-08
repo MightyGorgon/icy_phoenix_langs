@@ -1,11 +1,12 @@
-Subject: A hozzáférésed blokkolva lett
-Charset: UTF-8
+Subject: Your account is now blocked
 
-Szia {WARNED_POSTER}!
+Hello, {WARNED_POSTER}
 
-A {SITENAME} oldalon {BLOCK_TIME}-kor banlva lettél. 
+Your account on {SITENAME} has been blocked for {BLOCK_TIME}.
 
-Már többször figyelmeztettek, de a {POST_URL} hozzászólásod volt az utolsó csepp a pohárban. Amennyiben nem értess vele egyet, kérlek vedd fel a kapcsolatot {WARNER}-vel, és õ részletes információt tud azzal kapcsolatban szolgáltatni, hogy miért történt az, ami történt. 
+The reasons for this can be numerous, you have been blocked because of this post {POST_URL} that you have made.
+If you don't see why you've been blocked you could try to contact {WARNER}, who blocked you, explaining your post,
+and that you don't understand why you have been blocked.
 
 
-{EMAIL_SIG}  
+{EMAIL_SIG}

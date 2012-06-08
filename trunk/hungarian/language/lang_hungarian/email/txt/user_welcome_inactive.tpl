@@ -1,23 +1,22 @@
-Subject:  Üdvözlünk a "{SITENAME}" fórumon!
-Charset: UTF-8
+Subject: Welcome to {SITENAME}
 
 {WELCOME_MSG}
 
-Kérünk, tartsd meg ezt az üzenetet. Az azonosítód adatai a következõek:
+Please keep this email for your records. Your account information is as follows:
 
 ----------------------------
-Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
+Username: {USERNAME}
+Password: {PASSWORD}
 ----------------------------
 
-Az azonosítód jelenleg inaktív. A következõ linkre kattintva aktiválhatod:
+Your account is currently inactive. You cannot use it until you visit the following link:
 
 {U_ACTIVATE}
 
-Néhány email kliens nem megfelelõen olvassa a linkeket, így hiba esetén kérlek próbáld meg kimásolni, és beilleszteni közvetlenül egy webböngészõbe a fenti linket.
+Some email clients will not parse this url correctly. In that case you may try to copy and paste this link directly into your internet browser.
 
-Kérjük, ne felejtsd el a jelszavad, mivel titkosítva került be az adatbázisunkba, így nem tudjuk visszafejteni. Amennyiben megfeledkezel róla, újat tudsz kérni, de azt ugyanilyen módon ismét aktiválnod kell majd.
+Please do not forget your password as it has been encrypted in our database and we cannot retrieve it for you. However, should you forget your password you can request a new one which will be activated in the same way as this account.
 
-Köszönjük, hogy regisztráltál!
+Thank you for registering.
 
 {EMAIL_SIG}

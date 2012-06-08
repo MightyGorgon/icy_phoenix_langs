@@ -1,8 +1,7 @@
-Subject: Azonosítód aktiválásra került!
-Charset: UTF-8
+Subject: Account Activated
 
-Kedves {USERNAME}!
+Hello {USERNAME},
 
-Az azonosítód a "{SITENAME}" oldalon aktiválásra került, most már beléphetsz azzal a felhasználónévvel és jelszóval, melyet egy korábbi emailben kaptál.
+Your account on "{SITENAME}" has now been activated, you may login using the username and password you received in a previous email.
 
 {EMAIL_SIG}

@@ -1,20 +1,19 @@
-Subject: Új jelszó aktiválása
-Charset: UTF-8
+Subject: New password activation
 
-Kedves {USERNAME}!
+Hello {USERNAME}
 
-Ezt az üzenetet azért kapod, mert te (vagy valaki a te nevedben) új jelszót kért a "{SITENAME}" oldalon levõ azonosítódhoz. Ha nem te kérted ezt az üzenetet, úgy hagyd figyelmen kívül. Amennyiben továbbra is hasonlókat kapsz, vedd fel a kapcsolatot az oldal adminisztrátorával.
+You are receiving this email because you have (or someone pretending to be you has) requested a new password be sent for your account on {SITENAME}. If you did not request this email then please ignore it, if you keep receiving it please contact the board administrator.
 
-Ahhoz, hogy használni tudd az új jelszót, aktiválod kell, ehhez kattints az alábbi linkre.
+To use the new password you need to activate it. To do this click the link provided below.
 
 {U_ACTIVATE}
 
-Néhány email kliens nem megfelelõen olvassa a linkeket, így hiba esetén kérlek próbáld meg kimásolni, és beilleszteni közvetlenül egy webböngészõbe a fenti linket.
+Some email clients will not parse this url correctly. In that you may try to copy and paste this link directly into your internet browser.
 
-Ha ez sikeres volt, az alábbi jelszóval tudsz majd belépni:
+If successful you will be able to login using the following password:
 
-Jelszó: {PASSWORD}
+Password: {PASSWORD}
 
-Természetesen ezt a jelszót meg tudod változtatni a profilodban. Amennyiben bármilyen problémád adódik, vedd fel a kapcsolatot az oldal adminisztrátorával.
+You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
 
 {EMAIL_SIG}

@@ -1,19 +1,18 @@
-Subject: Megváltozott letöltés
-Charset: UTF-8
+Subject: Changed Download
 
 Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert az alábbi letöltést megváltoztatták a {SITENAME} oldal {CATEGORY} kategóriájában:
+You have received this email because the following download on {SITENAME} in the category "{CATEGORY}" is changed:
 
 ---------------------------
 {DOWNLOAD}
 {DESCRIPTION}
 ---------------------------
 
-Ha meg akarod tekinteni a letöltést, kérlek kattints a következõ linkre:
+If you want to take a look at this download click the following link:
 
 {U_CATEGORY}
 
-Emlékeztetlek, hogy ha nem szeretnél minden új vagy szerkesztett letöltésrõl értesítõt kapni, csak meg kell változtatnod az erre vonatkozó beállítást a letöltési profilodban.
+Remember that you can always choose not to be notified about edited downloads by dropping the notifications in the download details or your downloads user profile.
 
 {BOARD_EMAIL}

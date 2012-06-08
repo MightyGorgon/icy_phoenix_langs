@@ -1,11 +1,10 @@
-Subject: Csoportodhoz való csatlakozási kérelem
-Charset: UTF-8
+Subject: A request to join your group has been made
 
-Kedves {USERNAME}!
+Dear {GROUP_MODERATOR},
 
-Egy felhasználó jelezte, hogy csatlakozni szeretne a "{SITENAME}" oldalon a "{GROUP_NAME}" csoporthoz, melynek te vagy a vezetõje.
-A csatlakozási kérelem elfogadásához, látogass el a következõ oldalra:
+A user has requested to join a group you moderate on {SITENAME}.
+To approve or deny this request for group membership please visit the following link:
 
-{U_PENDING}
+{U_GROUPCP}
 
 {EMAIL_SIG}

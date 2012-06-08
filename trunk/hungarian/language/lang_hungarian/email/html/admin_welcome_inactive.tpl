@@ -1,7 +1,7 @@
-Subject: Welcome to {SITENAME} Forums
-Charset: iso-8859-1
+Subject: Welcome to {SITENAME}
+
 <br /><font face="Verdana" size="2">
-Welcome to <b>{SITENAME}</b> Forums
+Welcome to <b>{SITENAME}</b>
 <br /><br />
 Please keep this email for your records. Your account information is as follows:
 <br /><br />
@@ -16,5 +16,5 @@ Please do not forget your password as it has been encrypted in our database and 
 <br /><br />
 Thank you for registering.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

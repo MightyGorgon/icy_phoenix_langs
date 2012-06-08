@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main_attach.php 76 2009-01-31 21:11:24Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -26,124 +26,121 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
+$lang = array_merge($lang, array(
 // Auth Related Entries
 /*
-	'Rules_attach_can' => 'You <b>can</b> attach files in this forum',
-	'Rules_attach_cannot' => 'You <b>cannot</b> attach files in this forum',
-	'Rules_download_can' => 'You <b>can</b> download files in this forum',
-	'Rules_download_cannot' => 'You <b>cannot</b> download files in this forum',
+	'Rules_attach_can' => '<b>Csatolhatsz</b> fÃ¡jlokat ebben a fÃ³rumban',
+	'Rules_attach_cannot' => '<b>Nem</b> csatolhatsz fÃ¡jlokat ebben a fÃ³rumban',
+	'Rules_download_can' => '<b>LetÃ¶lthetsz</b> fÃ¡jlokat ebben a fÃ³rumban',
+	'Rules_download_cannot' => '<b>Nem</b> tÃ¶lthetsz le fÃ¡jlokat ebben a fÃ³rumban',
 */
-  'Rules_attach_can' => '<b>Tudsz</b> fájlokat csatolni',
-  'Rules_attach_cannot' => '<b>Nem tudsz</b> fájlokat csatolni',
-  'Rules_download_can' => 'Le <b>tudod</b> tölteni a fájlokat',
-  'Rules_download_cannot' => '<b>Nem tudod</b> letölteni a fájlokat',
-  'Sorry_auth_view_attach' => 'Bocsi, de nincs jogod letölteni vagy megnézni ezt a csatolmányt',
+	'Rules_attach_can' => 'You <b>can</b> attach files',
+	'Rules_attach_cannot' => 'You <b>cannot</b> attach files',
+	'Rules_download_can' => 'You <b>can</b> download files',
+	'Rules_download_cannot' => 'You <b>cannot</b> download files',
+	'Sorry_auth_view_attach' => 'Sorry but you are not authorized to view or download this Attachment',
 
 // Viewtopic -> Display of Attachments
-  'Description' => 'Meghatározás', // used in Administration Panel too...
-  'Downloaded' => 'Letöltve',
-  'Download' => 'Letöltés', // this Language Variable is defined in lang_admin.php too, but we are unable to access it from the main Language File
-  'Filesize' => 'Fájlméret',
-  'Viewed' => 'Megnézve',
-  'Download_number' => '%d-szor', // replace %d with count
-  'Extension_disabled_after_posting' => 'A \'%s\' kiterjesztést deaktiválta a fórum adminisztrátora, ezért ez a csatolmány nem jelenik meg.', // used in Posts and PM's, replace %s with mime type
+	'Description' => 'Description', // used in Administration Panel too...
+	'Downloaded' => 'Downloaded',
+	'Download' => 'Download', // this Language Variable is defined in lang_admin.php too, but we are unable to access it from the main Language File
+	'Filesize' => 'Filesize',
+	'Viewed' => 'Viewed',
+	'Download_number' => '%d Time(s)', // replace %d with count
+	'Extension_disabled_after_posting' => 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.', // used in Posts and PM's, replace %s with mime type
 
 // Posting/PM -> Initial Display
-  'Attach_posting_cp' => 'Csatolmány beküldõ vezérlõpanel',
-  'Attach_posting_cp_explain' => 'Ha a Csatolmány hozzáadására klikkelsz, akkor meg fog jelenni a csatolmány felküldéséhez szükséges doboz.<br />Ha a Beküldött csatolmányokra kattintasz, akkor a már beküldött csatolmányokat fogod látni, és azokat akár módosíthatod is.<br />Ha az Új verzió feltöltése linkre kattintasz, akkor mindkét link megjelenik. Add meg az új csatolmányt, viszont ne kattints a Csatolmány hozzáadására. Az Új verzió feltöltésére kattintva tudod a csatolmányt frissíteni.',
+	'Attach_posting_cp' => 'Attachment Posting Control Panel',
+	'Attach_posting_cp_explain' => 'If you click on \'Add an Attachment\', you will see the box for adding Attachments.<br />If you click on \'Posted Attachments\', you will see a list of already attached Files and you are able to edit them.<br />If you want to Replace (Upload new Version) an Attachment, you have to click both links. Add the Attachment as you normally would do, thereafter don\'t click on Add Attachment, rather click on Upload New Version at the Attachment Entry you intend to update.',
 
 // Posting/PM -> Posting Attachments
-  'Add_attachment' => 'Csatolmány hozzáadása',
-  'Add_attachment_title' => 'Egy csatolmány hozzáadása',
-  'Add_attachment_explain' => 'Ha nem akarsz a hozzászóláshoz csatolmányt adni, akkor ezt a mezõt hagyd üresen',
-  'File_name' => 'Fájlnév',
-  'File_comment' => 'Fájl kommentálása',
+	'Add_attachment' => 'Add Attachment',
+	'Add_attachment_title' => 'Add an Attachment',
+	'Add_attachment_explain' => 'If you do not want to add an Attachment to your Post, please leave the Fields blank',
+	'File_name' => 'Filename',
+	'File_comment' => 'File Comment',
 
 // Posting/PM -> Posted Attachments
-  'Posted_attachments' => 'Beküldött csatolmányok',
-  'Options' => 'Opciók',
-  'Update_comment' => 'Kommentár frissítése',
-  'Delete_attachments' => 'Csatolmányok törlése',
-  'Delete_attachment' => 'Csatolmány törlése',
-  'Delete_thumbnail' => 'Bélyegkép törlése',
-  'Upload_new_version' => 'Új verzió feltöltése',
+	'Posted_attachments' => 'Posted Attachments',
+	'Options' => 'Options',
+	'Update_comment' => 'Update Comment',
+	'Delete_attachments' => 'Delete Attachments',
+	'Delete_attachment' => 'Delete Attachment',
+	'Delete_thumbnail' => 'Delete Thumbnail',
+	'Upload_new_version' => 'Upload New Version',
 
 // Errors -> Posting Attachments
-  'Invalid_filename' => 'A(z) %s érvénytelen fájlnév', // replace %s with given filename
-  'Attachment_php_size_na' => 'A csatolmány túl nagy.<br />Nem lehet nagyobb a fájlméret, mint amit a PHP megenged.<br />A csatolmány modul nem tudja felülbírálni a php.ini-ben meghatározott maximális feltölthetõ fájlméretet.',
-  'Attachment_php_size_overrun' => 'A csatolmány túl nagy.<br />A maximális feltölthetõ fájlméret: %d MB.<br />Kérlek vedd figyelembe, hogy ezt az értéket a php.ini-ben deklarálták, sem a PHP-nek sem a csatolmánymodulnak nincs joga ezt felülbírálni.', // replace %d with ini_get('upload_max_filesize')
-  'FileType_Mismatch' => 'File type mismatch',
-  'Disallowed_extension' => 'A %s kiterjesztés nincs engedélyezve', // replace %s with extension (e.g. .php)
-  'Disallowed_extension_within_forum' => 'Ebben a fórumban nincs engedélyezve a %s kiterjesztésû fájlok feltöltése', // replace %s with the Extension
-  'Attachment_too_big' => 'A csatolmány túl nagy.<br />Maximális méret: %d %s', // replace %d with maximum file size, %s with size var
-  'Attach_quota_reached' => 'Bocsi, de a csatolmányok átlépték a maximális fájlméretet. Kérlek lépj kapcsolatba az adminisztrátorokkal, ha bármi kérdésed van.',
-  'Too_many_attachments' => 'A csatolmány nem adható hozzá, mert elérted az egy hozzászóláshoz csatolható maximális csatolmányok számát', // replace %d with maximum number of attachments
-  'Error_imagesize' => 'A képcsatolmánynak muszáj %d pixelnél keskenyebbnek és %d pixelnél alacsonyabbnak lennie',
-  'General_upload_error' => 'Feltöltési hiba: nem lehetett a %s csatolmányt feltölteni.', // replace %s with local path
+	'Invalid_filename' => '%s is an invalid filename', // replace %s with given filename
+	'Attachment_php_size_na' => 'The Attachment is too big.<br />Couldn\'t get the maximum Size defined in PHP.<br />The Attachment Mod is unable to determine the maximum Upload Size defined in the php.ini.',
+	'Attachment_php_size_overrun' => 'The Attachment is too big.<br />Maximum Upload Size: %d MB.<br />Please note that this Size is defined in php.ini, this means it\'s set by PHP and the Attachment Mod cannot override this value.', // replace %d with ini_get('upload_max_filesize')
+	'FileType_Mismatch' => 'File type mismatch',
+	'Disallowed_extension' => 'The Extension %s is not allowed', // replace %s with extension (e.g. .php)
+	'Disallowed_extension_within_forum' => 'You are not allowed to post Files with the Extension %s within this Forum', // replace %s with the Extension
+	'Attachment_too_big' => 'The Attachment is too big.<br />Max Size: %d %s', // replace %d with maximum file size, %s with size var
+	'Attach_quota_reached' => 'Sorry, but the maximum filesize for all Attachments has been reached. Please contact the Board Administrator if you have questions.',
+	'Too_many_attachments' => 'Attachment cannot be added, since the max. number of %d Attachments in this post has been reached', // replace %d with maximum number of attachments
+	'Error_imagesize' => 'The Attachment/Image must be less than %d pixels wide and %d pixels high',
+	'General_upload_error' => 'Upload Error: Could not upload Attachment to %s.', // replace %s with local path
 
-  'Error_empty_add_attachbox' => 'Meg kell adnod minden értéket az \'Egy csatolmány hozzáadása\' dobozban',
-  'Error_missing_old_entry' => 'Nem frissíthetõ a csatolmány, mert nem található a régi csatolmány bejegyzése',
+	'Error_empty_add_attachbox' => 'You have to enter values in the \'Add an Attachment\' Box',
+	'Error_missing_old_entry' => 'Unable to Update Attachment, could not find old Attachment Entry',
 
 // Errors -> PM Related
-  'Attach_quota_sender_pm_reached' => 'Bocsi, de az összes csatolmány maximális fájlméretét elérte a Privát üzenetekkel kapott/küldött csatolmányok mérete a Privát üzenetek könyvtárában. Kérlek törölj néhányat a kapott/küldött csatolmányok közül.',
-  'Attach_quota_receiver_pm_reached' => 'Sorry, but the maximum filesize for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.',
+	'Attach_quota_sender_pm_reached' => 'Sorry, but the maximum filesize for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.',
+	'Attach_quota_receiver_pm_reached' => 'Sorry, but the maximum filesize for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him/her know, or wait until he/she has deleted some of his/her Attachments.',
 
 // Errors -> Download
-  'No_attachment_selected' => 'Nincs letöltésre vagy megnézésre kijelölt csatolmány.',
-  'Error_no_attachment' => 'A kiválasztott csatolmány már nem létezik',
+	'No_attachment_selected' => 'You haven\'t selected an attachment to download or view.',
+	'Error_no_attachment' => 'The selected Attachment no longer exists',
 
 // Delete Attachments
-  'Confirm_delete_attachments' => 'Tényleg törölni szeretn éd a kiválasztott csatolmányt?',
-  'Deleted_attachments' => 'A kiválasztott csatolmány törölve lett.',
-  'Error_deleted_attachments' => 'A csatolmány nem törölhetõ.',
-  'Confirm_delete_pm_attachments' => 'Tényleg minden beküldött csatolmányt törölni szeretnél a PU könyvtárából??',
+	'Confirm_delete_attachments' => 'Are you sure you want to delete the selected Attachments?',
+	'Deleted_attachments' => 'The selected Attachments have been deleted.',
+	'Error_deleted_attachments' => 'Could not delete Attachments.',
+	'Confirm_delete_pm_attachments' => 'Are you sure you want to delete all Attachments posted in this PM?',
 
 // General Error Messages
-  'Attachment_feature_disabled' => 'A csatolási lehetõség ki van kapcsolva.',
-  
-  'Directory_does_not_exist' => 'A \'%s\' könyvtár nem létezik, vagy nem elérhetõ.', // replace %s with directory
-  'Directory_is_not_a_dir' => 'Kérlek ellenõrizd le, hogy a \'%s\' könyvtár-e.', // replace %s with directory
-  'Directory_not_writeable' => 'A \'%s\' könyvtár nem írható. Létre kell hoznod egy könyvtárat a feltöltéshez, és chmod-dal 777-es jogot kell adnod neki (vagy a tulajdonosát írd át a httpd tulajdonosává) hogy feltölthess fájlokat a könyvtárba.<br />Ha csak ftp hozzáférésed van akkor az \'Attribute\'-okat kell rwxrwxrwx-re állítanod.', // replace %s with directory
-  
-  'Ftp_error_connect' => 'Nem lehet az FTP szerverhez csatlakozni: \'%s\'. Kérlek ellenõrizd le az FTP beállításokat.',
-  'Ftp_error_login' => 'Nem lehet az FTP szerverre bejelentkezni. A \'%s\' felhasználónév vagy a jelszó hibás. Kérlek ellenõrizd le az FTP beállításokat.',
-  'Ftp_error_path' => 'Nincs hozzáférésed a \'%s\' ftp könyvtárhoz. Kérlek ellenõrizd le az FTP beállításokat.',
-  'Ftp_error_upload' => 'Nem lehet feltölteni a \'%s\' ftp könyvtárba. Kérlek ellenõrizd le az FTP beállításokat.',
-  'Ftp_error_delete' => 'Nem lehet fájlokat törölni az \'%s\' ftp könyvtárban. Kérlek ellenõrizd le az FTP beállításokat.<br />Másik lehetõség, hogy nem létezik az adott csatolmány. Kérlek elsõnek az Árnyékcsatolmányokat nézd meg.',
-  'Ftp_error_pasv_mode' => 'Nem lehet ki/bekapcsolni az FTP passzív módját',
+	'Attachment_feature_disabled' => 'The Attachment Feature is disabled.',
+
+	'Directory_does_not_exist' => 'The Directory \'%s\' does not exist or couldn\'t be found.', // replace %s with directory
+	'Directory_is_not_a_dir' => 'Please check if \'%s\' is a directory.', // replace %s with directory
+	'Directory_not_writeable' => 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain ftp-access change the \'Attribute\' of the directory to rwxrwxrwx.', // replace %s with directory
+
+	'Ftp_error_connect' => 'Could not connect to FTP Server: \'%s\'. Please check your FTP-Settings.',
+	'Ftp_error_login' => 'Could not login to FTP Server. The Username \'%s\' or the Password is wrong. Please check your FTP-Settings.',
+	'Ftp_error_path' => 'Could not access ftp directory: \'%s\'. Please check your FTP Settings.',
+	'Ftp_error_upload' => 'Could not upload files to ftp directory: \'%s\'. Please check your FTP Settings.',
+	'Ftp_error_delete' => 'Could not delete files in ftp directory: \'%s\'. Please check your FTP Settings.<br />Another reason for this error could be the non-existence of the Attachment, please check this first in Shadow Attachments.',
+	'Ftp_error_pasv_mode' => 'Unable to enable/disable FTP Passive Mode',
 
 // Attach Rules Window
-  'Rules_page' => 'Csatolási szabályok',
-  'Attach_rules_title' => 'Engedélyezett kiterjesztések és méretkorlátok',
-  'Group_rule_header' => '%s -> Maximális feltölthetõ méret: %s', // Replace first %s with Extension Group, second one with the Size STRING
-  'Allowed_extensions_and_sizes' => 'Engedélyezett kiterjesztések és méretek',
-  'Note_user_empty_group_permissions' => 'Megjegyzés:<br />Általánosságban elmondhatjuk, hogy  feltölthetsz fájlt a fórumba, <br />de néhány kiterjesztés nincs engedélyezve, <br />illetve nem tölthetsz fel bármit. Ha a szabályokat átléped, <br />egy hibaüzenettel fogunk figyelmeztetni.<br />',
+	'Rules_page' => 'Attachment Rules',
+	'Attach_rules_title' => 'Allowed Extension Groups and their Sizes',
+	'Group_rule_header' => '%s -> Maximum Upload Size: %s', // Replace first %s with Extension Group, second one with the Size STRING
+	'Allowed_extensions_and_sizes' => 'Allowed Extensions and Sizes',
+	'Note_user_empty_group_permissions' => 'NOTE:<br />You are normally allowed to attach files within this Forum, <br />but since no Extension Group is allowed to be attached here, <br />you are unable to attach anything. If you try, <br />you will receive an Error Message.<br />',
 
 // Quota Variables
-  'Upload_quota' => 'Feltöltési kvóta',
-  'Pm_quota' => 'PÜ kvóta',
-  'User_upload_quota_reached' => 'Bocsi, de elérted a maximálisan elérhetõ feltöltési korlátodat: %d %s', // replace %d with Size, %s with Size Lang (MB for example)
+	'Upload_quota' => 'Upload Quota',
+	'Pm_quota' => 'PM Quota',
+	'User_upload_quota_reached' => 'Sorry, you have reached your maximum Upload Quota Limit of %d %s', // replace %d with Size, %s with Size Lang (MB for example)
 
 // User Attachment Control Panel
-  'User_acp_title' => 'Felhasználói Csatolmánypanel',
-  'UACP' => 'Felhasználói csatolmányok vezérlõpanelja',
-  'User_uploaded_profile' => 'Feltöltve: %s',
-  'User_quota_profile' => 'Kvóta: %s',
-  'Upload_percent_profile' => '%d%%-ig tele',
+	'User_acp_title' => 'User ACP',
+	'UACP' => 'User Attachment Control Panel',
+	'User_uploaded_profile' => 'Uploaded: %s',
+	'User_quota_profile' => 'Quota: %s',
+	'Upload_percent_profile' => '%d%% of total',
 
 // Common Variables
-  'Bytes' => 'Byte',
-  'KB' => 'KB',
-  'MB' => 'MB',
-  'Attach_search_query' => 'Csatolmány keresése',
-  'Test_settings' => 'Beállítások tesztelése',
-  'Not_assigned' => 'Nem átruházott',
-  'No_file_comment_available' => 'Nincs elérhetõ kommentár a fájlhoz',
-  'Attachbox_limit' => 'A csatolmányládád %d%%-ig tele',
-  'No_quota_limit' => 'Nincs kvótakorlát',
-  'Unlimited' => 'Korlátlan',
-  )
+	'Attach_search_query' => 'Search Attachments',
+	'Test_settings' => 'Test Settings',
+	'Not_assigned' => 'Not Assigned',
+	'No_file_comment_available' => 'No File Comment available',
+	'Attachbox_limit' => 'Attachbox [%d%% full]',
+	'No_quota_limit' => 'No Quota Limit',
+	'Unlimited' => 'Unlimited',
+	)
 );
 
 ?>

@@ -1,19 +1,18 @@
-Subject: Új letöltés
-Charset: UTF-8
+Subject: New Download
 
-Szia {USERNAME}!
+Hello {USERNAME},
 
-Azért kaptad ezt az üzenetet, mert új letöltés került a {SITENAME} oldal {CATEGORY} kategóriájába:
+You have received this email because there is a new download on {SITENAME} in the category {CATEGORY}:
 
 ---------------------------
 {DOWNLOAD}
 {DESCRIPTION}
 ---------------------------
 
-Ha meg akarod tekinteni a letöltést, kérlek kattints a következõ linkre:
+If you want to take a look at this download click the following link:
 
 {U_CATEGORY}
 
-Emlékeztetlek, hogy ha nem szeretnél minden új vagy szerkesztett letöltésrõl értesítõt kapni, csak meg kell változtatnod az erre vonatkozó beállítást a letöltési profilodban.
+Remember that you can always choose not to be notified about new or edited downloads by changing the appropriate setting in your download profile.
 
 {BOARD_EMAIL}

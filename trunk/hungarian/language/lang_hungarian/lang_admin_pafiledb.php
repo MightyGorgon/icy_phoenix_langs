@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin_pafiledb.php 89 2009-03-11 10:03:30Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -165,10 +165,6 @@ $lang = array_merge($lang, array(
 	'Auth_toplist_explain' => 'Allow toplist for specific group of users',
 	'Auth_viewall' => 'Viewall Permission',
 	'Auth_viewall_explain' => 'Allow viewall for specific group of users',
-	'Bytes' => 'Bytes',
-	'KB' => 'KB',
-	'MB' => 'MB',
-
 
 // Custom Field
 	'Afield' => 'Custom Field: Add',

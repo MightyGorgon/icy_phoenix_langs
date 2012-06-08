@@ -1,19 +1,18 @@
-Subject: Fórumfigyelés értesítés - "{FORUM_NAME}" - {TOPIC_TITLE}
-Charset: UTF-8
+Subject: Topic Reply Notification for forum "{FORUM_NAME}" - {TOPIC_TITLE}
 
-Kedves {USERNAME}!
+Hello {USERNAME}!
 
-Ezt az emailt azért kapod, mert a "{SITENAME}" oldalon, a "{FORUM_NAME}" fórum figyelését kérted. Ebbe a fórumba, legutóbbi látogatásod óta, új hozzászólás érkezett a "{TOPIC_TITLE}" témába. A következõ linkre kattintva eljuthatsz a legutóbbi olvasatlan válaszhoz, mindazonáltal újabb értesítést nem fogsz kapni, míg meg nem látogatod a fórumot.
-
-A téma megtekintéséhez kattints a következõ linkre:
+{POSTERNAME} has posted a new reply to "{TOPIC_TITLE}" in the "{FORUM_NAME}" forum at {SITENAME}.
+You can use the following link to view the replies made:
 
 {U_TOPIC}
 
-A hozzászólás szövege:
+Posted text:
 {POST_TEXT}
 
 
-Amennyiben a továbbiakban nem kívánod figyelni a "{FORUM_NAME}" fórumot a {SITENAME} weboldalon, kattints a "Leiratkozás a fórumról" linkre, melyet a "{FORUM_NAME}" fórum alján találsz, vagy egyszerûen kattints a következõ linkre:
+You are receiving this email because you are watching the forum, "{FORUM_NAME}" forum at {SITENAME}. 
+If you no longer wish to watch this forum you can either click the "Stop watching this forum link" found at the bottom of the "{FORUM_NAME}" forum, or by clicking the following link:
 
 {U_STOP_WATCHING_FORUM}
 

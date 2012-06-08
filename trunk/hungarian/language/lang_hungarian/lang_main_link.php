@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_main_link.php 61 2008-10-30 09:25:26Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -28,43 +28,43 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
-  'Site_links' => 'Linkek',
-  'Link_lock_submit_site' => 'Oldalbeköldés zárolva',
-  'Link_title' => 'Oldal neve',
-  'Link_desc' => 'Oldal leírása',
-  'Link_url' => 'Oldal URL',
-  'Link_logo_src' => 'Oldal logója (88x31 pixel, mérete maximum 10K), vagy hagyd üresen:',
-  'Link_logo_src1' => 'Oldal logója (88x31 pixel, mérete maximum 10K):',
-  'Links_Preview' => 'Elõnézet',
-  'Link_category' => 'Oldal kategóriája',
-  'link_hits' => 'Találat',
-  'Link_us' => 'Link: ',
-  'Link_us_explain' => 'Kérlek ted ki az oldaladra ennek az <b>%s</b> oldalnak a linkjét. Használd ezt a HTML-t:',
-  'Link_us_syntax' => '<a href="%s" target="_blank"><img src="%s" width="%d" height="%d" alt="%s" /></a>',
-  'Link_register' => 'Egy oldal ajánlása',
-  'Link_register_guest_rule' => 'Lépj be, mint regisztrált felhasználó, és akkor tudsz oldalt ajánlani.',
-  'Link_register_rule' => 'Ha kitöltöd az ûrlapot, akkor a javaslatod el lesz küldve jóváhagyásra.',
-  'Link_pm_notify_subject' => 'Link hozzáadva',
-  'Link_pm_notify_message' => '\nA %s link hozzáadva,\n kérlek menj el a Linkkezelõbe, és hagyd jóvá.',
-  'Link_update_success' => 'Az információ elküldve',
-  'Link_update_fail' => 'Bocsi!! Az információ nem lett elküldve, kérlek nyomd meg a vissza gombot, és próbáld meg még egyszer',
-  'Link_incomplete' => 'Bocsi!! Nincs teljesen kitöltve az ûrlap, kérlek nyomd meg a vissza gombot, és próbáld meg még egyszer',
-  'Link_intval_warning' => 'Bocsi!! Nem tudsz most ajánlani semmilyen oldalt, kérlek gyere vissza késõbb',
-  'Click_return_links' => 'Kattints %side%s, hogy viszatérj a Linkekhez',
-  'Please_enter_your' => 'Kérem adja meg a ',
-  'No_Logo_img' => '<span class="text_blue">&#8226;</span>', // You can edit color
-  'No_Display_Links_Logo' => '<span class="text_red">&#8226;</span>', // Don't display Links logo
-  'Links_home' => 'Linkek',
-  'Search_site' => 'Keresõoldal',
-  'Search_site_title' => 'Keresõoldal neve/meghatározása:',
-  'Descend_by_hits' => 'Találat szerint csökkenõ',
-  'Descend_by_joindate' => 'Dátum szerint csökkenõ',
-  'Logo' => 'Logó',
-  'Site' => 'Oldal',
-  'Link_ME' => 'Link ide',
-  'Remember_Me' => 'Automatikus belépés',
-  )
+$lang = array_merge($lang, array(
+	'Site_links' => 'Linkek',
+	'Link_lock_submit_site' => 'Oldal bekÃ¼ldÃ©se jelenleg nem lehetsÃ©ges',
+	'Link_title' => 'Oldal neve',
+	'Link_desc' => 'Oldal leÃ­rÃ¡sa',
+	'Link_url' => 'Oldal URL',
+	'Link_logo_src' => 'Oldal logÃ³ (88x31 pixel; nem nagyobb, mint 10K), vagy hagyd Ã¼resen:',
+	'Link_logo_src1' => 'Oldal logÃ³ (88x31 pixel; mÃ©ret nem nagyobb, mint 10K):',
+	'Links_Preview' => 'ElÅ‘nÃ©zet',
+	'Link_category' => 'Oldal kategÃ³riÃ¡ja',
+	'link_hits' => 'TalÃ¡latok',
+	'Link_us' => 'LinkelÃ©s ',
+	'Link_us_explain' => 'Szabadon belinkelheted az <b>%s</b> oldalt az alÃ¡bbi HTML kÃ³d segÃ­tsÃ©gÃ©vel:',
+	'Link_us_syntax' => '<a href="%s" target="_blank"><img src="%s" width="%d" height="%d" alt="%s" /></a>',
+	'Link_register' => 'Oldal bekÃ¼ldÃ©se',
+	'Link_register_guest_rule' => 'Oldal bekÃ¼ldÃ©sÃ©hez regisztrÃ¡lj, vagy jelentkezz be',
+	'Link_register_rule' => 'TÃ¶ltsd ki az alÃ¡bbi Å±rlapot, Ã©s a megerÅ‘sÃ­tÃ©s utÃ¡n az oldal kikerÃ¼l(het) a linkek kÃ¶zÃ©.',
+	'Link_pm_notify_subject' => 'Link hozzÃ¡adva',
+	'Link_pm_notify_message' => "\nLink %s hozzÃ¡adva,\n menj a Link kezelÅ‘be a megerÅ‘sÃ­tÃ©shez.",
+	'Link_update_success' => 'Az informÃ¡ciÃ³ elkÃ¼ldve',
+	'Link_update_fail' => 'ElnÃ©zÃ©st!! Az informÃ¡ciÃ³ elkÃ¼ldÃ©se sikertelen. PrÃ³bÃ¡ld meg Ãºjra.',
+	'Link_incomplete' => 'ElnÃ©zÃ©st!! Nem tÃ¶ltÃ¶tted ki teljesen az Å±rlapot. Menj vissza, Ã©s prÃ³bÃ¡ld meg Ãºjra.',
+	'Link_intval_warning' => 'ElnÃ©zÃ©st! Nem kÃ¼ldhetsz mÃ©gegy linket ilyen hamar. PrÃ³bÃ¡ld meg kÃ©sÅ‘bb.',
+	'Click_return_links' => 'Kattints %side%s, hogy visszatÃ©rj a Linkek fÅ‘oldalra',
+	'Please_enter_your' => 'Add meg a(z) ',
+	'No_Logo_img' => '<span class="text_blue">&#8226;</span>', // You can edit color
+	'No_Display_Links_Logo' => '<span class="text_red">&#8226;</span>', // Don't display Links logo
+	'Links_home' => 'Linkek fÅ‘oldal',
+	'Search_site' => 'Oldal keresÃ©se',
+	'Search_site_title' => 'Oldal nÃ©v/leÃ­rÃ¡s keresÃ©se:',
+	'Descend_by_hits' => 'TalÃ¡latok szerint csÃ¶kkenÅ‘',
+	'Descend_by_joindate' => 'DÃ¡tum szerint csÃ¶kkenÅ‘',
+	'Logo' => 'LogÃ³',
+	'Site' => 'Oldal',
+	'Link_ME' => 'Linkelj rÃ¡nk',
+	'Remember_Me' => 'Automatikus belÃ©pÃ©s',
+	)
 );
 
 ?>

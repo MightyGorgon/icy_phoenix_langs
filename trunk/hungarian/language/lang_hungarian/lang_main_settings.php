@@ -2,16 +2,9 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_admin.php 110 2009-07-14 08:09:47Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
-
-/**
-*
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
 *
 */
 
@@ -32,47 +25,74 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
-  'Index' => 'Icy Phoenix',
-  'Default_META_Keywords' => 'phpbb, forum, icy phoenix, icyphoenix, icy, phoenix, php, portal, cms, premodded, community, open source, mods, templates',
-  'Default_META_Description' => 'Az Icy Phoenix egy teljesen szemÈlyre szabhatÛ CMS phpBB alapokon. Egyszerøen kÈszÌthetø vele olyan dinamikos port·l, mely minden webes kˆzˆssÈg igÈnyÈt ki tudja elÈgÌteni.',
-  'Default_META_Title' => 'Mandriva Linux',
-  'Default_META_Author' => 'Mighty Gorgon Ès az Icy Phoenix Staff :: http://www.icyphoenix.com/',
-  'Default_META_Copyright' => '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon',
-  'REGISTER_MESSAGE' => '',
-  'Welcome_Message' => '‹dvˆzˆl az <span class="topic_glo">Icy Phoenix</span><br />',
-  'register_pm_subject' => '‹dvˆzl¸nk %s',
-  'register_pm' => 'HellÛ!<br /><br />‹dvˆzˆlj¸k %s. <br /><br />÷r¸l¸nk, hogy csatlakozt·l a Mandriva KˆzˆssÈghez! <br /><br />Csatlakozz b·tran Ès oszd meg m·sokkal vÈlemÈnyed!<br /><br />~Sok sikert!<br />&bull; %s &bull; A fınˆksÈg',
-  'Support_Us' => 'T·mogass minket',
-  'PayPal' => '
+$lang['Index'] = 'Icy Phoenix';
+$lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, phoenix, php, portal, cms, premodded, community, open source, mods, templates';
+$lang['Default_META_Description'] = 'Icy Phoenix is an highly customizable CMS based on phpBB which allows you to create a dynamic site with a lot of features for powering web communities.';
+$lang['Default_META_Title'] = 'Icy Phoenix';
+$lang['Default_META_Author'] = 'Mighty Gorgon And Icy Phoenix Staff :: http://www.icyphoenix.com/';
+$lang['Default_META_Copyright'] = '(c) 2001-' . gmdate('Y') . ' Mighty Gorgon';
+$lang['Extra_Meta'] = '';
+
+$lang['REGISTER_MESSAGE'] = '';
+
+$lang['Welcome_Message'] = '√údv√∂z√∂l az <span class="topic_glo">Icy Phoenix</span><br />';
+$lang['register_pm_subject'] = '√údv√∂zl√ºnk a(z) %s oldal√°n!';
+$lang['register_pm'] = "Hello!\n\n√údv√∂zl√ºnk a(z) %s oldal√°n.\n\nRem√©lj√ºk, √©rt√©kes tagja leszel k√∂z√∂ss√©g√ºnknek!\n\nB√°tran sz√≥lj hozz√° a m√°r megl√©v≈ë t√©m√°khoz, vagy ind√≠ts √∫j t√©m√°kat!\n\n√âlvezd!\n[b]%s[/b] Vezet≈ës√©g";
+
+$lang['Support_Us'] = 'T√°mogat√°s';
+$lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '" title="' . $lang['Support_Us'] . '" />';
+/* Example of code you may add... replace with your own code.
+$lang['PayPal'] = '
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-  <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="image" src="images/paypal.gif" name="submit" alt="' . $lang['Support_Us'] . '" style="border-width:0px;" />
-  <input type="hidden" name="encrypted" value="" />
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="image" src="images/paypal.gif" name="submit" alt="' . $lang['Support_Us'] . '" style="border-width:0px;" />
+<input type="hidden" name="encrypted" value="" />
 </form>
-',
-  'OwnerSiteOwner' => 'Mighty Gorgon',
-  'OwnerSite' => 'Icy Phoenix',
-  'OwnerCompany' => 'Icy Phoenix',
-  'OwnerDetails' => 'Icy Phoenix',
-  'OwnerAdrress' => 'Italy',
-  'OwnerServer' => 'Icy Phoenix',
-  'PrivacyDisclaimer' => 'El kell fogadnod, hogy a szemÈlyes adataid vÈdelmÈrıl az oldal tulajdonos·nak orsz·nak tˆrvÈnyei szerint fognak gondoskodni.<br />',
-  'ENCODING' => 'ISO-8859-2',
-  'ENCODING_ALT' => 'UTF-8',
-  'DIRECTION' => 'ltr',
-  'HEADER_LANG' => 'hu-hu',
-  'HEADER_XML_LANG' => 'hu-hu',
-  'LEFT' => 'bal',
-  'RIGHT' => 'jobb',
-  'DATE_FORMAT' => 'y F d H:i',  // This should be changed to the default date format for your language, php date() format
-  'DATE_FORMAT_MG' => 'Y/m/d - H:i',
-  'DATE_FORMAT_VF' => 'Y M d',
-  'DATE_FORMAT_BIRTHDAY' => 'Y F d',
-  'DATE_FORMAT2' => 'Y F d', // This should be changed to the default date format for your language, php date() format
-  'JOINED_DATE_FORMAT' => 'Y F',  // Date format of Joined date, php date() format
-  'TRANSLATION_INFO' => 'FordÌtotta: <a href="http://mandrivalinux.hu">Gergely LÛnyai</a>',
-  'TRANSLATION' => 'A fordÌt·s a <a href="http://mandrivalinux.hu" target="_blank" class="copyright">Mandriva Linux</a> gondoz·s·ban kÈsz¸lt. KÈrj¸k ÈszrevÈteleidet k¸ld el a fordÌtÛ cÌmÈre, vagy a a href="http://mandrivalinux.hu" target="_blank">kˆzˆssÈgi oldalunkra</a>.'
-))
+';
+*/
+
+$lang['OwnerSiteOwner'] = 'Mighty Gorgon';
+$lang['OwnerSite'] = 'Icy Phoenix';
+$lang['OwnerCompany'] = 'Icy Phoenix';
+$lang['OwnerDetails'] = 'Icy Phoenix';
+$lang['OwnerAdrress'] = 'Italy';
+$lang['OwnerServer'] = 'Icy Phoenix';
+
+$lang['PrivacyDisclaimer'] = 'Elfogadod, hogy a szem√©lyes adataid v√©delm√©r≈ël az oldal tulajdonosa orsz√°g√°nak t√∂rv√©nyei szerint fognak gondoskodni.<br />';
+
+$lang['ENCODING'] = 'UTF-8';
+$lang['DIRECTION'] = 'ltr';
+$lang['USER_LANG'] = 'hu-hu';
+$lang['HEADER_LANG'] = 'hu-hu';
+$lang['HEADER_LANG_XML'] = 'hu-hu';
+$lang['HEADER_LANG_JQUERY'] = 'hu-HU';
+$lang['LEFT'] = 'bal';
+$lang['RIGHT'] = 'jobb';
+$lang['DATE_FORMAT'] = 'd F y H:i'; // This should be changed to the default date format for your language, php date() format
+$lang['DATE_FORMAT_DATE'] = 'Y/m/d';
+$lang['DATE_FORMAT_TIME'] = 'H.i';
+$lang['DATE_FORMAT_MG'] = 'Y/m/d - H:i';
+$lang['DATE_FORMAT_CHAT'] = 'Y/m/d - H.i.s';
+$lang['DATE_FORMAT_VF'] = 'd M Y';
+$lang['DATE_FORMAT_DATE_JQUI_JQ'] = 'yy/mm/dd'; // Please note that only yy mm and dd are supported, all with leading zero
+$lang['DATE_FORMAT_TIME_JQUI_JQ'] = 'hh:ss';
+$lang['DATE_FORMAT_DATE_JQUI_PHP'] = 'Y/m/d'; // Please note that only Y m and d are supported, all with leading zero
+$lang['DATE_FORMAT_TIME_JQUI_PHP'] = 'H.i';
+$lang['DATE_FORMAT_DATE_MYSQL_PHP'] = 'ymd'; // You can only use one of these three formats: dmy, mdy, ymd (this is used to convert dates from MySQL and PHP and vice versa, all dates are with leading zeroes)
+$lang['DATE_FORMAT_BIRTHDAY'] = 'd F Y';
+$lang['DATE_FORMAT_CALENDAR'] = 'd F Y'; // This should be changed to the default date format for your language, php date() format
+$lang['JOINED_DATE_FORMAT'] = 'F Y'; // Date format of Joined date, php date() format
+$lang['NUMBER_FORMAT_DECIMALS'] = 0;
+$lang['NUMBER_FORMAT_DECIMALS_SEP'] = '.';
+$lang['NUMBER_FORMAT_THOUSANDS_SEP'] = ',';
+$lang['NUMBER_FORMAT_DATE_SEP'] = '/';
+$lang['NUMBER_FORMAT_TIME_SEP'] = ':';
+
+// This is optional, if you would like a _SHORT_ message output
+// along with our copyright message indicating you are the translator
+// please add it here.
+
+$lang['TRANSLATION_INFO'] = 'Magyar ford√≠t√°s ¬© <a href="http://hu.icyphoenix.com/">Icy Phoenix Magyarorsz√°g</a>';
+$lang['TRANSLATION'] = 'Magyar';
 
 ?>

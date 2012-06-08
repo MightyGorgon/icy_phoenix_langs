@@ -1,16 +1,14 @@
-Charset: UTF-8
+Hello,
 
-Szia!
+The following is an email sent to you by {FROM_USERNAME} members of "{SITENAME}".
 
-A következõ üzenetet küldte a {SITENAME}" oldalról neked {FROM_USERNAME}.
-
-Ha ez az üzenet spam, sértõ üzenet tartalmaz, vagy bármi módon bántó, kérlek továbbítsd az üzenetet a weboldal üzemeltetõjének a következõ címre:
+If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
 
 {BOARD_EMAIL}
 
-Tartalmaznia kel a teljes emailt (legfõképpen a fejlécet).
+Include this full email (particularly the headers).
 
-A következõ üzenetet küldték neked:
+Message sent to you follows:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

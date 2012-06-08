@@ -1,5 +1,5 @@
 Subject: New Topic Notification for forum "{FORUM_NAME}" - {TOPIC_TITLE}
-Charset: iso-8859-1
+
 <br /><font face="Verdana" size="2">
 Hello <b>{USERNAME}</b>!<br /><br />
 
@@ -18,5 +18,5 @@ If you no longer wish to watch this forum you can either click the "Stop watchin
 <br /><br />
 <a href="{U_STOP_WATCHING_FORUM}" target="_blank">{U_STOP_WATCHING_FORUM}</a>
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

@@ -1,21 +1,18 @@
-Subject: Üdvözülünk a "{SITENAME}" fórumon
-Charset: UTF-8
+Subject: Welcome to {SITENAME} Forums
 
 {WELCOME_MSG}
 
-Õrizd meg ezt az emailt, mert elképzelhetõ, hogy a késõbbiekben szükséged lesz rá. A fórumon létrehozott azonosító információi:
+Please keep this email for your records. Your account information is as follows:
 
 ----------------------------
-Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
-
-Fórum URL: {U_BOARD}
+Username: {USERNAME}
+Password: {PASSWORD}
 ----------------------------
 
-A felhasználói azonosítód jelenleg inaktív, használatba vétele elõtt a fórum adminisztrátorának aktiválnia kell. Amint megtörtént, egy másik értesítõt fogsz errõl kapni emailben.
+Your account is currently inactive, the administrator of the board will need to activate it before you can log in. You will receive another email when this has occured.
 
-A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat elõtt, mint most.
+Please do not forget your password as it has been encrypted in our database and we cannot retrieve it for you. However, should you forget your password you can request a new one which will be activated in the same way as this account.
 
-Köszönjük, hogy regisztráltál!
+Thank you for registering.
 
 {EMAIL_SIG}

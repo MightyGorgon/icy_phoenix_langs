@@ -1,14 +1,13 @@
-Subject: A {SITENAME} oldalon törölve lett a hozzáférésed
-Charset: UTF-8
+Subject: Your account on {SITENAME}
 
-Kedves {USERNAME}!
+Dear {USERNAME},
 
-Ez egy automatikus üzenet, ami arról értesít, hogy a {SITENAME} weboldalon a hozzáférésed inaktivitás miatt eltávolításra került.
+This is an automated message to tell you that your account on {SITENAME} has been removed due to inactivity.
 
-Ha te mégis szeretnél aktívan részt venni az oldalon, az alábbi linkre kattintva újra regisztrálhatsz:
+If you wish to become an active part of our online community again, please re-register using this link:
 
  {U_REGISTER}
 
-A késõbbiekben semmilyen emailt nem fogsz tõlünk kapni ezzel a hozzáféréssel kapcsolatban.
+You will receive no further emails concerning this account.
 
 {EMAIL_SIG}

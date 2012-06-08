@@ -1,5 +1,5 @@
-Subject: Welcome to {SITENAME} Forums
-Charset: iso-8859-1
+Subject: Welcome to {SITENAME}
+
 <br /><font face="Verdana" size="2">
 Welcome to <b>{SITENAME}</b>
 <br /><br />
@@ -20,5 +20,5 @@ However, should you forget your password you can request a new one which will be
 <br /><br />
 Thank you for registering.
 <br /><br />
-<span style="color:#a4a4a4; font-size:11">
-{EMAIL_SIG}</span></font>
+<span style="color: #a4a4a4; font-size: 11;">{EMAIL_SIG}</span>
+</font>

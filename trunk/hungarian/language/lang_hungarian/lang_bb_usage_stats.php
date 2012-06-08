@@ -2,7 +2,7 @@
 /**
 *
 * @package Icy Phoenix
-* @version $Id: lang_bb_usage_stats.php 97 2009-05-01 17:18:07Z Mighty Gorgon $
+* @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -26,86 +26,86 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, array (
-  'BBUS_Mod_Title' => 'Oldalhasználati statisztika',
-  'BBUS_Misc' => 'Egyebek',
-  
-  'BBUS_ColHeader_PostRate' => 'Hozzászólás aránya',
-  'BBUS_ColHeader_PctUTP' => '%UTP',
-  'BBUS_ColHeader_PctUTUP' => '%UTUP',
-  'BBUS_ColHeader_NewTopics' => 'Új témák',
-  'BBUS_ColHeader_TopicRate' => 'Topic Rate',
-  'BBUS_ColHeader_Topics_Watched' => 'Figyelt',
-  'BBUS_ColHeader_Header' => 'Fejléc',
-  'BBUS_ColHeader_Description' => 'Meghatározás',
-  
-  'BBUS_ColHeader_Posts_Explain' => 'Összes hozzászólás száma.',
-  'BBUS_ColHeader_PostRate_Explain' => 'Legtöbb hozzászólás per nap.',
-  'BBUS_ColHeader_PctUTP_Explain' => 'A felhasználóra jutó hozzászólások százalékban.',
-  'BBUS_ColHeader_PctUTUP_Explain' => 'A nem kitisztított hozzászólások száma százalékosan.',
-  'BBUS_ColHeader_NewTopics_Explain' => 'Összes, a felhasználó által indított, téma.',
-  'BBUS_ColHeader_TopicRate_Explain' => 'A legtöbb egy napon indított téma.',
-  'BBUS_ColHeader_Topics_Watched_Explain' => 'A figyelt témák száma.',
-  
-  'BBUS_Col_Descriptions_Caption' => 'Oszlop meghatározásai',
-  
-  'BBUS_Msg_NoPosts' => 'A felhasználó nem szólt hozzá egy témához sem.',
-  'BBUS_Unpruned_Posts' => 'Összes kitisztított hozzászólás',
-  'BBUS_Scale_By' => 'Lépték:',
+$lang = array_merge($lang, array(
+	'BBUS_Mod_Title' => 'Board Usage Statistics',
+	'BBUS_Misc' => 'Miscellaneous',
+
+	'BBUS_ColHeader_PostRate' => 'Post Rate',
+	'BBUS_ColHeader_PctUTP' => '%UTP',
+	'BBUS_ColHeader_PctUTUP' => '%UTUP',
+	'BBUS_ColHeader_NewTopics' => 'New Topics',
+	'BBUS_ColHeader_TopicRate' => 'Topic Rate',
+	'BBUS_ColHeader_Topics_Watched' => 'Watched',
+	'BBUS_ColHeader_Header' => 'Header',
+	'BBUS_ColHeader_Description' => 'Description',
+
+	'BBUS_ColHeader_Posts_Explain' => 'Total number of posts.',
+	'BBUS_ColHeader_PostRate_Explain' => 'Average number of posts per day.',
+	'BBUS_ColHeader_PctUTP_Explain' => 'Percentage of user\'s total posts.',
+	'BBUS_ColHeader_PctUTUP_Explain' => 'Percentage of user\'s total un-pruned posts.',
+	'BBUS_ColHeader_NewTopics_Explain' => 'Total number of new topics initiated by user.',
+	'BBUS_ColHeader_TopicRate_Explain' => 'Average number of new topics initiated per day.',
+	'BBUS_ColHeader_Topics_Watched_Explain' => 'Total number of topics watched.',
+
+	'BBUS_Col_Descriptions_Caption' => 'Column Descriptions',
+
+	'BBUS_Msg_NoPosts' => 'User has not posted to any forums.',
+	'BBUS_Unpruned_Posts' => 'Total posts pruned',
+	'BBUS_Scale_By' => 'Scale By:',
 
 // Admin Configuration page
-  'BBUS_Settings_Caption' => 'Oldalhasználati statisztika beállításai',
-  'BBUS_Settings_Explain' => 'Ez a beállítás lehetõvé teszi, hogy a felhasználói profilban meg lehessen nézni, és be lehessen állítani az oldalhasználati statisztikákat.',
-  
-  'BBUS_Setting_ViewLevel_Caption' => 'Láthatóság szintje',
-  'BBUS_Setting_ViewLevel_Note' => '<i>Megjegyzés</i>: Csak olvasható szövegdoboz.<br/>Használd a változtatásához a jelölõket.',
-  
-  'BBUS_Setting_ViewLevel_Explain1' => 'A láthatósági szint beállítása egy több tényezõtõl függõ szám, ami megmutatja, hogy egy felhasználó láthatja-e az oldalfelhasználási statiosztikákat, vagy sem a felhasználói profilokban. <b>Használd a kis jelölõket attól függõen, hogy az adott felhasználók számára engedélyezve vagy tiltva legyen a megtekintés.</b><br/><br/>A láthatóság szintjéhez az alábbi beállítások vannak:<br/>',
-  
-  'BBUS_Setting_ViewLevel_Explain2' => '<br/>Az általános beállítás a legtöbb fórumon 24 (16 + 8) szokott lenni, azaz az adminisztrátorok és a moderátorok megtekinthetik a felhasználói statisztikákat. Minden más felhasználó csak az alap felhasználói profil oldalt fogja látni.<br/><br/>Ajánlott, hogy élj ezekkel a megszorításokkal, ugyanis egy nagyobb fórumhoz a statisztika elkészítése nagy erõforrásokat igényel, és ez nem akkor tûnik fel, amikor csak egy-egy felhasználó kéri le ezeket, hanem akkor, amikor több felhasználó egyidejûleg szeretne több statisztikát is megtekinteni.',
-  
-  'BBUS_Setting_ViewOptions_Caption' => 'Látható opciók',
-  'BBUS_Setting_ViewOptions_Note' => '<i>Megjegyzés</i>: Csak olvasható szövegdoboz.<br/>Használd a változtatásához a jelölõket.',
-  'BBUS_Setting_ViewOptions_Explain1' => 'Hasonlóan a láthatóság szintjéhez, itt is be kell jelölni az engedélyezett statisztikai opciókat. <b>Használd a jelölõnégyzeteket a tulajdonság engedélyezéséhez vagy tiltásához.</b><br/><br/>Az alábbi opciók érhetõek el::<br/>',
-  'BBUS_Setting_ViewOptions_Explain2' => '',
-  
-  'BBUS_Settings_Default_Post_Rate_Scaling_Caption' => 'Alapértelmezett hozzászólás arányának növelése tényezõ',
-  'BBUS_Settings_Default_Post_Rate_Scaling_Explain' => 'Az a tényezõ, ami alkalmazásra kerül a hozzászólás arányáról készült statisztika oszlopának léptékeként',
-  
-  'BBUS_Settings_Default_Topic_Rate_Scaling_Caption' => 'Alapértelmezett témaértékelési skálabeosztás',
-  'BBUS_Settings_Default_Topic_Rate_Scaling_Explain' => 'Ez az érték a Témaértékelés statisztika oszlopának a beosztása lesz.',
-  
-  'BBUS_ViewLevel_Anonymous_Caption' => 'Anonymus',
-  'BBUS_ViewLevel_Self_Caption' => 'Önmaga',
-  'BBUS_ViewLevel_Users_Caption' => 'Felhasználók',
-  'BBUS_ViewLevel_Moderators_Caption' => 'Moderátorok',
-  'BBUS_ViewLevel_Admins_Caption' => 'Adminisztrátorok',
-  'BBUS_ViewLevel_SpecialGrp_Caption' => 'Speciális csoport',
-  
-  'BBUS_ViewLevel_Anonymous_Explain' => 'Anonymus felhasználóknak engedélyezve van a statisztikák megtekintése.',
-  'BBUS_ViewLevel_Self_Explain' => 'A felhasználóknak engedélyezve van a saját statisztikáinak megtekintése.',
-  'BBUS_ViewLevel_Users_Explain' => 'Minden felhasználóknak engedélyezve van a statisztikák megtekintése.',
-  'BBUS_ViewLevel_Moderators_Explain' => 'A moderátoroknak engedélyezve van a statisztikák megtekintése.',
-  'BBUS_ViewLevel_Admins_Explain' => 'Az adminisztrátoroknak engedélyezve van a statisztikák megtekintése. (Ajánlott)',
-  'BBUS_ViewLevel_SpecialGrp_Explain' => 'Egy speciális csoportnak engedélyezve van a statisztikák megtekintése.',
-  
-  'BBUS_ViewOption_Show_All_Forums_Caption' => 'Minden fórum megtekintése, amihez a felhasználó nem szólt hozzá.',
-  'BBUS_ViewOption_PCTUTUP_Column_Visible_Caption' => '%UTUP oszlop megjetenítése a statisztikai táblázatban',
-  'BBUS_ViewOption_Misc_Section_Visible_Caption' => 'Egyéb információk rész megjelenítése',
-  'BBUS_ViewOption_Misc_TotPrunedPosts_Visible_Caption' => '"Összes kitisztítatlan hozzászólás" megjelenítése az egyéb részben',
-  'BBUS_ViewOption_Viewer_Scalable_PR_Caption' => 'Viewer Scalable Post Rate',
-  'BBUS_ViewOption_Viewer_Scalable_TR_Caption' => 'Viewer Scalable Topic Rate',
-  
-  'BBUS_ViewOption_Show_All_Forums_Explain' => '',
-  'BBUS_ViewOption_PCTUTUP_Column_Visible_Explain' => '',
-  'BBUS_ViewOption_Misc_Section_Visible_Explain' => '',
-  'BBUS_ViewOption_Misc_TotPrunedPosts_Visible_Explain' => '',
-  'BBUS_ViewOption_Viewer_Scalable_PR_Explain' => '',
-  'BBUS_ViewOption_Viewer_Scalable_TR_Explain' => '',
-  
-  'BBUS_Setting_SpecialGrp_Caption' => 'Hozzáférés speciális csoportja',
-  'BBUS_Setting_SpecialGrp_Explain' => 'Azon speciális csoport meghatározása, amelynek joga van az oldalhasználati statisztikákat megnézni. <i>Megjegyzés</i>: Ez a beállítás csak akkor van figyelembe véve, ha a \'Speciális csoport\' meg van jelölve, mint engedély a láthatósági szintnél.',
-  )
+	'BBUS_Settings_Caption' => 'Board Usage Statistics Settings',
+	'BBUS_Settings_Explain' => 'These settings allow you to configure which board users may view the board usage statistics on a user\'s Profile page and to configure various options related to the data presented on that page.',
+
+	'BBUS_Setting_ViewLevel_Caption' => 'View Level',
+	'BBUS_Setting_ViewLevel_Note' => '<i>Note</i>: Textbox is read-only.<br />Use the checkboxes to modify this value.',
+
+	'BBUS_Setting_ViewLevel_Explain1' => 'The view level setting is a composite sum of one or more flags that collectively determine whether a given user will see the board usage statistics on the User Profile page.  <b>Use the check boxes below to enable or disable the viewing of usage stats by particular classes of users.</b><br /><br />The View Level access flags are defined as follows:<br />',
+
+	'BBUS_Setting_ViewLevel_Explain2' => '<br />The most common setting for many boards will be 24 (16 + 8), which allows administrators and moderators to monitor board usage statistics, while all other users will be presented with only the basic User Profile page.<br /><br /> It is recommended that you restrict the viewing of statistics, particularly for large boards, to avoid performance degradation issues arising from the stats being generated for many users at the same time.',
+
+	'BBUS_Setting_ViewOptions_Caption' => 'View Options',
+	'BBUS_Setting_ViewOptions_Note' => '<i>Note</i>: Textbox is read-only.<br />Use the checkboxes to modify this value.',
+	'BBUS_Setting_ViewOptions_Explain1' => 'Like View Level, the View Options setting is a sum of flags that enable and disable various features of the Board Usage Statistics Mod. <b>Use the check boxes below to enable or disable these features.</b><br /><br />The View Option flags are defined as follows:<br />',
+	'BBUS_Setting_ViewOptions_Explain2' => '',
+
+	'BBUS_Settings_Default_Post_Rate_Scaling_Caption' => 'Default Post Rate Scaling Factor',
+	'BBUS_Settings_Default_Post_Rate_Scaling_Explain' => 'Sets the default scaling factor applied to values in the Post Rate stats column.',
+
+	'BBUS_Settings_Default_Topic_Rate_Scaling_Caption' => 'Default Topic Rate Scaling Factor',
+	'BBUS_Settings_Default_Topic_Rate_Scaling_Explain' => 'Sets the default scaling factor applied to values in the Topic Rate stats column.',
+
+	'BBUS_ViewLevel_Anonymous_Caption' => 'Anonymous',
+	'BBUS_ViewLevel_Self_Caption' => 'Self',
+	'BBUS_ViewLevel_Users_Caption' => 'Users',
+	'BBUS_ViewLevel_Moderators_Caption' => 'Moderators',
+	'BBUS_ViewLevel_Admins_Caption' => 'Admins',
+	'BBUS_ViewLevel_SpecialGrp_Caption' => 'Special Group',
+
+	'BBUS_ViewLevel_Anonymous_Explain' => 'Allow anonymous users to view stats.',
+	'BBUS_ViewLevel_Self_Explain' => 'Allow each user to view his/her own stats.',
+	'BBUS_ViewLevel_Users_Explain' => 'Allow any users to view other users\' stats.',
+	'BBUS_ViewLevel_Moderators_Explain' => 'Allow moderators to view stats.',
+	'BBUS_ViewLevel_Admins_Explain' => 'Allow administrators to view stats. (Recommended)',
+	'BBUS_ViewLevel_SpecialGrp_Explain' => 'Allow a designated special user group to view stats.',
+
+	'BBUS_ViewOption_Show_All_Forums_Caption' => 'Show All Forums, regardless of user\'s post count.',
+	'BBUS_ViewOption_PCTUTUP_Column_Visible_Caption' => 'Display %UTUP Column in Stats Table',
+	'BBUS_ViewOption_Misc_Section_Visible_Caption' => 'Display Miscellaneous Info Section',
+	'BBUS_ViewOption_Misc_TotPrunedPosts_Visible_Caption' => 'Display "Total Un-pruned Posts" in Misc Section',
+	'BBUS_ViewOption_Viewer_Scalable_PR_Caption' => 'Viewer Scalable Post Rate',
+	'BBUS_ViewOption_Viewer_Scalable_TR_Caption' => 'Viewer Scalable Topic Rate',
+
+	'BBUS_ViewOption_Show_All_Forums_Explain' => '',
+	'BBUS_ViewOption_PCTUTUP_Column_Visible_Explain' => '',
+	'BBUS_ViewOption_Misc_Section_Visible_Explain' => '',
+	'BBUS_ViewOption_Misc_TotPrunedPosts_Visible_Explain' => '',
+	'BBUS_ViewOption_Viewer_Scalable_PR_Explain' => '',
+	'BBUS_ViewOption_Viewer_Scalable_TR_Explain' => '',
+
+	'BBUS_Setting_SpecialGrp_Caption' => 'Special Access Group',
+	'BBUS_Setting_SpecialGrp_Explain' => 'Designates the special group that will be allowed to view board usage statistics. <i>Note</i>: This setting will only have an effect if the \'Special Group\' flag is enabled in the View Level above.',
+	)
 );
 
 ?>
