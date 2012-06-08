@@ -1306,9 +1306,9 @@ $lang = array_merge($lang, array(
 	'add_field_view_disclaimer' => 'Tutte queste impostazioni verranno considerate come "NO" se gli utenti non sono abilitati alla visualizzazione di questo campo.',
 
 	'add_field_name' => 'Nome Campo',
-	'add_field_name_explain' => 'Inserisci il nome che vuoi associare a questo campo',
+	'add_field_name_explain' => 'Inserisci il nome che vuoi associare a questo campo. Puoi personalizzare il testo visualizzato per le diverse lingue modificando il file <b>language/lang_XXX/lang_profile_fields.php</b>.',
 	'add_field_description' => 'Descrizione Campo',
-	'add_field_description_explain' => 'Inserisci una descrizione che vuoi associare a questo campo. La descrizione verr&agrave; visualizzata in piccolo sotto il nome del campo.',
+	'add_field_description_explain' => 'Inserisci una descrizione che vuoi associare a questo campo. La descrizione verr&agrave; visualizzata in piccolo sotto il nome del campo. Puoi personalizzare il testo visualizzato per le diverse lingue modificando il file <b>language/lang_XXX/lang_profile_fields.php</b>.',
 	'add_field_type' => 'Tipo Campo',
 	'add_field_type_explain' => 'Seleziona il tipo di campo che vuoi aggiungere. Sulla destra trovi alcuni esempi per ciascun tipo di campo.',
 	'edit_field_type_explain' => 'Seleziona la nuova tipologia che vuoi assegnare a questo campo. Sulla destra trovi alcuni esempi per ciascun tipo di campo..',

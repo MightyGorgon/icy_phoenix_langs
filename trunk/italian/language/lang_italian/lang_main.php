@@ -1803,7 +1803,7 @@ $lang = array_merge($lang, array(
 	'LINK_DOWNLOADS' => 'Downloads',
 	'LINK_BOOKMARKS' => 'Bookmarks',
 	'LINK_DRAFTS' => 'Bozze',
-	'LINK_UPLOADED_IMAGES' => 'Immagini Caricate',
+	'LINK_UPLOADED_IMAGES' => 'Immagini Personali',
 	'LINK_AJAX_SHOUTBOX' => 'Chat',
 	'LINK_LINKS' => 'Links',
 	'LINK_CONTACT_US' => 'Contattaci',
@@ -2057,7 +2057,7 @@ $lang = array_merge($lang, array(
 
 	'Uploading' => 'Caricamento in corso...',
 	'Upload_Image_Local' => 'Carica Immagine',
-	'Uploaded_Images_Local' => 'Immagini Caricate',
+	'Uploaded_Images_Local' => 'Immagini Personali',
 	'Upload_Image_Local_Explain' => 'Seleziona il file da caricare',
 	'Uploaded_Image_Success' => 'L\'immagine &egrave; stata caricata corretamente.',
 	'Uploaded_Image_BBC' => 'Per allegare questa immagine nei post, puoi usare questo BBCode.',

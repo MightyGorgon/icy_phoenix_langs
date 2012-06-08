@@ -20,30 +20,31 @@ if (empty($lang) || !is_array($lang))
 
 /***************************************************************************
  *
- *   Use this field to rename your custom profile fields.
- *   You should use the following syntax:
- *   $lang['ID_Field_Name'] = 'Your Field Name';
- *   $lang['ID_Description'] = 'Your Field Description';
+ *   Usa questo file per impostare i nomi dei campi personalizzati nel profilo.
+ *   Questa è la sintassi da usare:
+ *   $lang['UCP_PF_ID_Field_Name'] = 'Nome del campo';
+ *   $lang['UCP_PF_ID_Field_Name_Description'] = 'Descrizione del campo';
  *
- *   Example: you have a field with ID=1 which is named Phone
- *   $lang['1_Phone'] = 'Phone';
- *   $lang['1_Description'] = 'Phone Number';
+ *   Esempio: avendo un campo con ID=1 che si chiama Phone
+ *   $lang['UCP_PF_1_Phone'] = 'Telefono';
+ *   $lang['UCP_PF_1_Phone_Description'] = 'Numero di telefono';
  *
  ***************************************************************************/
+
 /*
-$lang['_'] = '';
-$lang['_Description'] = '';
+$lang['UCP_PF__'] = '';
+$lang['UCP_PF___Description'] = '';
 */
 
 //An Italian Example for Profile Fields
 /*
-$lang['1_Phone'] = 'Telefono';
-$lang['1_Description'] = 'Numero Di Telefono';
-$lang['2_Team'] = 'Squadra';
-$lang['2_Description'] = 'Squadra Italiana';
-$lang['2_Juve'] = 'Juventus';
-$lang['2_Milan'] = 'Milan';
-$lang['2_Altro'] = 'Altro';
+$lang['UCP_PF_1_Phone'] = 'Telefono';
+$lang['UCP_PF_1_Phone_Description'] = 'Numero Di Telefono';
+$lang['UCP_PF_2_Team'] = 'Squadra';
+$lang['UCP_PF_2_Team_Description'] = 'Squadra Italiana';
+$lang['UCP_PF_2_Team_Juve'] = 'Juventus';
+$lang['UCP_PF_2_Team_Milan'] = 'Milan';
+$lang['UCP_PF_2_Team_Altro'] = 'Altro';
 */
 
 ?>
