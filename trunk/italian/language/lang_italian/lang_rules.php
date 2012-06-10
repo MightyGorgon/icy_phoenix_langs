@@ -40,7 +40,7 @@ if (!defined('IN_ICYPHOENIX'))
 
 $faq[] = array('--','Regole Di Base');
 $faq[] = array('Netiquette', 'Queste regole della Netiquette sono soggette a modifica senza alcun preavviso e potrebbe non essere comunicata la variazione. Di conseguenza &egrave; dovere dell\'utente la consultazione di questa sezione per non incorrere nei provvedimenti disciplinari del caso.<br /><br />
-<ul style="list-style-type: square;">
+<ol>
 <li>Rispetta lo staff!<br /></li>
 <li>Rispetta tutti gli iscritti!<br /></li>
 <li>In questo forum non &egrave; tollerato lo spam. Si intende come spam: pubblicit&agrave; non richiesta, messaggi ripetuti, argomenti senza senso, pornografia, messaggi inseriti per aumentare il conteggio.<br /></li>
@@ -55,7 +55,7 @@ $faq[] = array('Netiquette', 'Queste regole della Netiquette sono soggette a mod
 <li>NON &egrave; ammesso il cross posting: una domanda deve andare solo su un forum, se questo non &egrave; il posto corretto, il post verr&agrave; spostato nel topic adeguato.<br /></li>
 <li>Link a siti esterni: puoi inserire un link a siti esterni quando questi sono pertinenti con il contenuto del messaggio. E\' proibito inserire messaggi ad hoc solo a scopo pubblicitario. I messaggi di questo tipo potranno essere rimossi a totale discrezione dello Staff. Se hai dei dubbi sull\'inserimento di un messaggio, sentiti libero di contattare qualche membro dello Staff per chiedere supporto.<br /></li>
 <li>L\'inserimento di materiale vietato ai minori NON &egrave; tollerato <b>COMPRESO</b> l\'inserimento in avatar e firme.</li>
-</ul><br /><br />
+</ol><br /><br />
 Il sistema di disciplina &egrave; semplice: nel sito vige il sistema dei cartellini, una volta raggiunti 3 avvisi l\'utente verr&agrave; allontanato dal sito. Ovviamente le ammonizioni sono in funzione della gravit&agrave; della violazione e sono a insindacabile giudizio dei moderatori e degli amministratori di sistema.<br /><br />
 <b>L\'amministratore si riserva il diritto di allontanare un utente senza discussione e senza avviso.</b><br /><br />
 L\'iscrizione a questo sito comporta l\'accettazione di queste regole.<br />');
@@ -170,8 +170,6 @@ Questo forum memorizza su dei file di log i dati di accesso quali IP, referenti 
 Links esterni a questo sito non applicano necessariamente la stessa norma sulla privacy . Non siamo responsabili di violazioni di privacy da parte di siti raggiunti tramite link qui visualizzati.<br /><br />
 <b>Newsletter</b><br />
 Gli amministratori di questo sito possono inviare di tanto in tanto delle email informative riguardo iniziative particolari o contenuti periodici. Nel caso non vogliate ricevere queste informazioni, potete disabilitare la ricezione di email direttamente nel vostro profilo.<br /><br clear="all" /><br /></li>
-<li><b>Ringraziamenti</b><br />
-Si ringrazia <a href=\'http://www.apostrofo.com\' target=\'_blank\'>Apostrofo.com</a> per il notevole aiuto nella stesura di questo regolamento.<br clear="all" /><br /></li>
 </ul>');
 
 ?>
