@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'Invert_Nav_Arrows' => 'Die Pfeilrichtung in der Showpage umkehren (rechter Pfeil = neuer)',
 	'Show_Inline_Copyright' => 'Zeige Copyright-Info in einer Zeile',
 	'Enable_Nuffimage' => 'Aktiviere die Nuffmonn-Bild-Spezialeffektseite',
-	'Enable_Sepia_BW' => 'Aktiviere Sepia und B&W auf der Spezialeffektseite (deaktiviere diese Funktion, um die CPU-Belastung zu verringern)',
+	'Enable_Sepia_BW' => 'Aktiviere Sepia und B&amp;W auf der Spezialeffektseite (deaktiviere diese Funktion, um die CPU-Belastung zu verringern)',
 	'Show_EXIF_Info' => 'EXIF Information des Bildes anzeigen',
 	'Set_Memory' => 'Versucht ein neues Limit durch php zu setzen (MB)',
 	'Set_Memory_Explain' => 'Dieses Feature kann verwendet werden um die Speicherbegrenzung in PHP zu erhöhen (Diese Einstellung muss durch Deinen Anbieter erlaubt werden): falls deine Bilder nicht richtig geladen werden, kannst du versuchen den Speicher zu erhöhen. Der Maximalwert wird hier bei 16 MB festgelegt.',

@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 
 	'VERSIONS' => 'Version der Modifikation: <strong>%1$s</strong><br />Derzeit installiert: <strong>%2$s</strong>',
 	'VERSION_SELECT' => 'Versionsauswahl',
-	'VERSION_SELECT_EXPLAIN' => 'Wähle keine andere Option als „Ignorieren“ aus, sofern du nicht weißt, was du damit machst oder du explizit dazu aufgefordert wurdest.',
+	'VERSION_SELECT_EXPLAIN' => 'Wähle keine andere Option als "Ignorieren" aus, sofern du nicht weißt, was du damit machst oder du explizit dazu aufgefordert wurdest.',
 	)
 );
 

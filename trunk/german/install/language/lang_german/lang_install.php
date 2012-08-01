@@ -223,7 +223,9 @@ $lang = array_merge($lang, array(
 	'FixingForumsComplete' => 'Arbeit vollständig!',
 
 	'FixPosts' => 'Beiträge reparieren',
-	'FixPostsExplain' => 'Mit dieser Funktion kannst du alle Beiträge in deinem Forum reparieren. Du kannst es benutzen um: finde und ersetze jeden Text in deinen Beiträgen, entferne BBCode UID, den Pfad geposteter Bilder automatisch anzupassen.',
+	'FixPosts_Explain' => 'Mit dieser Funktion kannst du alle Beiträge in deinem Forum reparieren. Du kannst es benutzen um: finde und ersetze jeden Text in deinen Beiträgen, entferne BBCode UID, den Pfad geposteter Bilder automatisch anzupassen.',
+	'FixPosts_IP2' => 'Repariere Beiträge (Upgrading von Icy Phoenix 1.3)',
+	'FixPosts_IP2_Explain' => 'Diese Fuktion erlaubt dir, den Pfad der hochgeladenen Bilder anzupassen, da es in Icy Phoenix 2.0 anders ist, als in den vorherigen Versionen. Du kannst diese Funktion auch zum Suchen und Ersetzen von Text in Beiträgen zu nutzen (wenn du das Suchfeld leer läßt, wird nichts ersetzt, sondern nur Bilder Pfade angepaßt).',
 	'FixingPostsInProgress' => 'Reparatur der Beiträge in Bearbeitung',
 	'FixingPostsInProgressRedirect' => 'Du wirst automatisch in 3 Sekunden zum nächsten Schritt weitergeleitet',
 	'FixingPostsInProgressRedirectClick' => 'Wenn du nicht automatisch in 3 Sekunden weitergeleitet wirst, kannst du %shier%s klicken',
@@ -240,7 +242,9 @@ $lang = array_merge($lang, array(
 	'FixPostedImagesPaths' => 'Reparieren aller verlinkten Bild-Pfade (Pfade werden Benutzerbezogen angepaßt)',
 
 	'FixSignatures' => 'Signaturen reparieren',
-	'FixSignaturesExplain' => 'Diese Funktion erlaubt dir alle Signaturen der Benutzer zu reparieren. Du kannst diese Funktion benutzen um: Text in Signaturen zu finden und zu ersetzen, alle BBCode UID zu entfernen, die Bild-Pfad Adresse automatisch anzupassen.',
+	'FixSignatures_Explain' => 'Diese Funktion erlaubt dir alle Signaturen der Benutzer zu reparieren. Du kannst diese Funktion benutzen um: Text in Signaturen zu finden und zu ersetzen, alle BBCode UID zu entfernen, die Bild-Pfad Adresse automatisch anzupassen.',
+	'FixSignatures_IP2' => 'Repariere Signaturen (Upgrading von Icy Phoenix 1.3)',
+	'FixSignatures_IP2_Explain' => 'Diese Fuktion erlaubt dir, den Pfad der hochgeladenen Bilder anzupassen, da es in Icy Phoenix 2.0 anders ist, als in den vorherigen Versionen. Du kannst diese Funktion auch zum Suchen und Ersetzen von Text in Signaturen zu nutzen (wenn du das Suchfeld leer läßt, wird nichts ersetzt, sondern nur Bilder Pfade angepaßt).',
 	'FixingSignaturesInProgress' => 'Reparatur der Signaturen in Bearbeitung',
 	'FixingSignaturesFrom' => 'Bei diesem Schritt werden die Signaturen von %s zu %s angepasst',
 	'FixingSignaturesTotal' => '%s Signaturen von %s bisher angepasst',
@@ -263,6 +267,9 @@ $lang = array_merge($lang, array(
 
 	'RenMovePics' => 'Umbenennen und Verschieben geposteter Bilder',
 	'RenMovePicsExplain' => 'Diese Funktion benennt die Bilder um, die in Beiträgen hochgeladen wurden und verschiebt sie vom Hauptordner in den Benutzer Unterordner: du musst danach die Beitrags-Tabelle aktualisieren, indem du die <i>Beiträge reparieren</i> Funktion ausführst, um den jeweiligen Pfad in den Beiträgen anzupassen',
+
+	'AddPostedPicsDB' => 'Fügt hochgeladene Bilder zur DB hinzu (Upgrading von Icy Phoenix 1.3 oder höher)',
+	'AddPostedPicsDBExplain' => 'Diese Funktion wird alle hochgeladenen Bilder zur DB importieren.',
 
 	'COLLIDING_CLEAN_USERNAME' => '<strong>%s</strong> ist der clean Benutzername für:',
 	'COLLIDING_USERNAMES_FOUND' => 'Es wurden doppelte Benutzernamen im alten Forum gefunden. Um die Konvertierung fortzusetzen lösche oder benenne diese Bentzer so um, dass es nur eindeutige clean Benutzernamen gibt.',

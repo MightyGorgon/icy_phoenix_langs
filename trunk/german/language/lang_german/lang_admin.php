@@ -838,7 +838,7 @@ $lang = array_merge($lang, array(
 	'Group_count_update' => 'Hinzufügen/Aktualisieren neuer Nutzer',
 	'Group_count_delete' => 'Löschen/Aktualisieren alter Nutzer',
 	'User_allow_ag' => 'Aktiviere Auto Gruppe',
-	'group_count_explain' => 'Wenn Benutzer mehr als diese Anzahl Beiträge geschrieben haben <i>(in beliebigen Foren)</i>, werden sie automatisch zu dieser Benutzergruppe hinzugefügt<br /> Das trifft nur zu, wenn "' . $lang['Group_count_enable'] . '" aktiviert ist.',
+	'group_count_explain' => 'Wenn Benutzer mehr als diese Anzahl Beiträge geschrieben haben <i>(in beliebigen Foren)</i>, werden sie automatisch zu dieser Benutzergruppe hinzugefügt.<br />Das trifft nur zu, wenn &quot;Füge Benutzer automatisch hinzu, wenn sie schreiben&quot; aktiviert ist.',
 
 // Start add - Bin Mod
 	'Bin_forum' => 'Papierkorb-Forum',
@@ -1282,9 +1282,9 @@ $lang = array_merge($lang, array(
 	'add_field_view_disclaimer' => 'Alle diese Einstellungen werden als "Nein" behandelt, wenn Benutzern nicht erlaubt ist, dieses Feld anzusehen',
 
 	'add_field_name' => 'Feld Name',
-	'add_field_name_explain' => 'Trage den Namen ein, den Du mit diesem Feld verbinden möchtest.',
+	'add_field_name_explain' => 'Trage den Namen ein, den Du mit diesem Feld verbinden möchtest. Du kannst die Ausgabe für mehrere Sprachen anpassen, indem du die jeweilige Datei bearbeitest <b>language/lang_XXX/lang_profile_fields.php</b>.',
 	'add_field_description' => 'Feld Beschreibung',
-	'add_field_description_explain' => 'Trage eine Beschreibung ein, die du mit diesem Feld verbinden möchtest. Er wird in kleinem Text unterhalb des Feldnamens, wie dieser Text ist, angezeigt.',
+	'add_field_description_explain' => 'Trage eine Beschreibung ein, die du mit diesem Feld verbinden möchtest. Er wird in kleinem Text unterhalb des Feldnamens, wie dieser Text ist, angezeigt. Du kannst die Ausgabe für mehrere Sprachen anpassen, indem du die jeweilige Datei bearbeitest <b>language/lang_XXX/lang_profile_fields.php</b>.',
 	'add_field_type' => 'Feld Typ',
 	'add_field_type_explain' => 'Wähle den Typ des Profil Feldes das du hinzufügen möchtest. Beispiele jedes Feldtyps werden ganz rechts angezeigt.',
 	'edit_field_type_explain' => 'Wähle den Typ des Profil Feldes das du ändern möchtest. Beispiele jedes Feldtyps werden ganz rechts angezeigt.',
