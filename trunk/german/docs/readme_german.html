@@ -229,15 +229,15 @@
 						<li>Sperre dein Forum.</li>
 						<li><span class="text_red">Erstelle ein vollständiges Backup aller Dateien und der Datenbank</span> (Wenn du kein Backup hast, frage nicht nach Support! <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Regeln!" />)</li>
 						<li>Hast du ein Backup von allem? Wenn du kein Backup hast, gehe zum vorhergehenden Punkt zurück.</li>
-						<li>Kopiere deine aktuelle <b>.htaccess</b> (wenn du sie geändert hast) und die <b>config.php</b> und speichere sie an einem sicheren Ort.</li>
-						<li>Vielleicht möchtest du auch von deinen persönlichen Seiten ein Backup machen, die du mit dem CMS System erstellt hast (wenn du welche erstellt hast).</li>
-						<li>Prüfe noch einmal, dass dein Backup in Ordnung ist und speichere es an einem sicheren Ort. <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Regeln!" /></li>
+						<li>Kopiere deine aktuelle <b>.htaccess</b> (falls du sie geändert hast) und die <b>config.php</b> und speichere sie an einem sicheren Ort.</li>
+						<li>Vielleicht möchtest du auch von deinen persönlichen Seiten ein Backup machen, die du mit dem CMS System erstellt hast (falls du welche erstellt hast).</li>
+						<li>Prüfe noch einmal, ob dein Backup in Ordnung ist und speichere es an einem sicheren Ort. <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Regeln!" /></li>
 						<li>Benne den folgenden Ordner um:
 							<ul>
 								<li><b>files/posted_images</b> ==&gt; <b>files/images</b></li>
 							</ul>
 						</li>
-						<li>Löschen die folgenden Ordner (vergewissere dich, dass du keine Dateien für von dir installierte Mods benötigst. Aber für diesen Fall solltest du ein Backup haben <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Regeln!" />):
+						<li>Löschen die folgenden Ordner (vergewissere dich, dass du keine Dateien für die von dir installierten Mods benötigst. Aber für diesen Fall solltest du ja ein Backup haben <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Regeln!" />):
 							<ul>
 								<li><b>adm</b></li>
 								<li><b>includes</b></li>
@@ -245,7 +245,7 @@
 								<li><b>templates</b></li>
 							</ul>
 						</li>
-						<li>Lösche <b>alle alten Icy Phoenix Dateien</b> (nicht Ordner) außer <b>config.php</b> in deinem Icy Phoenix Root (vergewissere dich, dass du keine Dateien für deine installierten Mods benötigst. Aber für diesen Fall solltest du ein Backup haben <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Regeln!" />).</li>
+						<li>Lösche <b>alle alten Icy Phoenix Dateien</b> (nicht Ordner) außer <b>config.php</b> in deinem Icy Phoenix <b>Root</b> (vergewissere dich, dass du keine Dateien für deine installierten Mods benötigst. Aber für diesen Fall solltest du ein Backup haben <img src="../images/smiles/icon_mrgreen.gif" alt="Backup Rules!" title="Backup Regeln!" />).</li>
 						<li>Bitte achte beim Löschen besonders auf diese Dateien und Ordner:<br />
 							<ul>
 								<li><b>config.php</b></li>
@@ -259,8 +259,8 @@
 						<li>Entpacke das Icy Phoenix Paket in einen Ordner auf deiner Festplatte.</li>
 						<li>Lade alle Icy Phoenix Dateien (alle außer <b>config.php</b>) in dasselbe Verzeichnis hoch, wo dein Icy Phoenix installiert ist. Achte darauf, dass alle älteren Dateien mit den neuen ersetzt werden.</li>
 						<li>Setzte alle Berechtigungen wie bei <a class="post-url" href="#fresh_installation">Neuinstallation</a> beschrieben.</li>
-						<li>Copy <b>install/convert_utf8_nodbal.php</b> to your <u><b>website root</b></u> and launch it, this is needed to convert your old DB to UTF-8 (i.e. <i><u>http://www.mysite.com/ip/convert_utf8_nodbal.php</u></i>).</li>
-						<li>Delete <b>convert_utf8_nodbal.php</b> from your root</li>
+						<li>Kopiere die Datei <b>install/convert_utf8_nodbal.php</b> (nur die Datei, nicht den Ordner) in deinen <u><b>website root</b></u> und führe sie aus. Das ist notwendig, um deine alte Datenbank in UTF-8 zu konvertieren (z.B. <i><u>http://www.mysite.com/ip/convert_utf8_nodbal.php</u></i>).</li>
+						<li>Lösche die Datei <b>convert_utf8_nodbal.php</b> von deinem website root</li>
 						<li>Lade das Verzeichnis <b>install</b> in das Root-Verzeichnis deines Webservers hoch und rufe <b>database_update.php</b> im Browser auf (z.B. http://www.meineseite.de/forum/install/database_update.php).</li>
 						<li>Rufe <b>install/install.php</b> in deinem Browser auf und vervollständige das Update indem du Bilder umbenennst und verschiebst (im Album hochgeladene) und ersetze alle alten Links in den Beiträgen: das automatisierte Verfahren sollte diese Tätigkeiten automatisch durchführen, befolge einfach die Anweisungen.</li>
 						<li>Lösche das Verzeichnis <b>install</b> wieder.</li>

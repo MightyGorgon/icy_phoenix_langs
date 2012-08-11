@@ -1722,7 +1722,7 @@ $lang = array_merge($lang, array(
 	'LINK_CALENDAR' => 'Kalender',
 	'LINK_DOWNLOADS' => 'Downloads',
 	'LINK_BOOKMARKS' => 'Bookmarks',
-	'LINK_DRAFTS' => 'Drafts',
+	'LINK_DRAFTS' => 'Entwürfe',
 	'LINK_UPLOADED_IMAGES' => 'Persönliche Bilder',
 	'LINK_AJAX_SHOUTBOX' => 'Chat',
 	'LINK_LINKS' => 'Links',
@@ -1746,7 +1746,7 @@ $lang = array_merge($lang, array(
 	'LINK_MEMBERLIST' => 'Mitgliederliste',
 	'LINK_USERGROUPS' => 'Benutzergruppen',
 	'LINK_RANKS' => 'Ränge',
-	'LINK_STAFF' => 'Staff',
+	'LINK_STAFF' => 'Team',
 // Mighty Gorgon - Nav Links - END
 
 	'Activity' => 'Spiele',
