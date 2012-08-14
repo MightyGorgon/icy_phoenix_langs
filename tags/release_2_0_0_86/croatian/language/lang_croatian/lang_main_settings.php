@@ -1,0 +1,98 @@
+<?php
+/**
+*
+* @package Icy Phoenix
+* @version $Id$
+* @copyright (c) 2008 Icy Phoenix
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*
+*/
+
+/**
+*
+* @Extra credits for this file
+* Lopalong
+*
+*/
+
+if (!defined('IN_ICYPHOENIX'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+$lang['Index'] = 'Icy Phoenix';
+$lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, phoenix, php, portal, cms, premodded, community, open source, mods, templates';
+$lang['Default_META_Description'] = 'Icy Phoenix is an highly customizable CMS based on phpBB which allows you to create a dynamic site with a lot of features for powering web communities.';
+$lang['Default_META_Title'] = 'Icy Phoenix';
+$lang['Default_META_Author'] = 'Mighty Gorgon And Icy Phoenix Staff :: http://www.icyphoenix.com/';
+$lang['Default_META_Copyright'] = '(c) 2001-' . date('Y', time()) . ' Mighty Gorgon';
+$lang['Extra_Meta'] = '';
+
+$lang['REGISTER_MESSAGE'] = '';
+
+$lang['Welcome_Message'] = 'Dobrodo&#353li na <span class="topic_glo">Icy Phoenix</span><br />';
+$lang['register_pm_subject'] = 'Dobrodo&#353li na %s';
+$lang['register_pm'] = "Pozdrav!\n\nDobrodo&#353li na %s.\n\nNadamo se da &#263;ete u&#382;ivati!\n\nSlobodno nam se pridru&#382;ite i podijelite s nama ili zapo&#269;nite novu diskusiju!\n\n~Sretno!\n » [b]%s[/b] « Staff";
+
+$lang['Support_Us'] = 'Podr&#382;ite Nas';
+$lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '" title="' . $lang['Support_Us'] . '" />';
+/* Example of code you may add... replace with your own code.
+$lang['PayPal'] = '
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="image" src="images/paypal.gif" name="submit" alt="' . $lang['Support_Us'] . '" style="border-width:0px;" />
+<input type="hidden" name="encrypted" value="" />
+</form>
+';
+*/
+
+$lang['OwnerSiteOwner'] = 'Mighty Gorgon';
+$lang['OwnerSite'] = 'Icy Phoenix';
+$lang['OwnerCompany'] = 'Icy Phoenix';
+$lang['OwnerDetails'] = 'Icy Phoenix';
+$lang['OwnerAdrress'] = 'Italy';
+$lang['OwnerServer'] = 'Icy Phoenix';
+
+$lang['PrivacyDisclaimer'] = 'You specifically agree that your personal data will be treated in respect to current law in the country of the site owner.<br />';
+
+//$lang['ENCODING'] = 'iso-8859-2';
+$lang['ENCODING'] = 'UTF-8';
+//$lang['ENCODING_ALT'] = 'iso-8859-2';
+$lang['DIRECTION'] = 'ltr';
+$lang['HEADER_LANG'] = 'hr';
+$lang['HEADER_XML_LANG'] = 'hr';
+$lang['LEFT'] = 'lijevo';
+$lang['RIGHT'] = 'desno';
+$lang['DATE_FORMAT'] = 'd F y H:i'; // This should be changed to the default date format for your language, php date() format
+$lang['DATE_FORMAT_DATE'] = 'Y/m/d';
+$lang['DATE_FORMAT_TIME'] = 'H.i';
+$lang['DATE_FORMAT_MG'] = 'Y/m/d - H:i';
+$lang['DATE_FORMAT_CHAT'] = 'Y/m/d - H.i.s';
+$lang['DATE_FORMAT_VF'] = 'd M Y';
+$lang['DATE_FORMAT_DATE_JQUI_JQ'] = 'yy/mm/dd'; // You can only use one of these three formats: dd/mm/yy, mm/dd/yy, yy/mm/dd
+$lang['DATE_FORMAT_TIME_JQUI_JQ'] = 'hh:ss';
+$lang['DATE_FORMAT_DATE_JQUI_PHP'] = 'Y/m/d'; // You can only use one of these three formats: d/m/Y, m/d/Y, Y/m/d
+$lang['DATE_FORMAT_TIME_JQUI_PHP'] = 'H.i';
+$lang['DATE_FORMAT_DATE_MYSQL_PHP'] = 'ymd'; // You can only use one of these three formats: dmy, mdy, ymd (this is used to convert dates from MySQL and PHP and vice versa, all dates are with leading zeroes)
+$lang['DATE_FORMAT_BIRTHDAY'] = 'd F Y';
+$lang['DATE_FORMAT_CALENDAR'] = 'd F Y'; // This should be changed to the default date format for your language, php date() format
+$lang['JOINED_DATE_FORMAT'] = 'F Y'; // Date format of Joined date, php date() format
+$lang['NUMBER_FORMAT_DECIMALS'] = 0;
+$lang['NUMBER_FORMAT_DECIMALS_SEP'] = '.';
+$lang['NUMBER_FORMAT_THOUSANDS_SEP'] = ',';
+$lang['NUMBER_FORMAT_DATE_SEP'] = '/';
+$lang['NUMBER_FORMAT_TIME_SEP'] = ':';
+
+// This is optional, if you would like a _SHORT_ message output
+// along with our copyright message indicating you are the translator
+// please add it here.
+
+$lang['TRANSLATION_INFO'] = '&nbsp;Prijevod na Hrvatski: <a href="http://www.icyphoenix.com/profile.php?mode=viewprofile&u=3336" target="_blank">Limun</a>';
+$lang['TRANSLATION'] = 'Hrvatski';
+
+?>
