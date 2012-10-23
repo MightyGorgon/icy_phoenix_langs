@@ -2013,7 +2013,7 @@ $lang = array_merge($lang, array(
 	'Edit_quick_post' => 'Edici&oacute;n r&aacute;pida de este mensaje',
 	'AJAX_search_results' => 'La b&uacute;squeda r&aacute;pida ha encontrado %s temas con la palabra clave en el t&iacute;tulo del tema. Pulse aqu&iacute; para ver estos temas',
 	'AJAX_search_result' => 'La b&uacute;squeda r&aacute;pida ha encontrado un tema con la palabra clave en el t&iacute;tulo del tema. Pulse aqu&iacute; para ver este tema',
-	'More_matches_username' => 'MÃ&iexcl;s de un usuario ha marcado su consulta. Por favor, seleccione el usuario del marco superior.',
+	'More_matches_username' => 'Mï¿½&iexcl;s de un usuario ha marcado su consulta. Por favor, seleccione el usuario del marco superior.',
 	'No_username' => 'Tiene que introducir un nombre de usuario.',
 	'AJAX_quick_search_results' => 'La b&uacute;squeda r&aacute;pida ha encontrado %s temas con las palabras clave.<br />En la derecha puede ver los primeros resultados.<br />Pulse en BUSCAR para obtener el listado completo de resultados.',
 	'AJAX_quick_search_result' => 'La b&uacute;squeda r&aacute;pida ha encontrado un tema con las palabras clave.<br />En la derecha puede ver el resultado de la b&uacute;squeda.',
@@ -2662,7 +2662,7 @@ $lang['datetime'] = array(
 	'July' => 'Julio',
 	'August' => 'Agosto',
 	'September' => 'Septiembre',
-	'October' => 'Octobre',
+	'October' => 'Octubre',
 	'November' => 'Noviembre',
 	'December' => 'Diciembre',
 
