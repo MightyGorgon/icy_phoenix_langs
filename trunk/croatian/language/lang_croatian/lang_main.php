@@ -112,13 +112,13 @@ $lang = array_merge($lang, array(
 	'Hours' => 'Sati',
 	'Message' => 'Poruka',
 
-	'1_Day' => '1 Dan',
-	'7_Days' => '7 Dani',
-	'2_Weeks' => '2 Sedmice',
-	'1_Month' => '1 Mjesec',
-	'3_Months' => '3 Mjeseca',
-	'6_Months' => '6 Mjeseca',
-	'1_Year' => '1 Godina',
+	'1_DAY' => '1 Dan',
+	'7_DAYS' => '7 Dani',
+	'2_WEEKS' => '2 Sedmice',
+	'1_MONTH' => '1 Mjesec',
+	'3_MONTHS' => '3 Mjeseca',
+	'6_MONTHS' => '6 Mjeseca',
+	'1_YEAR' => '1 Godina',
 
 	'Go' => 'Idi',
 	'Jump_to' => 'Idi na',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'Reached_on_error' => 'Prikazana stranica ima gre&#353;ku.',
 
 	'Display_topics' => 'Display topics from previous',
-	'All_Topics' => 'Sve teme',
+	'ALL_TOPICS' => 'Sve teme',
 
 	'Topic_News_nb' => 'Novosti',
 	'Topic_global_announcement_nb' => 'Glavna obavjest',
@@ -353,7 +353,7 @@ $lang = array_merge($lang, array(
 	'No_posts_topic' => 'Nema postova za ovu temu',
 
 	'Display_posts' => 'Prika&#382;i postove u poslednjih',
-	'All_Posts' => 'Svi postovi',
+	'ALL_POSTS' => 'Svi postovi',
 	'Newest_First' => 'Od najnovije',
 	'Oldest_First' => 'Od najstarije',
 
@@ -543,7 +543,7 @@ $lang = array_merge($lang, array(
 
 	'Notification_subject' => 'Stigla ti je nova PP!',
 
-	'Find_username' => 'Prona&#273;i korisni&#269;ko ime',
+	'FIND_USERNAME' => 'Prona&#273;i korisni&#269;ko ime',
 	'Find' => 'Prona&#273;i',
 	'No_match' => 'Ni&#353;ta nije na&#273;eno.',
 
@@ -742,22 +742,22 @@ $lang = array_merge($lang, array(
 	'Empty_message_email' => 'Mora&#353; upisati sadr&#382;aj e-maila.',
 
 // Visual confirmation system strings
-	'Confirm_code_wrong' => 'Potvrdni kod kojeg si unio/la je neto&#269;an',
+	'CONFIRM_CODE_WRONG' => 'Potvrdni kod kojeg si unio/la je neto&#269;an',
 	'TOO_MANY_ATTEMPTS' => 'Prekora&#269;io/la si broj poku&#353;aja registriranja.<br />Poku&#353;aj ponovo kasnije.',
-	'Confirm_code_impaired' => 'Ako nikako ne mo&#382;e&#353; pro&#269;itati ovaj kod kontaktiraj %sadministratora/icu%s za pomo&#263;.',
-	'Confirm_code' => 'Potvrdni kod',
-	'Confirm_code_explain' => 'Unesi kod to&#269;no onako kako ga vidi&#353;.<br /><i>Pazi na velika/mala slova, nula je ozna&#269;ena dijagonalnom crtom.</i>.',
+	'CONFIRM_CODE_IMPAIRED' => 'Ako nikako ne mo&#382;e&#353; pro&#269;itati ovaj kod kontaktiraj %sadministratora/icu%s za pomo&#263;.',
+	'CONFIRM_CODE' => 'Potvrdni kod',
+	'CONFIRM_CODE_EXPLAIN' => 'Unesi kod to&#269;no onako kako ga vidi&#353;.<br /><i>Pazi na velika/mala slova, nula je ozna&#269;ena dijagonalnom crtom.</i>.',
 
 // Members list
 	'Select_sort_method' => 'Sortiranje',
 	'Sort' => 'Poslo&#382;i',
-	'Sort_Top_Ten' => 'Naj 10 postera',
-	'Sort_Joined' => 'Datum registracije',
-	'Sort_Username' => 'Korisni&#269;ko ime',
-	'Sort_Location' => 'Lokacija',
-	'Sort_Posts' => 'Ukupno postova',
-	'Sort_Email' => 'Email',
-	'Sort_Website' => 'Sortiranje',
+	'SORT_TOP_TEN' => 'Naj 10 postera',
+	'SORT_JOINED' => 'Datum registracije',
+	'SORT_USERNAME' => 'Korisni&#269;ko ime',
+	'SORT_LOCATION' => 'Lokacija',
+	'SORT_POSTS' => 'Ukupno postova',
+	'SORT_EMAIL' => 'Email',
+	'SORT_WEBSITE' => 'Sortiranje',
 	'Sort_Ascending' => 'A-Z',
 	'Sort_Descending' => 'Z-A',
 	'Order' => 'Niz',
@@ -895,8 +895,8 @@ $lang = array_merge($lang, array(
 	'Guest_user_online' => 'Ukupno je %d gostiju online', // There is 1 Guest user online
 	'No_users_browsing' => 'Trenutno nema &#269;lanova/ica na ovom forumu',
 
-	'Online_explain' => 'Podaci su bazirani na aktivnosti korisnika/ca u protelkih 5 minuta',
-	'Online_today' => 'Aktivnost korisnika danas',
+	'ONLINE_EXPLAIN' => 'Podaci su bazirani na aktivnosti korisnika/ca u protelkih 5 minuta',
+	'ONLINE_TODAY' => 'Aktivnost korisnika danas',
 
 	'Forum_Location' => 'Lokacija',
 	'Last_updated' => 'A&#382;urirano',
@@ -991,7 +991,7 @@ $lang = array_merge($lang, array(
 	'Birthday_to_high' => 'Ovaj forum ne prihva&#263;a korisnike starije od %d godina/e',
 	'Birthday_require' => 'Datum ro&#273;enja potreban je za ovaj forum',
 	'Birthday_to_low' => 'Ovaj forum ne prihva&#263;a korisnike mla&#273;e od %d godina/e',
-	'Submit_date_format' => 'd-m-G', //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different seperators are accepted)
+	'Submit_date_format' => 'd-m-Y', //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different seperators are accepted)
 	'Birthday_greeting_today' => '&#381;elimo vam sretan %s ro&#273;endan.<br /><br /> Mana&#273;ment',//%s is substituted with the users age
 	'Birthday_greeting_prev' => 'We would like to give you a belated congratulatons for becoming %s years old on the %s.<br /><br /> Mana&#273;ment',//%s is substituted with the users age, and birthday
 	'Greeting_Messaging' => '&#268;estitamo',
@@ -1036,11 +1036,11 @@ $lang = array_merge($lang, array(
 	'Rules_bluecard_can' => 'Ti <b>mo&#382;r&#353;</b> obavjestit moderatore o postovima na forumu',
 */
 	'Rules_ban_can' => '<b>Mo&#382;e&#353;</b> isklju&#269;iti druge korisnike',
+	'Rules_greencard_can' => '<b>Mo&#382;e&#353;</b> ponovo uklju&#269;it korisnike',
+	'Rules_bluecard_can' => '<b>Mo&#382;e&#353;</b> obavjestit moderatore',
 	'user_no_email' => 'Korisnik nema e-mail, zato mu ne&#263;e sti&#263;i na e-mail. Trebao bi ga obavjestit o ovom preko privatne poruke',
 	'user_already_banned' => 'Odabrani korisnik je isklju&#269;en',
 	'Ban_no_admin' => 'Ovaj korisnik je ADMIN zato ga nemo&#382;e&#353; upozorit niti isklju&#269;it',
-	'Rules_greencard_can' => '<b>Mo&#382;e&#353;</b> ponovo uklju&#269;it korisnike',
-	'Rules_bluecard_can' => '<b>Mo&#382;e&#353;</b> obavjestit moderatore',
 	'Give_b_card' => 'Obavjesti moderatore foruma o postu ',
 	'Clear_b_card' => 'Ovaj post je %d puta prijavljen. Ako stisne&#353; ovo dugme,izbrisat &#263;e&#353; ovo',
 	'No_moderators' => 'Ovaj forum nema moderatora, zato se nemo&#382;e obavjestit !',
@@ -1132,15 +1132,15 @@ $lang = array_merge($lang, array(
 	'TOP_POSTERS' => 'Korisnici s najvi&#353;e postova',
 
 // TELL A FRIEND
-	'Tell_Friend' => 'Po&#353;alji e-mail prijatelju',
-	'Tell_Friend_Sender_User' => 'Va&#353;e korisni&#269;ko ime',
-	'Tell_Friend_Sender_Email' => 'Va&#353;a e-mail adresa',
-	'Tell_Friend_Reciever_User' => 'Korisni&#269;ko ime va&#353;eg prijatelja',
-	'Tell_Friend_Reciever_Email' => 'E-mail va&#353;eg prijatelja',
-	'Tell_Friend_Wrong_Email' => 'Unjeli ste krivi e-mail.',
-	'Tell_Friend_Msg' => 'va&#353;a poruka:',
-	'Tell_Friend_Title' => 'Recite prijatelju',
-	'Tell_Friend_Body' => "Hi,\nI just read the topic &raquo,{TOPIC}&laquo, at {SITENAME} and thought you might be interested.\n\nHere is the link: {LINK}\n\nGo and read it and if you want to reply you can register for your own account if you have not done so already.",
+	'TELL_FRIEND' => 'Po&#353;alji e-mail prijatelju',
+	'TELL_FRIEND_SENDER_USER' => 'Va&#353;e korisni&#269;ko ime',
+	'TELL_FRIEND_SENDER_EMAIL' => 'Va&#353;a e-mail adresa',
+	'TELL_FRIEND_RECIEVER_USER' => 'Korisni&#269;ko ime va&#353;eg prijatelja',
+	'TELL_FRIEND_RECIEVER_EMAIL' => 'E-mail va&#353;eg prijatelja',
+	'TELL_FRIEND_WRONG_EMAIL' => 'Unjeli ste krivi e-mail.',
+	'TELL_FRIEND_MSG' => 'va&#353;a poruka:',
+	'TELL_FRIEND_TITLE' => 'Recite prijatelju',
+	'TELL_FRIEND_BODY' => "Hi,\nI just read the topic &raquo,{TOPIC}&laquo, at {SITENAME} and thought you might be interested.\n\nHere is the link: {LINK}\n\nGo and read it and if you want to reply you can register for your own account if you have not done so already.",
 
 // Begin Thanks Mod
 	'thankful' => 'Zahvale od',
@@ -1571,22 +1571,22 @@ $lang = array_merge($lang, array(
 	'Login_Hidden' => 'Sakriven',
 	'Login_Visible' => 'Vidljiv',
 	'Login_Default' => 'Zadani',
-	'Errors_Not_Found' => 'Adresa koju tra&#382;ite nije na ovom serveru',
-	'Errors_000' => 'Nepoznata gre&#353;ka',
-	'Errors_000_Full' => 'Adresa se vra&#269;a kao nepoznata gre&#353;ka u kodu.<br />Gre&#353;ka je zabilje&#382;ena u log file i mi &#263;emo provjerit u &#269;emu je problem.',
-	'Errors_400' => 'Gre&#353;ka 400',
-	'Errors_400_Full' => 'Adresa nije va&#382;e&#263;a.',
-	'Errors_401' => 'Gre&#353;ka 401 - Gre&#353;ka ovlasti',
-	'Errors_401_Full' => 'Dobivate ovu poruku jer niste ovla&#353;teni za pristup toj adresi.',
-	'Errors_403' => 'Gre&#353;ka 403',
-	'Errors_403_Full' => 'Pristup ovoj adresi je zabranjen.',
-	'Errors_404' => 'Gre&#353;ka 404 - Datoteka nije prona&#273;ena',
-	'Errors_404_Full' => 'Adresa koju tra&#382;ize nije dostupna na ovom serveru. Mo&#382;da ste pobrkali adresu ili ono &#353;to tra&#382;ite je obrisano.',
-	'Errors_500' => 'Gre&#353;ka 500 - Gre&#353;ka u konfiguraciji',
-	'Errors_500_Full' => 'Adresa koju ste tra&#382;ili vra&#269;a se kao konfiguracijska gre&#353;ka.<br />Gre&#353;ka je zabilje&#382;ena u log file i mi &#263;emo provjerit u &#269;emu je problem.',
-	'Errors_Email_Subject' => 'Gre&#353;ke: ',
-	'Errors_Email_Addrress_Prefix' => 'xs_gre&#353;ka',
-	'Errors_Email_Body' => 'Nastala je gre&#353;ka na va&#353;em forumu. Molimo provjerite log file.',
+	'ERRORS_NOT_FOUND' => 'Adresa koju tra&#382;ite nije na ovom serveru',
+	'ERRORS_000' => 'Nepoznata gre&#353;ka',
+	'ERRORS_000_FULL' => 'Adresa se vra&#269;a kao nepoznata gre&#353;ka u kodu.<br />Gre&#353;ka je zabilje&#382;ena u log file i mi &#263;emo provjerit u &#269;emu je problem.',
+	'ERRORS_400' => 'Gre&#353;ka 400',
+	'ERRORS_400_FULL' => 'Adresa nije va&#382;e&#263;a.',
+	'ERRORS_401' => 'Gre&#353;ka 401 - Gre&#353;ka ovlasti',
+	'ERRORS_401_FULL' => 'Dobivate ovu poruku jer niste ovla&#353;teni za pristup toj adresi.',
+	'ERRORS_403' => 'Gre&#353;ka 403',
+	'ERRORS_403_FULL' => 'Pristup ovoj adresi je zabranjen.',
+	'ERRORS_404' => 'Gre&#353;ka 404 - Datoteka nije prona&#273;ena',
+	'ERRORS_404_FULL' => 'Adresa koju tra&#382;ize nije dostupna na ovom serveru. Mo&#382;da ste pobrkali adresu ili ono &#353;to tra&#382;ite je obrisano.',
+	'ERRORS_500' => 'Gre&#353;ka 500 - Gre&#353;ka u konfiguraciji',
+	'ERRORS_500_FULL' => 'Adresa koju ste tra&#382;ili vra&#269;a se kao konfiguracijska gre&#353;ka.<br />Gre&#353;ka je zabilje&#382;ena u log file i mi &#263;emo provjerit u &#269;emu je problem.',
+	'ERRORS_EMAIL_SUBJECT' => 'Gre&#353;ke: ',
+	'ERRORS_EMAIL_ADDRRESS_PREFIX' => 'xs_gre&#353;ka',
+	'ERRORS_EMAIL_BODY' => 'Nastala je gre&#353;ka na va&#353;em forumu. Molimo provjerite log file.',
 	'Remote_avatar_no_image' => 'Slika %s ne postoji',
 	'Remote_avatar_error_filesize' => 'Slika je prevelika za avatar (%d Bytes)',
 	'Remote_avatar_error_dimension' => 'Dimenzije slike su prevelike za avatar (%d x %d piksela)',
@@ -1644,16 +1644,16 @@ $lang = array_merge($lang, array(
 	'Users_Hidden' => 'Sakriveni',
 // Mighty Gorgon - Enhanced Online - END
 // Mighty Gorgon - Power Memberlist - BEGIN
-	'Fast' => 'Brzo',
-	'Standard' => 'Standardno',
 	'Style' => 'Izgled',
 	'User_Contacts' => 'Kontakti',
 	'Memberlist_Users_Display' => 'Korisnici po strani:',
-	'Sort_LastLogon' => 'Zadnji pristup',
-	'Sort_Birthday' => 'Ro&#273;endan',
-	'SORT_STYLE' => 'Style',
-	'SORT_LASTLOGON' => 'Last Logon',
-	'SORT_BIRTHDAY' => 'Birthday',
+	'SORT_FAST' => 'Brzo',
+	'SORT_STANDARD' => 'Standardno',
+	'SORT_RANK' => 'Status',
+	'SORT_STAFF' => 'Staff',
+	'SORT_STYLE' => 'Stil',
+	'SORT_LASTLOGON' => 'Zadnji pristup',
+	'SORT_BIRTHDAY' => 'Ro&#273;endan',
 	'SORT_ONLINE' => 'Online',
 	'ASCENDING' => 'Ascending',
 	'DESCENDING' => 'Descending',
@@ -1759,7 +1759,7 @@ $lang = array_merge($lang, array(
 	'Change_Style' => 'Izgled',
 	'Change_Lang' => 'Jezik',
 	'Permissions_List' => 'Lista dozvola',
-	'IP_Team' => 'Icy Phoenix Tim',
+	'IP_TEAM' => 'Icy Phoenix Tim',
 
 //	'' => '',
 // Mighty Gorgon - LANG - END
@@ -1779,7 +1779,7 @@ $lang = array_merge($lang, array(
 	'Country_Flag' => 'Zastava dr&#382;ave',
 	'Select_Country' => 'Izaberi dr&#382;avu',
 	'Extra_profile_info' => 'Dodatne informacije profila',
-//	'Extra_profile_info_explain' => 'You can add extra information about yourself or about your hobbies. You can also add photos. You can use some bbcodes as when you post or make your signature. There is a <b>%d</b> character limit (if 0 then no limit)',
+// 'Extra_profile_info_explain' => 'You can add extra information about yourself or about your hobbies. You can also add photos. You can use some bbcodes as when you post or make your signature. There is a <b>%d</b> character limit (if 0 then no limit)',
 	'Extra_profile_info_explain' => 'Mo&#382;e&#353; dodat dodatne informacije o sebi ili hobiju. Mo&#382;e&#353; dodat i slike. Mo&#382;e&#353; koristit neke bbkodove kad postuje&#353; ili kad izra&#273;uje&#353; potpis.',
 	'Extra_window' => 'Otvori u zasebnom prozoru',
 	'Extra_too_long' => 'Tvoj extra field je preduga&#269;ak (Dozvoljeno je najvi&#353;e <b>%d</b> simbola)',
@@ -1791,7 +1791,7 @@ $lang = array_merge($lang, array(
 	'UserSport' => 'Sport/Team',
 	'UserMusic' => 'Muzika/Grupe',
 	'UserNoInfo' => 'Nije dostupna informacija',
-	'Last_Seen' => 'Zadnji posjet',
+	'LAST_SEEN' => 'Zadnji posjet',
 // New MG - END
 
 // MG CMS - BEGIN
@@ -1806,7 +1806,7 @@ $lang = array_merge($lang, array(
 // Icy Phoenix - BUILD 001
 	'SimilarTopics' => 'Sli&#269;ne teme',
 	'Chat' => 'Chat',
-	'Digests' => 'Digests',
+	'DIGESTS' => 'Digests',
 
 	'CPL_REG_INFO_EXPLAIN' => 'Korisni&#269;ko ime, e-mail adresa i lozinka',
 	'CPL_PROFILE_INFO_EXPLAIN' => 'Generalne kontakt informacije, messenger, ro&#273;endan, zanimanja i druge informacije',
@@ -1929,18 +1929,18 @@ $lang = array_merge($lang, array(
 
 /* lang_referrers.php - BEGIN */
 	'REFERERS' => 'Http Referers',
-	'Viewing_Referers' => 'Pogledaj Referers',
-	'Referers_Title' => 'Http Referrers Managememnt',
-	'Referers_Cleared' => 'Referrers Cleared',
-	'Referers_Clear' => 'Obri&#353;i sve',
-	'Click_Return_Referers' => 'Klikni %ovdje%s za povratak na Referrers',
-	'Referer_host' => 'Referrer\'s Host',
-	'Referer_url' => 'Referrer\'s Url',
+	'VIEWING_REFERERS' => 'Pogledaj Referers',
+	'REFERERS_TITLE' => 'Http Referrers Managememnt',
+	'REFERERS_CLEARED' => 'Referrers Cleared',
+	'REFERERS_CLEAR' => 'Obri&#353;i sve',
+	'CLICK_RETURN_REFERERS' => 'Klikni %ovdje%s za povratak na Referrers',
+	'REFERER_HOST' => 'Referrer\'s Host',
+	'REFERER_URL' => 'Referrer\'s Url',
 	'REFERER_T_URL' => 'Visited URL',
-	'Referer_ip' => 'Referrer\'s IP',
-	'Referer_hits' => 'Hits',
-	'Referer_first' =>'Prva posjeta',
-	'Referer_last' => 'Zadnja posjeta',
+	'REFERER_IP' => 'Referrer\'s IP',
+	'REFERER_HITS' => 'Hits',
+	'REFERER_FIRST' =>'Prva posjeta',
+	'REFERER_LAST' => 'Zadnja posjeta',
 	'REFERER_DELETE' => 'Delete',
 	'REFERER_KILL' => 'Remove from DB (use * for wildcard)',
 	'REFERER_GROUP_BY' => 'Group By',
@@ -1948,10 +1948,10 @@ $lang = array_merge($lang, array(
 
 /* lang_prune_users.php - BEGIN */
 // add to prune inactive
-	'X_Days' => '%d Dani',
-	'X_Weeks' => '%d Tjedni',
-	'X_Months' => '%d Mjeseci',
-	'X_Years' => '%d Godine',
+	'X_DAYS' => '%d Dani',
+	'X_WEEKS' => '%d Tjedni',
+	'X_MONTHS' => '%d Mjeseci',
+	'X_YEARS' => '%d Godine',
 
 	'Confirm_delete_user' => 'Jeste li stvarno sigurni da &#382;elite obrisat ovog korisnika?',
 	'Prune_no_users' => 'Nijedan korisnik nije obrisan',
@@ -2549,7 +2549,7 @@ $lang['tz_zones'] = array(
 	'-2' => '[UTC - 2] Fernando de Noronha Time, South Georgia &amp; the South Sandwich Islands Time',
 	'-1' => '[UTC - 1] Azores Standard Time, Cape Verde Time, Eastern Greenland Time',
 	'0' => '[UTC] Western European Time, Greenwich Mean Time',
-	'1' => '[UTC + 1] Central European Time, West African Time, Rijeka',
+	'1' => '[UTC + 1] Central European Time, West African Time',
 	'2' => '[UTC + 2] Eastern European Time, Central African Time',
 	'3' => '[UTC + 3] Moscow Standard Time, Eastern African Time',
 	'3.5' => '[UTC + 3:30] Iran Standard Time',

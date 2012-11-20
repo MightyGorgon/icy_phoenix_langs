@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 
 	'CACHE_PURGE' => 'Limpiando Cache del Foro',
 	'CONFIGURE' => 'Configurar',
-	'CONFIG_ADD' => 'A&ntilde;adir nueva variable de configuracion: %s',
+	'CONFIG_ADD' => 'Añadir nueva variable de configuracion: %s',
 	'CONFIG_ALREADY_EXISTS' => 'ERROR: La variable %s ya existe.',
 	'CONFIG_NOT_EXIST' => 'ERROR: La variable %s no existe.',
 	'CONFIG_REMOVE' => 'Borrando variable: %s',
@@ -49,8 +49,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_RESULTS' => 'Mostrar Resultados completos',
 	'DISPLAY_RESULTS_EXPLAIN' => 'Selecione SI para mostrar todas las acciones y resultados durante la operacion.',
 
-	'ERROR_NOTICE' => 'Surgieron 1 &oacute; mas Errores durante la Operacion.  por favor descarge <a href="%1$s">este Archivo</a> con la Lista de Errores, y pregunte al Creador del Mod por Ayuda.<br /><br />Si tiene problemas descargando el Archivo, puede bajarlo directamente via FTP en esta direccion: %2$s',
-	'ERROR_NOTICE_NO_FILE' => 'Surgieron 1 &oacute; mas Errores durante la Operacion. Por favor, cree un archivo completo de todos los Errores, y pregunte al Creador del Mod por Ayuda.',
+	'ERROR_NOTICE' => 'Surgieron 1 ó mas Errores durante la Operacion.  por favor descarge <a href="%1$s">este Archivo</a> con la Lista de Errores, y pregunte al Creador del Mod por Ayuda.<br /><br />Si tiene problemas descargando el Archivo, puede bajarlo directamente via FTP en esta direccion: %2$s',
+	'ERROR_NOTICE_NO_FILE' => 'Surgieron 1 ó mas Errores durante la Operacion. Por favor, cree un archivo completo de todos los Errores, y pregunte al Creador del Mod por Ayuda.',
 
 	'FAIL' => 'Fail',
 	'FILE_COULD_NOT_READ' => 'ERROR: no pude abrir el archivo %s para leerlo.',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_MOD' => 'Instalar %s',
 	'INSTALL_MOD_CONFIRM' => 'Esta listo/a para instalar %s?',
 
-	'MODULE_ADD' => 'A&ntilde;adiendo %1$s modulo: %2$s',
+	'MODULE_ADD' => 'Añadiendo %1$s modulo: %2$s',
 	'MODULE_ALREADY_EXIST' => 'ERROR: El modulo ya existe.',
 	'MODULE_NOT_EXIST' => 'ERROR: El modulo no existe.',
 	'MODULE_REMOVE' => 'Borrando %1$s modulo: %2$s',
@@ -73,8 +73,8 @@ $lang = array_merge($lang, array(
 	'NO_TABLE_DATA' => 'ERROR: Ninguna tabla especificada',
 
 	'PARENT_NOT_EXIST' => 'ERROR: La categoria Padre especificada para este modulo, no existe.',
-	'PERMISSIONS_WARNING' => 'Nuevos permisos fueron a&ntilde;adidos.  Asegurese, de verificar sus ajustes, y que esten como los quiere.',
-	'PERMISSION_ADD' => 'A&ntilde;adiendo nueva opcion de permiso: %s',
+	'PERMISSIONS_WARNING' => 'Nuevos permisos fueron añadidos.  Asegurese, de verificar sus ajustes, y que esten como los quiere.',
+	'PERMISSION_ADD' => 'Añadiendo nueva opcion de permiso: %s',
 	'PERMISSION_ALREADY_EXISTS' => 'ERROR: La opcion de permiso %s ya existe.',
 	'PERMISSION_NOT_EXIST' => 'ERROR: La opcion de permiso %s no existe.',
 	'PERMISSION_REMOVE' => 'Borrando opcion de permiso: %s',
@@ -91,14 +91,14 @@ $lang = array_merge($lang, array(
 
 	'SUCCESS' => 'Satisfecho',
 
-	'TABLE_ADD' => 'A&ntilde;adiendo Tabla a la BD: %s',
+	'TABLE_ADD' => 'Añadiendo Tabla a la BD: %s',
 	'TABLE_ALREADY_EXISTS' => 'ERROR: La Tabla %s ya existe.',
-	'TABLE_COLUMN_ADD' => 'A&ntilde;adiendo una nueva Columna de nombre %2$s a la Tabla %1$s',
+	'TABLE_COLUMN_ADD' => 'Añadiendo una nueva Columna de nombre %2$s a la Tabla %1$s',
 	'TABLE_COLUMN_ALREADY_EXISTS' => 'ERROR: La Columna %2$s ya existe en la Tabla %1$s.',
 	'TABLE_COLUMN_NOT_EXIST' => 'ERROR: La Columna %2$s no existe en la Tabla %1$s.',
 	'TABLE_COLUMN_REMOVE' => 'Borrando la Columna %2$s de la Tabla %1$s',
 	'TABLE_COLUMN_UPDATE' => 'Actualizando la Clumna %2$s de la Tabla %1$s',
-	'TABLE_KEY_ADD' => 'A&ntilde;adiendo una LLave de nombre %2$s a la tabla %1$s',
+	'TABLE_KEY_ADD' => 'Añadiendo una LLave de nombre %2$s a la tabla %1$s',
 	'TABLE_KEY_ALREADY_EXIST' => 'ERROR: El indice %2$s ya existe en la Tabla %1$s.',
 	'TABLE_KEY_NOT_EXIST' => 'ERROR: El Indice %2$s no existe en la Tabla %1$s.',
 	'TABLE_KEY_REMOVE' => 'Borrando una LLave de nombre %2$s de la Tabla %1$s',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 
 	'VERSIONS' => 'Mod Version: <strong>%1$s</strong><br />Actualmente instalada: <strong>%2$s</strong>',
 	'VERSION_SELECT' => 'Selecionar Version',
-	'VERSION_SELECT_EXPLAIN' => 'No cambie de “Ignorar” , si no que sabe lo que hace, &oacute; se le pide.',
+	'VERSION_SELECT_EXPLAIN' => 'No cambie de “Ignorar” , si no que sabe lo que hace, ó se le pide.',
 	)
 );
 

@@ -27,8 +27,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BIRTHDAY_GREETING_EMAIL_SUBJECT' => 'Felicidades de %s', //%s is substituted with site title
-	'BIRTHDAY_GREETING_EMAIL_CONTENT_AGE' => 'Queremos Felicidarte por cumplir %s a&ntilde; hoy.', //%s is substituted with the users age
-	'BIRTHDAY_GREETING_EMAIL_CONTENT' => 'Nosotros de %s , queremos desearte un Feliz Cumplea&ntilde;os.', //%s is substituted with the site name
+	'BIRTHDAY_GREETING_EMAIL_CONTENT_AGE' => 'Queremos Felicidarte por cumplir %s añ hoy.', //%s is substituted with the users age
+	'BIRTHDAY_GREETING_EMAIL_CONTENT' => 'Nosotros de %s , queremos desearte un Feliz Cumpleaños.', //%s is substituted with the site name
 	)
 );
 

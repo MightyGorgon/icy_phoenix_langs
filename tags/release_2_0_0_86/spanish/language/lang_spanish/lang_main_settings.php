@@ -36,9 +36,9 @@ $lang['REGISTER_MESSAGE'] = '';
 
 $lang['Welcome_Message'] = 'Bienvenido a <span class="topic_glo">Icy Phoenix</span><br />';
 $lang['register_pm_subject'] = 'Bienvenido a %s';
-$lang['register_pm'] = "Hola!\n\nBienvenido a %s.\n\nEsperemos que disfrute de esta web. Si&eacute;ntase libre de participar o crear los temas en este foro.\n\nUn saludo,\nEquipo de %s";
+$lang['register_pm'] = "Hola!\n\nBienvenido a %s.\n\nEsperemos que disfrute de esta web. Siéntase libre de participar o crear los temas en este foro.\n\nUn saludo,\nEquipo de %s";
 
-$lang['Support_Us'] = 'Ay&uacute;danos';
+$lang['Support_Us'] = 'Ayúdanos';
 $lang['PayPal'] = '<img src="images/paypal.gif" alt="' . $lang['Support_Us'] . '" title="' . $lang['Support_Us'] . '" />';
 /* Example of code you may add... replace with your own code.
 $lang['PayPal'] = '
@@ -57,7 +57,7 @@ $lang['OwnerDetails'] = 'Icy Phoenix';
 $lang['OwnerAdrress'] = 'Italy';
 $lang['OwnerServer'] = 'Icy Phoenix';
 
-$lang['PrivacyDisclaimer'] = 'Est&aacute; de acuerdo con que sus datos personales sean tratados con la ley actual que hay en el pa&iacute;s del propietario de la web.<br />';
+$lang['PrivacyDisclaimer'] = 'Está de acuerdo con que sus datos personales sean tratados con la ley actual que hay en el país del propietario de la web.<br />';
 
 $lang['ENCODING'] = 'UTF-8';
 $lang['DIRECTION'] = 'ltr';
@@ -87,7 +87,7 @@ $lang['NUMBER_FORMAT_TIME_SEP'] = ':';
 // along with our copyright message indicating you are the translator
 // please add it here.
 
-$lang['TRANSLATION_INFO'] = '&nbsp;Traducci&oacute;n al Espa&ntilde;ol por <a href="http://www.icyphoenix.es/" target="_blank">Icy Phoenix Espa&ntilde;a</a>';
-$lang['TRANSLATION'] = '&nbsp;Traducci&oacute;n al Espa&ntilde;ol por <a href="http://www.icyphoenix.es/" target="_blank">Icy Phoenix Espa&ntilde;a</a>';
+$lang['TRANSLATION_INFO'] = '&nbsp;Traducción al Español por <a href="http://www.icyphoenix.es/" target="_blank">Icy Phoenix España</a>';
+$lang['TRANSLATION'] = '&nbsp;Traducción al Español por <a href="http://www.icyphoenix.es/" target="_blank">Icy Phoenix España</a>';
 
 ?>

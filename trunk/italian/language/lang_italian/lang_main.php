@@ -1919,7 +1919,7 @@ $lang = array_merge($lang, array(
 	'Shoutbox_no_auth' => 'Spiacenti, ma solo gli utenti registrati possono utilizzare la Shoutbox.',
 	'Shoutbox_loading' => 'Caricamento Shoutbox...',
 // Errors
-	'Shoutbox_unable' => 'Spiacenti, ma l\'azione richiesta non pu&ograve; essere completata. Riprova di nuovo.',
+	'Shoutbox_unable' => 'Spiacenti, ma a causa di un errore la pagina non viene visualizzata correttamente. Riprova di nuovo.',
 	'Shoutbox_timeout' => 'Spiacenti, ma il server non risponde. Riprova di nuovo.',
 	'Shoutbox_empty' => 'Nessun messaggio nel DB',
 	'Shoutbox_no_mode' => 'Modo specificato non valido',
@@ -2543,6 +2543,16 @@ $lang = array_merge($lang, array(
 	'CHANGE_PAGE_SIZE' => 'Cambia Dimensione Pagina',
 
 	'FULL_EDITOR' => 'Editor Completo',
+
+	'SN_SHOW_POSTS' => 'Mostra testo messaggi',
+	'SN_SHOW_TOPICS' => 'Mostra solo argomenti',
+
+	'NOT_LOGGED_IN_VIEW_PAGE' => 'Devi aver effettuato il login per visualizzare questa pagina.',
+
+	'TAGS_SEARCH_REPLACE' => 'Sostituisci Tags',
+	'TAGS_SEARCH_REPLACE_SRC' => 'Tag da sostituire',
+	'TAGS_SEARCH_REPLACE_TGT' => 'Nuovo Tag',
+	'TAGS_SEARCH_REPLACE_RESULT' => '%s Tags sono stati sostituiti',
 
 	)
 );
