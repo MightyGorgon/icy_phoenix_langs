@@ -1669,7 +1669,7 @@ $lang = array_merge($lang, array(
 
 // BUILD 059
 	'Remote_avatar_no_image' => 'L\'immagine %s non esiste o non &egrave; raggiunbibile',
-	'Remote_avatar_error_filesize' => 'L\'immagine supera la dimensione massima massima consentita per gli avatar (%d Bytes)',
+	'Remote_avatar_error_filesize' => 'L\'immagine supera la dimensione massima consentita per gli avatar (%d Bytes)',
 	'Remote_avatar_error_dimension' => 'L\'immagine supera il limite di dimensione per gli avatar (%d x %d pixel)',
 	'How_Many_Chatters' => 'Ci sono <b>%d</b> utenti in chat',
 	'Who_Are_Chatting' => '<b>%s</b>',
