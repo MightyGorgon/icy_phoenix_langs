@@ -1669,7 +1669,7 @@ $lang = array_merge($lang, array(
 
 // BUILD 059
 	'Remote_avatar_no_image' => 'L\'immagine %s non esiste o non &egrave; raggiunbibile',
-	'Remote_avatar_error_filesize' => 'L\'immagine supera la dimensione massima massima consentita per gli avatar (%d Bytes)',
+	'Remote_avatar_error_filesize' => 'L\'immagine supera la dimensione massima consentita per gli avatar (%d Bytes)',
 	'Remote_avatar_error_dimension' => 'L\'immagine supera il limite di dimensione per gli avatar (%d x %d pixel)',
 	'How_Many_Chatters' => 'Ci sono <b>%d</b> utenti in chat',
 	'Who_Are_Chatting' => '<b>%s</b>',
@@ -2553,6 +2553,8 @@ $lang = array_merge($lang, array(
 	'TAGS_SEARCH_REPLACE_SRC' => 'Tag da sostituire',
 	'TAGS_SEARCH_REPLACE_TGT' => 'Nuovo Tag',
 	'TAGS_SEARCH_REPLACE_RESULT' => '%s Tags sono stati sostituiti',
+
+	'UNABLE_TO_UPLOAD_AVATAR' => 'Impossibile caricare l\'immagine, accertati che non sia troppo grande e del formato consentito.',
 
 	)
 );
