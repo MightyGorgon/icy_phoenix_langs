@@ -990,10 +990,10 @@ $lang = array_merge($lang, array(
 //admin user list mail
 	'Usersname' => 'Benutzername',
 	'Admin_Users_List_Mail_Title' => 'Benutzer E-Mail-Liste',
-	'Admin_Users_List_Mail_Explain' => 'Hier ist eine Liste der E-Mail Adressen deiner Benutzer',
+	'Admin_Users_List_Mail_Explain' => 'Hier ist eine Liste der E-Mail Adressen deiner Benutzer.',
 
 // Start add - Forum notification MOD
-	'Forum_notify' => 'Erlaube Forumsbenachrichtigung',
+	'Forum_notify' => 'Erlaube Forumbenachrichtigung',
 	'Forum_notify_enabled' => 'Erlauben',
 	'Forum_notify_disabled' => 'Nicht erlauben',
 // End add - Forum notification MOD
