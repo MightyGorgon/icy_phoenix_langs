@@ -174,13 +174,13 @@ $lang = array_merge($lang, array(
 
 	 'Click_return_login' => 'Pulse aquí para intentar de nuevo',
     'Click_return_index' => 'Pulse aquí para volver al índice',
-    'Click_return_forum' => 'Pulse aquí para volver al foro', 
-    'Click_return_topic' => 'Pulse aquí para volver al tema', // %s's here are for uris, do not remove! 
+    'Click_return_forum' => 'Pulse aquí para volver al foro',
+    'Click_return_topic' => 'Pulse aquí para volver al tema', // %s's here are for uris, do not remove!
     'Click_return_viewtopic' => 'Pulse aquí para volver al Tema',
     'Click_return_modcp' => 'Pulse aquí para volver al panel de control del moderador',
     'Click_return_profile' => 'Pulse aquí para volver al Pefil',
     'Click_return_preferences' => 'Pulse aquí para volver a Preferencias',
-    'Click_return_group' => 'Pulse aquí para volver a la información de grupo',  
+    'Click_return_group' => 'Pulse aquí para volver a la información de grupo',
 	'Click_return_drafts' => 'Click aquí para volver a borradores',
 	'Click_return_inbox' => 'Pulse aquí para volver a su bandeja de entrada',
     'Click_view_message' => 'Pulse aquí para ver su mensaje',
@@ -999,7 +999,7 @@ $lang = array_merge($lang, array(
 	'Birthday_to_low' => 'Lo sentimos, pero no se admiten usuarios menores de %d años',
 	'Submit_date_format' => 'd-m-Y', //php date() format - Note: ONLY d, m and Y may be used and SHALL ALL be used (different seperators are accepted)
 	'Birthday_greeting_today' => 'Queremos desearle un feliz %s cumpleaños.',//%s is substituted with the users age
-	'Birthday_greeting_prev' => 'Con un poco de retraso, ya que cumpliste %s años en %s, te deseamos un feliz cumpleaños.',//%s is substituted with the users age, and birthday 
+	'Birthday_greeting_prev' => 'Con un poco de retraso, ya que cumpliste %s años en %s, te deseamos un feliz cumpleaños.',//%s is substituted with the users age, and birthday
 	'Greeting_Messaging' => 'Felicidades',
 	'Birthday_today' => 'Hoy es el cumpleaños de: ',
 	'Birthday_week' => 'En los próximos %d días, cumplen años los siguientes usuarios:',
@@ -1036,7 +1036,7 @@ $lang = array_merge($lang, array(
 	'Ban_reactivate' => 'Su cuenta ha sido reactivada',
 	'Ban_warning' => 'Ha recibido una tarjeta amarilla, advertencia',
 	'Ban_blocked' => 'Su cuenta ha sido bloqueada',
-	
+
 /*
 	'Rules_ban_can' => '<b>Puede</b> expulsar a otros usuarios',
 	'Rules_greencard_can' => '<b>Puede</b> quitar Tarjetas verdes',
@@ -1913,19 +1913,19 @@ $lang = array_merge($lang, array(
 
 /* lang_site_hist.php - BEGIN */
 	'Site_history' => 'Historial del sitio',
-	'Month' => 'Mes', 
-	'Week_day' => 'Día de la semana', 
-	'Not_availble' => 'No disponible', 
-	'Total_users' => 'Usuarios máximos', 
-	'Reg_users' => 'Usuarios registrados', 
-	'Hidden_users' => 'Usuarios ocultos', 
-	'Guests_users' => 'Usuarios invitados', 
-	'New_users' => 'Nuevos usuarios', 
-	'New_topics' => 'Nuevos temas', 
-	'New_posts_reply' => 'Mensajes/respuestas', 
-	'Most_online' => 'La mayoría de usuarios conectados fue %s', 
-	'Most_online_week' => 'La mayoría de usuarios conectados en los últimos 7 días', 
-	'Last_24' => 'La mayoría de usuarios conectados en las últimas %s horas', 
+	'Month' => 'Mes',
+	'Week_day' => 'Día de la semana',
+	'Not_availble' => 'No disponible',
+	'Total_users' => 'Usuarios máximos',
+	'Reg_users' => 'Usuarios registrados',
+	'Hidden_users' => 'Usuarios ocultos',
+	'Guests_users' => 'Usuarios invitados',
+	'New_users' => 'Nuevos usuarios',
+	'New_topics' => 'Nuevos temas',
+	'New_posts_reply' => 'Mensajes/respuestas',
+	'Most_online' => 'La mayoría de usuarios conectados fue %s',
+	'Most_online_week' => 'La mayoría de usuarios conectados en los últimos 7 días',
+	'Last_24' => 'La mayoría de usuarios conectados en las últimas %s horas',
 	'Top_Posting_Users' => 'Top usuarios escribiendo',
 	'Top_Posting_Users_week' => 'Top usuarios escribiendo esta semana [%s]',
 	'Rank' => 'Rango',
@@ -1967,7 +1967,7 @@ $lang = array_merge($lang, array(
 	'Prune_user_list' => 'Usuarios/as que serán borrados/as',
 	'Prune_on_click' => 'Está a punto de borrar %d usuarios/as. ¿Desea continuar?',
 	'Prune_Action' => 'Presione el enlace de abajo para ejecutar',
-	'Prune_users_explain' => 'En esta página podrá borrar usuarios/as inactivos/as desde hace mucho tiempo. Tienes tres enlaces: uno para borrar usuarios/as que nunca han escrito, otro para borrar usuarios/as que nunca se han logueado, y otro para borrar usuarios/as que nunca activaron su cuenta.<p/><b> Nota:</b> Esta no es una función que pueda deshacerse luego; todos los usuarios de la lista serán definitivamente borrados tras ejecutar el enlace.', 
+	'Prune_users_explain' => 'En esta página podrá borrar usuarios/as inactivos/as desde hace mucho tiempo. Tienes tres enlaces: uno para borrar usuarios/as que nunca han escrito, otro para borrar usuarios/as que nunca se han logueado, y otro para borrar usuarios/as que nunca activaron su cuenta.<p/><b> Nota:</b> Esta no es una función que pueda deshacerse luego; todos los usuarios de la lista serán definitivamente borrados tras ejecutar el enlace.',
 /* lang_prune_users.php - END */
 
 /* lang_avatar_generator.php - BEGIN */
@@ -2483,9 +2483,9 @@ $lang['Prune_commands'][1] = 'Borrar usuarios/as inactivos/as';
 $lang['Prune_explain'][1] = 'De quienes nunca se han logueado, <b>Excluir</b> nuevos usuarios a partir de %d días';
 $lang['Prune_commands'][2] = 'Borrar usuarios/as que no han activado su cuenta';
 $lang['Prune_explain'][2] = 'De quienes nunca han activado su cuenta, <b>Excluir</b> nuevos usuarios a partir de %d días';
-$lang['Prune_commands'][3] = 'Borrar usuarios/as que no nos visitan'; 
-$lang['Prune_explain'][3] = 'De quienes no nos visitan desde hace 60 días, <b>Excluir</b> nuevos usuarios a partir de %d días'; 
-$lang['Prune_commands'][4] = 'Borrar usuarios/as que no escriben regularmente'; 
+$lang['Prune_commands'][3] = 'Borrar usuarios/as que no nos visitan';
+$lang['Prune_explain'][3] = 'De quienes no nos visitan desde hace 60 días, <b>Excluir</b> nuevos usuarios a partir de %d días';
+$lang['Prune_commands'][4] = 'Borrar usuarios/as que no escriben regularmente';
 $lang['Prune_explain'][4] = 'De quienes tienen menos de un 1 envío por cada 10 días de registro, <b>Excluir</b> nuevos usuarios a partir de %d días';
 $lang['Prune_commands'][5] = 'Borrar usuarios que no escriben y no visitan el foro';
 $lang['Prune_explain'][5] = 'De quieres nunca han enviado un mensaje y no han visitado el foro recientemente, <b>excluyendo</b> los nuevos usuarios de los últimos %d días';
@@ -2662,7 +2662,7 @@ $lang['datetime'] = array(
 	'July' => 'Julio',
 	'August' => 'Agosto',
 	'September' => 'Septiembre',
-	'October' => 'Octobre',
+	'October' => 'Octubre',
 	'November' => 'Noviembre',
 	'December' => 'Diciembre',
 

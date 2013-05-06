@@ -37,12 +37,12 @@ $lang['amp_char_other_chars']            = 'Personaggio degli altri Membri';
 
 $lang['amp_char_link_back']               = 'Pagina dei Personaggi';
 $lang['amp_char_cp_chars']               = 'Seleziona un Personaggio';
-$lang['amp_char_cp_gender_m']            = 'Personaggio Maschile';
-$lang['amp_char_cp_gender_f']            = 'Personaggio Femminile';
+$lang['amp_char_cp_gender_m']            = 'Personaggio Uomo';
+$lang['amp_char_cp_gender_f']            = 'Personaggio Donna';
 $lang['amp_char_cp_name']               = 'Nome Personaggio';
 $lang['amp_char_cp_gender']               = 'Sesso Personaggio';
-$lang['amp_char_cp_gender_m']            = 'Maschile';
-$lang['amp_char_cp_gender_f']            = 'Femminile';
+$lang['amp_char_cp_gender_m']            = 'Uomo';
+$lang['amp_char_cp_gender_f']            = 'Donna';
 $lang['amp_char_cp_age']               = 'Et&agrave; Personaggio';
 $lang['amp_char_cp_age_exp']            = 'Esempio valore Anni: 5 il personaggio avr&agrave; 5 anni';
 $lang['amp_char_cp_from']               = 'Provenienza Personaggio';

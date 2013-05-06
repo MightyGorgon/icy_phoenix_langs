@@ -408,6 +408,9 @@ if ($lang_extend_admin)
 		'IP_google_analytics' => 'Codice Google Analytics',
 		'IP_google_analytics_explain' => 'Inserisci qui il codice per inserire Google Analytics nel tuo sito e verr&agrave; automaticamente inserito in fondo ad ogni pagina.',
 
+		'IP_google_custom_search' => 'Codice Google Custom Search',
+		'IP_google_custom_search_explain' => 'Inserisci qui il codice per Google Custom Search per poter utilizzare gsearch.php (consente di risparmiare carico SQL per le ricerche degli ospiti).',
+
 //Sitemap
 		'Sitemap_settings' => 'Impostazioni Google Sitemap',
 

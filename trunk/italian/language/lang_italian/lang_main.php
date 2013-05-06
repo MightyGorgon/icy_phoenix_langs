@@ -1320,18 +1320,6 @@ $lang = array_merge($lang, array(
 	'Welcome' => 'Benvenuto',
 	'birthdays' => 'Compleanni',
 
-//Battle of the Sexes
-	'male_zero_total' => '<b>0</b> Utenti Maschi', // # registered male users
-	'male_total' => '<b>%d</b> Utenti Maschi', // # registered male users
-	'male_one_total' => '<b>%d</b> Utente Maschio', // # registered male users
-	'female_zero_total' => 'Abbiamo <b>0</b> Utenti Femmine', // # registered female users
-	'female_total' => 'Abbiamo <b>%d</b> Utenti Femmine', // # registered female users
-	'female_one_total' => 'Abbiamo <b>%d</b> Utente Femmina', // # registered female users
-	'unknown_total' => 'e <b>%d</b> Utenti che non hanno ancora deciso',
-	'unknown_one_total' => 'e <b>%d</b> Utente che non ha ancora deciso',
-	'unknown_zero_total' => '',
-	'battle_of_sexes' => 'Battaglia dei Sessi: ',
-
 	'who_viewed' => 'Visite Discussione',
 
 	'View_post' => 'Vedi Messaggio',
