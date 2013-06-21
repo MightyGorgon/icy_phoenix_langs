@@ -262,6 +262,9 @@ if ($lang_extend_admin)
 		'IP_robots_index_topics_no_replies' => 'Attiva Indicizzazione Argomenti Senza Risposte',
 		'IP_robots_index_topics_no_replies_explain' => 'Attivando questa opzione gli argomenti senza risposte verranno indicizzati, altrimenti sar&agrave; inserito un meta tag per evitare che vengano indicizzati',
 
+		'IP_use_jquery_tags' => 'TAGS :: Abilita jQuery Tags',
+		'IP_use_jquery_tags_explain' => 'Attivando questa opzione sar&agrave; possibile utilizzare jQuery nell\'inserimento dei tags nei argomenti (rendendo pi&ugrave; semplice ed efficace l\'inserimento)',
+
 		'IP_display_tags_box' => 'TAGS :: Abilita Tags Per Gli Argomenti',
 		'IP_display_tags_box_explain' => 'Attivando questa opzione sar&agrave; possibile inserire e visualizzare Tags per gli argomenti del forum. I Tags possono essere molto utili per l\'indicizzazione, ma possono essere anche molto dannosi se non utilizzati correttamente: per questo l\'immissione dei Tags &egrave; riservata agli amministratori o ai moderatori (se viene attivatata l\'opzione sottostante).',
 
@@ -278,6 +281,9 @@ if ($lang_extend_admin)
 
 		'IP_always_show_edit_by' => 'Mostra Sempre Modifiche Ai Messaggi',
 		'IP_always_show_edit_by_explain' => 'Attivando questa opzione verr&agrave; sempre mostrata la dicitura "Ultima modifica di..." in fondo ai messaggi quando un utente applicher&agrave; qualche modifica (le modifiche degli amministatori non vengono mai mostrate, a meno che non inseriscano una nota)',
+
+		'IP_enable_featured_image' => 'Abilita Immagine Argomento',
+		'IP_enable_featured_image_explain' => 'Attivando questa opzione sar&agrave; possibile associare un\'immagine per ogni argomento',
 
 		'IP_show_social_bookmarks' => 'Social Bookmarks',
 		'IP_show_social_bookmarks_explain' => 'Mostra la sezione "Condivisione Argomento" quando si visualizza un argomento',

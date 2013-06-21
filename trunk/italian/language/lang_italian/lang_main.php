@@ -2544,6 +2544,19 @@ $lang = array_merge($lang, array(
 
 	'UNABLE_TO_UPLOAD_AVATAR' => 'Impossibile caricare l\'immagine, accertati che non sia troppo grande e del formato consentito.',
 
+	'MOVE_ALL' => 'Sposta Tutti',
+	'MOVED_TOPICS_PREFIX' => 'Scegli un prefisso per gli argomenti spostati (opzionale)',
+
+	'TAGS_REMOVE_ITEM' => 'Rimuovi Tag',
+	'TAGS_EDIT_ITEM' => 'Salva Cambiamenti',
+	'TAGS_DELETE_ITEM' => 'Elimina questo Tag dal DB',
+	'TAGS_DELETE_CONFIRM' => 'Sei sicuro di voler rimuovere questo Tag?',
+	'TAGS_DELETED_ITEM' => 'Questo Tag sta per essere eliminato',
+	'TAGS_BREAK_EDIT' => 'Annulla',
+
+	'POST_FEATURED_IMAGE' => 'Immagine Argomento',
+	'POST_FEATURED_IMAGE_EXPLAIN' => 'Aggiungi un\'immagine all\'argomento',
+
 	)
 );
 
