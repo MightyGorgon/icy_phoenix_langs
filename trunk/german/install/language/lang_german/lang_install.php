@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'NoErrors' => 'keine Fehler',
 	'NoUpdate' => 'keine Updates benötigt',
 	'phpBB_NotDetected' => 'phpBB wurde nicht gefunden, das Skript kann nicht fortfahren. Bitte überprüfe ob du auch wirklich phpBB nutzt.',
-	'Update_Errors' => 'Einige Abfrage schlugen fehl, die Angaben und Fehler sind unten aufgeführt.',
+	'Update_Errors' => 'Einige Abfragen schlugen fehl, die Angaben und Fehler sind unten aufgeführt.',
 
 	'DBUpdate_Success' => 'Die folgende SQL wurde erfolgreich ausgeführt',
 	'DBUpdate_Errors' => 'Die folgende SQL konnte nicht ausgeführt werden',
