@@ -1277,18 +1277,6 @@ $lang = array_merge($lang, array(
 	'Welcome' => 'Willkommen',
 	'birthdays' => 'Geburtstage',
 
-//Battle of the Sexes
-	'male_zero_total' => '<b>keine</b> männliche Mitglieder', // # registered male users
-	'male_total' => '<b>%d</b> männliche Mitglieder', // # registered male users
-	'male_one_total' => '<b>%d</b> männliches Mitglied', // # registered male users
-	'female_zero_total' => 'Wir haben <b>keine</b> weiblichen Mitglieder', // # registered female users
-	'female_total' => 'Wir haben <b>%d</b> weibliche Mitglieder', // # registered female users
-	'female_one_total' => 'Wir haben <b>%d</b> weibliches Mitglied', // # registered female users
-	'unknown_total' => '&amp; <b>%d</b> Mitglieder, die es einfach nicht wissen.',
-	'unknown_one_total' => '&amp; <b>%d</b> Mitglied, welches es einfach nicht weiss.',
-	'unknown_zero_total' => '',
-	'battle_of_sexes' => 'Geschlechterkampf: ',
-
 	'who_viewed' => 'Thema angesehen von',
 	'BoardRules' => 'Regeln',
 
@@ -1567,7 +1555,7 @@ $lang = array_merge($lang, array(
 	'New' => 'N',
 	'New_Label' => 'Neu',
 	'New_Messages_Label' => 'Neue Nachrichten',
-	'Show_Personal_Gallery' => 'Zeige persönliche Foto-Galerie dieses Benutzers',
+	'Show_Personal_Gallery' => 'Persönliche Foto-Galerie',
 	'Login_Status' => 'Online Status',
 	'Login_Hidden' => 'Versteckt',
 	'Login_Visible' => 'Sichtbar',
@@ -2470,6 +2458,21 @@ $lang = array_merge($lang, array(
 	'TAGS_SEARCH_REPLACE_SRC' => 'Tag der ersetzt wird',
 	'TAGS_SEARCH_REPLACE_TGT' => 'Neuer Tag',
 	'TAGS_SEARCH_REPLACE_RESULT' => '%s Tags wurden ersetzt',
+
+	'UNABLE_TO_UPLOAD_AVATAR' => 'Das Bild kann nicht hochgeladen werden. Vergewissere dich, dass das Bild nicht zu groß ist und im erlaubten Dateiformat ist.',
+
+	'MOVE_ALL' => 'Alle verschieben',
+	'MOVED_TOPICS_PREFIX' => 'Wähle ein Themen-Präfix um Themen zu verschieben (optional)',
+
+	'TAGS_REMOVE_ITEM' => 'Tag entfernen',
+	'TAGS_EDIT_ITEM' => 'Änderungen speichern',
+	'TAGS_DELETE_ITEM' => 'Lösche diesen Tag aus der Datenbank',
+	'TAGS_DELETE_CONFIRM' => 'Bist du sicher, dass du diesen Tag löschen möchtest?',
+	'TAGS_DELETED_ITEM' => 'Dieser Tag wird gelöscht',
+	'TAGS_BREAK_EDIT' => 'Abbrechen',
+
+	'POST_FEATURED_IMAGE' => 'Besonderes Bild',
+	'POST_FEATURED_IMAGE_EXPLAIN' => 'Füge ein besonderes Bild zum Thema hinzu.',
 
 	)
 );
