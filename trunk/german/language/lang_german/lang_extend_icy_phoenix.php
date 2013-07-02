@@ -128,7 +128,7 @@ if ($lang_extend_admin)
 
 // TAB - SQL Charge
 		'IP_fast_n_furious' => 'Fast And Furious',
-		'IP_fast_n_furious_explain' => 'Bei Aktivierung dieser Option, werden einige große SQL Funktionen abgeschaltet in der Hoffnung das deine Seite dadurch schneller wird!',
+		'IP_fast_n_furious_explain' => 'Bei Aktivierung dieser Option, werden einige große SQL Funktionen abgeschaltet in der Hoffnung, dass deine Seite dadurch schneller wird!',
 
 		/*
 		'IP_db_cron' => 'Datenbank Optimierung',
@@ -139,7 +139,7 @@ if ($lang_extend_admin)
 		'IP_site_history_explain' => 'Bei Aktivierung dieser Option, werden einige zusätzlichen Statistiken in der DB gespeichert (z.B. tägliche Besuche, Beiträge, usw.)',
 
 		'IP_active_sessions' => 'Anzahl der Sessions (Sitzungen) begrenzen',
-		'IP_active_sessions_explain' => '<b>ACHTUNG:</b> Sei vorsichtig mit diesem Wert. Diese Zahl ist die maximal zulässige Anzahl von Sitzungen, wenn das Limit erreicht ist kann auf die Website nicht mehr zugegriffen werden. Laß diesen Eintrag bei 0 (NULL), wenn du dir nicht sicher bist.',
+		'IP_active_sessions_explain' => '<b>ACHTUNG:</b> Sei vorsichtig mit diesem Wert. Diese Zahl ist die maximal zulässige Anzahl von Sitzungen, wenn das Limit erreicht ist kann auf die Website nicht mehr zugegriffen werden. Lass diesen Eintrag bei 0 (NULL), wenn du dir nicht sicher bist.',
 
 		'IP_global_disable_upi2db' => 'Deaktiviere UPI2DB komplett',
 		'IP_global_disable_upi2db_explain' => 'Mit dieser Option kannst du UPI2DB vollständig abschalten, dadurch sparst du extra Speicherplatz.',
@@ -207,7 +207,7 @@ if ($lang_extend_admin)
 		'IP_index_links' => 'Links :: Forum Index',
 		'IP_index_links_explain' => 'Bei Aktivierung dieser Option, werden Links im <b>Forum Index</b> aktiviert.',
 
-		'IP_index_birthday' => 'Birthday :: Forum Index',
+		'IP_index_birthday' => 'Geburtstag :: Forum Index',
 		'IP_index_birthday_explain' => 'Bei Aktivierung dieser Option, werden die Geburtstage im <b>Forum Index</b> aktiviert.',
 
 		'IP_show_random_quote' => 'Zufallszitat :: Forum Index',
@@ -225,7 +225,7 @@ if ($lang_extend_admin)
 		'IP_spam_p_20' => '20',
 
 		'IP_spam_disable_url' => 'SPAM - Deaktiviere URLs in Beiträgen',
-		'IP_spam_disable_url_explain' => 'Diese Funktion entfernt alle URLs in den jeweiligen Beiträgen und ersetzt HTTP with H**P, solange, bis die oben angegebenen Minimalen Beiträge erreicht sind. Administratoren bekommen weiterhin den original Beitrag angezeigt.',
+		'IP_spam_disable_url_explain' => 'Diese Funktion entfernt alle URLs in den jeweiligen Beiträgen und ersetzt HTTP mit H**P, solange, bis die oben angegebenen Minimalen Beiträge erreicht sind. Administratoren bekommen weiterhin den original Beitrag angezeigt.',
 
 		'IP_spam_hide_signature' => 'SPAM - Deaktiviere Signatur und Web in Beiträgen',
 		'IP_spam_hide_signature_explain' => 'Diese Funktion versteckt die Signatur und persönliche Webseiten Informationen aller Benutzer, die die oben angegebenen Minimalen Beiträge noch nicht erreicht haben. Administratoren bekommen weiterhin die Signatur angezeigt.',
@@ -253,11 +253,11 @@ if ($lang_extend_admin)
 		'IP_allow_mods_edit_admin_posts' => 'Erlaube Moderatoren die Bearbeitung von Administrator Beiträgen',
 		'IP_allow_mods_edit_admin_posts_explain' => 'Erlaubt Moderatoren die Beiträge von Administratoren zu bearbeiten',
 
-		'IP_forum_limit_edit_time_interval' => 'Limit Edit Time Interval',
-		'IP_forum_limit_edit_time_interval_explain' => 'This sets the time interval for users to be allowed to edit own messages. Set to ZERO for no limits (feature should be enabled on a per forum basis in Forums Management). This setting will be applied to all users regardless to their number of posts, so it is different from the similar antispam feature which applies only for users who didn\'t reach a certain amount of posts.',
+		'IP_forum_limit_edit_time_interval' => 'Zeitspanne zum Ändern begrenzen',
+		'IP_forum_limit_edit_time_interval_explain' => 'Diese Einstellung betrifft Benutzer, die ihre eigenen Beiträge bearbeiten dürfen. Trage 0 (NULL) für keine Einschränkungen ein (Funktion muß über die Forum Verwaltung in jedem Forum einzeln aktiviert werden). Diese Einstellung gilt für alle Benutzer, unabhängig der Anzahl ihrer Beiträge, dadurch unterscheidet es sich von der ähnlichen Antispam-Funktion, die nur für Benutzer gilt, die noch nicht die bestimmte Anzahl an Beiträgen erreicht haben.',
 
 		'IP_force_large_caps_mods' => 'Themen-Betreff anpassen',
-		'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepaßt, indem der erste Buchstabe jedes Wortes groß geschrieben wird. (außer für Admins)',
+		'IP_force_large_caps_mods_explain' => 'Der Betreff jedes Themas wird angepasst, indem der erste Buchstabe jedes Wortes groß geschrieben wird. (außer für Admins)',
 
 		'IP_show_new_reply_posting' => 'Vor neuen Antworten-Warn-System',
 		'IP_show_new_reply_posting_explain' => 'Wenn du diese Option aktivierst, wird eine Warnung angezeigt, wenn beim Schreiben einer Antwort zwischenzeitlich ein neuer Eintrag gemacht wurde.',
@@ -267,7 +267,10 @@ if ($lang_extend_admin)
 		'MODS_ALLOWED' => 'Moderatoren können schreiben',
 
 		'IP_robots_index_topics_no_replies' => 'Aktiviere Robots Indexierung für Themen ohne Antwort',
-		'IP_robots_index_topics_no_replies_explain' => 'Wenn du diese Option aktivierst, werden Themen ohne eine Antwort von Robots NICHT indexiert (noindex), ansonsten werden diese Themen auch indexiert und sind somit in Suchmaschienen auffindbar.',
+		'IP_robots_index_topics_no_replies_explain' => 'Wenn du diese Option aktivierst, werden Themen ohne eine Antwort von Robots NICHT indexiert (noindex), ansonsten werden diese Themen auch indexiert und sind somit in Suchmaschinen auffindbar.',
+
+		'IP_use_jquery_tags' => 'TAGS :: Aktiviere jQuery Tags',
+		'IP_use_jquery_tags_explain' => 'Wenn du diese Option aktivierst, können jQuery Themen-Tags beim Schreiben oder Bearbeiten eines Themas verwendet werden (sehr effizient und schöne Tags-Eingabe).',
 
 		'IP_display_tags_box' => 'TAGS :: Themen Tags anzeigen',
 		'IP_display_tags_box_explain' => 'Bei Aktivierung dieser Option werden die Themen Tags angezeigt (Tags können zum Indexieren benutzt werden): Tags können nur von Administratoren hinzugefügt oder geändert werden (oder Moderatoren, wenn du die unten stehende Option aktiviert wird) um Spam vorzubeugen.',
@@ -283,8 +286,11 @@ if ($lang_extend_admin)
 
 		'IP_edit_notes_n' => 'maximale Bearbeitungs Anmerkungen',
 
-		'IP_always_show_edit_by' => 'Zeige in Einträgen editiert von',
-		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen  &quot;Zuletzt editiert von&hellip;&quot; in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
+		'IP_always_show_edit_by' => 'Zeige in Einträgen &quot;Zuletzt bearbeitet von&hellip;&quot;',
+		'IP_always_show_edit_by_explain' => 'Wenn du diese Option aktivierst, wird in Einträgen &quot;Zuletzt bearbeitet von&hellip;&quot; in geänderten Nachrichten angezeigt. Änderungen von Admins werden weiterhin nicht angezeigt.',
+
+		'IP_enable_featured_image' => 'Aktiviere Themen Bild',
+		'IP_enable_featured_image_explain' => 'Wenn du diese Option aktivierst, können Benutzer ein Bild hochladen, das dann als &quot;Besonderes Bild&quot; im Thema verwendet wird.',
 
 		'IP_show_social_bookmarks' => 'Öffentliche Lesezeichen',
 		'IP_show_social_bookmarks_explain' => 'Zeige Öffentliche Lesezeichen bei den Themen',
@@ -292,7 +298,7 @@ if ($lang_extend_admin)
 		'IP_link_this_topic' => 'Verlinke dieses Thema',
 		'IP_link_this_topic_explain' => 'Zeigt die &quot;Verlinke dieses Thema&quot; Box beim Lesen eines Themas.',
 
-		'IP_smilies_topic_title' => 'Smilies für Themen Titel und Beschreibung',
+		'IP_smilies_topic_title' => 'Smilies für Themen-Titel und Beschreibung',
 		'IP_smilies_topic_title_explain' => 'Bei Aktivierung dieser Option, werden Smilies für Themen Titel und Themen Beschreibung aktiviert',
 
 		'IP_enable_colorpicker' => 'Aktiviere Farbauswahl bei Einträgen',
@@ -309,10 +315,10 @@ if ($lang_extend_admin)
 		'IP_switch_poster_info_topic' => 'Zeige Poster\'s Info in Themen (Sprache, Style, etc.)',
 
 		'IP_enable_quick_quote' => 'Aktiviere Schnellzitat',
-		'IP_enable_quick_quote_explain' => 'Das Schnellzitat erlaubt den Benutzern mittels eines Klicks einen Beitrag zu zitieren. Diese Funktion verwendet Javascript. Die Aktivierung kann lange Beiträge zur Folge haben, wenn viele Beiträge mit langen Texten in den Themen vorhanden sind.',
+		'IP_enable_quick_quote_explain' => 'Das Schnellzitat erlaubt den Benutzern mittels eines Klicks einen Beitrag zu zitieren. Diese Funktion verwendet JavaScript. Die Aktivierung kann lange Beiträge zur Folge haben, wenn viele Beiträge mit langen Texten in den Themen vorhanden sind.',
 
 		'IP_allow_html_only_for_admins' => 'Aktiviere HTML nur für Administratoren',
-		'IP_allow_html_only_for_admins_explain' => 'Enabling this option will allow administrators to use HTML tags in posts. Please notice that this feature may lead to security issues or wrong page formatting if not used properly.',
+		'IP_allow_html_only_for_admins_explain' => 'Wenn diese Option aktiviert ist, können Administratorer HTML-Tags in Beiträgen verwenden. Bitte beachte, dass diese Funktion bei falscher Verwendung ein Sicherheitsrisiko sein kann bzw. zu falschen Seitendarstellung führen kann.',
 
 		'IP_enable_custom_bbcodes' => 'Aktiviere Benutzerdefinierte BBCodes',
 		'IP_enable_custom_bbcodes_explain' => 'Aktiviere die Erstellung von Benutzerdefinierten BBCodes im ACP.',
@@ -352,7 +358,7 @@ if ($lang_extend_admin)
 // TAB - Forum
 		'Lang_extend_categories_hierarchy' => 'Kategorien-Hierarchie',
 
-		'Category_attachment' => 'Angefügt an',
+		'Category_attachment' => 'Einfügen in',
 		'Category_desc' => 'Beschreibung',
 		'Category_config_error_fixed' => 'Ein Fehler in den Kategorie-Einstellungen wurde korrigiert',
 		'Attach_forum_wrong' => 'Du kannst kein Forum an ein Forum anfügen',
@@ -371,7 +377,7 @@ if ($lang_extend_admin)
 		'Forum_link_internal' => 'Icy Phoenix Prog',
 		'Forum_link_internal_explain' => 'Wähle Ja, wenn du ein Programm aufrufen möchtest, welches im Icy Phoenix Directory liegt',
 		'Forum_link_hit_count' => 'Hits Zähler',
-		'Forum_link_hit_count_explain' => 'Wähle Ja wenn du möchtest, das das Board die Klicks zählt und auch darstellt',
+		'Forum_link_hit_count_explain' => 'Wähle Ja wenn du möchtest, dass das Board die Klicks zählt und auch darstellt',
 		'Forum_link_with_attachment_deny' => 'Du kannst kein Forum als Link definieren, wenn es schon Sub-Level hat',
 		'Forum_link_with_topics_deny' => 'Du kannst kein Forum als Link definieren, wenn es schon Themen enthält',
 		'Forum_attached_to_link_denied' => 'Du kannst kein Forum oder eine Kategorie einem Forum Link zuordnen',
@@ -414,6 +420,9 @@ if ($lang_extend_admin)
 		'IP_google_analytics' => 'Google Analytics Code',
 		'IP_google_analytics_explain' => 'Füge hier deinen Google Analytics Code ein (der Javascript code der von Google zur Verfügung gestellt wird) und dieser wird automatisch im Fuß jeder Seite eingefügt.',
 
+		'IP_google_custom_search' => 'Eigener Code für Google-Suche',
+		'IP_google_custom_search_explain' => 'Gib hier deinen eigenen Code für die Google-Suche ein, damit die gsearch.php Funktion (erlaubt den Gästen die Google-Suche, um einige SQL-Abfragen zu sparen) aktiviert wird.',
+
 //Sitemap
 		'Sitemap_settings' => 'Sitemap Einstellungen',
 
@@ -452,7 +461,7 @@ if ($lang_extend_admin)
 		'Similar_topics_explain' => 'Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 
 		'IP_similar_topics' => 'Ähnliche Themen :: Ähnliche Themen aktivieren',
-		'IP_similar_topics_explain' => 'Dies ist der Hauptschalter für Ähnliche Themen. Wenn du diese Funktion nutzen möchtest, mußt du in dem jeweiligen Forum (Forum-Verwaltung) auch die Ähnliche Themen-Box aktivieren.',
+		'IP_similar_topics_explain' => 'Dies ist der Hauptschalter für Ähnliche Themen. Wenn du diese Funktion nutzen möchtest, musst du in dem jeweiligen Forum (Forum-Verwaltung) auch die Ähnliche Themen-Box aktivieren.',
 
 		'IP_similar_topics_desc' => 'Ähnliche Themen :: Auf dieser Seite kannst du die Konfiguration für die Ähnlichen Themen vornehmen.',
 
@@ -498,7 +507,7 @@ if ($lang_extend_admin)
 		'IP_cron_digests_interval_explain' => 'Diese Feature aktiviert eine PHP Emulation des CRON um die E-Mails einmal pro Stunde zu senden. Aber da es PHP Emulation basierend ist, kann es nicht immer exakt ausgeführt werden. Das bedeutet, dass die E-Mails manchmal nicht gesendet werden. Wenn dein Server CRON unterstützt dann nutze den CRON deines Server anstelle dieser Feature.<br /><br /><b>Last run: ' . (($config['cron_digests_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_digests_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_birthdays_interval' => 'Geburtstags PHP Cron',
-		'IP_cron_birthdays_interval_explain' => 'Diese Feature aktiviert eine PHP Emulation des CRON um zu versuchen, die Glückwünsche zum Geburtstag per E-AMil zu versenden. Da es PHP Emulation basierend ist, kann es nicht immer exakt ausgeführt werden. Das bedeutet, dass die E-Mails manchmal nicht gesendet werden.<br /><br /><b>Last run: ' . (($config['cron_birthdays_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_birthdays_last_run']), $config['board_timezone'])) . '</b>',
+		'IP_cron_birthdays_interval_explain' => 'Diese Feature aktiviert eine PHP Emulation des CRON um zu versuchen, die Glückwünsche zum Geburtstag per E-Mail zu versenden. Da es PHP Emulation basierend ist, kann es nicht immer exakt ausgeführt werden. Das bedeutet, dass die E-Mails manchmal nicht gesendet werden.<br /><br /><b>Last run: ' . (($config['cron_birthdays_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_birthdays_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_files_interval' => 'Dateiausführungs Cron Intervall',
 		'IP_cron_files_interval_explain' => 'Diese Art von Cron wird von dir bestimmte Dateien automatisch ausführen in dem Intervall das du bestimmst. Die Dateien die ausgeführt werden sollen müssen in <b>constants.php</b> &raquo; <b>define(\'CRON_FILES\', \'\');</b> definiert sein. Bei mehrere Dateien müssen diese mit einem Komma getrennt werden.<br /><br /><b>Letzte Ausführung: ' . (($config['cron_files_last_run'] == 0) ? 'Niemals' : create_date('d M Y H:i:s', ($config['cron_files_last_run']), $config['board_timezone'])) . '</b>',
@@ -597,7 +606,7 @@ $lang = array_merge($lang, array(
 	'Calendar_forum' => 'Den Namen des Forums unter dem Thematitel im Planer anzeigen',
 
 	'Sorry_auth_cal' => 'Nur %s kann in diesem Forum Termine in den Kalender eintragen.',
-	'Date_error' => '%d/%d/%d ist kein gültiges Datum',
+	'Date_error' => 'Tag %d, Monat %d, Jahr %d ist kein gültiges Datum',
 
 	'Event_time' => 'Termin Zeit',
 	'Minutes' => 'Minuten',

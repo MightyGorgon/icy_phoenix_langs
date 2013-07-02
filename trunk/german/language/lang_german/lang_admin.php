@@ -95,6 +95,7 @@ $lang = array_merge($lang, array(
 	'Database_size' => 'Datenbankgröße',
 	'Gzip_compression' => 'Gzip-Kompression',
 	'Not_available' => 'Nicht verfügbar',
+	'NOT_AVAILABLE' => 'Nicht verfügbar',
 
 	'ON' => 'Aktiv', // This is for Gzip compression
 	'OFF' => 'Inaktiv',
@@ -464,7 +465,7 @@ $lang = array_merge($lang, array(
 	'Admin_user_updated' => 'Benutzerprofil geändert',
 	'Click_return_useradmin' => 'Klicke %shier%s, um zur Benutzeradministration zurückzukehren.',
 //Start Quick Administrator User Options and Information MOD
-	'Click_return_userprofile' => 'Klicke %shier%s, um zum Benutzerprofil zurückzugelangen.',
+	'Click_return_userprofile' => 'Klicke %shier%s, um zum Benutzerprofil zurückzukehren.',
 //End Quick Administrator User Options and Information MOD
 	'User_delete' => 'Diesen Benutzer löschen',
 	'User_delete_explain' => 'Klicke hier, um den Benutzer zu löschen - diese Aktion kann nicht rückgängig gemacht werden.',
@@ -777,8 +778,8 @@ $lang = array_merge($lang, array(
 	'Default_avatar_users' => 'Benutzer',
 	'Default_avatar_both' => 'Beide',
 	'Default_avatar_none' => 'Niemand',
-	'Default_avatar_guests_url' => 'Pfad zum Standard-Aavatar für Gäste',
-	'Default_avatar_users_url' => 'Pfad zum Standard-Aavatar für Benutzer',
+	'Default_avatar_guests_url' => 'Pfad zum Standard-Avatar für Gäste',
+	'Default_avatar_users_url' => 'Pfad zum Standard-Avatar für Benutzer',
 
 // Start Optimize Database
 	'Optimize' => 'Optimieren',
@@ -900,7 +901,7 @@ $lang = array_merge($lang, array(
 	'LIW_max_width_explain' => 'Gib die maximale Bildbreite (in Pixeln) eines im Beitrag mittels [img] Tags eingestellten Bildes an.',
 	'LIW_empty_cache' => 'Bildabmessungs-Cache leeren',
 	'LIW_empty_cache_explain' => 'Die Cache Tabelle enthält zurzeit <b>%s</b> Einträge', // Your cache table currently contains <b>312</b> records
-	'LIW_empty_cache_note' => 'Beachte, dass das Löschen der Cache-Tabelle dazu führt, dass der MOD alle Bildabmessungen erneut einliest, was zu einer vorübergehenden Verlangsamung beim laden der Themen führen kann.',
+	'LIW_empty_cache_note' => 'Beachte, dass das Löschen der Cache-Tabelle dazu führt, dass der MOD alle Bildabmessungen erneut einliest, was zu einer vorübergehenden Verlangsamung beim Laden der Themen führen kann.',
 	'LIW_empty_cache_button' => 'Cache-Tabelle leeren',
 
 // News
@@ -1066,7 +1067,7 @@ $lang = array_merge($lang, array(
 	'Update_acronym' => 'Abkürzung aktualisieren',
 
 	'Must_enter_acronym' => 'Du musst eine Abkürzung und deren Bedeutung eingeben.',
-	'No_acronym_selected' => 'Keine Abkürzung zum bearbeiten ausgewählt',
+	'No_acronym_selected' => 'Keine Abkürzung zum Bearbeiten ausgewählt',
 
 	'Acronym_updated' => 'Die ausgewählte Abkürzung wurde erfolgreich aktualisiert',
 	'Acronym_added' => 'Die Abkürzung wurde erfolgreich hinzugefügt',
@@ -1209,7 +1210,7 @@ $lang = array_merge($lang, array(
 	'Yahoo_search_error_no_gzip' => 'Fehler: Entweder Du verwendest eine alte PHP Version, oder dein Webhost stützt kein Gzip . Bitte gehe zurück und wähle <b>Nein</b> für die <b>Die URL Liste komprimiert</b> Option.',
 	'Yahoo_search_error_unopenable_file' => 'Fehler: kann die Datei %s nicht öffnen.',
 	'Yahoo_search_error_unwritable_file' => 'Fehler: kann die Datei %s nicht überschreiben.',
-	'Yahoo_search_error_unclosable_file' => 'Fehler: kann die Datei %s nicht schliessen.',
+	'Yahoo_search_error_unclosable_file' => 'Fehler: kann die Datei %s nicht schließen.',
 	'Yahoo_search_error_update_sql' => 'Fehler: kann das Feld: %s nicht aktualisieren.',
 	'Yahoo_search_error_unknown_file_error' => 'Fehler: die Datei wurde wegen einem unbekannten Fehler nicht gespeichert.',
 	'Yahoo_search_file_done' => 'Die Verarbeitung der URL Listen Datei wurde beendet. Bitte kopiere die folgende URL und füge sie in das passende Feld in Yahoo ein:<br /><b>%s</b>',
@@ -1256,8 +1257,8 @@ $lang = array_merge($lang, array(
 	'profile_field_created' => 'Profil Feld erstellt',
 	'profile_field_updated' => 'Profil Feld aktualisiert',
 
-	'add_field_title' => 'Füge spezifische Profil Felder hinzu',
-	'edit_field_title' => 'Bearbeite spezifische Profil Felder',
+	'add_field_title' => 'Füge spezifische Profil-Felder hinzu',
+	'edit_field_title' => 'Bearbeite spezifische Profil-Felder',
 	'add_field_explain' => 'Hier kannst du neue Felder für deine Benutzer anlegen die in deren Profilen angezeigt werden.',
 	'edit_field_explain' => 'Hier kannst du Felder bearbeiten die du bereits für deine Benutzer angelegt hast.',
 
@@ -1956,7 +1957,7 @@ $lang = array_merge($lang, array(
 	'TICKET_CAT_TITLE' => 'Titel',
 	'TICKET_CAT_DES' => 'Beschreibung',
 	'TICKET_CAT_EMAILS' => 'E-Mail Adressen',
-	'TICKET_CAT_EMAILS_EXPLAIN' => 'Insert here all email addresses you want the email to be sent.<br />Separate all addresses by semicolon (a@a.com;b@b.com;c@c.com).',
+	'TICKET_CAT_EMAILS_EXPLAIN' => 'Trage hier alle E-Mail-Adressen ein, die eine E-Mail erhalten sollen.<br />Trenne alle Adressen durch ein Semikolon (a@a.com;b@b.com;c@c.com).',
 	'TICKETS_NO_TICKETS' => 'Keine Tickets',
 	'TICKETS_NO_TICKET_SEL' => 'Kein Ticket ausgewählt',
 	'TICKETS_NO_TICKET_TITLE' => 'Du mußt wenigstens einen Titel eingeben.',
@@ -1967,8 +1968,8 @@ $lang = array_merge($lang, array(
 	'TICKETS_DB_CLICK' => 'Klicke %shier%s, um zu den E-Mail Tickets zurückzukehren',
 	// Tickets Submission - END
 
-	'FORUM_LIMIT_EDIT_TIME' => 'Limit User Post Edit Time',
-	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'By enabling this option users will be allowed to edit own messages only within the limit set in Posts configuration of Icy Phoenix (ACP &raquo; Configuration &raquo; Icy Phoenix &raquo; Posting And Messages)',
+	'FORUM_LIMIT_EDIT_TIME' => 'Zeitspanne zum Ändern begrenzen',
+	'FORUM_LIMIT_EDIT_TIME_EXPLAIN' => 'Wenn du diese Funktion aktivierst, können Benutzer ihre eigenen Beiträge nur noch innerhalb der vorgebenen Zeitspanne ändern. (ACP &raquo; Konfiguration &raquo; Grundeinstellungen &raquo; Beiträge und Mitteilungen &raquo; Zeitspanne zum Ändern begrenzen)',
 
 	// Custom BBCodes - BEGIN
 	'BBCODES_CUSTOM_BBCODES' => 'Benutzerdefinierte BBCodes',
@@ -2075,6 +2076,10 @@ $lang = array_merge($lang, array(
 	'AJAX_CHAT_NOTIFICATION_EXPLAIN' => 'Wenn du diese Funktion aktivierst, wird bei einer privaten Chat-Anfrage, eine Benachrichtigung an den jeweiligen Benutzer geschickt.',
 	'AJAX_CHAT_CHECK_ONLINE' => 'Privater Chat-Link nur für Online Benutzer',
 	'AJAX_CHAT_CHECK_ONLINE_EXPLAIN' => 'Wenn du diese Funktion aktivierst, wird der private Chat-Link nur bei Benutzern angezeigt, die bereits im Chat sind. Ansonsten wird es für alle Benutzer (die online sind) auf der Website angezeigt.',
+
+	'FORUMS_SUBMIT_AUTH' => 'Berechtigungen aktualisieren',
+	'FORUMS_SUBMIT_CFG' => 'Einstellungen aktualisieren',
+	'FORUMS_SELECTION_MULTIPLE' => 'Du kannst mehr als ein Forum auswählen, indem du STRG gedrückt hälst.',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Icy Phoenix Einstellungen',
