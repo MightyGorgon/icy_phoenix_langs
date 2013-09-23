@@ -750,6 +750,7 @@ $lang = array_merge($lang, array(
 	'Wrong_next_birthday_greeting' => 'Anno del prossimo compleanno non valido! Riprovare grazie',
 	'Max_user_age' => 'Et&agrave; massima utente',
 	'Min_user_age' => 'Et&agrave; minima utente',
+	'Min_user_age_explain' => 'Questa &egrave; l\'et&agrave; minima che un utente pu&ograve; specificare nel profilo',
 	'Birthday_lookforward' => 'Compleanno nei giorni successivi',
 	'Birthday_lookforward_explain' => 'Quanti giorni avanti lo script dovr&agrave; cercare i compleanni',
 // BIRTHDAY - END

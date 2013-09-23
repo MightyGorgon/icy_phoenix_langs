@@ -2557,6 +2557,12 @@ $lang = array_merge($lang, array(
 	'POST_FEATURED_IMAGE' => 'Immagine Argomento',
 	'POST_FEATURED_IMAGE_EXPLAIN' => 'Aggiungi un\'immagine all\'argomento',
 
+	'NOT_LOGGED_IN_ERROR' => 'Devi aver effettuato il login per poter usare questa funzionalit&agrave;.',
+
+	'LOCK_POST' => 'Chiudi messaggio',
+	'POST_LOCKED' => 'Questo messaggio &egrave; stato chiuso da un moderatore, non puoi modificarlo.',
+	'POST_AUTO_SPLIT' => '[SPLIT]',
+
 	)
 );
 

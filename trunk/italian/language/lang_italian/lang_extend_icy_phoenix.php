@@ -206,6 +206,10 @@ if ($lang_extend_admin)
 		'IP_show_random_quote' => 'Citazioni Casuali :: Indice Del Forum',
 		'IP_show_random_quote_explain' => 'Attivando questa opzione verrano visualizzate le citazioni casuali nell\'<b>Indice Del Forum</b>.',
 
+// TAB - Users
+		'IP_user_allow_pm_register' => 'Abilita i MP (Messaggi Privati) per i nuovi iscritti',
+		'IP_user_allow_pm_register_explain' => 'Attivando questa opzione i nuovi iscritti potranno utilizzare i Messaggi Privati. Se questa opzione viene disattivata, i nuovi utenti non potranno utilizzare i Messaggi Privati se un amministratore non li attiva individualmente.',
+
 // Spam Section
 		'IP_spam_measures_header' => 'Misure Antispam',
 
