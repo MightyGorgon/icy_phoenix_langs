@@ -1508,7 +1508,7 @@ $lang = array_merge($lang, array(
 	'Links' => 'Links',
 	'Print_View' => 'Printable Version',
 	'Browsing_topic' => 'Users browsing this topic:',
-	'Sudoku' => 'Sudoku',
+	'SUDOKU' => 'Sudoku',
 	'Bookmarks' => 'Bookmarks',
 	'Set_Bookmark' => 'Set a bookmark for this topic',
 	'Remove_Bookmark' => 'Remove the bookmark for this topic',
@@ -2479,6 +2479,13 @@ $lang = array_merge($lang, array(
 	'LOCK_POST' => 'Lock this post',
 	'POST_LOCKED' => 'This post has been locked by a moderator, you cannot edit it.',
 	'POST_AUTO_SPLIT' => '[SPLIT]',
+
+	'SOCIAL_CONNECT' => 'You can login using your social network accounts:',
+	'SOCIAL_CONNECT_LOGIN' => 'Login with my %s account',
+	'SOCIAL_CONNECT_REGISTER_INFO' => 'Your profile will be automatically filled with the information retrieved from your profile in the social network.',
+	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Please login to link your social network account to your account',
+	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'We couldn\'t find any social network account linked with your %s account. You can either register or link an existing account with your %s account.<br /><br />Click %shere%s if you already have an account.<br/ ><br />Click %shere%s to create a new account.',
+	'FACEBOOK' => 'Facebook',
 
 	)
 );

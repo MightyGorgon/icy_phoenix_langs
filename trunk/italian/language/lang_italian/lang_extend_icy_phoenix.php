@@ -24,6 +24,7 @@ $lang = array_merge($lang, array(
 	'15_Various_Settings' => 'Impostazioni Varie',
 	'20_SQL_Charge' => 'Ottimizzazione SQL',
 	'25_Users' => 'Utenti',
+	'27_Social_Networks' => 'Social Networks',
 	'30_Posting' => 'Messaggi',
 	'40_IMG_Posting' => 'Invio Immagini',
 	'50_Hierarchy_setting' => 'Forum',
@@ -157,7 +158,7 @@ if ($lang_extend_admin)
 
 		'IP_show_thanks_viewtopic' => 'Mostra i ringraziamenti ricevuti nella visualizzazione dei messaggi',
 
-		'IP_disable_likes_posts' => 'Disattiva apprezzamento messaggi [LIKE] (Global Switch)',
+		'IP_disable_likes_posts' => 'Disattiva apprezzamento messaggi [LIKE] (Globale)',
 		'IP_disable_likes_posts_explain' => 'Questa opzione consente di disattivare completamente la possibilit&agrave; di apprezzare i singoli messaggi',
 
 		'IP_disable_topic_view' => 'Disattiva "Chi ha letto questo argomento" (Globale)',
@@ -197,9 +198,6 @@ if ($lang_extend_admin)
 		'IP_img_shoutbox' => 'Disabilita il bbcode [img][/img] nello Shoutbox',
 		'IP_img_shoutbox_explain' => 'Attivando questa opzione verr&agrave; disabilitato il bbcode [img][/img] nello Shoutbox.',
 
-		'IP_index_links' => 'Links :: Indice Del Forum',
-		'IP_index_links_explain' => 'Attivando questa opzione verranno visualizzati i Links nell\'<b>Indice Del Forum</b>.',
-
 		'IP_index_birthday' => 'Compleanni :: Indice Del Forum',
 		'IP_index_birthday_explain' => 'Attivando questa opzione verranno visualizzati i Compleanni nell\'<b>Indice Del Forum</b>.',
 
@@ -236,6 +234,16 @@ if ($lang_extend_admin)
 		'IP_time_6h' => '6 Hours',
 		'IP_time_12h' => '12 Hours',
 		'IP_time_24h' => '24 Hours',
+
+// TAB - Social networks
+		'Enable_Social_Networks_Login' => 'Abilita Login Tramite Social Networks (Globale)',
+		'Enable_Social_Networks_Login_Explain' => 'Consenti agli utenti di fare il login e di registrarsi tramite il loro account sui Social Networks.',
+		'Facebook_Login_Settings' => 'Impostazioni Facebook Login',
+		'Facebook_Login_Settings_explain' => 'Per favore segui le istruzioni per ottenere il tuo App ID e App Secret:<br />- Visita questa pagina: <a href="https://developers.facebook.com/" target="_blank">Facebook Developers Website</a>.<br />- Fai Login con il tuo account Facebook.<br />- Crea una nuova applicazione.<br />- Disattiva "Sandbox Mode".<br />- Aggiungi il tuo dominio (App Domain), senza utilizzare il prefisso http/https neanche www (esempio: icyphoenix.com).<br />- Attiva l\'opzione "Website with Facebook Login", e inserisci l\'indirizzo del tuo sito, questa volta anche utilizzando il prefisso with http/https E www (esempio: http://www.icyphoenix.com).<br />- Salva i cambiamenti.<br />- Inserisci la tua App ID e App Secret nelle caselle sottostanti.',
+		'Enable_Facebook_Login' => 'Abilita Facebook Login',
+		'Enable_Facebook_Login_explain' => 'Consente agli utenti di effettuare il login e registrarsi utilizzando il loro account Facebook. Per far funzionare questa opzione ricorda di aggiungere i dati nelle caselle sottostanti.',
+		'Facebook_App_ID' => 'App ID',
+		'Facebook_App_Secret' => 'App Secret',
 
 // TAB - Posting
 		'IP_posts_precompiled' => 'Disattiva Messaggi Precompilati Per Gli Ospiti',
@@ -476,9 +484,6 @@ if ($lang_extend_admin)
 		'IP_similar_ignore_forums_ids_explain' => 'Inserisci l\'ID dei forum che vuoi vengano ignorati dalla ricerca (ad esempio forum di test o off topics). Inserire un ID per ciascuna riga.',
 
 // TAB - Logging And Security
-		'IP_admin_protect' => 'Proteggi Account Amministratore Principale',
-		'IP_admin_protect_explain' => 'Attivando questa opzione l\'account dell\'Amministratore Principale godr&agrave; di maggior sicurezza: nessun utente potr&agrave; modificare i suoi permessi.',
-
 		'IP_ip_admins_only' => 'Mostra indirizzi IP solo agli Amministratori',
 		'IP_ip_admins_only_explain' => 'Attivando questa opzione solo gli amministratori saranno in grado di vedere gli indirizzi IP (se l\'opzione viene disattivata, anche i moderatori riusciranno a vederli).',
 

@@ -11,7 +11,9 @@
 /**
 *
 * @Extra credits for this file
-* Antonio Mercurio (roland@phpbbplus.it) www.phpbbplus.it
+* OOHOO < webdev@phpbb-tw.net >
+* Stefan2k1 and ddonker from www.portedmods.com
+* CRLin from http://mail.dhjh.tcc.edu.tw/~gzqbyr/
 *
 */
 
@@ -26,7 +28,6 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	// Links_MOD
 	'Site_links' => 'Links',
 	'Link_lock_submit_site' => 'L\'inserimento links &egrave; bloccato',
 	'Link_title' => 'Nome sito',

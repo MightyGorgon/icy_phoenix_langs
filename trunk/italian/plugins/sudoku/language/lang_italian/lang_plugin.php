@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'sudoku_reset_game' => 'Reset totale del gioco',
 	'sudoku_reset_game_text' => 'Sei sicuro di voler resettare il Sudoku? Cos&igrave; rimuoverai dal database tutti i giocatori e il gioco ricomincer&agrave; dal principio come appena installato. I Game Packs non verranno rimossi pertanto non sar&agrave; necessario reinstallarli. Questa operazione non potr&agrave; essere annullata.',
 	'sudoku_reset_game_cancelled' => 'Reset totale annullato. Non &egrave; stata effettuata alcuna modifica.',
-	'sudoku_rest_game_success' => 'Il gioco &egrave; stato totalmente resettato.',
+	'sudoku_rest_game_success' => 'Il gioco &egrave; stato totalmente azzerato.',
 	)
 );
 

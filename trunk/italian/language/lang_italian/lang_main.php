@@ -1574,7 +1574,7 @@ $lang = array_merge($lang, array(
 	'Browsing_topic' => 'Online in questo argomento:',
 
 //041
-	'Sudoku' => 'Sudoku',
+	'SUDOKU' => 'Sudoku',
 
 // Bookmarks Mod
 	'Bookmarks' => 'Segnalibri',
@@ -2562,6 +2562,13 @@ $lang = array_merge($lang, array(
 	'LOCK_POST' => 'Chiudi messaggio',
 	'POST_LOCKED' => 'Questo messaggio &egrave; stato chiuso da un moderatore, non puoi modificarlo.',
 	'POST_AUTO_SPLIT' => '[SPLIT]',
+
+	'SOCIAL_CONNECT' => 'Puoi effettuare il login utilizzando il tuo account sui social network:',
+	'SOCIAL_CONNECT_LOGIN' => 'Login con il mio account %s',
+	'SOCIAL_CONNECT_REGISTER_INFO' => 'Il tuo profilo verr&agrave; automaticamente compilato con le informazioni scaricate dal tuo profilo sul social network.',
+	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Per favore effettua il login con i dati del tuo account sul social network',
+	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'Non siamo riusciti a trovare nessun account linkato con il tuo account su %s. Puoi scegliere di registrarti o collegare il tuo account esistente con l\'account su %s.<br /><br />Clicca %sQUI%s se hai gi&agrave; un account.<br/ ><br />Clicca %squi%s per creare un nuovo account.',
+	'FACEBOOK' => 'Facebook',
 
 	)
 );
