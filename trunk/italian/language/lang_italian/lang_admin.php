@@ -2175,184 +2175,175 @@ $lang['privmsgs_type'] = $lang['PM_Type'];
 // Numbers have to be changed in all /adm/*.php files too
 
 // Configuration
-$lang['1000_Configuration'] = 'Configurazione';														// admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_lang_user_created.php, admin_upi2db.php
-$lang['100_Main_Settings'] = 'Configurazione';										// admin_config_settings.php
-$lang['110_Various_Configuration'] = 'Impostazioni Varie';								// admin_board.php
-$lang['125_Language'] = 'Variabili Lingua';																// admin_lang_user_created.php
-$lang['127_Clear_Cache'] = 'Svuotamento Cache';														// admin_board_clearcache.php
-$lang['130_UPI2DB_Mod'] = 'Messaggi Non Letti';														// admin_upi2db.php
-$lang['140_CAPTCHA'] = 'CAPTCHA';																					// admin_captcha.php
-$lang['145_Captcha_Config'] = 'Conferma Visuale';													// admin_captcha_config.php
-$lang['150_Similar_topics'] = 'Argomenti Simili';													// admin_similar_topics.php
-$lang['160_Title_infos'] = 'Gestione Titoli Veloci';											// admin_quick_title.php
-$lang['170_LIW'] = 'Larghezza Immagini';																	// admin_liw.php
-$lang['190_Spider_Bots'] = 'Spider / Bots';																// admin_bots.php
-$lang['192_Google_BOT'] = 'Google Bot';																		// admin_google_bot_detector.php
-$lang['195_Yahoo_search'] = 'Yahoo Search';																// admin_yahoo_search.php
-$lang['200_Language'] = 'Gestione Lingue';																// admin_lang_extend.php
-$lang['210_MG_Quick_Settings'] = 'Impostazioni Veloci';										// admin_board_quick_settings.php
+$lang['1000_Configuration'] = 'Configurazione'; // admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_upi2db.php
+$lang['100_Main_Settings'] = 'Configurazione'; // admin_config_settings.php
+$lang['110_Various_Configuration'] = 'Impostazioni Varie'; // admin_board.php
+$lang['115_CT_Config'] = 'Configurazione CTracker'; // admin_ctracker.php
+$lang['127_Clear_Cache'] = 'Svuotamento Cache'; // admin_board_clearcache.php
+$lang['130_UPI2DB_Mod'] = 'Messaggi Non Letti'; // admin_upi2db.php
+$lang['140_CAPTCHA'] = 'CAPTCHA'; // admin_captcha.php
+$lang['145_Captcha_Config'] = 'Conferma Visuale'; // admin_captcha_config.php
+$lang['150_Similar_topics'] = 'Argomenti Simili'; // admin_similar_topics.php
+$lang['170_LIW'] = 'Larghezza Immagini'; // admin_liw.php
+$lang['190_Spider_Bots'] = 'Spider / Bots'; // admin_bots.php
+$lang['192_Google_BOT'] = 'Google Bot'; // admin_google_bot_detector.php
+$lang['195_Yahoo_search'] = 'Yahoo Search'; // admin_yahoo_search.php
+$lang['197_HTTP_REF'] = 'HTTP Referers'; // admin_referers.php
+$lang['200_Language'] = 'Gestione Lingue'; // admin_lang_extend.php
+$lang['210_MG_Quick_Settings'] = 'Impostazioni Veloci'; // admin_board_quick_settings.php
+$lang['230_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
+$lang['240_GD_Info'] = 'GD Info'; // admin_gd_info.php
 
 // General
-$lang['1100_General'] = 'Generale'; 													// admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php
-$lang['100_Acronyms'] = 'Acronimi';														// admin_acronyms.php
-$lang['110_Autolinks'] = 'Autolinks';													// admin_autolinks.php
-$lang['120_Ads'] = 'Sponsor &amp; Pubblicit&agrave;';					// admin_ads.php
-$lang['130_Mass_Email'] = 'Email Di Gruppo';									// admin_mass_email.php
-$lang['140_Mega_Mail'] = 'Email / PM Di Gruppo';							// admin_megamail.php
-$lang['150_FTR_Config'] = 'Obbligo Lettura (FTR)';						// admin_force_read.php
-$lang['160_FTR_Users'] = 'Utenti FTR';												// admin_force_read.php
-$lang['170_Smilies'] = 'Smileys';															// admin_smilies.php
-$lang['180_Word_Censor'] = 'Censura';													// admin_words.php
-$lang['200_Notepad'] = 'Blocco Note';													// admin_notepad.php
-$lang['210_Help_Desk'] = 'Help Desk';													// admin_helpdesk.php
-$lang['220_Tickets_Emails'] = 'Categorie Email';							// admin_tickets.php
-$lang['230_Custom_BBCodes'] = 'BBCodes Personalizzati';				// admin_bbcodes.php
-$lang['240_Replace_title'] = 'Sostituisci In Posts';					// admin_replace.php
+$lang['1100_General'] = 'Generale'; // admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php, admin_lang_user_created.php
+$lang['130_Mass_Email'] = 'Email Di Gruppo'; // admin_mass_email.php
+$lang['140_Mega_Mail'] = 'Email / PM Di Gruppo'; // admin_megamail.php
+$lang['150_Custom_BBCodes'] = 'BBCodes Personalizzati'; // admin_bbcodes.php
+$lang['170_Smilies'] = 'Smileys'; // admin_smilies.php
+$lang['180_Word_Censor'] = 'Censura'; // admin_words.php
+$lang['190_Acronyms'] = 'Acronimi'; // admin_acronyms.php
+$lang['195_Autolinks'] = 'Autolinks'; // admin_autolinks.php
+$lang['200_Notepad'] = 'Blocco Note'; // admin_notepad.php
+$lang['210_Help_Desk'] = 'Help Desk'; // admin_helpdesk.php
+$lang['220_Tickets_Emails'] = 'Categorie Email'; // admin_tickets.php
+$lang['230_Language'] = 'Variabili Lingua'; // admin_lang_user_created.php
 
 // Forum
-$lang['1200_Forums'] = 'Forum';																// admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
-$lang['100_Manage'] = 'Gestione';															// admin_forums.php
-$lang['110_Manage_extend'] = 'Gestione Avanzata';							// admin_forums_extend.php
-$lang['120_Permissions_List'] = 'Lista Permessi';							// admin_forumauth_list.php
-$lang['122_Permissions_Adv'] = 'Permessi Multipli';						// admin_forumauth_adv.php
-$lang['125_Permissions_Forum'] = 'Permessi';									// admin_forumauth.php
-$lang['130_Prune'] = 'Eliminazione';													// admin_forum_prune.php
-$lang['140_Prune_Overview'] = 'Gestione Eliminazione';				// admin_prune_overview.php
-$lang['150_Topic_Shadow'] = 'Argomenti Ombra';								// admin_topic_shadow.php
-
-// eXtreme Styles
-$lang['1300_Extreme_Styles'] = 'Stile &amp; Templates';				// xs_include.php -> $module_name
-
-// DB Maintenance & Security
-$lang['1400_DB_Maintenance'] = 'DB E Sicurezza';							// admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php, admin_logs.php
-$lang['100_Actions_LOG'] = 'Log Azioni';											// admin_logs.php
-$lang['110_DB_Admin'] = 'IP MySQLAdmin';											// admin_bb_db.php
-$lang['120_Backup_DB'] = 'Backup DB';													// admin_db_utilities.php, admin_db_backup
-$lang['130_Restore_DB'] = 'Ripristina DB';										// admin_db_utilities.php, admin_db_backup
-$lang['135_Restore_DB'] = 'Ripristina DB Da File';						// admin_db_utilities.php
-$lang['140_Optimize_DB'] = 'Ottimizzazione DB';								// admin_db_utilities.php
-$lang['150_DB_Maintenance'] = 'Manutenzione DB';							// admin_db_maintenance.php
-$lang['170_db_update_generator'] = 'Generatore DB PHP';				// admin_db_generator.php
-$lang['180_msqd'] = 'MySQLDumper';														// admin_msqd.php
-
-// Plugins
-$lang['3000_Plugins'] = 'Plugins';														// admin_plugins.php
-$lang['100_Plugins_Modules'] = 'Moduli Plugins';							// admin_plugins.php
+$lang['1200_Forums'] = 'Forum'; // admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
+$lang['100_Manage'] = 'Gestione'; // admin_forums.php
+$lang['110_Manage_extend'] = 'Gestione Avanzata'; // admin_forums_extend.php
+$lang['120_Permissions_List'] = 'Lista Permessi'; // admin_forumauth_list.php
+$lang['122_Permissions_Adv'] = 'Permessi Multipli'; // admin_forumauth_adv.php
+$lang['125_Permissions_Forum'] = 'Permessi'; // admin_forumauth.php
+$lang['130_Prune'] = 'Eliminazione'; // admin_forum_prune.php
+$lang['140_Prune_Overview'] = 'Gestione Eliminazione'; // admin_prune_overview.php
+$lang['150_Topic_Shadow'] = 'Argomenti Ombra'; // admin_topic_shadow.php
+$lang['160_Title_infos'] = 'Gestione Titoli Veloci'; // admin_quick_title.php
+$lang['170_Topic_Rating_Config'] = 'Impostazione Valutazione Topic'; // admin_rate.php
+$lang['180_Topic_Rating_Auth'] = 'Permessi Valutazione Topic'; // admin_rate.php
+$lang['240_Replace_title'] = 'Sostituisci In Posts'; // admin_replace.php
+$lang['250_FTR_Config'] = 'Obbligo Lettura (FTR)'; // admin_force_read.php
+$lang['260_FTR_Users'] = 'Utenti FTR'; // admin_force_read.php
 
 // News
-$lang['1600_News_Admin'] = 'News';													// admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
-$lang['100_News_Config'] = 'Configurazione News';						// admin_news.php
-$lang['110_News_Cats'] = 'Categorie News';									// admin_news_cats.php
-$lang['120_XS_News_Config'] = 'Configurazione Ticker News';	// admin_xs_news.php
-$lang['130_XS_News'] = 'Articoli Ticker News';							// admin_xs_news.php
-$lang['140_XS_News_Tickers'] = 'Ticker News';								// admin_xs_news_xml.php
+$lang['1250_News_Admin'] = 'News'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
+$lang['100_News_Config'] = 'Configurazione News'; // admin_news.php
+$lang['110_News_Cats'] = 'Categorie News'; // admin_news_cats.php
+$lang['120_XS_News_Config'] = 'Configurazione Ticker News'; // admin_xs_news.php
+$lang['130_XS_News'] = 'Articoli Ticker News'; // admin_xs_news.php
+$lang['140_XS_News_Tickers'] = 'Ticker News'; // admin_xs_news_xml.php
 
-// Users
-$lang['1610_Users'] = 'Utenti';															// admin_account.php, admin_disallow.php, admin_email_list.php, admin_jr_admin.php, admin_postcount.php, admin_priv_msgs.php, admin_profile_fields.php, admin_ranks.php, admin_ug_auth.php, admin_user_ban.php, admin_user_bantron.php, admin_user_register.php, admin_user_search.php, admin_userlist.php, admin_users.php, admin_voting.php
-$lang['100_Jr_Admin'] = 'Junior Admin';											// admin_jr_admin.php
-$lang['110_Manage'] = 'Gestione';														// admin_users.php
-$lang['113_Permissions_Users'] = 'Permessi';								// admin_ug_auth.php
-$lang['116_CMS_Permissions_Users'] = 'Permessi CMS';				// admin_cms_auth.php
-$lang['120_Ranks'] = 'Livelli';															// admin_ranks.php
-$lang['130_Userlist'] = 'Lista Utenti';											// admin_userlist.php
-$lang['140_Email_List'] = 'Lista Email';										// admin_email_list.php
-$lang['150_Private_Messages'] = 'Messaggi Privati';					// admin_priv_msgs.php
-$lang['160_Account_active'] = 'Account Attivi';							// admin_account.php
-$lang['170_Account_inactive'] = 'Account Inattivi';					// admin_account.php
-$lang['180_Add_New_User'] = 'Aggiunta Utente';							// admin_user_register.php
-$lang['190_Prune_users'] = 'Eliminazione Utenti';						// admin_prune_users.php
-$lang['200_Disallow'] = 'Disabilita Nomi';									// admin_disallow.php
-$lang['210_Ban_Management'] = 'Espelli Utenti';							// admin_user_ban.php
-$lang['220_Bantron'] = 'Bantron';														// admin_user_bantron.php
-$lang['250_Postcount_Config'] = 'Modifica Contatori';				// admin_postcount.php
-$lang['260_CPF_Add'] = 'Aggiungi Campi Profilo';						// admin_profile_fields.php
-$lang['270_CPF_Edit'] = 'Modifica Campi Profilo';						// admin_profile_fields.php
-$lang['280_User_Search'] = 'Ricerca Utenti';								// admin_user_search.php
-$lang['290_Poll_Results'] = 'Risultati Sondaggi';						// admin_voting.php
-$lang['300_Picscount_Config'] = 'Sinc Contatori Immagini';	// admin_postcount.php
+// eXtreme Styles
+$lang['1300_Extreme_Styles'] = 'Stile &amp; Templates'; // xs_include.php -> $module_name
 
-// Groups
-$lang['1620_Groups'] = 'Gruppi';														// admin_color_groups.php, admin_groups.php, admin_ug_auth.php
-$lang['110_Manage_Groups'] = 'Gestione';										// admin_groups.php
-$lang['120_Color_Groups'] = 'Colori';												// admin_color_groups.php
-$lang['130_Permissions_Group'] = 'Permessi';								// admin_ug_auth.php
-
-// Topic Rating
-$lang['1700_Topic_Rating'] = 'Valutazioni';									// admin_rate.php
-
-// Knowledge Base
-$lang['1800_KB_title'] = 'Knowledge Base';									// admin_kb_art.php, admin_kb_auth.php, admin_kb_cat.php, admin_kb_config.php, admin_kb_custom.php, admin_kb_rebuild_search.php, admin_kb_types.php
-$lang['100_KB_Configuration'] = 'Configurazione';						// admin_kb_config.php
-$lang['110_Art_man'] = 'Gestione Articoli';									// admin_kb_art.php
-$lang['120_Cat_man'] = 'Gestione Categorie';								// admin_kb_cat.php
-$lang['130_Types_man'] = 'Tipi Articoli';										// admin_kb_types.php
-$lang['140_Custom_Field'] = 'Campi Personalizzati';					// admin_kb_custom.php
-$lang['150_Permissions'] = 'Permessi';											// admin_kb_auth.php
-$lang['160_Optimize_tables'] = 'Ottimizza Tabelle';					// admin_kb_rebuild_search.php
-
-// Attachments
-$lang['1900_Attachments'] = 'Allegati';											// admin_attach_cp.php, admin_attachments.php, admin_extensions.php
-$lang['100_Control_Panel'] = 'Pannello Di Controllo';				// admin_attach_cp.php
-$lang['110_Att_Manage'] = 'Gestione';												// admin_attachments.php
-$lang['120_Quota_limits'] = 'Gestione Quote';								// admin_attachments.php
-$lang['130_Shadow_attachments'] = 'Allegati Ombra';					// admin_attachments.php
-$lang['140_Sync_attachments'] = 'Sincronizza Allegati';			// admin_attachments.php
-$lang['150_Extension_control'] = 'Estensioni';							// admin_extensions.php
-$lang['160_Extension_group_manage'] = 'Gruppi Estensioni';	// admin_extensions.php
-$lang['170_Forbidden_extensions'] = 'Estensioni Proibite';	// admin_extensions.php
-$lang['180_Special_categories'] = 'Categorie Speciali';			// admin_attachments.php
-
-// Downloads
-$lang['2000_Downloads'] = 'Downloads';											// admin_pa_catauth.php, admin_pa_category.php, admin_pa_custom.php, admin_pa_fchecker.php, admin_pa_file.php, admin_pa_license.php, admin_pa_settings.php
-$lang['100_Settings'] = 'Configurazione';										// admin_pa_settings.php
-$lang['110_Cat_manage_title'] = 'Gestione Categorie';				// admin_pa_category.php
-$lang['120_File_manage_title'] = 'Gestione Files';					// admin_pa_file.php
-$lang['130_Fchecker'] = 'Controllo Files';									// admin_pa_fchecker.php
-$lang['140_Mfieldtitle'] = 'Campi Personalizzati';					// admin_pa_custom.php
-$lang['150_License_title'] = 'Gestione Licenze';						// admin_pa_license.php
-$lang['160_Permissions'] = 'Permessi';											// admin_pa_catauth.php
-
-// Downloads
-$lang['2050_Downloads'] = 'Downloads ADV';									// admin_pa_catauth.php, admin_pa_category.php, admin_pa_custom.php, admin_pa_fchecker.php, admin_pa_file.php, admin_pa_license.php, admin_pa_settings.php
-$lang['100_DL_Settings'] = 'Configurazione';								// admin_pa_settings.php
-
-// Links
-$lang['2100_Links'] = 'Links';															// admin_links.php, admin_links_cat.php, admin_links_config.php
-$lang['100_Configuration'] = 'Configurazione';							// admin_links_config.php
-$lang['110_Category'] = 'Gestione Categorie';								// admin_links_cat.php
-$lang['120_Add_new'] = 'Aggiungi Links';										// admin_links.php
-$lang['130_Link_Manage'] = 'Gestione Links';								// admin_links.php
-
-// Album
-$lang['2200_Photo_Album'] = 'Album Fotografico';						// admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
-$lang['110_Album_Config'] = 'Configurazione';								// admin_album_config_extended.php
-$lang['120_Album_Categories'] = 'Gestione Categorie';				// admin_album_cat.php
-$lang['130_Album_Permissions'] = 'Permessi';								// admin_album_auth.php
-$lang['140_Personal_Galleries'] = 'Gallerie Personali';			// admin_album_personal.php
-
-// FAQ
-$lang['2300_FAQ'] = 'FAQ & Regolamento';										// admin_faq_editor.php
-$lang['110_FAQ_BBCode'] = 'FAQ BBCode';											// admin_faq_editor.php
-$lang['120_FAQ_Board'] = 'FAQ Sito';												// admin_faq_editor.php
-$lang['130_FAQ_Rules'] = 'Regolamento';											// admin_faq_editor.php
-
-// INFO
-$lang['2400_INFO'] = 'Info';																// admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referers.php, admin_google_bot_detector.php
-$lang['110_Actions_LOG'] = 'Log Azioni';										// admin_logs.php
-$lang['120_PHP_INFO'] = 'PHP Info';													// admin_phpinfo.php
-$lang['130_GD_Info'] = 'GD Info';														// admin_gd_info.php
-$lang['140_HTTP_REF'] = 'HTTP Referers';										// admin_referers.php
-$lang['150_Google_BOT'] = 'Google Bot';											// admin_google_bot_detector.php
-
-// STATS
-$lang['2500_STATS'] = 'Statistiche';												// admin_statistics.php
-
-// CRACKER/TRACKER
-$lang['2600_CRACKERTRACKER'] = 'Cracker Tracker';						// admin_cracker_tracker.php
+// DB Maintenance & Security
+$lang['1400_DB_Maintenance'] = 'DB E Sicurezza'; // admin_bb_db.php, admin_db_generator.php, admin_db_maintenance.php, admin_db_utilities.php, admin_logs.php
+$lang['100_Actions_LOG'] = 'Log Azioni'; // admin_logs.php
+$lang['110_DB_Admin'] = 'IP MySQLAdmin'; // admin_bb_db.php
+$lang['120_Backup_DB'] = 'Backup DB'; // admin_db_utilities.php, admin_db_backup
+$lang['130_Restore_DB'] = 'Ripristina DB'; // admin_db_utilities.php, admin_db_backup
+$lang['135_Restore_DB'] = 'Ripristina DB Da File'; // admin_db_utilities.php
+$lang['140_Optimize_DB'] = 'Ottimizzazione DB'; // admin_db_utilities.php
+$lang['150_DB_Maintenance'] = 'Manutenzione DB'; // admin_db_maintenance.php
+$lang['170_db_update_generator'] = 'Generatore DB PHP'; // admin_db_generator.php
+$lang['180_msqd'] = 'MySQLDumper'; // admin_msqd.php
 
 // Plugins
-$lang['3000_Plugins'] = 'Plugins';														// admin_plugins.php
-$lang['100_Plugins_Modules'] = 'Moduli Plugins';							// admin_plugins.php
+$lang['3000_Plugins'] = 'Plugins'; // admin_plugins.php
+$lang['100_Plugins_Modules'] = 'Moduli Plugins'; // admin_plugins.php
+
+// Users
+$lang['1610_Users'] = 'Utenti'; // admin_account.php, admin_disallow.php, admin_email_list.php, admin_jr_admin.php, admin_postcount.php, admin_priv_msgs.php, admin_profile_fields.php, admin_ranks.php, admin_ug_auth.php, admin_user_ban.php, admin_user_bantron.php, admin_user_register.php, admin_user_search.php, admin_userlist.php, admin_users.php, admin_voting.php
+$lang['100_Jr_Admin'] = 'Junior Admin'; // admin_jr_admin.php
+$lang['110_Manage'] = 'Gestione'; // admin_users.php
+$lang['113_Permissions_Users'] = 'Permessi'; // admin_ug_auth.php
+$lang['116_CMS_Permissions_Users'] = 'Permessi CMS'; // admin_cms_auth.php
+$lang['120_Ranks'] = 'Livelli'; // admin_ranks.php
+$lang['130_Userlist'] = 'Lista Utenti'; // admin_userlist.php
+$lang['140_Email_List'] = 'Lista Email'; // admin_email_list.php
+$lang['150_Private_Messages'] = 'Messaggi Privati'; // admin_priv_msgs.php
+$lang['160_Account_active'] = 'Account Attivi'; // admin_account.php
+$lang['170_Account_inactive'] = 'Account Inattivi'; // admin_account.php
+$lang['180_Add_New_User'] = 'Aggiunta Utente'; // admin_user_register.php
+$lang['190_Prune_users'] = 'Eliminazione Utenti'; // admin_prune_users.php
+$lang['200_Disallow'] = 'Disabilita Nomi'; // admin_disallow.php
+$lang['210_Ban_Management'] = 'Espelli Utenti'; // admin_user_ban.php
+$lang['220_Bantron'] = 'Bantron'; // admin_user_bantron.php
+$lang['250_Postcount_Config'] = 'Modifica Contatori'; // admin_postcount.php
+$lang['260_CPF_Add'] = 'Aggiungi Campi Profilo'; // admin_profile_fields.php
+$lang['270_CPF_Edit'] = 'Modifica Campi Profilo'; // admin_profile_fields.php
+$lang['280_User_Search'] = 'Ricerca Utenti'; // admin_user_search.php
+$lang['290_Poll_Results'] = 'Risultati Sondaggi'; // admin_voting.php
+$lang['300_Picscount_Config'] = 'Sinc Contatori Immagini'; // admin_postcount.php
+
+// Groups
+$lang['1620_Groups'] = 'Gruppi'; // admin_color_groups.php, admin_groups.php, admin_ug_auth.php
+$lang['110_Manage_Groups'] = 'Gestione'; // admin_groups.php
+$lang['120_Color_Groups'] = 'Colori'; // admin_color_groups.php
+$lang['130_Permissions_Group'] = 'Permessi'; // admin_ug_auth.php
+
+// Knowledge Base
+$lang['1800_KB_title'] = 'Knowledge Base'; // admin_kb_art.php, admin_kb_auth.php, admin_kb_cat.php, admin_kb_config.php, admin_kb_custom.php, admin_kb_rebuild_search.php, admin_kb_types.php
+$lang['100_KB_Configuration'] = 'Configurazione'; // admin_kb_config.php
+$lang['110_Art_man'] = 'Gestione Articoli'; // admin_kb_art.php
+$lang['120_Cat_man'] = 'Gestione Categorie'; // admin_kb_cat.php
+$lang['130_Types_man'] = 'Tipi Articoli'; // admin_kb_types.php
+$lang['140_Custom_Field'] = 'Campi Personalizzati'; // admin_kb_custom.php
+$lang['150_Permissions'] = 'Permessi'; // admin_kb_auth.php
+$lang['160_Optimize_tables'] = 'Ottimizza Tabelle'; // admin_kb_rebuild_search.php
+
+// Attachments
+$lang['1900_Attachments'] = 'Allegati'; // admin_attach_cp.php, admin_attachments.php, admin_extensions.php
+$lang['100_Control_Panel'] = 'Pannello Di Controllo'; // admin_attach_cp.php
+$lang['110_Att_Manage'] = 'Gestione'; // admin_attachments.php
+$lang['120_Quota_limits'] = 'Gestione Quote'; // admin_attachments.php
+$lang['130_Shadow_attachments'] = 'Allegati Ombra'; // admin_attachments.php
+$lang['140_Sync_attachments'] = 'Sincronizza Allegati'; // admin_attachments.php
+$lang['150_Extension_control'] = 'Estensioni'; // admin_extensions.php
+$lang['160_Extension_group_manage'] = 'Gruppi Estensioni'; // admin_extensions.php
+$lang['170_Forbidden_extensions'] = 'Estensioni Proibite'; // admin_extensions.php
+$lang['180_Special_categories'] = 'Categorie Speciali'; // admin_attachments.php
+
+// Downloads
+$lang['2000_Downloads'] = 'Downloads'; // admin_pa_catauth.php, admin_pa_category.php, admin_pa_custom.php, admin_pa_fchecker.php, admin_pa_file.php, admin_pa_license.php, admin_pa_settings.php
+$lang['100_Settings'] = 'Configurazione'; // admin_pa_settings.php
+$lang['110_Cat_manage_title'] = 'Gestione Categorie'; // admin_pa_category.php
+$lang['120_File_manage_title'] = 'Gestione Files'; // admin_pa_file.php
+$lang['130_Fchecker'] = 'Controllo Files'; // admin_pa_fchecker.php
+$lang['140_Mfieldtitle'] = 'Campi Personalizzati'; // admin_pa_custom.php
+$lang['150_License_title'] = 'Gestione Licenze'; // admin_pa_license.php
+$lang['160_Permissions'] = 'Permessi'; // admin_pa_catauth.php
+
+// Downloads
+$lang['2050_Downloads'] = 'Downloads ADV'; // admin_pa_catauth.php, admin_pa_category.php, admin_pa_custom.php, admin_pa_fchecker.php, admin_pa_file.php, admin_pa_license.php, admin_pa_settings.php
+$lang['100_DL_Settings'] = 'Configurazione'; // admin_pa_settings.php
+
+// Links
+$lang['2100_Links'] = 'Links'; // admin_links.php, admin_links_cat.php, admin_links_config.php
+$lang['100_Configuration'] = 'Configurazione'; // admin_links_config.php
+$lang['110_Category'] = 'Gestione Categorie'; // admin_links_cat.php
+$lang['120_Add_new'] = 'Aggiungi Links'; // admin_links.php
+$lang['130_Link_Manage'] = 'Gestione Links'; // admin_links.php
+
+// Album
+$lang['2200_Photo_Album'] = 'Album Fotografico'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
+$lang['110_Album_Config'] = 'Configurazione'; // admin_album_config_extended.php
+$lang['120_Album_Categories'] = 'Gestione Categorie'; // admin_album_cat.php
+$lang['130_Album_Permissions'] = 'Permessi'; // admin_album_auth.php
+$lang['140_Personal_Galleries'] = 'Gallerie Personali'; // admin_album_personal.php
+
+// FAQ
+$lang['2300_FAQ'] = 'FAQ & Regolamento'; // admin_faq_editor.php
+$lang['110_FAQ_BBCode'] = 'FAQ BBCode'; // admin_faq_editor.php
+$lang['120_FAQ_Board'] = 'FAQ Sito'; // admin_faq_editor.php
+$lang['130_FAQ_Rules'] = 'Regolamento'; // admin_faq_editor.php
+
+// STATS
+$lang['2500_STATS'] = 'Statistiche'; // admin_statistics.php
+
+// Plugins
+$lang['3000_Plugins'] = 'Plugins'; // admin_plugins.php
+$lang['100_Plugins_Modules'] = 'Moduli Plugins'; // admin_plugins.php
 
 // Cash
 $lang['3100_CASH'] = 'Cash / Punti'; // admin_cash.php
@@ -2360,20 +2351,20 @@ $lang['110_Cash_Admin'] = 'Gestione Divise'; // admin_cash.php
 $lang['120_Cash_Help'] = 'Aiuto'; // admin_cash.php
 
 // Activity
-$lang['3200_ACTIVITY'] = 'Activity / Giochi';								// admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
-$lang['105_DB_Adjustments'] = 'Install. / Manutenzione';		// admin_ina_in_un.php
-$lang['110_Configuration'] = 'Configurazione';							// admin_activity.php
-$lang['120_Add_Game'] = 'Aggiunta Gioco';										// admin_activity.php
-$lang['130_Edit_Games'] = 'Modifica Giochi';								// admin_activity.php
-$lang['140_User_Ban'] = 'Espelli Utenti';										// admin_ina_ban.php
-$lang['150_Bulk_Add_Games'] = 'Aggiunta Giochi Di Massa';		// admin_ina_bulk_add.php
-$lang['160_Category'] = 'Gestione Categorie';								// admin_ina_category.php
-$lang['170_Char_Settings'] = 'Impostazioni Personaggi';			// admin_ina_char.php
-$lang['180_Hide_Show_Games'] = 'Visualizzazione Giochi';		// admin_ina_disable.php
-$lang['200_Mass_Change'] = 'Configurazioni Di Massa';				// admin_ina_mass.php
-$lang['210_Scores_Editor'] = 'Modifica Records';						// admin_ina_scores.php
-$lang['220_Xtras'] = 'Impostazioni Extra';									// admin_ina_xtras.php
-$lang['230_Check_Games'] = 'Lista Giochi';									// admin_ina_xtras.php
+$lang['3200_ACTIVITY'] = 'Activity / Giochi'; // admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
+$lang['105_DB_Adjustments'] = 'Install. / Manutenzione'; // admin_ina_in_un.php
+$lang['110_Configuration'] = 'Configurazione'; // admin_activity.php
+$lang['120_Add_Game'] = 'Aggiunta Gioco'; // admin_activity.php
+$lang['130_Edit_Games'] = 'Modifica Giochi'; // admin_activity.php
+$lang['140_User_Ban'] = 'Espelli Utenti'; // admin_ina_ban.php
+$lang['150_Bulk_Add_Games'] = 'Aggiunta Giochi Di Massa'; // admin_ina_bulk_add.php
+$lang['160_Category'] = 'Gestione Categorie'; // admin_ina_category.php
+$lang['170_Char_Settings'] = 'Impostazioni Personaggi'; // admin_ina_char.php
+$lang['180_Hide_Show_Games'] = 'Visualizzazione Giochi'; // admin_ina_disable.php
+$lang['200_Mass_Change'] = 'Configurazioni Di Massa'; // admin_ina_mass.php
+$lang['210_Scores_Editor'] = 'Modifica Records'; // admin_ina_scores.php
+$lang['220_Xtras'] = 'Impostazioni Extra'; // admin_ina_xtras.php
+$lang['230_Check_Games'] = 'Lista Giochi'; // admin_ina_xtras.php
 
 // ####################### [ ACP Navigation END ] #######################
 
