@@ -31,6 +31,7 @@ $lang = array_merge($lang, array(
 	'15_Various_Settings' => 'Diverse Einstellungen',
 	'20_SQL_Charge' => 'SQL Optimierung',
 	'25_Users' => 'Benutzer',
+	'27_Social_Networks' => 'Soziale Netzwerke',
 	'30_Posting' => 'Beiträge und Mitteilungen',
 	'40_IMG_Posting' => 'Bilder in Beiträgen',
 	'50_Hierarchy_setting' => 'Forum',
@@ -204,14 +205,15 @@ if ($lang_extend_admin)
 		'IP_img_shoutbox' => 'Deaktiviere [img][/img] BBCode in der Shoutbox',
 		'IP_img_shoutbox_explain' => 'Bei Aktivierung dieser Option, wird der [img][/img] BBCode in der Shoutbox deaktiviert.',
 
-		'IP_index_links' => 'Links :: Forum Index',
-		'IP_index_links_explain' => 'Bei Aktivierung dieser Option, werden Links im <b>Forum Index</b> aktiviert.',
-
 		'IP_index_birthday' => 'Geburtstag :: Forum Index',
 		'IP_index_birthday_explain' => 'Bei Aktivierung dieser Option, werden die Geburtstage im <b>Forum Index</b> aktiviert.',
 
 		'IP_show_random_quote' => 'Zufallszitat :: Forum Index',
 		'IP_show_random_quote_explain' => 'Bei Aktivierung dieser Option, werden die Zufallszitate im <b>Forum Index</b> angezeigt.',
+
+// TAB - Users
+		'IP_user_allow_pm_register' => 'Erlaube PN (Private Nachrichten) für neue Benutzer',
+		'IP_user_allow_pm_register_explain' => 'Bei Aktivierung dieser Option können auch neu registrierte Benutzer PN (Private NAchrichten) schreiben. Bei Deaktivierung können neue Benutzer keine PN senden, außer ein Admin erlaubt es für den jeweiligen Benutzer.',
 
 // Spam Section
 		'IP_spam_measures_header' => 'Spam Maßnahmen',
@@ -239,6 +241,16 @@ if ($lang_extend_admin)
 		'IP_time_6h' => '6 Stunden',
 		'IP_time_12h' => '12 Stunden',
 		'IP_time_24h' => '24 Stunden',
+
+// TAB - Social networks
+		'Enable_Social_Networks_Login' => 'Aktiviere soziales Netzwerk Login (Global Switch)',
+		'Enable_Social_Networks_Login_Explain' => 'Erlaube Benutzer das Anmelden und Registrieren mit ihrem bestehenden sozialen Netzwerk Konto.',
+		'Facebook_Login_Settings' => 'Facebook Login Einstellungen',
+		'Facebook_Login_Settings_explain' => 'Bitte folge diesen Anweisungen, um deine App-ID und App-Secret zu bekommen:<br />- Besuche diese Seite: <a href="https://developers.facebook.com/" target="_blank">Facebook Developers website</a>.<br />- Melde dich mit deinem Facebook Konto an.<br />- Register as a Developer<br />- Erstelle eine neue App.<br />- Deaktiviere "Sandbox-Modus".<br />- Füge deine App Domain hinzu, ohne http/https und ohne www (z.B. icyphoenix.de).<br />- Aktiviere diese Option "Webseite mit Facebook-Anmeldung" und füge deine Website-URL hinzu, mit http/https und mit www (z.B. http://www.icyphoenix.de).<br />- Speichere die Änderungen.<br />- Trage deine App ID und App Secret nachstehend ein.',
+		'Enable_Facebook_Login' => 'Aktiviere Facebook Login',
+		'Enable_Facebook_Login_explain' => 'Erlaube Benutzer das Anmelden und Registrieren mit ihrem Facebook Konto. Denke daran deine App-Daten (ID/Secret) unten einzutragen.',
+		'Facebook_App_ID' => 'App-ID',
+		'Facebook_App_Secret' => 'App-Secret',
 
 // TAB - Posting
 		'IP_posts_precompiled' => 'Deaktiviere Precompiled Beiträge für Gäste',
@@ -478,9 +490,6 @@ if ($lang_extend_admin)
 		'IP_similar_ignore_forums_ids_explain' => 'Gib die IDs der Foren an, in denen Ähnliche Themen ignoriert werden (zum Beispiel test forum, forum für talk, etc.). Eine ID pro Zeile.',
 
 // TAB - Logging And Security
-		'IP_admin_protect' => 'Schütze Hauptadmin Account',
-		'IP_admin_protect_explain' => 'Bei Aktivierung dieser Option, wird mehr Sicherheit dem Haupt Admin Account hinzugefügt',
-
 		'IP_ip_admins_only' => 'IP Adressen nur Admins anzeigen',
 		'IP_ip_admins_only_explain' => 'Bei Aktivierung dieser Option werden die IP Adressen der Benutzer in den jeweiligen Foren und Profilen nur den Administratoren angezeigt (durch Deaktivierung dieser Option können auch Moderatoren die IPs sehen).',
 

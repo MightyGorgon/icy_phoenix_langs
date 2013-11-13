@@ -1508,7 +1508,7 @@ $lang = array_merge($lang, array(
 	'Links' => 'Links',
 	'Print_View' => 'Druckansicht',
 	'Browsing_topic' => 'Benutzer in diesem Thema:',
-	'Sudoku' => 'Sudoku',
+	'SUDOKU' => 'Sudoku',
 	'Bookmarks' => 'Lesezeichen',
 	'Set_Bookmark' => 'Setze ein Lesezeichen für diese Thema',
 	'Remove_Bookmark' => 'Entferne das Lesezeichen für dieses Thema',
@@ -2473,6 +2473,19 @@ $lang = array_merge($lang, array(
 
 	'POST_FEATURED_IMAGE' => 'Besonderes Bild',
 	'POST_FEATURED_IMAGE_EXPLAIN' => 'Füge ein besonderes Bild zum Thema hinzu.',
+
+	'NOT_LOGGED_IN_ERROR' => 'Du mußt angemeldet sein, um dieses Feature nutzen zu können.',
+
+	'LOCK_POST' => 'Sperre diesen Beitrag',
+	'POST_LOCKED' => 'Dieser Beitrag wurde von einem Moderator gesperrt, du kannst ihn nicht bearbeiten.',
+	'POST_AUTO_SPLIT' => '[SPLIT]',
+
+	'SOCIAL_CONNECT' => 'Du kannst dich mit deinem sozialen Netzwerk Konto anmelden:',
+	'SOCIAL_CONNECT_LOGIN' => 'Mit meinem %s Konto anmelden.',
+	'SOCIAL_CONNECT_REGISTER_INFO' => 'Dein Profil wird automatisch mit den Informationen aus deinem sozialen Netzwerk ausgefülltn.',
+	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Bitte melde dich an, um dein soziales Netzwerk Konto mit deinem Benutzerkonto zu verlinken.',
+	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'Wir konnten kein soziales Netzwerk Konto finden, das mit deinem Benutzerkonto %s verlinkt ist. Du kannst dich entweder registrieren oder ein vorhandenes Konto mit deinem Benutzerkonto %s verlinken.<br /><br />Klicke %shier%s, falls du bereits ein Konto besitzt.<br/ ><br />Klicke %shier%s, um ein neues Konto anzulegen.',
+	'FACEBOOK' => 'Facebook',
 
 	)
 );

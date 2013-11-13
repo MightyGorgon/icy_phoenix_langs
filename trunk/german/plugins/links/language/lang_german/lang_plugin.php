@@ -30,7 +30,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'Site_links' => 'Links',
-	'Link_lock_submit_site' => 'Das Einreichen eigener Links ist nicht möglich',
+	'Link_lock_submit_site' => 'Das Einreichen eigener Links ist nicht möglich.',
 	'Link_title' => 'Seitenname',
 	'Link_desc' => 'Seitenbeschreibung',
 	'Link_url' => 'URL',
@@ -39,7 +39,7 @@ $lang = array_merge($lang, array(
 	'Links_Preview' => 'Logo-Vorschau',
 	'Link_category' => 'Kategorie',
 	'link_hits' => 'Hits',
-	'Link_us' => 'Link zu uns',
+	'Link_us' => 'Link zu uns ',
 	'Link_us_explain' => 'Wenn du zu <b>%s</b> verlinken möchtest, benutze den folgenden HTML-Code:',
 	'Link_us_syntax' => '<a href="%s" target="_blank"><img src="%s" width="%d" height="%d" border="0" alt="%s" /></a>',
 	'Link_register' => 'Seite vorschlagen',
