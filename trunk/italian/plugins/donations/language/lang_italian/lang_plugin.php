@@ -90,8 +90,18 @@ $lang = array_merge($lang, array(
 	'DONATION_PAYER_EMAIL' => 'Email',
 	'DONATION_PAYER_WEBSITE' => 'Sito Web',
 	'DONATION_PAYER_WEBSITE_TEXT' => 'Descrizione Sito Web',
+	/*
 	'DONATION_PAYER_WEBSITE_SPONSOR' => 'Mostra Link E Descrizione',
 	'DONATION_PAYER_WEBSITE_SPONSOR_EXPLAIN' => 'Selezionando questa opzione il link verr&agrave; mostrato includendo il testo (si pu&ograve; usare questa funzione per gli sponsor)',
+	*/
+	'DONATION_PAYER_WEBSITE_SPONSOR' => 'NOFOLLOW',
+	'DONATION_PAYER_WEBSITE_SPONSOR_EXPLAIN' => 'Selezionando questa opzione al link verr&agrave; aggiunto il parametro NOFOLLOW',
+	'DONATION_PAYER_WEBSITE_LINK_TYPE' => 'Tipo Link',
+	'DONATION_PAYER_WEBSITE_LINK_TYPE_EXPLAIN' => 'Scegli se vuoi mostrare il link in formato testuale o come immagine',
+	'DONATIONS_LINK_TEXT' => 'Testo',
+	'DONATIONS_LINK_IMAGE' => 'Immagine',
+	'DONATION_PAYER_WEBSITE_DISPLAY' => 'Mostra Link',
+	'DONATION_PAYER_WEBSITE_DISPLAY_EXPLAIN' => 'Abilita o disattiva il link per questa donazione',
 	'DONATION_PAYER_STATUS' => 'Stato Pagante',
 	'DONATION_FIRST_NAME' => 'Nome',
 	'DONATION_LAST_NAME' => 'Cognome',

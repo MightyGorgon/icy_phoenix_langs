@@ -800,10 +800,10 @@ $lang = array_merge($lang, array(
 	'Group_Information' => 'Informazioni Gruppo',
 	'Group_name' => 'Nome Gruppo',
 	'Group_description' => 'Descrizione Gruppo',
-	'Group_membership' => 'Appartenenza al Gruppo',
-	'Group_Members' => 'Utenti del Gruppo',
-	'Group_Moderator' => 'Moderatore Gruppo',
-	'Pending_members' => 'Nuovi iscritti in attesa',
+	'Group_membership' => 'Appartenenza Al Gruppo',
+	'Group_Members' => 'Utenti Del Gruppo',
+	'Group_Moderator' => 'Leader Del Gruppo',
+	'Pending_members' => 'Utenti In Attesa',
 
 	'Group_type' => 'Tipo di Gruppo',
 	'Group_open' => 'Gruppo Aperto',
@@ -813,6 +813,7 @@ $lang = array_merge($lang, array(
 	'Current_memberships' => 'Gruppi di cui sei membro',
 	'Non_member_groups' => 'Gruppi di cui non sei membro',
 	'Memberships_pending' => 'Gruppi in attesa di iscrizione',
+	'MEMBERSHIP_PENDING' => 'Iscrizione In Attesa',
 
 	'No_groups_exist' => 'Non esistono Gruppi',
 	'Group_not_exist' => 'Gruppo non esistente',
@@ -825,6 +826,8 @@ $lang = array_merge($lang, array(
 	'Group_request' => 'C\'&egrave; una richiesta di iscrizione al tuo Gruppo.',
 	'Group_approved' => 'La tua richiesta &egrave; stata approvata.',
 	'Group_added' => 'Sei stato aggiunto a questo Gruppo.',
+	'GROUP_ADDED_USER' => 'Utente aggiunto correttamente al Gruppo.',
+	'GROUP_REMOVED_USER' => 'Utente rimosso correttamente dal Gruppo.',
 	'Already_member_group' => 'Sei gi&agrave; iscritto a questo Gruppo',
 	'User_is_member_group' => 'L\'Utente &egrave; gi&agrave; iscritto a questo Gruppo',
 	'Group_type_updated' => 'Tipo di Gruppo aggiornato.',
@@ -833,6 +836,7 @@ $lang = array_merge($lang, array(
 	'Could_not_anon_user' => 'L\'Utente Anonimo non pu&ograve; essere iscritto ad un Gruppo.',
 
 	'Confirm_unsub' => 'Sei sicuro di volerti cancellare da questo Gruppo?',
+	'CONFIRM_UNSUB_USER' => 'Sei sicuro di voler rimuovere l\'utente da questo Gruppo?',
 	'Confirm_unsub_pending' => 'La tua iscrizione a questo Gruppo non &egrave; ancora stata approvata, sei sicuro di volerti cancellare?',
 
 	'Unsub_success' => 'Sei stato cancellato da questo Gruppo.',
@@ -2569,6 +2573,14 @@ $lang = array_merge($lang, array(
 	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Per favore effettua il login con i dati del tuo account sul social network',
 	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'Non siamo riusciti a trovare nessun account linkato con il tuo account su %s. Puoi scegliere di registrarti o collegare il tuo account esistente con l\'account su %s.<br /><br />Clicca %sQUI%s se hai gi&agrave; un account.<br/ ><br />Clicca %squi%s per creare un nuovo account.',
 	'FACEBOOK' => 'Facebook',
+
+	'IMG_BA_SHOW_ONLY_BEFORE' => 'Mostra Solo Prima',
+	'IMG_BA_SHOW_ONLY_AFTER' => 'Mostra Solo Dopo',
+
+	'GET_MORE_IMGS' => 'Mostra Altre Immagini',
+	'AJAX_REQ_SUCCESS' => 'Richiesta eseguita correttamente',
+	'AJAX_REQ_ERROR' => 'Errore nella richiesta',
+	'ALL_UPLOADED_IMAGES' => 'Tutte le immagini caricate possono essere visualizzate qui:',
 
 	)
 );

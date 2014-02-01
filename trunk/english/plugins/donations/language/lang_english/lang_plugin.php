@@ -98,8 +98,18 @@ $lang = array_merge($lang, array(
 	'DONATION_PAYER_EMAIL' => 'Payer Email',
 	'DONATION_PAYER_WEBSITE' => 'Website URL',
 	'DONATION_PAYER_WEBSITE_TEXT' => 'Website Description',
+	/*
 	'DONATION_PAYER_WEBSITE_SPONSOR' => 'Display Website URL And Text',
 	'DONATION_PAYER_WEBSITE_SPONSOR_EXPLAIN' => 'By selecting this option, website url will be displayed together with the description (in this way can be used like a sponsored link)',
+	*/
+	'DONATION_PAYER_WEBSITE_SPONSOR' => 'NOFOLLOW',
+	'DONATION_PAYER_WEBSITE_SPONSOR_EXPLAIN' => 'By selecting this option, website url will be displayed with NOFOLLOW parameter (bots won\'t index this link)',
+	'DONATION_PAYER_WEBSITE_LINK_TYPE' => 'Link Type',
+	'DONATION_PAYER_WEBSITE_LINK_TYPE_EXPLAIN' => 'Select if you want the link to be displayed as Text or Image',
+	'DONATIONS_LINK_TEXT' => 'Text Link',
+	'DONATIONS_LINK_IMAGE' => 'Image Link',
+	'DONATION_PAYER_WEBSITE_DISPLAY' => 'Show Link',
+	'DONATION_PAYER_WEBSITE_DISPLAY_EXPLAIN' => 'Enable or disable the URL for this donation',
 	'DONATION_PAYER_STATUS' => 'Payer Status',
 	'DONATION_FIRST_NAME' => 'First Name',
 	'DONATION_LAST_NAME' => 'Last Name',
