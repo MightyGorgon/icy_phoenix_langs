@@ -731,6 +731,7 @@ $lang = array_merge($lang, array(
 	'Wrong_next_birthday_greeting' => 'Das angegebene Jahr des nächsten Geburtstags-Popups war nicht korrekt. Bitte nochmal eingeben.',
 	'Max_user_age' => 'Höchstalter',
 	'Min_user_age' => 'Mindestalter',
+	'Min_user_age_explain' => 'Dies ist das Mindestalter, das ein Benutzer in seinem Profil einstellen kann.',
 	'Birthday_lookforward' => 'Geburtstagsvorschau',
 	'Birthday_lookforward_explain' => 'Anzahl der Tage, die vorausgesehen werden soll',
 // BIRTHDAY - END
@@ -2141,39 +2142,38 @@ $lang['privmsgs_type'] = $lang['PM_Type'];
 // Numbers have to be changed in all /adm/*.php files too
 
 // Configuration
-$lang['1000_Configuration'] = 'Konfiguration'; // admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_lang_user_created.php, admin_upi2db.php
+$lang['1000_Configuration'] = 'Konfiguration'; // admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_upi2db.php, admin_ctracker.php
 $lang['100_Main_Settings'] = 'Grundeinstellungen'; // admin_config_settings.php
 $lang['110_Various_Configuration'] = 'Diverse Einstellungen'; // admin_board.php
-$lang['125_Language'] = 'Sprachvariable hinzufügen'; // admin_lang_user_created.php
+$lang['115_CT_Config'] = 'CTracker Einstellungen'; // admin_ctracker.php
 $lang['127_Clear_Cache'] = 'Cache löschen'; // admin_board_clearcache.php
 $lang['130_UPI2DB_Mod'] = 'Ungelesene Beiträge'; // admin_upi2db.php
 $lang['140_CAPTCHA'] = 'CAPTCHA'; // admin_captcha.php
 $lang['145_Captcha_Config'] = 'Visuelle Bestätigung'; // admin_captcha_config.php
 $lang['150_Similar_topics'] = 'Ähnliche Themen'; // admin_similar_topics.php
-$lang['160_Title_infos'] = 'Quick Titel Verwaltung'; // admin_quick_title.php
 $lang['170_LIW'] = 'Bildbreite begrenzen'; // admin_liw.php
 $lang['190_Spider_Bots'] = 'Spider / Bots'; // admin_bots.php
 $lang['192_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
 $lang['195_Yahoo_search'] = 'Yahoo Suche'; // admin_yahoo_search.php
+$lang['197_HTTP_REF'] = 'HTTP Referers'; // admin_referers.php
 $lang['200_Language'] = 'Sprache'; // admin_lang_extend.php
 $lang['210_MG_Quick_Settings'] = 'Schnell-Einstellungen'; // admin_board_quick_settings.php
+$lang['230_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
+$lang['240_GD_Info'] = 'GD Info'; // admin_gd_info.php
 
 // General
 $lang['1100_General'] = 'Allgemein'; // admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php
-$lang['100_Acronyms'] = 'Abkürzungen'; // admin_acronyms.php
-$lang['110_Autolinks'] = 'Autolinks'; // admin_autolinks.php
-$lang['120_Ads'] = 'Banner &amp; Sponsoren'; // admin_ads.php
 $lang['130_Mass_Email'] = 'Massen-E-Mail versenden'; // admin_mass_email.php
 $lang['140_Mega_Mail'] = 'Mega Mailer / PN'; // admin_megamail.php
-$lang['150_FTR_Config'] = 'FTR Konfiguration'; // admin_force_read.php
-$lang['160_FTR_Users'] = 'FTR Benutzer'; // admin_force_read.php
+$lang['150_Custom_BBCodes'] = 'Eigene BBCodes'; // admin_bbcodes.php
 $lang['170_Smilies'] = 'Smilies'; // admin_smilies.php
 $lang['180_Word_Censor'] = 'Wortzensur'; // admin_words.php
+$lang['190_Acronyms'] = 'Abkürzungen'; // admin_acronyms.php
+$lang['195_Autolinks'] = 'Autolinks'; // admin_autolinks.php
 $lang['200_Notepad'] = 'Admin Notizblock'; // admin_notepad.php
 $lang['210_Help_Desk'] = 'Hilfestellung'; // admin_helpdesk.php
 $lang['220_Tickets_Emails'] = 'E-Mail Kategorien'; // admin_tickets.php
-$lang['230_Custom_BBCodes'] = 'Eigene BBCodes'; // admin_bbcodes.php
-$lang['240_Replace_title'] = 'Ersetzen in Beiträgen'; // admin_replace.php
+$lang['230_Language'] = 'Sprachvariable hinzufügen'; // admin_lang_user_created.php
 
 // Forum
 $lang['1200_Forums'] = 'Forum Admin'; // admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
@@ -2185,6 +2185,20 @@ $lang['125_Permissions_Forum'] = 'Berechtigungen'; // admin_forumauth.php
 $lang['130_Prune'] = 'Autom. Löschen'; // admin_forum_prune.php
 $lang['140_Prune_Overview'] = 'Auto-Löschen Übersicht'; // admin_prune_overview.php
 $lang['150_Topic_Shadow'] = 'Schatten Themen'; // admin_topic_shadow.php
+$lang['160_Title_infos'] = 'Quick Titel Verwaltung'; // admin_quick_title.php
+$lang['170_Topic_Rating_Config'] = 'Themen Bewertung Konfiguration'; // admin_rate.php
+$lang['180_Topic_Rating_Auth'] = 'Themen Bewertung Berechtigungen'; // admin_rate.php
+$lang['240_Replace_title'] = 'Ersetzen in Beiträgen'; // admin_replace.php
+$lang['250_FTR_Config'] = 'FTR Konfiguration'; // admin_force_read.php
+$lang['260_FTR_Users'] = 'FTR Benutzer'; // admin_force_read.php
+
+// News
+$lang['1250_News_Admin'] = 'News'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
+$lang['100_News_Config'] = 'News Konfiguration'; // admin_news.php
+$lang['110_News_Cats'] = 'News Kategorien'; // admin_news_cats.php
+$lang['120_XS_News_Config'] = 'News Konfiguration'; // admin_xs_news.php
+$lang['130_XS_News'] = 'News Ticker Artikel'; // admin_xs_news.php
+$lang['140_XS_News_Tickers'] = 'News Ticker'; // admin_xs_news_xml.php
 
 // eXtreme Styles
 $lang['1300_Extreme_Styles'] = 'Styles &amp; Templates'; // xs_include.php -> $module_name
@@ -2200,14 +2214,6 @@ $lang['140_Optimize_DB'] = 'Datenbank optimieren'; // admin_db_utilities.php
 $lang['150_DB_Maintenance'] = 'Datenbank-Wartung'; // admin_db_maintenance.php
 $lang['170_db_update_generator'] = 'DB Update Generator'; // admin_db_generator.php
 $lang['180_msqd'] = 'MySQLDumper'; // admin_msqd.php
-
-// News
-$lang['1600_News_Admin'] = 'News'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
-$lang['100_News_Config'] = 'News Konfiguration'; // admin_news.php
-$lang['110_News_Cats'] = 'News Kategorien'; // admin_news_cats.php
-$lang['120_XS_News_Config'] = 'News Konfiguration'; // admin_xs_news.php
-$lang['130_XS_News'] = 'News Artikel'; // admin_xs_news.php
-$lang['140_XS_News_Tickers'] = 'News Ticker'; // admin_xs_news_xml.php
 
 // Users
 $lang['1610_Users'] = 'Benutzer'; // admin_account.php, admin_disallow.php, admin_email_list.php, admin_jr_admin.php, admin_postcount.php, admin_priv_msgs.php, admin_profile_fields.php, admin_ranks.php, admin_ug_auth.php, admin_user_ban.php, admin_user_bantron.php, admin_user_register.php, admin_user_search.php, admin_userlist.php, admin_users.php, admin_voting.php
@@ -2238,9 +2244,6 @@ $lang['1620_Groups'] = 'Gruppen'; // admin_color_groups.php, admin_groups.php, a
 $lang['110_Manage_Groups'] = 'Verwalten'; // admin_groups.php
 $lang['120_Color_Groups'] = 'Gruppenfarben'; // admin_color_groups.php
 $lang['130_Permissions_Group'] = 'Berechtigungen'; // admin_ug_auth.php
-
-// Topic Rating
-$lang['1700_Topic_Rating'] = 'Themen Bewertung'; // admin_rate.php
 
 // Knowledge Base
 $lang['1800_KB_title'] = 'Wissensdatenbank'; // admin_kb_art.php, admin_kb_auth.php, admin_kb_cat.php, admin_kb_config.php, admin_kb_custom.php, admin_kb_rebuild_search.php, admin_kb_types.php
@@ -2298,19 +2301,8 @@ $lang['110_FAQ_BBCode'] = 'BBCode-FAQ'; // admin_faq_editor.php
 $lang['120_FAQ_Board'] = 'Seiten-FAQ'; // admin_faq_editor.php
 $lang['130_FAQ_Rules'] = 'Seiten-Regeln'; // admin_faq_editor.php
 
-// INFO
-$lang['2400_INFO'] = 'Info'; // admin_logs.php, admin_phpinfo.php, admin_gd_info.php, admin_referers.php, admin_google_bot_detector.php
-$lang['110_Actions_LOG'] = 'Aktionen Log'; // admin_logs.php
-$lang['120_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
-$lang['130_GD_Info'] = 'GD Info'; // admin_gd_info.php
-$lang['140_HTTP_REF'] = 'HTTP Referers'; // admin_referers.php
-$lang['150_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
-
 // STATS
 $lang['2500_STATS'] = 'Statistik'; // admin_statistics.php
-
-// CRACKER/TRACKER
-$lang['2600_CRACKERTRACKER'] = 'Cracker Tracker'; // admin_cracker_tracker.php
 
 // Plugins
 $lang['3000_Plugins'] = 'Plugins'; // admin_plugins.php
