@@ -2304,7 +2304,7 @@ $lang = array_merge($lang, array(
 	'Add_reg_explain' => '&nbsp;&bull; Contrassegna <i>Attiva</i> per mostrare un modulo di registrazione in questo messaggio. Togli il contrassegno per nascondere il modulo di registrazione.<br />&nbsp;&bull; Contrassegna <i>Azzera</i> per cancellare tutte le registrazioni effettuate.<br />&nbsp;&bull; Inserisci un numero negli <i>Spazi</i> per limitare le registrazioni per ciascuna opzione. "0" o vuoto = illimitate.',
 	'reg_activate' => 'Attiva',
 	'reg_reset' => 'Azzera',
-	'Reg_Insert' => 'Ti sei registrato per l\'evento.',
+	'Reg_Insert' => 'Registrazione aggiunta per l\'evento.',
 	'Reg_Change' => 'Registrazione modificata.',
 	'Reg_Confirm' => 'Registrazione confermata.',
 	'Reg_Unregister' => 'Registrazione annullata.',
@@ -2581,6 +2581,10 @@ $lang = array_merge($lang, array(
 	'AJAX_REQ_SUCCESS' => 'Richiesta eseguita correttamente',
 	'AJAX_REQ_ERROR' => 'Errore nella richiesta',
 	'ALL_UPLOADED_IMAGES' => 'Tutte le immagini caricate possono essere visualizzate qui:',
+
+	'EVENTS_REG_USER' => 'Aggiungi un utente all\'evento',
+
+	'NOTES_MOD' => 'Note di moderazione',
 
 	)
 );
