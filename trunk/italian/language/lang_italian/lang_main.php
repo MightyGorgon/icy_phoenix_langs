@@ -2572,7 +2572,6 @@ $lang = array_merge($lang, array(
 	'SOCIAL_CONNECT_REGISTER_INFO' => 'Il tuo profilo verr&agrave; automaticamente compilato con le informazioni scaricate dal tuo profilo sul social network.',
 	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Per favore effettua il login con i dati del tuo account sul social network',
 	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'Non siamo riusciti a trovare nessun account linkato con il tuo account su %s. Puoi scegliere di registrarti o collegare il tuo account esistente con l\'account su %s.<br /><br />Clicca %sQUI%s se hai gi&agrave; un account.<br/ ><br />Clicca %squi%s per creare un nuovo account.',
-	'FACEBOOK' => 'Facebook',
 
 	'IMG_BA_SHOW_ONLY_BEFORE' => 'Mostra Solo Prima',
 	'IMG_BA_SHOW_ONLY_AFTER' => 'Mostra Solo Dopo',
@@ -2585,6 +2584,12 @@ $lang = array_merge($lang, array(
 	'EVENTS_REG_USER' => 'Aggiungi un utente all\'evento',
 
 	'NOTES_MOD' => 'Note di moderazione',
+
+	'500PX' => '500px',
+	'GITHUB' => 'GitHub',
+	'INSTAGRAM' => 'Instagram',
+	'PINTEREST' => 'Pinterest',
+	'VIMEO' => 'Vimeo',
 
 	)
 );
