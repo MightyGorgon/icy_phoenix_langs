@@ -2202,7 +2202,7 @@ $lang = array_merge($lang, array(
 	'Reserved_Topic' => '[ ARGOMENTO RISERVATO ]',
 	'Reserved_Post' => '[ MESSAGGIO RISERVATO ]',
 
-	'THANKS_RECEIVED' => 'Ringraziamenti ricevuti',
+	'THANKS_RECEIVED' => 'Apprezzamenti ricevuti',
 
 	'RECENT_USER_ACTIVITY' => 'Attivit&agrave; recenti',
 	'USER_TOPICS_STARTED' => 'Argomenti aperti',

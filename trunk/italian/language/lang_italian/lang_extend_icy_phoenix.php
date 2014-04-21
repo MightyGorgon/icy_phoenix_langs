@@ -152,14 +152,12 @@ if ($lang_extend_admin)
 
 		'IP_enable_new_messages_number' => 'Visualizza il numero di nuovi messaggi dall\'ultima visita',
 
-		'IP_disable_thanks_topics' => 'Disattiva i ringraziamenti (Globale)',
-
-		'IP_show_thanks_profile' => 'Mostra i ringraziamenti ricevuti nel profilo',
-
-		'IP_show_thanks_viewtopic' => 'Mostra i ringraziamenti ricevuti nella visualizzazione dei messaggi',
-
 		'IP_disable_likes_posts' => 'Disattiva apprezzamento messaggi [LIKE] (Globale)',
 		'IP_disable_likes_posts_explain' => 'Questa opzione consente di disattivare completamente la possibilit&agrave; di apprezzare i singoli messaggi',
+
+		'IP_show_thanks_profile' => 'Mostra i apprezzamenti (Mi Piace) ricevuti nel profilo',
+
+		'IP_show_thanks_viewtopic' => 'Mostra i apprezzamenti (Mi Piace) ricevuti nella visualizzazione dei messaggi',
 
 		'IP_disable_topic_view' => 'Disattiva "Chi ha letto questo argomento" (Globale)',
 		'IP_disable_topic_view_explain' => 'Questa opzione consente di disattivare la funzione "Chi ha letto questo argomento" (consente di risparmiare spazio nel DB).',
