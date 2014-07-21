@@ -731,7 +731,7 @@ $lang = array_merge($lang, array(
 	'Version_up_to_date' => 'Nessun aggiornamento disponibile per la versione in uso di phpBB.',
 	'Version_up_to_date_ip' => 'Nessun aggiornamento disponibile per la versione in uso di Icy Phoenix.',
 	'Version_not_up_to_date' => 'La versione in uso <il b>non </ b>&egrave; recente. Per gli aggiornamenti disponibili visita <a href="http://www.phpbb.com/downloads.php" target="_new">http://www.phpbb.com/downloads.php</a> per vedere l\'ultima versione.',
-	'Version_not_up_to_date_ip' => 'Aggiornamenti disbponibili per la tua versione di Icy Phoenix, per cortesia visita <a href="http://www.icyphoenix.com/" target="_new">Icy Phoenix</a> per ottenere l\'ultima versione.',
+	'Version_not_up_to_date_ip' => 'Aggiornamenti disponibili per Icy Phoenix, per cortesia visita <a href="http://www.icyphoenix.com/" target="_new">Icy Phoenix</a>.',
 	'Latest_version_info' => 'L\'ultima versione disponibile &egrave; <b>phpBB %s</b>.',
 	'Current_version_info' => 'La tua Versione &egrave; <b>phpBB %s</b>.',
 	'Connect_socket_error' => 'Impossibile il collegamento a phpBB. Rapporto errore:<br />%s',
@@ -739,7 +739,7 @@ $lang = array_merge($lang, array(
 	'Socket_functions_disabled' => 'Impossibile utilizzare la funzione socket.',
 	'Mailing_list_subscribe_reminder' => 'Per le ultime informazioni su aggiornamenti a phpBB <a href="http://www.phpbb.com/support/" target="_new">iscriviti alla mailing list</a>.',
 	'Version_information' => 'Informazione Versione',
-	'Version_not_checked' => 'La verifica della versione &egrave; disabilitata, visita il sito di Icy Phoenix per informazioni su nuove versioni.',
+	'Version_not_checked' => 'La verifica della versione &egrave; disabilitata.',
 
 // BIRTHDAY - BEGIN
 	'Birthday_required' => 'Imponi agli utenti di selezionare la data di nascita',

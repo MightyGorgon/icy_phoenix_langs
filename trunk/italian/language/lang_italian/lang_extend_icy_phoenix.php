@@ -84,9 +84,6 @@ if ($lang_extend_admin)
 
 		'IP_page_gen' => 'Visualizza le statistiche di generazione pagina nel Footer',
 
-		'IP_switch_header_dropdown' => 'Attiva menu a discesa in header',
-		'IP_switch_header_dropdown_explain' => 'Questa opzione consente di attivare il menu a discesa nell\'intestazione di ogni pagina per la ricerca dei messaggi.',
-
 		'IP_show_alpha_bar' => 'Blocco Ordinamento Alfabetico Argomenti (Globale)',
 		'IP_show_alpha_bar_explain' => 'Attivando questa opzione verr&agrave; mostrata in cima alla visualizzazione dei forum una barra per l\'ordinamento alfabetico degli argomenti. La visualizzazione deve comunque essere impostata per ciascun forum nella gestione dei forum.',
 
@@ -95,9 +92,6 @@ if ($lang_extend_admin)
 
 		'IP_allow_mods_view_self' => 'Consenti accesso ad argomenti con permessi SELF AUTH a TUTTI i Moderatori',
 		'IP_allow_mods_view_self_explain' => 'Se un forum ha permessi di accesso solo per i PROPRI messaggi (SELF AUTH) soltanto gli amministratori ed i moderatori di quel forum possono visualizzare tutti i messaggi, altrimenti ciascun utente potr&agrave; visualizzare soltanto i propri messaggi. Purtroppo ci sono vie secondarie che in qualche modo consentono l\'accesso a questi messaggi "riservati", e per questo &egrave; stata programmata una funzione di controllo che consente soltanto agli amministratori di accedere a tutti i messaggi in sezioni come: Argomenti Recenti, Ricerca, Blocchi relativi a messaggi... Se vuoi consentirne l\'accesso secondario anche a TUTTI i moderatori (dunque non soltanto agli amministratori) allora abilita questa opzione. Ricorda che l\'accesso secondario non pu&ograve; essere riservato ai soli moderatori delle sezioni con SELF AUTH, perch&eacute; questo richiederebbe molto carico SQL in pi&ugrave;. Se non usi forum con permessi SELF AUTH allora non hai bisogno di questa funzione.',
-
-		'IP_xmas_fx' => 'Effetto Neve',
-		'IP_xmas_fx_explain' => 'Questa opzione abilita un JavaScript che simula l\'effetto neve.',
 
 		'IP_xmas_gfx' => 'Decorazioni Natalizie',
 		'IP_xmas_gfx_explain' => 'Attivando questa opzione verranno applicate le decorazioni natalizie sul sito (solo alcuni template supportano questa caratteristica).',

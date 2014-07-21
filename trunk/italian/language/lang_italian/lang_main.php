@@ -2343,6 +2343,7 @@ $lang = array_merge($lang, array(
 	'CLEAN_NAME' => 'Nome Regolare',
 	'CLEAN_NAME_EXPLAIN' => 'Consentiti solo caratteri alfanumerici e trattini',
 	'TOPIC_TAGS' => 'Tags E Parole Chiave',
+	'TOPIC_TAGS_REPLACE' => 'Sostituisci Tag',
 	'TOPIC_TAGS_EXPLAIN' => 'Inserire ogni tag separato da virgola',
 	'TOPIC_TAGS_CLOUDS' => 'Tags E Parole Chiave Nuvola',
 	'TOPIC_TAGS_LIST' => 'Tags E Parole Chiave Lista',
