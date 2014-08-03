@@ -495,13 +495,13 @@ if ($lang_extend_admin)
 		'IP_logs_path_explain' => 'Inserisci il percorso per la memorizzazione dei logs degli errori e di altri eventuali logs. Il percorso deve essere relativo al percorso dove &egrave; installato il sito e senza slash finale. Esempio: <b>logs</b>.',
 
 // TAB - Cron
-		'IP_cron_global_switch' => 'PHP Cron [Global Switch]',
+		'IP_cron_global_switch' => 'Cron PHP [Global Switch]',
 		'IP_cron_global_switch_explain' => 'Attivando questa opzione verr&agrave; abilitato un CRON basato su PHP: il CRON consente l\'esecuzione automatica (ad intervalli regolari) di particolari operazioni sul sito. L\'intervallo ottimale per ciascuna operazione dipende dal traffico del sito e dalle tue preferenze: se non comprendi bene l\'impatto di tali funzioni &egrave; consigliabile lasciare questa funzione disattivata, perch&eacute; probabilmente non ne hai bisogno.',
 
-		'IP_cron_digests_interval' => 'Digests PHP Cron',
+		'IP_cron_digests_interval' => 'Cron Digest',
 		'IP_cron_digests_interval_explain' => 'Questa funzione consente di abilitare un\'emulazione del CRON per l\'invio dei digests. E\' consigliabile attivarla solo se non si ha accesso al CRON sul proprio server, perch&eacute; questa funzione potrebbe non andare a buon fine in alcuni casi.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_digests_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_digests_last_run']), $config['board_timezone'])) . '</b>',
 
-		'IP_cron_birthdays_interval' => 'Digests PHP Cron',
+		'IP_cron_birthdays_interval' => 'Cron Compleanni',
 		'IP_cron_birthdays_interval_explain' => 'Questa funzione consente di abilitare un\'emulazione del CRON per l\'invio degli auguri di compleanno ogni ora. Questa funzione potrebbe non andare a buon fine in alcuni casi perch&eacute; non &egrave; un vero e proprio CRON.<br /><br /><b>Ultima esecuzione: ' . (($config['cron_birthdays_last_run'] == 0) ? 'NEVER' : create_date('d M Y  - H.i.s', ($config['cron_birthdays_last_run']), $config['board_timezone'])) . '</b>',
 
 		'IP_cron_files_interval' => 'Intervallo Esecuzione Automatica Di Files',
