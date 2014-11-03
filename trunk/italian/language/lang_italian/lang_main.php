@@ -263,7 +263,6 @@ $lang = array_merge($lang, array(
 	'Mark_all_forums' => 'Segna come gi&agrave; letti',
 	'Forums_marked_read' => 'Tutti i Forum sono stati segnati come gi&agrave; letti',
 
-
 // Viewforum
 	'View_forum' => 'Guarda Forum',
 
@@ -571,8 +570,8 @@ $lang = array_merge($lang, array(
 	'No_such_folder' => 'Questa cartella non esiste',
 	'No_folder' => 'Nessuna cartella specificata',
 
-	'Mark_all' => 'Seleziona tutti',
-	'Unmark_all' => 'Deseleziona tutti',
+	'MARK_ALL' => 'Seleziona tutti',
+	'UNMARK_ALL' => 'Deseleziona tutti',
 
 	'Confirm_delete_pm' => 'Sei sicuro di voler cancellare questo Messaggio?',
 	'Confirm_delete_pms' => 'Sei sicuro di voler cancellare questi Messaggi?',
@@ -1001,6 +1000,7 @@ $lang = array_merge($lang, array(
 	'Users_this_IP' => 'Utenti che utilizzano questo indirizzo IP',
 	'IP_info' => 'Informazioni indirizzo IP',
 	'Lookup_IP' => 'Cerca indirizzo IP',
+	'WHOIS_IP' => 'WHOIS',
 
 //
 // Errors (not related to a

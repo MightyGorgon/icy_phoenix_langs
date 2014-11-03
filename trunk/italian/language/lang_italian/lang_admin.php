@@ -1218,32 +1218,6 @@ $lang = array_merge($lang, array(
 	'auth_view_custom_pages' => 'Pagine Personalizzate',
 
 // XS BUILD 041
-// Begin Yahoo Submit Your Site MOD by www.pentapenguin.com
-	'Yahoo_search' => 'Ricerca Yahoo',
-	'Yahoo_search_settings' => 'Impostazioni Ricerca Yahoo',
-	'Yahoo_search_settings_explain' => 'Da qui puoi configurare le impostazioni per la Sottoscrizione Sito Yahoo. Per maggiori informazioni vedi <a href="http://submit.search.yahoo.com/free/request" target="_blank">Sottoscrizione Sito  Yahoo</a>.',
-	'Yahoo_search_select_forums' => 'Seleziona Forum',
-	'Yahoo_search_select_forums_explain' => 'Seleziona quali forum includere in questa lista. Puoi selezionare quanti forum desideri cliccando sul nome di ogni forum e tenendo premuto il tasto Ctrl (Windows) o il tasto Command (Macintosh). Tutti i forum che sono pubblicamente visionabili sono selezionati in modo predefinito.',
-	'Yahoo_search_savepath' => 'Percorso salvataggio lista URL',
-	'Yahoo_search_savepath_explain' => 'Immetti un percorso in cui sar&agrave; salvato il file con la lista delle URL. Immetti il percorso relativo al percorso di Icy Phoenix -- es: se salvi il file nella cartella cache <b>www.yoursite.com/cache/</b>, allora immetti <b>cache</b>. Ricordati di dare CHMOD 777 a questa cartella.',
-	'Yahoo_search_additional_urls' => 'Immetti URL aggiuntive',
-	'Yahoo_search_additional_urls_explain' => 'Immetti URL aggiuntive che vuoi vengano ispezionate da Yahoo, una per ogni riga. Devi inserire l\'URL completa -- es <b>http://www.yoursite.com/yourpage.html</b>.',
-	'Yahoo_search_compress_file' => 'Comprimi la lista delle URL',
-	'Yahoo_search_compress_file_explain' => 'Selezionando Si, la lista delle URL verr&agrave; compressa utilizzando Gzip, che garantir&agrave; un file di dimensioni minori e quindi un minor spreco di banda per il bot di Yahoo. Questa impostazione non funzioner&agrave; sui server che non supportano la compressione Gzip.',
-	'Yahoo_search_compression_level' => 'Livello di compressione del File',
-	'Yahoo_search_compression_level_explain' => 'Seleziona il livello di compressione del file. 9 &egrave; il valore raccomandato se non incontri problemi, altrimenti abbassa tale valore.',
-	'Yahoo_search_generate_file' => 'Genera File',
-	'Yahoo_search_error_no_forums' => 'Errore: non sono stati selezionati forum. Torna Indietro e selezionane almeno uno.',
-	'Yahoo_search_error_no_gzip' => 'Errore: o stai utilizzando una vecchia versione di PHP o il tuo server non supporta Gzip. Per Cortesia torna indietro e seleziona <b>No</b> in <b>Comprimi Lista URL</b>.',
-	'Yahoo_search_error_unopenable_file' => 'Errore: Impossibile Aprire il file %s.',
-	'Yahoo_search_error_unwritable_file' => 'Errore: Impossibile Scrivere il file %s.',
-	'Yahoo_search_error_unclosable_file' => 'Errore: Impossibile Chiudere il file %s.',
-	'Yahoo_search_error_update_sql' => 'Errore: Impossibile Aggiornare il Campo %s.',
-	'Yahoo_search_error_unknown_file_error' => 'Errore: il file non &egrave; stato salvato per un errore sconosciuto.',
-	'Yahoo_search_file_done' => 'La Lista delle URL &egrave; terminata. Per cortesia compia l\'URL riportata qui sotto, nel campo apposito di Yahoo:<br /><b>%s</b>',
-// Finish Yahoo Submit Your Site MOD by www.pentapenguin.com
-
-// XS BUILD 044
 	'Max_bookmarks_links' => 'Numero massimo di invii di bookmark nel link-tag',
 	'Max_bookmarks_links_explain' => 'Numero massimo di invii di bookmark nel link-tag all\'inizio del documento. Questa informazione viene usata p.e. da Mozilla. Impostare 0 per disabilitare la funzione.',
 
@@ -2175,7 +2149,7 @@ $lang['privmsgs_type'] = $lang['PM_Type'];
 // Numbers have to be changed in all /adm/*.php files too
 
 // Configuration
-$lang['1000_Configuration'] = 'Configurazione'; // admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_upi2db.php
+$lang['1000_Configuration'] = 'Configurazione'; // admin_board.php, admin_config_settings.php, admin_bots.php, admin_captcha_config.php, admin_upi2db.php
 $lang['100_Main_Settings'] = 'Configurazione'; // admin_config_settings.php
 $lang['110_Various_Configuration'] = 'Impostazioni Varie'; // admin_board.php
 $lang['115_CT_Config'] = 'Configurazione CTracker'; // admin_ctracker.php
@@ -2186,7 +2160,6 @@ $lang['145_Captcha_Config'] = 'Conferma Visuale'; // admin_captcha_config.php
 $lang['150_Similar_topics'] = 'Argomenti Simili'; // admin_similar_topics.php
 $lang['170_LIW'] = 'Larghezza Immagini'; // admin_liw.php
 $lang['190_Spider_Bots'] = 'Spider / Bots'; // admin_bots.php
-$lang['192_Google_BOT'] = 'Google Bot'; // admin_google_bot_detector.php
 $lang['195_Yahoo_search'] = 'Yahoo Search'; // admin_yahoo_search.php
 $lang['197_HTTP_REF'] = 'HTTP Referers'; // admin_referers.php
 $lang['200_Language'] = 'Gestione Lingue'; // admin_lang_extend.php

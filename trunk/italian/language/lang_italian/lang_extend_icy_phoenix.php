@@ -138,8 +138,6 @@ if ($lang_extend_admin)
 		'IP_show_forums_online_users' => 'Mostra Utenti Online Nei Forum',
 		'IP_show_forums_online_users_explain' => 'Inserisce un contatore di utenti online per ciascun forum sull\'indice',
 
-		'IP_google_bot_detector' => 'Abilita GoogleBot Detector',
-
 		'IP_gsearch_guests' => 'Forza gli ospiti ad usare la Ricerca Google',
 
 		'IP_visit_counter_switch' => 'Abilita il contatore visite',

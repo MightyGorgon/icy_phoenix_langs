@@ -114,10 +114,8 @@ $lang['Dl_edit'] = 'Modifica';
 $lang['Dl_go'] = 'Vai';
 $lang['Dl_klick_to_rate'] = 'Valuta';
 $lang['Dl_lock'] = 'Blocca';
-$lang['Dl_mark_all'] = 'Seleziona tutto';
 $lang['Dl_move'] = 'Sposta ';
 $lang['Dl_set'] = 'Imposta';
-$lang['Dl_unmark'] = 'Annulla selezione';
 $lang['Dl_up'] = 'In alto';
 $lang['Dl_delete_cat'] = 'Elimina categoria';
 
