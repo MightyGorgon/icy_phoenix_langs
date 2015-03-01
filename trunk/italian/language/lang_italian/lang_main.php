@@ -1306,6 +1306,9 @@ $lang = array_merge($lang, array(
 	'Search_Contents' => ' che contiene: ',
 	'Search_Found' => 'La ricerca ha trovato ',
 	'Search_Matches' => 'Risultati:',
+	'Newest_pic' => 'Utlima Immagine',
+	'Random_pic' => 'Immagine Casuale',
+	'Click_enlarge_pic' => 'Clicca sull\'immagine per vederla ingrandita',
 // Mighty Gorgon - Full Album Pack - END
 
 
@@ -1697,11 +1700,6 @@ $lang = array_merge($lang, array(
 
 //====================================================
 // Mighty Gorgon - LANG - BEGIN
-// Mighty Gorgon - Full Album Pack - BEGIN
-	'Newest_pic' => 'Utlima Immagine', // Album Addon
-	'Random_pic' => 'Immagine Casuale', // Album Addon
-	'Click_enlarge_pic' => 'Clicca sull\'immagine per vederla ingrandita',
-// Mighty Gorgon - Full Album Pack - END
 // Mighty Gorgon - HTTP AGENTS - BEGIN
 	'Last_Used_IP' => 'Ultimo IP',
 	'Last_Used_OS' => 'Sistema Operativo',

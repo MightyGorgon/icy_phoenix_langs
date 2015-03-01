@@ -861,7 +861,9 @@ $lang = array_merge($lang, array(
 	'Group_count_update' => 'Aggiungi/Aggiorna nuovi membri',
 	'Group_count_delete' => 'Elimina/Aggiorna vecchi utenti',
 	'User_allow_ag' => 'Attiva AutoGroup',
-	'group_count_explain' => 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno aggiunti automaticamente a questo gruppo<br /> Questo si applica solo se "Utenti aggiunti automaticamente quando postano" &egrave; abilitato',
+	'group_count_explain' => 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno <u>aggiunti</u> automaticamente a questo gruppo<br /> Questo si applica solo se "Utenti aggiunti automaticamente quando postano" &egrave; abilitato',
+	'group_count_max_explain' => 'Quando gli utenti supereranno con i loro post questo valore <i>(in qualsiasi forum)</i> saranno <u>rimossi</u> automaticamente da questo gruppo<br /> Questo si applica solo se "Utenti aggiunti automaticamente quando postano" &egrave; abilitato',
+	'autogroup_options' => 'Opzioni Gruppi Automatici',
 // Start add - Bin Mod
 	'Bin_forum' => 'Cestino',
 	'Bin_forum_explain' => 'Seleziona il forum che vuoi utilizzare come Cestino. Dovresti inoltre modificare i permessi di questo forum per consentire o meno l\'accesso agli utenti.',
@@ -2301,7 +2303,7 @@ $lang['120_Add_new'] = 'Aggiungi Links'; // admin_links.php
 $lang['130_Link_Manage'] = 'Gestione Links'; // admin_links.php
 
 // Album
-$lang['2200_Photo_Album'] = 'Album Fotografico'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
+$lang['3300_Photo_Album'] = 'Album Fotografico'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
 $lang['110_Album_Config'] = 'Configurazione'; // admin_album_config_extended.php
 $lang['120_Album_Categories'] = 'Gestione Categorie'; // admin_album_cat.php
 $lang['130_Album_Permissions'] = 'Permessi'; // admin_album_auth.php

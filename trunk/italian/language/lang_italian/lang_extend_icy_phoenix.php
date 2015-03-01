@@ -336,7 +336,7 @@ if ($lang_extend_admin)
 
 		'IP_show_img_no_gd' => 'Mostra le miniature delle immagini GIF senza ricorrere alle librerie GD (in questo modo le immagini vengono caricate integralmente e poi mostrate in versione ridotta).',
 
-		'IP_thumbnail_posts' => 'Miniature nei messaggi',
+		'IP_thumbnail_posts' => 'Miniature Nei Messaggi',
 		'IP_thumbnail_posts_explain' => 'Abilitando questa opzione nei messaggi verr&agrave; mostrata una miniature quando le immagini vengono inserite tramite il BBCode IMG',
 
 		'IP_show_pic_size_on_thumb' => 'Mostra le dimensioni dell\'immagine in basso sulla miniatura',
@@ -344,11 +344,22 @@ if ($lang_extend_admin)
 		'IP_thumbnail_highslide' => 'Attiva HighSlide se le miniature nei post sono abilitate',
 		'IP_thumbnail_highslide_explain' => 'Apri l\'immagine in una finestra Java invece che in una nuova finestra.<br />E\' necessario svuotare i messaggi precompilati dopo aver cambiato questa impostazione.',
 
-		'IP_thumbnail_cache' => 'Cache miniature',
+		'IP_thumbnail_cache' => 'Cache Miniature',
 
-		'IP_thumbnail_quality' => 'Qualit&agrave; delle miniature (1-100)',
+		'IP_thumbnail_quality' => 'Qualit&agrave; Delle Miniature (1-100)',
 
-		'IP_thumbnail_size' => 'Dimensione miniature (in pixels)',
+		'IP_thumbnail_size' => 'Dimensione Miniature Nei Messaggi (in pixels, default = 450)',
+		'IP_thumbnail_size_explain' => 'Larghezza utilizzata per ridimensionare le miniature delle immagini mostrate nei messaggi, utilizzato se l\'opzione &quot;Minaiature Nei Messaggi&quot; viene attivata',
+
+		'IP_thumbnail_s_size' => 'Dimensione Miniature Nella Lista Immagini (in pixels, default = 120)',
+		'IP_thumbnail_s_size_explain' => 'Dimensione delle miniature nella pagina Lista Immagini',
+
+		'IP_img_list_cols' => 'Colonne Lista Immagini (default = 4)',
+		'IP_img_list_cols_explain' => 'Numero di colonne mostrate nella pagina Lista Immagini',
+
+		'IP_img_list_rows' => 'Righe Lista Immagini (default = 5)',
+		'IP_img_list_cols_explain' => 'Numero di righe mostrate nella pagina Lista Immagini',
+
 
 // TAB - Forum
 		'Lang_extend_categories_hierarchy' => 'SubCategorie',

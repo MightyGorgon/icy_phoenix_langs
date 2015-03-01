@@ -82,16 +82,6 @@ $faq[] = array("Dove si trova?", "Devi effettuare il Login per usare avatar gene
 $faq[] = array("Come faccio a salvare gli avatar che ho creato?", "Ci dovrebbe essere un link sotto l'avatar generato, il link dice <strong>Clicca QUI per aggiungerlo al tuo profilo</strong> una volta che lo clicchi ti dovrebbe apparire un messaggio che ti informa a riguardo dei cambiamenti.");
 
 
-$faq[] = array("--","Album");
-$faq[] = array("Come si accede all'Album?", "Basta utilizzare il link Album nel menu di navigazione. Verrai reindirizzato nella pagina principale dell'Album, dove potrai accedere alle categorie pubbliche e alle categorie personali (eventualmente anche a quelle private se ne hai il permesso).");
-$faq[] = array("Come carico una immagine nell'Album?", "Per caricare un'immagine nell'Album &egrave; sufficiente accedere all'Album e poi cliccare sul pulsante \"Carica Immagine\" che si trova in cima ed a fondo pagina. Una volta cliccato, baster&agrave; compilare i campi richiesti e seguire le istruzioni.");
-$faq[] = array("Quali sono le dimensioni massime (in termini di altezza, larghezza, dimensione del file) consentite per il caricamento delle immagini?", "I limiti vengono visualizzati durante il caricamento delle immagini. L'amministratore pu&ograve; aver impostato diversi limiti su dimensioni e tipo di immagini.");
-$faq[] = array("Non riesco a caricare le immagini nell'Album!", "Prova di nuovo a caricarle dalla sezione \"Carica Immagine\", prestando particolare attenzione alle indicazioni presenti in quella pagina riguardo dimensioni, tipo di file e campi obbligatori. Se ancora non riesci, contatta l'amministratore del sito.");
-$faq[] = array("Ho fatto un errore nella compilazione della descrizione/titolo dell'immagine, cosa posso fare?", "Se possiedi i permessi necessari puoi modificare le informazioni relative all'immagine direttamente dalla pagina di visualizzazione.");
-$faq[] = array("Come elimino un'immagine caricata?", "Nella pagina di visualizzazione, se l'amministratore ti ha dato i permessi necessari, potrai utilizzare un apposito link per eliminare le immagini.");
-$faq[] = array("Vorrei poter esprimere il mio giudizio su alcune immagini. Come posso fare?", "Se l'amministratore lo ha consentito, dalla pagina di visualizzazione delle immagini sar&agrave; possibile inserire valutazioni e commenti.");
-
-
 $faq[] = array("--","Allegati");
 $faq[] = array("Come si aggiunge un allegato?", "Potete inserire un nuovo allegato  quando inserite un nuovo messaggio. Dovreste vedere <i>Aggiungi un allegato</i> alla fine del box del messaggio. Quando cliccate<i>Sfoglia...</i> si aprir&agrave; la finestra di dialogo sfoglia del vostro computer. Cercate il file che volete allegare, selezionatelo e cliccate OK,. Se desiderate commentare il file compilare il campo <i>Descrizione file</i> ed il commento verr&agrave; linkato al file . Se non compilate il campo commento, verr&agrave; visualizzato il nome del file. Se il forum consente gli allegati multipli, potrete proseguire sino a raggiungere il massimo consentito.<br /><br />L'amministratore del forum ha settato un limite massimo per la dimensione massima del file, ha definito le estensioni consentite ed altre funzioni.<br /> E' vostra esclusiva responsabilit&agrave; per il contenuto del file inviato.<br /><br /> Qualora il vostro file non sia coerente con la policy del forum, pu&ograve; essere cancellato senza preavviso.");
 $faq[] = array("Posso allegare un file dopo aver spedito il messaggio?", "Per aggiungere un allegato dopo aver spedito il messaggio dovete modificare il messaggio e seguire la procedura di inserimento messaggi sopra descritta. Il nuovo allegato verr&agrave; allegato quando cliccherete su <i>Invia</i> come per la modifica di un messaggio esistente.");
@@ -103,6 +93,19 @@ $faq[] = array("Credo di avere i permessi ma non riesco ad aggiungere l'allegato
 $faq[] = array("Chi pu&ograve; cancellare l'allegato?", "In qualche forum l'opzione di cancellazione degli allegati, potrebbe essere limitata a certi utenti o gruppi. Per cancellare un allegato potrebbe essere quindi necessaria una speciale autorizzazione che solo i moderatori o gli amministratori del forum possono concedere..");
 $faq[] = array("Chi pu&ograve; vedere/scaricare il file?", "In alcuni forum il download o la visione di allegati pu&ograve; essere limitata a certi utenti/gruppi. Potrebbe essere quindi necessaria una speciale autorizzazione che solo i moderatori o gli amministratori del forum possono concedere.. ");
 $faq[] = array("Chi devo contattare se verifico che un messaggio contenga un file proibito?", "Dovete contattare l'amministrazione del forum o il moderatore, indicando il messaggio ed il motivo per cui il file non &egrave; permesso. Il gruppo di sviluppo phpBB non ha alcun controllo sui forum installati e non pu&ograve; in qualsiasi modo intervenire.");
+
+
+if (!empty($config['plugins']['album']['enabled']))
+{
+	$faq[] = array("--","Album");
+	$faq[] = array("Come si accede all'Album?", "Basta utilizzare il link Album nel menu di navigazione. Verrai reindirizzato nella pagina principale dell'Album, dove potrai accedere alle categorie pubbliche e alle categorie personali (eventualmente anche a quelle private se ne hai il permesso).");
+	$faq[] = array("Come carico una immagine nell'Album?", "Per caricare un'immagine nell'Album &egrave; sufficiente accedere all'Album e poi cliccare sul pulsante \"Carica Immagine\" che si trova in cima ed a fondo pagina. Una volta cliccato, baster&agrave; compilare i campi richiesti e seguire le istruzioni.");
+	$faq[] = array("Quali sono le dimensioni massime (in termini di altezza, larghezza, dimensione del file) consentite per il caricamento delle immagini?", "I limiti vengono visualizzati durante il caricamento delle immagini. L'amministratore pu&ograve; aver impostato diversi limiti su dimensioni e tipo di immagini.");
+	$faq[] = array("Non riesco a caricare le immagini nell'Album!", "Prova di nuovo a caricarle dalla sezione \"Carica Immagine\", prestando particolare attenzione alle indicazioni presenti in quella pagina riguardo dimensioni, tipo di file e campi obbligatori. Se ancora non riesci, contatta l'amministratore del sito.");
+	$faq[] = array("Ho fatto un errore nella compilazione della descrizione/titolo dell'immagine, cosa posso fare?", "Se possiedi i permessi necessari puoi modificare le informazioni relative all'immagine direttamente dalla pagina di visualizzazione.");
+	$faq[] = array("Come elimino un'immagine caricata?", "Nella pagina di visualizzazione, se l'amministratore ti ha dato i permessi necessari, potrai utilizzare un apposito link per eliminare le immagini.");
+	$faq[] = array("Vorrei poter esprimere il mio giudizio su alcune immagini. Come posso fare?", "Se l'amministratore lo ha consentito, dalla pagina di visualizzazione delle immagini sar&agrave; possibile inserire valutazioni e commenti.");
+}
 
 
 $faq[] = array("--","Downloads ADV");
