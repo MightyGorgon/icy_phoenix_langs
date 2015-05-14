@@ -784,6 +784,7 @@ $lang = array_merge($lang, array(
 	'Current_memberships' => 'Aktuelle Mitgliedschaften',
 	'Non_member_groups' => 'Gruppen ohne deine Mitgliedschaft',
 	'Memberships_pending' => 'Warten auf Mitgliedschaft',
+	'MEMBERSHIP_PENDING' => 'Wartet auf Mitgliedschaft',
 
 	'No_groups_exist' => 'Es existieren keine Gruppen',
 	'Group_not_exist' => 'Diese Gruppe existiert nicht',
@@ -796,16 +797,19 @@ $lang = array_merge($lang, array(
 	'Group_request' => 'Eine Anfrage zum Beitritt in diese Gruppe wurde erstellt.',
 	'Group_approved' => 'Deine Anfrage wurde akzeptiert.',
 	'Group_added' => 'Du bist dieser Gruppe beigetreten.',
+	'GROUP_ADDED_USER' => 'Benutzer erfolgreich der Gruppe hinzugefügt.',
+	'GROUP_REMOVED_USER' => 'Benutzer erfolgreich aus der Gruppe entfernt.',
 	'Already_member_group' => 'Du bist bereits Mitglied dieser Gruppe.',
 	'User_is_member_group' => 'Dieser Benutzer ist bereits ein Mitglied dieser Gruppe.',
 	'Group_type_updated' => 'Gruppentyp wurde erfolgreich aktualisiert.',
 	'Could_not_add_user' => 'Die gewählte Gruppe existiert nicht.',
 	'Could_not_anon_user' => 'Ein anonymer Benutzer kann kein Gruppenmitglied werden.',
 	'Confirm_unsub' => 'Bist du sicher, dass du die Mitgliedschaft in dieser Gruppe beenden möchtest?',
+	'CONFIRM_UNSUB_USER' => 'Bist du sicher, dass du diesen Benutzer aus der Gruppe entfernen möchtest?',
 	'Confirm_unsub_pending' => 'Deine Anmeldung bei der Gruppe wurde noch nicht bestätigt, möchtest du wirklich austreten?',
 	'Unsub_success' => 'Du wurdest aus dieser Gruppe abgemeldet.',
 	'Approve_selected' => 'Akzeptierte ausgewählt',
-	'Deny_selected' => 'Gewählte löschen',
+	'Deny_selected' => 'Ausgewählte löschen',
 	'Not_logged_in' => 'Du musst eingeloggt sein, um einer Gruppe beizutreten.',
 	'Remove_selected' => 'Ausgewählte entfernen',
 	'Add_member' => 'Mitglied hinzufügen',
@@ -2211,17 +2215,17 @@ $lang = array_merge($lang, array(
 	'CONTACTS' => 'Kontakte',
 
 	// Event Registration - BEGIN
-	'Reg_Title' => 'Event Anmeldung',
-	'Post_Registration' => 'Event Anmeldung',
-	'Add_registration' => 'Eine Event Anmeldung hinzufügen',
-	'Add_reg_explain' => '&nbsp;&bull; Wähle <i>Aktivieren</i> um ein Registrierungsformular mit diesem Posting anzuzeigen. Entferne den Haken bei <i>Aktivieren</i> um es zu verstecken.<br />&nbsp;&bull; Wähle <i>Zurücksetzen</i> um alle gegenwärtigen Registrierungen für dieses Formular zu löschen.<br />&nbsp;&bull; Gib eine Zahl in <i>Plätze</i> ein, um Registrierungen für eine Option zu beschränken. &quot;0&quot; oder leer = unendlich',
+	'Reg_Title' => 'Event-Anmeldung',
+	'Post_Registration' => 'Event-Anmeldung',
+	'Add_registration' => 'Eine Event-Anmeldung hinzufügen',
+	'Add_reg_explain' => '&nbsp;&bull; Wähle <i>Aktivieren</i> um eine Event-Anmeldung bei diesem Beitrag anzuzeigen. Entferne den Haken bei <i>Aktivieren</i> um die Anmeldung zu verstecken.<br />&nbsp;&bull; Wähle <i>Zurücksetzen</i> um alle gegenwärtigen Event-Anmeldungen für diesen Beitrag zu löschen.<br />&nbsp;&bull; Gib eine Zahl in <i>Plätze</i> ein, um die Event-Anmeldungen für eine Option zu beschränken. &quot;0&quot; oder leer = unendlich',
 	'reg_activate' => 'Aktivieren',
 	'reg_reset' => 'Zurücksetzen',
-	'Reg_Insert' => 'Du bist für das Event angemeldet.',
+	'Reg_Insert' => 'Anmeldung wurde dem Event hinzugefügt.',
 	'Reg_Change' => 'Anmeldung wurde geändert.',
 	'Reg_Confirm' => 'Anmeldung wurde bestätigt.',
 	'Reg_Unregister' => 'Anmeldung wurde entfernt.',
-	'Reg_Max_Registrations' => 'Das Maximum von Registrierungen für diese Option ist erreicht. Es werden keine weiteren Registrierungen mehr akzeptiert.',
+	'Reg_Max_Registrations' => 'Das Maximum von Event-Anmeldungen für diese Option ist erreicht. Es werden keine weiteren Anmeldungen mehr akzeptiert.',
 	'Reg_No_Slots_Left' => 'Es sind leider keine Plätze mehr frei.',
 	'Reg_One_Slot_Left' => 'Es ist noch ein Platz frei.',
 	'Reg_Slots_Left' => '%s Plätze sind noch frei.',
@@ -2239,7 +2243,7 @@ $lang = array_merge($lang, array(
 	'Reg_Head_Time' => 'Datum:',
 	'Reg_for' => 'Anmeldung läuft für',
 	'Reg_for_explain' => '[ Gib 0 ein, oder freilassen für eine endlose Registrierung ]',
-	'Reg_no_options_specified' => 'Du musst eine Option auswählen, für die du dich registrieren möchtest.',
+	'Reg_no_options_specified' => 'Du musst eine Option auswählen, für die du dich anmelden möchtest.',
 	'Reg_event_date' => '<b>Event Datum: </b>',
 	// Event Registration - END
 
@@ -2486,6 +2490,18 @@ $lang = array_merge($lang, array(
 	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Bitte melde dich an, um dein soziales Netzwerk Konto mit deinem Benutzerkonto zu verlinken.',
 	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'Wir konnten kein soziales Netzwerk Konto finden, das mit deinem Benutzerkonto %s verlinkt ist. Du kannst dich entweder registrieren oder ein vorhandenes Konto mit deinem Benutzerkonto %s verlinken.<br /><br />Klicke %shier%s, falls du bereits ein Konto besitzt.<br/ ><br />Klicke %shier%s, um ein neues Konto anzulegen.',
 	'FACEBOOK' => 'Facebook',
+
+	'IMG_BA_SHOW_ONLY_BEFORE' => 'Zeige Nur Vorher',
+	'IMG_BA_SHOW_ONLY_AFTER' => 'Zeige Nur Nachher',
+
+	'GET_MORE_IMGS' => 'Mehr Bilder anzeigen',
+	'AJAX_REQ_SUCCESS' => 'Abfrage erfolgreich',
+	'AJAX_REQ_ERROR' => 'Fehler bei der Verarbeitung der Abfrage',
+	'ALL_UPLOADED_IMAGES' => 'Alle hochgeladenen Bilder sind hier zu finden:',
+
+	'EVENTS_REG_USER' => 'Füge einen Benutzer diesem Event hinzu',
+
+	'NOTES_MOD' => 'Moderator Notizen',
 
 	)
 );

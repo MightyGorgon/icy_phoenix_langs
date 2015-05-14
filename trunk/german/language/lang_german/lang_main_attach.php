@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 // Posting/PM -> Initial Display
 	'Attach_posting_cp' => 'Anhänge hinzufügen Kontrollzentrum',
-	'Attach_posting_cp_explain' => 'Wenn du auf &quot;Einen Anhang hinzufügen&quot; klickst, kannst du in der erscheinenden Box Anhänge hinzufügen.<br /> Wenn du auf &quot;Bereits angehängte Dateien&qout; klickst, siehst du eine Liste mit bereits angehängte Dateien und kannst diese bearbeiten.<br />Wenn du einen Anhang ersetzen möchtes (neuere Version hochladen), musst du beide Links anklicken. Füge den Anhang wie immer ein, aber klicke nicht auf &quot;Anhang hinzufügen&quot; sondern klicke bei dem zu aktualisierenden Anhang auf &quot;<b>Neue Version hochladen</b>&quot;',
+	'Attach_posting_cp_explain' => 'Wenn du auf &quot;Einen Anhang hinzufügen&quot; klickst, kannst du in der erscheinenden Box Anhänge hinzufügen.<br /> Wenn du auf &quot;Bereits angehängte Dateien&quot; klickst, siehst du eine Liste der bereits angehängten Dateien und kannst diese bearbeiten.<br />Wenn du einen Anhang ersetzen möchtest (neuere Version hochladen), musst du beide Links anklicken. Füge den Anhang wie immer ein, aber klicke nicht auf &quot;Anhang hinzufügen&quot; sondern klicke bei dem zu aktualisierenden Anhang auf &quot;<b>Neue Version hochladen</b>&quot;',
 
 // Posting/PM -> Posting Attachments
 	'Add_attachment' => 'Anhang hinzufügen',
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 // Errors -> Posting Attachments
 	'Invalid_filename' => '%s ist ein ungültiger Dateiname.', // replace %s with given filename
 	'Attachment_php_size_na' => 'Der Anhang ist zu groß.<br />Die maximale in PHP definierte Dateigröße konnte nicht erkannt werden.<br />Der Attachment Mod ist nicht in der Lage, die in <i>php.ini</i> definierte maximale Upload-Größe zu erkennen.',
-	'Attachment_php_size_overrun' => 'Der Anhang ist zu groß.<br />Maximale Upload-Größe: %d MB.<br />Bitte beachte, dass diese Größe in der Datei <i>php.ini</i> definiert ist. Das bedeutet, dass der Wert von PHP gesetzt ist und vom Attachment Mod nicht überschireben werden kann.', // replace %d with ini_get('upload_max_filesize')
+	'Attachment_php_size_overrun' => 'Der Anhang ist zu groß.<br />Maximale Upload-Größe: %d MB.<br />Bitte beachte, dass diese Größe in der Datei <i>php.ini</i> definiert ist. Das bedeutet, dass der Wert von PHP gesetzt ist und vom Attachment Mod nicht überschrieben werden kann.', // replace %d with ini_get('upload_max_filesize')
 	'FileType_Mismatch' => 'Datei-Typ Fehleranpassung',
 	'Disallowed_extension' => 'Die Erweiterung %s ist nicht erlaubt', // replace %s with extension (e.g. .php)
 	'Disallowed_extension_within_forum' => 'Du darfst keine Dateien mit der Erweiterung <b>%s</b> in diesem Forum hochladen.', // replace %s with the Extension
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'Attach_quota_receiver_pm_reached' => 'Die maximale Größe für alle Anhänge im Ordner für Private Nachrichten von <b>%s</b> wurde erreicht. Bitte informiere ihn/sie darüber, oder warte, bis er/sie einige Anhänge gelöscht hat.',
 
 // Errors -> Download
-	'No_attachment_selected' => 'Du hast keinen Anhang zum herunterladen oder ansehen ausgewählt.',
+	'No_attachment_selected' => 'Du hast keinen Anhang zum Herunterladen oder Ansehen ausgewählt.',
 	'Error_no_attachment' => 'Der ausgewählte Anhang existiert nicht mehr.',
 
 // Delete Attachments
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'User_acp_title' => 'Benutzer ACP',
 	'UACP' => 'Benutzer-Anhang-Kontrollzentrum',
 	'User_uploaded_profile' => 'Hochgeladen: %s',
-	'User_quota_profile' => 'Quota: %s',
+	'User_quota_profile' => 'Kontingent: %s',
 	'Upload_percent_profile' => '%d%% vom Gesamten',
 
 // Common Variables
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	'Not_assigned' => 'Nicht zugewiesen',
 	'No_file_comment_available' => 'Kein Dateikommentar verfügbar',
 	'Attachbox_limit' => 'Deine Anhang-Box ist zu %d%% voll',
-	'No_quota_limit' => 'kein Quota Limit',
+	'No_quota_limit' => 'kein Kontingent-Limit',
 	'Unlimited' => 'Unbegrenzt',
 	)
 );
