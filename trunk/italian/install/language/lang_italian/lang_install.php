@@ -72,6 +72,7 @@ $lang = array_merge($lang, array(
 	'Admin_Username' => 'Username Amministratore',
 	'Admin_Password' => 'Password Amministratore',
 	'Admin_Password_confirm' => 'Password Amministratore [ Conferma ]',
+	'Password_mismatch' => 'La password inserita non corrisponde.',
 
 	'Inst_Step_2' => 'L\'account di Amministratore &egrave; stato creato.<br />Prima di poter procedere oltre &egrave; necessario <span class="text_red">eliminare la cartella <b>install</b></span> dallo spazio web.<br />Dopo aver effettuato queste modifiche, clicca sul pulsante <b>Termina Installazione</b> per essere reindirizzato sul sito. Una volta effettuato l\'accesso &egrave; consigliabile accedere Pannello Di Amministrazione (ACP) per poter configurare le impostazioni principali (lingua, stili, forum, download, album, permessi, ecc.). Le impostazioni riguardanti le pagine del sito, i blocchi, i menu personalizzati e l\'accesso alle varie pagine del sito debbono essere gestiti tramite la sezione CMS (Content Management System). Altre impostazioni sono contenute nei files <b>.htaccess</b> e <b>lang_main_settings.php</b> dove &egrave; possibile personalizzare ad esempio le parole chiave, il titolo del sito, le pagine di errore ed altre impostazioni.<br /><br />Grazie per aver scelto Icy Phoenix, e ricordati di effettuare periodicamente dei backup del tuo database.<br /><br />',
 

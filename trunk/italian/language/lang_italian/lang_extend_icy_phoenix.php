@@ -54,6 +54,8 @@ if ($lang_extend_admin)
 		'SITE_META_COPYRIGHT' => 'Meta Copyright',
 		'SITE_META_COPYRIGHT_SWITCH' => 'Attiva Meta Copyright Da DB',
 		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Se attivi questa funzione, nelle pagine del sito verr&agrave; mostrato il copyright definito qui sopra invece di quello presente nel file <i>lang_main_settings.php</i>.',
+		'IP_cookie_law' => 'Cookie Law',
+		'IP_cookie_law_explain' => 'Attivando questa opzione verr&agrave; mostrato un banner per l\'accettazione verso l\'utilizzo dei cookie (Legge sui Cookie).',
 
 // TAB - SITE
 		'IP_mobile_style_disable' => 'Disattiva Rilevazione Periferiche Mobili',

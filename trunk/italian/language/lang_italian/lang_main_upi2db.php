@@ -27,10 +27,10 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'Search_no_new' => 'Nessun nuovo messaggio dall\'ultima visita',
-	'Neue_Beitraege' => 'Messaggi non letti',
-	'Editierte_Beitraege' => 'Messaggi modificati',
-	'Ungelesen_Markiert' => 'Contrassegnati come non letti',
-	'Permanent_Gelesen' => 'Contrassegnati come permanentemente letti',
+	'UPI2DB_UNREAD_POSTS' => 'Messaggi non letti',
+	'UPI2DB_EDITED_POSTS' => 'Messaggi modificati',
+	'UPI2DB_MARKED_POSTS' => 'Contrassegnati come non letti',
+	'UPI2DB_PERMANENT_POSTS' => 'Contrassegnati come permanentemente letti',
 	'Posts' => 'Messaggi',
 	'Unreaded_post' => 'Messaggio non letto',
 	'New_edited_post' => 'Messaggio modificato',

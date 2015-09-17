@@ -433,6 +433,8 @@ $lang = array_merge($lang, array(
 	'FORUM_KB_MODE_EXPLAIN' => 'Attivando questa opzione il forum verr&agrave; visualizzato usando la modalit&agrave; Knowledge Base',
 	'FORUM_INDEX_ICONS' => 'Icone RSS E Nuovo Argomento',
 	'FORUM_INDEX_ICONS_EXPLAIN' => 'Attivando questa opzione verranno mostrate le icone per il feed RSS e Nuovo Argomento nell\'indice del forum (ricorda che devi anche attivare l\'opzione globale per questa funzionalit&agrave; nella Configurazione Icy Phoenix)',
+	'FORUM_RECURRING_FIRST_POST' => 'Primo Post Ricorrente',
+	'FORUM_RECURRING_FIRST_POST_EXPLAIN' => 'Attivando questa opzione, il primo messaggio di ciascun argomento verr&agrave; mostrato in ogni pagina dell\'argomento',
 
 	'Move_and_Delete' => 'Sposta e Cancella',
 

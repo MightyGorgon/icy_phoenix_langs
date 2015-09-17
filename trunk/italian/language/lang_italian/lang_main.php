@@ -1786,6 +1786,8 @@ $lang = array_merge($lang, array(
 	'LINK_PROFILE' => 'Profilo',
 	'LINK_FORUM' => 'Forum',
 	'LINK_BOARDRULES' => 'Regolamento',
+	'LINK_PRIVACY_POLICY' => 'Privacy Policy',
+	'LINK_COOKIE_POLICY' => 'Cookie Policy',
 	'LINK_FAQ' => 'FAQ',
 	'LINK_SEARCH' => 'Cerca',
 	'LINK_SITEMAP' => 'Sitemap',
@@ -2589,6 +2591,13 @@ $lang = array_merge($lang, array(
 	'INSTAGRAM' => 'Instagram',
 	'PINTEREST' => 'Pinterest',
 	'VIMEO' => 'Vimeo',
+
+	'PRIVACY_POLICY_TITLE' => 'Privacy Policy',
+	'COOKIE_POLICY_TITLE' => 'Cookie Policy',
+	'COOKIE_POLICY_SHORT' => 'Questo Sito utilizza i cookie per massimizzare la tua esperienza di navigazione. Continuando ad utilizzare il sito accetti la memorizzazione dei cookie anche da parte di terze parti.',
+	'COOKIE_POLICY_AGREE' => 'Ho capito',
+	'COOKIE_POLICY_DISABLE' => 'Disattiva Cookie',
+	'LEARN_MORE' => 'Approfondisci...',
 
 	)
 );

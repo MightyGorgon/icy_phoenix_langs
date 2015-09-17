@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'ROLE_PLUGINS_STANDARD' => 'Accesso Standard',
 	'ROLE_PLUGINS_STANDARD_DESCRIPTION' => 'Accesso alle funzioni pi&ugrave; comuni dei PLUGINS.',
 	'ROLE_PLUGINS_NOACCESS' => 'Nessun Accesso',
-	'ROLE_PLUGINS_NOACCES_DESCRIPTIONS' => 'Nessun accesso ai PLUGINS.',
+	'ROLE_PLUGINS_NOACCESS_DESCRIPTION' => 'Nessun accesso ai PLUGINS.',
 	// ROLES - END
 
 	)
