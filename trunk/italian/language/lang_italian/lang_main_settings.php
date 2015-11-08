@@ -59,6 +59,7 @@ $lang['USER_LANG'] = 'it';
 $lang['HEADER_LANG'] = 'it';
 $lang['HEADER_LANG_XML'] = 'it';
 $lang['HEADER_LANG_JQUERY'] = 'it';
+$lang['HEADER_OG_LANG'] = 'it_IT';
 $lang['LEFT'] = 'sinistra';
 $lang['RIGHT'] = 'destra';
 $lang['DATE_FORMAT'] = 'd F y H:i'; // This should be changed to the default date format for your language, php date() format
