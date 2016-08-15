@@ -356,11 +356,19 @@ if ($lang_extend_admin)
 		'IP_thumbnail_s_size' => 'Dimensione Miniature Nella Lista Immagini (in pixels, default = 120)',
 		'IP_thumbnail_s_size_explain' => 'Dimensione delle miniature nella pagina Lista Immagini',
 
+		'IP_img_size_max_mp' => 'Dimensione Massima Immagini Caricate',
+		'IP_img_size_max_mp_explain' => 'Seleziona la dimensione massima per le immagini caricate nel forum (in megabytes, default = 1MB): verifica che le impostazioni del server consentano il caricamento di files della dimensione specificata',
+		'MB_1' => '1MB',
+		'MB_2' => '2MB',
+		'MB_3' => '3MB',
+		'MB_5' => '5MB',
+		'MB_7' => '7MB',
+
 		'IP_img_list_cols' => 'Colonne Lista Immagini (default = 4)',
 		'IP_img_list_cols_explain' => 'Numero di colonne mostrate nella pagina Lista Immagini',
 
 		'IP_img_list_rows' => 'Righe Lista Immagini (default = 5)',
-		'IP_img_list_cols_explain' => 'Numero di righe mostrate nella pagina Lista Immagini',
+		'IP_img_list_rows_explain' => 'Numero di righe mostrate nella pagina Lista Immagini',
 
 
 // TAB - Forum

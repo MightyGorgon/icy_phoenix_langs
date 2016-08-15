@@ -872,23 +872,40 @@ $lang = array_merge($lang, array(
 // End add - Bin Mod
 
 // Begin quick Title Edition Mod 1.0.0 by Xavier Olive.
-	'Title_infos' => 'Gestione Quick Title',
-	'Must_select_title' => 'Devi selezionare un quick Title',
-	'Title_updated' => 'Quick Title Aggiornato',
-	'Title_added' => 'Quick Title Aggiunto',
-	'Click_return_titleadmin' => 'Clicca %sQUI%s per ritornare alla Gestione Quick Title',
-	'Title_removed' => 'Quick Title Rimosso',
-	'quick_title_explain' => 'Puoi creare dei piccoli pezzi di testo che sarai in grado di aggiungere al titolo di una Discussione premendo un solo bottone.<br />Se vuoi che venga visualizzato il nome di chi ha fatto l\'operazione, inserisci %mod% dove vuoi che sia visualizzato. Per Esempio: [Link OK | controllato da %mod%] verr&agrave; visualizzato come [Link OK |controllato NomeModeratore]. Allo stesso modo puoi inserire anche la data %date% dove vuoi.',
-	'Title_head' => 'Quick Title Addon',
-	'Title_info' => 'Quick Title',
-	'Title_html' => 'BBCode o Codice HTML',
-	'Title_html_explain' => 'Se lasci vuoto questo campo, verr&agrave; aggiunto soltanto il Quick Title',
-	'Title_auth' => 'Permessi',
-	'Administrator' => 'Amministratore',
-	'Topic_poster' => 'Chi ha iniziato la Discussione',
-	'Add_new_title_info' => 'Aggiungi un Quick Title',
-	'Title_perm_info' => 'Permessi',
-	'Title_perm_info_explain' => 'Gli Utenti con questo livello saranno in grado di utilizzare Quick Title',
+	'TOPICS_LABELS' => 'Gestione Etichette Argomenti',
+	'TOPICS_LABELS_EXPLAIN' => 'Puoi creare delle Etichette che sarai in grado di aggiungere al titolo di una Discussione premendo un solo bottone.<br />Se vuoi che venga visualizzato il nome di chi ha fatto l\'operazione, inserisci <strong>%mod%</strong> dove vuoi che sia visualizzato. Per Esempio: [Link OK | controllato da <strong>%mod%</strong>] verr&agrave; visualizzato come [Link OK |controllato NomeModeratore]. Allo stesso modo puoi inserire anche la data <strong>%date%</strong> dove vuoi.',
+	'MUST_SELECT_LABEL' => 'Devi selezionare una Etichetta',
+	'LABEL_UPDATED' => 'Etichetta Aggiornata',
+	'LABEL_ADDED' => 'Etichetta Aggiunta',
+	'CLICK_RETURN_TOPICS_LABELS' => 'Clicca %sQUI%s per ritornare alla Gestione Etichette Argomenti',
+	'LABEL_REMOVED' => 'Etichetta Rimossa',
+	'TOPICS_LABELS_HEAD' => 'Etichette Argomenti',
+	'LABEL_INFO' => 'Etichette Argomenti',
+	'LABEL_EXAMPLE' => 'Esempio Etichetta',
+	'LABEL_EXAMPLE_EXPLAIN' => 'Questo &egrave; soltanto un esempio di come l\'etichetta verr&agrave; mostrata... si prega di notare che ai fini dell\'esempio il codice non viene processato, ma mostrato come testo!',
+	'LABEL_NAME' => 'Nome Etichetta',
+	'LABEL_NAME_EXPLAIN' => 'Semplicemente il nome della tua etichetta',
+	'LABEL_CODE' => 'Codice Etichetta',
+	'LABEL_CODE_EXPLAIN' => 'Il codice dell\'etichetta, se vuoi che questo codice venga processato per BBCode/HTML, seleziona l\'opzione desiderata qui sotto',
+	'LABEL_CODE_SWITCH' => 'Tipo Etichetta',
+	'LABEL_CODE_SWITCH_EXPLAIN' => 'Seleziona se vuoi mostrare l\'etichetta come testo semplice oppure processata per BBCode/HTML',
+	'LABEL_CODE_SWITCH_PT' => 'Testo',
+	'LABEL_CODE_SWITCH_BBC' => 'BBCode',
+	'LABEL_CODE_SWITCH_HTML' => 'HTML',
+	'LABEL_CODE_SWITCH_BBC_HTML' => 'BBCode + HTML',
+	'LABEL_PERMISSION' => 'Permessi',
+	'LABEL_AUTH_ADMIN' => 'Amministratore',
+	'LABEL_AUTH_MOD' => 'Moderatore',
+	'LABEL_AUTH_TOPIC_POSTER' => 'Chi ha iniziato la Discussione',
+	'ADD_NEW_TOPIC_LABEL' => 'Aggiungi una Etichetta Argomento',
+	'LABEL_AUTH_INFO' => 'Permessi',
+	'LABEL_AUTH_INFO_EXPLAIN' => 'Gli utenti con questo livello saranno in grado di utilizzare le Etichette Argomento',
+	'LABEL_BG_COLOR' => 'Colore Sfondo Etichetta',
+	'LABEL_BG_COLOR_EXPLAIN' => 'Scegli il colore di sfondo per l\'etichetta (formato esadecimale: #ff0000)',
+	'LABEL_TEXT_COLOR' => 'Colore Testo Etichetta',
+	'LABEL_TEXT_COLOR_EXPLAIN' => 'Scegli il colore per il testo dell\'etichetta (formato esadecimale: #000000)',
+	'LABEL_ICON' => 'Icona Etichetta (Nome Classe Font Awesome)',
+	'LABEL_ICON_EXPLAIN' => 'Inserisci il nome dell\'icona Font Awesome Icon: <a href="http://fontawesome.io/icons/">Riferimenti Font Awesome</a> | <a href="http://fontawesome.io/cheatsheet/">Cheatsheet</a>',
 // End quick Title Edition Mod 1.0.0 by Xavier Olive.
 
 // Limit Image Width MOD
@@ -2174,7 +2191,7 @@ $lang['230_PHP_INFO'] = 'PHP Info'; // admin_phpinfo.php
 $lang['240_GD_Info'] = 'GD Info'; // admin_gd_info.php
 
 // General
-$lang['1100_General'] = 'Generale'; // admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_quick_title.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php, admin_lang_user_created.php
+$lang['1100_General'] = 'Generale'; // admin_acronyms.php, admin_autolinks.php, admin_force_read.php, admin_helpdesk.php, admin_liw.php, admin_force_read.php, admin_mass_email.php, admin_megamail.php, admin_notepad.php, admin_topics_labels.php, admin_smilies.php, admin_words.php, admin_yahoo_search.php, admin_lang_user_created.php
 $lang['130_Mass_Email'] = 'Email Di Gruppo'; // admin_mass_email.php
 $lang['140_Mega_Mail'] = 'Email / PM Di Gruppo'; // admin_megamail.php
 $lang['150_Custom_BBCodes'] = 'BBCodes Personalizzati'; // admin_bbcodes.php
@@ -2197,7 +2214,7 @@ $lang['125_Permissions_Forum'] = 'Permessi'; // admin_forumauth.php
 $lang['130_Prune'] = 'Eliminazione'; // admin_forum_prune.php
 $lang['140_Prune_Overview'] = 'Gestione Eliminazione'; // admin_prune_overview.php
 $lang['150_Topic_Shadow'] = 'Argomenti Ombra'; // admin_topic_shadow.php
-$lang['160_Title_infos'] = 'Gestione Titoli Veloci'; // admin_quick_title.php
+$lang['160_Topics_Labels'] = 'Etichette Argomenti'; // admin_topics_labels.php
 $lang['170_Topic_Rating_Config'] = 'Impostazione Valutazione Topic'; // admin_rate.php
 $lang['180_Topic_Rating_Auth'] = 'Permessi Valutazione Topic'; // admin_rate.php
 $lang['240_Replace_title'] = 'Sostituisci In Posts'; // admin_replace.php

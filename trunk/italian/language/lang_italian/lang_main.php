@@ -1251,7 +1251,7 @@ $lang = array_merge($lang, array(
 // End add - Bin Mod
 
 	'Topics_Title_Edited' => 'I titoli delle discussioni selezionate sono stati modificati.',
-	'Edit_title' => 'Modifica Titolo',
+	'TOPIC_LABEL' => 'Etichetta Argomento',
 	'PM' => 'PM',
 
 // Start Advanced IP Tools Pack MOD
@@ -2598,6 +2598,10 @@ $lang = array_merge($lang, array(
 	'COOKIE_POLICY_AGREE' => 'Ho capito',
 	'COOKIE_POLICY_DISABLE' => 'Disattiva Cookie',
 	'LEARN_MORE' => 'Approfondisci...',
+
+	'CP_CLICK_COLOR' => 'Clicca sulla casella di colore in alto a destra per applicare il colore',
+	'CP_CLICK_APPLY' => 'Clicca per applicare questo colore',
+	'CP_CLICK_APPLY_SHORT' => 'APPLICA',
 
 	)
 );
