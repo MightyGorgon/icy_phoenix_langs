@@ -118,8 +118,8 @@ $lang['admin_use_rewards_info'] = "If you have a rewards MOD installed [Points/C
 $lang['admin_cash_default_info'] = "The Activity MOD uses only 1 reward field. Please enter in a default user<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reward field for your users. [<b>Cash MOD Only</b>]";
 
 // Activity
-$lang['not_enough_points'] = "You do NOT have enough " . $config['points_name'] . " to play this game. <br /><a href=\"javascript:parent.window.close();\">[Close Window]</a>";
-$lang['not_enough_reward'] = "You do NOT have enough to play this game. <br /><a href=\"javascript:parent.window.close();\">[Close Window]</a>";
+$lang['not_enough_points'] = "You do NOT have enough " . $config['points_name'] . " to play this game.<br /><a href=\"activity.php\">[Return To Games]</a> or <a href=\"javascript:parent.window.close();\">[Close Window]</a>";
+$lang['not_enough_reward'] = "You do NOT have enough reward points to play this game.<br /><a href=\"activity.php\">[Return To Games]</a> or <a href=\"javascript:parent.window.close();\">[Close Window]</a>";
 $lang['game_instructions'] = "<b>Instructions</b>";
 $lang['game_no_instructions'] = "No Instructions.";
 $lang['game_free'] = "Free";

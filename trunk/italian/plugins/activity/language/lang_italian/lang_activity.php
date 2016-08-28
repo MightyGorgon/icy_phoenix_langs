@@ -119,8 +119,8 @@ $lang['admin_use_rewards_info'] = '-:- Se hai una mod ricompensa installata[Poin
 $lang['admin_cash_default_info'] = 'L\'Activity MOD usa un solo campo ricompensa. Inserisci un solo campo di default la ricompensa utenti. [<b>Solo Cash MOD</b>]';
 
 // Activity
-$lang['not_enough_points'] = 'Non hai abbastanza ' . $config['points_name'] . ' per giocare a questo gioco. <br /><a href=\"javascript:parent.window.close();\">[Chiudi Finestra]</a>';
-$lang['not_enough_reward'] = 'Non hai abbastanza per giocare a questo gioco. <br /><a href=\"javascript:parent.window.close();\">[Chiudi Finestra]</a>';
+$lang['not_enough_points'] = 'Non hai abbastanza ' . $config['points_name'] . ' per giocare a questo gioco.<br /><a href=\"activity.php\">[Torna ai Giochi]</a> o <a href=\"javascript:parent.window.close();\">[Chiudi Finestra]</a>';
+$lang['not_enough_reward'] = 'Non hai abbastanza per giocare a questo gioco.<br /><a href=\"activity.php\">[Torna ai Giochi]</a> o <a href=\"javascript:parent.window.close();\">[Chiudi Finestra]</a>';
 $lang['game_instructions'] = '<b>Istruzioni</b>';
 $lang['game_no_instructions'] = 'Non ci sono Istruzioni.';
 $lang['game_free'] = 'Gratis';
