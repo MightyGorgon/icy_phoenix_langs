@@ -86,8 +86,8 @@ $lang['NUMBER_FORMAT_TIME_SEP'] = ':';
 // along with our copyright message indicating you are the translator
 // please add it here.
 /*
-$lang['TRANSLATION_INFO'] = 'Traduzione Italiana verificata da <a href="http://www.mightygorgon.com/" class="copyright" target="_blank">Mighty Gorgon</a>';
-$lang['TRANSLATION'] = 'Traduzione Italiana verificata da <a href="http://www.mightygorgon.com/" class="copyright" target="_blank">Mighty Gorgon</a>';
+$lang['TRANSLATION_INFO'] = 'Traduzione Italiana verificata da <a href="http://www.lucalibralato.com/" class="copyright" target="_blank">Luca Libralato</a>';
+$lang['TRANSLATION'] = 'Traduzione Italiana verificata da <a href="http://www.lucalibralato.com/" class="copyright" target="_blank">Luca Libralato</a>';
 */
 $lang['TRANSLATION_INFO'] = '';
 $lang['TRANSLATION'] = '';

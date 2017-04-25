@@ -44,6 +44,7 @@ $lang = array_merge($lang, array(
 	'NO_GUESTBOOK_POST_ID' => 'Wrong or no message id specified',
 	'NO_GUESTBOOK_POSTS' => 'No messages have been posted yet',
 	'NO_GUESTBOOKS' => 'No Guestbooks',
+	'GUESTBOOK_MESSAGE_SUCCESS' => '<b>Message Sent Successfully</b>',
 	'CLICK_RETURN_GUESTBOOKS' => 'Click %sHere%s to return to Guestbooks',
 	'CLICK_RETURN_GUESTBOOK' => 'Click %sHere%s to return to the guestbook',
 	'CLICK_RETURN_POST' => 'Click %sHere%s to return to the message',

@@ -2111,6 +2111,14 @@ $lang = array_merge($lang, array(
 	'FORUMS_SUBMIT_CFG' => 'Aggiorna Impostazioni',
 	'FORUMS_SELECTION_MULTIPLE' => 'Puoi selezionare pi&ugrave; di un forum tenendo premuto il tasto CTRL.',
 
+	'FAILED_LOGINS_COUNTER' => 'Tentativi Di Accesso Falliti',
+
+	'ACP_USER_POSTS_EXPORT_TITLE' => 'Esportazione Post',
+	'ACP_USER_POSTS_EXPORT_EXPLAIN' => 'Questo strumento consente l\'esportazione dei messaggi del forum di uno o pi&ugrave; utenti',
+	'UPE_TITLE' => 'Esportazione Post',
+	'UPE_USER_IDS' => 'ID Utenti',
+	'UPE_USER_IDS_EXPLAIN' => 'Per favore utilizzare la virgola per separare gli utenti nella lista (es.: 1,2,3,5,7)',
+
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Impostazioni Icy Phoenix',
 	'IP_CONFIGURATION_EXPLAIN' => 'In questa sezione &egrave; possibile configurare alcune impostazioni avanzate di Icy Phoenix',
@@ -2204,6 +2212,9 @@ $lang['210_Help_Desk'] = 'Help Desk'; // admin_helpdesk.php
 $lang['220_Tickets_Emails'] = 'Categorie Email'; // admin_tickets.php
 $lang['230_Language'] = 'Variabili Lingua'; // admin_lang_user_created.php
 
+// CMS
+$lang['1150_CMS'] = 'CMS'; // cms.php
+
 // Forum
 $lang['1200_Forums'] = 'Forum'; // admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
 $lang['100_Manage'] = 'Gestione'; // admin_forums.php
@@ -2271,6 +2282,7 @@ $lang['270_CPF_Edit'] = 'Modifica Campi Profilo'; // admin_profile_fields.php
 $lang['280_User_Search'] = 'Ricerca Utenti'; // admin_user_search.php
 $lang['290_Poll_Results'] = 'Risultati Sondaggi'; // admin_voting.php
 $lang['300_Picscount_Config'] = 'Sinc Contatori Immagini'; // admin_postcount.php
+$lang['310_POSTS_EXPORT'] = 'Esportazione Post'; // admin_user_posts_export.php
 
 // Groups
 $lang['1620_Groups'] = 'Gruppi'; // admin_color_groups.php, admin_groups.php, admin_ug_auth.php
