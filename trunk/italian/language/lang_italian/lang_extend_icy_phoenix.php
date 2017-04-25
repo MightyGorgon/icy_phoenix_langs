@@ -236,6 +236,12 @@ if ($lang_extend_admin)
 		'Enable_Facebook_Login_explain' => 'Consente agli utenti di effettuare il login e registrarsi utilizzando il loro account Facebook. Per far funzionare questa opzione ricorda di aggiungere i dati nelle caselle sottostanti.',
 		'Facebook_App_ID' => 'App ID',
 		'Facebook_App_Secret' => 'App Secret',
+		'Google_Login_Settings' => 'Impostazioni Google Login',
+		'Google_Login_Settings_explain' => 'Per favore segui le istruzioni per ottenere il tuo App ID e Paa Secret:<br />- Visita questa pagina: <a href="https://console.developers.google.com/project?pli=1" target="_blank">Google Developers Console website</a>.<br />- Fai Login con il tuo account Google.<br />- Crea un nuovo progetto.<br />- Click su "Abilita e Usa Google APIs"<br />- Clicca "Credenziali"<br />- Clicca su "Consenso OAuth"<br />- Riempi i campi (Homepage URL, con http://, i.e. <i>http://icyphoenix.com</i>, e il nome del Progetto)<br />- Salva<br />- Clicca "Nuove credenziali"<br />- Seleziona "Oauth client ID"<br />- Verifica "Applicazione Web"<br />- Riempi i campi (nome, "Origini autorizzate JavaScript" dovrebbe essere il tuo dominio, <i>icyphoenix.com</i> o <i>web.example.com</i>). Nel campo "reindirizzamento URIs", aggiungi il tuo dominio con il prefisso <i>http(s)://</i>, includendo <i>/login_ip.php</i> alla fine, ad esempio <i>http://example.com/my/directory/login_ip.php</i><br />- Salva i cambiamenti.<br />- Scrivi il tuo Client ID e Client Secret nei campi qui sotto.',
+		'Enable_Google_Login' => 'Abilita Google Login',
+		'Enable_Google_Login_explain' => 'Consenti agli utenti di registrarsi e accedere utilizzando il loro account Google. Ricorda di inserire le tue credenziali qui sotto.',
+		'Google_App_ID' => 'Client ID',
+		'Google_App_Secret' => 'Client Secret',
 
 // TAB - Posting
 		'IP_posts_precompiled' => 'Disattiva Messaggi Precompilati Per Gli Ospiti',
