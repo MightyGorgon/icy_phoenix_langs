@@ -172,11 +172,13 @@ $lang = array_merge($lang, array(
 	'bbcb_mg_img' => 'Bild',
 	'bbcb_mg_imgl' => 'Bild links',
 	'bbcb_mg_imgr' => 'Bild rechts',
+	'bbcb_mg_imgba' => 'Bild - davor und danach',
 	'bbcb_mg_albumimg' => 'Foto-Galeriebild',
 	'bbcb_mg_flsh' => 'Flash',
 	'bbcb_mg_vid' => 'Video',
 	'bbcb_mg_gvid' => 'Google Video',
 	'bbcb_mg_youtube' => 'YouTube',
+	'bbcb_mg_vimeo' => 'Vimeo',
 	'bbcb_mg_ram' => 'Ram',
 	'bbcb_mg_strm' => 'Stream',
 	'bbcb_mg_emff' => 'EMFF (MP3)',
@@ -236,6 +238,7 @@ $js_lang['s_video_h_insert'] = 'Bitte gib die Videohöhe ein';
 $js_lang['s_video_h_error'] = 'Du hast keine Videohöhe eingegeben.';
 $js_lang['s_googlevideo_insert'] = 'Bitte Google Video Datei ID eingeben';
 $js_lang['s_youtube_insert'] = 'Bitte YouTube Datei ID eingeben';
+$js_lang['s_vimeo_insert'] = 'Bitte Vimeo Datei ID eingeben';
 $js_lang['s_emff_insert'] = 'Bitte mp3 Datei URL eingeben';
 $js_lang['s_flash_insert'] = 'Gib die Flash-Datei URL ein';
 $js_lang['s_flash_w_insert'] = 'Bitte gib die Flashbreite ein';
@@ -270,7 +273,7 @@ $js_lang['s_albumimgl_help'] = 'Foto-Galerie Bild links einfügen: [albumimg ali
 $js_lang['s_albumimgr_help'] = 'Foto-Galerie Bild rechts einfügen: [albumimg align=right]Foto-Galerie Bild ID[/albumimg]';
 $js_lang['s_url_help'] = 'URL einfügen: [url]http://URL[/url] oder [url=http://url]URL Text[/url]';
 $js_lang['s_fc_help'] = 'Schriftfarbe: [color=red]Text[/color] (Du kannst ebenfalls color=#FF0000 benutzen)';
-$js_lang['s_fs_help'] = 'Schriftgröße: [size=x-small]Kleiner Text[/size]';
+$js_lang['s_fs_help'] = 'Schriftgröße: [size=9]Kleiner Text[/size]';
 $js_lang['s_ft_help'] = 'Schriftart: [font=Andalus]Text[/font]';
 $js_lang['s_table_help'] = 'Tabelle einfügen: [table]Text[/table]';
 $js_lang['s_td_help'] = 'Tabellenspalte einfügen: [td]Text[/td]';
@@ -280,10 +283,10 @@ $js_lang['s_right_help'] = 'Text rechts ausrichten: [align=right]Text[/align]';
 $js_lang['s_left_help'] = 'Text links ausrichten: [align=left]Text[/align]';
 $js_lang['s_center_help'] = 'Text zentriert ausrichten: [align=center]Text[/align]';
 $js_lang['s_justify_help'] = 'Text als Blocksatz ausrichten: [align=justify]Text[/align]';
-$js_lang['s_marqr_help'] = 'Laufschrift nach rechts: [marq=right]Text[/marq]';
-$js_lang['s_marql_help'] = 'Laufschrift nach links: [marq=left]Text[/marq]';
-$js_lang['s_marqu_help'] = 'Laufschrift nach oben: [marq=up]Text[/marq]';
-$js_lang['s_marqd_help'] = 'Laufschrift nach unten: [marq=down]Text[/marq]';
+$js_lang['s_marqr_help'] = 'Laufschrift nach rechts: [marquee direction=right]Text[/marquee]';
+$js_lang['s_marql_help'] = 'Laufschrift nach links: [marquee direction=left]Text[/marquee]';
+$js_lang['s_marqu_help'] = 'Laufschrift nach oben: [marquee direction=up]Text[/marquee]';
+$js_lang['s_marqd_help'] = 'Laufschrift nach unten: [marquee direction=down]Text[/marquee]';
 $js_lang['s_sup_help'] = 'Hochgestellt: [sup]Text[/sup]';
 $js_lang['s_sub_help'] = 'Tiefgestellt: [sub]Text[/sub]';
 $js_lang['s_hr_help'] = 'Horizontale Linie einfügen [hr]';
@@ -296,7 +299,7 @@ $js_lang['s_flash_help'] = 'Flash_Datei einfügen: [flash width=# height=#]flash
 $js_lang['s_ram_help'] = 'Real Media Datei einfügen: [ram]File URL[/ram]';
 $js_lang['s_stream_help'] = 'Streamdatei einfügen: [stream]File URL[/stream]';
 $js_lang['s_emff_help'] = 'mp3 Datei einfügen: [emff]File URL[/emff]';
-$js_lang['s_fade_help'] = 'Fade: [fade]Text[/fade] oder [fade][img]http://bild_url/[/img][/fade]';
+$js_lang['s_fade_help'] = 'Fade: [opacity]Text[/opacity] oder [opacity][img]http://bild_url/[/img][/opacity]';
 $js_lang['s_spoiler_help'] = 'Spoiler: [spoiler]Text[/spoiler]';
 $js_lang['s_cell_help'] = 'Zelle: [cell]Text[/cell]';
 $js_lang['s_list_help'] = 'Sortierte Liste: [list|=1|a]Text[/list] (Verwende [*] um einen Listenpunkt einzufügen)';

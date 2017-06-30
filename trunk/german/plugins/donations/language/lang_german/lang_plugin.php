@@ -99,8 +99,18 @@ $lang = array_merge($lang, array(
 	'DONATION_PAYER_EMAIL' => 'Zahler E-Mail',
 	'DONATION_PAYER_WEBSITE' => 'URL der Webseite',
 	'DONATION_PAYER_WEBSITE_TEXT' => 'Beschreibung der Webseite',
+	/*
+	'DONATION_PAYER_WEBSITE_SPONSOR' => 'Website URL und Text anzeigen',
+	'DONATION_PAYER_WEBSITE_SPONSOR_EXPLAIN' => 'Durch Auswahl dieser Option wird die Website-URL zusammen mit der Beschreibung angezeigt (auf diese Weise kann wie ein gesponserter Link verwendet werden)',
+	*/
 	'DONATION_PAYER_WEBSITE_SPONSOR' => 'URL und Beschreibung der Webseite anzeigen',
 	'DONATION_PAYER_WEBSITE_SPONSOR_EXPLAIN' => 'Durch Auswahl dieser Option wird die URL der Webseite zusammen mit der Beschreibung der Webseite angezeigt (dadurch kann ein gesponserter Link verwendet werden).',
+	'DONATION_PAYER_WEBSITE_LINK_TYPE' => 'Link-Typ',
+	'DONATION_PAYER_WEBSITE_LINK_TYPE_EXPLAIN' => 'Wähle aus, ob der Link als Text oder Bild angezeigt werden soll.',
+	'DONATIONS_LINK_TEXT' => 'Text Link',
+	'DONATIONS_LINK_IMAGE' => 'Bild Link',
+	'DONATION_PAYER_WEBSITE_DISPLAY' => 'Link anzeigen',
+	'DONATION_PAYER_WEBSITE_DISPLAY_EXPLAIN' => 'Aktiviere oder deaktiviere die URL für diese Spende.',
 	'DONATION_PAYER_STATUS' => 'Zahler Status',
 	'DONATION_FIRST_NAME' => 'Vorname',
 	'DONATION_LAST_NAME' => 'Nachname',

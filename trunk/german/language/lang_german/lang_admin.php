@@ -409,6 +409,8 @@ $lang = array_merge($lang, array(
 	'FORUM_KB_MODE_EXPLAIN' => 'Wenn diese Option aktiviert ist, wird das Forum im Wissensdatenbank Modus gezeigt. (Themen werden ähnlich der Wissensdatenbank aufgelistet)',
 	'FORUM_INDEX_ICONS' => 'Index Icons',
 	'FORUM_INDEX_ICONS_EXPLAIN' => 'Wenn diese Option aktiviert ist, werden Icons für RSS und Neues Thema im Foren-Index angezeigt (Um diese Funktion nutzen zu können, musst du auch die Globale Einstellung in Icy Phoenix Einstellungen aktivieren)',
+	'FORUM_RECURRING_FIRST_POST' => 'Wiederkehrender erster Beitrag',
+	'FORUM_RECURRING_FIRST_POST_EXPLAIN' => 'Zeigt den ersten Beitrag eines Themas auf jeder Themenseite',
 
 	'Move_and_Delete' => 'Verschieben und Löschen',
 
@@ -715,7 +717,7 @@ $lang = array_merge($lang, array(
 	'Socket_functions_disabled' => 'Die Socket-Funktionen konnten nicht benutzt werden.',
 	'Mailing_list_subscribe_reminder' => 'Um immer die neuesten Informationen zu Updates von phpBB zu erhalten, solltest du dich <a href="http://www.phpbb.com/support/" target="_new">beim phpBB Newsletter anmelden</a>.',
 	'Version_information' => 'Versions-Information',
-	'Version_not_checked' => 'Versionsprüfung ist zurzeit deaktiviert. Bitte besuche die Icy Phoenix Support Foren für Informationen über neue Versionen.',
+	'Version_not_checked' => 'Versionsprüfung ist zurzeit deaktiviert.',
 
 // Advanced Signature Divider Control
 	'sig_title' => 'Signaturteiler Einstellungen',
@@ -841,29 +843,52 @@ $lang = array_merge($lang, array(
 	'Group_count_delete' => 'Löschen/Aktualisieren alter Nutzer',
 	'User_allow_ag' => 'Aktiviere Auto Gruppe',
 	'group_count_explain' => 'Wenn Benutzer mehr als diese Anzahl Beiträge geschrieben haben <i>(in beliebigen Foren)</i>, werden sie automatisch zu dieser Benutzergruppe hinzugefügt.<br />Das trifft nur zu, wenn &quot;Füge Benutzer automatisch hinzu, wenn sie schreiben&quot; aktiviert ist.',
+	'group_count_max_explain' => 'Wenn Benutzer mehr Beiträge als diesen Wert <i>(in jedem Forum)</i> gepostet haben, dann werden sie <u>entfernt</u> aus dieser Benutzergruppe.<br />Dies gilt nur, wenn &quot;Füge Benutzer automatisch hinzu, wenn sie schreiben&quot; aktiviert ist.',
+	'autogroup_options' => 'Autogroup-Optionen',
 
 // Start add - Bin Mod
 	'Bin_forum' => 'Papierkorb-Forum',
 	'Bin_forum_explain' => 'Füge die Forum ID des Forums ein, in welches die Papierkorbbeiträge verschoben werden sollen. Trage 0 ein, um die Funktion zu deaktivieren. Du solltest die Forumsberechtigungen bearbeiten und Benutzern das Lesen/Schreiben/Antworten nicht gestatten&hellip; oder den Zugang zum Forum ganz verwehren. Nur Moderatoren oder Administratoren sollten derartige Rechte in diesem Forum besitzen.',
 // End add - Bin Mod
 
+// Mighty Gorgon - Topics Labels - BEGIN
 // Begin Quick Title Edition Mod 1.0.0 by Xavier Olive.
-	'Title_infos' => 'Quick Titel Management',
-	'Must_select_title' => 'Du musst ein Quick Titel Add-on auswählen',
-	'Title_updated' => 'Quick Titel Add-on aktualisiert',
-	'Title_added' => 'Quick Titel Add-on hinzugefügt',
-	'Click_return_titleadmin' => 'Klicke %shier%s, um zum Quick Titel Management zurückzukehren.',
-	'Title_removed' => 'Quick Titel Add-on entfernt',
-	'Quick_title_explain' => 'Hier kannst du kurze Texte erstellen, welche du dann per Klick auf einen Button zum Thementitel hinzufügen kannst.</br>Wenn du möchtest, dass der Name des Benutzers, der die Änderung durchgeführt hat angezeigt wird, setzte einfach %mod% an die gewünschte Stelle. Zum Beispiel wird [Link OK | geprüft von %mod%] als [Link OK | geprüft von ModeratorName] angezeigt. Auf die gleiche Art und Weise kannst du auch das Datum einfügen, indem du %date% an die gewünschte Stelle setzt.',
-	'Title_head' => 'Quick Titel Add-on',
-	'Title_auth' => 'Berechtigungen',
-	'Administrator' => 'Administrator',
-	'Topic_poster' => 'Themenstarter',
-	'Add_new_title_info' => 'Quick Titel Add-on hinzufügen',
-	'Title_perm_info' => 'Berechtigungen',
-	'Title_perm_info_explain' => 'Benutzer mit diesem Level können das Quick Title Add-on nutzen.',
-	'Title_info' => 'Quick Titel Add-on',
+	'TOPICS_LABELS' => 'Topics Labels Management',
+	'TOPICS_LABELS_EXPLAIN' => 'You can create short bits of text which you will be able to add to the title of a topic, by pushing a single button.<br />If you want the name of the person who performed the action of modifying the title to be shown, just put <strong>%mod%</strong> where you want it to be placed. For instance, [Link OK | checked by <strong>%mod%</strong>] will be displayed as [Link OK |checked by ModeratorName]. You can insert the date in the same way by placing <strong>%date%</strong> wherever you want it to appear.',
+	'MUST_SELECT_LABEL' => 'You must select a Topic Label',
+	'LABEL_UPDATED' => 'Topic Label updated',
+	'LABEL_ADDED' => 'Topic Label added',
+	'CLICK_RETURN_TOPICS_LABELS' => 'Click %sHere%s to return to Topics Labels Management',
+	'LABEL_REMOVED' => 'Topic Label removed',
+	'TOPICS_LABELS_HEAD' => 'Topics Labels',
+	'LABEL_INFO' => 'Topics Labels',
+	'LABEL_EXAMPLE' => 'Label Example',
+	'LABEL_EXAMPLE_EXPLAIN' => 'This is just a demo of how the label will look like... please note that for the sake of the example the code is not processed, it will just be shown as text!',
+	'LABEL_NAME' => 'Label Name',
+	'LABEL_NAME_EXPLAIN' => 'Just the name of your label',
+	'LABEL_CODE' => 'Label Code',
+	'LABEL_CODE_EXPLAIN' => 'Code for the label, if you want this code to be processed as BBCode/HTML, please enable the switch below',
+	'LABEL_CODE_SWITCH' => 'Label Type',
+	'LABEL_CODE_SWITCH_EXPLAIN' => 'Select if you want the label to be displayed in Plain Text or processed by using BBCode/HTML',
+	'LABEL_CODE_SWITCH_PT' => 'Plain Text',
+	'LABEL_CODE_SWITCH_BBC' => 'BBCode',
+	'LABEL_CODE_SWITCH_HTML' => 'HTML',
+	'LABEL_CODE_SWITCH_BBC_HTML' => 'BBCode + HTML',
+	'LABEL_PERMISSION' => 'Berechtigungen',
+	'LABEL_AUTH_ADMIN' => 'Administrator',
+	'LABEL_AUTH_MOD' => 'Moderator',
+	'LABEL_AUTH_TOPIC_POSTER' => 'Topic poster',
+	'ADD_NEW_TOPIC_LABEL' => 'Add a Topic Label',
+	'LABEL_AUTH_INFO' => 'Berechtigungen',
+	'LABEL_AUTH_INFO_EXPLAIN' => 'Users with these levels will be able to use this Topics Labels',
+	'LABEL_BG_COLOR' => 'Label Background Color',
+	'LABEL_BG_COLOR_EXPLAIN' => 'Select the background color for the label (hex format: #ff0000)',
+	'LABEL_TEXT_COLOR' => 'Label Text Color',
+	'LABEL_TEXT_COLOR_EXPLAIN' => 'Select the color for the text within the label (hex format: #000000)',
+	'LABEL_ICON' => 'Label Icon (Font Awesome Class Name)',
+	'LABEL_ICON_EXPLAIN' => 'Insert the name of the Font Awesome Icon: <a href="http://fontawesome.io/icons/">Font Awesome reference table</a> | <a href="http://fontawesome.io/cheatsheet/">Cheatsheet</a>',
 // End Quick Title Edition Mod 1.0.0 by Xavier Olive.
+// Mighty Gorgon - Topics Labels - END
 
 // Limit Image Width MOD
 	'Available' => 'verfügbar',
@@ -1191,31 +1216,6 @@ $lang = array_merge($lang, array(
 	'auth_view_ajax_chat' => 'Chat',
 	'auth_view_ajax_chat_archive' => 'Chat Archiv',
 	'auth_view_custom_pages' => 'Benutzerdefinierte Seiten',
-
-// Begin Yahoo Submit Your Site MOD by www.pentapenguin.com
-	'Yahoo_search' => 'Yahoo Suche',
-	'Yahoo_search_settings' => 'Yahoo Suche Einstellungen',
-	'Yahoo_search_settings_explain' => 'Hier kannst du die Einstellungen für den Yahoo Submit Your Site MOD vornehmen. Für mehr Informationen, schau bitte auf die <a href="http://submit.search.yahoo.com/free/request" target="_blank">Yahoo Submit Your Site Webseite</a>.',
-	'Yahoo_search_select_forums' => 'Foren auswählen',
-	'Yahoo_search_select_forums_explain' => 'Wähle die Foren aus die in diese Liste eingeschlossen werden sollen. Du kannst soviele Foren auswählen wie Du willst, wenn du die STRG Taste (Windows) oder Command Taste (Macintosh) gedrückt hältst. Standardmäßig sind alle öffentlich sichtbaren Foren ausgewählt.',
-	'Yahoo_search_savepath' => 'Speicherort der URL Liste',
-	'Yahoo_search_savepath_explain' => 'Gib einen Ort an, wo die URL Liste gespeichert werden soll. Gib den Pfad relativ zum Icy Phoenix Root-Verzeichnis an. -- z.B. wenn du die Datei im Cache Ordner unter <b>www.yoursite.com/cache/</b> speicherst, dann gib <b>cache</b> ein. Beachte das du den CHMOD 777 bei diesem Ordner einstellen musst.',
-	'Yahoo_search_additional_urls' => 'Zusätzliche URLs angeben',
-	'Yahoo_search_additional_urls_explain' => 'Gib zusätzliche URLs an die Yahoo besuchen soll, pro Zeile eine. Du musst die vollständige URL angeben -- z.B. <b>http://www.yoursite.com/yourpage.HTML</b>.',
-	'Yahoo_search_compress_file' => 'Die URL Liste komprimieren',
-	'Yahoo_search_compress_file_explain' => 'Wenn du Ja für diese Option gewählt hast, wird die Liste der URLs mit Gzip komprimiert was eine viel kleinere Datei und demzufolge eine kleinere Bandbreite vom Yahoo Bot ergibt. Diese Einstellung funktioniert nicht wenn dein Server kein Gzip unterstützt.',
-	'Yahoo_search_compression_level' => 'Kompressions-Level für die Datei',
-	'Yahoo_search_compression_level_explain' => 'Wähle ein Kompressions-Level für die Datei. 9 ist die empfohlene Einstellung, es sei denn Du hast Probleme damit, dann solltest du einen kleineren Wert einstellen.',
-	'Yahoo_search_generate_file' => 'Datei erstellen',
-	'Yahoo_search_error_no_forums' => 'Fehler: keine Foren ausgewählt. Gehe zurück und wähle mindestens eins aus.',
-	'Yahoo_search_error_no_gzip' => 'Fehler: Entweder Du verwendest eine alte PHP Version, oder dein Webhost stützt kein Gzip . Bitte gehe zurück und wähle <b>Nein</b> für die <b>Die URL Liste komprimiert</b> Option.',
-	'Yahoo_search_error_unopenable_file' => 'Fehler: kann die Datei %s nicht öffnen.',
-	'Yahoo_search_error_unwritable_file' => 'Fehler: kann die Datei %s nicht überschreiben.',
-	'Yahoo_search_error_unclosable_file' => 'Fehler: kann die Datei %s nicht schließen.',
-	'Yahoo_search_error_update_sql' => 'Fehler: kann das Feld: %s nicht aktualisieren.',
-	'Yahoo_search_error_unknown_file_error' => 'Fehler: die Datei wurde wegen einem unbekannten Fehler nicht gespeichert.',
-	'Yahoo_search_file_done' => 'Die Verarbeitung der URL Listen Datei wurde beendet. Bitte kopiere die folgende URL und füge sie in das passende Feld in Yahoo ein:<br /><b>%s</b>',
-// Finish Yahoo Submit Your Site MOD by www.pentapenguin.com
 
 // Bookmark Mod
 	'Max_bookmarks_links' => 'Maximale Lesezeichen gesendet im link-tag',
@@ -1870,7 +1870,7 @@ $lang = array_merge($lang, array(
 	'LOGS_MODCP_MERGE' => 'fügte ein Thema von %s mit einem anderen durch das MODCP zusammen',
 	'LOGS_MODCP_SPLIT' => 'teilte ein Thema %s durch das MODCP',
 	'LOGS_TOPIC_BIN' => 'löschte ein Thema von',
-	'LOGS_TOPIC_ATTACK' => 'hacking attempt to message',
+	'LOGS_TOPIC_ATTACK' => 'Hacking-Versuch zu benachrichtigen',
 	'LOGS_CARD_BAN' => 'gebannt',
 	'LOGS_CARD_WARN' => 'verwarnt',
 	'LOGS_CARD_UNBAN' => 'entsperrt',
@@ -2013,7 +2013,7 @@ $lang = array_merge($lang, array(
 	'TOKENS' => 'Tokens',
 	'TOKENS_EXPLAIN' => 'Tokens are placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {TEXT1}, {TEXT2}.<br /><br />Within the HTML replacement you can also use any language string present in your language/ directory like this: {L_<em>&lt;STRINGNAME&gt;</em>} where <em>&lt;STRINGNAME&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as &quot;wrote&quot; or its translation according to userâ€™s locale.<br /><br /><strong>Please note that only tokens listed below are able to be used within custom BBCodes.</strong>',
 	'TOKEN_DEFINITION' => 'Was kann das sein?',
-	'TOO_MANY_BBCODES' => 'You cannot create any more BBCodes. Please remove one or more BBCodes then try again.',
+	'TOO_MANY_BBCODES' => 'Du kannst keine weiteren BBCodes erstellen. Bitte entferne einen oder mehrere BBCodes und versuche es dann erneut.',
 
 	'BBCODES_TOKENS_DESCRIPTION' => '
 <b>TEXT</b> &raquo; Any text, including foreign characters, numbers, etc... You should not use this token in HTML tags. Instead try to use IDENTIFIER or SIMPLETEXT.<br />
@@ -2081,6 +2081,14 @@ $lang = array_merge($lang, array(
 	'FORUMS_SUBMIT_AUTH' => 'Berechtigungen aktualisieren',
 	'FORUMS_SUBMIT_CFG' => 'Einstellungen aktualisieren',
 	'FORUMS_SELECTION_MULTIPLE' => 'Du kannst mehr als ein Forum auswählen, indem du STRG gedrückt hälst.',
+
+	'FAILED_LOGINS_COUNTER' => 'Fehlgeschlagene Login-Zähler',
+
+	'ACP_USER_POSTS_EXPORT_TITLE' => 'Beiträge Export',
+	'ACP_USER_POSTS_EXPORT_EXPLAIN' => 'Mit diesem Tool können alle Beiträge für einen oder mehrere Benutzer exportiert werden.',
+	'UPE_TITLE' => 'Beiträge Export',
+	'UPE_USER_IDS' => 'Benutzer-IDs',
+	'UPE_USER_IDS_EXPLAIN' => 'Bitte benutze ein Komma, um Benutzer in der Liste zu trennen (d.h. 1,2,3,5,7).',
 
 // ####################### [ Icy Phoenix Options BEGIN ] #####################
 	'IP_CONFIGURATION' => 'Icy Phoenix Einstellungen',
@@ -2153,7 +2161,6 @@ $lang['145_Captcha_Config'] = 'Visuelle Bestätigung'; // admin_captcha_config.p
 $lang['150_Similar_topics'] = 'Ähnliche Themen'; // admin_similar_topics.php
 $lang['170_LIW'] = 'Bildbreite begrenzen'; // admin_liw.php
 $lang['190_Spider_Bots'] = 'Spider / Bots'; // admin_bots.php
-$lang['192_Google_BOT'] = 'Google Bot Detektor'; // admin_google_bot_detector.php
 $lang['195_Yahoo_search'] = 'Yahoo Suche'; // admin_yahoo_search.php
 $lang['197_HTTP_REF'] = 'HTTP Referers'; // admin_referers.php
 $lang['200_Language'] = 'Sprache'; // admin_lang_extend.php
@@ -2175,6 +2182,9 @@ $lang['210_Help_Desk'] = 'Hilfestellung'; // admin_helpdesk.php
 $lang['220_Tickets_Emails'] = 'E-Mail Kategorien'; // admin_tickets.php
 $lang['230_Language'] = 'Sprachvariable hinzufügen'; // admin_lang_user_created.php
 
+// CMS
+$lang['1150_CMS'] = 'CMS'; // cms.php
+
 // Forum
 $lang['1200_Forums'] = 'Forum Admin'; // admin_forum_prune.php, admin_forumauth_list.php, admin_forums.php, admin_forums_extend.php, admin_prune_overview.php, admin_topic_shadow.php
 $lang['100_Manage'] = 'Verwaltung'; // admin_forums.php
@@ -2185,7 +2195,7 @@ $lang['125_Permissions_Forum'] = 'Berechtigungen'; // admin_forumauth.php
 $lang['130_Prune'] = 'Autom. Löschen'; // admin_forum_prune.php
 $lang['140_Prune_Overview'] = 'Auto-Löschen Übersicht'; // admin_prune_overview.php
 $lang['150_Topic_Shadow'] = 'Schatten Themen'; // admin_topic_shadow.php
-$lang['160_Title_infos'] = 'Quick Titel Verwaltung'; // admin_quick_title.php
+$lang['160_Topics_Labels'] = 'Topics Labels'; // admin_topics_labels.php
 $lang['170_Topic_Rating_Config'] = 'Themen Bewertung Konfiguration'; // admin_rate.php
 $lang['180_Topic_Rating_Auth'] = 'Themen Bewertung Berechtigungen'; // admin_rate.php
 $lang['240_Replace_title'] = 'Ersetzen in Beiträgen'; // admin_replace.php
@@ -2238,6 +2248,7 @@ $lang['270_CPF_Edit'] = 'Profilfeld bearbeiten'; // admin_profile_fields.php
 $lang['280_User_Search'] = 'Erweiterte Benutzersuche'; // admin_user_search.php
 $lang['290_Poll_Results'] = 'Umfrageergebnisse'; // admin_voting.php
 $lang['300_Picscount_Config'] = 'Bildzähler Sync'; // admin_postcount.php
+$lang['310_POSTS_EXPORT'] = 'Beiträge Export'; // admin_user_posts_export.php
 
 // Groups
 $lang['1620_Groups'] = 'Gruppen'; // admin_color_groups.php, admin_groups.php, admin_ug_auth.php
@@ -2289,7 +2300,7 @@ $lang['120_Add_new'] = 'Link Hinzufügen'; // admin_links.php
 $lang['130_Link_Manage'] = 'Linkverwaltung'; // admin_links.php
 
 // Album
-$lang['2200_Photo_Album'] = 'Foto-Galerie'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
+$lang['3300_Photo_Album'] = 'Foto-Galerie'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
 $lang['110_Album_Config'] = 'Konfiguration'; // admin_album_config_extended.php
 $lang['120_Album_Categories'] = 'Kategorieverwaltung'; // admin_album_cat.php
 $lang['130_Album_Permissions'] = 'Berechtigungen'; // admin_album_auth.php
@@ -2306,7 +2317,7 @@ $lang['2500_STATS'] = 'Statistik'; // admin_statistics.php
 
 // Plugins
 $lang['3000_Plugins'] = 'Plugins'; // admin_plugins.php
-$lang['100_Plugins_Modules'] = 'Plugins Module'; // admin_plugins.php
+$lang['100_Plugins_Modules'] = 'Plugin Module'; // admin_plugins.php
 
 // Cash
 $lang['3100_CASH'] = 'Cash / Points'; // admin_cash.php
@@ -2324,7 +2335,7 @@ $lang['150_Bulk_Add_Games'] = 'Bulk Add Games'; // admin_ina_bulk_add.php
 $lang['160_Category'] = 'Kategorien-Einstellungen'; // admin_ina_category.php
 $lang['170_Char_Settings'] = 'Chars Settings'; // admin_ina_char.php
 $lang['180_Hide_Show_Games'] = 'Zeige/Verstecke Spiel'; // admin_ina_disable.php
-$lang['200_Mass_Change'] = 'Mass Configuration'; // admin_ina_mass.php
+$lang['200_Mass_Change'] = 'Massen-Konfiguration'; // admin_ina_mass.php
 $lang['210_Scores_Editor'] = 'Hi-Scores bearbeiten'; // admin_ina_scores.php
 $lang['220_Xtras'] = 'Extra Einstellungen'; // admin_ina_xtras.php
 $lang['230_Check_Games'] = 'Spiele-Liste'; // admin_ina_xtras.php

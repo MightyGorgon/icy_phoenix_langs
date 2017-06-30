@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'Min' => 'Min',
 	'Max' => 'Max',
 	'Min_Rating' => 'Min Bewertung',
-	'By_Forum' => 'Auslistung nach Forum',
+	'By_Forum' => 'Auflistung nach Forum',
 	'Details_For_Topic' => '<b>%s</b>', //%s = topic title
 
 //admin

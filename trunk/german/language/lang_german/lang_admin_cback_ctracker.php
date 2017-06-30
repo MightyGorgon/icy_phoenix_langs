@@ -40,9 +40,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-/*
-* Language Strings used for the ACP Menu points
-*/
+/* Language Strings used for the ACP Menu points */
 	'ctracker_module_category' => 'CrackerTracker',
 	'ctracker_module_1' => 'Prüfsummenscanner',
 	'ctracker_module_2' => 'Credits',
@@ -57,9 +55,7 @@ $lang = array_merge($lang, array(
 	'ctracker_module_11' => 'Footer',
 
 
-/*
-* Language Strings used in ACP Modules itself
-*/
+/* Language Strings used in ACP Modules itself */
 	'ctracker_wrong_module' => 'Unbekannte Modulnummer',
 	'ctracker_img_descriptions' => 'Bild',
 	'ctracker_set_catname1' => 'IP, Proxy &amp; UserAgent Blocker',
@@ -148,9 +144,7 @@ $lang = array_merge($lang, array(
 	'ctracker_settings_e36' => 'Wenn "Spammer Erkennung steigern" aktiviert wurde, dann kannst du mit dieser Option zuschalten, dass zusätzlich Schlüsselwörter in Profil und Beiträgen gescannt werden, um Spammer als solche zu identifizieren.<br /><br /><b>ACHTUNG:</b> Hier besteht eine höhere Gefahr von Fehlerkennungen für neue Benutzer. Es sollte dann ständig das Logfile für Spammer-Erkennung überprüft werden.',
 
 
-/*
-* Credits page in ACP
-*/
+/* Credits page in ACP */
 	'ctracker_credits_head' => 'Credits',
 	'ctracker_credits_subhead' => 'Hier befinden sich ein paar Hinweise und die Credits des CBACK CrackerTrackers. Eine Seite um Dir weitere Informationen zu sicherheitsrelevanten Dingen zu geben, sowie eine Möglichkeit "Danke" zu sagen.',
 	'ctracker_credits_donate' => 'Spenden',
@@ -168,9 +162,7 @@ $lang = array_merge($lang, array(
 	'ctracker_credits_info_text' => 'Die perfekte Erweiterung für Icy Phoenix und den CrackerTracker: Für optimale Sicherheit vor bösen Spambots und Registrierbots empfehlen wir den Mod <b>Advanced Visual Confirmation</b> von AmigaLink. Dieser MOD erweitert die CAPTCHA Funktion von phpBB und von CrackerTracker Professional mit einem komplexeren System, welches nicht von Bots ausgelesen werden kann. Den MOD kann man auf <a href="http://www.amigalink.de" target="_blank">www.AmigaLink.de</a> herunterladen.<br /><br /><br /><br />Wir empfehlen diesen MOD für optimale Sicherheit ebenfalls in dein Forum einzubauen!',
 
 
-/*
-* File Hash Check in ACP
-*/
+/* File Hash Check in ACP */
 	'ctracker_fchk_head' => 'CrackerTracker Prüfsummenscanner',
 	'ctracker_fchk_subhead' => 'Dieser Scanner erzeugt für jede PHP Datei deines Forums eine Prüfsumme, sobald du auf "Erstelle oder aktualisiere Prüfsummen" klickst. Danach hast du immer die Möglichkeit mit "Überprüfe Dateiänderungen" festzustellen, ob sich die Dateien seit dem letzten Erzeugen von Prüfsummen geändert haben oder nicht. Damit kannst du überwachen, ob sich vielleicht Dateien geändert haben, ohne dass du selbst etwas editiert hast. Dies ist meist ein Anzeichen davon, dass jemand Zugang zu Deinem Foren-Datenbestand bekommen hatte. Achte übrigens auch auf die letzte Prüfzeit. So siehst Du, ob jemand unbefugt diesen Prüfsummenscanner aktiviert hat!<br /><br /><br /><b>Information:</b> Nicht alle Server unterstützen dieses Feature. Gelegentlich kann es zu Script Timeouts kommen, wenn der Server zu lange braucht, um die Icy Phoenix Dateiliste zu erzeugen. Andere Server brechen den Vorgang ab, da er recht performanceintensiv ist.<br /><br /><br />&raquo; Die letzte Aktualisierung der Dateiprüfsummen fand am <b>%s</b> statt.',
 	'ctracker_fchk_funcheader' => 'Funktionen',
@@ -186,9 +178,7 @@ $lang = array_merge($lang, array(
 	'ctracker_file_deleted' => 'GELÖSCHT',
 
 
-/*
-* File Safety Scanner in ACP
-*/
+/* File Safety Scanner in ACP */
 	'ctracker_fscan_complete' => 'Der Dateiscan wurde erfolgreich ausgeführt. Bitte klicke nun auf "Ergebnisse anzeigen", damit die Liste mit den Prüfergebnissen angezeigt wird und du die Möglichkeit hast, die Dateien zu korrigieren. <br /><br /><br /><br /><u>HINWEIS:</u><br /><br />Gelegentlich kann es vorkommen, dass CrackerTracker eine Datei als unsicher erkennt. Dies liegt natürlich daran, dass PHP Codedateien sehr, sehr unterschiedlich sein können und gelegentlich ein Programmierer sogar unbedingt möchte, dass Code von außen beschrieben werden kann. In diesem Fall - und wirklich NUR wenn du Dir absolut sicher bist und die Datei genauestens überprüft hast - kannst du die entsprechende Datei mit einem Signalkommentar bei der Prüfung als sicher einstufen, so das du beim nächsten Scan nicht mehr mit dieser Datei als unsicher konfrontiert wirst. Füge dazu einfach nach dem Dateibeginn <?php den folgenden Kommentar ein: <br /><br /><br /><i>// CTracker_Ignore: File Checked By Human</i><br /><br /><br />Wenn du Dir unsicher bist kannst du auch auf der <a href="http://www.community.cback.de" target="_blank">CBACK Community</a> genauere Anweisungen für die Scanergebnisse, und wie man diese Stellen bereinigen kann, erfahren. Bitte benutze auch die dortige Forensuche, da zu diesen Anfragen sicherlich schon viele beantwortete Threads vorliegen.',
 	'ctracker_fscan_unchecked' => 'NICHT ÜBERPRÜFT',
 	'ctracker_fscan_ok' => 'SICHER',
@@ -206,9 +196,7 @@ $lang = array_merge($lang, array(
 	'ctracker_fscan_option2' => 'Ergebnisse anzeigen',
 
 
-/*
-* Global message in ACP
-*/
+/* Global message in ACP */
 	'ctracker_glob_msg_head' => 'Globale Nachricht',
 	'ctracker_glob_msg_subhead' => 'Hier kannst du eine globale Nachricht an alle Benutzer hinterlassen. Diese Nachricht ist dann beim nächsten Login für den Benutzer als Meldungsbox sichtbar. Du hast die Möglichkeit entweder auf einen Thread zu verweisen oder einen beliebigen eigenen Text zu schreiben. Ein eigener Text ist allerdings auf 255 Zeichen begrenzt! Das reicht aber aus, wenn du z.B. wegen Änderungen im Template nur schnell darauf hinweisen möchtest, dass man beispielsweisen den Browser Cache leeren soll. ;)',
 	'ctracker_glob_msg_entry' => 'Globale Nachricht erstellen',
@@ -224,8 +212,7 @@ $lang = array_merge($lang, array(
 	'ctracker_glob_msg_saved' => 'Die globale Nachricht wurde erfolgreich gespeichert.<br /><br />Klicke <a href="%s">hier</a>, um zurück zur CrackerTracker Verwaltung zu gelangen.',
 	'ctracker_glob_msg_reset_ok' => 'Die globale Nachricht wurde nun von der Nutzertabelle entfernt. Benutzer bekommen die eingetragene Nachricht nicht mehr angezeigt.<br /><br />Klicke <a href="%s">hier</a>, um zurück zur CrackerTracker Verwaltung zu gelangen.',
 
-/*
-* IP &amp; Agent Blocker
+/* IP &amp; Agent Blocker
 */
 	'ctracker_ipb_delete' => 'Eintrag löschen',
 	'ctracker_ipb_blocklist' => 'Blocklisteinträge',
@@ -233,8 +220,7 @@ $lang = array_merge($lang, array(
 	'ctracker_ipb_description' => 'Hier kannst du die Blockliste für den CrackerTracker Proxy, IP und UserAgent Blocker verwalten. Du kannst sowohl vorhandene Einträge löschen sowie neue Einträge hinzufügen. Bei einem Neueintrag hast du die Möglichkeit den Stern (*) als Jokerzeichen zu benutzen, um beliebige Kombinationen aus dem Filtereintrag in der Liste einzutragen. z.B.: lwp* sperrt lwp-1 genauso wie lwp-simple etc. oder 100.*.*.* sperrt alle IP Adressen die mit 100. beginnen.<br /><br /><b>WARNUNG:</b> Achte darauf, dass du nicht Deinen eigenen UserAgent oder deine eigene IP sperrst. Ansonsten kannst du das Forum nicht mehr betreten!',
 
 
-/*
-* Log Manager
+/* Log Manager
 */
 	'ctracker_log_manager_title' => 'Logfile Manager',
 	'ctracker_log_manager_subtitle' => 'Hier kannst du alle Logdateien des CrackerTrackers anzeigen und löschen.',
@@ -266,8 +252,7 @@ $lang = array_merge($lang, array(
 	'ctracker_log_manager_cell_6' => 'Remote Host',
 	'ctracker_log_manager_sysmsg' => 'Letzte Bereinigung der Logdatei fand am <b>%s</b> statt.',
 
-/*
-* Footer configuration
+/* Footer configuration
 */
 	'ctracker_footer_head' => 'Footer-Verwaltung',
 	'ctracker_footer_subhead' => 'Hier kannst du auswählen, welchen Footer CrackerTracker in deinem Forum anzeigen soll. Wir bitten darum, dass der Footer und damit der Hinweis zu www.cback.de intakt bleibt!',
@@ -275,8 +260,7 @@ $lang = array_merge($lang, array(
 	'ctracker_footer_saveit' => 'Footer-Layout übernehmen',
 	'ctracker_footer_done' => 'Änderungen am Footer Layout wurden erfolgreich gespeichert!',
 
-/*
-* Maintenance Module in ACP
+/* Maintenance Module in ACP
 */
 	'ctracker_ma_unknown' => '<span class="text_orange">UNBEKANNT</span>',
 	'ctracker_ma_secure' => '<span class="text_green">SICHER</span>',
@@ -318,8 +302,7 @@ $lang = array_merge($lang, array(
 	'ctracker_ma_err_main' => 'Vorgang nicht erfolgreich ausgeführt!',
 
 
-/*
-* Miserable User Module in ACP...
+/* Miserable User Module in ACP...
 */
 	'ctracker_mu_subhead' => 'Ein Benutzer verhält sich nicht so wie er soll, jedoch besteht die Befürchtung, dass er sich bei einem normalen Ban wieder mit anderem Benutzer-Konto anmeldet oder genau das ist sogar schon passiert? Dann gibt es hier die Funktion "Miserable User", eine Funktion, welche relativ häufig gewünscht wurde. Allerdings koppelt das CrackerTracker-System dies nicht an das "Wir lösen unsinnige Fehlermeldungen aus" System an, welches leicht durchschaubar ist, sondern geht nach dem Prinzip "Don\'t feed the Monkey" vor: Wenn ein Benutzer als Miserable User markiert ist kann lediglich der Administrator seine Posts lesen. Für andere Benutzer sind die Beiträge unsichtbar, folglich kann niemand auf den Störenfried eingehen bis es diesem langweilig wird und er das Forum von sich aus verlässt.<br /><b>Hinweis: <u>Diese Funktion wirkt sich nur auf die Anzeige der Postings in einem Thread aus.</u> Mit "Zitat" oder "Suche" sieht man die Postings des "Miserable User" weiterhin!</b>',
 
@@ -332,8 +315,7 @@ $lang = array_merge($lang, array(
 	'ctracker_mu_no_defined' => 'Zurzeit sind keine Benutzer als "Miserable User" markiert.',
 
 
-/*
-* Recovery feature in ACP
+/* Recovery feature in ACP
 */
 	'ctracker_rec_head' => 'System Wiederherstellung',
 	'ctracker_rec_subhead' => 'Hier hast du die Möglichkeit, die Konfigurationstabelle deines Forums zu sichern oder zur letzten funktionierenden Konfiguration zurückzukehren. Wenn du die Funktion in den allgemeinen Einstellungen des CrackerTrackers aktiviert hast, dann wird die Konfigurationstabelle deines Forums jedesmal gesichert, wenn du die Allgemeine Forenkonfiguration änderst. (ACHTUNG! Es handelt sich <b>NICHT</b> um ein komplettes Datenbankbackup!)<br /><br />Wenn du nicht mehr ins ACP kommst nachdem du Einstellungen verändert hast, dann kannst du die letzte als funktionierend bekannte Konfiguration auch über die Notfallkonsole des CrackerTrackers reaktivieren. Lese hierzu den Dateikommentar in der Datei <i>ctracker/emergency.php</i> für weitere Instruktionen zur Notfallwiederherstellung der Forenkonfiguration. Bitte beachte, dass diese Datei immer erst vor Benutzung freigegeben werden muss. Wie das geht steht ebenfalls im Dateikommentar.<br /><br /><b>ACHTUNG!</b> Diese Funktion sollte nur bei akuten Problemen benutzt werden!',

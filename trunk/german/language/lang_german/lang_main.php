@@ -1115,7 +1115,7 @@ $lang = array_merge($lang, array(
 	'Statistics' => 'Statistiken',
 
 // Start add - Global announcement MOD
-	'Globalannounce' => 'Globale Ankündig',
+	'Globalannounce' => 'Globale Ankündigung',
 	'Globalannounce' => 'Neue globale Ankündigung',
 // End add - Global announcement MOD
 	'Global_Announcements' => 'Globale Ankündigungen',
