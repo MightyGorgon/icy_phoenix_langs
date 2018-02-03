@@ -61,6 +61,8 @@ if ($lang_extend_admin)
 		'SITE_META_COPYRIGHT' => 'Meta Copyright',
 		'SITE_META_COPYRIGHT_SWITCH' => 'Aktiviere Meta Copyright von der DB',
 		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Wenn du Meta Copyright aktivierst, dann wird der oben angegebene Copyright auf den html Seiten benutzt. Sonst wird der Copyright aus <i>lang_main_settings.php</i> verwendet.</i>.',
+		'IP_cookie_law' => 'Cookie-Gesetz',
+		'IP_cookie_law_explain' => 'Durch die Aktivierung dieser Funktion wird ein Banner den Gästen auf der Startseite angezeigt, um dem EU-Cookie-Gesetz zu entsprechen.',
 
 // TAB - SITE
 		'IP_mobile_style_disable' => 'Deaktiviere Mobile Geräte Erkennung',
@@ -91,9 +93,6 @@ if ($lang_extend_admin)
 
 		'IP_page_gen' => 'Zeige Seiten Generierungs Zeit im Footer',
 
-		'IP_switch_header_dropdown' => 'Aktiviere Dropdown Menu im Header',
-		'IP_switch_header_dropdown_explain' => 'Dies aktiviert ein Dropdown Menu im Header für die Suche und für die Beiträge',
-
 		'IP_show_alpha_bar' => 'Zeige alphabetische Sortierleiste in der Forum-Ansicht',
 		'IP_show_alpha_bar_explain' => 'Diese Option zeigt in der Forum-Ansicht (viewforum.php) eine Leiste, um die Themen alphabetisch sortieren lassen zu können.',
 
@@ -102,9 +101,6 @@ if ($lang_extend_admin)
 
 		'IP_allow_mods_view_self' => 'Erlaube allen Moderatoren die SELF AUTH Themen anzuzeigen',
 		'IP_allow_mods_view_self_explain' => 'Wenn ein Forum auf SELF AUTH Zugriff gesetzt wurde, können nur Administratoren und Moderatoren die entsprechenden Foren betreten. However there are many features that may show contents of these kind of posts even if not authed: Recent Topics, Search, Recent Messages Blocks, Random Topics Blocks, etc. To prevent this, an extra feature has been coded which doesn\'t allow not authed people to access these topics via secondary ways. Anyway you can allow ALL moderators (not only admins) to view these messages through these secondary ways. If you set this to YES then ALL moderators will be allowed to see the content of these messages through: Recent, Search, Topics related blocks&hellip; Unfortunately if you switch this OFF then neither AUTHED moderators may access SELF AUTHED topics through secondary ways. The feature has been coded in this way to save extra SQL charge. If you don\'t use SELF AUTHED forums, then you don\'t need this function as well.',
-
-		'IP_xmas_fx' => 'Weihnachts Schnee',
-		'IP_xmas_fx_explain' => 'Diese Option aktiviert den Schneefall Effekt.',
 
 		'IP_xmas_gfx' => 'Weihnachts Grafiken',
 		'IP_xmas_gfx_explain' => 'Bei Aktivierung dieser Option werden Weihnachtsgrafiken angezeigt.',
@@ -151,22 +147,18 @@ if ($lang_extend_admin)
 		'IP_show_forums_online_users' => 'Zeige Online Benutzer im jeweiligen Forum',
 		'IP_show_forums_online_users_explain' => 'Dies aktiviert die Online Benutzer Anzeige für jedes Forum im Index',
 
-		'IP_google_bot_detector' => 'Aktiviere GoogleBot Erkennung',
-
 		'IP_gsearch_guests' => 'Zwingt Gäste zur Google Suche',
 
 		'IP_visit_counter_switch' => 'Aktiviere Besucher Zähler',
 
 		'IP_enable_new_messages_number' => 'Zeige die Anzahl der neuen Nachrichten seit dem letzten Besuch',
 
-		'IP_disable_thanks_topics' => 'Deaktiviere Bedanken Button (komplett)',
+		'IP_disable_likes_posts' => 'Deaktiviere &quot;Beitrag gefällt mir&quot; (komplett)',
+		'IP_disable_likes_posts_explain' => 'Diese Option deaktiviert die &quot;Beitrag gefällt mir&quot;-Funktion vollständig.',
 
 		'IP_show_thanks_profile' => 'Zeigt &quot;Erhaltene Danksagungen&quot; beim Anschauen eines Profils an',
 
 		'IP_show_thanks_viewtopic' => 'Zeigt &quot;Erhaltene Danksagungen&quot; beim Lesen von Themen an',
-
-		'IP_disable_likes_posts' => 'Disable Posts Like (Global Switch)',
-		'IP_disable_likes_posts_explain' => 'This option allows you to disable globally &quot;Like This Post&quot; feature',
 
 		'IP_disable_topic_view' => '&quot;Thema angesehen von&quot; (komplett) deaktivieren',
 		'IP_disable_topic_view_explain' => 'Diese Option deaktiviert die &quot;Thema angesehen von&quot;-Funktion (dies reduziert SQL-Platz).',
@@ -251,6 +243,12 @@ if ($lang_extend_admin)
 		'Enable_Facebook_Login_explain' => 'Erlaube Benutzer das Anmelden und Registrieren mit ihrem Facebook Konto. Denke daran deine App-Daten (ID/Secret) unten einzutragen.',
 		'Facebook_App_ID' => 'App-ID',
 		'Facebook_App_Secret' => 'App-Secret',
+		'Google_Login_Settings' => 'Google Login Einstellungen',
+		'Google_Login_Settings_explain' => 'Bitte folge den Anweisungen, um deine App-ID und App-Secret zu erhalten:<br />- Visit the <a href="https://console.developers.google.com/project?pli=1" target="_blank">Google Developers Console Website</a>.<br />- Melde dich mit deinem Google-Konto an.<br />- Erstelle ein neues Projekt.<br />- Klicke auf &quot;Google APIs aktivieren und verwenden&quot;<br />- Klicke &quot;Credentials&quot;<br />- Klicke auf "Auth consent screen"<br />- Fill the fields (Homepage URL, with http://, i.e. <i>http://icyphoenix.com</i>, and Product Name)<br />- Speichere<br />- Klicke &quot;New credentials&quot;<br />- Wähle &quot;auth client ID&quot; aus<br />- Wähle "Web application" aus<br />- Fill in the fields (name, &quot;Authorized JavaScript origins&quot; should be your domain, wie <i>icyphoenix.com</i> oder <i>web.example.com</i>). In &quot;Umleitung von URIs&quot;, füge deine Domain hinzu, vorangestellt mit <i>http(s)://</i>, mit <i>/login_ip.php</i> at the end, i.e. <i>http://example.com/my/directory/login_ip.php</i><br />- Speichere die Änderungen.<br />- Trage deine Client-ID und Client-Secret unten ein.',
+		'Enable_Google_Login' => 'Aktiviere Google Login',
+		'Enable_Google_Login_explain' => 'Benutzern erlauben, sich mit ihrem Google-Konto anzumelden und zu registrieren. Denke daran, deinen App-Token unten hinzuzufügen.',
+		'Google_App_ID' => 'Client-ID',
+		'Google_App_Secret' => 'Client-Secret',
 
 // TAB - Posting
 		'IP_posts_precompiled' => 'Deaktiviere Precompiled Beiträge für Gäste',
@@ -366,6 +364,25 @@ if ($lang_extend_admin)
 		'IP_thumbnail_quality' => 'Thumbnails Qualität (1-100)',
 
 		'IP_thumbnail_size' => 'Thumbnails Größe (in Pixel)',
+		'IP_thumbnail_size_explain' => 'Alle Bilder in Beiträgen werden auf diese Größe verkleinert, wenn die Option zum Anzeigen von &quot;Thumbnails in Beiträgen&quot; aktiviert ist.',
+
+		'IP_thumbnail_s_size' => 'Bilderliste Thumbnails Größe (in Pixel, Standard = 120)',
+		'IP_thumbnail_s_size_explain' => 'Größe der Bilder auf den Bilderlisten Seiten',
+
+		'IP_img_size_max_mp' => 'Max Bild-Uploadgröße',
+		'IP_img_size_max_mp_explain' => 'Wähle die maximal zulässige Uploadgröße für Bilder (in Megabyte, Standard = 1): Stelle sicher, dass deine Servereinstellungen eine solche Größe zum Hochladen erlauben.',
+		'MB_1' => '1MB',
+		'MB_2' => '2MB',
+		'MB_3' => '3MB',
+		'MB_5' => '5MB',
+		'MB_7' => '7MB',
+
+		'IP_img_list_cols' => 'Bilderliste Anzahl Spalten (Standard = 4)',
+		'IP_img_list_cols_explain' => 'Anzahl der Spalten in der Bilderliste.',
+
+		'IP_img_list_rows' => 'Bilderliste Anzahl Zeilen (Standard = 5)',
+		'IP_img_list_rows_explain' => 'Anzahl der Zeilen in der Bilderliste.',
+
 
 // TAB - Forum
 		'Lang_extend_categories_hierarchy' => 'Kategorien-Hierarchie',

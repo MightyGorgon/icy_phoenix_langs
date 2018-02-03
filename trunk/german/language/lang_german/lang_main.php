@@ -42,7 +42,7 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <b><i>Site Administrator</i></b><br />
 <br />
 <br />
-<span style="color: #228822;"><b>Joshua203</b></span><br />
+<span style="color: #228822;"><b>mort</b></span><br />
 <b><i>Staff Leader</i></b><br />
 <br />
 <br />
@@ -51,11 +51,7 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <br />
 <br />
 <span style="color: #ff5500;"><b>Informpro</b></span><br />
-<b><i>Junior Developer</i></b><br />
-<br />
-<br />
-<span style="color: #ff5500;"><b>jhl</b></span><br />
-<b><i>Junior Developer</i></b><br />
+<b><i>Developer</i></b><br />
 <br />
 <br />
 <b><i>Valued Contributors</i></b><br />
@@ -74,12 +70,13 @@ $lang['BBC_IP_CREDITS_STATIC'] = '
 <span style="color: #880088;"><b>Hans</b></span><br />
 <span style="color: #ff5500;"><b>hpl</b></span>&nbsp;<i>(Junior Developer)</i><br />
 <span style="color: #880088;"><b>JANU1535</b></span><br />
+<span style="color: #ff5500;"><b>jhl</b></span>&nbsp;<i>(Junior Developer)</i><br />
+<span style="color: #228822;"><b>Joshua203</b></span><br />
 <span style="color: #880088;"><b>jz</b></span><br />
 <span style="color: #aaff00;"><b>KugeLSichA</b></span><br />
 <span style="color: #0000bb;"><b>Limun</b></span><br />
 <span style="color: #880088;"><b>Lopalong</b></span><br />
 <span style="color: #880088;"><b>moreteavicar</b></span><br />
-<span style="color: #880088;"><b>mort</b></span><br />
 <span style="color: #880088;"><b>novice programmer</b></span><br />
 <span style="color: #dd2222;"><b>ThE KuKa</b></span><br />
 <span style="color: #880088;"><b>Tom</b></span><br />
@@ -137,6 +134,7 @@ $lang = array_merge($lang, array(
 	'GO' => 'Los',
 	'JUMP_TO' => 'Gehe zu',
 	'SUBMIT' => 'Absenden',
+	'UPDATE' => 'Update',
 	'RESET' => 'Zurücksetzen',
 	'CANCEL' => 'Abbrechen',
 	'PREVIEW' => 'Vorschau',
@@ -305,7 +303,6 @@ $lang = array_merge($lang, array(
 	'Topic_global_announcement' => '<b>Globale Ankündigung:</b>',
 	'Post_global_announcement' => 'Globale Ankündigung',
 
-
 	'Mark_all_topics' => 'Alle Themen als gelesen markieren',
 	'Topics_marked_read' => 'Alle Themen wurden als gelesen markiert.',
 
@@ -445,21 +442,21 @@ $lang = array_merge($lang, array(
 	'Poll_for_explain' => '[ Gib 0 ein oder lass dieses Feld leer, um die Umfrage auf unbeschränkte Zeit durchzuführen ]',
 	'Delete_poll' => 'Umfrage löschen',
 
-	'POST_ENABLE_BBCODE' => 'Enable BBCode in this post',
-	'POST_ENABLE_SMILEYS' => 'Enable Smileys in this post',
-	'POST_ENABLE_HTML' => 'Enable HTML in this post',
-	'POST_ENABLE_ACRO_AUTO' => 'Enable Acronyms and Autolinks in this post',
+	'POST_ENABLE_BBCODE' => 'Aktiviere BBCode in diesem Beitrag.',
+	'POST_ENABLE_SMILEYS' => 'Aktiviere Smileys in diesem Beitrag.',
+	'POST_ENABLE_HTML' => 'Aktiviere HTML in diesem Beitrag.',
+	'POST_ENABLE_ACRO_AUTO' => 'Aktiviere Acronyms und Autolinks in diesem Beitrag.',
 	'Disable_HTML_post' => 'HTML in diesem Beitrag deaktivieren',
 	'Disable_ACRO_AUTO_post' => 'Abkürzungserklärungen und Autolinks in diesem Beitrag deaktivieren',
 	'Disable_BBCode_post' => 'BBCode in diesem Beitrag deaktivieren',
-	'Disable_Smilies_post' => 'Smilies in diesem Beitrag deaktivieren',
+	'Disable_Smilies_post' => 'Smileys in diesem Beitrag deaktivieren',
 
 	'HTML_is_ON' => 'HTML ist <u>an</u>',
 	'HTML_is_OFF' => 'HTML ist <u>aus</u>',
 	'BBCode_is_ON' => '%sBBCode%s ist <u>an</u>', // %s are replaced with URI pointing to FAQ
 	'BBCode_is_OFF' => '%sBBCode%s ist <u>aus</u>',
-	'Smilies_are_ON' => 'Smilies sind <u>an</u>',
-	'Smilies_are_OFF' => 'Smilies sind <u>aus</u>',
+	'Smilies_are_ON' => 'Smileys sind <u>an</u>',
+	'Smilies_are_OFF' => 'Smileys sind <u>aus</u>',
 
 	'Attach_signature' => 'Signatur anhängen (Signatur kann im Profil geändert werden)',
 	'Notify' => 'Benachrichtigt mich, wenn eine Antwort geschrieben wurde',
@@ -472,8 +469,8 @@ $lang = array_merge($lang, array(
 
 	'Topic_reply_notification' => 'Benachrichtigen bei Antworten',
 
-	'Emoticons' => 'Smilies',
-	'More_emoticons' => 'Weitere Smilies ansehen',
+	'Emoticons' => 'Smileys',
+	'More_emoticons' => 'Weitere Smileys ansehen',
 
 // Private Messaging
 	'Private_Messaging' => 'Private Nachrichten',
@@ -533,7 +530,7 @@ $lang = array_merge($lang, array(
 	'Disable_HTML_pm' => 'HTML in dieser Nachricht deaktivieren',
 	'Disable_ACRO_AUTO_pm' => 'Abkürzungserklärungen und Autolinks in dieser Nachricht deaktivieren',
 	'Disable_BBCode_pm' => 'BBCode in dieser Nachricht deaktivieren',
-	'Disable_Smilies_pm' => 'Smilies in dieser Nachricht deaktivieren',
+	'Disable_Smilies_pm' => 'Smileys in dieser Nachricht deaktivieren',
 
 	'Message_sent' => 'Deine Nachricht wurde gesendet.',
 
@@ -551,8 +548,8 @@ $lang = array_merge($lang, array(
 	'No_such_folder' => 'Es existiert kein solcher Ordner.',
 	'No_folder' => 'Kein Ordner ausgewählt',
 
-	'Mark_all' => 'Alle markieren',
-	'Unmark_all' => 'Markierungen aufheben',
+	'MARK_ALL' => 'Alle markieren',
+	'UNMARK_ALL' => 'Markierungen aufheben',
 
 	'Confirm_delete_pm' => 'Diese Nachricht wirklich löschen?',
 	'Confirm_delete_pms' => 'Diese Nachrichten wirklich löschen?',
@@ -630,9 +627,9 @@ $lang = array_merge($lang, array(
 	'No_connection_URL' => 'Es konnte keine Verbindung zur angegebenen Datei hergestellt werden',
 	'Incomplete_URL' => 'Die angegebene URL ist unvollständig',
 	'Wrong_remote_avatar_format' => 'Das Format des Avatars ist nicht gültig',
-	'No_send_account_inactive' => 'Sorry, aber ein neues Passwort kann im Moment nicht gesendet werden, da dein Benutzer-Konto derzeit noch inaktiv ist. Bitte kontaktiere den Administrator für weitere Informationen.',
+	'No_send_account_inactive' => 'Entschuldigung, aber ein neues Passwort kann im Moment nicht gesendet werden, da dein Benutzer-Konto derzeit noch inaktiv ist. Bitte kontaktiere den Administrator für weitere Informationen.',
 
-	'Always_smile' => 'Smilies immer aktivieren',
+	'Always_smile' => 'Smileys immer aktivieren',
 	'Always_html' => 'HTML immer aktivieren',
 	'Always_bbcode' => 'BBCode immer aktivieren',
 	'Always_add_sig' => 'Signatur immer anhängen',
@@ -842,7 +839,7 @@ $lang = array_merge($lang, array(
 	'Search_title_only' => 'Nur Themen-Titel durchsuchen',
 	'Search_msg_only' => 'Nur Nachrichtentext durchsuchen',
 
-	'Return_first' => 'Die ersten', // followed by xxx characters in a select box
+	'Return_first' => 'Die ersten Zeichen', // followed by xxx characters in a select box
 	'characters_posts' => 'Zeichen des Beitrags anzeigen',
 
 	'Search_previous' => 'Durchsuchen', // followed by days, weeks, months, year, all in a select box
@@ -964,6 +961,7 @@ $lang = array_merge($lang, array(
 	'Users_this_IP' => 'Beiträge von dieser IP-Adresse',
 	'IP_info' => 'IP-Information',
 	'Lookup_IP' => 'IP nachschlagen',
+	'WHOIS_IP' => 'WHOIS',
 
 // Errors (not related to a specific failure on a page)
 	'Information' => 'Information',
@@ -1117,7 +1115,7 @@ $lang = array_merge($lang, array(
 	'Statistics' => 'Statistiken',
 
 // Start add - Global announcement MOD
-	'Globalannounce' => 'Global Ankündigen',
+	'Globalannounce' => 'Globale Ankündigung',
 	'Globalannounce' => 'Neue globale Ankündigung',
 // End add - Global announcement MOD
 	'Global_Announcements' => 'Globale Ankündigungen',
@@ -1210,7 +1208,7 @@ $lang = array_merge($lang, array(
 	'Recent_topics' => 'Letzte Themen', // Recent Topics
 
 	'Topics_Title_Edited' => 'Die Titel der ausgewählten Themen wurden bearbeitet.',
-	'Edit_title' => 'Titel bearbeiten',
+	'TOPIC_LABEL' => 'Titel bearbeiten',
 	'PM' => 'PN',
 
 // Start Advanced IP Tools Pack MOD
@@ -1264,6 +1262,9 @@ $lang = array_merge($lang, array(
 	'Search_Contents' => ' beinhaltet: ',
 	'Search_Found' => 'Die Suche fand ',
 	'Search_Matches' => 'Treffer:',
+	'Newest_pic' => 'Letztes Bild', // Album Addon
+	'Random_pic' => 'Zufalls Bild', // Album Addon
+	'Click_enlarge_pic' => 'Klicke auf das Bild, um es zu vergrößern',
 // Mighty Gorgon - Full Album Pack - END
 
 // News
@@ -1617,11 +1618,6 @@ $lang = array_merge($lang, array(
 
 //====================================================
 // Mighty Gorgon - LANG - BEGIN
-// Mighty Gorgon - Full Album Pack - BEGIN
-	'Newest_pic' => 'Neuestes Bild', // Album Addon
-	'Random_pic' => 'Zufälliges Bild', // Album Addon
-	'Click_enlarge_pic' => 'Klicke auf das Bild, um es zu vergrößern.',
-// Mighty Gorgon - Full Album Pack - END
 // Mighty Gorgon - HTTP AGENTS - BEGIN
 	'Last_Used_IP' => 'Letzte benutzte IP',
 	'Last_Used_OS' => 'OS',
@@ -1653,8 +1649,8 @@ $lang = array_merge($lang, array(
 	'LESS_THAN' => 'Weniger als',
 	'EQUAL_TO' => 'Gleich',
 	'MORE_THAN' => 'Mehr als',
-	'BEFORE' => 'Before',
-	'AFTER' => 'After',
+	'BEFORE' => 'davor',
+	'AFTER' => 'danach',
 // Mighty Gorgon - Power Memberlist - END
 // Mighty Gorgon - Multiple Ranks - BEGIN
 	'Staff' => 'Team',
@@ -1708,6 +1704,8 @@ $lang = array_merge($lang, array(
 	'LINK_PROFILE' => 'Profil',
 	'LINK_FORUM' => 'Forum',
 	'LINK_BOARDRULES' => 'Regeln',
+	'LINK_PRIVACY_POLICY' => 'Datenschutz',
+	'LINK_COOKIE_POLICY' => 'Cookies',
 	'LINK_FAQ' => 'FAQ',
 	'LINK_SEARCH' => 'Suche',
 	'LINK_SITEMAP' => 'Sitemap',
@@ -1895,7 +1893,7 @@ $lang = array_merge($lang, array(
 	'server_pc_mode' => 'Zeitsyncronisation mit dem Server - Zeitzone/Sommerzeit mit deinem Computer',
 	'full_pc_mode' => 'Zeit mit deinem Computer synchronisiert',
 
-	'Smileys_Per_Page' => 'Smilies pro Seite',
+	'Smileys_Per_Page' => 'Smileys pro Seite',
 
 /* lang_site_hist.php - BEGIN */
 	'Site_history' => 'Seiten Historie',
@@ -2099,7 +2097,7 @@ $lang = array_merge($lang, array(
 	'FOES_EXPLAIN' => 'Feinde sind Benutzer, die normalerweise ignoriert werden. Einträge dieser Benutzer werden nicht vollständig sichtbar sein. Persönliche Mitteilungen von den Feinden sind jedoch gestattet. Nachrichten von Moderatoren oder Administratoren kannst du allerdings nicht ignorieren.',
 	'FOES_UPDATED' => 'Deine Feind-Liste wurde erfolgreich aktualisiert.',
 	'FOES_UPDATE_ERROR' => 'Deine Feind-Liste wurde nicht aktualisiert.',
-	'NO_FOES' => 'z.Z. keine Feinde definiert',
+	'NO_FOES' => 'Derzeit keine Feinde definiert',
 
 	'ADD_FRIENDS' => 'Neue Freunde hinzufügen',
 	'ADD_FRIENDS_EXPLAIN' => 'Du kannst mehrere Benutzernamen, jeden auf einer anderen Linie eintragen.',
@@ -2163,7 +2161,7 @@ $lang = array_merge($lang, array(
 
 	'InProgress' => 'In Entwicklung',
 
-	'HAPPY_BIRTHDAY' => 'Happy Birthday',
+	'HAPPY_BIRTHDAY' => 'Alles Gute zum Geburtstag',
 
 	'DOWNLOAD' => 'Download',
 	'DOWNLOADED' => 'Heruntergeladen',
@@ -2195,11 +2193,11 @@ $lang = array_merge($lang, array(
 
 	'ERROR_TABLE' => 'Konnte nicht zur %s Tabelle verbinden',
 
-	'SMILEYS' => 'Smilies',
+	'SMILEYS' => 'Smileys',
 	'SMILEYS_NO_CATEGORIES' => 'Keine Kategorien festgelegt',
 	'SMILEYS_CATEGORY' => 'Kategorie',
-	'SMILEYS_GALLERY' => 'Smilies-Galerie',
-	'SMILEYS_STANDARD' => 'Standard Smilies',
+	'SMILEYS_GALLERY' => 'Smileys-Galerie',
+	'SMILEYS_STANDARD' => 'Standard Smileys',
 
 	'QUICK_LIST' => 'Vollständige Liste',
 	'NORMAL_LIST' => 'Normale Liste',
@@ -2260,8 +2258,9 @@ $lang = array_merge($lang, array(
 	'CLEAN_NAME' => 'Clean Name',
 	'CLEAN_NAME_EXPLAIN' => 'Nur alphanumerische Zeichen und Bindestriche erlaubt',
 	'TOPIC_TAGS' => 'Tags und Schlüsselwörter',
+	'TOPIC_TAGS_REPLACE' => 'Ersetze Tag',
 	'TOPIC_TAGS_EXPLAIN' => 'Trenne jeden Tag durch ein Komma',
-	'TOPIC_TAGS_CLOUDS' => 'Tags And Keywords Cloud',
+	'TOPIC_TAGS_CLOUDS' => 'Tags und Schlüsselwörter Cloud',
 	'TOPIC_TAGS_LIST' => 'Tags und Schlüsselwörter',
 	'TAG_COUNT' => 'Counter',
 	'TAG_TEXT' => 'Tag',
@@ -2342,7 +2341,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_VOTE_OPTIONS' => 'Du hast zu viele Optionen ausgewählt.',
 	'VIEW_POLL' => 'Umfrage anzeigen',
 	'VOTE_SUBMITTED' => 'Deine Stimme wurde verarbeitet.',
-	'VOTE_CONVERTED' => 'Changing votes is not supported for converted polls.',
+	'VOTE_CONVERTED' => 'Ändern von Stimmen wird für konvertierte Umfragen nicht unterstützt.',
 
 	'FORM_INVALID' => 'Das übermittelte Formular war ungültig. Bitte versuche es noch einmal einzureichen.',
 
@@ -2350,7 +2349,7 @@ $lang = array_merge($lang, array(
 	'POST_IP' => 'IP Adresse',
 	'FIND_USERNAME' => 'Mitglied finden',
 	'FIND_USERNAME_HIDE' => 'Blende die &quot;Mitglied finden&quot; Anzeige aus',
-	'FIND_USERNAME_EXPLAIN' => 'Use this form to search for specific members. You do not need to fill out all fields. To match partial data use * as a wildcard. When entering dates use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the mark checkboxes to select one or more usernames (several usernames may be accepted depending on the form itself) and click the Select Marked button to return to the previous form.',
+	'FIND_USERNAME_EXPLAIN' => 'Verwenden Sie dieses Formular, um nach bestimmten Mitgliedern zu suchen. Sie müssen nicht alle Felder ausfüllen. Um die partielle Daten zu übernehmen, verwenden Sie * als Platzhalter. Bei der Eingabe von Daten verwenden Sie das Format <kbd> YYYY-MM-DD </ kbd>, z.B. <samp> 2004-02-29 </ samp>. Verwenden Sie die Mark-Kontrollkästchen, um eine oder mehrere Benutzernamen auszuwählen (mehrere Benutzernamen können je nach Formular akzeptiert werden) und klicken Sie auf die Schaltfläche Markiert markieren, um zum vorherigen Formular zurückzukehren.',
 
 	'AUTH_NONE' => 'NONE',
 	'AUTH_ALL' => 'ALL',
@@ -2489,7 +2488,6 @@ $lang = array_merge($lang, array(
 	'SOCIAL_CONNECT_REGISTER_INFO' => 'Dein Profil wird automatisch mit den Informationen aus deinem sozialen Netzwerk ausgefülltn.',
 	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Bitte melde dich an, um dein soziales Netzwerk Konto mit deinem Benutzerkonto zu verlinken.',
 	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'Wir konnten kein soziales Netzwerk Konto finden, das mit deinem Benutzerkonto %s verlinkt ist. Du kannst dich entweder registrieren oder ein vorhandenes Konto mit deinem Benutzerkonto %s verlinken.<br /><br />Klicke %shier%s, falls du bereits ein Konto besitzt.<br/ ><br />Klicke %shier%s, um ein neues Konto anzulegen.',
-	'FACEBOOK' => 'Facebook',
 
 	'IMG_BA_SHOW_ONLY_BEFORE' => 'Zeige Nur Vorher',
 	'IMG_BA_SHOW_ONLY_AFTER' => 'Zeige Nur Nachher',
@@ -2502,6 +2500,23 @@ $lang = array_merge($lang, array(
 	'EVENTS_REG_USER' => 'Füge einen Benutzer diesem Event hinzu',
 
 	'NOTES_MOD' => 'Moderator Notizen',
+
+	'500PX' => '500px',
+	'GITHUB' => 'GitHub',
+	'INSTAGRAM' => 'Instagram',
+	'PINTEREST' => 'Pinterest',
+	'VIMEO' => 'Vimeo',
+
+	'PRIVACY_POLICY_TITLE' => 'Datenschutz-Bestimmungen',
+	'COOKIE_POLICY_TITLE' => 'Cookie-Richtlinien',
+	'COOKIE_POLICY_SHORT' => 'Wir verwenden Cookies, um das Benutzererlebnis auf dieser Website zu maximieren. Durch die Nutzung dieser Website erklärst du dich mit der Verwendung von Cookies auch von Dritten einverstanden.',
+	'COOKIE_POLICY_AGREE' => 'Ich habe verstanden',
+	'COOKIE_POLICY_DISABLE' => 'Cookies deaktivieren',
+	'LEARN_MORE' => 'Erfahre mehr&hellip;',
+
+	'CP_CLICK_COLOR' => 'Klicke auf die obere rechte Farbbox, um die Farbe anzuwenden',
+	'CP_CLICK_APPLY' => 'Klicke hier, um diese Farbe anzuwenden',
+	'CP_CLICK_APPLY_SHORT' => 'ANWENDEN',
 
 	)
 );

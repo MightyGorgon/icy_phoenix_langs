@@ -28,10 +28,10 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'Search_no_new' => 'Keine neuen oder editierten Beiträge',
-	'Neue_Beitraege' => 'Ungelesene Beiträge',
-	'Editierte_Beitraege' => 'Bearbeitete Beiträge',
-	'Ungelesen_Markiert' => 'Ungelesen Markiert',
-	'Permanent_Gelesen' => 'Permanent Gelesen',
+	'UPI2DB_UNREAD_POSTS' => 'Ungelesene Beiträge',
+	'UPI2DB_EDITED_POSTS' => 'Bearbeitete Beiträge',
+	'UPI2DB_MARKED_POSTS' => 'Ungelesen Markiert',
+	'UPI2DB_PERMANENT_POSTS' => 'Permanent Gelesen',
 	'Posts' => 'Beiträge',
 	'Unreaded_post' => 'Ungelesener Beitrag',
 	'New_edited_post' => 'Geänderter Beitrag',

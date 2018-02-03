@@ -7,13 +7,10 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
-
 if (!defined('IN_ICYPHOENIX'))
 {
 	die('Hacking attempt');
 }
-
-$lang['PLUGIN_GUESTBOOKS'] = 'Gästebücher';
-$lang['PLUGIN_GUESTBOOKS_EXPLAIN'] = 'Gästebuch-System für Benutzer';
-
+$lang['PLUGIN_ACTIVITY'] = 'Album';
+$lang['PLUGIN_ACTIVITY_EXPLAIN'] = 'Komplettes Album-System';
 ?>
