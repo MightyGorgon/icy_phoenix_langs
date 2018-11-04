@@ -196,7 +196,8 @@ $lang = array_merge($lang, array(
 	'ctracker_fscan_option2' => 'Show Results',
 
 
-/* Global message in ACP */
+/* Global message in ACP
+*/
 	'ctracker_glob_msg_head' => 'Global Message',
 	'ctracker_glob_msg_subhead' => '<b>Leave a global message to all users.</b><br /> This message will be seen by the user on their next Login. You have the option to either refer to a thread or to write your own text.<br /><b>Note:</b> There is an imposed text limit of (255 characters).',
 	'ctracker_glob_msg_entry' => 'Set global message ',

@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 
 	<h4>Ottenimento dei dati personali</h4><br />
 
-	<p>Se vuoi ricevere una copia dei tuoi dati personali in nostro posssesso, o hai altre domande o richieste riguardo le modalit&agrave; con cui noi raccogliamo e utilizziamo i tuoi dati, puoi inviarci una richiesta dettagliata tramite il modulo &quot;Contattaci&quot;, and ti comunicheremo la procedura per effettuare una richiesta ufficiale. In caso di richiesta, potremmo addebitare i costi amministrativi (non superiori ai massimi definiti dalla legge) necessari per fornire accesso alle proprie informazioni personali..</p><br />
+	<p>Se vuoi ricevere una copia dei tuoi dati personali in nostro posssesso, o hai altre domande o richieste riguardo le modalit&agrave; con cui noi raccogliamo e utilizziamo i tuoi dati, puoi inviarci una richiesta dettagliata tramite il modulo &quot;Contattaci&quot;, and ti comunicheremo la procedura per effettuare una richiesta ufficiale. In caso di richiesta, potremmo addebitare i costi amministrativi (non superiori ai massimi definiti dalla legge) necessari per fornire accesso alle proprie informazioni personali.</p><br />
 
 	',
 
