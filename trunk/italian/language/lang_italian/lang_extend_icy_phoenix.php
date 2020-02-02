@@ -178,6 +178,15 @@ if ($lang_extend_admin)
 		'IP_last_msgs_x' => 'Forum da escludere',
 		'IP_last_msgs_x_explain' => 'Inserire i forum da escludere nella visualizzazione degli ultimi messaggi (inserire gli ID dei forums separati da virgole).',
 
+		'IP_auto_refresh_viewtopic_interval' => 'AJAX :: Aggiornamento Automatico Argomenti',
+		'IP_auto_refresh_viewtopic_interval_explain' => 'Numero di secondi di attesa per l\'aggiornamento automatico dei messaggi nella visualizzazione degli argomenti.',
+		'IP_autorefresh_0' => 'Disattivato',
+		'IP_autorefresh_5' => '5 Secondi',
+		'IP_autorefresh_10' => '10 Secondi',
+		'IP_autorefresh_30' => '30 Secondi',
+		'IP_autorefresh_60' => '1 Minuto',
+		'IP_autorefresh_300' => '5 Minuti',
+
 		'IP_show_chat_online' => 'Online AJAX Chat :: Indice Del Forum',
 		'IP_show_chat_online_explain' => 'Attivando questa opzione verranno visualizzati (nell\'<b>Indice Del Forum</b>) gli utenti che stanno usando la AJAX Chat.',
 
