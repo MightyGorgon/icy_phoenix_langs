@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 	'View_newest_post' => 'Leggi i nuovi Messaggi',
 	'Page_of' => 'Pagina <b>%d</b> di <b>%d</b>', // Replaces with: Page 1 of 2 for example
 
-	'AIM' => 'Indirizzo AIM',
+	'AIM' => 'AIM',
 	'ICQ' => 'ICQ',
 	'JABBER' => 'Jabber',
 	'MSNM' => 'MSN Live',
