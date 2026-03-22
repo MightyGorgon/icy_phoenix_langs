@@ -1248,12 +1248,12 @@ $lang = array_merge($lang, array(
 	'double_check_delete' => 'Are you sure you want to delete profile field "%s" from the database permanently?',
 
 	'here' => 'Here',
-	'new_field_link' => '<a href="' . append_sid($filename . '?mode=add&amp;pfid=x') . '">%s</a>',
-	'edit_field_link' => '<a href="' . append_sid($filename . '?mode=edit&amp;pfid=x') . '">%s</a>',
+	'new_field_link' => '<a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=add&amp;pfid=x') . '">%s</a>',
+	'edit_field_link' => '<a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&amp;pfid=x') . '">%s</a>',
 	'index_link' => '<a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&amp;pfid=x') . '">%s</a>',
-	'field_exists' => 'This field already exists.<br /><br />You can try creating a <a href="' . append_sid($filename . '?mode=add&amp;pfid=x') . '">new</a> profile field,<br /><br />or try <a href="' . append_sid($filename . '?mode=edit&amp;pfid=x') . '">editing</a> the one you already have.',
-	'click_here_here' => 'Click <a href="' . append_sid($filename . '?mode=add&amp;pfid=x') . '">here</a> to add another profile field,<br /><br />or click <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&amp;pfid=x') . '">here</a> to return to the Admin Index.',
-	'field_success' => 'Field successfully submitted!<br /><br />Click <a href="' . append_sid($filename . '?mode=add&amp;pfid=x') . '">here</a> to add another profile field,<br /><br />or click <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&amp;pfid=x') . '">here</a> to return to the Admin Index.',
+	'field_exists' => 'This field already exists.<br /><br />You can try creating a <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=add&amp;pfid=x') . '">new</a> profile field,<br /><br />or try <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&amp;pfid=x') . '">editing</a> the one you already have.',
+	'click_here_here' => 'Click <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=add&amp;pfid=x') . '">here</a> to add another profile field,<br /><br />or click <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&amp;pfid=x') . '">here</a> to return to the Admin Index.',
+	'field_success' => 'Field successfully submitted!<br /><br />Click <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=add&amp;pfid=x') . '">here</a> to add another profile field,<br /><br />or click <a href="' . append_sid('admin_profile_fields.' . PHP_EXT . '?mode=edit&amp;pfid=x') . '">here</a> to return to the Admin Index.',
 	'Custom_Profile' => 'Profile Fields',
 	'profile_field_created' => 'Profile Field Created',
 	'profile_field_updated' => 'Profile Field Updated',
@@ -2349,22 +2349,6 @@ $lang['100_Plugins_Modules'] = 'Plugins Modules'; // admin_plugins.php
 $lang['3100_CASH'] = 'Cash / Points'; // admin_cash.php
 $lang['110_Cash_Admin'] = 'Cash Management'; // admin_cash.php
 $lang['120_Cash_Help'] = 'Help'; // admin_cash.php
-
-// Activity
-$lang['3200_ACTIVITY'] = 'Activity / Games'; // admin_activity.php, admin_ina_ban.php, admin_ina_bulk_add.php, admin_ina_category.php, admin_ina_disable.php, admin_ina_in_un.php, admin_ina_mass.php, admin_ina_xtras.php
-$lang['105_DB_Adjustments'] = 'Install / Uninstall'; // admin_ina_in_un.php
-$lang['110_Configuration'] = 'Configuration'; // admin_activity.php
-$lang['120_Add_Game'] = 'Add Game'; // admin_activity.php
-$lang['130_Edit_Games'] = 'Edit Games'; // admin_activity.php
-$lang['140_User_Ban'] = 'Ban Users'; // admin_ina_ban.php
-$lang['150_Bulk_Add_Games'] = 'Bulk Add Games'; // admin_ina_bulk_add.php
-$lang['160_Category'] = 'Categories Management'; // admin_ina_category.php
-$lang['170_Char_Settings'] = 'Chars Settings'; // admin_ina_char.php
-$lang['180_Hide_Show_Games'] = 'Show/Hide Games'; // admin_ina_disable.php
-$lang['200_Mass_Change'] = 'Mass Configuration'; // admin_ina_mass.php
-$lang['210_Scores_Editor'] = 'Edit Hi-Scores'; // admin_ina_scores.php
-$lang['220_Xtras'] = 'Extra Settings'; // admin_ina_xtras.php
-$lang['230_Check_Games'] = 'Games List'; // admin_ina_xtras.php
 
 // ####################### [ ACP Navigation END ] #######################
 

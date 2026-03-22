@@ -214,13 +214,27 @@ $lang['Cash_allow_donate'] = 'Permetti la donazione valuta tra utenti';
 $lang['Cash_allow_mod_edit'] = 'Permetti ai moderatori di modificare la quantit&agrave; della valuta dell\'utente';
 $lang['Cash_allow_negative'] = 'Permetti valori negativi per la valuta';
 
+if (!defined('CASH_ALLOW_DAY')) define('CASH_ALLOW_DAY', 1);
+if (!defined('CASH_ALLOW_WEEK')) define('CASH_ALLOW_WEEK', 2);
+if (!defined('CASH_ALLOW_MONTH')) define('CASH_ALLOW_MONTH', 3);
+if (!defined('CASH_ALLOW_YEAR')) define('CASH_ALLOW_YEAR', 4);
+if (!defined('CASH_GROUPS_DEFAULT')) define('CASH_GROUPS_DEFAULT', 1);
+if (!defined('CASH_GROUPS_CUSTOM')) define('CASH_GROUPS_CUSTOM', 2);
+if (!defined('CASH_GROUPS_OFF')) define('CASH_GROUPS_OFF', 3);
+if (!defined('CASH_LOG_DONATE')) define('CASH_LOG_DONATE', 1);
+if (!defined('CASH_LOG_ADMIN_MODEDIT')) define('CASH_LOG_ADMIN_MODEDIT', 2);
+if (!defined('CASH_LOG_ADMIN_CREATE_CURRENCY')) define('CASH_LOG_ADMIN_CREATE_CURRENCY', 3);
+if (!defined('CASH_LOG_ADMIN_DELETE_CURRENCY')) define('CASH_LOG_ADMIN_DELETE_CURRENCY', 4);
+if (!defined('CASH_LOG_ADMIN_RENAME_CURRENCY')) define('CASH_LOG_ADMIN_RENAME_CURRENCY', 5);
+if (!defined('CASH_LOG_ADMIN_COPY_CURRENCY')) define('CASH_LOG_ADMIN_COPY_CURRENCY', 6);
+
 $lang['Cash_allowance_enabled'] = 'Abilita premi';
 $lang['Cash_allowance_amount'] = 'Valore guadagnato come premio';
-$lang['Cash_allownace_frequency'] = 'Frequenza assegnazione premi';
-$lang['Cash_allownace_frequencies'][CASH_ALLOW_DAY] = 'Giorno';
-$lang['Cash_allownace_frequencies'][CASH_ALLOW_WEEK] = 'Settimana';
-$lang['Cash_allownace_frequencies'][CASH_ALLOW_MONTH] = 'Mese';
-$lang['Cash_allownace_frequencies'][CASH_ALLOW_YEAR] = 'Anno';
+$lang['Cash_allowance_frequency'] = 'Frequenza assegnazione premi';
+$lang['Cash_allowance_frequencies'][CASH_ALLOW_DAY] = 'Giorno';
+$lang['Cash_allowance_frequencies'][CASH_ALLOW_WEEK] = 'Settimana';
+$lang['Cash_allowance_frequencies'][CASH_ALLOW_MONTH] = 'Mese';
+$lang['Cash_allowance_frequencies'][CASH_ALLOW_YEAR] = 'Anno';
 $lang['Cash_allowance_next'] = 'Tempo mancante all\'assegnazione dei premi';
 
 // Groups

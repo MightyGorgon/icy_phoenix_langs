@@ -18,6 +18,12 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
+if (!defined('DIGEST_SITE_URL'))
+{
+	$digest_server_url = create_server_url();
+	define('DIGEST_SITE_URL', $digest_server_url);
+}
+
 $lang = array_merge($lang, array(
 	// This block goes as default text in the emailed digest (mail_digests.php)
 	'digest_introduction' => 'Come richesto, ecco qui il Digest dei messaggi inviati su ' . $config['sitename'] . '. Vieni a visitare il sito per partecipare alle discussioni!',
